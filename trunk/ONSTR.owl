@@ -1,0 +1,687 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY bfo "http://www.ifomis.org/bfo/1.1#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY snap "http://www.ifomis.org/bfo/1.1/snap#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY span "http://www.ifomis.org/bfo/1.1/span#" >
+    <!ENTITY ro "http://www.obofoundry.org/ro/ro.owl#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY OGMS "http://purl.obolibrary.org/obo/ogms.owl#" >
+    <!ENTITY obo  "http://purl.obolibrary.org/obo/">
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY protege "http://protege.stanford.edu/plugins/owl/protege#" >
+    <!ENTITY ONSTR "http://onstr.googlecode.com/svn/trunk/ONSTR.owl#" >
+    <!ENTITY IAO "http://purl.obofoundry.org/obo/2009-07-15/iao.owl#" >
+    <!ENTITY OBI "http://purl.obolibrary.org/obo/obi.owl#"> 
+    <!ENTITY TMO "http://www.w3.org/2001/sw/hcls/ns/transmed/">
+]>
+
+
+<rdf:RDF xmlns="http://onstr.googlecode.com/svn/trunk/ONSTR.owl#"
+     xml:base="http://onstr.googlecode.com/svn/trunk/ONSTR.owl"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:snap="http://www.ifomis.org/bfo/1.1/snap#"
+     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:OGMS="http://purl.obolibrary.org/obo/ogms.owl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:bfo="http://www.ifomis.org/bfo/1.1#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:ONSTR="http://onstr.googlecode.com/svn/trunk/ONSTR.owl#"
+     xmlns:IAO="http://purl.obofoundry.org/obo/2009-07-15/iao.owl#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:span="http://www.ifomis.org/bfo/1.1/span#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:OBI="http://purl.obolibrary.org/obo/obi.owl#"
+     xmlns:TMO="http://www.w3.org/2001/sw/hcls/ns/transmed/">
+     
+    <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/trunk/ONSTR.owl">
+        <owl:versionInfo rdf:datatype="&xsd;string">0.1</owl:versionInfo>
+        <dc:date rdf:datatype="&xsd;string">2011-06-03</dc:date>
+        <dc:creator rdf:datatype="&xsd;string">Akshaye Dhawan</dc:creator>
+        <dc:description rdf:datatype="&xsd;string">Here goes the description of the ONSTR. The Ontology for Neonatal Screening and Translational Research is ...something something something...Prabhu HELP!</dc:description>
+        <dc:creator rdf:datatype="&xsd;string">Kunal Malhotra</dc:creator>
+        <skos:altLabel rdf:datatype="&xsd;string">ONSTR</skos:altLabel>
+        <dc:title rdf:datatype="&xsd;string">Ontology for Neonatal Screening and Translational Research</dc:title>
+        <dc:creator rdf:datatype="&xsd;string">Prabhu Shankar</dc:creator>
+        <dc:format rdf:datatype="&xsd;string">RDF/XML</dc:format>
+        <dc:creator rdf:datatype="&xsd;string">Rajshekar Sunderraman</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">Rani Singh</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">Shamkant Navathe</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">Sivaram Arabandi</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">Snezana Nikolic</dc:creator>
+        <dc:subject rdf:datatype="&xsd;string">Some general thing, like keywords :ontology, neonatal screening, translational research, translational medicine, health care...Prabhu HELP!</dc:subject>
+        <owl:imports rdf:resource="http://www.ifomis.org/bfo/1.1"/>
+    </owl:Ontology>
+    
+
+	<!-- Annotation properties -->
+	
+	    <owl:AnnotationProperty rdf:about="&owl;versionInfo"/>
+	    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+	    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+	    <owl:AnnotationProperty rdf:about="&dc;title"/>	
+	    <owl:AnnotationProperty rdf:about="&dc;format"/>
+	    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+	    <owl:AnnotationProperty rdf:about="&dc;contributor"/>
+	    <owl:AnnotationProperty rdf:about="&dc;date"/>
+	    <owl:AnnotationProperty rdf:about="&dc;subject"/>
+	    <owl:AnnotationProperty rdf:about="&dc;description"/>	
+	    <owl:AnnotationProperty rdf:about="&skos;altLabel"/>
+	    <owl:AnnotationProperty rdf:about="&skos;source"/>
+	    <owl:AnnotationProperty rdf:about="&skos;editorialNote"/>
+	    <owl:AnnotationProperty rdf:about="&skos;definition"/>	
+
+
+	<!--  IMPORTED CLASSES  -->
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="&obo;IAO_0000027">
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <rdfs:label rdf:datatype="&xsd;string">data item</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">a data item is an information content entity that is intended to be a truthful statement about something (modulo, e.g., measurement precision or other systematic errors) and is constructed/acquired by a method which reliably tends to produce (approximately) truthful statements.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+        <skos:altLabel rdf:datatype="&xsd;string">data</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">datum</skos:altLabel>
+    </owl:Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="&obo;IAO_0000030">
+        <rdfs:subClassOf rdf:resource="&snap;GenericallyDependentContinuant"/>
+        <rdfs:label rdf:datatype="&xsd;string">information content entity</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">an information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:label rdf:datatype="&xsd;string">clinical finding</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A representation that is either the output of a clinical history taking or a physical examination or an image finding, or some combination thereof.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <rdfs:label rdf:datatype="&xsd;string">clinical history</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A series of statements representing health-relevant qualities of a patient and of a patient&#39;s family.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+
+
+	<!-- http://purl.obolibrary.org/obo/OGMS_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <rdfs:label rdf:datatype="&xsd;string">image finding</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:definition rdf:datatype="&xsd;string">A clinical finding that is a representation of an image that supports an inference to an assertion about some quality of a patient.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/OGMS_0000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <rdfs:label rdf:datatype="&xsd;string">laboratory finding</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">laboratory test result</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A clinical finding that is a representation of a quality of a specimen that is the output of a laboratory test and that can support an inference to an assertion about some quality of the patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:label rdf:datatype="&xsd;string">clinical picture</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:definition rdf:datatype="&xsd;string">A clinical finding that is a representation of the clinically significant bodily components and/or bodily processes of a human being, and that is inferred from the totality of relevant clinical findings.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+      
+    
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:label rdf:datatype="&xsd;string">diagnosis</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A data item that is the representation of a conclusion of an interpretive process that has as input a clinical picture of a given patient and as output an assertion (diagnostic statement) to the effect that the patient has a disease of such and such a type.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:label rdf:datatype="&xsd;string">preclinical finding</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A data item that is a representation of a quality of a patient that is (1) recorded by a clinician because the quality is hypothesized to be of clinical significance and (2) refers to qualities obtaining in the patient prior to their becoming detectable in a clinical history taking or physical examination.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000022">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+        <rdfs:label rdf:datatype="&xsd;string">disease manifestation</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A quality of a human being (that has a role of a patient), that is an observable deviation from clinical normality that exists in virtue of the realization of a disease.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+           
+    
+     <!-- http://purl.obolibrary.org/obo/OGMS_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000022"/>
+        <rdfs:label rdf:datatype="&xsd;string">disease clinical manifestation</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A manifestation of a disease that is detectable in a clinical history taking or physical examination.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000022"/>
+        <rdfs:label rdf:datatype="&xsd;string">disease preclinical manifestation</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A manifestation of a disease that exists prior to the time at which it would be detected in a clinical history taking or physical examination, if the patient were to present to a clinician. A realization of a disease that exists prior to its becoming detectable in a clinical history taking or physical examination.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/OGMS_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000023">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+        <rdfs:label rdf:datatype="&xsd;string">phenotype</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A (combination of) quality(ies) of an organism determined by the interaction of its genetic make-up and environment that differentiates specific instances of a species from other instances of the same species.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/OGMS_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000023"/>
+        <rdfs:label rdf:datatype="&xsd;string">clinical phenotype</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A clinically abnormal phenotype.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000023"/>
+        <rdfs:label rdf:datatype="&xsd;string">disease phenotype</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A clinically abnormal phenotype that is characteristic of a single disease.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    
+     <!-- http://purl.obolibrary.org/obo/OGMS_0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000086">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+        <rdfs:label rdf:datatype="&xsd;string">syndrome</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source:http://code.google.com/p/ogms/issues/detail?id=32</rdfs:comment>
+        <skos:definition rdf:datatype="&xsd;string">A pattern of signs and symptoms that typically co-occur.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+   
+    
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000031">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Disposition"/>
+        <rdfs:label rdf:datatype="&xsd;string">disease</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/OGMS_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+        <rdfs:label rdf:datatype="&xsd;string">constitutional genetic disease</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A disease whose physical basis is a constitutional genetic disorder.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000030">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Disposition"/>
+        <rdfs:label rdf:datatype="&xsd;string">predisposition to disease of type X</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A disposition in an organism that constitutes an increased risk of the organism&#39;s subsequently developing the disease X.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    
+     <!-- http://purl.obolibrary.org/obo/OGMS_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000030"/>
+        <rdfs:label rdf:datatype="&xsd;string">genetic predisposition to disease of type X</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A predisposition to disease of type X whose physical basis is a constitutional abnormality in an organism&#39;s genome. This abnormality is the physical basis for the increased risk of acquiring the disease X.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    
+     <!-- http://purl.obolibrary.org/obo/OGMS_0000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000089">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <rdfs:label rdf:datatype="&xsd;string">congenital malformation</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A structurally anomalous part of an organism acquired during fetal development and present at birth (but not necessarily hereditary) which is hypothesized to be harmful for the organism.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://code.google.com/p/ogms/issues/detail?id=28</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <rdfs:label rdf:datatype="&xsd;string">epigenetic disorder</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A disorder whose etiology involves (1) a modification to the patient&#39;s genomic DNA which leads to alterations in the normal expression pattern of the genome, but is (2) not a change in the nucleotide sequence.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <rdfs:label rdf:datatype="&xsd;string">genetic disorder</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A disorder whose etiology involves an abnormality in the nucleotide sequence of an organism&#39;s genome.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000047"/>
+        <rdfs:label rdf:datatype="&xsd;string">acquired genetic disorder</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A genetic disorder acquired by a single cell in an organism that leads to a population of cells within the organism bearing the disorder.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000047"/>
+        <rdfs:label rdf:datatype="&xsd;string">constitutional genetic disorder</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A genetic disorder inherited during conception that is part of all cells in the organism.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/OGMS_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000084">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#ObjectAggregate"/>
+        <rdfs:label rdf:datatype="&xsd;string">organism population</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">An aggregate of organisms of the same type.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://code.google.com/p/ogms/issues/detail?id=33</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/OGMS_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000078">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <rdfs:label rdf:datatype="&xsd;string">pathological anatomical structure</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">An anatomical structure (FMA) is pathological whenever (1) it has come into being as a result of changes in some pre-existing canonical anatomical structure, (2) through processes other than the expression of the normal complement of genes of an organism of the given type, and (3) is predisposed to have health-related consequences for the organism in question manifested by symptoms and signs.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/bio/ISMB/ISMB_Bio-ontologies.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+  
+     <!-- http://purl.obolibrary.org/obo/OGMS_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000055">
+        <rdfs:subClassOf rdf:resource="&span;ProcessualEntity"/>
+        <rdfs:label rdf:datatype="&xsd;string">clinical history taking</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">An interview in which a clinician elicits a clinical history from a patient or from a third party who is reporting on behalf of the patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+   
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000056">
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000096"/>
+        <rdfs:label rdf:datatype="&xsd;string">laboratory test</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">laboratory testing</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A measurement assay that has as input a patient-derived specimen, and as output a result that represents a quality of the specimen.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000091">
+        <rdfs:subClassOf rdf:resource="&span;ProcessualEntity"/>
+        <rdfs:label rdf:datatype="&xsd;string">convalescence</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A processual entity during which a patient participating in a disease course gradually returns to participating in a canonical life course. </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://code.google.com/p/ogms/issues/detail?id=35</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    
+        <!-- http://purl.obolibrary.org/obo/OGMS_0000096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000096">
+        <rdfs:subClassOf rdf:resource="&span;ProcessualEntity"/>
+        <rdfs:label rdf:datatype="&xsd;string">health care process</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A social process that has at least one human participant and that includes as parts the treatment, diagnosis, or prevention of disease or injury--or the following of instructions of another human for treatment, diagnosis, or prevention--of a participant in the process</skos:definition>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</rdfs:comment>
+ 		<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    
+   <!-- http://purl.obolibrary.org/obo/OGMS_0000097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000097">
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000096"/>
+        <rdfs:label rdf:datatype="&xsd;string">health care encounter</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</rdfs:comment>
+        <skos:definition rdf:datatype="&xsd;string">A temporally-connected health care process that has as participants an organization or person realizing the health care provider role and a person realizing the patient role.  The health care provider role and patient are realized during the health care encounter</skos:definition>
+ 		<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000057">
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000096"/>
+        <rdfs:label rdf:datatype="&xsd;string">physical examination</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A sequence of acts of observing and measuring qualities of a patient performed by a clinician; measurements may occur with and without elicitation.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000059">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+        <rdfs:label rdf:datatype="&xsd;string">etiological process</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:definition rdf:datatype="&xsd;string">A process in an organism that leads to a subsequent disorder.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090">
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000096"/>
+        <rdfs:label rdf:datatype="&xsd;string">treatment</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">treatment process</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://code.google.com/p/ogms/issues/detail?id=35</rdfs:comment>
+        <skos:definition rdf:datatype="&xsd;string">A processual entity whose completion is hypothesized (by a healthcare provider) to alleviate the signs and symptoms associated with a disorder</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045">
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <rdfs:label rdf:datatype="&xsd;string">disorder</rdfs:label>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
+        <skos:definition rdf:datatype="&xsd;string">A material entity which is clinically abnormal and part of an extended organism. Disorders are the physical basis of disease.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
+
+    <owl:Class rdf:about="&obo;OBI_0000011">
+      	<rdfs:subClassOf rdf:resource="&span;Process"/>
+        <rdfs:label rdf:datatype="&xsd;string">planned process</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A processual entity that realizes a plan which is the concretization of a plan specification.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.obolibrary.org/obo/OBI_0000011</rdfs:comment>
+    </owl:Class>
+
+    
+
+    <!-- http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0008 -->
+
+    <owl:Class rdf:about="&TMO;TMO_0008">
+        <rdfs:label rdf:datatype="&xsd;string">patient role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&snap;Role"/>
+        <skos:definition rdf:datatype="&xsd;string">A patient role is a role played a human subject that receives medical attention, care or treatment or who is registered with a medical institution with the purpose of receiving medical care when necessary.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.obolibrary.org/obo/OBI_0000011</rdfs:comment>
+    </owl:Class>
+
+   
+
+	<!--  ONSTR CLASSES  -->
+
+
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7112823 --> <!-- congenital metabolic disease -->
+        
+    <owl:Class rdf:about="&ONSTR;ONSTR_7112823">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000035"/>
+        <rdfs:label rdf:datatype="&xsd;string">congenital metabolic disease</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A large class of constitutional genetic diseases, involving the disorders of metabolism that result from inborn genetic mutations of single genes (inherited or acquired in utero) that code for enzymes that facilitate conversion of various substances (substrates) into others (products) and which may be present at birth and lead to disturbances in carbohydrate, lipid, lysosomal storage or amino acid metabolism. These diseases are usually characterized of accumulation of substances which are toxic or interfere with normal function, or the reduced ability to synthesize essential compounds.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">inborn errors of metabolism</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">inherited metabolic disease</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Inborn_Errors_of_Metabolism</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Inborn_error_of_metabolism </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+	</owl:Class>
+
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2709221 --> <!--congenital metabolic disorder -->
+    
+    <owl:Class rdf:about="&ONSTR;ONSTR_2709221">
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000051"/>
+        <rdfs:label rdf:datatype="&xsd;string">congenital metabolic disorder</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A group of constitutional genetic disorders that inborn genetic mutations (for particular enzyme) and that result in enzyme absence or disfunction that produces disturbances in metabolic process involving lipids, lysosome storage and amino acids (depending on the enzyme being encoded by mutated gene).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Metabolic_Disorder</rdfs:comment>       
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+	</owl:Class>
+
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7546388 --> <!-- hyperphenylalaninemia -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7546388">
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000045"/> 
+        <rdfs:label rdf:datatype="&xsd;string">hyperphenylalaninemia</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninemia (disorder)</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninemia, NOS</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninaemias</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A disorder characterized by the concentrationa of amino acid L-phenylalanine in the blood and cerebro spinal fluid that are considered by medical experts as clinically abnormal (higher than normal).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: HP:0004923</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+	</owl:Class>
+
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9447119 --> <!-- PAH deficiency triggered hyperphenylalaninemia -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9447119">
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/>
+        <rdfs:label rdf:datatype="&xsd;string">PAH deficiency triggered hyperphenylalaninemia</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine hydroxylase deficiency triggered hyperphenylalaninemia</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A group of hyperphenylalaninemia disorders that are triggered by the mutation of the gene for the enzyme phenylalanine hydroxylase (PAH) resulting in decreased levels or absence of phenylalanine hydroxylase and accumulation of phenylalanine and related metabolites (e.g., phenylpyruvate, phenyllactate, phenylacetate, phenylacetylglutamine) that, depending on the concentration of phenylalanine in the blood, may or may not cause the phenylketonuria (PKU).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/hyperphenylalaninemia</rdfs:comment>	
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+	</owl:Class>
+
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0195747 --> <!-- PAH deficiency triggered PKU-hyperphenylalaninemia -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0195747">
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9447119"/> 
+        <rdfs:label rdf:datatype="&xsd;string">PAH deficiency triggered PKU-hyperphenylalaninemia</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">PAH deficiency triggered phenylketonuria-hyperphenylalaninemia</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">PAH deficiency triggered hyperphenylalaninemia that is characterized by concentrations of phenylalanine in the blood that are higher than 600 mumol/L (10 mg/dL).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/hyperphenylalaninemia </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+	</owl:Class>
+
+
+
+	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8646794 --> <!-- PAH deficiency triggered nonPKU-hyperphenylalaninemia -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8646794">
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9447119"/> 
+        <rdfs:label rdf:datatype="&xsd;string">PAH deficiency triggered nonPKU-hyperphenylalaninemia</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">PAH deficiency triggered non-phenylketonuria-hyperphenylalaninemia</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">PAH deficiency triggered hyperphenylalaninemia that is characterized by concentrations of phenylalanine in the blood that are less than 600 mumol/L (usually in the range between 120-600 mum/L or 2-10 mg/dL).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Economu-Petersen, E., Henriksen, K. F., Guldberg, P., Guettler, F.(1992) Molecular basis for nonphenylketonuria hyperphenylalaninemia. Genomics, 1992 Sep; 14(1)</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+	</owl:Class>
+
+
+
+	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3851112 --> <!-- THB deficiency triggered hyperphenylalaninemia -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3851112">
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/> 
+        <rdfs:label rdf:datatype="&xsd;string">THB deficiency triggered hyperphenylalaninemia</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD DefSource  </rdfs:comment>        
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+	</owl:Class>
+
+
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0109406 --> <!-- phenylketonuria -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0109406">
+        <rdfs:label rdf:datatype="&xsd;string">phenylketonuria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7112823"/>
+        <skos:altLabel rdf:datatype="&xsd;string">PKU</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">PHENYLKETONURIA</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A congenital metabolic disease (of autosomal recessive inheritance), that is characterized by abnormally high levels of phenylalanine (hyperphenylalaninemia) and related metabolites such as phenylpyruvate, phenyllactate, phenylacetate, phenylacetylglutamine), and that is triggered by phenylalanine hydoxilase deficiency (PAH deficinecy) that is caused by the nucleotide mutations in gene coding for phenylalanine hydoxilase (PAH). If untreated, pehnylalanine and its metabolic byproducts accumulate in the central nervous system and can cause severe brain damage, seizures (or convilsions), microcephaly, various language disorders (stuttering, slurrs, lisps), mental retardation, behavioral abnormalities, learning disabilities etc. Hypopigmentations and eczema are also observed.</skos:definition>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: Donlon, J., Levy, H., Scriver, C. R.  The online metabolic and molecular bases of inherited diseases. Part 8. Chapter 77: Hyperphenylalaninemia: Phenylalanine Hydroxylase Deficiency, The McGraw-Hill Companies, retrievable from http://www.ommbid.com/OMMBID/the_online_metabolic_and_molecular_bases_of_inherited_disease/b/abstract/part8/ch77</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+	
+	
+
+	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1272933 --> <!-- severe phenylketonuria -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1272933">
+        <rdfs:label rdf:datatype="&xsd;string">severe phenylketonuria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0109406"/>
+        <rdfs:label rdf:datatype="&xsd;string">severe phenylketonuria</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">severe PKU</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is characterized by hyperphenylalaninemina (HPA) having phenyalalnine blood concentration greater than 1200 mumol/L (20 mg/dL).</skos:definition>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD DefSorce Scriver</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+ 	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4838542 --> <!-- moderate phenylketonuria --> 
+    
+    <owl:Class rdf:about="&ONSTR;ONSTR_4838542">
+        <rdfs:label rdf:datatype="&xsd;string">moderate phenylketonuria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0109406"/>
+        <rdfs:label rdf:datatype="&xsd;string">moderate phenylketonuria</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">moderate PKU</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is characterized by hyperphenylalaninemina (HPA) having phenyalalnine blood concentration greater in the range 900-1200 mumol/L (15-20 mg/dL).</skos:definition>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD DefSource Scriver ???</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+      
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9287404 -->  <!-- mild phenylketonuria --> 
+    
+    <owl:Class rdf:about="&ONSTR;ONSTR_9287404">
+        <rdfs:label rdf:datatype="&xsd;string">mild phenylketonuria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0109406"/>
+        <rdfs:label rdf:datatype="&xsd;string">mild phenylketonuria</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">mild PKU</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is characterized by hyperphenylalaninemina (HPA) having phenyalalnine blood concentration greater in the range 600-900 mumol/L (10-15 mg/dL).</skos:definition>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD DefSource Scriver</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+   
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5397567 --> <!-- neonatal heel-prick blood sampling --> 
+    
+    <owl:Class rdf:about="&ONSTR;ONSTR_5397567">
+        <rdfs:label rdf:datatype="&xsd;string">neonatal heel-prick blood sampling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <skos:altLabel rdf:datatype="&xsd;string">heel-prick sampling</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">heel-prick</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">heel-stick (procedure)</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">heel-stick</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A planned process consisting of capillary blood sampling (taking) in which a puncture is made in newborn's heal and the small amount of the blood is collected, usually with a narrow-gauge glass tube (&quot;capillary&quot;) or soaked into the filter paper attached to pre-printed collection cards (Guthrie cards). The test is usually done soon after the baby has been born, but a general recommendation is that it should be done when the infant is between 48 and 72 hours of age.</skos:definition>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.medterms.com/script/main/art.asp?articlekey=39542</rdfs:comment>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Neonatal_heel_prick</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+
+
+
+
+    
+</rdf:RDF>
+
+
+
+
