@@ -21,8 +21,9 @@
     <!ENTITY OBI "http://purl.obolibrary.org/obo/obi.owl#"> 
     <!ENTITY TMO "http://www.w3.org/2001/sw/hcls/ns/transmed/">
     <!ENTITY SIO "http://semanticscience.org/ontology/sio-core.owl#">
-]>
-
+    <!ENTITY GO "http://purl.org/obo/owl/GO#">
+    <!ENTITY OBO_REL "http://purl.org/obo/owl/OBO_REL#"> <!-- roporposed in OBI-->
+]>    
 
 <rdf:RDF xmlns="http://onstr.googlecode.com/svn/trunk/ONSTR.owl#"
      xml:base="http://onstr.googlecode.com/svn/trunk/ONSTR.owl"
@@ -44,7 +45,9 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:OBI="http://purl.obolibrary.org/obo/obi.owl#"
      xmlns:TMO="http://www.w3.org/2001/sw/hcls/ns/transmed/"
-     xmlns:SIO="http://semanticscience.org/ontology/sio-core.owl#">
+     xmlns:SIO="http://semanticscience.org/ontology/sio-core.owl#"
+     xmlns:GO="http://purl.org/obo/owl/GO#"
+     xmlns:OBO_REL="http://purl.org/obo/owl/OBO_REL#">
      
     <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/trunk/ONSTR.owl">
         <owl:versionInfo rdf:datatype="&xsd;string">0.1</owl:versionInfo>
@@ -84,8 +87,10 @@
 	    <owl:AnnotationProperty rdf:about="&skos;source"/>
 	    <owl:AnnotationProperty rdf:about="&skos;editorialNote"/>
 	    <owl:AnnotationProperty rdf:about="&skos;definition"/>	
-	    <owl:AnnotationProperty rdf:about="&skos;example"/>	
-
+	    <owl:AnnotationProperty rdf:about="&skos;example"/>
+	    <owl:AnnotationProperty rdf:about="&skos;prefLabel"/>	
+	    	
+	    
 	<!--  				    -->
 	<!--  IMPORTED CLASSES  -->
 	<!--  				    -->
@@ -496,7 +501,6 @@
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.obolibrary.org/obo/OBI_0000011</rdfs:comment>
     </owl:Class>
 
-    
 
     <!-- http://www.w3.org/2001/sw/hcls/ns/transmed/TMO_0008 -->
 
@@ -508,9 +512,36 @@
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.obolibrary.org/obo/OBI_0000011</rdfs:comment>
     </owl:Class>
 
-   
 
+    <!-- http://purl.org/obo/owl/GO#GO_0003674 -->   <!-- molecular function -->
+   
+   	<owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0003674">
+   	     	<rdfs:subClassOf rdf:resource="&snap;Function"/>
+     	<rdfs:label rdf:datatype="&xsd;string">molecular function</rdfs:label>
+     	<skos:definition rdf:datatype="&xsd;string">Elemental activities, such as catalysis or binding, describing the actions of a gene product at the molecular level. A given gene product may exhibit one or more molecular functions.</skos:definition>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+  </owl:Class>
+   
+   
+   <!-- http://purl.org/obo/owl/GO#GO_0003824 -->   <!-- catalytic activity -->
+   
+   	<owl:Class rdf:about="&GO;GO_0003824">
+     	<rdfs:label rdf:datatype="&xsd;string">catalytic activity</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&GO;GO_0003674"/>
+     	<skos:prefLabel rdf:datatype="&xsd;string">catalytic function</skos:prefLabel>
+     	<skos:definition rdf:datatype="&xsd;string">Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic." [ISBN:0198506732 "Oxford Dictionary of Biochemistry and Molecular Biology"]</skos:definition>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+  </owl:Class>
+  
+  
+   
+   
+   
+   
+	<!--  				 -->
 	<!--  ONSTR CLASSES  -->
+	<!--  				 -->
+
 
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1718816 --> <!-- disorder -->
 
@@ -938,13 +969,290 @@
     </owl:Class>
     
 	
+	 <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7924462 --> <!-- enzyme -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7924462">
+        <rdfs:label rdf:datatype="&xsd;string">enzyme</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2355072"/>
+        <skos:definition rdf:datatype="&xsd;string">A biomaterial entity that is a protein or protein complex or ribozyme (RNA enzyme) that functions as a catalyst for biochemical reactions.</skos:definition>
+        <skos:source rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/OBI_0000427</skos:source>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2424755 --> <!-- phenylalanine hydroxylase OR IMPORT-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2424755">
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7924462"/>
+        <skos:definition rdf:datatype="&xsd;string">An enzyme that functions as a catalyst in the reaction: L-phenylalanine + tetrahydrobiopterin + O2 = L-tyrosine + 4-alpha-hydroxytetrahydrobiopterin (a conversion of phenylalanine into tyrosine), which represents a rate limiting step in only clinically significant biochemical pathway for the catabolism of phenylalanine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.14.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/GO/GO_0004505</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">PAH</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">PheOH</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">PheH</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalaninase</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4-hydroxylase</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4 hydroxylase</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">hydroxylase, phenylalanine</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4 monooxygenase</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">4-hydroxylase phenylalanine</skos:altLabel> 
+        <skos:altLabel rdf:datatype="&xsd;string">L-phenylalanine,tetrahydrobiopterin:oxygen oxidoreductase (4-hydroxylating)</skos:altLabel>    
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4-monooxygenase</skos:altLabel>    
+        <skos:altLabel rdf:datatype="&xsd;string">4-monooxygenase, phenylalanine</skos:altLabel>       
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+       
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5363814 --> <!-- normal PAH -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5363814">
+        <rdfs:label rdf:datatype="&xsd;string">normal PAH</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2424755"/>
+        <skos:definition rdf:datatype="&xsd;string">A phenyalalnine hydroxylase that has no structural abnormalities in it's primary, secondary, ternary and quaternary protein structure (has normal PAH phenotype or morphology?), and that has normal (non-mutant) PAH genotype (i.e. encoded by normal PAH genotype), and that is a fully functional catalyzer of the process of conversion of phenylalanine into tyrosine (has normal PAH activity).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Phenylalanine_hydroxylase</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class> 
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9415873 --> <!-- defective PAH -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9415873">
+        <rdfs:label rdf:datatype="&xsd;string">defective PAH</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2424755"/>
+        <skos:definition rdf:datatype="&xsd;string">A phenyalalnine hydroxylase that has aberrant primary and/or secondary and/or ternary protein structure (has abnormal phenotype or morphology?) that is due to the mutant PAH genotype, and that cannot act as a fully functional catalyzer of conversion of phenylalanine into tyrosine (i.e. has decreased PAH activity) which in turn serves as a cause of hyperpehenylalninemia.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.14.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">dysfunctional PAH</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    	<owl:disjointWith rdf:about="&ONSTR;ONSTR_5363814"/>
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0426948 --> <!-- PAH function -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0426948">
+        <rdfs:label rdf:datatype="&xsd;string">PAH function</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&GO;GO_0003824"/>
+        <skos:definition rdf:datatype="&xsd;string">A catalytic function of the reaction: L-phenylalanine + tetrahydrobiopterin + O2 = L-tyrosine + 4-alpha-hydroxytetrahydrobiopterin.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine hyrdoxylase function</skos:altLabel>
+        <skos:source rdf:datatype="&xsd;string">http://purl.org/obo/owl/GO#GO_0004505</skos:source>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.org/obo/owl/GO#GO_0004505</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+ 
+	
 
 	<!--  				     -->
 	<!--  OBJECT PROPERTIES	 -->
     <!--  				     -->
-    
+
+
+    <!--  IMPORTED OBJECT PROPERTIES -->    
  
+ 
+  	<!-- http://purl.org/obo/owl/OBO_REL#inheres_in -->
+
+    <owl:ObjectProperty rdf:about="&OBO_REL;inheres_in">
+        <rdfs:label rdf:datatype="&xsd;string">inheres_in</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A relation between a dependent continuant D and an entity E. D inheres_in E iff: given any d that instantiates D at t, there exists some e that instantiates E at t and d *inheres_in* e at t. Here *inheres_in* is the primitive instance level relation.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">This clarifies that only specifically dependent continuants inhere in (specifically) one independent continuant over all time. For GDCs, there in implicitly inherence to all the independent continuants in which the concretizations inhere. Should add a 'cardinality 1' restriction to the definition of specifically dependent continuant.</skos:editorialNote>
+        <rdfs:comment rdf:datatype="&xsd;string">Has alternative ID OBO_REL:0000026</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">This relation links qualities, functions, dispositions and other dependent continuants to their bearers. Examples: A particular shape that inheres in a lung; The redness that ineres in a Drosophila eye; Catalytic activity function inheres_in catalytic molecule. Note that inherence is a functional relation: if x inheres_in y at t and x inheres_in z at t, then y=z. We leave open the possibility of a relation multiply_inheres_in, such as between a gene sequence and the multiple chromosomes it multiply inheres in. The super-relation of both inheres_in and multiply_inheres_in would be depends_on.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">has_bearer</skos:altLabel>
+    	<rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
   
+  
+    <!-- http://purl.org/obo/owl/OBO_REL#bearer_of -->
+
+    <owl:ObjectProperty rdf:about="&OBO_REL;bearer_of">
+        <rdfs:label rdf:datatype="&xsd;string">bearer_of</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A relation between an entity and a dependent continuant; the reciprocal relation of inheres_in [GOC:cjm]. Example of usage: red eye bearer_of redness</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Has alternative ID OBO_REL:0000027</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">has_inherent</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">has_inherer</skos:altLabel>
+        <owl:inverseOf rdf:resource="&OBO_REL;inheres_in"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+   <!-- http://purl.org/obo/owl/OBO_REL#quality_of --> <!-- quality_of -->
+
+    <owl:ObjectProperty rdf:about="&OBO_REL;quality_of">
+        <rdfs:subPropertyOf rdf:resource="&OBO_REL;inheres_in"/>
+        <rdfs:label rdf:datatype="&xsd;string">quality_of</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A relation between a quality Q and an entity E. Q quality_of E iff: Q inheres_in E and Q is a quality</skos:definition>
+		<skos:altLabel rdf:datatype="&xsd;string">is_quality_of</skos:altLabel>
+		<rdfs:comment rdf:datatype="&xsd;string">Has alternative ID OBO_REL:0000028</rdfs:comment>
+        <owl:inverseOf rdf:resource="&obo;OBI_0000298"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OBI_0000298 --> <!-- has_quality -->
+
+    <owl:ObjectProperty rdf:about="&obo;OBI_0000298">
+       <rdfs:subPropertyOf rdf:resource="&OBO_REL;bearer_of"/>
+        <rdfs:label rdf:datatype="&xsd;string">has_quality</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A relation between an entity and a quality. For types: E has_quality Q iff: for any eEt, exists qQt such that q inheres_in e at t. For instances: e has_quality q at t iff q inheres_in e at t and q instance-of Quality [GOC:cjm]</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Has alternative ID OBO_REL:0000029</rdfs:comment>
+        <rdfs:domain rdf:resource="&snap;IndependentContinuant"/>
+        <rdfs:range rdf:resource="&snap;Quality"/>
+        <owl:inverseOf rdf:resource="&OBO_REL;quality_of"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OBI_0000316 -->  <!-- has_role -->
+
+    <owl:ObjectProperty rdf:about="&obo;OBI_0000316">
+        <rdfs:subPropertyOf rdf:resource="&OBO_REL;bearer_of"/>
+        <rdfs:label rdf:datatype="&xsd;string">has_role</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A relation between a continuant C and a role R. The reciprocal relation of role_of.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Has alternative ID OBO_REL:0000033</rdfs:comment>
+        <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+    	<rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+        <owl:inverseOf rdf:resource="http://purl.org/obo/owl/OBO_REL#role_of"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+    <!-- http://purl.org/obo/owl/OBO_REL#role_of -->  <!-- role _of-->
+        
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#role_of">
+        <rdfs:subPropertyOf rdf:resource="&OBO_REL;inheres_in"/>
+    	<rdfs:label rdf:datatype="&xsd;string">role_of</rdfs:label>
+    	<skos:definition rdf:datatype="&xsd;string">A relation between a role R and an entity E. R role_of E iff: R inheres_in E and R is a role</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Has alternative ID OBO_REL:0000032</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/OBI_0000306 -->  <!-- has_function -->
+    
+     <owl:ObjectProperty rdf:about="&obo;OBI_0000306">
+        <rdfs:subPropertyOf rdf:resource="&OBO_REL;bearer_of"/>
+    	<rdfs:label rdf:datatype="&xsd;string">has_function</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">Relation between an independent continuant and a function.</skos:definition>
+        <skos:example rdf:datatype="&xsd;string">heart has_function to-pump-blood</skos:example>
+        <rdfs:comment rdf:datatype="&xsd;string">Has alternative ID OBO_REL:0000031</rdfs:comment> 
+        <rdfs:domain rdf:resource="&snap;IndependentContinuant"/>
+        <rdfs:range rdf:resource="&snap;Function"/>
+        <owl:inverseOf rdf:resource="&OBO_REL;function_of"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+    <!-- http://purl.org/obo/owl/OBO_REL#function_of -->  <!-- function _of-->
+    
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#function_of">
+    	<rdfs:label rdf:datatype="&xsd;string">function_of</rdfs:label>
+    	<skos:definition rdf:datatype="&xsd;string">A relation between a function F and an entity E. F function_of E iff: Q inheres_in E and Q is a function</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Has alternative ID OBO_REL:0000030</rdfs:comment> 
+    	<skos:example rdf:datatype="&xsd;string">Example 'to blood pump' function_of 'heart'</skos:example>
+        <rdfs:domain rdf:resource="&snap;Function"/>
+        <rdfs:range rdf:resource="&snap;IndependentContinuant"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+    <!-- http://www.obofoundry.org/ro/ro.owl#part_of -->  <!-- part_of -->
+
+    <owl:TransitiveProperty rdf:about="&ro;part_of">
+        <rdfs:label rdf:datatype="&xsd;string">part_of</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">For continuants: C part_of C' if and only if: given any c that instantiates C at a time t, there is some c' such that c' instantiates C' at time t, and c *part_of* c' at t. For processes: P part_of P' if and only if: given any p that instantiates P at a time t, there is some p' such that p' instantiates P' at time t, and p *part_of* p' at t. (Here *part_of* is the instance-level part-relation.)</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Has alternative ID OBO_REL:0000002</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Parthood as a relation between instances: The primitive instance-level relation p part_of p1 is illustrated in assertions such as: this instance of rhodopsin mediated phototransduction part_of this instance of visual perception.    This relation satisfies at least the following standard axioms of mereology: reflexivity (for all p, p part_of p); anti-symmetry (for all p, p1, if p part_of p1 and p1 part_of p then p and p1 are identical); and transitivity (for all p, p1, p2, if p part_of p1 and p1 part_of p2, then p part_of p2). Analogous axioms hold also for parthood as a relation between spatial regions.    For parthood as a relation between continuants, these axioms need to be modified to take account of the incorporation of a temporal argument. Thus for example the axiom of transitivity for continuants will assert that if c part_of c1 at t and c1 part_of c2 at t, then also c part_of c2 at t.    Parthood as a relation between classes: To define part_of as a relation between classes we again need to distinguish the two cases of continuants and processes, even though the explicit reference to instants of time now falls away. For continuants, we have C part_of C1 if and only if any instance of C at any time is an instance-level part of some instance of C1 at that time, as for example in: cell nucleus part_ of cell.</rdfs:comment>
+        <owl:inverseOf rdf:resource="&ro;has_part"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:TransitiveProperty>
+    
+    
+    <!-- http://www.obofoundry.org/ro/ro.owl#part_of -->  <!-- has_part -->
+    
+      <owl:TransitiveProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_part">
+    	<rdfs:label rdf:datatype="&xsd;string">has_part</rdfs:label>
+        <owl:inverseOf rdf:resource="&ro;part_of"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Has alternative ID OBO_REL:0000003</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:TransitiveProperty>
+    
+    
+    <!-- http://www.obofoundry.org/ro/ro.owl#proper_part_of -->  <!-- proper_part_of -->
+
+    <owl:TransitiveProperty rdf:about="&ro;proper_part_of">
+        <rdfs:subPropertyOf rdf:resource="&ro;part_of"/>
+        <rdfs:label rdf:datatype="&xsd;string">proper_part_of</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">As for part_of, with the additional constraint that subject and object are distinct.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Has alternative ID OBO_REL:0000006</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:TransitiveProperty>
+    
+    
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_proper_part -->  <!-- has_proper_part -->
+    
+    <owl:TransitiveProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_proper_part">
+    	<rdfs:subPropertyOf rdf:resource="&ro;has_part"/>
+    	<rdfs:label rdf:datatype="&xsd;string">has_proper_part</rdfs:label>
+        <skos:comment rdf:datatype="&xsd;string">Has alternative ID OBO_REL:0000007</skos:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:TransitiveProperty>
+    
+    
+   <!-- http://www.obofoundry.org/ro/ro.owl#has_participant --> <!-- has_participant -->
+
+    <owl:ObjectProperty rdf:about="&ro;has_participant">
+        <rdfs:label rdf:datatype="&xsd;string">has_participant</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">P has_participant C if and only if: given any process p that instantiates P there is some continuant c, and some time t, such that: c instantiates C at t and c participates in p at t.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Has_participant is a primitive instance-level relation between a process, a continuant, and a time at which the continuant participates in some way in the process. The relation obtains, for example, when this particular process of oxygen exchange across this particular alveolar membrane has_participant this particular sample of hemoglobin at this particular time.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Has alternative ID OBO_REL:0000019</rdfs:comment>
+    	<owl:inverseOf rdf:resource="&ro;participates_in"/>
+    </owl:ObjectProperty>
+    
+    
+    <!-- http://www.obofoundry.org/ro/ro.owl#participates_in --> <!-- participates_in -->
+    
+   <owl:ObjectProperty rdf:about="&ro;participates_in">
+    	<rdfs:label rdf:datatype="&xsd;string">participates_in</rdfs:label>
+    	<owl:inverseOf rdf:resource="&ro;has_participant"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Has alternative ID OBO_REL:0000020</rdfs:comment>
+  </owl:ObjectProperty>
+         
+    
+    <!-- "http://purl.obolibrary.org/obo/OBI_0000300" --> <!-- is_realized_by -->
+    
+       <owl:ObjectProperty rdf:about="&obo;OBI_0000300">
+          <rdfs:label rdf:datatype="&xsd;string">is_realized_by</rdfs:label>
+          <skos:altLabel rdf:datatype="&xsd;string">executed_during</skos:altLabel>
+          <skos:altLabel rdf:datatype="&xsd;string">is_realized_as</skos:altLabel>
+          <skos:altLabel rdf:datatype="&xsd;string">has_realization</skos:altLabel>
+          <skos:definition rdf:datatype="&xsd;string">Relation between a realizable and a process. Reciprocal relation of realizes [GOC:cjm]</skos:definition>
+          <rdfs:range rdf:resource="&span;ProcessualEntity"/>
+          <rdfs:domain rdf:resource="&snap;RealizableEntity"/>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+    <!-- "http://purl.obolibrary.org/obo/OBI_0000308" --> <!-- realizes -->
+    
+      <owl:ObjectProperty rdf:about="&obo;OBI_0000308">
+        <rdfs:label rdf:datatype="&xsd;string">realizes</rdfs:label>
+    	<rdfs:range rdf:resource="&snap;RealizableEntity"/>
+    	<skos:example rdf:datatype="&xsd;string">example of usage: The process of 'histidine catabolism' (GO:0006548) realizes the function 'histidine ammonia lyase activity' (GO:0004397) (note: here 'activity' denotes a function and not a process). We leave open the possibility of defining in future the sub-relations directly_realizes (as bewteen a function and it's functioning) and indirectly_realizes.</skos:example>
+    	<skos:altLabel rdf:datatype="&xsd;string">involves_execution_of</skos:altLabel>
+    	<skos:altLabel rdf:datatype="&xsd;string">executes</skos:altLabel>
+    	<skos:altLabel rdf:datatype="&xsd;string">is_realization_of</skos:altLabel>
+    	<skos:definition rdf:datatype="&xsd;string">Relation between a process and a function, where the unfolding of the process requires the execution of the function. Class level: P realizes F iff: given any p that instantiates P, there exists some f, t such that f instantiates F at t and p *realizes* f. Here, *realizes* is the primitive instance level relation [GOC:cjm]</skos:definition>
+        <rdfs:domain rdf:resource="&span;ProcessualEntity"/>
+    	<rdfs:range rdf:resource="&snap;RealizableEntity"/>
+    	<owl:inverseOf rdf:about="&obo;OBI_0000300"/><!-- is_realized_by -->
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+
   
    
      <!--  	ONSTR OBJECT PROPERTIES	 -->
