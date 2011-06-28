@@ -161,11 +161,11 @@
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2709221 --> <!--congenital metabolic disorder -->
     
     <owl:Class rdf:about="&ONSTR;ONSTR_2709221">
-        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000051"/>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000045"/>
         <rdfs:label rdf:datatype="&xsd;string">congenital metabolic disorder</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">congenital biochemical disorder</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A group of constitutional genetic disorders that inborn genetic mutations (for particular enzyme) and that result in enzyme absence or disfunction that produces disturbances in metabolic process involving lipids, lysosome storage and amino acids (depending on the enzyme being encoded by mutated gene).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Metabolic_Disorder</rdfs:comment>       
+        <skos:definition rdf:datatype="&xsd;string">A group of constitutional genetic disorders that areinborn genetic mutations (for particular enzyme) and that result in enzyme absence or disfunction that produces disturbances in metabolic process involving lipids, lysosome storage and amino acids (depending on the enzyme being encoded by mutated gene).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Inborn_Errors_of_Metabolism</rdfs:comment>       
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
 	</owl:Class>
 
@@ -173,7 +173,7 @@
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7546388 --> <!-- hyperphenylalaninemia -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7546388">
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2709221"/> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7112823"/> 
         <rdfs:label rdf:datatype="&xsd;string">congenital hyperphenylalaninemia</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninemia (disorder)</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninaemias</skos:altLabel>
@@ -189,8 +189,8 @@
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9447119">
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/>
-        <rdfs:label rdf:datatype="&xsd;string">PAH deficiency triggered hyperphenylalaninemia</rdfs:label>
-        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine hydroxylase deficiency triggered hyperphenylalaninemia</skos:altLabel>
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase deficiency triggered hyperphenylalaninemia</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">PAH deficiency triggered hyperphenylalaninemia</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A group of hyperphenylalaninemia disorders that are triggered by the mutation of the gene for the enzyme phenylalanine hydroxylase (PAH) resulting in decreased levels or absence of phenylalanine hydroxylase and accumulation of phenylalanine and related metabolites (e.g., phenylpyruvate, phenyllactate, phenylacetate, phenylacetylglutamine) that, depending on the concentration of phenylalanine in the blood, may or may not cause the phenylketonuria (PKU).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/hyperphenylalaninemia</rdfs:comment>	
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -200,7 +200,7 @@
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0195747 --> <!-- PAH deficiency triggered PKU-hyperphenylalaninemia -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0195747">
-        <rdfs:label rdf:datatype="&xsd;string">PAH deficiency triggered PKU-hyperphenylalaninemia</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase deficiency triggered PKU-hyperphenylalaninemia</rdfs:label>
          <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -228,8 +228,8 @@
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8646794">
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9447119"/> 
-        <rdfs:label rdf:datatype="&xsd;string">PAH deficiency triggered nonPKU-hyperphenylalaninemia</rdfs:label>
-       <skos:altLabel rdf:datatype="&xsd;string">PAH deficiency triggered non-phenylketonuria-hyperphenylalaninemia</skos:altLabel>
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase deficiency triggered nonPKU-hyperphenylalaninemia</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">PAH deficiency triggered non-phenylketonuria-hyperphenylalaninemia</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">variant PKU</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">PAH deficiency triggered hyperphenylalaninemia that is characterized by concentrations of L-phenylalanine in the blood that are less than 600 mumol/L (usually in the range between 120-600 mum/L or 2-10 mg/dL).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Economu-Petersen, E., Henriksen, K. F., Guldberg, P., Guettler, F.(1992) Molecular basis for nonphenylketonuria hyperphenylalaninemia. Genomics, 1992 Sep; 14(1)</rdfs:comment>
@@ -241,7 +241,7 @@
 	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3851112 --> <!-- BH4 deficiency triggered hyperphenylalaninemia -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3851112">
-        <rdfs:label rdf:datatype="&xsd;string">BH4 deficiency triggered hyperphenylalaninemia</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">tetrahydrobiopterin deficiency hyperphenylalaninemia</rdfs:label>
           <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -257,6 +257,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <skos:altLabel rdf:datatype="&xsd;string">BH4 deficiency triggered hyperphenylalaninemia</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">THB deficiency triggered hyperphenylalaninemia</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">BH4-responsive hyperphenylalaninemia</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A hyperphenylalaninemia that is driven by the low concentration of the cofactor tetrahydrobiopterin  (aka. BH4 or THB) in the liver and blood, that produces inability of the phenylalanine-4-hydroxylase to catalyze the oxidation of L-phenylalanine to tyrosine thus leading to accumulaton of phenylalanine in the blood.</skos:definition>
@@ -280,10 +281,10 @@
 	
 	
 
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8253459 --> <!-- PAH-hyperphenylalaninemia triggered PKU -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8253459 --> <!-- PAH-hyperphenylalaninemia PKU -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8253459">
-        <rdfs:label rdf:datatype="&xsd;string">PAH-hyperphenylalaninemia triggered PKU</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">PAH-hyperphenylalaninemia PKU</rdfs:label>
          <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -303,10 +304,10 @@
     </owl:Class>
 	
 	
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5633529 --> <!-- BH4-hyperphenylalaninemia triggered PKU -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5633529 --> <!-- BH4-hyperphenylalaninemia PKU -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5633529">
-        <rdfs:label rdf:datatype="&xsd;string">BH4-hyperphenylalaninemia triggered PKU</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">BH4-hyperphenylalaninemia PKU</rdfs:label>
        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -372,11 +373,12 @@
 	
 	
 
-	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1272933 --> <!-- severe phenylketonuria -->
+	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1272933 --> <!-- classic phenylketonuria -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1272933">
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8253459"/>
-        <rdfs:label rdf:datatype="&xsd;string">severe phenylketonuria</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">classic phenylketonuria</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">classic PKU</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">severe PKU</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is caused by hyperphenylalaninemina (HPA) having phenyalalnine blood concentration greater than 1200 mumol/L (20 mg/dL).</skos:definition>
 		<rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD DefSorce Scriver</rdfs:comment>
@@ -504,7 +506,6 @@
     </owl:Class>
 	
 	
-	
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1252223 --> <!-- mutated allele carrier PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1252223">
@@ -533,8 +534,9 @@
 	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4241089 --> <!-- homozygous mutant PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4241089">
-        <rdfs:label rdf:datatype="&xsd;string">homozygous mutant PAH genotype</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">homozygous mutant phenylalanine hydroxilase genotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7843044"/>
+        <skos:altLabel rdf:datatype="&xsd;string">homozygous mutant PAH genotype</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A mutant PAH genotype that consists of two identical mutated PAH alleles.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.62-64.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -545,8 +547,9 @@
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9939637 --> <!-- heterozygous mutant PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9939637">
-        <rdfs:label rdf:datatype="&xsd;string">heterozygous mutant PAH genotype</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">heterozygous mutant phenylalanine hydroxilase genotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7843044"/>
+        <skos:altLabel rdf:datatype="&xsd;string">heterozygous mutant PAH genotype</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A mutant PAH genotype that consists of two different mutated PAH alleles.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.62-64.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -568,7 +571,7 @@
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2424755">
         <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7924462"/>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2681014"/>
         <skos:definition rdf:datatype="&xsd;string">An enzyme that functions as a catalyst in the reaction: L-phenylalanine + tetrahydrobiopterin + O2 = L-tyrosine + 4-alpha-hydroxytetrahydrobiopterin (a conversion of phenylalanine into tyrosine), which represents a rate limiting step in only clinically significant biochemical pathway for the catabolism of phenylalanine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.14.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/GO/GO_0004505</rdfs:comment>
@@ -592,8 +595,9 @@
      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5363814 --> <!-- normal PAH -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5363814">
-        <rdfs:label rdf:datatype="&xsd;string">normal PAH</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine hyrdoxylase</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2424755"/>
+        <skos:altLabel rdf:datatype="&xsd;string">normal PAH</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A phenyalalnine hydroxylase that has no structural abnormalities in it's primary, secondary, ternary and quaternary protein structure (has normal PAH phenotype or morphology?), and that has normal (non-mutant) PAH genotype (i.e. encoded by normal PAH genotype), and that is a fully functional catalyzer of the process of conversion of phenylalanine into tyrosine (has normal PAH activity).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Phenylalanine_hydroxylase</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -603,8 +607,9 @@
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9415873 --> <!-- defective PAH -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9415873">
-        <rdfs:label rdf:datatype="&xsd;string">defective PAH</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">defective phenylalanine hyrdoxylase</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2424755"/>
+        <skos:altLabel rdf:datatype="&xsd;string">defective PAH</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A phenyalalnine hydroxylase that has aberrant primary and/or secondary and/or ternary protein structure (has abnormal phenotype or morphology?) that is due to the mutant PAH genotype, and that cannot act as a fully functional catalyzer of conversion of phenylalanine into tyrosine (i.e. has decreased PAH activity) which in turn serves as a cause of hyperpehenylalninemia.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.14.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">dysfunctional PAH</skos:altLabel>
@@ -616,15 +621,37 @@
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0426948 --> <!-- PAH function -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0426948">
-        <rdfs:label rdf:datatype="&xsd;string">PAH function</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine hyrdoxylase function</rdfs:label>
         <rdfs:subClassOf rdf:resource="&GO;GO_0003824"/>
         <skos:definition rdf:datatype="&xsd;string">A catalytic function of the reaction: L-phenylalanine + tetrahydrobiopterin + O2 = L-tyrosine + 4-alpha-hydroxytetrahydrobiopterin.</skos:definition>
-        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine hyrdoxylase function</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">PAH function</skos:altLabel>
         <skos:source rdf:datatype="&xsd;string">http://purl.org/obo/owl/GO#GO_0004505</skos:source>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.org/obo/owl/GO#GO_0004505</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
+ 
+      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7003914 --> <!-- oxidoreductase -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7003914">
+        <rdfs:label rdf:datatype="&xsd;string">oxidoreductase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7924462"/>
+        <skos:definition rdf:datatype="&xsd;string">An enzyme that functions as a catalyst of an oxidation-reduction (redox) reaction, a reversible chemical reaction in which the oxidation state of an atom or atoms within a molecule is altered. One substrate acts as a hydrogen or electron donor and becomes oxidized, while the other acts as hydrogen or electron acceptor and becomes reduced.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.org/obo/owl/GO#GO_0016491</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+ 
+ 
+ 
+      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2681014 --> <!-- monoxygenase -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2681014">
+        <rdfs:label rdf:datatype="&xsd;string">monooxygenase</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7003914"/>
+        <skos:definition rdf:datatype="&xsd;string">An oxidoreductase enzyme that functions as a catalyst in the reaction of the incorporation of one atom from molecular oxygen into a compound, and the reduction of the other atom of oxygen to water.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.org/obo/owl/GO#GO_0004497</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
  
 	
 
