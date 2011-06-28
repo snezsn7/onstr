@@ -41,7 +41,8 @@
      xmlns:OBI="http://purl.obolibrary.org/obo/obi.owl#"
      xmlns:TMO="http://www.w3.org/2001/sw/hcls/ns/transmed/"
      xmlns:GO="http://purl.org/obo/owl/GO#"
-     xmlns:OBO_REL="http://purl.org/obo/owl/OBO_REL#">
+     xmlns:OBO_REL="http://purl.org/obo/owl/OBO_REL#"
+     xmlns:imports="http://onstr.googlecode.com/svn/trunk/imports">
      
     <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/trunk/ONSTR.owl">
         <owl:versionInfo rdf:datatype="&xsd;string">0.1</owl:versionInfo>
@@ -60,7 +61,7 @@
         <dc:creator rdf:datatype="&xsd;string">Snezana Nikolic</dc:creator>
         <dc:subject rdf:datatype="&xsd;string">Some general thing, like keywords :ontology, neonatal screening, translational research, translational medicine, health care...Prabhu HELP!</dc:subject>
         <owl:imports rdf:resource="http://www.ifomis.org/bfo/1.1"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+        <owl:imports rdf:resource="http://onstr.googlecode.com/svn/trunk/imports/ogms.owl"/>
         <owl:imports rdf:resource="http://purl.org/obo/owl/ro"/>   
     </owl:Ontology>
     
@@ -476,7 +477,6 @@
 	    <owl:disjointWith rdf:resource="&ONSTR;ONSTR_8554179"/>
 	</owl:Class>
 	
-
 	
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1509758 --> <!-- PAH genotype -->
 
@@ -488,7 +488,6 @@
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.62.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
-	
 	
 	
 	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5583212 --> <!-- normal PAH genotype -->
