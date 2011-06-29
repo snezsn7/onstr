@@ -170,98 +170,34 @@
 	</owl:Class>
 
 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7546388 --> <!-- hyperphenylalaninemia -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7546388 --> <!-- congenital hyperphenylalaninemia -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7546388">
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7112823"/> 
-        <rdfs:label rdf:datatype="&xsd;string">congenital hyperphenylalaninemia</rdfs:label>
-        <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninemia (disorder)</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninaemias</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">HPA</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A congenital metabolic disorder of L-phenylalanine catabolism, characterized by the concentrations of amino acid L-phenylalanine in the blood that are considered by medical experts as clinically abnormal, and that is caused primarily by a deficiency of hepatic apoenzyme phenylalanine-4-hydrolase (PAH) or by the deficiency of one of the enzymes involved in PAH cofactor(i.e. tetrahydrobiopterin (BH4)) biosythesis (GTP cyclohydrolase 1 (GTPCH) and 6-pyruvol-tetrahydrobiopterin-syntase (PTPS)), or BH4 regeneration (dihydropteridine reductase (DHPR) and pterin carbinolamine-4alpha-dehydratase (PCD)).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Physician's guide to the laboratory diagnosis of metabolic diseases. (2004) N. Blau, Duran, M. Blaskovics, M.E., Gibson, K.M. Eds. Springer Verlag, pp. 89.</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: HP:0004923</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-	</owl:Class>
-
-
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9447119 --> <!-- PAH deficiency triggered hyperphenylalaninemia -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_9447119">
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/>
-        <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase deficiency triggered hyperphenylalaninemia</rdfs:label>
-        <skos:altLabel rdf:datatype="&xsd;string">PAH deficiency triggered hyperphenylalaninemia</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A group of hyperphenylalaninemia disorders that are triggered by the mutation of the gene for the enzyme phenylalanine hydroxylase (PAH) resulting in decreased levels or absence of phenylalanine hydroxylase and accumulation of phenylalanine and related metabolites (e.g., phenylpyruvate, phenyllactate, phenylacetate, phenylacetylglutamine) that, depending on the concentration of phenylalanine in the blood, may or may not cause the phenylketonuria (PKU).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/hyperphenylalaninemia</rdfs:comment>	
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-	</owl:Class>
-
-
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0195747 --> <!-- PAH deficiency triggered PKU-hyperphenylalaninemia -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_0195747">
-        <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase deficiency triggered PKU-hyperphenylalaninemia</rdfs:label>
          <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_9447119"/> <!-- PAH deficiency triggered HPA -->
+                   <rdf:Description rdf:about="&ONSTR;ONSTR_7112823"/> 
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3590764"/>  <!-- has cause -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0128089"/>  <!-- PAH deficiency -->
-                    </owl:Restriction>
-                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_6264097"/>  <!-- is cause of -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_8253459"/>  <!-- PAH deficiency triggered PKU -->
-                    </owl:Restriction>   
-                </owl:intersectionOf>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3590764"/>  
+                            <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_0128089"/>
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5173920"/>
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                       </owl:Restriction>    
+                </owl:intersectionOf>                                 
             </owl:Class>
         </owl:equivalentClass>
-       <skos:altLabel rdf:datatype="&xsd;string">PAH deficiency triggered phenylketonuria-hyperphenylalaninemia</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">PAH deficiency triggered hyperphenylalaninemia that is characterized by concentrations of phenylalanine in the blood that are higher than 360 mumol/L.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/hyperphenylalaninemia </rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-	</owl:Class>
-
-
-
-	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8646794 --> <!-- PAH deficiency triggered nonPKU-hyperphenylalaninemia -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_8646794">
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9447119"/> 
-        <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase deficiency triggered nonPKU-hyperphenylalaninemia</rdfs:label>
-        <skos:altLabel rdf:datatype="&xsd;string">PAH deficiency triggered non-phenylketonuria-hyperphenylalaninemia</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">variant PKU</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">PAH deficiency triggered hyperphenylalaninemia that is characterized by concentrations of L-phenylalanine in the blood that are less than 600 mumol/L (usually in the range between 120-600 mum/L or 2-10 mg/dL).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Economu-Petersen, E., Henriksen, K. F., Guldberg, P., Guettler, F.(1992) Molecular basis for nonphenylketonuria hyperphenylalaninemia. Genomics, 1992 Sep; 14(1)</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-	</owl:Class>
-
-
-
-	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3851112 --> <!-- BH4 deficiency triggered hyperphenylalaninemia -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_3851112">
-        <rdfs:label rdf:datatype="&xsd;string">tetrahydrobiopterin deficiency hyperphenylalaninemia</rdfs:label>
-          <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_7546388"/> <!-- HPA -->
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3590764"/>  <!-- is caused by -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5173920"/>  <!-- BH4 deficiency -->
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_6264097"/>  <!-- is cause of  -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5633529"/>  <!-- BH4 deficiency triggered PKU -->
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <skos:altLabel rdf:datatype="&xsd;string">BH4 deficiency triggered hyperphenylalaninemia</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">THB deficiency triggered hyperphenylalaninemia</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">BH4-responsive hyperphenylalaninemia</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A hyperphenylalaninemia that is driven by the low concentration of the cofactor tetrahydrobiopterin  (aka. BH4 or THB) in the liver and blood, that produces inability of the phenylalanine-4-hydroxylase to catalyze the oxidation of L-phenylalanine to tyrosine thus leading to accumulaton of phenylalanine in the blood.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.15.</rdfs:comment>        
+        <rdfs:label rdf:datatype="&xsd;string">congenital hyperphenylalaninemia</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninemia (disorder)</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninaemias</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">congenital HPA</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A congenital metabolic disorder of L-phenylalanine catabolism, characterized by the concentrations of amino acid L-phenylalanine in the blood that are considered by medical experts as clinically abnormal, and that is caused primarily by a deficiency of hepatic apoenzyme phenylalanine-4-hydrolase (PAH) or by the deficiency of one of the enzymes involved in PAH cofactor(i.e. tetrahydrobiopterin (BH4)) biosythesis (GTP cyclohydrolase 1 (GTPCH) and 6-pyruvol-tetrahydrobiopterin-syntase (PTPS)), or BH4 regeneration (dihydropteridine reductase (DHPR) and pterin carbinolamine-4alpha-dehydratase (PCD)).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Physician's guide to the laboratory diagnosis of metabolic diseases. (2004) N. Blau, Duran, M. Blaskovics, M.E., Gibson, K.M. Eds. Springer Verlag, pp. 89.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: HP:0004923</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
 	</owl:Class>
 
@@ -271,7 +207,24 @@
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0109406">
         <rdfs:label rdf:datatype="&xsd;string">phenylketonuria</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7112823"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                   <rdf:Description rdf:about="&ONSTR;ONSTR_7112823"/> 
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3590764"/>  
+                            <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_0128089"/>
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5173920"/>
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                       </owl:Restriction>    
+                </owl:intersectionOf>                                 
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:altLabel rdf:datatype="&xsd;string">PKU</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">PHENYLKETONURIA</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A congenital metabolic disease (of autosomal recessive inheritance), that is characterized by abnormally high levels of phenylalanine (hyperphenylalaninemia) and related metabolites such as phenylpyruvate, phenyllactate, phenylacetate, phenylacetylglutamine), and that is triggered by phenylalanine-4-hydoxilase deficiency (PAH deficinecy) that is caused by the mutations in the gene coding for phenylalanine hydoxilase (PAH). If untreated, pehnylalanine and its metabolic byproducts accumulate in the central nervous system and can cause severe brain damage, seizures (or convilsions), microcephaly, various language disorders (stuttering, slurrs, lisps), mental retardation, behavioral abnormalities, learning disabilities etc. Hypopigmentations and eczema are also observed.</skos:definition>
@@ -279,70 +232,25 @@
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
 	
-	
 
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8253459 --> <!-- PAH-hyperphenylalaninemia PKU -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_8253459">
-        <rdfs:label rdf:datatype="&xsd;string">PAH-hyperphenylalaninemia PKU</rdfs:label>
-         <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_0109406"/> <!-- PKU -->
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3590764"/>  <!-- is caused by -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0195747"/>  <!-- PAH deficiency PKU-HPA -->
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <skos:altLabel rdf:datatype="&xsd;string">PAH deficiency triggered PKU</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">PAH deficiency triggered phenylketonuria</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A type of phenyketonuria (PKU) that is caused by hyperphenylalalninemia  which is triggered by the phenylalanine-4-hydroxylase (PAH) deficiency.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD DefSource!</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>    
-    </owl:Class>
-	
-	
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5633529 --> <!-- BH4-hyperphenylalaninemia PKU -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_5633529">
-        <rdfs:label rdf:datatype="&xsd;string">BH4-hyperphenylalaninemia PKU</rdfs:label>
-       <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_0109406"/> <!-- PKU -->
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3590764"/>  <!-- is caused by -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3851112"/>  <!-- BH4 deficiency HPA -->
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <skos:altLabel rdf:datatype="&xsd;string">BH4 deficiency triggered PKU</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">BH4 deficiency triggered phenylketonuria</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A type of phenyketonuria (PKU) that is caused by hyperphenylalalninemia  which is triggered by the tetrahydrobiopetrin (BH4) deficiency.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD Def source.</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-    </owl:Class>
-	
 	
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0128089 --> <!-- PAH deficiency -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0128089">
-        <rdfs:label rdf:datatype="&xsd;string">PAH deficiency</rdfs:label>
-        <owl:equivalentClass>
+         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2709221"/> <!-- congenital metabolic disorder -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2709221"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3590764"/>  <!-- is cause of  -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0195747"/>  <!-- PAH deficiency HPA -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_5859795"/>  <!-- has finding -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2522662"/> <!-- phenylalanine concentration finding -->
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase deficiency</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine-4-hydroxilase deficiency</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">PAH deficiency</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">PAH deficiency is a congenital metabolic disorder characterized by reduced activity (deficiency in activity) of the enzyme phenylalanine-4-hydroxilaze, that is caused by two recessive mutated PAH alleles in the inherited PAH genome. PAH deficiency (and hypephenylalalninemia, and PKU, respectively) has autosomal recessive inheritance pattern with most cases in compound heterozygous state (genetic compound) where both maternal and paternal PAH alleles are differently mutated and present at chromosome 12.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.62-63.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -352,19 +260,20 @@
 	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5173920 --> <!-- BH4 deficiency -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5173920">
-        <rdfs:label rdf:datatype="&xsd;string">BH4 deficiency</rdfs:label>
-        <owl:equivalentClass>
+       <rdfs:label rdf:datatype="&xsd;string">tetrahydrobiopterin deficiency</rdfs:label>
+         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2709221"/> <!-- congenital metabolic disorder -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2709221"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3590764"/>  <!-- is cause of  -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3851112"/>  <!-- BH4 deficiency HPA -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_5859795"/>  <!-- has finding -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2522662"/> <!-- phenylalanine concentration finding -->
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:altLabel rdf:datatype="&xsd;string">tetrahydrobiopterin deficiency</skos:altLabel>
+        <rdfs:label rdf:datatype="&xsd;string">tetrahydrobiopterin deficiency</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">BH4 deficiency</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">BH4 (tetrahydrobiopterin) deficiency is a congenital metabolic disorder characterized by disruptions in BH4 biosythesis and regeneration cycle due to the mutated recessive alleles coding for one of the enzymes involved in BH4 biosythesis (GTP cyclohydrolase and 6-pyruvol-tetrahydrobiopterin-syntase), and/or mutated recessive alleles coding for enzymes involved BH4 regeneration (dihydropteridine reductase and pterin carbinolamine-4alpha-dehydratase). BH4 deficiencies have autosomal recessive inheritance pattern in both compound heterozygous (genetic compound) state and homozygous state.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Physician's guide to the laboratory diagnosis of metabolic diseases. (2004) N. Blau, Duran, M. Blaskovics, M.E., Gibson, K.M. Eds. Springer Verlag, pp. 89.</rdfs:comment> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.65-67.</rdfs:comment>       
@@ -376,7 +285,7 @@
 	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1272933 --> <!-- classic phenylketonuria -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1272933">
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8253459"/>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0109406"/>
         <rdfs:label rdf:datatype="&xsd;string">classic phenylketonuria</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">classic PKU</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">severe PKU</skos:altLabel>
@@ -389,7 +298,7 @@
  	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4838542 --> <!-- moderate phenylketonuria --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_4838542">
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8253459"/>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0109406"/>
         <rdfs:label rdf:datatype="&xsd;string">moderate phenylketonuria</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">moderate PKU</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is caused by hyperphenylalaninemina (HPA) having measured phenyalalnine blood concentration in the range 900-1200 mumol/L (15-20 mg/dL).</skos:definition>
@@ -401,7 +310,7 @@
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9287404 -->  <!-- mild phenylketonuria --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_9287404">
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8253459"/>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0109406"/>
         <rdfs:label rdf:datatype="&xsd;string">mild phenylketonuria</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">mild PKU</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is caused by hyperphenylalaninemina (HPA) having phenyalalnine blood concentration greater in the range 600-900 mumol/L (10-15 mg/dL).</skos:definition>
@@ -483,9 +392,9 @@
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1509758 --> <!-- PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1509758">
-        <rdfs:label rdf:datatype="&xsd;string">PAH genotype</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase genotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7175949"/>
-        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine hydroxylase genotype</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">PAH genotype</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A genotype that includes two alleles (of a gene) coding for enzyme phenylalanine hydroxylase (PAH), each of which has gene map locus 12q22-q24.2 (on homologous chromosome 12).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.62.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -495,7 +404,7 @@
 	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5583212 --> <!-- normal PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5583212">
-        <rdfs:label rdf:datatype="&xsd;string">normal PAH genotype</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine hydroxylase genotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1509758"/>
         <skos:altLabel rdf:datatype="&xsd;string">normal phenylalanine hydroxylase genotype</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A PAH genotype that includes two normal alleles (non-mutated alleles) coding for enzyme phenylalanine hydroxylase (PAH), each of which has gene map locus 12q22-q24.2 (on homologous chromosome 12).</skos:definition>
@@ -509,7 +418,7 @@
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1252223 --> <!-- mutated allele carrier PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1252223">
-        <rdfs:label rdf:datatype="&xsd;string">mutated allele carrier PAH genotype</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">mutated allele carrier phenylalanine hydroxylase genotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1509758"/>
         <skos:altLabel rdf:datatype="&xsd;string">mutated allele carrier phenylalanine hydroxylase genotype</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A PAH genotype that includes two alleles coding for enzyme phenylalanine hydroxylase (PAH), out of which one is a normal (non-mutated) PAH allele and the other is mutated PAH allele (i.e. the product of one of the genetic mutation processes that produce observed mutated PAH alleles).</skos:definition>
@@ -654,6 +563,127 @@
     </owl:Class>
  
 	
+
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2522662 --> <!-- hyperphenylalaninemia finding -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2522662">
+        <rdfs:label rdf:datatype="&xsd;string">hyperphenylalaninemia finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000018"/>
+        <skos:definition rdf:datatype="&xsd;string">Plasma or blood phenylalaninemia concentration greated than 120 mumol/L.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD some</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1445519 --> <!-- phenylalanine concentration finding -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1445519">
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine concentration finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000018"/>
+        <skos:definition rdf:datatype="&xsd;string">Concentration of phenylalanine in the plasma or blood or cerebrspinal fluid (CSF), expressed in mumol/L.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+
+
+
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3916451 --> <!-- plasma penylalanine concentration finding-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3916451">
+        <rdfs:label rdf:datatype="&xsd;string">plasma penylalanine concentration finding</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_1445519"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6285423"/> 
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+
+
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_XXXXX --> <!-- blood phenylalanine concentration finding -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_XXXXX">
+        <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration finding</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_1445519"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0114258"/> 
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+
+
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0114258 --> <!-- blood phenylalanine concentration test -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0114258">
+        <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration test</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+
+
+
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1115755 --> <!-- cerebrospinal fluid phenylalanine concentration finding -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1115755">
+        <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration finding</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_1445519"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2219307"/> 
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+
+
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2219307 --> <!-- cerebrospinal fluid phenylalanine concentration test -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2219307">
+        <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration test</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+
+
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6285423 --> <!-- plasma penylalanine concentration test-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6285423">
+        <rdfs:label rdf:datatype="&xsd;string">plasma penylalanine concentration test</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+
+
 
 	<!--  				     -->
 	<!--  OBJECT PROPERTIES	 -->
@@ -802,6 +832,55 @@
     </owl:ObjectProperty>
 
   
+      <!-- http://purl.obolibrary.org/obo/OBI_0000293 --> <!-- has_specified_input -->
+
+    <owl:ObjectProperty rdf:about="&obo;OBI_0000293">
+        <rdfs:subPropertyOf rdf:resource="&ro;has_participant"/>
+        <rdfs:label rdf:datatype="&xsd;string">has_specified_input</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</skos:definition>
+        <rdfs:domain rdf:resource="&obo;OBI_0000011"/><!-- planned process -->
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+        <!-- http://purl.obolibrary.org/obo/OBI_0000295 --> <!-- is_specified_input_of -->
+
+    <owl:ObjectProperty rdf:about="&obo;OBI_0000295">
+        <rdfs:subPropertyOf rdf:resource="&ro;participates_in"/>
+        <rdfs:label rdf:datatype="&xsd;string">is_specified_input_of</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</skos:definition>
+    	<skos:example xml:lang="en">some Autologous EBV(Epstein-Barr virus)-transformed B-LCL (B lymphocyte cell line) is_input_for instance of Chromum Release Assay described at https://wiki.cbil.upenn.edu/obiwiki/index.php/Chromium_Release_assay</skos:example>
+        <owl:inverseOf rdf:resource="&obo;OBI_0000293"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->  <!-- is_specified_output_of -->
+
+    <owl:ObjectProperty rdf:about="&obo;OBI_0000312">
+         <rdfs:subPropertyOf rdf:resource="&ro;participates_in"/>
+        <rdfs:label rdf:datatype="&xsd;string">is_specified_output_of</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</skos:definition>
+        <rdfs:domain rdf:resource="&obo;OBI_0000011"/><!-- planned process -->
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+
+    
+  <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->  <!-- has_specified_output -->
+
+    <owl:ObjectProperty rdf:about="&obo;OBI_0000299">
+        <rdfs:subPropertyOf rdf:resource="&ro;has_participant"/>
+        <rdfs:label rdf:datatype="&xsd;string">has_specified_output</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</skos:definition>
+    	<rdfs:domain rdf:resource="&obo;OBI_0000011"/><!-- planned process -->
+        <owl:inverseOf rdf:resource="&obo;OBI_0000312"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+
+    
+  
+  
+  
    
      <!--  	ONSTR OBJECT PROPERTIES	 -->
      
@@ -823,6 +902,26 @@
         <rdfs:label rdf:datatype="&xsd;string">is cause of</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A cause-effect relation between two entities in which the entity X is a cause of the existence of the entity Y.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5859795 -->  <!-- has finding -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_5859795">
+        <rdfs:label rdf:datatype="&xsd;string">has finding</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">Relates disease or quality [snap:specificallyDependentContinuan] to a clinical finding.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1932532 -->  <!-- is finding of -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_1932532">
+        <rdfs:label rdf:datatype="&xsd;string">is finding of</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">Relates the clinical finding and disease or quality [snap:specificallyDependentContinuan].</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+        <owl:inverseOf rdf:resource="&ONSTR;ONSTR_5859795"/>
     </owl:ObjectProperty>
 
 
