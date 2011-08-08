@@ -878,7 +878,109 @@
     </owl:ObjectProperty>
 
     
-  
+      <!-- http://purl.obofoundry.org/obo/IAO_0000039 -->  <!-- has measurement unit label --> 
+
+    <owl:ObjectProperty rdf:about="http://purl.obofoundry.org/obo/IAO_0000039">
+        <rdfs:subPropertyOf rdf:resource="&ro;has_part"/>
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">has measurement unit label</rdfs:label>
+        <rdfs:range rdf:resource="http://purl.obofoundry.org/obo/IAO_0000003"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->  <!-- is about -->
+
+    <owl:ObjectProperty rdf:about="&obo;IAO_0000136">
+        <rdfs:label rdf:datatype="&xsd;string">is about</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">is about is a (currently) primitive relation that relates an information artifact to an entity.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+    
+        <!-- http://purl.obofoundry.org/obo/IAO_0000221 -->  <!-- is quality measurement of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obofoundry.org/obo/IAO_0000221">
+        <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000136"/>
+        <rdfs:label rdf:datatype="&xsd;string">is quality measurement of</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string"
+            >m is a quality measurement of q at t when
+q is a determinable quality 
+there is a measurement process p that has_output m
+m has a value part that together with the units of the value of q at t.
+
+p is a assay 
+
+assay:
+process and has_input some material entity
+and has_output some information content entity 
+and which is such that instances of this process type reliably generate outputs that describes the input.
+
+a is a magnitude means a is a determinate quality particular inhering in some bearer b existing at a time t that can be represented/denoted by an information content entity e that has parts denoting a unit of measure, a number, and b. The unit of measure is an instance of the determinable quality. 
+
+unit of measure is a quality, e.g. the length of a ruler.
+
+a represents b means either a denotes b or a describes
+
+describe:
+a describes b means a is about b and a allows an inference of at least one quality of b
+
+Example:
+
+q = height of barry
+p is the process using a tape measure extend across the longer part of barry and reading off the number at the far end.
+v is that number
+# dimension is height
+unit of measure is inches
+
+We have had a long discussion about denotes versus describes.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+    
+     <!-- http://purl.org/obo/owl/OBO_REL#unfolds_in -->  <!-- unfolds in -->
+
+    <owl:ObjectProperty rdf:about="&OBO_REL;unfolds_in">
+        <rdfs:label rdf:datatype="&xsd;string">unfolds_in</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">P unfolds_in C : the execution of P is spatially contained by C. forall pP,  forall c&#39; partipates_in p, c&#39; located_in C at t, for some t in P</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OBI_1110060 -->  <!-- process is result of -->
+    
+     <owl:ObjectProperty rdf:about="&obo;OBI_1110060">
+    	<rdfs:subPropertyOf rdf:resource="&ro;preceded_by"/>
+    	<rdfs:label rdf:datatype="&xsd;string">process is result of</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">is a relationship between a process and a preceding occurrent that directly caused the later one to occur</skos:definition>
+        <skos:example rdf:datatype="&xsd;string">The production of IFN-gamma by effector T cells is a process result of T cell stimulation through the TCR</skos:example>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:ObjectProperty>
+    
+    
+      <!-- http://purl.obolibrary.org/obo/OBI_0000417 -->  <!-- achieves_planned_objective -->
+     
+      <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000417">
+    	<rdfs:label rdf:datatype="&xsd;string">achieves_planned_objective</rdfs:label>
+    	<skos:definition rdf:datatype="&xsd;string">This relation obtains between a planned process and a objective specification when the criteria specified in the objective specification are met at the end of the planned process.</skos:definition>
+    	<rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IAO_0000005"/>
+    	<rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/><!-- planned process -->
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+  </owl:ObjectProperty>
+    
+    
+    <!--  DATATYPE PROPERTIES -->
+    
+    
+    <!-- http://purl.obofoundry.org/obo/IAO_0000004 -->   <!-- has measurement value  -->
+
+    <owl:DatatypeProperty rdf:about="http://purl.obofoundry.org/obo/IAO_0000004">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">has measurement value</rdfs:label>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:DatatypeProperty>
   
   
    
