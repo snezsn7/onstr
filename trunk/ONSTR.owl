@@ -13,6 +13,7 @@
     <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY obo  "http://purl.obolibrary.org/obo/">
+    <!ENTITY oboFoundry "http://purl.obofoundry.org/obo/">
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY ONSTR "http://onstr.googlecode.com/svn/trunk/ONSTR.owl#" >
     <!ENTITY IAO "http://purl.obofoundry.org/obo/2009-07-15/iao.owl#" >
@@ -35,6 +36,7 @@
      xmlns:ONSTR="http://onstr.googlecode.com/svn/trunk/ONSTR.owl#"
      xmlns:IAO="http://purl.obofoundry.org/obo/2009-07-15/iao.owl#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:oboFoundry="http://purl.obofoundry.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:span="http://www.ifomis.org/bfo/1.1/span#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -365,6 +367,228 @@ people infected, then extract parasite which are then tested = observation study
            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
       </owl:Class>
    
+   
+   
+   
+   
+      <!-- http://purl.obofoundry.org/obo/IAO_0000109 -->   <!-- measurement datum -->
+
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/IAO_0000109">
+        <rdfs:label rdf:datatype="&xsd;string">measurement datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
+        <skos:definition rdf:datatype="&xsd;string">A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by an instrument.</skos:definition>
+        <skos:example rdf:datatype="&xsd;string">Examples of measurement data are the recoding of the weight of a mouse as {40,mass,&quot;grams&quot;}, the recording of an observation of the behavior of the mouse {,process,&quot;agitated&quot;}, the recording of the expression level of a gene as measured through the process of microarray experiment {3.4,luminosity,}.</skos:example>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/OBI_0000938 -->   <!-- categorical measurement datum -->
+      
+      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000938">
+         <rdfs:label rdf:datatype="&xsd;string">categorical measurement datum</rdfs:label>
+         <rdfs:subClassOf rdf:resource="&oboFoundry;IAO_0000109"/>
+         <skos:definition rdf:datatype="&xsd;string">A measurement datum that is reported on a categorical scale</skos:definition>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/OBI_0000976 -->   <!-- handedness categorical measurement datum -->
+      
+      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000976">
+         <rdfs:label rdf:datatype="&xsd;string">handedness categorical measurement datum</rdfs:label>
+         <rdfs:subClassOf rdf:resource="&obo;OBI_0000938"/>
+         <skos:definition rdf:datatype="&xsd;string">A datum used to record the answer to a self assessment of whether a person uses their left hand, right hand primarily or each hand equally</skos:definition>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/OBI_0000984 -->   <!-- dose -->
+      
+      <owl:Class rdf:about="http://purl.obofoundry.org/obo/OBI_0000984">
+         <rdfs:label rdf:datatype="&xsd;string">dose</rdfs:label>
+         <rdfs:subClassOf rdf:resource="&oboFoundry;IAO_0000109"/>
+         <skos:definition rdf:datatype="&xsd;string">A measurement datum that measures the quantity of something that may be administered to an organism or that an organism may be exposed to. Quantities of nutrients, drugs, vaccines and toxins are referred to as doses.</skos:definition>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+      <!-- http://purl.obofoundry.org/obo/IAO_0000032 -->   <!-- scalar measurement datum -->
+      
+      <owl:Class rdf:about="http://purl.obofoundry.org/obo/IAO_0000032">
+         <rdfs:label rdf:datatype="&xsd;string">scalar measurement datum</rdfs:label>
+         <rdfs:subClassOf rdf:resource="&oboFoundry;IAO_0000109"/>
+         <skos:definition rdf:datatype="&xsd;string">a scalar measurement datum is a measurement datum that is composed of two parts, a single numeral and a unit label.</skos:definition>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/OBI_0000987 -->   <!-- general scalar measurement datum -->
+      
+      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000987">
+         <rdfs:label rdf:datatype="&xsd;string">general scalar measurement datum</rdfs:label>
+         <rdfs:subClassOf rdf:resource="&oboFoundry;IAO_0000109"/>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    	 <rdfs:comment rdf:datatype="&xsd;string">Need to keep an eye on this one, because it may be removed from OBI.</rdfs:comment>
+    </owl:Class>
+    
+    
+      <!-- http://purl.obolibrary.org/obo/OBI_0000970 -->   <!-- scalar score from composite inputs -->
+      
+      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000970">
+         <rdfs:label rdf:datatype="&xsd;string">scalar score from composite inputs</rdfs:label>
+         <rdfs:subClassOf rdf:resource="&obo;OBI_0000987"/>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/OBI_0000991 -->   <!-- Edinburgh score -->
+      
+      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000991">
+         <rdfs:label rdf:datatype="&xsd;string">Edinburgh score</rdfs:label>
+         <rdfs:subClassOf rdf:resource="&obo;OBI_0000970"/>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/IAO_0000408 -->   <!-- length measurement datum -->
+      
+      <owl:Class rdf:about="http://purl.obofoundry.org/obo/IAO_0000408">
+         <rdfs:label rdf:datatype="&xsd;string">length measurement datum</rdfs:label>
+         <rdfs:subClassOf rdf:resource="&oboFoundry;IAO_0000032"/>
+         <skos:definition rdf:datatype="&xsd;string">A scalar measurement datum that is the result of measurement of length quality</skos:definition>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obofoundry.org/IAO_0000414 -->   <!-- mass measurement datum -->
+      
+      <owl:Class rdf:about="http://purl.obofoundry.org/obo/IAO_0000414">
+         <rdfs:label rdf:datatype="&xsd;string">mass measurement datum</rdfs:label>
+         <rdfs:subClassOf rdf:resource="&oboFoundry;IAO_0000032"/>
+         <skos:definition rdf:datatype="&xsd;string">A scalar measurement datum that is the result of measurement of mass quality</skos:definition>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/IAO_0000416 -->   <!-- time measurement datum -->
+      
+      <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000416">
+         <rdfs:label rdf:datatype="&xsd;string">time measurement datum</rdfs:label>
+         <rdfs:subClassOf rdf:resource="&oboFoundry;IAO_0000032"/>
+         <skos:definition rdf:datatype="&xsd;string">A scalar measurement datum that is the result of measuring a temporal interval</skos:definition>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+      <!-- http://purl.obolibrary.org/obo/OBI_0001167 -->   <!-- age measurement datum -->
+      
+      <owl:Class rdf:about="http://purl.obofoundry.org/obo/OBI_0001167">
+         <rdfs:label rdf:datatype="&xsd;string">age measurement datum</rdfs:label>
+         <rdfs:subClassOf rdf:resource="&obo;IAO_0000416"/>
+         <skos:definition rdf:datatype="&xsd;string">A time measurement datum that is the result of measurement of age of an organism</skos:definition>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obofoundry.org/obo/IAO_0000033 -->   <!-- directive information entity -->
+      
+      <owl:Class rdf:about="http://purl.obofoundry.org/obo/IAO_0000033">
+         <rdfs:label rdf:datatype="&xsd;string">directive information entity</rdfs:label>
+         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+         <skos:definition rdf:datatype="&xsd;string">An information content entity whose concretizations indicate to their bearer how to realize them in a process.</skos:definition>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obofoundry.org/obo/IAO_0000007 -->  <!-- action specification -->
+
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/IAO_0000007">
+        <rdfs:label rdf:datatype="&xsd;string">action specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oboFoundry;IAO_0000033"/>
+        <skos:definition rdf:datatype="&xsd;string">An action specification is information about a realizable that describes an action the bearer will take</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://purl.obofoundry.org/obo/OBI_0000969 -->  <!-- dose specification -->
+
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/OBI_0000969">
+        <rdfs:label rdf:datatype="&xsd;string">dose specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oboFoundry;IAO_0000033"/>
+        <skos:definition rdf:datatype="&xsd;string">a directive information entity that describes the dose that will be administered to a target</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obofoundry.org/obo/IAO_0000005 -->   <!-- objective specification -->
+
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/IAO_0000005">
+        <rdfs:label rdf:datatype="&xsd;string">objective specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oboFoundry;IAO_0000033"/>
+        <skos:definition rdf:datatype="&xsd;string">An objective specification is an information entity about a realizable entity that describes a intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved.</skos:definition>
+        <skos:example rdf:datatype="&xsd;string">purpose of a study; support of hypothesis, discovery of new information</skos:example>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OBI_0000441 -->  <!-- assay objective -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000441">
+        <rdfs:label rdf:datatype="&xsd;string">assay objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oboFoundry;IAO_0000005"/>
+        <skos:definition rdf:datatype="&xsd;string">is the specification of an objective to determine a specified type of information about an evaluated entity (independent continuant bearing evaluant role)</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/OBI_0000437 -->  <!-- analyte measurement objective -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000437">
+        <rdfs:label rdf:datatype="&xsd;string">analyte measurement objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000441"/>
+        <skos:definition rdf:datatype="&xsd;string">is an assay objective to determine the presence or concentration of an analyte in the evaluant</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/OBI_0000015 -->  <!-- biological feature identification objective -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000015">
+        <rdfs:label rdf:datatype="&xsd;string">biological feature identification objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&oboFoundry;IAO_0000005"/>
+        <skos:definition rdf:datatype="&xsd;string">Biological_feature_identification_objective is an objective role carried out by the proposition defining the aim of a study designed to examine or characterize a particular biological feature.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://purl.obofoundry.org/obo/OBI_0000268 -->  <!-- organism feature identification objective -->
+
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/OBI_0000268">
+        <rdfs:label rdf:datatype="&xsd;string">organism feature identification objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000015"/> 
+        <skos:definition rdf:datatype="&xsd;string">Organism_feature_identification_objective is a biological_feature_identification_objective role describing a study designed to examine or characterize a biological feature monitored at the level of the organism, e.g. height, weight, stage of development, stage of life cycle.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obofoundry.org/obo/OBI_0200166 -->  <!-- data transformation objective -->
+
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/OBI_0200166">
+        <rdfs:label rdf:datatype="&xsd;string">data transformation objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obofoundry.org/obo/IAO_0000005"/>
+        <skos:definition rdf:datatype="&xsd;string">A data transformation objective is an objective specification that a data transformation may have towards which the realization of that transformation is directed.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obofoundry.org/obo/OBI_0000684 -->  <!-- specimen creation objective -->
+
+    <owl:Class rdf:about="http://purl.obofoundry.org/obo/OBI_0000684">
+        <rdfs:label rdf:datatype="&xsd;string">specimen creation objective</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obofoundry.org/obo/IAO_0000005"/>
+        <skos:definition rdf:datatype="&xsd;string">A specimen creation objective is to obtain a material entity for potential use as an input during an investigation</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+    </owl:Class>
    
    
    
