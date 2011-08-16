@@ -22,6 +22,7 @@
     <!ENTITY PATO "http://purl.org/obo/owl/PATO#">
     <!ENTITY FMA "http://sig.uw.edu/fma#">
     <!ENTITY CARO "http://purl.org/obo/owl/CARO#">
+    <!ENTITY CL "http://purl.org/obo/owl/CL#">
     <!ENTITY OBO_REL "http://purl.org/obo/owl/OBO_REL#"> <!-- ro_proposed in OBI-->
 ]>    
 
@@ -47,6 +48,7 @@
      xmlns:PATO="http://purl.org/obo/owl/PATO#"
      xmlns:FMA="http://sig.uw.edu/fma#"
      xmlns:CARO="http://purl.org/obo/owl/CARO#"
+     xmlns:CL="http://purl.org/obo/owl/CL#"
      xmlns:OBO_REL="http://purl.org/obo/owl/OBO_REL#"
      xmlns:imports="http://onstr.googlecode.com/svn/trunk/imports">
      
@@ -370,9 +372,6 @@ people infected, then extract parasite which are then tested = observation study
            <skos:example rdf:datatype="&xsd;string">Precipitation is the formation of a solid in a solution during a chemical reaction. When the reaction occurs, the solid formed is called the precipitate, and the liquid remaining above the solid is called the supernate.  Wikipedia</skos:example>
            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
       </owl:Class>
-   
-   
-   
    
    
       <!-- http://purl.obofoundry.org/obo/IAO_0000109 -->   <!-- measurement datum -->
@@ -836,10 +835,6 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
    
    
-   
-   
-   
-   
         <!--  http://sig.uw.edu/fma#Anatomical_entity -->  <!-- anatomical entity -->
      
      <owl:Class rdf:about="http://sig.uw.edu/fma#Anatomical_entity">
@@ -1017,6 +1012,176 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:label rdf:datatype="&xsd;string">Brain</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Segment of neuraxis that has as its parts gray matter and white matter that surround the cerebral ventricular system;  Examples: There is only one brain.</skos:definition>
           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+   
+   
+   
+   
+    <!--  http://sig.uw.edu/fma#Portion_of_body_substance -->  <!-- Portion of body substance -->
+     
+     	<owl:Class rdf:about="http://sig.uw.edu/fma#Portion_of_body_substance">
+          <rdfs:subClassOf rdf:resource="&FMA;Material_anatomical_entity"/>
+          <rdfs:label rdf:datatype="&xsd;string">Portion of body substance</rdfs:label>
+          <skos:definition rdf:datatype="&xsd;string">Material anatomical entity in a gaseous, liquid, semisolid or solid state, with or without the admixture of cells and biological macromolecules; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures. Examples: saliva, semen, cerebrospinal fluid, respiratory air, urine, feces, blood, plasma, lymph.</skos:definition>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CL#CL_0000000 --> <!-- cell -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000000">
+    		<rdfs:label rdf:datatype="&xsd;string">cell</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&FMA;Anatomical_structure"/>
+    		<skos:definition rdf:datatype="&xsd;string">Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CL#CL_0000000 --> <!-- cell in vivo -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000003">
+    		<rdfs:label rdf:datatype="&xsd;string">cell in vivo</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0000000"/>
+           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.org/obo/owl/CL#CL_0000004 --> <!-- cell by organism -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000004">
+    		<rdfs:label rdf:datatype="&xsd;string">cell by organism</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0000003"/>
+            <skos:definition rdf:datatype="&xsd;string">A classification of cells by the organisms within which they are contained.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CL#CL_0000255 --> <!-- eucaryotic cell -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000255">
+    		<rdfs:label rdf:datatype="&xsd;string">eucaryotic cell</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0000004"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+        <!-- http://purl.org/obo/owl/CL#CL_0000548 --> <!-- animal cell -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000548">
+    		<rdfs:label rdf:datatype="&xsd;string">animal cell</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0000255"/> 
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+       <!-- http://purl.org/obo/owl/CL#CL_0000066 --> <!-- epithelial cell -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000066">
+    		<rdfs:label rdf:datatype="&xsd;string">epithelial cell</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0000548"/>
+            <skos:definition rdf:datatype="&xsd;string">A cell that is usually found in a two-dimensional sheet with a free surface. The cell has a cytoskeleton that allows for tight cell to cell contact and for cell polarity where apical part is directed towards the lumen and the basal part to the basal lamina.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.org/obo/owl/CL#CL_0000182 --> <!-- hepatocyte -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000182">
+    		<rdfs:label rdf:datatype="&xsd;string">hepatocyte</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0000066"/>
+      		<skos:definition rdf:datatype="&xsd;string">The main structural component of the liver. They are specialized epithelial cells that are organized into interconnected plates called lobules. Majority of cell population of liver, polygonal in shape, arranged in plates or trabeculae between sinusoids; may have single nucleus or binucleated.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CL#CL_0002518 --> <!-- kidney epithelial cell -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0002518">
+    		<rdfs:label rdf:datatype="&xsd;string">kidney epithelial cell</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0000066"/>
+             <skos:definition rdf:datatype="&xsd;string">An epithelial cell of the kidney.</skos:definition>
+             <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CL#CL_0000988 --> <!-- hematopoietic cell -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000988">
+    		<rdfs:label rdf:datatype="&xsd;string">hematopoietic cell</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0000548"/>
+            <skos:definition rdf:datatype="&xsd;string">A cell of a hematopoietic lineage.</skos:definition>
+    		<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+  
+        <!-- http://purl.org/obo/owl/CL#CL_0000081 --> <!--  blood cell -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000081">
+    		<rdfs:label rdf:datatype="&xsd;string">blood cell</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0000988"/>
+            <skos:definition rdf:datatype="&xsd;string">A cell found predominately in the blood.</skos:definition>
+    		<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CL#CL_0000232 --> <!-- erythrocyte -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000232">
+    		<rdfs:label rdf:datatype="&xsd;string">erythrocyte</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0000081"/>
+            <skos:definition rdf:datatype="&xsd;string">A red blood cell. In mammals, mature erythrocytes are biconcave disks containing hemoglobin whose function is to transport oxygen.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+       <!-- http://purl.org/obo/owl/CL#CL_0000094 --> <!-- granulocyte -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000094">
+    		<rdfs:label rdf:datatype="&xsd;string">granulocyte</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0000081"/>
+            <skos:definition rdf:datatype="&xsd;string">A leukocyte with abundant granules in the cytoplasm.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+       <!-- http://purl.org/obo/owl/CL#CL_0000233 --> <!-- platelet -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000233">
+    		<rdfs:label rdf:datatype="&xsd;string">platelet</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0000081"/>
+            <skos:definition rdf:datatype="&xsd;string">A non-nucleated disk-shaped cell formed by extrusion from megakaryocytes, found in the blood of all mammals, and mainly involved in blood coagulation.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+       <!-- http://purl.org/obo/owl/CL#CL_0000738 --> <!-- leukocyte -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000738">
+    		<rdfs:label rdf:datatype="&xsd;string">leukocyte</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0000988"/>
+            <skos:definition rdf:datatype="&xsd;string">An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+       <!-- http://purl.org/obo/owl/CL#CL_0002087 --> <!-- nongranular leukocyte -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0002087">
+    		<rdfs:label rdf:datatype="&xsd;string">nongranular leukocyte</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0000738"/>
+    		<skos:definition rdf:datatype="&xsd;string">A leukocyte that lacks granules.</skos:definition>
+      	    <rdfs:comment rdf:datatype="&xsd;string">SN: This term has class-complement kind of label (non-xxx). It might be deprecated in later versions of CL. Need to keep an eye on this one.</rdfs:comment>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CL#CL_0000542 --> <!-- lymphocyte -->
+      
+        <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000542">
+    		<rdfs:label rdf:datatype="&xsd;string">lymphocyte</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CL;CL_0002087"/>
+            <skos:definition rdf:datatype="&xsd;string">A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
       </owl:Class>
    
    
