@@ -23,6 +23,7 @@
     <!ENTITY FMA "http://sig.uw.edu/fma#">
     <!ENTITY CARO "http://purl.org/obo/owl/CARO#">
     <!ENTITY CL "http://purl.org/obo/owl/CL#">
+    <!ENTITY CHEBI "http://purl.org/obo/owl/CHEBI#">
     <!ENTITY OBO_REL "http://purl.org/obo/owl/OBO_REL#"> <!-- ro_proposed in OBI-->
 ]>    
 
@@ -49,19 +50,20 @@
      xmlns:FMA="http://sig.uw.edu/fma#"
      xmlns:CARO="http://purl.org/obo/owl/CARO#"
      xmlns:CL="http://purl.org/obo/owl/CL#"
+     xmlns:CHEBI="http://purl.org/obo/owl/CHEBI#"
      xmlns:OBO_REL="http://purl.org/obo/owl/OBO_REL#"
      xmlns:imports="http://onstr.googlecode.com/svn/trunk/imports">
+     
      
     <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/trunk/ONSTR.owl">
         <owl:versionInfo rdf:datatype="&xsd;string">0.1</owl:versionInfo>
         <dc:date rdf:datatype="&xsd;string">2011-06-03</dc:date>
-        <dc:creator rdf:datatype="&xsd;string">Akshaye Dhawan</dc:creator>
         <dc:description rdf:datatype="&xsd;string">Here goes the description of the ONSTR. The Ontology for Neonatal Screening and Translational Research is ...something something something...Prabhu HELP!</dc:description>
-        <dc:creator rdf:datatype="&xsd;string">Kunal Malhotra</dc:creator>
         <skos:altLabel rdf:datatype="&xsd;string">ONSTR</skos:altLabel>
         <dc:title rdf:datatype="&xsd;string">Ontology for Neonatal Screening and Translational Research</dc:title>
-        <dc:creator rdf:datatype="&xsd;string">Prabhu Shankar</dc:creator>
         <dc:format rdf:datatype="&xsd;string">RDF/XML</dc:format>
+        <dc:creator rdf:datatype="&xsd;string">Prabhu Shankar</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">Akshaye Dhawan</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Rajshekar Sunderraman</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Rani Singh</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Shamkant Navathe</dc:creator>
@@ -1013,9 +1015,7 @@ people infected, then extract parasite which are then tested = observation study
           <skos:definition rdf:datatype="&xsd;string">Segment of neuraxis that has as its parts gray matter and white matter that surround the cerebral ventricular system;  Examples: There is only one brain.</skos:definition>
           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
       </owl:Class>
-   
-   
-   
+  
    
     <!--  http://sig.uw.edu/fma#Portion_of_body_substance -->  <!-- Portion of body substance -->
      
@@ -1183,6 +1183,226 @@ people infected, then extract parasite which are then tested = observation study
             <skos:definition rdf:datatype="&xsd;string">A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin.</skos:definition>
             <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
       </owl:Class>
+   
+   
+   
+   
+           <!-- http://purl.org/obo/owl/CHEBI#CHEBI_24431 --> <!-- chemical entity -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_24431">
+    		<rdfs:label rdf:datatype="&xsd;string">chemical entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&snap;MaterialEntity"/>
+            <skos:definition rdf:datatype="&xsd;string">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+        <!-- http://purl.org/obo/owl/CHEBI#CHEBI_23367 --> <!-- molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_23367">
+    		<rdfs:label rdf:datatype="&xsd;string">molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_24431"/>
+            <skos:definition rdf:datatype="&xsd;string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+        <!-- http://purl.org/obo/owl/CHEBI#CHEBI_33579 --> <!-- main group molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_33579">
+    		<rdfs:label rdf:datatype="&xsd;string">main group molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_23367"/>
+            <skos:definition rdf:datatype="&xsd;string">A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+       <!-- http://purl.org/obo/owl/CHEBI#CHEBI_33675 --> <!-- p-block molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_33675">
+    		<rdfs:label rdf:datatype="&xsd;string">p-block molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_33579"/>
+            <skos:definition rdf:datatype="&xsd;string">A p-block molecular entity is a molecular entity containing one or more atoms of a p-block element.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+       <!-- http://purl.org/obo/owl/CHEBI#CHEBI_33582 --> <!-- carbon group molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_33582">
+    		<rdfs:label rdf:datatype="&xsd;string">carbon group molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_33675"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+        <!-- http://purl.org/obo/owl/CHEBI#CHEBI_50860 --> <!-- organic molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_50860">
+    		<rdfs:label rdf:datatype="&xsd;string">organic molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_33582"/>
+            <skos:definition rdf:datatype="&xsd;string">Any molecular entity that contains carbon.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+       <!-- http://purl.org/obo/owl/CHEBI#CHEBI_33575 --> <!-- carboxylic acid -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_33575">
+    		<rdfs:label rdf:datatype="&xsd;string">carboxylic acid</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_50860"/>
+    		<skos:definition rdf:datatype="&xsd;string">An oxoacid acid carrying at least one -C(=O)OH group and having the structure RC(=O)OH, where R is any any monovalent functional group. Carboxylic acids are the most common type of organic acid.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CHEBI#CHEBI_33709 --> <!-- amino acid -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_33709">
+    		<rdfs:label rdf:datatype="&xsd;string">amino acid</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_33575"/>
+    		<skos:definition rdf:datatype="&xsd;string">A carboxylic acid containing one or more amino groups.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CHEBI#CHEBI_33704 --> <!-- alpha amino acid -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_33704">
+    		<rdfs:label rdf:datatype="&xsd;string">alpha amino acid</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_33709"/>
+           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CHEBI#CHEBI_28044 --> <!-- phenylalanine -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_28044">
+    		<rdfs:label rdf:datatype="&xsd;string">phenylalanine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_33704"/>
+            <skos:definition rdf:datatype="&xsd;string">An aromatic amino acid that has formula C9H11NO2.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CHEBI#CHEBI_17295 --> <!-- L-phenylalanine -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_17295">
+    		<rdfs:label rdf:datatype="&xsd;string">L-phenylalanine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_28044"/>
+            <skos:definition rdf:datatype="&xsd;string">The L-enantiomer of phenylalanine.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CHEBI#CHEBI_18186 --> <!-- tyrosine -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_18186">
+    		<rdfs:label rdf:datatype="&xsd;string">tyrosine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_33704"/>
+            <skos:definition rdf:datatype="&xsd;string">An amino acid in which the side chain is a para-hydroxyphenyl group.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+       <!-- http://purl.org/obo/owl/CHEBI#CHEBI_17895 --> <!-- L-tyrosine -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_17895">
+    		<rdfs:label rdf:datatype="&xsd;string">L-tyrosine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_18186"/>
+            <skos:definition rdf:datatype="&xsd;string">An optically active form of tyrosine having L-configuration.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+       
+       <!-- http://purl.org/obo/owl/CHEBI#CHEBI_36357 --> <!-- polyatomic entity -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_36357">
+    		<rdfs:label rdf:datatype="&xsd;string">polyatomic entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_23367"/>
+            <skos:definition rdf:datatype="&xsd;string">Any molecular entity consisting of more than one atom.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+     
+      <!-- http://purl.org/obo/owl/CHEBI#CHEBI_33839 --> <!-- macromolecule -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_33839">
+    		<rdfs:label rdf:datatype="&xsd;string">macromolecule</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_36357"/>
+            <skos:definition rdf:datatype="&xsd;string">A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+       <!-- http://purl.org/obo/owl/CHEBI#CHEBI_33694 --> <!-- biomacromolecule -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_33694">
+    		<rdfs:label rdf:datatype="&xsd;string">biomacromolecule</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_33839"/>
+            <skos:definition rdf:datatype="&xsd;string">A macromolecule formed by a living organism.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+       <!-- http://purl.org/obo/owl/CHEBI#CHEBI_33695 --> <!-- information biomacromolecule -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_33695">
+    		<rdfs:label rdf:datatype="&xsd;string">information biomacromolecule</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_33694"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+       <!-- http://purl.org/obo/owl/CHEBI#CHEBI_15986 --> <!-- polynucleotide -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_15986">
+    		<rdfs:label rdf:datatype="&xsd;string">polynucleotide</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_33695"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CHEBI#CHEBI_33696 --> <!-- nucleic acid -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_33696">
+    		<rdfs:label rdf:datatype="&xsd;string">nucleic acid</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_15986"/>
+            <skos:definition rdf:datatype="&xsd;string">A macromolecule made up of nucleotide units and hydrolyzable into certain pyrimidine or purine bases (usually adenine, cytosine, guanine, thymine, uracil), D-ribose or 2-deoxy-D-ribose and phosphoric acid.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+       <!-- http://purl.org/obo/owl/CHEBI#CHEBI_33259 --> <!-- elemental molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_33259">
+    		<rdfs:label rdf:datatype="&xsd;string">elemental molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_23367"/>
+            <skos:definition rdf:datatype="&xsd;string">A molecular entity all atoms of which have the same atomic number.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CHEBI#CHEBI_25362 --> <!-- elemental molecule -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_25362">
+    		<rdfs:label rdf:datatype="&xsd;string">elemental molecule</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_33259"/>
+            <skos:definition rdf:datatype="&xsd;string">A molecule all atoms of which have the same atomic number.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.org/obo/owl/CHEBI#CHEBI_15379 --> <!-- dioxygen -->
+      
+  		<owl:Class rdf:about="http://purl.org/obo/owl/CHEBI#CHEBI_15379">
+    		<rdfs:label rdf:datatype="&xsd;string">dioxygen</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&CHEBI;CHEBI_25362"/>
+            <skos:definition rdf:datatype="&xsd;string">An elemental molecule that has formula O2.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+      </owl:Class>
+   
+   
    
    
    
