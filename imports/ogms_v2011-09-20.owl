@@ -12,7 +12,7 @@
      xmlns:bfo="http://www.ifomis.org/bfo/1.1#"
      xmlns:span="http://www.ifomis.org/bfo/1.1/span#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ogms.owl">
-        <owl:versionInfo>2011-02-21</owl:versionInfo>
+        <owl:versionInfo>2011-09-20</owl:versionInfo>
         <dc:creator>Barry Smith</dc:creator>
         <dc:creator>Anand Kumar</dc:creator>
         <dc:creator>Albert Goldfain</dc:creator>
@@ -22,8 +22,8 @@
         <rdfs:comment>The Ontology for General Medical Science (OGMS) is based on the papers Toward an Ontological Treatment of Disease and Diagnosis and On Carcinomas and Other Pathological Entities. The ontology attempts to address some of the issues raised at the Workshop on Ontology of Diseases (Dallas, TX). OGMS was formerly called the clinical phenotype ontology. Terms from OGMS hang from the Basic Formal Ontology.
 
 The latest version of OGMS is always available at http://purl.obolibrary.org/obo/ogms.owl
-This is version 2011-02-21 aka &#39;0.8&#39;
-http://purl.obolibrary.org/obo/ogms/2011-02-21/ogms.owl
+This is version 2011-09-20 aka &#39;0.9&#39;
+http://purl.obolibrary.org/obo/ogms/2011-09-20/ogms.owl
 
 The OGMS developer site is http://code.google.com/p/ogms/
 The discussion group is http://groups.google.com/group/ogms-discuss
@@ -36,7 +36,7 @@ If you are interested in participating in the development of OGMS, please send e
         <dc:creator>Sivaram Arabandi</dc:creator>
         <dc:creator>Daniel Merico</dc:creator>
         <owl:imports rdf:resource="http://protege.stanford.edu/plugins/owl/dc/protege-dc.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/dev/ontology-metadata.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/ontology-metadata.owl"/>
         <owl:imports rdf:resource="http://www.ifomis.org/bfo/1.1"/>
     </owl:Ontology>
     
@@ -99,6 +99,17 @@ If you are interested in participating in the development of OGMS, please send e
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
         <obo:IAO_0000119>OBO:sourced &quot;OBI:0000142&quot;</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">an information content entity is an entity that is generically dependent on some artifact and stands in relation of aboutness to some entity</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000013">
+        <rdfs:label>obsolete_representation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000232>creation date: 2009-06-23T10:17:44Z</obo:IAO_0000232>
     </owl:Class>
     
 
@@ -190,6 +201,17 @@ If you are interested in participating in the development of OGMS, please send e
         <obo:IAO_0000232>creation date: 2010-11-18T11:02:10Z</obo:IAO_0000232>
         <obo:IAO_0000115 xml:lang="en">A quality of a patient that is observed by the patient or a processual entity experienced by the patient, either of which is hypothesized by the patient to be a realization of a disease.</obo:IAO_0000115>
         <obo:IAO_0000116>note: defined class</obo:IAO_0000116>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000021">
+        <rdfs:label>obsolete_bodily feature of a patient</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000232>creation date: 2009-06-23T11:09:37Z</obo:IAO_0000232>
     </owl:Class>
     
 
@@ -375,6 +397,19 @@ If you are interested in participating in the development of OGMS, please send e
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000036">
+        <rdfs:label>obsolete_infectious disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A disease whose physical basis is an infectious disorder.</obo:IAO_0000115>
+        <obo:IAO_0000232>creation date: 2009-06-23T11:25:51Z</obo:IAO_0000232>
+        <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000037">
@@ -466,6 +501,32 @@ If you are interested in participating in the development of OGMS, please send e
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000048">
+        <rdfs:label>obsolete_infectious disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000232>creation date: 2009-06-23T11:41:45Z</obo:IAO_0000232>
+        <obo:IAO_0000115 xml:lang="en">A disorder whose etiology includes the presence of a pathogenic organism within a host organism or an abnormal imbalance in the normal resident organismal flora.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000049">
+        <rdfs:label>obsolete_secondary infection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A disorder consisting in the presence of a pathogenic organism within a host organism that occurs due to the disposition established by a prior infection with a pathogenic organism of a different kind.</obo:IAO_0000115>
+        <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
+        <obo:IAO_0000232>creation date: 2009-06-23T11:42:20Z</obo:IAO_0000232>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000050">
@@ -488,6 +549,19 @@ If you are interested in participating in the development of OGMS, please send e
         <obo:IAO_0000115 xml:lang="en">A genetic disorder inherited during conception that is part of all cells in the organism.</obo:IAO_0000115>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000232>creation date: 2009-06-23T11:43:44Z</obo:IAO_0000232>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000054">
+        <rdfs:label>obsolete_standardized clinical process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">A fiat process part which involves the execution of a standardized protocol for measuring qualities of a patient.</obo:IAO_0000115>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
+        <obo:IAO_0000232>creation date: 2009-06-23T11:47:06Z</obo:IAO_0000232>
     </owl:Class>
     
 
@@ -631,6 +705,17 @@ If you are interested in participating in the development of OGMS, please send e
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000068">
+        <rdfs:label>obsolete_bodily feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000232>creation date: 2009-06-23T11:58:39Z</obo:IAO_0000232>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000069">
@@ -670,7 +755,7 @@ If you are interested in participating in the development of OGMS, please send e
         <rdfs:label>diagnosis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">The representation of a conclusion of an interpretive process that has as input a clinical picture of a given patient and as output an assertion (diagnostic statement) to the effect that the patient has a disease of such and such a type.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">The representation of a conclusion of a diagnostic process.</obo:IAO_0000115>
         <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
         <obo:IAO_0000232>creation date: 2009-06-23T12:42:23Z</obo:IAO_0000232>
     </owl:Class>
@@ -686,6 +771,17 @@ If you are interested in participating in the development of OGMS, please send e
         <obo:IAO_0000232>creation date: 2009-06-26T10:31:34Z</obo:IAO_0000232>
         <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000075">
+        <rdfs:label>obsolete_infection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000232>creation date: 2009-07-08T12:20:49Z</obo:IAO_0000232>
     </owl:Class>
     
 
@@ -1014,6 +1110,45 @@ If you are interested in participating in the development of OGMS, please send e
     </owl:Class>
     
 
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000102">
+        <rdfs:label>injury</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/ca0ad373f27774c5</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A part of an organism that has undergone a change in structural integrity and has a higher chance of dysfunction or causing dysfunction in another structure.</obo:IAO_0000115>
+        <obo:IAO_0000116>At the scale of organism (as opposed to the cellular scale or the population scale), an injury is typically the result of a catastrophic event. Consider the implications of making 'injury' a subtype of 'disorder'.</obo:IAO_0000116>
+        <obo:IAO_0000232>creation date: 2011-09-20T09:57:44Z</obo:IAO_0000232>
+    </owl:Class>    
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000103">
+        <rdfs:label>prophylaxis</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/e42bde79218ee34e</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A planned process that has the objective to reduce the risk of acquiring one or more disorders.</obo:IAO_0000115>
+        <obo:IAO_0000116>Whether or not 'prophylaxis' and 'treatment' classes are disjoint is an open question.</obo:IAO_0000116>
+        <obo:IAO_0000232>creation date: 2011-09-20T09:57:44Z</obo:IAO_0000232>
+    </owl:Class>
+
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000104">
+        <rdfs:label>diagnostic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://groups.google.com/group/ogms-discuss/browse_thread/thread/2a7008f311fac766/e7de486c94dfd82e</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">An interpretive process that has as input a clinical picture of a given patient and as output an assertion (diagnostic statement) to the effect that the patient has a disease of such and such a type.</obo:IAO_0000115>
+        <obo:IAO_0000232>creation date: 2011-09-20T09:57:44Z</obo:IAO_0000232>
+    </owl:Class>    
 
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
