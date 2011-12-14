@@ -52,7 +52,7 @@
      xmlns:CL="http://purl.org/obo/owl/CL#"
      xmlns:CHEBI="http://purl.org/obo/owl/CHEBI#"
      xmlns:OBO_REL="http://purl.org/obo/owl/OBO_REL#"
-     xmlns:imports="http://onstr.googlecode.com/svn/trunk/imports">
+     xmlns:imports="http://purl.obolibrary.org/obo/ogms.owl">
      
      
     <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/trunk/ONSTR.owl">
@@ -66,12 +66,12 @@
         <dc:creator rdf:datatype="&xsd;string">Akshaye Dhawan</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Rajshekar Sunderraman</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Rani Singh</dc:creator>
-        <dc:creator rdf:datatype="&xsd;string">Shamkant Navathe</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">Sham Navathe</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sivaram Arabandi</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Snezana Nikolic</dc:creator>
-        <dc:subject rdf:datatype="&xsd;string">Some general thing, like keywords :ontology, neonatal screening, translational research, translational medicine, health care...Prabhu HELP!</dc:subject>
+        <dc:subject rdf:datatype="&xsd;string">Some general thing, like keywords :ontology, neonatal screening for inborn errors of metabolism, inborn errors of metabolism, translational research, translational medicine, health care, public health</dc:subject>
         <owl:imports rdf:resource="http://www.ifomis.org/bfo/1.1"/>
-        <owl:imports rdf:resource="http://onstr.googlecode.com/svn/trunk/imports/ogms.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
         <owl:imports rdf:resource="http://purl.org/obo/owl/ro"/>   
     </owl:Ontology>
     
@@ -131,7 +131,6 @@
    	<owl:Class rdf:about="&GO;GO_0003824">
      	<rdfs:label rdf:datatype="&xsd;string">catalytic activity</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0003674"/>
-     	<skos:prefLabel rdf:datatype="&xsd;string">catalytic function</skos:prefLabel>
      	<skos:definition rdf:datatype="&xsd;string">Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic." [ISBN:0198506732 "Oxford Dictionary of Biochemistry and Molecular Biology"]</skos:definition>
      	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
   </owl:Class>
@@ -242,7 +241,7 @@
      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000116">
     	  <rdfs:label rdf:datatype="&xsd;string">worker role</rdfs:label>
     	  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000202"/><!-- investigation agent role -->
-    	  <skos:definition rdf:datatype="&xsd;string">a personnel role played by a party who executes a component of the study plan; this can occur before, during, after or outside the study timeline</skos:definition>
+    	  <skos:definition rdf:datatype="&xsd;string">A personnel role played by a party who executes a component of the study plan; this can occur before, during, after or outside the study timeline</skos:definition>
 		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
       </owl:Class>	
      
@@ -252,7 +251,7 @@
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000207">
     	 <rdfs:label rdf:datatype="&xsd;string">health care provider role</rdfs:label>
     	 <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000116"/><!-- worker role -->
-    	 <skos:definition rdf:datatype="&xsd;string">a worker role of providing medical care either within or outside the study timeline</skos:definition>
+    	 <skos:definition rdf:datatype="&xsd;string">A worker role of providing medical care either within or outside the study timeline</skos:definition>
 		 <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
       </owl:Class>	
       
@@ -262,7 +261,7 @@
        <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000145">
     	 <rdfs:label rdf:datatype="&xsd;string">pathologist role</rdfs:label>
     	 <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000116"/>  <!-- worker role -->
-    	 <skos:definition rdf:datatype="&xsd;string">a worker role of being responsible for making the histopathology diagnoses associated with data from a study; this activity occurs outside the study timeline</skos:definition>
+    	 <skos:definition rdf:datatype="&xsd;string">A worker role of being responsible for making the histopathology diagnoses associated with data from a study; this activity occurs outside the study timeline</skos:definition>
 		 <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
       </owl:Class>
       
@@ -1027,6 +1026,13 @@ people infected, then extract parasite which are then tested = observation study
       </owl:Class>
       
       
+      
+      
+      
+      
+      
+      
+      
       <!-- http://purl.org/obo/owl/CL#CL_0000000 --> <!-- cell -->
       
         <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000000">
@@ -1401,6 +1407,12 @@ people infected, then extract parasite which are then tested = observation study
             <skos:definition rdf:datatype="&xsd;string">An elemental molecule that has formula O2.</skos:definition>
             <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
       </owl:Class>
+   
+   
+   
+   <!-- NEW -->
+   
+   
    
    
    
