@@ -1552,7 +1552,92 @@ people infected, then extract parasite which are then tested = observation study
    
    
      
+        <!-- http://purl.obolibrary.org/obo/CHEBI_33595 -->  <!-- cyclic compound -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33595">
+        <rdfs:label rdf:datatype="&xsd;string">cyclic compound</rdfs:label> <!-- no def -->
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36357"/>  <!-- polyatomic entity -->
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5686 -->  <!-- heterocyclic compound -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5686">
+        <rdfs:label rdf:datatype="&xsd;string">heterocyclic compound</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33595"/>  
+        <skos:definition rdf:datatype="&xsd;string">A cyclic compound having as ring members atoms of at least two different elements.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33672 -->  <!-- heterobicyclic compound -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33672">
+        <rdfs:label rdf:datatype="&xsd;string">heterobicyclic compound</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_5686"/>
+        <skos:definition rdf:datatype="&xsd;string">A bicyclic compound in which at least one of the rings contains at least one skeletal heteroatom.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+    </owl:Class>
+      
+      
+   <!-- http://purl.obolibrary.org/obo/CHEBI_27171 -->  <!-- organic heterobicyclic compound -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27171">
+        <rdfs:label rdf:datatype="&xsd;string">organic heterobicyclic compound</rdfs:label>  <!-- no def -->
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33672"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26373 -->  <!-- pteridines -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26373">
+        <rdfs:label rdf:datatype="&xsd;string">pteridines</rdfs:label>  <!-- no def -->
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_27171"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/CHEBI_26375 -->  <!-- pterins -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26375">
+        <rdfs:label rdf:datatype="&xsd;string">pterins</rdfs:label>  <!-- no def -->
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26373"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/CHEBI_22881 -->  <!-- biopterins -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22881">
+        <rdfs:label rdf:datatype="&xsd;string">biopterins</rdfs:label>  <!-- no def -->
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26375"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+    </owl:Class>
+    
    
+   <!-- http://purl.obolibrary.org/obo/CHEBI_15372 -->  <!-- 5,6,7,8-tetrahydrobiopterin -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15372">
+        <rdfs:label rdf:datatype="&xsd;string">5,6,7,8-tetrahydrobiopterin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_22881"/>
+        <skos:definition rdf:datatype="&xsd;string">A biopterin that has formula C9H15N5O3.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">BH4</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">tetrahydrobiopterin</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/CHEBI_59560 -->  <!-- sapropterin -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_59560">
+        <rdfs:label rdf:datatype="&xsd;string">sapropterin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_15372"/>
+        <skos:definition rdf:datatype="&xsd;string">A tetrahydropterin that is 2-amino-5,6,7,8-tetrahydropteridin-4(3H)-one in which a hydrogen at position 6 is substituted by a 1,2-dihydroxypropyl group (6R,1'R,2'S-enantiomer).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">"Sapropterin" is also a name denoting a drug for BH4 deficiencies.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+    </owl:Class>
    
   
    
