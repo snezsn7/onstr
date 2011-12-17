@@ -887,6 +887,57 @@ people infected, then extract parasite which are then tested = observation study
       </owl:Class>
       
       
+    <!--  http://purl.org/sig/fma/Body -->  <!-- Body -->
+     
+     <owl:Class rdf:about="http://purl.org/sig/fma/Body">
+          <rdfs:subClassOf rdf:resource="&FMA;Anatomical_structure"/>
+          <rdfs:label rdf:datatype="&xsd;string">Body</rdfs:label>
+          <skos:definition rdf:datatype="&xsd;string">Anatomical structure which is the aggregate material substance of an individual member of a species.</skos:definition>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+      </owl:Class>
+      
+    
+    <!--  http://purl.org/sig/fma/Body_of_vertebrate -->  <!-- Body of vertebrate -->
+     
+     <owl:Class rdf:about="http://purl.org/sig/fma/Body_of_vertebrate">
+          <rdfs:subClassOf rdf:resource="&FMA;Body"/>
+          <rdfs:label rdf:datatype="&xsd;string">Body of vertebrate</rdfs:label>  <!-- No def -->
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+      </owl:Class>
+    
+    
+     <!--  http://purl.org/sig/fma/Human_body -->  <!-- Human body -->
+     
+     <owl:Class rdf:about="http://purl.org/sig/fma/Human_body">
+          <rdfs:subClassOf rdf:resource="&FMA;Body_of_vertebrate"/>
+          <rdfs:label rdf:datatype="&xsd;string">Human body</rdfs:label>
+          <skos:definition rdf:datatype="&xsd;string">Anatomical structure which is the aggregate material substance of an individual member of the human species. Examples: male human body and female human body.</skos:definition>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+      </owl:Class>
+      
+      
+   <!--  http://purl.org/sig/fma/Male_human_body -->  <!-- Male human body -->
+     
+     <owl:Class rdf:about="http://purl.org/sig/fma/Male_human_body">
+          <rdfs:subClassOf rdf:resource="&FMA;Human_body"/>
+          <rdfs:label rdf:datatype="&xsd;string">Male human body</rdfs:label>  <!-- No def -->
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+      </owl:Class>
+    
+      
+    <!--  http://purl.org/sig/fma/Female_human_body -->  <!-- Female human body -->
+     
+     <owl:Class rdf:about="http://purl.org/sig/fma/Female_human_body">
+          <rdfs:subClassOf rdf:resource="&FMA;Human_body"/>
+          <rdfs:label rdf:datatype="&xsd;string">Female human body</rdfs:label>  <!-- No def -->
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+      </owl:Class>
+    
+      
+      
+      
+      
+      
     <!--  http://purl.org/sig/fma/Organ -->  <!-- organ -->
      
      <owl:Class rdf:about="http://purl.org/sig/fma/Organ">
@@ -1121,6 +1172,11 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:label rdf:datatype="&xsd;string">Portion of cerebrospinal fluid</rdfs:label>
           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
       </owl:Class>    
+                    
+                    
+                    
+                    
+                    
                        
       
 <!-- END OF FMA IMPORTS -->      
