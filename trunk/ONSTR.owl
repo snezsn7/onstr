@@ -695,6 +695,67 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A concentration is a relational quality that inheres in a material entity towards molecular scattered aggregate that is part of it by virtue of some ratio of masses of the two or the counts of the grains of the two or volume occupied by the larger material entity.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
      </owl:Class>
+     
+     
+    <!-- http://purl.obolibrary.org/obo/OBI_0100051 -->   <!-- specimen -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100051">
+        <rdfs:label rdf:datatype="&xsd;string">specimen</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&snap;MaterialEntity"/>
+        <skos:definition rdf:datatype="&xsd;string">A material entity that has the specimen role.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+     </owl:Class>
+     
+     
+     <!-- http://purl.obolibrary.org/obo/OBI_0000655" -->   <!-- blood specimen -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000655">
+        <rdfs:label rdf:datatype="&xsd;string">blood specimen</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <skos:definition rdf:datatype="&xsd;string">A material entity derived from a portion of blood collected from an organism.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+     </owl:Class>
+     
+     
+     <!-- http://purl.obolibrary.org/obo/OBI_0000651" -->   <!-- urine specimen -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000651">
+        <rdfs:label rdf:datatype="&xsd;string">urine specimen</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <skos:definition rdf:datatype="&xsd;string">A portion of urine collected from an organism.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.obolibrary.org/obo/OBI_0000953" -->   <!-- processed specimen -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000953">
+        <rdfs:label rdf:datatype="&xsd;string">processed specimen</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <skos:definition rdf:datatype="&xsd;string">A specimen that has been intentionally physically modified.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+     </owl:Class>
+     
+    
+    <!-- http://purl.obolibrary.org/obo/OBI_0100016" -->   <!-- blood plasma specimen -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100016">
+        <rdfs:label rdf:datatype="&xsd;string">blood plasma specimen</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/> 
+        <skos:definition rdf:datatype="&xsd;string">A material entity which corresponds to the liquid component of blood, in which the blood cells are suspended.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.obolibrary.org/obo/OBI_0100017" -->   <!-- blood serum specimen -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100017">
+        <rdfs:label rdf:datatype="&xsd;string">blood serum specimen</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/>  
+        <skos:definition rdf:datatype="&xsd;string">A material entity which derives from blood and corresponds to blood plasma without fibrinogen or the other clotting factors.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+     </owl:Class>
+     
  
     
 <!-- END OF OBI-IAO IMPORTS -->    
@@ -1635,12 +1696,11 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">sapropterin</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_15372"/>
         <skos:definition rdf:datatype="&xsd;string">A tetrahydropterin that is 2-amino-5,6,7,8-tetrahydropteridin-4(3H)-one in which a hydrogen at position 6 is substituted by a 1,2-dihydroxypropyl group (6R,1'R,2'S-enantiomer).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">"Sapropterin" is also a name denoting a drug for BH4 deficiencies.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">&quot;Kuvan&quot; is a brand name denoting saproptering as a drug for BH4 deficiencies.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
     </owl:Class>
    
   
-   
    
    
    
