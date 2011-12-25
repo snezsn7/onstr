@@ -24,6 +24,7 @@
     <!ENTITY CARO "http://purl.org/obo/owl/CARO#">
     <!ENTITY CL "http://purl.org/obo/owl/CL#">
     <!ENTITY OBO_REL "http://purl.org/obo/owl/OBO_REL#"> <!-- ro_proposed in OBI-->
+    <!ENTITY NCBITaxon "http://purl.org/obo/owl/NCBITaxon#">
 ]>    
 
 <rdf:RDF xmlns="http://onstr.googlecode.com/svn/trunk/ONSTR.owl#"
@@ -50,7 +51,7 @@
      xmlns:CARO="http://purl.org/obo/owl/CARO#"
      xmlns:CL="http://purl.org/obo/owl/CL#"
      xmlns:OBO_REL="http://purl.org/obo/owl/OBO_REL#"
-     xmlns:imports="http://purl.obolibrary.org/obo/ogms.owl">
+     xmlns:NCBITaxon="http://purl.org/obo/owl/NCBITaxon#">
      
      
     <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/trunk/ONSTR.owl">
@@ -755,8 +756,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A material entity which derives from blood and corresponds to blood plasma without fibrinogen or the other clotting factors.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
      </owl:Class>
-     
- 
+      
     
 <!-- END OF OBI-IAO IMPORTS -->    
 <!-- START PATO IMPORTS -->    
@@ -1701,6 +1701,280 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
    
   
+<!-- END OF ChEBI IMPORTS -->
+<!-- START NCBITaxon IMPORTS --> 
+  
+  
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_131567 -->  <!-- cellular organisms -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_131567">
+        <rdfs:label rdf:datatype="&xsd;string">cellular organisms</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&snap;MaterialEntity"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2759 -->  <!-- Eukaryota -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2759">
+        <rdfs:label rdf:datatype="&xsd;string">Eukaryota</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_131567"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33154 -->  <!-- Opisthokonta -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33154">
+        <rdfs:label rdf:datatype="&xsd;string">Opisthokonta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_2759"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33208 -->  <!-- Metazoa -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33208">
+        <rdfs:label rdf:datatype="&xsd;string">Metazoa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_33154"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6072 -->  <!-- Eumetazoa -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_6072">
+        <rdfs:label rdf:datatype="&xsd;string">Eumetazoa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_33208"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33213 -->  <!-- Bilateria -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33213">
+        <rdfs:label rdf:datatype="&xsd;string">Bilateria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_6072"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+     <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33316 -->  <!-- Coelomata -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33316">
+        <rdfs:label rdf:datatype="&xsd;string">Coelomata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_33213"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33511 -->  <!-- Deuterostomia -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_33511">
+        <rdfs:label rdf:datatype="&xsd;string">Deuterostomia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_33316"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7711 -->  <!-- Chordata -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7711">
+        <rdfs:label rdf:datatype="&xsd;string">Chordata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_33511"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_89593 -->  <!-- Craniata -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_89593">
+        <rdfs:label rdf:datatype="&xsd;string">Craniata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_7711"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7742 -->  <!-- Vertebrata -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7742">
+        <rdfs:label rdf:datatype="&xsd;string">Vertebrata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_89593"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7776 -->  <!-- Gnathostomata -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_7776">
+        <rdfs:label rdf:datatype="&xsd;string">Gnathostomata</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_7742"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_117570 -->  <!-- Teleostomi -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_117570">
+        <rdfs:label rdf:datatype="&xsd;string">Teleostomi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_7776"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_117571 -->  <!-- Euteleostomi -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_117571">
+        <rdfs:label rdf:datatype="&xsd;string">Euteleostomi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_117570"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_8287 -->  <!-- Sarcopterygii -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_8287">
+        <rdfs:label rdf:datatype="&xsd;string">Sarcopterygii</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_117571"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+    
+   
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_32523 -->  <!-- Tetrapoda -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_32523">
+        <rdfs:label rdf:datatype="&xsd;string">Tetrapoda</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_8287"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class> 
+    
+    
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_32524 -->  <!-- Amniota -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_32524">
+        <rdfs:label rdf:datatype="&xsd;string">Amniota</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_32523"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+    
+   
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_40674 -->  <!-- Mammalia -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_40674">
+        <rdfs:label rdf:datatype="&xsd;string">Mammalia</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_32524"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class> 
+    
+    
+    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_32525 -->  <!-- Theria -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_32525">
+        <rdfs:label rdf:datatype="&xsd;string">Theria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_40674"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+ 
+  
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9347 -->  <!-- Eutheria -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9347">
+        <rdfs:label rdf:datatype="&xsd;string">Eutheria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_32525"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_314146 -->  <!-- Euarchontoglires -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_314146">
+        <rdfs:label rdf:datatype="&xsd;string">Euarchontoglires</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_9347"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9443 -->  <!-- Primates -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9443">
+        <rdfs:label rdf:datatype="&xsd;string">Primates</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_314146"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_376913 -->  <!-- Haplorrhini -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_376913">
+        <rdfs:label rdf:datatype="&xsd;string">Haplorrhini</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_9443"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_314293 -->  <!-- Simiiformes -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_314293">
+        <rdfs:label rdf:datatype="&xsd;string">Simiiformes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_376913"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9526 -->  <!-- Catarrhini -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9526">
+        <rdfs:label rdf:datatype="&xsd;string">Catarrhini</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_314293"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_314295 -->  <!-- Hominoidea -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_314295">
+        <rdfs:label rdf:datatype="&xsd;string">Hominoidea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_9526"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9604 -->  <!-- Hominidae -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9604">
+        <rdfs:label rdf:datatype="&xsd;string">Hominidae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_314295"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_207598 -->  <!-- Homininae -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_207598">
+        <rdfs:label rdf:datatype="&xsd;string">Homininae</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_9604"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+   <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9605 -->  <!-- Homo -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9605">
+        <rdfs:label rdf:datatype="&xsd;string">Homo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_207598"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+  
+  <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606 -->  <!-- Homo sapiens -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_9606">
+        <rdfs:label rdf:datatype="&xsd;string">Homo sapiens</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&NCBITaxon;NCBITaxon_9605"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
+    </owl:Class>
+  
+<!-- END OF NCBITaxon IMPORTS -->
    
    
    
