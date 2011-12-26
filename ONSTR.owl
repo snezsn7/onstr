@@ -124,6 +124,66 @@
    </owl:Class>
 
 
+   <!-- http://purl.org/obo/owl/GO#GO_0008150 -->   <!-- biological_process -->
+   
+   	<owl:Class rdf:about="&GO;GO_0008150">
+     	<rdfs:label rdf:datatype="&xsd;string">biological_process</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&span;Process"/>
+     	<skos:definition rdf:datatype="&xsd;string">Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.</skos:definition>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from GO</skos:editorialNote>
+   </owl:Class>
+
+
+   <!-- http://purl.org/obo/owl/GO#GO_0040007-->   <!-- growth -->
+   
+   	<owl:Class rdf:about="&GO;GO_0040007">
+     	<rdfs:label rdf:datatype="&xsd;string">growth</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&GO;GO_0008150"/>
+     	<skos:definition rdf:datatype="&xsd;string">The increase in size or mass of an entire organism, a part of an organism or a cell.</skos:definition>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from GO</skos:editorialNote>
+   </owl:Class>
+   
+   
+    <!-- http://purl.org/obo/owl/GO#GO_0048589-->   <!-- developmental growth -->
+   
+   	<owl:Class rdf:about="&GO;GO_0048589">
+     	<rdfs:label rdf:datatype="&xsd;string">developmental growth</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&GO;GO_0040007"/>
+        <skos:definition rdf:datatype="&xsd;string">The increase in size or mass of an entire organism, a part of an organism or a cell, where the increase in size or mass has the specific outcome of the progression of the organism over time from one condition to another.</skos:definition>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from GO</skos:editorialNote>
+   </owl:Class>
+   
+   
+      <!-- http://purl.org/obo/owl/GO#GO_0008152 -->   <!-- metabolic process -->
+   
+   	<owl:Class rdf:about="&GO;GO_0008152">
+     	<rdfs:label rdf:datatype="&xsd;string">metabolic process</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&GO;GO_0008150"/>
+     	<skos:definition rdf:datatype="&xsd;string">The chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation.</skos:definition>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from GO</skos:editorialNote>
+   </owl:Class>
+   
+   
+     <!-- http://purl.org/obo/owl/GO#GO_0043170 -->   <!-- macromolecule metabolic process -->
+   
+   	<owl:Class rdf:about="&GO;GO_0043170">
+     	<rdfs:label rdf:datatype="&xsd;string">macromolecule metabolic process</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&GO;GO_0008152"/>
+        <skos:definition rdf:datatype="&xsd;string">The chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from GO</skos:editorialNote>
+   </owl:Class>
+   
+   
+    <!-- http://purl.org/obo/owl/GO#GO_0010467 -->   <!-- gene expression -->
+   
+   	<owl:Class rdf:about="&GO;GO_0010467">
+     	<rdfs:label rdf:datatype="&xsd;string">gene expression</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&GO;GO_0043170"/>
+        <skos:definition rdf:datatype="&xsd;string">The process in which a gene's sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA (for protein-coding genes) and the translation of that mRNA into protein. Some protein processing events may be included when they are required to form an active form of a product from an inactive precursor form.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from GO</skos:editorialNote>
+   </owl:Class>
+       
+
       
 <!-- END OF GO IMPORTS -->      
 <!-- START OBI-IOA IMPORTS -->
