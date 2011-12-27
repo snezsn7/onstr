@@ -896,8 +896,48 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A process with the objective to obtain a material entity that was part of an organism for potential future use in an investigation.</skos:definition> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
      </owl:Class>
+      
+    
+    <!-- http://purl.obolibrary.org/obo/OBI_0200000" -->   <!-- data transformation -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200000">
+        <rdfs:label rdf:datatype="&xsd;string">data transformation</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/> 
+        <skos:definition rdf:datatype="&xsd;string">A data transformation is a process which produces output data from input data.</skos:definition> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+     </owl:Class>
+    
+        
+    <!-- http://purl.obolibrary.org/obo/OBI_0200082" -->   <!-- longitudinal data analysis -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200082">
+        <rdfs:label rdf:datatype="&xsd;string">longitudinal data analysis</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+        <skos:definition rdf:datatype="&xsd;string">Longitudinal analysis is a data transformation used to perform repeated observations of the same items over long periods of time.</skos:definition> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+     </owl:Class>
     
     
+    <!-- http://purl.obolibrary.org/obo/OBI_0200085" -->   <!-- mass spectrometry analysis -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200085">
+        <rdfs:label rdf:datatype="&xsd;string">mass spectrometry analysis</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+        <skos:definition rdf:datatype="&xsd;string">A data transformation which has the objective of spectrum analysis.</skos:definition> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.obolibrary.org/obo/OBI_0200198" -->   <!-- tandem mass spectrometry -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200198">
+        <rdfs:label rdf:datatype="&xsd;string">tandem mass spectrometry</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0200085"/>
+        <skos:definition rdf:datatype="&xsd;string">Tandem mass spectrometry is a data transformation that uses two or more analyzers separated by a region in which ions can be induced to fragment by transfer of energy (frequently by collision with other molecules).</skos:definition> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+     </owl:Class>
+     
+          
     
     
     
