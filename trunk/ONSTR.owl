@@ -2339,24 +2339,6 @@ people infected, then extract parasite which are then tested = observation study
 		<rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD DefSource Scriver</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
-   
-
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5397567 --> <!-- neonatal heel-prick blood specimen collecting --> 
-    
-    <owl:Class rdf:about="&ONSTR;ONSTR_5397567">
-        <rdfs:label rdf:datatype="&xsd;string">neonatal heel-prick blood specimen collecting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1711364"/>
-        <skos:altLabel rdf:datatype="&xsd;string">neonatal heel-prick sampling</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">heel-prick sampling</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">heel-prick</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">heel-stick (procedure)</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">heel-stick</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A capillary blood specimen collecting process (procedure) in which a puncture is made in newborn's heel and the small amount of the blood is collected by being soaked into the filter paper attached to pre-printed  blood sample collection cards (Guthrie cards). The test is usually done soon after the baby has been born, but a general recommendation is that it should be done when the infant is between 48 and 72 hours of age.</skos:definition>
-		<rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.medterms.com/script/main/art.asp?articlekey=39542</rdfs:comment>
-		<rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Neonatal_heel_prick</rdfs:comment> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-    </owl:Class>
-
 
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2355072 --> <!-- biomaterial entity --> 
     
@@ -2712,8 +2694,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6116517">
         <rdfs:label rdf:datatype="&xsd;string">blood specimen collecting</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0600005"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Blood specimen collecting is collecting specimen from an organism with the objective of obtaining (creating) venous or arterial or capillary blood specimen from a human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74UV  [RCDv3]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>        
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
@@ -2723,8 +2706,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7267693">
         <rdfs:label rdf:datatype="&xsd;string">venous blood specimen collecting</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Blood specimen collecting with the objective of creating a human venous blood specimen.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74UW  [RCDv3]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>        
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -2734,21 +2718,46 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1711364">
         <rdfs:label rdf:datatype="&xsd;string">capillary blood specimen collecting</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Blood specimen collecting with the objective of creating a human capillary blood specimen.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74Ug  [RCDv3]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>            
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
+    
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5397567 --> <!-- neonatal heel-prick blood specimen collecting --> 
+    
+    <owl:Class rdf:about="&ONSTR;ONSTR_5397567">
+        <rdfs:label rdf:datatype="&xsd;string">neonatal heel-prick blood specimen collecting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1711364"/>
+        <skos:altLabel rdf:datatype="&xsd;string">neonatal heel-prick sampling</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">heel-prick sampling</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">heel-prick</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">heel-stick (procedure)</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">heel-stick</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">Capillary blood specimen collecting in which a puncture is made in newborn's heel and the small amount of the blood is collected by being soaked into the filter paper attached to pre-printed  blood sample collection cards (Guthrie cards). The test is usually done soon after the baby has been born, but a general recommendation is that it should be done when the infant is between 48 and 72 hours of age.</skos:definition>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.medterms.com/script/main/art.asp?articlekey=39542</rdfs:comment>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Neonatal_heel_prick</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+     
     
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2422189 --> <!-- urine specimen collecting -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2422189">
         <rdfs:label rdf:datatype="&xsd;string">urine specimen collecting</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0600005"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Urine specimen collecting is collecting specimen from an organism with the objective of obtaining (creating) a urine specimen from a human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/Ua1J4  [RCDv3]</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
+    
+    <!-- ADD HERE -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7267693 --> <!-- cerebrospinal fluid specimen collecting -->
+    
+    
+    
+    
     
     
     
