@@ -890,7 +890,7 @@ people infected, then extract parasite which are then tested = observation study
     
      <!-- http://purl.obolibrary.org/obo/OBI_0600005" -->   <!-- collecting specimen from organism -->
      
-     <owl:Class rdf:about="http://purl.obolibrary.org/obo/0600005">
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600005">
         <rdfs:label rdf:datatype="&xsd;string">collecting specimen from organism</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
         <skos:definition rdf:datatype="&xsd;string">A process with the objective to obtain a material entity that was part of an organism for potential future use in an investigation.</skos:definition> 
@@ -2704,6 +2704,54 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
+
+
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6116517 --> <!-- blood specimen collecting-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6116517">
+        <rdfs:label rdf:datatype="&xsd;string">blood specimen collecting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0600005"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+
+
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7267693 --> <!-- venous blood specimen collecting-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7267693">
+        <rdfs:label rdf:datatype="&xsd;string">venous blood specimen collecting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1711364 --> <!-- capillary blood specimen collecting -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1711364">
+        <rdfs:label rdf:datatype="&xsd;string">capillary blood specimen collecting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2422189 --> <!-- urine specimen collecting -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2422189">
+        <rdfs:label rdf:datatype="&xsd;string">urine specimen collecting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0600005"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+    
+
 
 
 
