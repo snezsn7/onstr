@@ -2766,6 +2766,52 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
+    
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0983341 --> <!-- venous blood specimen -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0983341">
+        <rdfs:label rdf:datatype="&xsd;string">venous blood specimen</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000655"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3725003 --> <!-- capillary blood specimen -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3725003">
+        <rdfs:label rdf:datatype="&xsd;string">capillary blood specimen</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000655"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7549502 --> <!-- dried blood spot specimen -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7549502">
+        <rdfs:label rdf:datatype="&xsd;string">dried blood spot specimen</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3725003"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2889784 --> <!-- cerebrospinal fluid specimen -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2889784">
+        <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid specimen</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+    
 
 
 
