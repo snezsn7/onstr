@@ -385,7 +385,7 @@
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000112">
            <rdfs:label rdf:datatype="&xsd;string">specimen role</rdfs:label>
            <rdfs:subClassOf rdf:resource="&snap;Role"/>
-           <skos:definition rdf:datatype="&xsd;string">a role borne by a material entity that is gained during a specimen creation process and that is realized by use of the specimen in an investigation</skos:definition>
+           <skos:definition rdf:datatype="&xsd;string">A role borne by a material entity that is gained during a specimen creation process and that is realized by use of the specimen in an investigation.</skos:definition>
           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
       </owl:Class>
      
@@ -2761,7 +2761,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;OBI_0600005"/>
         <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid specimen collecting is process of collecting specimen from an organism with the objective of obtaining (creating) a specimen of cerebrospinal fluid from a human patient. Collecting of cerebrospinal fluid is most commonly obtained by the procedure of lumbar puncture (i.e. spinal tap), while rarely used methods include cisternal puncture and ventricular puncture.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: MedlinePlus Medical Encyclopedia,  http://www.nlm.nih.gov/medlineplus/ency/article/003428.htm</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">ADescription of actual procedures of lumbar puncture, cisternal puncture and ventricular puncture is out of scope of ONSTR.</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Description of actual procedures of lumbar puncture, cisternal puncture and ventricular puncture is out of scope of ONSTR.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">CSF specimen collecting</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -2772,8 +2772,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0983341">
         <rdfs:label rdf:datatype="&xsd;string">venous blood specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000655"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Venous blood specimen is a blood specimen that is derived from portion of human venous blood and is specified output of venous blood specimen collecting.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -2783,8 +2783,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3725003">
         <rdfs:label rdf:datatype="&xsd;string">capillary blood specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000655"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Capillary blood specimen is a blood specimen that is derived from portion of human capillary blood and is specified output of capillary blood specimen collecting.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -2794,8 +2794,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7549502">
         <rdfs:label rdf:datatype="&xsd;string">dried blood spot specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3725003"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Dried blood spot specimen is a capillary blood specimen that is specified output of neonatal-heel prick blood specimen collecting.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
@@ -2805,8 +2805,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2889784">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid specimen is a specimen that is derived from portion of human cerebrospinal fluid and is specified output of cerebrospinal fluid specimen collecting.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">CSF specimen</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
