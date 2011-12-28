@@ -2752,14 +2752,18 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
-    <!-- ADD HERE -->
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7267693 --> <!-- cerebrospinal fluid specimen collecting -->
+ 
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1581489 --> <!-- cerebrospinal fluid specimen collecting -->
     
-    
-    
-    
-    
-    
+        <owl:Class rdf:about="&ONSTR;ONSTR_1581489">
+        <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid specimen collecting</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0600005"/>
+        <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid specimen collecting is process of collecting specimen from an organism with the objective of obtaining (creating) a specimen of cerebrospinal fluid from a human patient. Collecting of cerebrospinal fluid is most commonly obtained by the procedure of lumbar puncture (i.e. spinal tap), while rarely used methods include cisternal puncture and ventricular puncture.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: MedlinePlus Medical Encyclopedia,  http://www.nlm.nih.gov/medlineplus/ency/article/003428.htm</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Actual procedures, i.e. how exactly a portion of CSF is been collected, is out of scope of ONSTR.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">CSF specimen collecting</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
     
 
 
