@@ -2638,7 +2638,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0114258">
         <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration test</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
         <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -2671,9 +2671,10 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2219307">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration test</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
         <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">CSF phenylalanine concentration test</skos:altLabel>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
@@ -2682,7 +2683,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6285423">
         <rdfs:label rdf:datatype="&xsd;string">plasma penylalanine concentration test</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
         <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -2760,7 +2761,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;OBI_0600005"/>
         <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid specimen collecting is process of collecting specimen from an organism with the objective of obtaining (creating) a specimen of cerebrospinal fluid from a human patient. Collecting of cerebrospinal fluid is most commonly obtained by the procedure of lumbar puncture (i.e. spinal tap), while rarely used methods include cisternal puncture and ventricular puncture.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: MedlinePlus Medical Encyclopedia,  http://www.nlm.nih.gov/medlineplus/ency/article/003428.htm</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Actual procedures, i.e. how exactly a portion of CSF is been collected, is out of scope of ONSTR.</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">ADescription of actual procedures of lumbar puncture, cisternal puncture and ventricular puncture is out of scope of ONSTR.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">CSF specimen collecting</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
