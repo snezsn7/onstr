@@ -746,17 +746,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
     </owl:Class>
-    
- 
-  <!-- http://purl.obolibrary.org/obo/OBI_0000577 -->   <!-- molecular concentration -->
-     
-     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000577">
-        <rdfs:label rdf:datatype="&xsd;string">molecular concentration</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&PATO;PATO_0001241"/>
-        <skos:definition rdf:datatype="&xsd;string">A concentration is a relational quality that inheres in a material entity towards molecular scattered aggregate that is part of it by virtue of some ratio of masses of the two or the counts of the grains of the two or volume occupied by the larger material entity.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
-     </owl:Class>
-     
+        
      
     <!-- http://purl.obolibrary.org/obo/OBI_0100051 -->   <!-- specimen -->
      
