@@ -3214,6 +3214,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <!--  IMPORTED OBJECT PROPERTIES -->    
  
+ <!-- OBO_REL-OBI  -->
  
   	<!-- http://purl.org/obo/owl/OBO_REL#inheres_in -->
 
@@ -3488,6 +3489,21 @@ We have had a long discussion about denotes versus describes.</skos:definition>
     	<skos:definition rdf:datatype="&xsd;string">This relation obtains between a planned process and a objective specification when the criteria specified in the objective specification are met at the end of the planned process.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
   </owl:ObjectProperty>
+    
+    
+    <!-- http://purl.org/obo/owl/OBO_REL#towards -->  <!-- towards -->
+
+    <owl:ObjectProperty rdf:about="&OBO_REL;towards">
+        <rdfs:label rdf:datatype="&xsd;string">towards</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&OBO_REL;inheres_in"/>
+    	<skos:definition rdf:datatype="&xsd;string">A relation between a relational quality and an independent continuant, subproperty of inheres that distinguishes the main bearers of a relational quality from additional dependents.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBO_REL</skos:editorialNote>
+  </owl:ObjectProperty>
+  
+  
+    
+    
+    
     
     
     <!--  DATATYPE PROPERTIES -->
