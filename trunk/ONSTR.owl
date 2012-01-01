@@ -3254,8 +3254,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0829886">
         <rdfs:label rdf:datatype="&xsd;string">human age</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Human age is organismal quality that inheres in human being by virtue of the time elapsed in utero from conception until the birth or the period of time elapsed since the birth until the given time point of age measurement.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3265,8 +3265,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2111308">
         <rdfs:label rdf:datatype="&xsd;string">age since birth</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0829886"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Age since birth is human age by virtue of (based on) the time elapsed since the moment of birth (i.e. neonate's first breath) until the given time point of age measurement.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.w3org/2001/sw/hcls/ns/transmed/TMO_0085</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3276,8 +3276,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8059146">
         <rdfs:label rdf:datatype="&xsd;string">gestational age at birth</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0829886"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Gestational age at birth is human age based on the amount of time the conceptus (human foetus) has spent in utero, measured from the time of conception/fertilizatiuon until birth (i.e. the time point at which a foetus becomes a neonate).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D005865</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
