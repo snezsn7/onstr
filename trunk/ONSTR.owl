@@ -3204,13 +3204,13 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2038914 --> <!-- human quality -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2038914 --> <!-- human body quality -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2038914">
         <rdfs:label rdf:datatype="&xsd;string">human body quality</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Human body quality is organismal quality that inheres in human body or a part of the human body.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3301,8 +3301,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9411314">
         <rdfs:label rdf:datatype="&xsd;string">body mass constituent composition</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Body mass constituent composition is human body quality that inheres in human body by virtue of the relative quantities or relative ratios of substances constituting human body.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/CSP/0467-2059</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:example rdf:datatype="&xsd;string">Body fat composition inheres in human body by virtue of the amount of fat contained in human body. In other words, body fat composition is a quality that inheres in human body (which is the bearer of this quality).</skos:example>       
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
