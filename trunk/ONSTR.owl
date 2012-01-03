@@ -3309,8 +3309,56 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
 
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3296813 --> <!-- gestational age at birth measurement datum -->
 
+    <owl:Class rdf:about="&ONSTR;ONSTR_3296813">
+        <rdfs:label rdf:datatype="&xsd;string">gestational age at birth measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0001167"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3215569 --> <!-- age at physical examination measurement datum -->
 
+    <owl:Class rdf:about="&ONSTR;ONSTR_3215569">
+        <rdfs:label rdf:datatype="&xsd;string">age at physical examination measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6203442 --> <!-- age at first heel-prick blood sampling measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6203442">
+        <rdfs:label rdf:datatype="&xsd;string">age at first heel-prick blood sampling measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3735018 --> <!-- age at repeated heel-prick blood sampling measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3735018">
+        <rdfs:label rdf:datatype="&xsd;string">age at repeated heel-prick blood sampling measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+    
+    
+    
+    
+    
+    
 
 
 	<!--  				     -->
