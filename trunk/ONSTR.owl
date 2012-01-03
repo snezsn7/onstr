@@ -928,9 +928,8 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">An age measurement datum that is the result of the measurement of the age of an organism since birth, the process of emergence and separation of offspring from the mother.</skos:definition> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
      </owl:Class>
+     
           
-    
-    
     
 <!-- END OF OBI-IAO IMPORTS -->    
 <!-- START PATO IMPORTS -->    
@@ -3352,6 +3351,49 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5773210 --> <!-- phenotypical sex datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5773210">
+        <rdfs:label rdf:datatype="&xsd;string">phenotypical sex datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
+    	<skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2150908 --> <!-- head circumference measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2150908">
+        <rdfs:label rdf:datatype="&xsd;string">head circumference measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000408"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8762724 --> <!-- body mass measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8762724">
+        <rdfs:label rdf:datatype="&xsd;string">body mass measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000414"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8762724 --> <!-- body height measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8762724">
+        <rdfs:label rdf:datatype="&xsd;string">body height measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000408"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
     
     
     
