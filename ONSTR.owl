@@ -3314,8 +3314,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3296813">
         <rdfs:label rdf:datatype="&xsd;string">gestational age at birth measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0001167"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Gestational age at birth measurement datum is age measurement datum that is the result of measurement of the amount of time elapsed human conceptus has spent in utero beginning from the instant of fertilization (conception) until the birth.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3325,8 +3325,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3215569">
         <rdfs:label rdf:datatype="&xsd;string">age at physical examination measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Age at physical examination measurement datum is age since birth measurement datum that is the result of measurement of the amount of time a human patient has been living until the instant of given physical examination during which the age measurement is been performed.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3336,8 +3336,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6203442">
         <rdfs:label rdf:datatype="&xsd;string">age at first heel-prick blood sampling measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Age at first heal-prick blood sampling measurement datum is age since birth measurement datum that is the result of measurement of time elapsed from birth of a neonate until the instant when the first heel-prick blood specimen collecting is been performed.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3347,8 +3347,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3735018">
         <rdfs:label rdf:datatype="&xsd;string">age at repeated heel-prick blood sampling measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Age at repeated heal-prick blood sampling measurement datum is age since birth measurement datum that is the result of measurement of time elapsed from birth of the neonate until the instant when the state specific repeated heel-prick blood specimen collecting is been performed.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
