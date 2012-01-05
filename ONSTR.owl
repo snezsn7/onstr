@@ -910,6 +910,37 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+   <!-- http://purl.obolibrary.org/obo/OBI_0000470" -->   <!-- mass spectrometry assay -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000470">
+        <rdfs:label rdf:datatype="&xsd;string">mass spectrometry assay</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <skos:definition rdf:datatype="&xsd;string">This is a measuring method consisting of turning elements in a sample into ions, isolating them according to the ratio between the mass and charge numbers and detecting it electrically.</skos:definition> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+     </owl:Class>
+     
+   
+   <!-- http://purl.obolibrary.org/obo/OBI_0000366" -->   <!-- metabolite profiling -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000366">
+        <rdfs:label rdf:datatype="&xsd;string">metabolite profiling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <skos:definition rdf:datatype="&xsd;string">Metabolite profiling is a process which aims at detecting and identifying chemical entities resulting from biochemical and cellular metabolism.</skos:definition> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://purl.obolibrary.org/obo/OBI_0600003" -->   <!-- performing clinical assessment -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0600003">
+        <rdfs:label rdf:datatype="&xsd;string">performing clinical assessment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+		<skos:definition rdf:datatype="&xsd;string">A protocol application during which a series of tests are made of a patient  leading to determination of disease state, or condition.</skos:definition> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
     <!-- http://purl.obolibrary.org/obo/OBI_0200198" -->   <!-- tandem mass spectrometry -->
      
      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200198">
@@ -928,6 +959,9 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">An age measurement datum that is the result of the measurement of the age of an organism since birth, the process of emergence and separation of offspring from the mother.</skos:definition> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
      </owl:Class>
+     
+     
+     
      
           
     
@@ -3430,6 +3464,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">Length measurement assay is a measurement assay which determines the magnitude of linear distance between two points.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">This class fits better in OBI/IAO domain. However, since it is not presently asserted in OBI/IAO, and we need it, we are asserting it for the time being. If OBI/IAO asserts a suitable class, this one is going to be obsoleted and replaced by the prospective/convenient OBI/IAO class.)</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3456,6 +3491,10 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">head circumference measurment</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
+    
+    
+    
+    
     
     
     
