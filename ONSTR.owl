@@ -3572,6 +3572,27 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7550260 -->  <!-- developmental growth indicator derivation objective -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7550260">
+        <rdfs:label rdf:datatype="&xsd;string">developmental growth indicator derivation objective</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0200166"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9799826 -->  <!-- body mass index calculation objective -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9799826">
+        <rdfs:label rdf:datatype="&xsd;string">body mass index calculation objective</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0200166"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
     
     
     
