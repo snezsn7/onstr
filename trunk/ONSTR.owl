@@ -3499,8 +3499,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7375219">
         <rdfs:label rdf:datatype="&xsd;string">developmental growth indicator derivation</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Developmental growth indicator derivation is data transformation that where the aim is to determine (or give best possible approximation of) human developmental growth indicator.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3510,8 +3510,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6405272">
         <rdfs:label rdf:datatype="&xsd;string">height-for-age percentile derivation</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7375219"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Height-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation) height-for-age percentile for given child at the time of physical examination. In order to derive height-for-age percentile information about child's body height and age is first plotted with respect height and age scales of the age and sex appropriate height-for-age growth chart; position of the resulting point is then compared with respect to height-for-age percentile curves comprising height-for-age growth chart; height-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3521,8 +3521,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6066538">
         <rdfs:label rdf:datatype="&xsd;string">weight-for-age percentile derivation</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7375219"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Weight-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) weight-for-age percentile for given child at the time of physical examination. In order to derive weight-for-age percentile information about child's body height and age are first plotted with respect height and age scales of the age and sex appropriate weight-for-age growth chart; the position of the resulting point is then compared with respect to weight-for-age percentile curves comprising weight-for-age growth chart; weight-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3532,8 +3532,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3780666">
         <rdfs:label rdf:datatype="&xsd;string">weight-for-height percentile derivation</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7375219"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Weight-for-height percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) weight-for-height percentile for given child at the time of physical examination. In order to derive weight-for-height percentile, information about child's body weight (mass) and height are first plotted with respect weight and height scales of the age and sex appropriate weight-for-height growth chart; the position of the resulting point is then compared with closest weight-for-height percentile curves comprising the weight-for-height chart; weight-for-height percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3543,8 +3543,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2672569">
         <rdfs:label rdf:datatype="&xsd;string">head circumference-for-age percentile derivation</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7375219"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Head circumference-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) head circumference-for-age percentile for given child, at the time of physical examination. In order to derive head circumference-for-age percentile, information about child's head circumference and age are plotted with respect to head circumference and age scales of the age and sex appropriate head circumference-for-age percentile growth chart; the position of the resulting point is then compared with the closest head circumference-for-age percentile curves comprising the circumference-for-age growth chart; head circumference-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3554,8 +3554,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8529802">
         <rdfs:label rdf:datatype="&xsd;string">body mass index-for-age percentile derivation</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7375219"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Body mass index-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) body mass index-for-age percentile for given child, at the time of physical examination. In order to derive body mass index-for-age percentile information, child's body mass index and age are plotted with respect to body mass index and age scales of the age and sex appropriate body mass index-for-age percentile growth chart; the position of the resulting point is then compared with the closest body mass index-for-age percentile curves comprising the body mass index-for-age growth chart; body mass index-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:altLabel rdf:datatype="&xsd;string">BMI-for-age percentile derivation</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3565,8 +3566,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7294200">
         <rdfs:label rdf:datatype="&xsd;string">body mass index calculation</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Body mass index calculation is data transformation with the goal to calculate body mass index by dividing given body mass (weight) by squared body height (BMI=weight/height^2).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D015992</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
