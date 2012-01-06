@@ -3577,8 +3577,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7550260">
         <rdfs:label rdf:datatype="&xsd;string">developmental growth indicator derivation objective</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200166"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Developmental growth indicator derivation objective is data transformation objective where the goal of data transformation is to determine (or approximate) the developmental growth indicator from the appropriate input information.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3588,10 +3588,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9799826">
         <rdfs:label rdf:datatype="&xsd;string">body mass index calculation objective</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200166"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Body mass index calculation objective is data transformation objective where the goal of data transformation is to calculate the body mass index from the input data (human body mass measurement datum and body height measurement datum).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
+    
+    
+    
     
     
     
