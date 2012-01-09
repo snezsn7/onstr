@@ -3493,8 +3493,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1457519">
         <rdfs:label rdf:datatype="&xsd;string">head circumference at birth measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2150908"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Head circumference at birth measurement datum is a head circumference measurement datum that is the result of the head circumference measurement assay performed shortly after birth.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3504,8 +3504,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5646467">
         <rdfs:label rdf:datatype="&xsd;string">head circumference at physical examination measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2150908"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Head circumference at physical examination measurement datum is a head circumference measurement datum that is the result of the head circumference measurement assay during physical examination at each scheduled patient visit.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3530,8 +3530,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0901764">
         <rdfs:label rdf:datatype="&xsd;string">body mass at birth measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8762724"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Body mass at birth measurement datum is body mass measurement datum that is the result of mass measurement assay of human body performed shortly after birth.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3541,8 +3541,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7469225">
         <rdfs:label rdf:datatype="&xsd;string">body mass at physical examination measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8762724"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Body mass at physical examination measurement datum is body mass measurement datum that is the result of mass measurement assay of human body performed during physical examination at each scheduled patient visit.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3568,8 +3568,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4752024">
         <rdfs:label rdf:datatype="&xsd;string">body height at birth measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7664189"/>
-    	<skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+    	<skos:definition rdf:datatype="&xsd;string">Body height at birth measurement datum is a body height measurement datum that is the result of the body height measurement assay performed shortly after birth of a human.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3579,8 +3579,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0477465">
         <rdfs:label rdf:datatype="&xsd;string">body height at physical examination measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7664189"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Body height at physical examination measurement datum is a body height measurement datum that is the result of the body height measurement assay performed during physical examination at each scheduled patient visit.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
