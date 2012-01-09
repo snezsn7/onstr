@@ -3731,9 +3731,16 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
-    
-    
-    
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3614873 -->  <!-- developmental growth chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3614873">
+        <rdfs:label rdf:datatype="&xsd;string">developmental growth chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000308"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
     
     
     
