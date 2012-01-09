@@ -3108,8 +3108,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0812331">
         <rdfs:label rdf:datatype="&xsd;string">arterial blood specimen collecting</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Arterial blood specimen collecting is blood specimen collecting by which a portion of arterial blood is collected from a human patient by making a small puncture in patient's artery followed by collecting the leaked portion of arterial blood in a protocol appropriate container.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74Uk</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">arterial blood sampling</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3162,8 +3164,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4112781">
         <rdfs:label rdf:datatype="&xsd;string">finger-prick blood specimen collecting</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1711364"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Finger-prick capillary blood specimen collecting is capillary blood collecting by which a portion of capillary blood is collected from a human patient by making a small incision with a lancet in patient's finger, followed by collecting leaked portion of capillary blood into a protocol appropriate container.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Finger_Stick</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">finger stick</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>    
      
@@ -3197,8 +3200,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9432852">
         <rdfs:label rdf:datatype="&xsd;string">arterial blood specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000655"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Arterial blood specimen is a blood specimen that is derived from portion of human arterial blood and is specified output of arterial blood specimen collecting.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3254,8 +3257,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6614057">
         <rdfs:label rdf:datatype="&xsd;string">blood specimen creation objective</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000684"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Blood specimen creation objective is specimen creation objective to obtain a blood specimen (a portion of venous, arterial of capillary blood) from a human patient to use it as an input for further investigation.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3265,8 +3268,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2647953">
         <rdfs:label rdf:datatype="&xsd;string">urine specimen creation objective</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000684"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Urine specimen creation objective is specimen creation objective to obtain a urine specimen from a human patient to use it as an input for further investigation.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3276,8 +3279,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5102144">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid specimen creation objective</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000684"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid specimen creation objective is specimen creation objective to obtain a cerebrospinal fluid specimen from a human patient to use it as an input for further investigation.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
