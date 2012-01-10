@@ -3754,12 +3754,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5540226">
         <rdfs:label rdf:datatype="&xsd;string">CDC growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3614873"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
-        <rdfs:comment rdf:datatype="&xsd;string">XXXX</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">XXXX</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">XXXXX</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">XXXXX</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">typical growth patterns of children in the US  during a specific period of time, published by the CDC in May 2000 and designed for use in the United States. The 2000 CDC Growth Charts consist of a set of charts for infants, birth to 36 months of age, and a set of  charts for children and adolescents 2 to 20 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: 2000 CDC Growth Charts for the United States: Methods and development, Vital and Health Statistics, Series 11, No 246, Department of Health and Human Services, CDC National Center for Health Statistics, Hyattsville, MD, May 2002, pp 1.</rdfs:comment> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/who_charts.htm</rdfs:comment>       
+        <rdfs:comment rdf:datatype="&xsd;string">Unlike WHO growth standards charts which were constructed using longitudinal length and weight data measured at frequent intervals, for CDC growth charts, weight data were not available between birth and 3 months of age, and the sample sizes were small for sex and age groups during the first 6 months of age. For this reason CDC growth charts should be only used as references and not as a sole diagnostic tool. [Source: http://www.cdc.gov/growthcharts/who_charts.htm]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">U.S. Center for Disease Control and Prevention (CDC) recommends that health care providers use the WHO growth standards (WHO growth charts) to monitor growth for infants and children ages 0 to 2 years of age, while CDC growth charts should be used for monitoring growth of children age 2 years and older. [Source: http://www.cdc.gov/growthcharts/who_charts.htm]</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">growth chart</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Center for Disease Control and Prevention growth chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
    </owl:Class>
     
@@ -3769,8 +3770,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2397558">
         <rdfs:label rdf:datatype="&xsd;string">CDC individual growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5540226"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">CDC individual growth chart is a CDC growth chart that contains sex specific smoothed percentile curves for a particular phenotypic quality being measured. Each individual chart contains smoothed curves for 3rd, 5th, 10th, 25th, 50th, 75th, 90th, 95th  and 97th percentiles plotted on a grid that is scaled to international units of measurement (kg, cm) and has secondary scale in British colonial units (lb, in). Individual growth charts are available for infants, birth to 36 months of age and for children and adolescents 2 to 20 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: 2000 CDC Growth Charts for the United States: Methods and development, Vital and Health Statistics, Series 11, Number 246, Department of Health and Human Services, CDC National Center for Health Statistics, Hyattsville, MD, May 2002, pp 1 and 20-34.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">growth chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
      
@@ -3780,8 +3782,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4888014">
         <rdfs:label rdf:datatype="&xsd;string">CDC clinical growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5540226"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">CDC clinical growth chart is a CDC growth chart that consists of modifications in the format of the individual CDC growth charts, whereby two individual charts (for different properties being measured) may appear on a single page. Each individual chart appearing in a clinical chart contains smoothed curves for 5th, 10th, 25th, 50th, 75th, 90th and 95th percentiles plotted on a grid scaled to international units of measurement (kg, cm), with secondary scale in British colonial units (lb, in). Additionally, each clinical chart contains data entry tables and spaces for patient relevant information (name, patient ID number etc.). Clinical charts are available in three sets: for infants, birth to 36 months of age, for children and adolescents ages 2 to 20 years, and for preschoolers, 2 to 5 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: 2000 CDC Growth Charts for the United States: Methods and development, Vital and Health Statistics, Series 11, Number 246, Department of Health and Human Services, CDC National Center for Health Statistics, Hyattsville, MD, May 2002, pp 1 and 35-44.</rdfs:comment> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/clinical_charts.htm</rdfs:comment>       
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -3791,8 +3794,12 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0270384">
         <rdfs:label rdf:datatype="&xsd;string">WHO growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3614873"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">World Health Organization (WHO) growth standards chart is a developmental growth chart based on international growth standard statistical distribution released by the WHO in 2006 as a part of results from its Multicentre Growth Reference Study (MGRS), describing the growth of children ages 0 to 59 months living in environments believed to support what WHO researchers view as optimal growth of children in six countries throughout the world, including the U.S. The WHO standards were constructed using longitudinal length and weight data measured at frequent intervals and identify how children should grow when provided optimal conditions. In the US WHO growth charts are available in a format of CDC clinical growth charts for infants of age birth to 24 months.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/who_charts.htm</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">U.S. Center for Disease Control and Prevention (CDC) recommends that health care providers use the WHO growth standards (WHO growth charts) to monitor growth for infants and children ages 0 to 2 years of age, while CDC growth charts should be used for monitoring growth of children age 2 years and older. [Source: http://www.cdc.gov/growthcharts/who_charts.htm]</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">WHO growth standards</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">World Health Organization growth chart</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">World Health Organization growth standards</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
      
