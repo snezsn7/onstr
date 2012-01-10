@@ -3554,11 +3554,13 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000408"/>
         <skos:definition rdf:datatype="&xsd;string">Body height measurement datum is a length measurement datum that is the result of the body height measurement assay.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">stature</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">body length</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">height measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">length measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">stature measurement</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">height</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">length</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">stature</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -3747,11 +3749,58 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5540226 -->  <!-- CDC growth chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5540226">
+        <rdfs:label rdf:datatype="&xsd;string">CDC growth chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3614873"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">XXXX</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">XXXX</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">XXXXX</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">XXXXX</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
     
     
-    
-    
-    
+      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2397558 -->  <!-- CDC individual growth chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2397558">
+        <rdfs:label rdf:datatype="&xsd;string">CDC individual growth chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5540226"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4888014 -->  <!-- CDC clinical growth chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4888014">
+        <rdfs:label rdf:datatype="&xsd;string">CDC clinical growth chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5540226"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0270384 -->  <!-- WHO growth chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0270384">
+        <rdfs:label rdf:datatype="&xsd;string">WHO growth chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3614873"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
+     
+      
+     
+      
     
     
     
