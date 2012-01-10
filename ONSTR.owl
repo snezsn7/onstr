@@ -3739,7 +3739,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3614873">
         <rdfs:label rdf:datatype="&xsd;string">developmental growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000308"/>
-        <skos:definition rdf:datatype="&xsd;string">Developmental growth chart is a figure consisting of a series of sex specific smoothed percentile curves drawn against the measurement grid, that illustrate the distribution of selected body measurements in children indicating children developmental patterns over time. Growth charts have grids scaled to international unit of measurement (kg, cm), with secondary scale in British colonial units (lb, in) and are available for boys and girls falling in different age ranges. Growth charts are be available as separate documents (one chart per document), or two charts can be combined in a single document (as in case of CDC clinical charts).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Developmental growth chart is a figure consisting of a series of sex specific smoothed percentile curves drawn against the measurement grid, that illustrate the distribution of selected body measurements which indicate patterns of physical development of healthy children over certain period of time. Growth charts have grids scaled to international unit of measurement (kg, cm), with secondary scale in British colonial units (lb, in) and are available for boys and girls falling in different age ranges. Growth charts are be available as separate documents (one chart per document), or two charts can be combined in a single document (as in case of CDC clinical charts).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/</rdfs:comment> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm#Summary</rdfs:comment> 
         <rdfs:comment rdf:datatype="&xsd;string">Growth charts are not intended to be used as a sole diagnostic instrument, but as tools that contribute to forming an overall clinical impression of developmental growth of the child being measured. [Source: http://www.cdc.gov/growthcharts/]</rdfs:comment>         
@@ -3800,15 +3800,92 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">WHO growth standards</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">World Health Organization growth chart</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">World Health Organization growth standards</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">WHO international growth chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6288330 -->  <!-- weight-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6288330">
+        <rdfs:label rdf:datatype="&xsd;string">weight-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2397558"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9633642 -->  <!-- birth-to-36-months weight-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9633642">
+        <rdfs:label rdf:datatype="&xsd;string">birth-to-36-months weight-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6288330"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0011550 -->  <!-- boys birth-to-36-months weight-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0011550">
+        <rdfs:label rdf:datatype="&xsd;string">boys birth-to-36-months weight-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9633642"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6516375 -->  <!-- girls birth-to-36-months weight-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6516375">
+        <rdfs:label rdf:datatype="&xsd;string">girls birth-to-36-months weight-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9633642"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+      
+      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9901690 -->  <!-- 2-to-20-years weight-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9901690">
+        <rdfs:label rdf:datatype="&xsd;string">2-to-20-years weight-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6288330"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4991400 -->  <!-- boys 2-to-20-years weight-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4991400">
+        <rdfs:label rdf:datatype="&xsd;string">boys 2-to-20-years weight-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9901690"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4655635 -->  <!-- girls 2-to-20-years weight-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4655635">
+        <rdfs:label rdf:datatype="&xsd;string">girls 2-to-20-years weight-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9901690"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
      
       
-     
       
-    
     
     
     
