@@ -4056,8 +4056,11 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2779570">
         <rdfs:label rdf:datatype="&xsd;string">head circumference-for-age percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2397558"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Head circumference-for-age percentile chart is a CDC individual growth chart consisting of smoothed percentile curves illustrating the distribution(s) of head circumference measurement data (head circumference measurements) in a population of healthy children 0 to 36 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Head circumference-for-age percentile charts are available for infants age 0 to 36 months, but not for children and adolescents age 2 to 20 years, as in the case of weight-for-age and height-for-age charts.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">HC-for-age percentile chart</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">head circumference-for-age chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -4067,8 +4070,11 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8825392">
         <rdfs:label rdf:datatype="&xsd;string">boys head circumference-for-age percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2779570"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Boys head circumference-for-age percentile chart is a head circumference-for-age percentile chart consisting of smoothed percentile curves illustrating the distribution(s) of head circumference measurement data (head circumference measurements) in a population of healthy boys 0 to 36 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment> 
+        <skos:altLabel rdf:datatype="&xsd;string">Head circumference-for-age percentiles: Boys, birth-to-36 months</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">boys head circumference-for-age percentiles</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">boys head circumference-for-age percentile chart</skos:altLabel>   
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -4078,8 +4084,11 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6096886">
         <rdfs:label rdf:datatype="&xsd;string">girls head circumference-for-age percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2779570"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Girls head circumference-for-age percentile chart is a head circumference-for-age percentile chart consisting of smoothed percentile curves illustrating the distribution(s) of head circumference measurement data (head circumference measurements) in a population of healthy girls 0 to 36 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">Head circumference-for-age percentiles: Girls, birth-to-36 months</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">girls head circumference-for-age percentiles</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">girls head circumference-for-age percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
