@@ -3754,7 +3754,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5540226">
         <rdfs:label rdf:datatype="&xsd;string">CDC growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3614873"/>
-        <skos:definition rdf:datatype="&xsd;string">typical growth patterns of children in the US  during a specific period of time, published by the CDC in May 2000 and designed for use in the United States. The 2000 CDC Growth Charts consist of a set of charts for infants, birth to 36 months of age, and a set of  charts for children and adolescents 2 to 20 years of age.</skos:definition>
+    	<skos:definition rdf:datatype="&xsd;string">CDC growth chart is a developmental growth chart that is based on typical growth patterns of children in the US  during a specific period of time, published by the CDC in May 2000 and designed for use in the United States. The 2000 CDC Growth Charts consists of a set of individual charts and a set of clinical charts, both consisting of a sets of sex specific charts for infants, birth to 36 months of age, a set of  charts for children and adolescents 2 to 20 years of age, and some additional charts.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: 2000 CDC Growth Charts for the United States: Methods and development, Vital and Health Statistics, Series 11, No 246, Department of Health and Human Services, CDC National Center for Health Statistics, Hyattsville, MD, May 2002, pp 1.</rdfs:comment> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/who_charts.htm</rdfs:comment>       
         <rdfs:comment rdf:datatype="&xsd;string">Unlike WHO growth standards charts which were constructed using longitudinal length and weight data measured at frequent intervals, for CDC growth charts, weight data were not available between birth and 3 months of age, and the sample sizes were small for sex and age groups during the first 6 months of age. For this reason CDC growth charts should be only used as references and not as a sole diagnostic tool. [Source: http://www.cdc.gov/growthcharts/who_charts.htm]</rdfs:comment>
@@ -3782,10 +3782,11 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4888014">
         <rdfs:label rdf:datatype="&xsd;string">CDC clinical growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5540226"/>
-        <skos:definition rdf:datatype="&xsd;string">CDC clinical growth chart is a CDC growth chart that consists of modifications in the format of the individual CDC growth charts, whereby two individual charts (for different properties being measured) may appear on a single page. Each individual chart appearing in a clinical chart contains smoothed curves for 5th, 10th, 25th, 50th, 75th, 90th and 95th percentiles plotted on a grid scaled to international units of measurement (kg, cm), with secondary scale in British colonial units (lb, in). Additionally, each clinical chart contains data entry tables and spaces for patient relevant information (name, patient ID number etc.). Clinical charts are available in three sets: for infants, birth to 36 months of age, for children and adolescents ages 2 to 20 years, and for preschoolers, 2 to 5 years of age.</skos:definition>
+    	<skos:definition rdf:datatype="&xsd;string">CDC clinical growth chart is a CDC growth chart that consists of modifications in the format of the individual CDC growth charts, whereby two individual charts (for different properties being measured) may appear on a single page. All percentile curves are plotted on a grid scaled to international units of measurement (kg, cm), with secondary scale in British colonial units (lb, in). Additionally, each clinical chart contains data entry tables and spaces for patient relevant information (patient name, ID number etc.).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: 2000 CDC Growth Charts for the United States: Methods and development, Vital and Health Statistics, Series 11, Number 246, Department of Health and Human Services, CDC National Center for Health Statistics, Hyattsville, MD, May 2002, pp 1 and 35-44.</rdfs:comment> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/clinical_charts.htm</rdfs:comment>       
-        <skos:altLabel rdf:datatype="&xsd;string">growth chart</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">CDC clinical charts are available in two sets with respect to provided percentile curves (one set of charts contains smoothed curves for 5th, 10th, 25th, 50th, 75th, 90th and 95th percentiles, while the other provides curves for 3rd, 10th, 25th, 50th, 75th, 90th and 97th percentiles), and three sets with regard to age: for infants, birth to 36 months of age, for children and adolescents ages 2 to 20 years, and for preschoolers, 2 to 5 years of age.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">clinical growth chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -3894,6 +3895,91 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">girls weight-for-age 2 to 20 years percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5349011 -->  <!-- height-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5349011">
+        <rdfs:label rdf:datatype="&xsd;string">height-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2397558"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1900862 -->  <!-- birth-to-36-months length-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1900862">
+        <rdfs:label rdf:datatype="&xsd;string">birth-to-36-months length-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5349011"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3823316 -->  <!-- boys birth-to-36-months length-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3823316">
+        <rdfs:label rdf:datatype="&xsd;string">boys birth-to-36-months length-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1900862"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7962056 -->  <!-- girls birth-to-36-months length-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7962056">
+        <rdfs:label rdf:datatype="&xsd;string">girls birth-to-36-months length-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1900862"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3129961 -->  <!-- 2-to-20-years stature-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3129961">
+        <rdfs:label rdf:datatype="&xsd;string">2-to-20-years stature-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5349011"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5490636 -->  <!-- boys 2-to-20-years stature-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5490636">
+        <rdfs:label rdf:datatype="&xsd;string">boys 2-to-20-years stature-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3129961"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8862794 -->  <!-- girls 2-to-20-years stature-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8862794">
+        <rdfs:label rdf:datatype="&xsd;string">girls 2-to-20-years stature-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3129961"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+    
+     
+     
+     
+     
      
      
      
