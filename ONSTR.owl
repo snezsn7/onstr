@@ -4153,8 +4153,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4850070">
         <rdfs:label rdf:datatype="&xsd;string">body mass index-for-age percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2397558"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Body mass index-for-age percentile chart is a CDC individual growth chart consisting of smoothed percentile curves illustrating the distribution(s) of body mass indices with respect to age in a population of healthy children and adolescents 2 to 20 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Body mass index-for-age percentile charts are available for only for children and adolescents age 2 to 20 years, but not other age groups (birth to 36 months and 2 to 5 years).</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">BMI-for-age percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -4164,8 +4166,12 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0874986">
         <rdfs:label rdf:datatype="&xsd;string">boys body mass index-for-age percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4850070"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Boys body mass index-for-age percentile chart is a body mass index-for-age percentile chart consisting of smoothed percentile curves illustrating the distribution(s) of body mass indices with respect to age in a population of healthy boys 2 to 20 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">Body mass index-for-age percentiles: Boys, 2 to 20 years</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">boys body mass index-for-age percentiles</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">boys body mass index-for-age percentile chart</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">boys BMI-for-age percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -4175,8 +4181,12 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8261866">
         <rdfs:label rdf:datatype="&xsd;string">girls body mass index-for-age percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4850070"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Girls body mass index-for-age percentile chart is a body mass index-for-age percentile chart consisting of smoothed percentile curves illustrating the distribution(s) of body mass indices with respect to age in a population of healthy girls 2 to 20 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">Body mass index-for-age percentiles: Girls, 2 to 20 years</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">girls body mass index-for-age percentiles</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">girls body mass index-for-age percentile chart</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">girls BMI-for-age percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
@@ -4186,8 +4196,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0651839">
         <rdfs:label rdf:datatype="&xsd;string">height-for-age weight-for-age percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4888014"/> 
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Height-for-age weight-for-age percentile chart is a CDC clinical growth chart that consists of modifications in format of two individual growth charts whereby height-for-age and weight-for-age charts appear on a single page as a single combined chart. Height-for-age weight-for-age chart consists of two sets of smoothed percentile curves, where the upper set of curves illustrates the distribution of height measurement data (body height measurements)with respect to age, while the lower set illustrates weight measurement data (body mass measurements) with respect to age, both in a population of healthy children of specific age group. Percentile curves are plotted against a single scaled grid where weight and height measurement units (respectively) are placed on combined the vertical scale, while age measurement units are placed on the horizontal scale of the grid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/clinical_charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">heigh-for-age and weight-for-age percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -4197,8 +4208,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5269916">
         <rdfs:label rdf:datatype="&xsd;string">birth-to-36 months length-for-age weight-for-age percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0651839"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Birth-to-36 months height-for-age weight-for-age percentile chart is a height-for-age weight-for-age percentile chart that illustrates the distributions of height and weight measurement data with respect to age in a population of healthy infants 0 to 36 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/clinical_charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">infant length-for-age weight-for-age percentile chart</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">length-for-age and weight-for-age percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -4208,8 +4221,11 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0351392">
         <rdfs:label rdf:datatype="&xsd;string">boys birth-to-36 months length-for-age weight-for-age percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5269916"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Boys birth-to-36 months height-for-age weight-for-age percentile chart is a height-for-age weight-for-age percentile chart that illustrates the distributions of height and weight measurement data with respect to age in a population of healthy boys 0 to 36 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/clinical_charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">Birth to 36 months: Boys, length-for-age and weight-for-age percentiles</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">boys length-for-age and weight-for-age percentiles</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">boys length-for-age and weight-for-age percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -4219,8 +4235,11 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0729394">
         <rdfs:label rdf:datatype="&xsd;string">girls birth-to-36 months length-for-age weight-for-age percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5269916"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Girls birth-to-36 months height-for-age weight-for-age percentile chart is a height-for-age weight-for-age percentile chart that illustrates the distributions of height and weight measurement data with respect to age in a population of healthy girls 0 to 36 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/clinical_charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">Birth to 36 months: Girls, length-for-age and weight-for-age percentiles</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">girls length-for-age and weight-for-age percentiles</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">girls length-for-age and weight-for-age percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -4230,8 +4249,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1427222">
         <rdfs:label rdf:datatype="&xsd;string">2-to-20 years stature-for-age weight-for-age percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0651839"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">2-to-20 years stature-for-age weight-for-age percentile chart is a height-for-age weight-for-age percentile chart that illustrates the distributions of height and weight measurement data with respect to age in a population of healthy children and adolescents 2 to 20 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/clinical_charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">stature-for-age and weight-for-age percentile chart</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">children and adolescent stature-for-age and weight-for-age percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -4241,8 +4262,11 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7909999">
         <rdfs:label rdf:datatype="&xsd;string">boys 2-to-20 years stature-for-age weight-for-age percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1427222"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Boys 2-to-20 years stature-for-age weight-for-age percentile chart is a 2-to-20 years stature-for-age weight-for-age percentile chart that illustrates the distributions of height and weight measurement data with respect to age in a population of healthy boys 2 to 20 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/clinical_charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">2 to 20 years: Boys, stature-for-age and weight-for-age percentiles</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">boys stature-for-age and weight-for-age percentiles</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">boys stature-for-age and weight-for-age percentile</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -4252,10 +4276,15 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4737543">
         <rdfs:label rdf:datatype="&xsd;string">girls 2-to-20 years stature-for-age weight-for-age percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1427222"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Girls 2-to-20 years stature-for-age weight-for-age percentile chart is a 2-to-20 years stature-for-age weight-for-age percentile chart that illustrates the distributions of height and weight measurement data with respect to age in a population of healthy girls 2 to 20 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/clinical_charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">2 to 20 years: Girls, stature-for-age and weight-for-age percentiles</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">girls stature-for-age and weight-for-age percentiles</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">girls stature-for-age and weight-for-age percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
      
      
      
