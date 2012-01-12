@@ -4332,8 +4332,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8601363">
         <rdfs:label rdf:datatype="&xsd;string">body mass index-for-age percentile clinical chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4888014"/> 
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Body mass index-for-age percentile clinical chart is a CDC clinical growth chart that is a slight modification of the individual body mass index-for-age percentile chart and consists of smoothed percentile curves illustrating the distribution(s) of body mass indices with respect to age in a population of healthy children and adolescents 2 to 20 years of age, and the data entry tables and spaces for patient relevant information.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Body mass index-for-age percentile clinical charts are available only for children and adolescents age 2 to 20 years, but not other age groups (birth to 36 months and 2 to 5 years).</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">BMI-for-age percentile clinical chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
      
@@ -4343,8 +4345,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0572675">
         <rdfs:label rdf:datatype="&xsd;string">boys body mass index-for-age percentile clinical chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8601363"/> 
-    	<skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+    	<skos:definition rdf:datatype="&xsd;string">Boys body mass index-for-age percentile clinical chart is a body mass index-for-age percentile clinical chart that is a slight modification of the individual body mass index-for-age percentile chart consisting of smoothed percentile curves illustrating the distribution(s) of body mass indices with respect to age in a population of healthy boys 2 to 20 years of age as well as the data entry tables and space for relevant patient information.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">2 to 20 years: Boys, Body mass index-for-age percentiles</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
      
@@ -4354,16 +4357,11 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8199142">
         <rdfs:label rdf:datatype="&xsd;string">girls body mass index-for-age percentile clinical chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8601363"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Girls body mass index-for-age percentile clinical chart is a body mass index-for-age percentile clinical chart that is a slight modification of the individual body mass index-for-age percentile chart consisting of smoothed percentile curves illustrating the distribution(s) of body mass indices with respect to age in a population of healthy girls 2 to 20 years of age as well as the data entry tables and space for relevant patient information.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">2 to 20 years: Girls, Body mass index-for-age percentiles</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
-     
-     
-     
-     
-     
-     
      
     
     
