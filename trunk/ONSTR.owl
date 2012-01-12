@@ -4290,8 +4290,11 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3574623">
         <rdfs:label rdf:datatype="&xsd;string">head circumference-for-age weight-for-length percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4888014"/> 
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Head circumference-for-age weight-for-length percentile chart is a CDC clinical growth chart that consists two vertically separated modified individual growth charts pertaining to a population of healthy infants 0 to 36 months of age. The upper section of the combined chart is a modification of individual head circumference-for-age chart consisting of smoothed percentile curves that illustrate the distribution of head circumference measurements with respect to age. The lower section is a modification of individual weight-for-length chart consisting of smoothed percentile curves that illustrate the distribution of weight (body mass) measurements with respect to body height measurements (length).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/clinical_charts.htm</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Head circumference-for-age weight-for-length percentile chart is available only for infant population 0 to 36 months of age, and not for other age groups (2 to 20 years and 2 to 5 years).</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">head circumference-for-age and weight-for-length percentile chart</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">HC-for-age and weight-for-length percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -4301,8 +4304,11 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0067271">
         <rdfs:label rdf:datatype="&xsd;string">boys head circumference-for-age weight-for-length percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3574623"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Boys head circumference-for-age weight-for-length percentile chart is a head circumference-for-age weight-for-length percentile chart that illustrates the distribution of head circumference measurements with respect to age, and weight (body mass) measurements with respect to body height (length) measurements in a population of healthy boys 0 to 36 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/clinical_charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">Birth to 36 months: Boys, head circumference-for-age and weight-for-length percentiles</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">boys head circumference-for-age and weight-for-length percentile chart</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">boys HC-for-age and weight-for-length percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -4312,8 +4318,11 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4812821">
         <rdfs:label rdf:datatype="&xsd;string">girls head circumference-for-age weight-for-length percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3574623"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Girls head circumference-for-age weight-for-length percentile chart is a head circumference-for-age weight-for-length percentile chart that illustrates the distribution of head circumference measurements with respect to age, and weight (body mass) measurements with respect to body height (length) measurements in a population of healthy girls 0 to 36 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/clinical_charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">Birth to 36 months: Girls, head circumference-for-age and weight-for-length percentiles</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">girls head circumference-for-age and weight-for-length percentile chart</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">girls HC-for-age and weight-for-length percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
