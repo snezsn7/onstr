@@ -3907,7 +3907,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2397558"/>
         <skos:definition rdf:datatype="&xsd;string">Height-for-age percentile chart is a CDC individual growth chart consisting of smoothed percentile curves illustrating the distribution(s) of height measurement data (body height measurements) in a population of healthy children of specific age group (e.g. birth to 36 months of age).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/</rdfs:comment>    
-        <rdfs:comment rdf:datatype="&xsd;string">To refer to the height quality of human body, in the case of neonates and infants word &quot;length&quot; is commonly used, while in children, adolescents and adults word &quot;stature&quot; has the same reference. In fact, all four language expressions &quot;height&quot;, &quot;body height&quot;, &quot;length&quot; and &quot;stature&quot; are commonly used in ambiguously manner to refer to both the quality of human body and to the measurement datum associated with that quality.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">To refer to the height quality of human body, in the case of neonates and infants word &quot;length&quot; is commonly used, while in children, adolescents and adults word &quot;stature&quot; has the same reference. In fact, all four language expressions &quot;height&quot;, &quot;body height&quot;, &quot;length&quot; and &quot;stature&quot; are commonly used in ambiguous manner to refer to both the quality of human body and to the measurement datum associated with that quality.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">height-for-age chart</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">height-for-age percentiles</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">height-for-age percentile chart</skos:altLabel>
@@ -4010,45 +4010,90 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6211529">
         <rdfs:label rdf:datatype="&xsd;string">weight-for-height percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2397558"/>
-        <skos:definition rdf:datatype="&xsd;string">Weight-for-height percentile chart is a CDC individual growth chart consisting of smoothed percentile curves illustrating the distribution(s) of weight measurement data (body mass measurements) with respect to height measurement data (body height measurements) in a population of healthy children 0 to 36 months of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Weight-for-height percentile chart is a CDC individual growth chart consisting of smoothed percentile curves illustrating the distribution(s) of weight measurement data (body mass measurements) with respect to height measurement data (body height measurements) in a population of healthy children 0 to 36 months of age or 2 to 5 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: 2000 CDC Growth Charts for the United States: Methods and development, Vital and Health Statistics, Series 11, Number 246, Department of Health and Human Services, CDC National Center for Health Statistics, Hyattsville, MD, May 2002, pp 1 and 23-24.</rdfs:comment>        
-        <rdfs:comment rdf:datatype="&xsd;string">Weight-for-height percentile charts (also called weight-for-lenght percentile charts) are available for infants age 0-36 months, but not for children and adolescents age 2 to 20 years, as in the case of weight-for-age and height-for-age charts.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">weight-for-length percentile chart</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Weight-for-height percentile charts (also called weight-for-lenght percentile charts) are available for infants age 0-36 months and preschoolers age 2 to 5 years, but not for children and adolescents age 2 to 20 years, as in the case of weight-for-age and height-for-age charts.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">To refer to the height quality of human body, in the case of neonates and infants word &quot;length&quot; is commonly used, while in children, adolescents and adults word &quot;stature&quot; has the same reference. In fact, all four language expressions &quot;height&quot;, &quot;body height&quot;, &quot;length&quot; and &quot;stature&quot; are commonly used in ambiguous manner to refer to both the quality of human body and to the measurement datum associated with that quality. This ambiguity is avoided in ONSTR.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">weight-for-stature chart</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">weight-for-length chart</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">weight-for-length/height percentile chart</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">weight-for-length/height chart</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">infant weight-for-length chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9525536 -->  <!-- boys weight-for-length percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5543067 -->  <!-- birth-to-36 months weight-for-length percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5543067">
+        <rdfs:label rdf:datatype="&xsd;string">birth-to-36 months weight-for-length percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6211529"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9525536 -->  <!-- boys birth-to-36 months weight-for-length percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9525536">
-        <rdfs:label rdf:datatype="&xsd;string">boys weight-for-length percentile chart</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6211529"/>
-        <skos:definition rdf:datatype="&xsd;string">Boys weight-for-length percentile chart is a weight-for-height percentile chart consisting of smoothed percentile curves illustrating the distribution(s) of weight measurement data (body mass measurements) with respect to height measurement data (body height measurements) in a population of healthy boys 0 to 36 months of age.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">boys birth-to-36 months weight-for-length percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5543067"/>
+        <skos:definition rdf:datatype="&xsd;string">Boys birth-to-36 months weight-for-length percentile chart is a birth-to-36 months weight-for-height percentile chart consisting of smoothed percentile curves illustrating the distribution(s) of weight measurement data (body mass measurements) with respect to height measurement data (body height measurements) in a population of healthy boys 0 to 36 months of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment>  
-        <skos:altLabel rdf:datatype="&xsd;string">Weight-for-length percentiles: Boys, birth-to-36 months</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Weight-for-length percentiles: Boys, birth to 36 months</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">boys weight-for-length percentiles</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">boys weight-for-length percentile chart</skos:altLabel>  
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8484144 -->  <!-- girls weight-for-length percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8484144 -->  <!-- girls birth-to-36 months weight-for-length percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8484144">
-        <rdfs:label rdf:datatype="&xsd;string">girls weight-for-length percentile chart</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6211529"/>
-        <skos:definition rdf:datatype="&xsd;string">Girls weight-for-length percentile chart is a weight-for-height percentile chart consisting of smoothed percentile curves illustrating the distribution(s) of weight measurement data (body mass measurements) with respect to height measurement data (body height measurements) in a population of healthy girls 0 to 36 months of age.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">girls birth-to-36 months weight-for-length percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5543067"/>
+        <skos:definition rdf:datatype="&xsd;string">Girls birth-to-36 months weight-for-length percentile chart is a birth-to-36 months weight-for-height percentile chart consisting of smoothed percentile curves illustrating the distribution(s) of weight measurement data (body mass measurements) with respect to height measurement data (body height measurements) in a population of healthy girls 0 to 36 months of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment>    
-        <skos:altLabel rdf:datatype="&xsd;string">Weight-for-length percentiles: Girls, birth-to-36 months</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Weight-for-length percentiles: Girls, birth to 36 months</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">girls weight-for-length percentiles</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">girls weight-for-length percentile chart</skos:altLabel>  
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5887833 -->  <!-- 2-to-5 years weight-for-stature percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5887833">
+        <rdfs:label rdf:datatype="&xsd;string">2-to-5 years weight-for-stature percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6211529"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8993767 -->  <!-- boys 2-to-5 years weight-for-stature percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8993767">
+        <rdfs:label rdf:datatype="&xsd;string">boys 2-to-5 years weight-for-stature percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5887833"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5394856 -->  <!-- girls 2-to-5 years weight-for-stature percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5394856">
+        <rdfs:label rdf:datatype="&xsd;string">girls 2-to-5 years weight-for-stature percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5887833"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2779570 -->  <!-- head circumference-for-age percentile chart -->
@@ -4072,7 +4117,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2779570"/>
         <skos:definition rdf:datatype="&xsd;string">Boys head circumference-for-age percentile chart is a head circumference-for-age percentile chart consisting of smoothed percentile curves illustrating the distribution(s) of head circumference measurement data (head circumference measurements) in a population of healthy boys 0 to 36 months of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment> 
-        <skos:altLabel rdf:datatype="&xsd;string">Head circumference-for-age percentiles: Boys, birth-to-36 months</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Head circumference-for-age percentiles: Boys, birth to 36 months</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">boys head circumference-for-age percentiles</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">boys head circumference-for-age percentile chart</skos:altLabel>   
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -4086,7 +4131,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2779570"/>
         <skos:definition rdf:datatype="&xsd;string">Girls head circumference-for-age percentile chart is a head circumference-for-age percentile chart consisting of smoothed percentile curves illustrating the distribution(s) of head circumference measurement data (head circumference measurements) in a population of healthy girls 0 to 36 months of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment>    
-        <skos:altLabel rdf:datatype="&xsd;string">Head circumference-for-age percentiles: Girls, birth-to-36 months</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Head circumference-for-age percentiles: Girls, birth to 36 months</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">girls head circumference-for-age percentiles</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">girls head circumference-for-age percentile chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
