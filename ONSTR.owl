@@ -4285,6 +4285,39 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3574623 -->  <!-- head circumference-for-age weight-for-length percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3574623">
+        <rdfs:label rdf:datatype="&xsd;string">head circumference-for-age weight-for-length percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4888014"/> 
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0067271 -->  <!-- boys head circumference-for-age weight-for-length percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0067271">
+        <rdfs:label rdf:datatype="&xsd;string">boys head circumference-for-age weight-for-length percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3574623"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4812821 -->  <!-- girls head circumference-for-age weight-for-length percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4812821">
+        <rdfs:label rdf:datatype="&xsd;string">girls head circumference-for-age weight-for-length percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3574623"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
      
      
      
