@@ -4181,6 +4181,85 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
     
     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0651839 -->  <!-- height-for-age weight-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0651839">
+        <rdfs:label rdf:datatype="&xsd;string">height-for-age weight-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4888014"/> 
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5269916 -->  <!-- birth-to-36 months length-for-age weight-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5269916">
+        <rdfs:label rdf:datatype="&xsd;string">birth-to-36 months length-for-age weight-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0651839"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0351392 -->  <!-- boys birth-to-36 months length-for-age weight-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0351392">
+        <rdfs:label rdf:datatype="&xsd;string">boys birth-to-36 months length-for-age weight-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5269916"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0729394 -->  <!-- girls birth-to-36 months length-for-age weight-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0729394">
+        <rdfs:label rdf:datatype="&xsd;string">girls birth-to-36 months length-for-age weight-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5269916"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1427222 -->  <!-- 2-to-20 years stature-for-age weight-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1427222">
+        <rdfs:label rdf:datatype="&xsd;string">2-to-20 years stature-for-age weight-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0651839"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7909999 -->  <!-- boys 2-to-20 years stature-for-age weight-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7909999">
+        <rdfs:label rdf:datatype="&xsd;string">boys 2-to-20 years stature-for-age weight-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1427222"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4737543 -->  <!-- girls 2-to-20 years stature-for-age weight-for-age percentile chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4737543">
+        <rdfs:label rdf:datatype="&xsd;string">girls 2-to-20 years stature-for-age weight-for-age percentile chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1427222"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+     
     
     
     
