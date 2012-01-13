@@ -3798,7 +3798,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0270384">
         <rdfs:label rdf:datatype="&xsd;string">WHO growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3614873"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">World Health Organization (WHO) growth chart is a developmental growth chart based on internationally collected data set and growth standard statistical distribution released by the WHO in 2006 as a part of results of the Multicentre Growth Reference Study (MGRS), describing the growth of children ages 0 to 59 months living in environments believed by the WHO as optimal for growth of children in six countries throughout the world, including the U.S. The WHO standards were constructed using longitudinal height (length) and weight measurements data, obtained at frequent intervals and identify how children should grow when provided optimal conditions. In the U.S. WHO growth charts are available in the format of the CDC clinical growth chart, for infants birth to 24 months of age and consist of smoothed percentile curves for the 2nd, 5th, 10th, 25th, 50th, 75th, 90th, 95th, and 98th percentiles. All percentile curves are plotted on a grid scaled to international units of measurement (kg, cm), with secondary scale in British colonial units (lb, in) and contain data entry tables and spaces for patient relevant information (patient name, ID number etc.).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/who_charts.htm</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">U.S. Center for Disease Control and Prevention (CDC) recommends that health care providers use the WHO growth standards (WHO growth charts) to monitor growth for infants and children ages 0 to 2 years of age, while CDC growth charts should be used for monitoring growth of children age 2 years and older. [Source: http://www.cdc.gov/growthcharts/who_charts.htm]</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">WHO growth standards</skos:altLabel>
@@ -3808,6 +3808,84 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">WHO international growth chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
+     
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2186832 -->  <!-- birth-to-24 months head circumference-for-age weight-for-age WHO growth chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2186832">
+        <rdfs:label rdf:datatype="&xsd;string">birth-to-24 months head circumference-for-age weight-for-age WHO growth chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0270384"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6133111 -->  <!-- boys birth-to-24 months head circumference-for-age weight-for-age WHO growth chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6133111">
+        <rdfs:label rdf:datatype="&xsd;string">boys birth-to-24 months head circumference-for-age weight-for-age WHO growth chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2186832"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1576493 -->  <!-- girls birth-to-24 months head circumference-for-age weight-for-age WHO growth chart -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1576493">
+        <rdfs:label rdf:datatype="&xsd;string">girls birth-to-24 months head circumference-for-age weight-for-age WHO growth chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2186832"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3356966 -->  <!-- birth-to-24 months length-for-age weight-for-age WHO growth chart  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3356966">
+        <rdfs:label rdf:datatype="&xsd;string">birth-to-24 months length-for-age weight-for-age WHO growth chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0270384"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2890352 -->  <!-- boys birth-to-24 months length-for-age weight-for-age WHO growth chart  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2890352">
+        <rdfs:label rdf:datatype="&xsd;string">boys birth-to-24 months length-for-age weight-for-age WHO growth chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3356966"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4760059 -->  <!-- girls birth-to-24 months length-for-age weight-for-age WHO growth chart  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4760059">
+        <rdfs:label rdf:datatype="&xsd;string">girls birth-to-24 months length-for-age weight-for-age WHO growth chart</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3356966"/>
+        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6288330 -->  <!-- weight-for-age percentile chart -->
