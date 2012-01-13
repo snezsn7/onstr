@@ -3814,32 +3814,34 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2186832 -->  <!-- birth-to-24 months head circumference-for-age weight-for-age WHO growth chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2186832">
-        <rdfs:label rdf:datatype="&xsd;string">birth-to-24 months head circumference-for-age weight-for-age WHO growth chart</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">birth-to-24 months head circumference-for-age weight-for-length WHO growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0270384"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Birth-to-24 months head circumference-for-age weight-for-length percentile chart is a WHO growth chart that consists two vertically separated growth charts pertaining to a population of healthy infants 0 to 24 months of age. The upper section of the combined chart is an head circumference-for-age percentile chart consisting of smoothed percentile curves that illustrate the distribution of head circumference measurements with respect to age. The lower section is a weight-for-length percentile chart consisting of smoothed percentile curves that illustrate the distribution of weight (body mass) measurements with respect to body height measurements (length).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/who_charts.htm</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6133111 -->  <!-- boys birth-to-24 months head circumference-for-age weight-for-age WHO growth chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6133111 -->  <!-- boys birth-to-24 months head circumference-for-age weight-for-length WHO growth chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6133111">
-        <rdfs:label rdf:datatype="&xsd;string">boys birth-to-24 months head circumference-for-age weight-for-age WHO growth chart</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">boys birth-to-24 months head circumference-for-age weight-for-length WHO growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2186832"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Boys birth-to-24 months head circumference-for-age weight-for-length WHO growth chart is a birth-to-24 months head circumference-for-age weight-for-length WHO growth chart that illustrates the distribution of head circumference measurements with respect to age, and weight (body mass) measurements with respect to body height (length) measurements in a population of healthy boys 0 to 24 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/who_charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">Birth to 24 months: Boys, Head circumference-for-age and weight-for-length percentiles</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1576493 -->  <!-- girls birth-to-24 months head circumference-for-age weight-for-age WHO growth chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1576493 -->  <!-- girls birth-to-24 months head circumference-for-age weight-for-length WHO growth chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1576493">
-        <rdfs:label rdf:datatype="&xsd;string">girls birth-to-24 months head circumference-for-age weight-for-age WHO growth chart</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">girls birth-to-24 months head circumference-for-age weight-for-length WHO growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2186832"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Girls birth-to-24 months head circumference-for-age weight-for-length WHO growth chart is a birth-to-24 months head circumference-for-age weight-for-length WHO growth chart that illustrates the distribution of head circumference measurements with respect to age, and weight (body mass) measurements with respect to body height (length) measurements in a population of healthy girls 0 to 24 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/who_charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">Birth to 24 months: Girls, Head circumference-for-age and weight-for-length percentiles</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -3849,8 +3851,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3356966">
         <rdfs:label rdf:datatype="&xsd;string">birth-to-24 months length-for-age weight-for-age WHO growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0270384"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Birth-to-24 months length-for-age weight-for-age percentile chart is a WHO growth chart that consists two vertically separated growth charts pertaining to a population of healthy infants 0 to 24 months of age. The upper section of the combined chart is an length-for-age percentile chart consisting of smoothed percentile curves that illustrate the distribution of head circumference measurements with respect to age. The lower section is a weight-for-age percentile chart consisting of smoothed percentile curves that illustrate the distribution of weight (body mass) measurements with respect to body height measurements (length).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/who_charts.htm</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -3860,8 +3862,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2890352">
         <rdfs:label rdf:datatype="&xsd;string">boys birth-to-24 months length-for-age weight-for-age WHO growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3356966"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Boys birth-to-24 months length-for-age weight-for-age WHO growth chart is a birth-to-24 months length-for-age weight-for-age WHO growth chart that illustrates the distribution of body height (length) measurements and weight (body mass) measurements with respect to age in a population of healthy boys 0 to 24 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/who_charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">Birth to 24 months: Boys, Length-for-age and weight-for-age percentiles</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -3871,8 +3874,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4760059">
         <rdfs:label rdf:datatype="&xsd;string">girls birth-to-24 months length-for-age weight-for-age WHO growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3356966"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Girls birth-to-24 months length-for-age weight-for-age WHO growth chart is a birth-to-24 months length-for-age weight-for-age WHO growth chart that illustrates the distribution of body height (length) measurements and weight (body mass) measurements with respect to age in a population of healthy girls 0 to 24 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/who_charts.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">Birth to 24 months: Girls, Length-for-age and weight-for-age percentiles</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
