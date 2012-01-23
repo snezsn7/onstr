@@ -3459,14 +3459,14 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5773210 --> <!-- phenotypical sex datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5773210 --> <!-- phenotypic sex information -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5773210">
-        <rdfs:label rdf:datatype="&xsd;string">phenotypic sex datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">phenotypic sex information</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
     	<skos:definition rdf:datatype="&xsd;string">Phenotypical sex datum is a data item that provides information about the phenotypical sex quality of a human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">phenotypical sex datum</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenotypical sex information</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -4446,15 +4446,130 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class> 
      
     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8918965 -->  <!-- percentile  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8918965">
+        <rdfs:label rdf:datatype="&xsd;string">percentile</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
+        <skos:definition rdf:datatype="&xsd;string">Percentile is a data item that is a number between 0 and 100 (0 and 100 excluded), that is associated with an ordered statistic (i.e. a value, a score, an observation) in a sample distribution of independent random variables that are placed in ascending order) and refers to the position (numerical position, location) of a particular order statistic (i.e. value, score, observation) in a distribution of ordered statistics, such that it divides the ordered statistics into two groups of values/scores, a groups of values that are smaller and/or equal to a given value, and the group of values (scores) that are greater than given value.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://itl.nist.gov/div898/handbook/prc/section2/prc252.htm</rdfs:comment> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Percentile</rdfs:comment>       
+        <rdfs:comment rdf:datatype="&xsd;string">Since percentiles have values between 0 and 100 (0&lt;p&lt;100), they split the  set of ordered statistics into hundredths, whereby each percentile can be associated with one or more values (scores). [Source:http://itl.nist.gov/div898/handbook/prc/section2/prc252.htm] Percentiles associated with particular values can be computed directly from the existing scores (values) or they can be interpolated for values that do not actually exist in the given distribution.</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">01/17/2012 SN:Currently, there seems to be no unique (or unified) definition of what is a percentile. There exists roughly two groups of definitions of percentile. According to one type of definitions, a percentile is a value/observation/score, e.g. &quot;The pth percentile is a value, Y(p), such that at most (100p)% of the measurements are less than this  value and at most 100(1- p)% are greater.&quot; [source: http://itl.nist.gov/div898/handbook/prc/section2/prc252.htm]. Yet another set of definitions says that a percentile is a number point, for instance &quot;Any of 99 numbered points that divide an ordered set of scores into 100 parts each of which contains one-hundredth of the total.&quot; [source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Percentile]. The fist type of definitions is misleading, because a percentile is not a score/observation/value itself, but a number other than a score itself. The second type of definitions is incomplete because it only says that a percentile is some kind of number entity (&quot;a number point&quot;) dividing an ordered set of scores, but fails to provide information that a particular &quot;number point&quot;, is associated with a particular score/value/observation. Technically speaking, a percentile is an information content entity (a number) providing information about another information entity, that is, it is a number telling something about another number. The definition currently provided in the ONSTR, tries to capture all the relevant information about what a percentile is. It's definition and position in the ontology still needs to be vetted/corrected by a statistician (i.e. it may be moved under a class called number, yet to be asserted or imported.)</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">centile</skos:altLabel>
+        <skos:example rdf:datatype="&xsd;string">If for value/score 340 it is said that it is 77th percentile of a sample of random numbers from 1 to 400, then 77% of all give scores will be below (or maximally equal to) 34. Note: In common statistical parlance it is usually and misleadingly said that &quot;a given score is a some (n-th) percentile of the given distribution&quot;. The fact is that given percentile always comes from a fixed set of numbers ranging from 1 to 99, and is not a score of given distribution which depends on the distribution itself.</skos:example>   
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
     
     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7867655 -->  <!-- developmental growth indicator  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7867655">
+        <rdfs:label rdf:datatype="&xsd;string">developmental growth indicator</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
+        <skos:definition rdf:datatype="&xsd;string">Developmental growth indicator	is a data item that is an approximated percentile associated with the value of a measured phenotypical quality, and which is used as clinical indicator to assess the magnitude and pattern of developmental growth of individual child being assessed. Estimated percentile provides the information of how given phenotypic quality measurement datum of a child being assessed, compares to that of the age and sex specific reference population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://pediatrics.about.com/cs/growthcharts2/a/percentiles.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">developmental growth percentile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">growth percentile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">growth centile</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2338725 -->  <!-- height-for-age percentile  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2338725">
+        <rdfs:label rdf:datatype="&xsd;string">height-for-age percentile</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/>
+        <skos:definition rdf:datatype="&xsd;string">Height-for-age percentile is a developmental growth indicator showing the percentage of children (in a reference population distribution) that are of the same age as the assessed child, and whose height measurement datum has equal or smaller value than that of the child being assessed at the time of  given physical examination.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">length-for-age percentile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">body height-for-age-percentile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">body height growth percentile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">baby length centile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Child height centile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Body height [Percentile]</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9730100 -->  <!-- weight-for-age percentile  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9730100">
+        <rdfs:label rdf:datatype="&xsd;string">weight-for-age percentile</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/>
+        <skos:definition rdf:datatype="&xsd;string">Weight-for-age percentile is a developmental growth indicator showing the percentage of children (in a reference population distribution) that are of the same age as the assessed child, and whose weight measurement datum has equal or smaller value than that of the child being assessed at the time of  given physical examination.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">body weight-for-age percentile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">body mass-for-age percentile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Body weight growth percentile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">body weight centile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Body weight percentile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">weight centile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Child weight centile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Body weight [Percentile] Per age</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3502270 -->  <!-- weight-for-height percentile  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3502270">
+        <rdfs:label rdf:datatype="&xsd;string">weight-for-height percentile</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/>
+        <skos:definition rdf:datatype="&xsd;string">Weight-for-height percentile is a developmental growth indicator showing the percentage of children (in a reference population distribution) that are of the same height as the assessed child, and whose weight measurement datum has equal or smaller value than that of the child being assessed at the time of  given physical examination.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
+        <skos:altLabel rdf:datatype="&xsd;string">weight-for-height centile</skos:altLabel>  
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7315205 -->  <!-- head circumference-for-age percentile  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7315205">
+        <rdfs:label rdf:datatype="&xsd;string">head circumference-for-age percentile</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/>
+        <skos:definition rdf:datatype="&xsd;string">Head circumference-for-age percentile is a developmental growth indicator showing the percentage of children (in a reference population distribution) that are of the same age as the assessed child, and whose head circumference measurement datum has equal or smaller value than that of the child being assessed at the time of  given physical examination.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">HC-for-age percentile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Child head circumference centile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Head Occipital-frontal circumference Percentile</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8290547 -->  <!-- body mass index-for-age percentile  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8290547">
+        <rdfs:label rdf:datatype="&xsd;string">body mass index-for-age percentile</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/>
+        <skos:definition rdf:datatype="&xsd;string">Body mass index-for-age percentile is a developmental growth indicator showing the percentage of children (in a reference population distribution) that are of the same age as the assessed child, and whose body mass index has equal or smaller value than that of the child being assessed at the time of  given physical examination.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">Body mass index (BMI) [Percentile]</skos:altLabel>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5875975 -->  <!-- body mass index  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5875975">
+        <rdfs:label rdf:datatype="&xsd;string">body mass index</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
+        <skos:definition rdf:datatype="&xsd;string">Body mass index is a data item that is used as general indicator of body density or the amount of fat contained on human body.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesauarus.owl#Body_Mass_Index</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D015992</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">BMI</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Quietelet Index</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Quietelet index</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Body Mass Index</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Quietelet's index</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Index, Quietelet</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Index, Body Mass</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">BODY MASS INDEX</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">body mass index (BMI)</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
       
       
