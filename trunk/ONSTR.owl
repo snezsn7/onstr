@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 
 
 <!DOCTYPE rdf:RDF [
@@ -59,7 +59,7 @@
         <dc:creator rdf:datatype="&xsd;string">Rani Singh</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sham Navathe</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sivaram Arabandi</dc:creator>
-        <dc:creator rdf:datatype="&xsd;string">Snezana Nikolic</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">Sne&#x17E;ana Nikolic&#x0301;</dc:creator>
         <dc:subject rdf:datatype="&xsd;string">Some general thing, like keywords: ontology, neonatal screening for inborn errors of metabolism, inborn errors of metabolism, translational research, translational medicine, health care, public health</dc:subject>
         <owl:imports rdf:resource="http://www.ifomis.org/bfo/1.1"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
@@ -959,11 +959,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">An age measurement datum that is the result of the measurement of the age of an organism since birth, the process of emergence and separation of offspring from the mother.</skos:definition> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
      </owl:Class>
-     
-     
-     
-     
-          
+       
     
 <!-- END OF OBI-IAO IMPORTS -->    
 <!-- START PATO IMPORTS -->    
@@ -2556,6 +2552,202 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
   
 <!-- END OF NCBITaxon IMPORTS -->
+<!-- START UO IMPORTS -->
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000045 -->		<!-- base unit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000045">
+        <rdfs:label rdf:datatype="&xsd;string">base unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000003"/>
+        <skos:definition rdf:datatype="&xsd;string">A unit which is one of a particular measure to which all measures of that type can be related.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/UO_0000001 -->		<!-- length unit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000001">
+        <rdfs:label rdf:datatype="&xsd;string">length unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000045"/>
+        <skos:definition rdf:datatype="&xsd;string">A base unit which is a standard measure of the distance between two points.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://purl.obolibrary.org/obo/UO_0000015 -->		<!-- centimeter -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000015">
+        <rdfs:label rdf:datatype="&xsd;string">centimeter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000001"/>
+        <skos:definition rdf:datatype="&xsd;string">A length unit which is equal to one hundredth of a meter or 10^[-2] m.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">cm</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://purl.obolibrary.org/obo/UO_0000008 -->		<!-- meter -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000008">
+        <rdfs:label rdf:datatype="&xsd;string">meter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000001"/>
+        <skos:definition rdf:datatype="&xsd;string">A length unit which is equal to the length of the path traveled by light in vacuum during a time interval of 1/299 792 458 of a second.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">m</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000002 -->		<!-- mass unit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000002">
+        <rdfs:label rdf:datatype="&xsd;string">mass unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000045"/>
+        <skos:definition rdf:datatype="&xsd;string">A base unit which is a standard measure of the amount of matter/energy of a physical object.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000021 -->		<!-- gram -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000021">
+        <rdfs:label rdf:datatype="&xsd;string">gram</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000002"/>
+        <skos:definition rdf:datatype="&xsd;string">A mass unit which is equal to one thousandth of a kilogram or 10^[-3] kg.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">g</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000009 -->		<!-- kilogram -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000009">
+        <rdfs:label rdf:datatype="&xsd;string">kilogram</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000002"/>
+        <skos:definition rdf:datatype="&xsd;string">A mass unit which is equal to the mass of the International Prototype Kilogram kept by the BIPM at S&#xE8;vres, France.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">kg</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000023 -->		<!-- microgram -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000023">
+        <rdfs:label rdf:datatype="&xsd;string">microgram</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000002"/>
+        <skos:definition rdf:datatype="&xsd;string">A mass unit which is equal to one millionth of a gram or 10^[-6] g.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">&#x3BC;g</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">ug</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000022 -->		<!-- milligram -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000022">
+        <rdfs:label rdf:datatype="&xsd;string">milligram</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000002"/>
+        <skos:definition rdf:datatype="&xsd;string">A mass unit which is equal to one thousandth of a gram or 10^[-3] g.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">mg</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000024 -->		<!-- nanogram -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000024">
+        <rdfs:label rdf:datatype="&xsd;string">nanogram</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000002"/>
+        <skos:definition rdf:datatype="&xsd;string">A mass unit which is equal to 10^[-12] g.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">ng</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000046 -->		<!-- derived unit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000046">
+        <rdfs:label rdf:datatype="&xsd;string">derived unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000003"/>
+        <skos:definition rdf:datatype="&xsd;string">A unit which is derived from base units.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000051 -->		<!-- concentration unit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000051">
+        <rdfs:label rdf:datatype="&xsd;string">concentration unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
+        <skos:definition rdf:datatype="&xsd;string">A derived unit which represents a standard measurement of how much of a given substance there is mixed with another substance.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000163 -->		<!-- mass percentage -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000163">
+        <rdfs:label rdf:datatype="&xsd;string">mass percentage</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000051"/>
+        <skos:definition rdf:datatype="&xsd;string">A dimensionless concentration unit which denotes the mass of a substance in a mixture as a percentage of the mass of the entire mixture.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">w/w</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">weight/weight percentage</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000196 -->		<!-- pH -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000196">
+        <rdfs:label rdf:datatype="&xsd;string">pH</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000051"/>
+        <skos:definition rdf:datatype="&xsd;string">A dimensionless concentration notation which denotes the acidity of a solution in terms of activity of hydrogen ions (H+).</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/UO_0000177 -->		<!-- unit per volume unit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000177">
+        <rdfs:label rdf:datatype="&xsd;string">unit per volume unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000051"/>
+        <skos:definition rdf:datatype="&xsd;string">A derived concentration unit which is a standard measure of the number of units, as an agreed arbitrary amount, of a given substance per a specific volume of solution.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+
+
+   <!-- http://purl.obolibrary.org/obo/UO_0000179 -->		<!-- unit per volume liter -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000179">
+        <rdfs:label rdf:datatype="&xsd;string">unit per volume liter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000177"/>
+        <skos:definition rdf:datatype="&xsd;string">A unit per milliliter unit which is equal to one unit of an agreed arbitrary amount per one liter.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">U/l</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000200 -->		<!-- cell concentration unit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000200">
+        <rdfs:label rdf:datatype="&xsd;string">cell concentration unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000051"/>
+        <skos:definition rdf:datatype="&xsd;string">A concentration unit which denotes the average cell number in a given volume.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000201 -->		<!-- cells per milliliter -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000201">
+        <rdfs:label rdf:datatype="&xsd;string">cells per milliliter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000200"/>
+        <skos:definition rdf:datatype="&xsd;string">A unit of cell concentration which is equal to one cell in a volume of 1 milliliter.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">cells per ml</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+
+
+
 
 <!-- END OF ALL IMPORTED CLASSES -->
    
