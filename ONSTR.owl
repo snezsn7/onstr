@@ -2747,6 +2747,238 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000182 -->		<!-- density unit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000182">
+        <rdfs:label rdf:datatype="&xsd;string">density unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
+        <skos:definition rdf:datatype="&xsd;string">A derived unit which is a standard measure of the influence exerted by some mass.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+   
+   <!-- http://purl.obolibrary.org/obo/UO_0000054 -->		<!-- area density unit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000054">
+        <rdfs:label rdf:datatype="&xsd;string">area density unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000182"/> 
+        <skos:definition rdf:datatype="&xsd;string">A density unit which is a standard measure of the mass exerting an influence on a given area.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">mass per unit area</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000086 -->		<!-- kilogram per square meter -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000086">
+        <rdfs:label rdf:datatype="&xsd;string">kilogram per square meter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000054"/> 
+        <skos:definition rdf:datatype="&xsd;string">An area density unit which is equal to the mass of an object in kilograms divided by the surface area in meters squared.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">kg/m^[2]</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">BMI unit</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">body mass index unit</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/UO_0000052 -->		<!-- mass density unit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000052">
+        <rdfs:label rdf:datatype="&xsd;string">mass density unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000182"/>  
+        <skos:definition rdf:datatype="&xsd;string">A density unit which is a standard measure of the mass of a substance in a given volume.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">mass per unit volume</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+
+
+   <!-- http://purl.obolibrary.org/obo/UO_0000208 -->		<!-- gram per deciliter -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000208">
+        <rdfs:label rdf:datatype="&xsd;string">gram per deciliter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000052"/> 
+        <skos:definition rdf:datatype="&xsd;string">A mass density unit which is equal to mass of an object in grams divided by the volume in deciliters.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">g/dl</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">g/dL</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/UO_0000126 -->		<!-- temperature derived unit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000126">
+        <rdfs:label rdf:datatype="&xsd;string">temperature derived unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/> 
+        <skos:definition rdf:datatype="&xsd;string">A derived unit which represents a standard measurement of temperature in a particular temperature scale.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/UO_0000027 -->		<!-- degree celsius -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000027">
+        <rdfs:label rdf:datatype="&xsd;string">degree celsius</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000126"/> 
+        <skos:definition rdf:datatype="&xsd;string">A temperature derived unit which is equal to one Kelvin degree. However, they have their zeros at different points. The Centigrade scale has its zero at 273.15 K.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">C</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">&#x00B0; C</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/UO_0000195 -->		<!-- degree fahrenheit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000195">
+        <rdfs:label rdf:datatype="&xsd;string">degree fahrenheit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000126"/> 
+        <skos:definition rdf:datatype="&xsd;string">A temperature derived unit which is equal to 5/9ths of a kelvin. Negative 40 degrees Fahrenheit is equal to negative 40 degrees Celsius.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">F</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">&#x00B0; F</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000149 -->		<!-- time derived unit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000149">
+        <rdfs:label rdf:datatype="&xsd;string">time derived unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/> 
+        <skos:definition rdf:datatype="&xsd;string">A derived unit which is a standard measure of the dimension in which events occur in sequence.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000033 -->		<!-- day -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000033">
+        <rdfs:label rdf:datatype="&xsd;string">day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000149"/>
+        <skos:definition rdf:datatype="&xsd;string">A time unit which is equal to 24 hours.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000032 -->		<!-- hour -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000032">
+        <rdfs:label rdf:datatype="&xsd;string">hour</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000149"/>
+        <skos:definition rdf:datatype="&xsd;string">A time unit which is equal to 3600 seconds or 60 minutes.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">h</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000031 -->		<!-- minute -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000031">
+        <rdfs:label rdf:datatype="&xsd;string">minute</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000149"/>
+        <skos:definition rdf:datatype="&xsd;string">A time unit which is equal to 60 seconds.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">min</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+        <!-- http://purl.obolibrary.org/obo/UO_0000035 -->		<!-- month -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000035">
+        <rdfs:label rdf:datatype="&xsd;string">month</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000149"/>
+        <skos:definition rdf:datatype="&xsd;string">A time unit which is approximately equal to the length of time of one of cycle of the moon&#39;s phases which is science is taken to be equal to 30 days.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">01/29/2012 SN: The lenght of the month of 30 days refrred in the UO, is the approximation of what is in science called &quot; a synodic month&quot;, which is the average period of the Moon&apos;s revolution around the Earth (i.e. informally, a time interval between the two successive new moons). Average time interval (length) of a synodic month is 29.530788 days. Synodic month is used as a basis ofr most calendars.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000034 -->		<!-- week -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000034">
+        <rdfs:label rdf:datatype="&xsd;string">week</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000149"/>
+        <skos:definition rdf:datatype="&xsd;string">A time unit which is equal to 7 days.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000036 -->		<!-- year -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000036">
+        <rdfs:label rdf:datatype="&xsd;string">year</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000149"/>
+        <skos:definition rdf:datatype="&xsd;string">A time unit which is equal to 12 months which is science is taken to be equal to 365.25 days.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">annus</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">a</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">y</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">yr</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/UO_0000095 -->		<!-- volume unit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000095">
+        <rdfs:label rdf:datatype="&xsd;string">volume unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
+        <skos:definition rdf:datatype="&xsd;string">A derived unit which is a standard measure of the amount of space occupied by any substance, whether solid, liquid, or gas.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+
+
+   <!-- http://purl.obolibrary.org/obo/UO_0000209 -->		<!-- deciliter -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000209">
+        <rdfs:label rdf:datatype="&xsd;string">deciliter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000095"/>
+        <skos:definition rdf:datatype="&xsd;string">A volume unit which is equal to one tenth of a liter or 10^[-1] L.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">dl</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">dL</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000099 -->		<!-- liter -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000099">
+        <rdfs:label rdf:datatype="&xsd;string">liter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000095"/>
+        <skos:definition rdf:datatype="&xsd;string">A volume unit which is equal to one thousandth of a cubic meter or 10^[-3] m^[3], or to 1 cubic decimeter.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">l</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">L</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/UO_0000101 -->		<!-- microliter -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000101">
+        <rdfs:label rdf:datatype="&xsd;string">microliter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000095"/>
+        <skos:definition rdf:datatype="&xsd;string">A volume unit which is equal to one millionth of a liter or 10^[-6] L.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">&#x3BC;l</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">&#x3BC;L</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">ul</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">uL</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/UO_0000098 -->		<!-- milliliter -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000098">
+        <rdfs:label rdf:datatype="&xsd;string">milliliter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000095"/>
+        <skos:definition rdf:datatype="&xsd;string">A volume unit which is equal to one thousandth of a liter or 10^[-3] L, or to 1 cubic centimeter.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">ml</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mL</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+
+
+
+
+
+
 
 
 <!-- END OF ALL IMPORTED CLASSES -->
