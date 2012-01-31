@@ -16,6 +16,7 @@
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY ONSTR "http://onstr.googlecode.com/svn/trunk/ONSTR.owl#" >
     <!ENTITY GO "http://purl.org/obo/owl/GO#">
+    <!ENTITY PRO "http://purl.obolibrary.org/obo/pr.owl#">
     <!ENTITY PATO "http://purl.org/obo/owl/PATO#">
     <!ENTITY FMA "http://purl.org/sig/fma/">  <!-- PURLized IRIs as of fma_v3.2 -->
     <!ENTITY CL "http://purl.org/obo/owl/CL#">
@@ -39,6 +40,7 @@
      xmlns:span="http://www.ifomis.org/bfo/1.1/span#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:GO="http://purl.org/obo/owl/GO#"
+     xmlns:PRO="http://purl.obolibrary.org/obo/pr.owl#"
      xmlns:PATO="http://purl.org/obo/owl/PATO#"
      xmlns:FMA="http://purl.org/sig/fma/"
      xmlns:CL="http://purl.org/obo/owl/CL#"
@@ -172,12 +174,84 @@
      	<rdfs:label rdf:datatype="&xsd;string">gene expression</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0043170"/>
         <skos:definition rdf:datatype="&xsd;string">The process in which a gene's sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA (for protein-coding genes) and the translation of that mRNA into protein. Some protein processing events may be included when they are required to form an active form of a product from an inactive precursor form.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from GO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO)</skos:editorialNote>
    </owl:Class>
        
 
-      
+    <!-- http://purl.org/obo/owl/GO#GO_0010467 -->   <!-- macromolecular complex -->
+   
+   	<owl:Class rdf:about="&GO;GO_0010467">
+     	<rdfs:label rdf:datatype="&xsd;string">macromolecular complex</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&obo;CHEBI_36357"/>
+		<skos:definition rdf:datatype="&xsd;string">A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which the constituent parts function together.</skos:definition>
+    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO)</skos:editorialNote>
+   </owl:Class>
+
+
+    <!-- http://purl.org/obo/owl/GO#GO_0043234 -->   <!-- protein complex -->
+   
+   	<owl:Class rdf:about="&GO;GO_0043234">
+     	<rdfs:label rdf:datatype="&xsd;string">protein complex</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&GO;GO_0010467"/>
+		<skos:definition rdf:datatype="&xsd;string">Any macromolecular complex composed of two or more polypeptide subunits, which may or may not be identical. Protein complexes may have other associated non-protein prosthetic groups, such as nucleotides, metal ions or other small molecules.</skos:definition>
+    	 <skos:altLabel rdf:datatype="&xsd;string">protein-protein complex</skos:altLabel>
+    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO)</skos:editorialNote>
+   </owl:Class>
+
+
+
+     
 <!-- END OF GO IMPORTS -->      
+<!-- START PRO IMPORTS -->
+
+
+    <!-- http://purl.obolibrary.org/obo/pr.owl#PR_000018263 -->   <!-- amino acid chain -->
+   
+   	<owl:Class rdf:about="&PRO;PR_000018263">
+   		<rdfs:label rdf:datatype="&xsd;string">amino acid chain</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33694"/>
+		<skos:definition rdf:datatype="&xsd;string">A polymer of amino acids linked by peptide bonds.</skos:definition>
+    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Protein Ontology (PR)</skos:editorialNote>
+   </owl:Class>
+   
+   
+    <!-- http://purl.obolibrary.org/obo/pr.owl#PR_000000001 -->   <!-- protein -->
+   
+   	<owl:Class rdf:about="&PRO;PR_000000001">
+   		<rdfs:label rdf:datatype="&xsd;string">protein</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&PRO;PR_000018263"/>
+		<skos:definition rdf:datatype="&xsd;string">An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA.</skos:definition>
+    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Protein Ontology (PR)</skos:editorialNote>
+   </owl:Class>
+   
+
+    <!-- http://purl.obolibrary.org/obo/pr.owl#PR_000012234 -->   <!-- phenylalanine-4-hydroxylase -->
+   
+   	<owl:Class rdf:about="&PRO;PR_000012234">
+   		<rdfs:label rdf:datatype="&xsd;string">phenylalanine-4-hydroxylase</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&PRO;PR_000000001"/>
+		<skos:definition rdf:datatype="&xsd;string">A protein that is a translation product of the PAH gene or a 1:1 ortholog thereof.</skos:definition>
+    	<rdfs:comment rdf:datatype="&xsd;string">This class name denotes the phenylalanine-4-hydroxylase enzyme monomer, *not* the phenylalanine-4-hydroxylase complex which is a homomonomer (a dimer or tetramer consisting of 2 or 4 phenylalanine-4-hydroxylase monomers) and which is the bearer of the phenylalanine-4-monoxygenase activity (GO:00016714).</rdfs:comment> 
+    	<rdfs:comment rdf:datatype="&xsd;string">Note: In the literature, in the case of homomonomeric enzyme (protein) complexes, the same names are used for both monomers and corresponding protein complexes, e.g. phenylalanine-4-hydroxylase is interghangeably used both for catalytically inactive enzyme monomer and for catalytically active protein complex.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">PAH</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">PheOH</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">PheH</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalaninase</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine hydroxylase</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4 hydroxylase</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">hydroxylase, phenylalanine</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4 monooxygenase</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Phe-4-monooxygenase</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">4-hydroxylase phenylalanine</skos:altLabel> 
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4-monooxygenase</skos:altLabel>    
+        <skos:altLabel rdf:datatype="&xsd;string">4-monooxygenase, phenylalanine</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine-4-hydroxylase monomer</skos:altLabel>
+    <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Protein Ontology (PR)</skos:editorialNote>
+   </owl:Class>
+
+
+
+<!-- END OF PRO IMPORTS --> 
 <!-- START OBI-IOA IMPORTS -->
 
 
