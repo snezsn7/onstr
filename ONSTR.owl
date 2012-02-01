@@ -58,7 +58,7 @@
         <dc:creator rdf:datatype="&xsd;string">Prabhu Shankar</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Akshaye Dhawan</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Rajshekar Sunderraman</dc:creator>
-        <dc:creator rdf:datatype="&xsd;string">Rani Singh</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">Rani Singh &#x0930;</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sham Navathe</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sivaram Arabandi</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sne&#x17E;ana Nikolic&#x0301;</dc:creator>
@@ -3111,7 +3111,7 @@ people infected, then extract parasite which are then tested = observation study
    
 
 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7112823 --> <!-- congenital metabolic disease -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7112823 --> <!-- congenital metabolic disease -->
         
     <owl:Class rdf:about="&ONSTR;ONSTR_7112823">
         <rdfs:subClassOf rdf:resource="&obo;OGMS_0000035"/>
@@ -3125,7 +3125,7 @@ people infected, then extract parasite which are then tested = observation study
 	</owl:Class>
 
 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2709221 --> <!--congenital metabolic disorder -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2709221 --> <!--congenital metabolic disorder -->
     
     <owl:Class rdf:about="&ONSTR;ONSTR_2709221">
         <rdfs:subClassOf rdf:resource="&obo;OGMS_0000045"/>
@@ -3137,7 +3137,7 @@ people infected, then extract parasite which are then tested = observation study
 	</owl:Class>
 
 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7546388 --> <!-- congenital hyperphenylalaninemia -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7546388 --> <!-- congenital hyperphenylalaninemia -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7546388">
          <owl:equivalentClass>
@@ -3170,7 +3170,7 @@ people infected, then extract parasite which are then tested = observation study
 
 
 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0109406 --> <!-- phenylketonuria -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0109406 --> <!-- phenylketonuria -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0109406">
         <rdfs:label rdf:datatype="&xsd;string">phenylketonuria</rdfs:label>
@@ -3201,7 +3201,7 @@ people infected, then extract parasite which are then tested = observation study
 	
 
 	
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0128089 --> <!-- PAH deficiency -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0128089 --> <!-- PAH deficiency -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0128089">
          <owl:equivalentClass>
@@ -3224,7 +3224,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 	
 	
-	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5173920 --> <!-- BH4 deficiency -->
+	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5173920 --> <!-- BH4 deficiency -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5173920">
        <rdfs:label rdf:datatype="&xsd;string">tetrahydrobiopterin deficiency</rdfs:label>
@@ -3249,7 +3249,7 @@ people infected, then extract parasite which are then tested = observation study
 	
 	
 
-	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1272933 --> <!-- classic phenylketonuria -->
+	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1272933 --> <!-- classic phenylketonuria -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1272933">
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0109406"/>
@@ -3262,7 +3262,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
- 	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4838542 --> <!-- moderate phenylketonuria --> 
+ 	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4838542 --> <!-- moderate phenylketonuria --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_4838542">
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0109406"/>
@@ -3274,7 +3274,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
       
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9287404 -->  <!-- mild phenylketonuria --> 
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9287404 -->  <!-- mild phenylketonuria --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_9287404">
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0109406"/>
@@ -3285,7 +3285,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2355072 --> <!-- biomaterial entity --> 
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2355072 --> <!-- biomaterial entity --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_2355072">
         <rdfs:label rdf:datatype="&xsd;string">biomaterial entity</rdfs:label>
@@ -3299,7 +3299,7 @@ people infected, then extract parasite which are then tested = observation study
 	</owl:Class>
 	
 	
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7175949 --> <!-- genotype --> 
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7175949 --> <!-- genotype --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_7175949">
         <rdfs:label rdf:datatype="&xsd;string">genotype</rdfs:label>
@@ -3314,7 +3314,7 @@ people infected, then extract parasite which are then tested = observation study
 	</owl:Class>
 
 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8554179 --> <!-- heterozygous genotype --> 
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8554179 --> <!-- heterozygous genotype --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_8554179">
         <rdfs:label rdf:datatype="&xsd;string">heterozygous genotype</rdfs:label>
@@ -3327,7 +3327,7 @@ people infected, then extract parasite which are then tested = observation study
 	</owl:Class>
 	
 	
-	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1161331 --> <!-- homozygous genotype --> 
+	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1161331 --> <!-- homozygous genotype --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_1161331">
         <rdfs:label rdf:datatype="&xsd;string">homozygous genotype</rdfs:label>
@@ -3339,7 +3339,7 @@ people infected, then extract parasite which are then tested = observation study
 	</owl:Class>
 	
 	
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1509758 --> <!-- PAH genotype -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1509758 --> <!-- PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1509758">
         <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase genotype</rdfs:label>
@@ -3351,7 +3351,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 	
 	
-	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5583212 --> <!-- normal PAH genotype -->
+	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5583212 --> <!-- normal PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5583212">
         <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine hydroxylase genotype</rdfs:label>
@@ -3365,7 +3365,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 	
 	
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1252223 --> <!-- mutated allele carrier PAH genotype -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1252223 --> <!-- mutated allele carrier PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1252223">
         <rdfs:label rdf:datatype="&xsd;string">mutated allele carrier phenylalanine hydroxylase genotype</rdfs:label>
@@ -3378,7 +3378,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 	
 	
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7843044 --> <!-- mutant PAH genotype -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7843044 --> <!-- mutant PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7843044">
         <rdfs:label rdf:datatype="&xsd;string">mutant PAH genotype</rdfs:label>
@@ -3390,7 +3390,7 @@ people infected, then extract parasite which are then tested = observation study
 	
 	
 		
-	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4241089 --> <!-- homozygous mutant PAH genotype -->
+	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4241089 --> <!-- homozygous mutant PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4241089">
         <rdfs:label rdf:datatype="&xsd;string">homozygous mutant phenylalanine hydroxilase genotype</rdfs:label>
@@ -3403,7 +3403,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9939637 --> <!-- heterozygous mutant PAH genotype -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9939637 --> <!-- heterozygous mutant PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9939637">
         <rdfs:label rdf:datatype="&xsd;string">heterozygous mutant phenylalanine hydroxilase genotype</rdfs:label>
@@ -3415,7 +3415,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
 	
-	 <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7924462 --> <!-- enzyme -->
+	 <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7924462 --> <!-- enzyme -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7924462">
         <rdfs:label rdf:datatype="&xsd;string">enzyme</rdfs:label>
@@ -3426,12 +3426,12 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2424755 --> <!-- phenylalanine hydroxylase -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2424755 --> <!-- phenylalanine hydroxylase -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2424755">
-        <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase complex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2681014"/>
-        <skos:definition rdf:datatype="&xsd;string">An enzyme that functions as a catalyst in the reaction: L-phenylalanine + tetrahydrobiopterin + O2 = L-tyrosine + 4-alpha-hydroxytetrahydrobiopterin (a conversion of phenylalanine into tyrosine), which represents a rate limiting step in only clinically significant biochemical pathway for the catabolism of phenylalanine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">A monooxygenase complex that functions as a catalyst in the reaction: L-phenylalanine + tetrahydrobiopterin + O2 = L-tyrosine + 4-alpha-hydroxytetrahydrobiopterin (a conversion of phenylalanine into tyrosine), which represents a rate limiting step in only clinically significant biochemical pathway for the catabolism of phenylalanine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.14.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/GO/GO_0004505</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">PAH</skos:altLabel>
@@ -3451,25 +3451,30 @@ people infected, then extract parasite which are then tested = observation study
     
     
        
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5363814 --> <!-- normal PAH -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5363814 --> <!-- normal PAH complex -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5363814">
-        <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine hyrdoxylase</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine hyrdoxylase complex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2424755"/>
         <skos:altLabel rdf:datatype="&xsd;string">normal PAH</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A phenyalalnine hydroxylase that has no structural abnormalities in it's primary, secondary, ternary and quaternary protein structure (has normal PAH phenotype or morphology?), and that has normal (non-mutant) PAH genotype (i.e. encoded by normal PAH genotype), and that is a fully functional catalyzer of the process of conversion of phenylalanine into tyrosine (has normal PAH activity).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal PAH complex</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal phenylalanine-4-hyrdoxylase  complex</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A phenyalalnine hydroxylase complex (phenyalalnine-4-hydroxylase dimer or tetramer complex) cosisiting of normal phenyalalnine-4-hydroxylase monomers.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Phenylalanine_hydroxylase</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class> 
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9415873 --> <!-- defective PAH -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9415873 --> <!-- defective PAH complex -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9415873">
-        <rdfs:label rdf:datatype="&xsd;string">defective phenylalanine hyrdoxylase</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">defective phenylalanine hyrdoxylase complex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2424755"/>
         <skos:altLabel rdf:datatype="&xsd;string">defective PAH</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A phenyalalnine hydroxylase that has aberrant primary and/or secondary and/or ternary protein structure (has abnormal phenotype or morphology?) that is due to the mutant PAH genotype, and that cannot act as a fully functional catalyzer of conversion of phenylalanine into tyrosine (i.e. has decreased PAH activity) which in turn serves as a cause of hyperpehenylalninemia.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">defective PAH complex</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">defective phenylalanine-4-hyrdoxylase complex</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A phenyalalnine hydroxylase complex (phenyalalnine-4-hydroxylase dimer or tetramer complex) having at least one monomer that is a defective phenyalalnine-4-hydroxylase, and as such cannot act as a fully functional catalyzer of conversion of phenylalanine into tyrosine (i.e. has decreased PAH activity).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">In defective phenylalanine hyrdoxylase dimer complex at least one of the monomers is a defective phenyalalnine-4-hydroxylase, while in defective phenylalanine hyrdoxylase tetramer complex one or more monomers may be defective phenyalalnine-4-hydroxylase.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.14.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">dysfunctional PAH</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -3478,31 +3483,31 @@ people infected, then extract parasite which are then tested = observation study
     
     
  
-      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7003914 --> <!-- oxidoreductase -->
+      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7003914 --> <!-- oxidoreductase -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7003914">
-        <rdfs:label rdf:datatype="&xsd;string">oxidoreductase</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7924462"/>
-        <skos:definition rdf:datatype="&xsd;string">An enzyme that functions as a catalyst of an oxidation-reduction (redox) reaction, a reversible chemical reaction in which the oxidation state of an atom or atoms within a molecule is altered. One substrate acts as a hydrogen or electron donor and becomes oxidized, while the other acts as hydrogen or electron acceptor and becomes reduced.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">oxidoreductase complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&GO;GO_0043234"/>
+        <skos:definition rdf:datatype="&xsd;string">A protein complex that functions as a catalyst of an oxidation-reduction (redox) reaction, a reversible chemical reaction in which the oxidation state of an atom or atoms within a molecule is altered. One substrate acts as a hydrogen or electron donor and becomes oxidized, while the other acts as hydrogen or electron acceptor and becomes reduced.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.org/obo/owl/GO#GO_0016491</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
  
  
  
-      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2681014 --> <!-- monoxygenase -->
+      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2681014 --> <!-- monoxygenase -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2681014">
-        <rdfs:label rdf:datatype="&xsd;string">monooxygenase</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">monooxygenase complex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7003914"/>
-        <skos:definition rdf:datatype="&xsd;string">An oxidoreductase enzyme that functions as a catalyst in the reaction of the incorporation of one atom from molecular oxygen into a compound, and the reduction of the other atom of oxygen to water.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">An oxidoreductase complex that functions as a catalyst in the reaction of the incorporation of one atom from molecular oxygen into a compound, and the reduction of the other atom of oxygen to water.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.org/obo/owl/GO#GO_0004497</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
  
 	
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2522662 --> <!-- hyperphenylalaninemia finding -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2522662 --> <!-- hyperphenylalaninemia finding -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2522662">
         <rdfs:label rdf:datatype="&xsd;string">hyperphenylalaninemia finding</rdfs:label>
@@ -3513,7 +3518,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1445519 --> <!-- phenylalanine concentration finding -->
+      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1445519 --> <!-- phenylalanine concentration finding -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1445519">
         <rdfs:label rdf:datatype="&xsd;string">phenylalanine concentration finding</rdfs:label>
@@ -3525,7 +3530,7 @@ people infected, then extract parasite which are then tested = observation study
 
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3916451 --> <!-- plasma penylalanine concentration finding-->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3916451 --> <!-- plasma penylalanine concentration finding-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3916451">
         <rdfs:label rdf:datatype="&xsd;string">plasma penylalanine concentration finding</rdfs:label>
@@ -3546,7 +3551,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_XXXXX --> <!-- blood phenylalanine concentration finding -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_XXXXX --> <!-- blood phenylalanine concentration finding -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_XXXXX">
         <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration finding</rdfs:label>
@@ -3567,7 +3572,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0114258 --> <!-- blood phenylalanine concentration test -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0114258 --> <!-- blood phenylalanine concentration test -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0114258">
         <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration test</rdfs:label>
@@ -3579,7 +3584,7 @@ people infected, then extract parasite which are then tested = observation study
 
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1115755 --> <!-- cerebrospinal fluid phenylalanine concentration finding -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1115755 --> <!-- cerebrospinal fluid phenylalanine concentration finding -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1115755">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration finding</rdfs:label>
@@ -3600,7 +3605,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2219307 --> <!-- cerebrospinal fluid phenylalanine concentration test -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2219307 --> <!-- cerebrospinal fluid phenylalanine concentration test -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2219307">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration test</rdfs:label>
@@ -3612,7 +3617,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6285423 --> <!-- plasma penylalanine concentration test-->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6285423 --> <!-- plasma penylalanine concentration test-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6285423">
         <rdfs:label rdf:datatype="&xsd;string">plasma penylalanine concentration test</rdfs:label>
@@ -3623,7 +3628,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6116517 --> <!-- blood specimen collecting-->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6116517 --> <!-- blood specimen collecting-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6116517">
         <rdfs:label rdf:datatype="&xsd;string">blood specimen collecting</rdfs:label>
@@ -3635,7 +3640,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0812331 --> <!-- arterial blood specimen collecting-->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0812331 --> <!-- arterial blood specimen collecting-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0812331">
         <rdfs:label rdf:datatype="&xsd;string">arterial blood specimen collecting</rdfs:label>
@@ -3648,7 +3653,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
 
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7267693 --> <!-- venous blood specimen collecting-->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7267693 --> <!-- venous blood specimen collecting-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7267693">
         <rdfs:label rdf:datatype="&xsd;string">venous blood specimen collecting</rdfs:label>
@@ -3661,7 +3666,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1711364 --> <!-- capillary blood specimen collecting -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1711364 --> <!-- capillary blood specimen collecting -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1711364">
         <rdfs:label rdf:datatype="&xsd;string">capillary blood specimen collecting</rdfs:label>
@@ -3674,7 +3679,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5397567 --> <!-- neonatal heel-prick blood specimen collecting --> 
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5397567 --> <!-- neonatal heel-prick blood specimen collecting --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_5397567">
         <rdfs:label rdf:datatype="&xsd;string">neonatal heel-prick blood specimen collecting</rdfs:label>
@@ -3691,7 +3696,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4112781 --> <!-- finger-prick blood specimen collecting --> 
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4112781 --> <!-- finger-prick blood specimen collecting --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_4112781">
         <rdfs:label rdf:datatype="&xsd;string">finger-prick blood specimen collecting</rdfs:label>
@@ -3703,7 +3708,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>    
      
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2422189 --> <!-- urine specimen collecting -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2422189 --> <!-- urine specimen collecting -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2422189">
         <rdfs:label rdf:datatype="&xsd;string">urine specimen collecting</rdfs:label>
@@ -3714,7 +3719,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
  
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1581489 --> <!-- cerebrospinal fluid specimen collecting -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1581489 --> <!-- cerebrospinal fluid specimen collecting -->
     
         <owl:Class rdf:about="&ONSTR;ONSTR_1581489">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid specimen collecting</rdfs:label>
@@ -3727,7 +3732,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9432852 --> <!-- arterial blood specimen -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9432852 --> <!-- arterial blood specimen -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9432852">
         <rdfs:label rdf:datatype="&xsd;string">arterial blood specimen</rdfs:label>
@@ -3739,7 +3744,7 @@ people infected, then extract parasite which are then tested = observation study
     
     
     
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0983341 --> <!-- venous blood specimen -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0983341 --> <!-- venous blood specimen -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0983341">
         <rdfs:label rdf:datatype="&xsd;string">venous blood specimen</rdfs:label>
@@ -3750,7 +3755,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3725003 --> <!-- capillary blood specimen -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3725003 --> <!-- capillary blood specimen -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3725003">
         <rdfs:label rdf:datatype="&xsd;string">capillary blood specimen</rdfs:label>
@@ -3761,7 +3766,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7549502 --> <!-- dried blood spot specimen -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7549502 --> <!-- dried blood spot specimen -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7549502">
         <rdfs:label rdf:datatype="&xsd;string">dried blood spot specimen</rdfs:label>
@@ -3772,7 +3777,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2889784 --> <!-- cerebrospinal fluid specimen -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2889784 --> <!-- cerebrospinal fluid specimen -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2889784">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid specimen</rdfs:label>
@@ -3784,7 +3789,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6614057 --> <!-- blood specimen creation objective -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6614057 --> <!-- blood specimen creation objective -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6614057">
         <rdfs:label rdf:datatype="&xsd;string">blood specimen creation objective</rdfs:label>
@@ -3795,7 +3800,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2647953 --> <!-- urine specimen creation objective -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2647953 --> <!-- urine specimen creation objective -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2647953">
         <rdfs:label rdf:datatype="&xsd;string">urine specimen creation objective</rdfs:label>
@@ -3806,7 +3811,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5102144 -->  <!-- CSF specimen creation objective -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5102144 -->  <!-- CSF specimen creation objective -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5102144">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid specimen creation objective</rdfs:label>
@@ -3817,7 +3822,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8454231 --> <!-- developmental body growth -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8454231 --> <!-- developmental body growth -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8454231">
         <rdfs:label rdf:datatype="&xsd;string">developmental body growth</rdfs:label>
@@ -3829,7 +3834,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6184665 --> <!-- developmental head growth -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6184665 --> <!-- developmental head growth -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6184665">
         <rdfs:label rdf:datatype="&xsd;string">developmental head growth</rdfs:label>
@@ -3841,7 +3846,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2038914 --> <!-- human body quality -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2038914 --> <!-- human body quality -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2038914">
         <rdfs:label rdf:datatype="&xsd;string">human body quality</rdfs:label>
@@ -3852,7 +3857,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
 
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6562510 --> <!-- head circumference -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6562510 --> <!-- head circumference -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6562510">
         <rdfs:label rdf:datatype="&xsd;string">head circumference</rdfs:label>
@@ -3864,7 +3869,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1273733 --> <!-- head size -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1273733 --> <!-- head size -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1273733">
         <rdfs:label rdf:datatype="&xsd;string">head size</rdfs:label>
@@ -3875,7 +3880,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4137435 --> <!-- body mass -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4137435 --> <!-- body mass -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4137435">
         <rdfs:label rdf:datatype="&xsd;string">body mass</rdfs:label>
@@ -3888,7 +3893,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8294453 --> <!-- body height -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8294453 --> <!-- body height -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8294453">
         <rdfs:label rdf:datatype="&xsd;string">body height</rdfs:label>
@@ -3901,7 +3906,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0829886 --> <!-- human age -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0829886 --> <!-- human age -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0829886">
         <rdfs:label rdf:datatype="&xsd;string">human age</rdfs:label>
@@ -3912,7 +3917,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2111308 --> <!-- age since birth -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2111308 --> <!-- age since birth -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2111308">
         <rdfs:label rdf:datatype="&xsd;string">age since birth</rdfs:label>
@@ -3923,7 +3928,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8059146 --> <!-- gestational age at birth -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8059146 --> <!-- gestational age at birth -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8059146">
         <rdfs:label rdf:datatype="&xsd;string">gestational age at birth</rdfs:label>
@@ -3934,7 +3939,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9411314 --> <!-- body mass constituent composition -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9411314 --> <!-- body mass constituent composition -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9411314">
         <rdfs:label rdf:datatype="&xsd;string">body mass constituent composition</rdfs:label>
@@ -3947,7 +3952,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
 
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3296813 --> <!-- gestational age at birth measurement datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3296813 --> <!-- gestational age at birth measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3296813">
         <rdfs:label rdf:datatype="&xsd;string">gestational age at birth measurement datum</rdfs:label>
@@ -3958,7 +3963,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3215569 --> <!-- age at physical examination measurement datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3215569 --> <!-- age at physical examination measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3215569">
         <rdfs:label rdf:datatype="&xsd;string">age at physical examination measurement datum</rdfs:label>
@@ -3969,7 +3974,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6203442 --> <!-- age at first heel-prick blood sampling measurement datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6203442 --> <!-- age at first heel-prick blood sampling measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6203442">
         <rdfs:label rdf:datatype="&xsd;string">age at first heel-prick blood sampling measurement datum</rdfs:label>
@@ -3980,7 +3985,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3735018 --> <!-- age at repeated heel-prick blood sampling measurement datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3735018 --> <!-- age at repeated heel-prick blood sampling measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3735018">
         <rdfs:label rdf:datatype="&xsd;string">age at repeated heel-prick blood sampling measurement datum</rdfs:label>
@@ -3991,7 +3996,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5773210 --> <!-- phenotypic sex information -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5773210 --> <!-- phenotypic sex information -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5773210">
         <rdfs:label rdf:datatype="&xsd;string">phenotypic sex information</rdfs:label>
@@ -4003,7 +4008,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2150908 --> <!-- head circumference measurement datum -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2150908 --> <!-- head circumference measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2150908">
         <rdfs:label rdf:datatype="&xsd;string">head circumference measurement datum</rdfs:label>
@@ -4020,7 +4025,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1457519 --> <!-- head circumference at birth measurement datum -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1457519 --> <!-- head circumference at birth measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1457519">
         <rdfs:label rdf:datatype="&xsd;string">head circumference at birth measurement datum</rdfs:label>
@@ -4031,7 +4036,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5646467 --> <!-- head circumference at physical examination measurement datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5646467 --> <!-- head circumference at physical examination measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5646467">
         <rdfs:label rdf:datatype="&xsd;string">head circumference at physical examination measurement datum</rdfs:label>
@@ -4043,7 +4048,7 @@ people infected, then extract parasite which are then tested = observation study
     
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8762724 --> <!-- body mass measurement datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8762724 --> <!-- body mass measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8762724">
         <rdfs:label rdf:datatype="&xsd;string">body mass measurement datum</rdfs:label>
@@ -4057,7 +4062,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0901764 --> <!-- body mass at birth measurement datum -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0901764 --> <!-- body mass at birth measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0901764">
         <rdfs:label rdf:datatype="&xsd;string">body mass at birth measurement datum</rdfs:label>
@@ -4068,7 +4073,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7469225 --> <!-- body mass at physical examination measurement datum -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7469225 --> <!-- body mass at physical examination measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7469225">
         <rdfs:label rdf:datatype="&xsd;string">body mass at physical examination measurement datum</rdfs:label>
@@ -4079,7 +4084,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7664189 --> <!-- body height measurement datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7664189 --> <!-- body height measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7664189">
         <rdfs:label rdf:datatype="&xsd;string">body height measurement datum</rdfs:label>
@@ -4097,7 +4102,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4752024 --> <!-- body height at birth measurement datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4752024 --> <!-- body height at birth measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4752024">
         <rdfs:label rdf:datatype="&xsd;string">body height at birth measurement datum</rdfs:label>
@@ -4108,7 +4113,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0477465 --> <!-- body height at physical examination measurement datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0477465 --> <!-- body height at physical examination measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0477465">
         <rdfs:label rdf:datatype="&xsd;string">body height at physical examination measurement datum</rdfs:label>
@@ -4119,7 +4124,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0270435--> <!-- body mass measurement assay -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0270435--> <!-- body mass measurement assay -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0270435">
         <rdfs:label rdf:datatype="&xsd;string">body mass measurement assay</rdfs:label>
@@ -4130,7 +4135,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8336133--> <!-- length measurement assay -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8336133--> <!-- length measurement assay -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8336133">
         <rdfs:label rdf:datatype="&xsd;string">length measurement assay</rdfs:label>
@@ -4142,7 +4147,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1745319--> <!-- body heigth measurement assay -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1745319--> <!-- body heigth measurement assay -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1745319">
         <rdfs:label rdf:datatype="&xsd;string">body heigth measurement assay</rdfs:label>
@@ -4154,7 +4159,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1298692--> <!-- head circumference measurement assay -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1298692--> <!-- head circumference measurement assay -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1298692">
         <rdfs:label rdf:datatype="&xsd;string">head circumference measurement assay</rdfs:label>
@@ -4166,7 +4171,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7375219--> <!-- developmental growth indicator derivation -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7375219--> <!-- developmental growth indicator derivation -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7375219">
         <rdfs:label rdf:datatype="&xsd;string">developmental growth indicator derivation</rdfs:label>
@@ -4177,7 +4182,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6405272 --> <!-- height-for-age percentile derivation -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6405272 --> <!-- height-for-age percentile derivation -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6405272">
         <rdfs:label rdf:datatype="&xsd;string">height-for-age percentile derivation</rdfs:label>
@@ -4188,7 +4193,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6066538 --> <!-- weight-for-age percentile derivation -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6066538 --> <!-- weight-for-age percentile derivation -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6066538">
         <rdfs:label rdf:datatype="&xsd;string">weight-for-age percentile derivation</rdfs:label>
@@ -4199,7 +4204,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3780666 --> <!-- weight-for-height percentile derivation -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3780666 --> <!-- weight-for-height percentile derivation -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3780666">
         <rdfs:label rdf:datatype="&xsd;string">weight-for-height percentile derivation</rdfs:label>
@@ -4210,7 +4215,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2672569 --> <!-- head circumference-for-age percentile derivation -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2672569 --> <!-- head circumference-for-age percentile derivation -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2672569">
         <rdfs:label rdf:datatype="&xsd;string">head circumference-for-age percentile derivation</rdfs:label>
@@ -4221,7 +4226,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8529802 -->  <!-- body mass index-for-age percentile derivation -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8529802 -->  <!-- body mass index-for-age percentile derivation -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8529802">
         <rdfs:label rdf:datatype="&xsd;string">body mass index-for-age percentile derivation</rdfs:label>
@@ -4233,7 +4238,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7294200 -->  <!-- body mass index calculation -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7294200 -->  <!-- body mass index calculation -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7294200">
         <rdfs:label rdf:datatype="&xsd;string">body mass index calculation</rdfs:label>
@@ -4244,7 +4249,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7550260 -->  <!-- developmental growth indicator derivation objective -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7550260 -->  <!-- developmental growth indicator derivation objective -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7550260">
         <rdfs:label rdf:datatype="&xsd;string">developmental growth indicator derivation objective</rdfs:label>
@@ -4255,7 +4260,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9799826 -->  <!-- body mass index calculation objective -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9799826 -->  <!-- body mass index calculation objective -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9799826">
         <rdfs:label rdf:datatype="&xsd;string">body mass index calculation objective</rdfs:label>
@@ -4266,7 +4271,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
    
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3614873 -->  <!-- developmental growth chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3614873 -->  <!-- developmental growth chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3614873">
         <rdfs:label rdf:datatype="&xsd;string">developmental growth chart</rdfs:label>
@@ -4281,7 +4286,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5540226 -->  <!-- CDC growth chart -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5540226 -->  <!-- CDC growth chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5540226">
         <rdfs:label rdf:datatype="&xsd;string">CDC growth chart</rdfs:label>
@@ -4297,7 +4302,7 @@ people infected, then extract parasite which are then tested = observation study
    </owl:Class>
     
     
-      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2397558 -->  <!-- CDC individual growth chart -->
+      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2397558 -->  <!-- CDC individual growth chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2397558">
         <rdfs:label rdf:datatype="&xsd;string">CDC individual growth chart</rdfs:label>
@@ -4311,7 +4316,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>   
      
      
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4888014 -->  <!-- CDC clinical growth chart -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4888014 -->  <!-- CDC clinical growth chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4888014">
         <rdfs:label rdf:datatype="&xsd;string">CDC clinical growth chart</rdfs:label>
@@ -4325,7 +4330,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0270384 -->  <!-- WHO growth chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0270384 -->  <!-- WHO growth chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0270384">
         <rdfs:label rdf:datatype="&xsd;string">WHO growth chart</rdfs:label>
@@ -4343,7 +4348,7 @@ people infected, then extract parasite which are then tested = observation study
      
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2186832 -->  <!-- birth-to-24 months head circumference-for-age weight-for-age WHO growth chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2186832 -->  <!-- birth-to-24 months head circumference-for-age weight-for-age WHO growth chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2186832">
         <rdfs:label rdf:datatype="&xsd;string">birth-to-24 months head circumference-for-age weight-for-length WHO growth chart</rdfs:label>
@@ -4354,7 +4359,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6133111 -->  <!-- boys birth-to-24 months head circumference-for-age weight-for-length WHO growth chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6133111 -->  <!-- boys birth-to-24 months head circumference-for-age weight-for-length WHO growth chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6133111">
         <rdfs:label rdf:datatype="&xsd;string">boys birth-to-24 months head circumference-for-age weight-for-length WHO growth chart</rdfs:label>
@@ -4366,7 +4371,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1576493 -->  <!-- girls birth-to-24 months head circumference-for-age weight-for-length WHO growth chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1576493 -->  <!-- girls birth-to-24 months head circumference-for-age weight-for-length WHO growth chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1576493">
         <rdfs:label rdf:datatype="&xsd;string">girls birth-to-24 months head circumference-for-age weight-for-length WHO growth chart</rdfs:label>
@@ -4378,7 +4383,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3356966 -->  <!-- birth-to-24 months length-for-age weight-for-age WHO growth chart  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3356966 -->  <!-- birth-to-24 months length-for-age weight-for-age WHO growth chart  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3356966">
         <rdfs:label rdf:datatype="&xsd;string">birth-to-24 months length-for-age weight-for-age WHO growth chart</rdfs:label>
@@ -4389,7 +4394,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2890352 -->  <!-- boys birth-to-24 months length-for-age weight-for-age WHO growth chart  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2890352 -->  <!-- boys birth-to-24 months length-for-age weight-for-age WHO growth chart  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2890352">
         <rdfs:label rdf:datatype="&xsd;string">boys birth-to-24 months length-for-age weight-for-age WHO growth chart</rdfs:label>
@@ -4401,7 +4406,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4760059 -->  <!-- girls birth-to-24 months length-for-age weight-for-age WHO growth chart  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4760059 -->  <!-- girls birth-to-24 months length-for-age weight-for-age WHO growth chart  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4760059">
         <rdfs:label rdf:datatype="&xsd;string">girls birth-to-24 months length-for-age weight-for-age WHO growth chart</rdfs:label>
@@ -4424,7 +4429,7 @@ people infected, then extract parasite which are then tested = observation study
      
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6288330 -->  <!-- weight-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6288330 -->  <!-- weight-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6288330">
         <rdfs:label rdf:datatype="&xsd;string">weight-for-age percentile chart</rdfs:label>
@@ -4438,7 +4443,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class> 
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9633642 -->  <!-- birth-to-36-months weight-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9633642 -->  <!-- birth-to-36-months weight-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9633642">
         <rdfs:label rdf:datatype="&xsd;string">birth-to-36-months weight-for-age percentile chart</rdfs:label>
@@ -4450,7 +4455,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0011550 -->  <!-- boys birth-to-36-months weight-for-age percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0011550 -->  <!-- boys birth-to-36-months weight-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0011550">
         <rdfs:label rdf:datatype="&xsd;string">boys birth-to-36-months weight-for-age percentile chart</rdfs:label>
@@ -4463,7 +4468,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6516375 -->  <!-- girls birth-to-36-months weight-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6516375 -->  <!-- girls birth-to-36-months weight-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6516375">
         <rdfs:label rdf:datatype="&xsd;string">girls birth-to-36-months weight-for-age percentile chart</rdfs:label>
@@ -4476,7 +4481,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
       
       
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9901690 -->  <!-- 2-to-20-years weight-for-age percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9901690 -->  <!-- 2-to-20-years weight-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9901690">
         <rdfs:label rdf:datatype="&xsd;string">2-to-20-years weight-for-age percentile chart</rdfs:label>
@@ -4488,7 +4493,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4991400 -->  <!-- boys 2-to-20-years weight-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4991400 -->  <!-- boys 2-to-20-years weight-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4991400">
         <rdfs:label rdf:datatype="&xsd;string">boys 2-to-20-years weight-for-age percentile chart</rdfs:label>
@@ -4501,7 +4506,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4655635 -->  <!-- girls 2-to-20-years weight-for-age percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4655635 -->  <!-- girls 2-to-20-years weight-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4655635">
         <rdfs:label rdf:datatype="&xsd;string">girls 2-to-20-years weight-for-age percentile chart</rdfs:label>
@@ -4514,7 +4519,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
         
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5349011 -->  <!-- height-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5349011 -->  <!-- height-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5349011">
         <rdfs:label rdf:datatype="&xsd;string">height-for-age percentile chart</rdfs:label>
@@ -4532,7 +4537,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1900862 -->  <!-- birth-to-36-months length-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1900862 -->  <!-- birth-to-36-months length-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1900862">
         <rdfs:label rdf:datatype="&xsd;string">birth-to-36-months length-for-age percentile chart</rdfs:label>
@@ -4547,7 +4552,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3823316 -->  <!-- boys birth-to-36-months length-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3823316 -->  <!-- boys birth-to-36-months length-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3823316">
         <rdfs:label rdf:datatype="&xsd;string">boys birth-to-36-months length-for-age percentile chart</rdfs:label>
@@ -4560,7 +4565,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7962056 -->  <!-- girls birth-to-36-months length-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7962056 -->  <!-- girls birth-to-36-months length-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7962056">
         <rdfs:label rdf:datatype="&xsd;string">girls birth-to-36-months length-for-age percentile chart</rdfs:label>
@@ -4573,7 +4578,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3129961 -->  <!-- 2-to-20-years stature-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3129961 -->  <!-- 2-to-20-years stature-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3129961">
         <rdfs:label rdf:datatype="&xsd;string">2-to-20-years stature-for-age percentile chart</rdfs:label>
@@ -4589,7 +4594,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5490636 -->  <!-- boys 2-to-20-years stature-for-age percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5490636 -->  <!-- boys 2-to-20-years stature-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5490636">
         <rdfs:label rdf:datatype="&xsd;string">boys 2-to-20-years stature-for-age percentile chart</rdfs:label>
@@ -4604,7 +4609,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8862794 -->  <!-- girls 2-to-20-years stature-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8862794 -->  <!-- girls 2-to-20-years stature-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8862794">
         <rdfs:label rdf:datatype="&xsd;string">girls 2-to-20-years stature-for-age percentile chart</rdfs:label>
@@ -4619,7 +4624,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6211529 -->  <!-- weight-for-height percentile chart -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6211529 -->  <!-- weight-for-height percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6211529">
         <rdfs:label rdf:datatype="&xsd;string">weight-for-height percentile chart</rdfs:label>
@@ -4635,7 +4640,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5543067 -->  <!-- birth-to-36 months weight-for-length percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5543067 -->  <!-- birth-to-36 months weight-for-length percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5543067">
         <rdfs:label rdf:datatype="&xsd;string">birth-to-36 months weight-for-length percentile chart</rdfs:label>
@@ -4650,7 +4655,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9525536 -->  <!-- boys birth-to-36 months weight-for-length percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9525536 -->  <!-- boys birth-to-36 months weight-for-length percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9525536">
         <rdfs:label rdf:datatype="&xsd;string">boys birth-to-36 months weight-for-length percentile chart</rdfs:label>
@@ -4664,7 +4669,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8484144 -->  <!-- girls birth-to-36 months weight-for-length percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8484144 -->  <!-- girls birth-to-36 months weight-for-length percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8484144">
         <rdfs:label rdf:datatype="&xsd;string">girls birth-to-36 months weight-for-length percentile chart</rdfs:label>
@@ -4678,7 +4683,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5887833 -->  <!-- 2-to-5 years weight-for-stature percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5887833 -->  <!-- 2-to-5 years weight-for-stature percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5887833">
         <rdfs:label rdf:datatype="&xsd;string">2-to-5 years weight-for-stature percentile chart</rdfs:label>
@@ -4692,7 +4697,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class> 
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8993767 -->  <!-- boys 2-to-5 years weight-for-stature percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8993767 -->  <!-- boys 2-to-5 years weight-for-stature percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8993767">
         <rdfs:label rdf:datatype="&xsd;string">boys 2-to-5 years weight-for-stature percentile chart</rdfs:label>
@@ -4706,7 +4711,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5394856 -->  <!-- girls 2-to-5 years weight-for-stature percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5394856 -->  <!-- girls 2-to-5 years weight-for-stature percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5394856">
         <rdfs:label rdf:datatype="&xsd;string">girls 2-to-5 years weight-for-stature percentile chart</rdfs:label>
@@ -4720,7 +4725,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2779570 -->  <!-- head circumference-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2779570 -->  <!-- head circumference-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2779570">
         <rdfs:label rdf:datatype="&xsd;string">head circumference-for-age percentile chart</rdfs:label>
@@ -4734,7 +4739,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8825392 -->  <!-- boys head circumference-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8825392 -->  <!-- boys head circumference-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8825392">
         <rdfs:label rdf:datatype="&xsd;string">boys head circumference-for-age percentile chart</rdfs:label>
@@ -4748,7 +4753,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_6096886 -->  <!-- girls head circumference-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6096886 -->  <!-- girls head circumference-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6096886">
         <rdfs:label rdf:datatype="&xsd;string">girls head circumference-for-age percentile chart</rdfs:label>
@@ -4762,7 +4767,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4850070 -->  <!-- body mass index-for-age percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4850070 -->  <!-- body mass index-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4850070">
         <rdfs:label rdf:datatype="&xsd;string">body mass index-for-age percentile chart</rdfs:label>
@@ -4775,7 +4780,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0874986 -->  <!-- boys body mass index-for-age percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0874986 -->  <!-- boys body mass index-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0874986">
         <rdfs:label rdf:datatype="&xsd;string">boys body mass index-for-age percentile chart</rdfs:label>
@@ -4790,7 +4795,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8261866 -->  <!-- girls body mass index-for-age percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8261866 -->  <!-- girls body mass index-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8261866">
         <rdfs:label rdf:datatype="&xsd;string">girls body mass index-for-age percentile chart</rdfs:label>
@@ -4805,7 +4810,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0651839 -->  <!-- height-for-age weight-for-age percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0651839 -->  <!-- height-for-age weight-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0651839">
         <rdfs:label rdf:datatype="&xsd;string">height-for-age weight-for-age percentile chart</rdfs:label>
@@ -4817,7 +4822,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5269916 -->  <!-- birth-to-36 months length-for-age weight-for-age percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5269916 -->  <!-- birth-to-36 months length-for-age weight-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5269916">
         <rdfs:label rdf:datatype="&xsd;string">birth-to-36 months length-for-age weight-for-age percentile chart</rdfs:label>
@@ -4830,7 +4835,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0351392 -->  <!-- boys birth-to-36 months length-for-age weight-for-age percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0351392 -->  <!-- boys birth-to-36 months length-for-age weight-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0351392">
         <rdfs:label rdf:datatype="&xsd;string">boys birth-to-36 months length-for-age weight-for-age percentile chart</rdfs:label>
@@ -4844,7 +4849,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0729394 -->  <!-- girls birth-to-36 months length-for-age weight-for-age percentile chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0729394 -->  <!-- girls birth-to-36 months length-for-age weight-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0729394">
         <rdfs:label rdf:datatype="&xsd;string">girls birth-to-36 months length-for-age weight-for-age percentile chart</rdfs:label>
@@ -4858,7 +4863,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_1427222 -->  <!-- 2-to-20 years stature-for-age weight-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1427222 -->  <!-- 2-to-20 years stature-for-age weight-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1427222">
         <rdfs:label rdf:datatype="&xsd;string">2-to-20 years stature-for-age weight-for-age percentile chart</rdfs:label>
@@ -4871,7 +4876,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7909999 -->  <!-- boys 2-to-20 years stature-for-age weight-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7909999 -->  <!-- boys 2-to-20 years stature-for-age weight-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7909999">
         <rdfs:label rdf:datatype="&xsd;string">boys 2-to-20 years stature-for-age weight-for-age percentile chart</rdfs:label>
@@ -4885,7 +4890,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4737543 -->  <!-- girls 2-to-20 years stature-for-age weight-for-age percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4737543 -->  <!-- girls 2-to-20 years stature-for-age weight-for-age percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4737543">
         <rdfs:label rdf:datatype="&xsd;string">girls 2-to-20 years stature-for-age weight-for-age percentile chart</rdfs:label>
@@ -4899,7 +4904,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3574623 -->  <!-- head circumference-for-age weight-for-length percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3574623 -->  <!-- head circumference-for-age weight-for-length percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3574623">
         <rdfs:label rdf:datatype="&xsd;string">head circumference-for-age weight-for-length percentile chart</rdfs:label>
@@ -4913,7 +4918,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0067271 -->  <!-- boys head circumference-for-age weight-for-length percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0067271 -->  <!-- boys head circumference-for-age weight-for-length percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0067271">
         <rdfs:label rdf:datatype="&xsd;string">boys head circumference-for-age weight-for-length percentile chart</rdfs:label>
@@ -4927,7 +4932,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_4812821 -->  <!-- girls head circumference-for-age weight-for-length percentile chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4812821 -->  <!-- girls head circumference-for-age weight-for-length percentile chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4812821">
         <rdfs:label rdf:datatype="&xsd;string">girls head circumference-for-age weight-for-length percentile chart</rdfs:label>
@@ -4941,7 +4946,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8601363 -->  <!-- body mass index-for-age percentile clinical chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8601363 -->  <!-- body mass index-for-age percentile clinical chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8601363">
         <rdfs:label rdf:datatype="&xsd;string">body mass index-for-age percentile clinical chart</rdfs:label>
@@ -4954,7 +4959,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class> 
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_0572675 -->  <!-- boys body mass index-for-age percentile clinical chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0572675 -->  <!-- boys body mass index-for-age percentile clinical chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0572675">
         <rdfs:label rdf:datatype="&xsd;string">boys body mass index-for-age percentile clinical chart</rdfs:label>
@@ -4966,7 +4971,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class> 
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8199142 -->  <!-- girls body mass index-for-age percentile clinical chart -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8199142 -->  <!-- girls body mass index-for-age percentile clinical chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8199142">
         <rdfs:label rdf:datatype="&xsd;string">girls body mass index-for-age percentile clinical chart</rdfs:label>
@@ -4979,7 +4984,7 @@ people infected, then extract parasite which are then tested = observation study
      
     
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8918965 -->  <!-- percentile  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8918965 -->  <!-- percentile  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8918965">
         <rdfs:label rdf:datatype="&xsd;string">percentile</rdfs:label>
@@ -4995,7 +5000,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7867655 -->  <!-- developmental growth indicator  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7867655 -->  <!-- developmental growth indicator  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7867655">
         <rdfs:label rdf:datatype="&xsd;string">developmental growth indicator</rdfs:label>
@@ -5009,7 +5014,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_2338725 -->  <!-- height-for-age percentile  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2338725 -->  <!-- height-for-age percentile  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2338725">
         <rdfs:label rdf:datatype="&xsd;string">height-for-age percentile</rdfs:label>
@@ -5026,7 +5031,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_9730100 -->  <!-- weight-for-age percentile  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9730100 -->  <!-- weight-for-age percentile  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9730100">
         <rdfs:label rdf:datatype="&xsd;string">weight-for-age percentile</rdfs:label>
@@ -5045,7 +5050,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class> 
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_3502270 -->  <!-- weight-for-height percentile  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3502270 -->  <!-- weight-for-height percentile  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3502270">
         <rdfs:label rdf:datatype="&xsd;string">weight-for-height percentile</rdfs:label>
@@ -5057,7 +5062,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_7315205 -->  <!-- head circumference-for-age percentile  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7315205 -->  <!-- head circumference-for-age percentile  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7315205">
         <rdfs:label rdf:datatype="&xsd;string">head circumference-for-age percentile</rdfs:label>
@@ -5071,7 +5076,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class> 
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_8290547 -->  <!-- body mass index-for-age percentile  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8290547 -->  <!-- body mass index-for-age percentile  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8290547">
         <rdfs:label rdf:datatype="&xsd;string">body mass index-for-age percentile</rdfs:label>
@@ -5083,7 +5088,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_5875975 -->  <!-- body mass index  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5875975 -->  <!-- body mass index  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5875975">
         <rdfs:label rdf:datatype="&xsd;string">body mass index</rdfs:label>
