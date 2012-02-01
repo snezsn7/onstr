@@ -223,9 +223,9 @@
    </owl:Class>
        
 
-    <!-- http://purl.org/obo/owl/GO#GO_0010467 -->   <!-- macromolecular complex -->
+    <!-- http://purl.org/obo/owl/GO#GO_0032991 -->   <!-- macromolecular complex -->
    
-   	<owl:Class rdf:about="&GO;GO_0010467">
+   	<owl:Class rdf:about="&GO;GO_0032991">
      	<rdfs:label rdf:datatype="&xsd;string">macromolecular complex</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&obo;CHEBI_36357"/>
 		<skos:definition rdf:datatype="&xsd;string">A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which the constituent parts function together.</skos:definition>
@@ -237,7 +237,7 @@
    
    	<owl:Class rdf:about="&GO;GO_0043234">
      	<rdfs:label rdf:datatype="&xsd;string">protein complex</rdfs:label>
-     	<rdfs:subClassOf rdf:resource="&GO;GO_0010467"/>
+     	<rdfs:subClassOf rdf:resource="&GO;GO_0032991"/>
 		<skos:definition rdf:datatype="&xsd;string">Any macromolecular complex composed of two or more polypeptide subunits, which may or may not be identical. Protein complexes may have other associated non-protein prosthetic groups, such as nucleotides, metal ions or other small molecules.</skos:definition>
     	 <skos:altLabel rdf:datatype="&xsd;string">protein-protein complex</skos:altLabel>
     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO)</skos:editorialNote>
