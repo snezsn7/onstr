@@ -55,10 +55,10 @@
         <skos:altLabel rdf:datatype="&xsd;string">ONSTR</skos:altLabel>
         <dc:title rdf:datatype="&xsd;string">Ontology for Neonatal Screening and Translational Research</dc:title>
         <dc:format rdf:datatype="&xsd;string">RDF/XML</dc:format>
-        <dc:creator rdf:datatype="&xsd;string">Prabhu Shankar</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">Prabhu Shankar (&#2346;&#2381;&#2352;&#2349;&#2369; &#2358;&#2344;&#2381;&#2325;&#2352;&#2381;)</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Akshaye Dhawan</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Rajshekar Sunderraman</dc:creator>
-        <dc:creator rdf:datatype="&xsd;string">Rani Singh &#x0930;</dc:creator>
+        <dc:creator rdf:datatype="&xsd;string">Rani Singh (&#2352;&#2344;&#2367; &#2360;&#2367;&#2344;&#2381;&#2328;&#2381;)</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sham Navathe</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sivaram Arabandi</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sne&#x17E;ana Nikolic&#x0301;</dc:creator>
@@ -3284,19 +3284,6 @@ people infected, then extract parasite which are then tested = observation study
 		<rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD DefSource Scriver</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
-
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2355072 --> <!-- biomaterial entity --> 
-    
-    <owl:Class rdf:about="&ONSTR;ONSTR_2355072">
-        <rdfs:label rdf:datatype="&xsd;string">biomaterial entity</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&snap;MaterialEntity"/>
-        <skos:altLabel rdf:datatype="&xsd;string">biomaterial object</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A material entity constituting a biological organism in its entirety or in part (living or dead), or an object derived from or produced by living an biological organism.</skos:definition>
-        <skos:example rdf:datatype="&xsd;string">human being, organ, cell, organelle, cerebrospinal fluid, organ tissue, gene, enzyme, blood sample, chromosome, amino acid, bacterion.</skos:example>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.neuinfo.org/NIF/Backend/BIRNLex-OBO-UBO.owl#birnlex_5</rdfs:comment>  
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cvrgrid.org/ontologies/Electrophysiology#Biomaterial</rdfs:comment>      
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-	</owl:Class>
 	
 	
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7175949 --> <!-- genotype --> 
