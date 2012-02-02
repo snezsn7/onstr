@@ -3608,7 +3608,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6116517">
         <rdfs:label rdf:datatype="&xsd;string">blood specimen collecting</rdfs:label>
-        <owl:equivalentClass>
+         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;OBI_0600005"/>
@@ -3644,7 +3644,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0812331">
         <rdfs:label rdf:datatype="&xsd;string">arterial blood specimen collecting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>
+       <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>
         <skos:definition rdf:datatype="&xsd;string">Arterial blood specimen collecting is blood specimen collecting by which a portion of arterial blood is collected from a human patient by making a small puncture in patient's artery followed by collecting the leaked portion of arterial blood in a protocol appropriate container.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74Uk</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
@@ -3657,7 +3657,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7267693">
         <rdfs:label rdf:datatype="&xsd;string">venous blood specimen collecting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>  
         <skos:definition rdf:datatype="&xsd;string">Venous blood specimen collecting is blood specimen collecting by which a portion of venous blood is collected from a human patient by making a small puncture in a vein followed by collecting the leaked portion of venous blood in a protocol appropriate container.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74UW  [RCDv3]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>        
@@ -3696,11 +3696,11 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4112781 --> <!-- finger-prick blood specimen collecting --> 
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4112781 -->  <!-- finger-prick blood specimen collecting --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_4112781">
-        <rdfs:label rdf:datatype="&xsd;string">finger-prick blood specimen collecting</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1711364"/>
+        <rdfs:label rdf:datatype="&xsd;string">finger-prick blood specimen collecting</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">Finger-prick capillary blood specimen collecting is capillary blood collecting by which a portion of capillary blood is collected from a human patient by making a small incision with a lancet in patient's finger, followed by collecting leaked portion of capillary blood into a protocol appropriate container.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Finger_Stick</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">finger stick</skos:altLabel>
@@ -3747,7 +3747,7 @@ people infected, then extract parasite which are then tested = observation study
     
         <owl:Class rdf:about="&ONSTR;ONSTR_1581489">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid specimen collecting</rdfs:label>
-                <owl:equivalentClass>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;OBI_0600005"/>
@@ -3784,7 +3784,17 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9432852">
         <rdfs:label rdf:datatype="&xsd;string">arterial blood specimen</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000655"/>
+    	 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0000655"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ro;derives_from"/>
+                        <owl:someValuesFrom rdf:resource="&FMA;Portion_of_arterial_blood"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Arterial blood specimen is a blood specimen that is derived from portion of human arterial blood and is specified output of arterial blood specimen collecting.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -3796,7 +3806,17 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0983341">
         <rdfs:label rdf:datatype="&xsd;string">venous blood specimen</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000655"/>
+    	 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0000655"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ro;derives_from"/>
+                        <owl:someValuesFrom rdf:resource="&FMA;Portion_of_venous_blood"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Venous blood specimen is a blood specimen that is derived from portion of human venous blood and is specified output of venous blood specimen collecting.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -3807,7 +3827,17 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3725003">
         <rdfs:label rdf:datatype="&xsd;string">capillary blood specimen</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000655"/>
+    	 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0000655"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ro;derives_from"/>
+                        <owl:someValuesFrom rdf:resource="&FMA;Portion_of_blood_in_capillary"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Capillary blood specimen is a blood specimen that is derived from portion of human capillary blood and is specified output of capillary blood specimen collecting.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -3829,7 +3859,17 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2889784">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid specimen</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
+    	  <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0100051"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ro;derives_from"/>
+                        <owl:someValuesFrom rdf:resource="&FMA;Portion_of_cerebrospinal_fluid"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid specimen is a specimen that is derived from portion of human cerebrospinal fluid and is specified output of cerebrospinal fluid specimen collecting.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">CSF specimen</skos:altLabel>
