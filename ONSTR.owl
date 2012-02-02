@@ -3608,7 +3608,31 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6116517">
         <rdfs:label rdf:datatype="&xsd;string">blood specimen collecting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0600005"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0600005"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;OBI_0000316"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6614057"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Blood specimen collecting is collecting specimen from an organism where a portion of blood (venous, arterial or capillary) is collected from a human patient by making a small puncture (or incision) in patients skin and blood vessel followed by collecting the blood in a protocol appropriate container.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74UV  [RCDv3]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>        
@@ -3688,7 +3712,31 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2422189">
         <rdfs:label rdf:datatype="&xsd;string">urine specimen collecting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0600005"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0600005"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;OBI_0000316"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2647953"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Urine specimen collecting is collecting specimen from an organism with the objective of obtaining (creating) a urine specimen from a human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/Ua1J4  [RCDv3]</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -3699,7 +3747,31 @@ people infected, then extract parasite which are then tested = observation study
     
         <owl:Class rdf:about="&ONSTR;ONSTR_1581489">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid specimen collecting</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0600005"/>
+                <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0600005"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;OBI_0000316"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5102144"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid specimen collecting is process of collecting specimen from an organism with the objective of obtaining (creating) a specimen of cerebrospinal fluid from a human patient. Collecting of cerebrospinal fluid is most commonly obtained by the procedure of lumbar puncture (i.e. spinal tap), while rarely used methods include cisternal puncture and ventricular puncture.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: MedlinePlus Medical Encyclopedia,  http://www.nlm.nih.gov/medlineplus/ency/article/003428.htm</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Description of actual procedures of lumbar puncture, cisternal puncture and ventricular puncture is out of scope of ONSTR.</rdfs:comment>    
