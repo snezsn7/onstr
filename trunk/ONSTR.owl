@@ -3914,7 +3914,17 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8454231">
         <rdfs:label rdf:datatype="&xsd;string">developmental body growth</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&GO;GO_0048589"/>
+    	 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GO;GO_0048589"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ro;has_participant"/>
+                        <owl:someValuesFrom rdf:resource="&FMA;Human_body"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Developmental body growth is developmental growth such that the increase in size and mass of the entire human body has the outcome of reaching adult body size and mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.org/obo/owl/GO#GO_0048589</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
@@ -3926,8 +3936,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6184665">
         <rdfs:label rdf:datatype="&xsd;string">developmental head growth</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&GO;GO_0048589"/>
-        <skos:definition rdf:datatype="&xsd;string">Developmental head growth is developmental growth such that the increase in size and mass of human head has the outcome of reaching adult head size and mass.</skos:definition>
+    	 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GO;GO_0048589"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ro;has_participant"/>
+                        <owl:someValuesFrom rdf:resource="&FMA;Head"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+       <skos:definition rdf:datatype="&xsd;string">Developmental head growth is developmental growth such that the increase in size and mass of human head has the outcome of reaching adult head size and mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.org/obo/owl/GO#GO_0048589</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -3949,7 +3969,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6562510">
         <rdfs:label rdf:datatype="&xsd;string">head circumference</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/>
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2038914"/>
+                    <rdf:Description rdf:about="&PATO;PATO_0001711"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&OBO_REL;inheres_in"/>
+                        <owl:someValuesFrom rdf:resource="&FMA;Head"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Head circumference is human body quality that inheres in human head by virtue of the perimeter of the head at its widest point.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Head_Circumference</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
@@ -3961,7 +3992,20 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1273733">
         <rdfs:label rdf:datatype="&xsd;string">head size</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/>
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/ -->
+    	
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2038914"/>
+                    <rdf:Description rdf:about="&PATO;PATO_0000918"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&OBO_REL;inheres_in"/>
+                        <owl:someValuesFrom rdf:resource="&FMA;Head"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Head size is human body quality that inheres in human head by virtue of the amount of 3-dimensional space occupied by the head.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -3972,7 +4016,22 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4137435">
         <rdfs:label rdf:datatype="&xsd;string">body mass</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/>
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/ -->
+    	
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2038914"/>
+                    <rdf:Description rdf:about="&PATO;PATO_0000125"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&OBO_REL;inheres_in"/>
+                        <owl:someValuesFrom rdf:resource="&FMA;Human_body"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    	
+    	
         <skos:definition rdf:datatype="&xsd;string">Body mass is human body quality that inheres in human body by virtue of the body's proportion of the amount of matter (i.e. the total amount of matter in human body).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/VT/VT_0001259</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">human body mass</skos:altLabel>
@@ -3985,7 +4044,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8294453">
         <rdfs:label rdf:datatype="&xsd;string">body height</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/>
+    	 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2038914"/>
+                    <rdf:Description rdf:about="&PATO;PATO_0000122"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&OBO_REL;inheres_in"/>
+                        <owl:someValuesFrom rdf:resource="&FMA;Human_body"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Body height is human body quality that inheres in human body by virtue of the linear distance between the sole (bottom of the feet) to the crown (top) of the head in human body standing or lying fully extended.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D001827</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Height_of_a_human_being</rdfs:comment>    
@@ -3999,7 +4069,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0829886">
         <rdfs:label rdf:datatype="&xsd;string">human age</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/>
-        <skos:definition rdf:datatype="&xsd;string">Human age is organismal quality that inheres in human being by virtue of the time elapsed in utero from conception until the birth or the period of time elapsed since the birth until the given time point of age measurement.</skos:definition>
+    	
+        <skos:definition rdf:datatype="&xsd;string">Human age is organismal quality that inheres in a human being by virtue of the time elapsed in utero from conception until the birth or the period of time elapsed since the birth until the given time point of age measurement.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -4031,7 +4102,22 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9411314">
         <rdfs:label rdf:datatype="&xsd;string">body mass constituent composition</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/>
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/ -->
+    	
+    	 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2038914"/>
+                    <rdf:Description rdf:about="&PATO;PATO_0000025"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&OBO_REL;inheres_in"/>
+                        <owl:someValuesFrom rdf:resource="&FMA;Human_body"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    	
+    	
         <skos:definition rdf:datatype="&xsd;string">Body mass constituent composition is human body quality that inheres in human body by virtue of the relative quantities or relative ratios of substances constituting human body.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/CSP/0467-2059</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
@@ -4089,7 +4175,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5773210">
         <rdfs:label rdf:datatype="&xsd;string">phenotypic sex information</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
-    	<skos:definition rdf:datatype="&xsd;string">Phenotypical sex datum is a data item that provides information about the phenotypical sex quality of a human patient.</skos:definition>
+    	<skos:definition rdf:datatype="&xsd;string">Phenotypic sex information is a data item that provides information about the phenotypical sex quality of a human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">phenotypical sex information</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
