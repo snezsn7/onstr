@@ -3958,7 +3958,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2038914">
         <rdfs:label rdf:datatype="&xsd;string">human body quality</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/>
+    	<!-- rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/ -->
+     	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&PATO;PATO_0001995"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&OBO_REL;inheres_in"/>
+                        <owl:someValuesFrom rdf:resource="&FMA;Human_body"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Human body quality is organismal quality that inheres in human body or a part of the human body.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -4068,7 +4079,35 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0829886">
         <rdfs:label rdf:datatype="&xsd;string">human age</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/>
+    	<!-- rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/ -->
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&PATO;PATO_0001995"/>
+                    <rdf:Description rdf:about="&PATO;PATO_0001486"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ro;inheres_in"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;OBI_0000316"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    	
+    	
+    	
+    	
+    	
+    	
     	
         <skos:definition rdf:datatype="&xsd;string">Human age is organismal quality that inheres in a human being by virtue of the time elapsed in utero from conception until the birth or the period of time elapsed since the birth until the given time point of age measurement.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
@@ -4103,7 +4142,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9411314">
         <rdfs:label rdf:datatype="&xsd;string">body mass constituent composition</rdfs:label>
     	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/ -->
-    	
     	 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -4116,8 +4154,6 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-    	
-    	
         <skos:definition rdf:datatype="&xsd;string">Body mass constituent composition is human body quality that inheres in human body by virtue of the relative quantities or relative ratios of substances constituting human body.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/CSP/0467-2059</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
@@ -4130,7 +4166,26 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3296813">
         <rdfs:label rdf:datatype="&xsd;string">gestational age at birth measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0001167"/>
+    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0001167"/ -->
+    	 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0001167"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->
+                        <owl:someValuesFrom rdf:resource="&obo;UO_0000034"/> <!--UO:week--> 
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;integer"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Gestational age at birth measurement datum is age measurement datum that is the result of measurement of the amount of time elapsed human conceptus has spent in utero beginning from the instant of fertilization (conception) until the birth.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
