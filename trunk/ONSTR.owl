@@ -4102,13 +4102,6 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-    	
-    	
-    	
-    	
-    	
-    	
-    	
         <skos:definition rdf:datatype="&xsd;string">Human age is organismal quality that inheres in a human being by virtue of the time elapsed in utero from conception until the birth or the period of time elapsed since the birth until the given time point of age measurement.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -4229,7 +4222,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5773210">
         <rdfs:label rdf:datatype="&xsd;string">phenotypic sex information</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
+    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/ -->
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000027"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="&PATO;PATO_0001894"/>
+                    </owl:Restriction>   
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     	<skos:definition rdf:datatype="&xsd;string">Phenotypic sex information is a data item that provides information about the phenotypical sex quality of a human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">phenotypical sex information</skos:altLabel>
@@ -4241,7 +4245,30 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2150908">
         <rdfs:label rdf:datatype="&xsd;string">head circumference measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000408"/>
+    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000408"/ -->
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000408"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000221"/>
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6562510"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->
+                        <owl:someValuesFrom rdf:resource="&obo;UO_0000015"/> <!--UO:centimeter--> 
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Head circumference measurement datum is a length measurement datum that is the result of the head circumference measurement process.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">occipital-frontal circumference</skos:altLabel>
@@ -4281,7 +4308,30 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8762724">
         <rdfs:label rdf:datatype="&xsd;string">body mass measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000414"/>
+    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000414"/ -->
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000414"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000221"/>
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_4137435"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->
+                        <owl:someValuesFrom rdf:resource="&obo;UO_0000009"/> <!--UO:centimeter--> 
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Body mass measurement datum is mass measurement datum that is the result (specified output of) mass measurement of human body.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">weight</skos:altLabel>
@@ -4317,7 +4367,30 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7664189">
         <rdfs:label rdf:datatype="&xsd;string">body height measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000408"/>
+    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000408"/ -->
+    	 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000408"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000221"/>
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_8294453"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->
+                        <owl:someValuesFrom rdf:resource="&obo;UO_0000015"/> <!--UO:centimeter--> 
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Body height measurement datum is a length measurement datum that is the result of the body height measurement assay.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">body length</skos:altLabel>
