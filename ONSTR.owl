@@ -4430,7 +4430,28 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0270435">
         <rdfs:label rdf:datatype="&xsd;string">body mass measurement assay</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000445"/>
+    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0000445"/ -->
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0000445"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&FMA;Human_body"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;OBI_0000316"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000067"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Body mass measurement assay is mass measurement assay that measures the mass quality of human body.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -4453,7 +4474,28 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1745319">
         <rdfs:label rdf:datatype="&xsd;string">body heigth measurement assay</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8336133"/>
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8336133"/ -->
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8336133"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&FMA;Human_body"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;OBI_0000316"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000067"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Body height measurement assay is length measurement assay that determines the linear distance between the sole (bottom of the feet) to the crown (top) of the head of human body standing or lying fully extended. In human beings capable of standing erect, body height is measured while a human is standing with legs, spine and neck fully extended. In neonates and infants, the linear distance between the bottom of the feet to the top of the head is measured when neonate or infant is lying with legs fully extended.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D001827</rdfs:comment>  
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Height_of_a_human_being</rdfs:comment>      
@@ -4465,7 +4507,28 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1298692">
         <rdfs:label rdf:datatype="&xsd;string">head circumference measurement assay</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8336133"/>
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8336133"/ -->
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8336133"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&FMA;Head"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;OBI_0000316"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000067"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Head circumference measurement assay is a length measurement assay that determines the circumference of human head measured at its widest point (i.e the largest possible circumference). Measurement is usually performed by using a flexible tape measure, commonly starting from the point that is approximately  1.5 cm above (roughly 1/2 inch) the eyebrows, moving over the point slightly above left (or right ear), then over the point approximately 1.5 cm (roughly 1/2 inch) above the occipital notch, and back to the starting point on the forehead.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.peds.umn.edu/iac/topics/headgrowth/home.html</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">head circumference measurment</skos:altLabel>
@@ -4477,7 +4540,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7375219">
         <rdfs:label rdf:datatype="&xsd;string">developmental growth indicator derivation</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/-->
+    	 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0200000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7550260"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Developmental growth indicator derivation is data transformation that where the aim is to determine (or give best possible approximation of) human developmental growth indicator.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
