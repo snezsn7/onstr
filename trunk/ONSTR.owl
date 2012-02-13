@@ -4772,7 +4772,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3614873">
         <rdfs:label rdf:datatype="&xsd;string">developmental growth chart</rdfs:label>
     	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000308"/ -->
-  
          <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -5634,6 +5633,25 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5875975">
         <rdfs:label rdf:datatype="&xsd;string">body mass index</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000032"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->
+                        <owl:someValuesFrom rdf:resource="&obo;UO_0000086"/> <!--UO:kg per m^2--> 
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>	
         <skos:definition rdf:datatype="&xsd;string">Body mass index is a data item that is used as general indicator of body density or the amount of fat contained on human body.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesauarus.owl#Body_Mass_Index</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D015992</rdfs:comment>    
