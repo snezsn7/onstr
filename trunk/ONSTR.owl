@@ -1079,6 +1079,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">An age measurement datum that is the result of the measurement of the age of an organism since birth, the process of emergence and separation of offspring from the mother.</skos:definition> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
      </owl:Class>
+     
        
     
 <!-- END OF OBI-IAO IMPORTS -->    
@@ -5690,8 +5691,62 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
     
     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6358913 -->  <!-- PKU food intake record  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6358913">
+        <rdfs:label rdf:datatype="&xsd;string">PKU food intake record</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <skos:definition rdf:datatype="&xsd;string">PKU food intake record is an information content entity that is the output of food intake recording, and contains information about the types and amounts of food items, and the estimated quantity of phenylalanine taken per food item a patient has taken in a specified time interval (last 24 hours, one day, two consecutive days or three consecutive days). The patient related information contained in the PKU food intake record are: patient&apos;s name, date of birth, body height and weight (body mass measurement), information about taken prescribed medications and dietary supplements, prescribed pharmacological therapy, prescribed medical food etc.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5837093 -->  <!-- 24 hour recall PKU food intake record  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5837093">
+        <rdfs:label rdf:datatype="&xsd;string">24 hour recall PKU food intake record</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/>
+        <skos:definition rdf:datatype="&xsd;string">24 hour recall PKU food intake record is a PKU food intake record completed by a patient or patient parent  and dietitian, and that contains information about the types and amounts of food items, and the estimated quantity of phenylalanine taken per food item a patient or patient&apos;s parent can recall the patient has taken in the last 24 hours prior to the PKU follow up visit.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
     
     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1409233 -->  <!-- one day PKU food intake record  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1409233">
+        <rdfs:label rdf:datatype="&xsd;string">one day PKU food intake record</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/>
+        <skos:definition rdf:datatype="&xsd;string">One day PKU food intake record is a PKU food intake record completed by a patient or patient&apos;s parent and a dietitian, and that contains information about the types and amounts of food items, and the estimated quantity of phenylalanine taken per food item the patient has taken in a specified one day time interval prior to the PKU follow up visit.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2560230 -->  <!-- two day PKU food intake record  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2560230">
+        <rdfs:label rdf:datatype="&xsd;string">two day PKU food intake record</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/>
+        <skos:definition rdf:datatype="&xsd;string">Two day PKU food intake record is a PKU food intake record completed by a patient or patient parent and dietitian, and contains information about the types and amounts of food items, and the estimated quantity of phenylalanine taken per food item the patient has taken in a specified two day time interval prior to the PKU follow up visit.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3747018 -->  <!-- three day PKU food intake record  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3747018">
+        <rdfs:label rdf:datatype="&xsd;string">three day PKU food intake record</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/>
+        <skos:definition rdf:datatype="&xsd;string">Three day PKU food intake record is a PKU food intake record completed by a patient or patient parent  and dietitian, and contains information about the types and amounts of food items, and the estimated quantity of phenylalanine taken per food item the patient has taken in a specified three day time interval prior to the PKU follow up visit.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+
+
     
     
     
