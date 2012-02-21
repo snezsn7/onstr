@@ -3634,7 +3634,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Blood specimen collecting is collecting specimen from an organism where a portion of blood (venous, arterial or capillary) is collected from a human patient by making a small puncture (or incision) in patients skin and blood vessel followed by collecting the blood in a protocol appropriate container.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood specimen collecting is collecting specimen from an organism where a portion of blood (venous, arterial or capillary) is collected from a human patient, organ donor or study subject by making a small puncture (or incision) in patient&apos;s skin and blood vessel followed by collecting a portion of (leaked) blood in the protocol appropriate container.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74UV  [RCDv3]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>        
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -3646,7 +3646,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0812331">
         <rdfs:label rdf:datatype="&xsd;string">arterial blood specimen collecting</rdfs:label>
        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>
-        <skos:definition rdf:datatype="&xsd;string">Arterial blood specimen collecting is blood specimen collecting by which a portion of arterial blood is collected from a human patient by making a small puncture in patient's artery followed by collecting the leaked portion of arterial blood in a protocol appropriate container.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Arterial blood specimen collecting is blood specimen collecting by which a portion of arterial blood is collected from a human patient, organ donor or study subject by making a small puncture in patient&apos;s artery followed by collecting a portion of leaked arterial blood in a protocol appropriate container.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74Uk</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">arterial blood sampling</skos:altLabel>
@@ -3659,7 +3659,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7267693">
         <rdfs:label rdf:datatype="&xsd;string">venous blood specimen collecting</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>  
-        <skos:definition rdf:datatype="&xsd;string">Venous blood specimen collecting is blood specimen collecting by which a portion of venous blood is collected from a human patient by making a small puncture in a vein followed by collecting the leaked portion of venous blood in a protocol appropriate container.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Venous blood specimen collecting is blood specimen collecting by which a portion of venous blood is collected from a human patient, organ donor or study subject by making a small puncture in a vein followed by collecting a portion of (leaked) venous blood in a protocol appropriate container.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74UW  [RCDv3]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>        
         <skos:altLabel rdf:datatype="&xsd;string">venous blood sampling</skos:altLabel>
@@ -3672,7 +3672,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1711364">
         <rdfs:label rdf:datatype="&xsd;string">capillary blood specimen collecting</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>
-        <skos:definition rdf:datatype="&xsd;string">Capillary blood specimen collecting is blood specimen collecting by which a portion of capillary blood is collected from a human patient by making a small puncture (or incision) in capillary blood vessels followed by collecting the leaked portion of capillary blood in a protocol appropriate container.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Capillary blood specimen collecting is blood specimen collecting by which a portion of capillary blood is collected from a human patient, organ donor or study subject by making a small puncture (or incision) in capillary blood vessels followed by collecting a portion of (leaked) capillary blood in a protocol appropriate container.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74Ug  [RCDv3]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>            
         <skos:altLabel rdf:datatype="&xsd;string">capillary blood sampling</skos:altLabel>
@@ -3702,7 +3702,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4112781">
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1711364"/>
         <rdfs:label rdf:datatype="&xsd;string">finger-prick blood specimen collecting</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">Finger-prick capillary blood specimen collecting is capillary blood collecting by which a portion of capillary blood is collected from a human patient by making a small incision with a lancet in patient's finger, followed by collecting leaked portion of capillary blood into a protocol appropriate container.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Finger-prick capillary blood specimen collecting is capillary blood collecting by which a portion of capillary blood is collected from a human patient, organ donor or study subject by making a small incision with a lancet in patient&apos;s finger, followed by collecting leaked portion of capillary blood into a protocol appropriate container.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Finger_Stick</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">finger stick</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -3738,7 +3738,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Urine specimen collecting is collecting specimen from an organism with the objective of obtaining (creating) a urine specimen from a human patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Urine specimen collecting is collecting specimen from an organism whereby a portion urine is collected from a human patient, organ donor or study subject and stored in protocol appropriate container for further analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/Ua1J4  [RCDv3]</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -3773,7 +3773,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid specimen collecting is process of collecting specimen from an organism with the objective of obtaining (creating) a specimen of cerebrospinal fluid from a human patient. Collecting of cerebrospinal fluid is most commonly obtained by the procedure of lumbar puncture (i.e. spinal tap), while rarely used methods include cisternal puncture and ventricular puncture.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid specimen collecting is collecting specimen from an organism with the objective of obtaining a specimen of cerebrospinal fluid from a human patient. Collecting of cerebrospinal fluid is most commonly obtained by the procedure of lumbar puncture (i.e. spinal tap), while rarely used methods include cisternal puncture and ventricular puncture.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: MedlinePlus Medical Encyclopedia,  http://www.nlm.nih.gov/medlineplus/ency/article/003428.htm</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Description of actual procedures of lumbar puncture, cisternal puncture and ventricular puncture is out of scope of ONSTR.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">CSF specimen collecting</skos:altLabel>
@@ -3850,7 +3850,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7549502">
         <rdfs:label rdf:datatype="&xsd;string">dried blood spot specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3725003"/>
-        <skos:definition rdf:datatype="&xsd;string">Dried blood spot specimen is a capillary blood specimen that is specified output of neonatal-heel prick blood specimen collecting.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Dried blood spot specimen is a capillary blood specimen that is specified output of neonatal-heel prick blood specimen collecting or finger-prick capillary blood specimen collecting.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -4125,7 +4125,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8059146">
         <rdfs:label rdf:datatype="&xsd;string">gestational age at birth</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0829886"/>
-        <skos:definition rdf:datatype="&xsd;string">Gestational age at birth is human age based on the amount of time the conceptus (human foetus) has spent in utero, measured from the time of conception/fertilizatiuon until birth (i.e. the time point at which a foetus becomes a neonate).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Gestational age at birth is human age based on the amount of time the conceptus (human foetus) has spent in utero, measured from the estimated time of conception/fertilizatiuon until birth (i.e. the time point at which a foetus becomes a neonate).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D005865</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -4180,7 +4180,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Gestational age at birth measurement datum is age measurement datum that is the result of measurement of the amount of time elapsed human conceptus has spent in utero beginning from the instant of fertilization (conception) until the birth.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Gestational age at birth measurement datum is age measurement datum that is the result of measurement of the amount of time elapsed human conceptus has spent in utero beginning from the estimated time of conception until the birth.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -4202,7 +4202,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6203442">
         <rdfs:label rdf:datatype="&xsd;string">age at first heel-prick blood sampling measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>
-        <skos:definition rdf:datatype="&xsd;string">Age at first heal-prick blood sampling measurement datum is age since birth measurement datum that is the result of measurement of time elapsed from birth of a neonate until the instant when the first heel-prick blood specimen collecting is been performed.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Age at first heal-prick blood sampling measurement datum is age since birth measurement datum that is the result of measurement of time elapsed from birth of a neonate until the first heel-prick blood specimen collecting is been performed.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -4410,7 +4410,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4752024">
         <rdfs:label rdf:datatype="&xsd;string">body height at birth measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7664189"/>
-    	<skos:definition rdf:datatype="&xsd;string">Body height at birth measurement datum is a body height measurement datum that is the result of the body height measurement assay performed shortly after birth of a human.</skos:definition>
+    	<skos:definition rdf:datatype="&xsd;string">Body height at birth measurement datum is a body height measurement datum that is the result of the body height measurement assay performed shortly after birth of a human neonate.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -4553,7 +4553,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Developmental growth indicator derivation is data transformation that where the aim is to determine (or give best possible approximation of) human developmental growth indicator.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Developmental growth indicator derivation is data transformation where the aim is to determine (or give best possible approximation of) human developmental growth indicator.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -4583,7 +4583,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Height-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation) height-for-age percentile for given child at the time of physical examination. In order to derive height-for-age percentile information about child's body height and age is first plotted with respect height and age scales of the age and sex appropriate height-for-age growth chart; position of the resulting point is then compared with respect to height-for-age percentile curves comprising height-for-age growth chart; height-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Height-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation) height-for-age percentile for given child at the time of physical examination. In order to derive height-for-age percentile information about child's body height and age is first plotted with respect to the height and age scales of the age and sex appropriate height-for-age growth chart; position of the resulting point is then compared with respect to height-for-age percentile curves comprising height-for-age growth chart; height-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -4613,7 +4613,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Weight-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) weight-for-age percentile for given child at the time of physical examination. In order to derive weight-for-age percentile information about child's body height and age are first plotted with respect height and age scales of the age and sex appropriate weight-for-age growth chart; the position of the resulting point is then compared with respect to weight-for-age percentile curves comprising weight-for-age growth chart; weight-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Weight-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) weight-for-age percentile for given child at the time of physical examination. In order to derive weight-for-age percentile information about child's body height and age are first plotted with respect to the height and age scales of the age and sex appropriate weight-for-age growth chart; the position of the resulting point is then compared with respect to weight-for-age percentile curves comprising weight-for-age growth chart; weight-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -4643,7 +4643,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>	
-        <skos:definition rdf:datatype="&xsd;string">Weight-for-height percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) weight-for-height percentile for given child at the time of physical examination. In order to derive weight-for-height percentile, information about child's body weight (mass) and height are first plotted with respect weight and height scales of the age and sex appropriate weight-for-height growth chart; the position of the resulting point is then compared with closest weight-for-height percentile curves comprising the weight-for-height chart; weight-for-height percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Weight-for-height percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) weight-for-height percentile for given child at the time of physical examination. In order to derive weight-for-height percentile, information about child's body weight (mass) and height are first plotted with respect to the weight and height scales of the age and sex appropriate weight-for-height growth chart; the position of the resulting point is then compared with closest weight-for-height percentile curves comprising the weight-for-height chart; weight-for-height percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -4673,7 +4673,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Head circumference-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) head circumference-for-age percentile for given child, at the time of physical examination. In order to derive head circumference-for-age percentile, information about child's head circumference and age are plotted with respect to head circumference and age scales of the age and sex appropriate head circumference-for-age percentile growth chart; the position of the resulting point is then compared with the closest head circumference-for-age percentile curves comprising the circumference-for-age growth chart; head circumference-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Head circumference-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) head circumference-for-age percentile for given child, at the time of physical examination. In order to derive head circumference-for-age percentile, information about child's head circumference and age are plotted with respect to the head circumference and age scales of the age and sex appropriate head circumference-for-age percentile growth chart; the position of the resulting point is then compared with the closest head circumference-for-age percentile curves comprising the circumference-for-age growth chart; head circumference-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -4703,7 +4703,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Body mass index-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) body mass index-for-age percentile for given child, at the time of physical examination. In order to derive body mass index-for-age percentile information, child's body mass index and age are plotted with respect to body mass index and age scales of the age and sex appropriate body mass index-for-age percentile growth chart; the position of the resulting point is then compared with the closest body mass index-for-age percentile curves comprising the body mass index-for-age growth chart; body mass index-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Body mass index-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) body mass index-for-age percentile for given child, at the time of physical examination. In order to derive body mass index-for-age percentile information, child's body mass index and age are plotted with respect to the body mass index and age scales of the age and sex appropriate body mass index-for-age percentile growth chart; the position of the resulting point is then compared with the closest body mass index-for-age percentile curves comprising the body mass index-for-age growth chart; body mass index-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:altLabel rdf:datatype="&xsd;string">BMI-for-age percentile derivation</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
