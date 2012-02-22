@@ -1080,6 +1080,62 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
      </owl:Class>
      
+         
+   <!-- http://purl.obofoundry.org/obo/IAO_0000104 -->  <!-- plan specification -->
+
+    <owl:Class rdf:about="&obo;IAO_0000104">
+        <rdfs:label rdf:datatype="&xsd;string">plan specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000033"/>
+        <skos:definition rdf:datatype="&xsd;string">A directive information entity that when concretized it is realized in a process in which the bearer tries to achieve the objectives, in part by taking the actions specified. Plan specifications includes parts such as objective specification, action specifications and conditional specifications.</skos:definition> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Information Artifact Ontology (IAO)</skos:editorialNote>
+     </owl:Class>
+     
+        
+   <!-- http://purl.obolibrary.org/obo/OBI_0000272 -->  <!-- protocol -->
+       
+     <owl:Class rdf:about="&obo;OBI_0000272">
+        <rdfs:label rdf:datatype="&xsd;string">protocol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000104"/>
+        <skos:definition rdf:datatype="&xsd;string">A protocol is a plan specification which has sufficient level of detail and quantitative information to communicate it between domain experts, so that different domain experts will reliably be able to independently reproduce the process.</skos:definition> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.obolibrary.org/obo/IAO_0000010 --> <!-- software -->
+
+    <owl:Class rdf:about="&obo;IAO_0000010">
+       	<rdfs:label rdf:datatype="&xsd;string">software</rdfs:label>
+       	<rdfs:subClassOf rdf:resource="&obo;IAO_0000104"/>
+       	<skos:definition rdf:datatype="&xsd;string">Software is a plan specification composed of a series of instructions that can be interpreted by or directly executed by a processing unit.</skos:definition> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Information Artifact Ontology (IAO)</skos:editorialNote>
+     </owl:Class>
+      
+     
+   <!-- http://purl.obolibrary.org/obo/OBI_0500000 --> <!-- study design -->
+     
+   <owl:Class rdf:about="&obo;OBI_0500000">
+    	<rdfs:label rdf:datatype="&xsd;string">study design</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000104"/>
+    	<skos:definition rdf:datatype="&xsd;string">A study design is a plan specification comprised of protocols (which may specify how and what kinds of data will be gathered) that are executed as part of an investigation and is realized during a study design execution.</skos:definition> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.obolibrary.org/obo/OBI_0000852 -->  <!-- record of missing knowledge -->
+    
+   <owl:Class rdf:about="&obo;OBI_0000852">
+        <rdfs:label rdf:datatype="&xsd;string">record of missing knowledge</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+    	<skos:definition rdf:datatype="&xsd;string">An information content entity created to indicate that information about something is not available to the person recording it.</skos:definition> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+     
+     
+     
+     
        
     
 <!-- END OF OBI-IAO IMPORTS -->    
