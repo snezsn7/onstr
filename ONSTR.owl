@@ -5813,38 +5813,26 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
     
 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5883438 -->  <!-- nutrient analyzer software  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5883438 -->  <!-- diet record analyzer software  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5883438">
-        <rdfs:label rdf:datatype="&xsd;string">nutrient analyzer software</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">diet record analyzer software</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000010"/>
-    	<skos:definition rdf:datatype="&xsd;string">Nutrient analyzer software is a software that performs nutrition analysis of food item(s) been taken or used as a recipe ingredients, and that provides information about nutrient content and energy value(s) of analyzed food items as the output of the nutrient analysis.</skos:definition>
+    	<skos:definition rdf:datatype="&xsd;string">Diet record analyzer software is a software that performs nutrition analysis of food item(s) been taken or used as a recipe ingredients, and that provides information about nutrient content and energy value(s) of analyzed food items as the output of the nutrient analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.nutritionalanalysissoftware.com</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Originally, method of nutritional analysis was performed in a laboratory where a chemical process was used to establish the nutritional value. Software analysis is based on sets of previously laboratory analyzed food samples, while more advanced form of this analysis is done through a web application. [Source: http://www.nutritionalanalysissoftware.com]</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">nutrient analyzer</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">nutrient analysis software</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">dietary analysis software</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3801118 -->  <!-- amino acid analyzer  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_3801118">
-        <rdfs:label rdf:datatype="&xsd;string">amino acid analyzer</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5883438"/>
-        <skos:definition rdf:datatype="&xsd;string">Amino acid analyzer is a nutrient analyzer software that provides information about the quantities of specific amino acids contained in analyzed food item(s), as well as the nutrient content and energy value(s) of the food items been taken and/or analyzed.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
-     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6867187 -->  <!-- nutrient analysis  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6867187 -->  <!-- dietary intake analysis  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6867187">
-        <rdfs:label rdf:datatype="&xsd;string">nutrient analysis</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">dietary intake analysis</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
-        <skos:definition rdf:datatype="&xsd;string">Nutrient analysis is a data transformation performed by nutrient analyzer software where the data transformation inputs are the type and quantity of food items been taken and outputs of the analysis are the quantity and the energy value of nutrients contained in the food item(s) been analyzed.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Dietary intake analysis is a data transformation performed by nutrient analyzer software where the data transformation inputs are the type and quantity of food items been taken and outputs of the analysis are the quantity and the energy value of nutrients contained in the food item(s) been analyzed.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">nutritional analysis</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">dietary analysis</skos:altLabel>
@@ -5852,12 +5840,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5763854 -->  <!-- nutrient analysis objective  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5763854 -->  <!-- dietary intake analysis objective  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5763854">
-        <rdfs:label rdf:datatype="&xsd;string">nutrient analysis objective</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">dietary intake analysis objective</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200166"/>
-        <skos:definition rdf:datatype="&xsd;string">Nutrient analysis objective is objective specification where the goal of nutrient analysis is determination of quantities of nutrients contained in particular food item(s) been taken and their energy value.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Dietary intake analysis objective is objective specification where the goal of nutrient analysis is determination of quantities of nutrients contained in particular food item(s) been taken and their energy value.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
