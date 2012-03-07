@@ -153,9 +153,9 @@
     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3801118 -->  <!-- amino acid analyzer  -->
 
-    <owl:Class rdf:about="&ONSTR;ONSTR_3801118">
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3801118">
         <rdfs:label rdf:datatype="&xsd;string">amino acid analyzer</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_5883438"/>
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
         <skos:definition rdf:datatype="&xsd;string">Amino acid analyzer is a nutrient analyzer software that provides information about the quantities of specific amino acids contained in analyzed food item(s), as well as the nutrient content and energy value(s) of the food items been taken and/or analyzed.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
