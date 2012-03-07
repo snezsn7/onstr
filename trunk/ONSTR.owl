@@ -6065,6 +6065,53 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>  
      
      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3075415 -->  <!-- serum ferritin concentration measurement assay	  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3075415">
+        <rdfs:label rdf:datatype="&xsd;string">serum ferritin concentration measurement assay</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
+        <skos:definition rdf:datatype="&xsd;string">Serum ferritin concentration measurement assay is an analyte assay that measures the amount of ferritin complex in blood serum derived from the portion of human venous or arterial blood specimen.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">ferritin test</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6397402 -->  <!-- serum transthyretin concentration measurement assay	  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6397402">
+        <rdfs:label rdf:datatype="&xsd;string">serum transthyretin concentration measurement assay</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
+        <skos:definition rdf:datatype="&xsd;string">Serum transthyretin concentration measurement assay is a measurement assay that determines the amount of the transthyretin (pre-albumin) in blood serum derived from the portion of human venous or arterial blood specimen.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">transthyretin test</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum prealbumin concentration measurement assay</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum TTR test</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">prealbumin test</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood TTR test</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood prealbunmin test</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3199939 -->  <!-- serum albumin concentration measurement assay	  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3199939">
+        <rdfs:label rdf:datatype="&xsd;string">serum albumin concentration measurement assay</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
+        <skos:definition rdf:datatype="&xsd;string">Serum albumin concentration measurement assay is an analyte assay that determines the amount of the albumin in blood serum that is derived from the portion of human venous or arterial blood specimen.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">serum albumin test</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood albumin test</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+     
+     
+     
+     
+     
      
      
      
