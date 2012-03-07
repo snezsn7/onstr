@@ -5991,7 +5991,82 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2972996 -->  <!-- concentration measurement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2972996">
+        <rdfs:label rdf:datatype="&xsd;string">concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
+        <skos:definition rdf:datatype="&xsd;string">Concentration measurement datum is a scalar measurement datum that is the output of the measurement of the amount of a particular substance that is spatially contained (diluted/dispersed/scattered) within another substance.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:example rdf:datatype="&xsd;string">Concentration of phenylalanine in the blood is 1100 &#x3BC;mol/L.</skos:example>
+        <rdfs:comment rdf:datatype="&xsd;string">This class more appropriately fits into the OBI domain. If/when OBI team asserts one, this ONSTR class will eventually be replaced by the newly asserted OBI class.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9906490 -->  <!-- serum ferritin concentration measurement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9906490">
+        <rdfs:label rdf:datatype="&xsd;string">serum ferritin concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>
+        <skos:definition rdf:datatype="&xsd;string">Serum ferritin concentration measurement datum is a concentration measurement datum that is the output of the blood serum ferritin test that measures the concentration of ferritin complex in human blood.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Ferritin</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.prospecbio.com/Ferritin_Human_10_177</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">The serum ferritin level (the amount of ferriting in the blood) is directly related to the amount of iron stored in the body. [source: http://www.prospecbio.com/Ferritin_Human_10_177]</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">serum ferritin level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">ferritin measurement</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7654391 -->  <!-- serum transthyretin concentration measurement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7654391">
+        <rdfs:label rdf:datatype="&xsd;string">serum transthyretin concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>
+        <skos:definition rdf:datatype="&xsd;string">Serum transthyretin concentration measurement datum is a concentration measurement datum that is the output of the transthyretin measurement assay that measures the concentration of transthyretine (pre-albumin) in human blood.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">blood (serum) prealbumin measurement datum</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood serum TTR measurement datum</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum TTR level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum TTR concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum transthyretin concentration</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+
+
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0232327 -->  <!-- serum albumine concentration measurement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0232327">
+        <rdfs:label rdf:datatype="&xsd;string">serum albumine concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>
+        <skos:definition rdf:datatype="&xsd;string">Serum albumin concentration measurement datum is a concentration measurement datum that is the output of the serum albumin concentration assay measures the concentration of the albumin in human blood.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">albumin measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">albumin level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum albumin concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum albumin level</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.nml.nih.gov/medlineplus/ency/article/003480.htm</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+
+
+
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2707948 -->  <!-- ferritin complex  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2707948">
+        <rdfs:label rdf:datatype="&xsd;string">ferritin complex</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&GO;GO_0043234"/>
+        <skos:definition rdf:datatype="&xsd;string">Ferritin complex is a protein complex that is in humans comprised of 24 ferritin subunits (ferritin light chain and ferriting heavy chain ferritin monomers) and iron ions (about 4500 Fe^3+ ions in each complex), and that serves as a main intracellular iron storage.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Ferritin</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.prospecbio.com/Ferritin_Human_10_177</rdfs:comment>        
+        <rdfs:comment rdf:datatype="&xsd;string">The iron integrated into the ferritin complex is in the form of ferrihydrite. The serum ferritin level (the amount of ferriting in the blood) is directly related to the amount of iron stored in the body. [source: http://www.prospecbio.com/Ferritin_Human_10_177]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">This class actually belongs to the Protein Ontology (PRO) domain, but they don't have one at the this being. If/when PRO team asserts one, this class is going to be deprecated and replaced by the corresponding PRO class.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>  
+     
+     
+     
+     
      
      
      
