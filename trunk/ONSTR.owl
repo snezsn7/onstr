@@ -3177,7 +3177,26 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">mL</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
+    
+         <!-- http://purl.obolibrary.org/obo/UO_0000111 -->  <!-- energy unit -->
 
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000111">
+        <rdfs:label rdf:datatype="&xsd;string">energy unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
+        <skos:definition rdf:datatype="&xsd;string">A derived unit which is a standard measure of the work done by a certain force (gravitational, electric, magnetic, force of inertia, etc).</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/UO_0000112 -->  <!-- joule -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000112">
+        <rdfs:label rdf:datatype="&xsd;string">joule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000111"/>
+        <skos:definition rdf:datatype="&xsd;string">An energy unit which is equal to the energy required when a force of 1 newton moves an object 1 meter in the direction of the force.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">J</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
 
 
 
@@ -6105,6 +6124,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">blood albumin test</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
+     
      
      
      
