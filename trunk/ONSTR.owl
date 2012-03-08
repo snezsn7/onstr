@@ -6128,9 +6128,26 @@ people infected, then extract parasite which are then tested = observation study
      
      
      
-     
-     
-     
+        <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5589907 -->  <!-- kilocalorie  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5589907">
+        <rdfs:label rdf:datatype="&xsd;string">kilocalorie</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
+        <skos:definition rdf:datatype="&xsd;string">Kilocalorie is a food energy unit that is a non-SI unit of energy defined as the amount of heat required to raise the temperature of one kilogram of pure water by one degree Centigrade (Celsius) under standard conditions (i.e. the specific heat of the water at 15 degrees Celsius and the constant pressure of 101.325 kPa or one atm being defined as unity).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesausrus.owl#Kilocalorie</rdfs:comment>  
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Food_energy</rdfs:comment>      
+        <rdfs:comment rdf:datatype="&xsd;string">One kilocalorie is used as a (non-standard) food energy unit that measures of the energy-producing potential of food as a unit of potential energy contained by a substance, which can be liberated when the material is oxidized. It is a measure of the amount of energy 1000 times greater than the units in scientific contexts known also as calories, or gram calories (cal). Food calories are thereby referred to less ambiguously in some formal contexts as kilocalories (kcal) or kilogram calories. One food calorie is equal to 4.184 kilojoules. [Source: http://en.wikipedia.org/wiki/Food_energy]</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">Kcal</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Calorie</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">kilogram calorie</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">food calorie</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">nutrition calorie</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">C</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Calorie (nutrition)</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">kilogram-calorie</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">[Cal]</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
      
