@@ -2919,10 +2919,10 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-   <!-- http://purl.obolibrary.org/obo/UO_0000179 -->		<!-- unit per volume liter -->
+   <!-- http://purl.obolibrary.org/obo/UO_0000179 -->		<!-- unit per liter -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000179">
-        <rdfs:label rdf:datatype="&xsd;string">unit per volume liter</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">unit per liter</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000177"/>
         <skos:definition rdf:datatype="&xsd;string">A unit per milliliter unit which is equal to one unit of an agreed arbitrary amount per one liter.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">U/l</skos:altLabel>
@@ -6195,7 +6195,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
    
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5128731 -->  <!-- mass per day unit  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5128731 -->  <!-- mass per unit time  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5128731">
         <rdfs:label rdf:datatype="&xsd;string">mass per unit time</rdfs:label>
@@ -6243,7 +6243,50 @@ people infected, then extract parasite which are then tested = observation study
      
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3782257 -->  <!-- amino acid content exchange unit  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3782257">
+        <rdfs:label rdf:datatype="&xsd;string">amino acid content exchange unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
+        <skos:definition rdf:datatype="&xsd;string">Amino acid content exchange unit is a derived unit denoting the quantity of food (or food items) that contain certain number of mass units of a given amino acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7955210 -->  <!-- phenylalanine exchange unit  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7955210">
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine exchange unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3782257"/>
+        <skos:definition rdf:datatype="&xsd;string">Phenylalanine exchange unit is an amino acid content exchange unit denoting the quantity of food (or food items) containing 15 milligrams of the amino acid L-phenylalanine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Singh, R., Lesperance, E., Crawford, K. (2001) PKU food list. Keeping track of the foods you eat. Emory University, Department of Human Genetics, Division of Medical Genetics, pp.3.</rdfs:comment>  
+        <skos:altLabel rdf:datatype="&xsd;string">Phe-exchange unit</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine exchange</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0500010 -->  <!-- leucine exchange unit  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0500010">
+        <rdfs:label rdf:datatype="&xsd;string">leucine exchange unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3782257"/>
+        <skos:definition rdf:datatype="&xsd;string">Leucine exchange unit is an amino acid content exchange unit denoting the quantity of food (or food items) containing XXX milligrams of the amino acid leucine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Rani H. Singh.</rdfs:comment>  
+        <skos:altLabel rdf:datatype="&xsd;string">Leu-exchange unit</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">leucine exchange</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+
+
+
+
+
+
+
+
+
 
 
 
