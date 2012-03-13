@@ -6149,23 +6149,23 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0032940 -->  <!-- nutrient concentration per day unit  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0032940 -->  <!-- nutrient concentration per unit time  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0032940">
-        <rdfs:label rdf:datatype="&xsd;string">nutrient concentration per day unit</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">nutrient concentration per unit time</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000051"/>
-        <skos:definition rdf:datatype="&xsd;string">Nutrient concentration per day is a concentration unit which denotes the quantity of a particular dietary nutrient taken by a human during one day time interval, with respect to body mass of a given patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutrient concentration per unit time is a concentration unit which denotes the quantity of a particular dietary nutrient taken by a human in a given time unit, with respect to body mass of a given patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3459861 -->  <!-- mass per unit mass per day  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3459861 -->  <!-- mass per unit mass per unit time  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3459861">
-        <rdfs:label rdf:datatype="&xsd;string">mass per unit mass per day</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">mass per unit mass per unit time</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/>
-        <skos:definition rdf:datatype="&xsd;string">Mass per unit mass per day unit is a nutrient concentration per day unit denoting a number of mass units of a given nutrient substance in specific mass unit, in one day time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Mass per unit mass per unit time is a nutrient concentration per unit time denoting a number of mass units of a given nutrient substance in specific mass unit, in a given unit of time.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -6176,7 +6176,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8982893">
         <rdfs:label rdf:datatype="&xsd;string">milligram per kilogram per day</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3459861"/>
-        <skos:definition rdf:datatype="&xsd;string">Milligram per kilogram per day is a mass per unit mass per day which is equal to the number of milligrams of a particular dietary nutrient that has been ingested during one day time interval, divided by the number of kilograms of human body mass.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Milligram per kilogram per day is a mass per unit mass per unit time which is equal to the number of milligrams of a particular dietary nutrient that has been ingested during one day time interval, divided by the number of kilograms of human body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">(mg/kg)/day</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -6188,7 +6188,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6794672">
         <rdfs:label rdf:datatype="&xsd;string">gram per kilogram per day</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3459861"/>
-        <skos:definition rdf:datatype="&xsd;string">Gram per kilogram per day is a mass per unit mass per day which is equal to the number of grams of a particular dietary nutrient that has been ingested during one day time interval, divided by the number of kilograms of human body mass.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Gram per kilogram per day is a mass per unit mass per unit time which is equal to the number of grams of a particular dietary nutrient that has been ingested during one day time interval, divided by the number of kilograms of human body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">(g/kg)/day</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -6198,9 +6198,9 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5128731 -->  <!-- mass per day unit  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5128731">
-        <rdfs:label rdf:datatype="&xsd;string">mass per day unit</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">mass per unit time</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/> 
-        <skos:definition rdf:datatype="&xsd;string">Mass per day unit is a nutrient concentration per day unit denoting a number of mass units of a given nutrient substance in one day time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Mass per unit time is a nutrient concentration per unit time denoting a number of mass units of a given nutrient substance in one day time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6211,7 +6211,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5104929">
         <rdfs:label rdf:datatype="&xsd;string">gram per day</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5128731"/>
-        <skos:definition rdf:datatype="&xsd;string">Gram per day is a mass per day unit which is equal to the number of grams of a particular dietary nutrient that has been ingested in one day time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Gram per day is a mass per unit time which is equal to the number of grams of a particular dietary nutrient that has been ingested in one day time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
         <skos:altLabel rdf:datatype="&xsd;string">g/day</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -6223,7 +6223,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8176500">
         <rdfs:label rdf:datatype="&xsd;string">milligram per day</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5128731"/>
-        <skos:definition rdf:datatype="&xsd;string">Milligram per day is a mass per day unit which is equal to the number of milligrams of a particular dietary nutrient that has been ingested in one day time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Milligram per day is a mass per unit time which is equal to the number of milligrams of a particular dietary nutrient that has been ingested in one day time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
         <skos:altLabel rdf:datatype="&xsd;string">mg/day</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -6240,6 +6240,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">Kcal/day</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
      
      
      
