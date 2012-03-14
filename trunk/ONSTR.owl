@@ -6440,8 +6440,67 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
-    
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3812544 -->  <!-- average micronutrient intake during observed time interval  -->
 
+    <owl:Class rdf:about="&ONSTR;ONSTR_3812544">
+        <rdfs:label rdf:datatype="&xsd;string">average micronutrient intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8199564"/>
+        <skos:definition rdf:datatype="&xsd;string">Average micro nutrient intake during observed time interval is an average nutrient intake during observed time interval information denoting the average quantity of a relevant micro nutrient contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6649635 -->  <!-- average amino acid intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6649635">
+        <rdfs:label rdf:datatype="&xsd;string">average amino acid intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3812544"/>
+        <skos:definition rdf:datatype="&xsd;string">Average amino acid intake during observed time interval is an average micro nutrient intake during observed time interval denoting the average quantity of relevant amino acids contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6649635 -->  <!-- average amino acid intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6649635">
+        <rdfs:label rdf:datatype="&xsd;string">average amino acid intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3812544"/>
+        <skos:definition rdf:datatype="&xsd;string">Average amino acid intake during observed time interval is an average micro nutrient intake during observed time interval denoting the average quantity of relevant amino acids contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4126959 -->  <!-- average phenylalanine intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4126959">
+        <rdfs:label rdf:datatype="&xsd;string">average phenylalanine intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6649635"/>
+        <skos:definition rdf:datatype="&xsd;string">Average phenylalanine intake during observed time interval is an average micro nutrient intake during observed time interval denoting the average quantity of amino acid phenylalanine contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average Phe intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9462546 -->  <!-- average tyrosine intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9462546">
+        <rdfs:label rdf:datatype="&xsd;string">average tyrosine intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6649635"/>
+        <skos:definition rdf:datatype="&xsd;string">Average tyrosine intake during observed time interval is an average micro nutrient intake during observed time interval denoting the average quantity of amino acid tyrosine contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average Tyr intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+     
+     
+     
+     
 
 <!-- Ovde -->
 
