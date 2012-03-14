@@ -6309,6 +6309,57 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
 
 
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5263648 -->  <!-- milligram per deciliter  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5263648">
+        <rdfs:label rdf:datatype="&xsd;string">milligram per deciliter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000052"/>
+        <skos:definition rdf:datatype="&xsd;string">Milligram per deciliter is a mass density unit which is equal to mass of an object expressed in milligrams divided by the volume expressed in deciliters.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
+        <skos:altLabel rdf:datatype="&xsd;string">mg/dL</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mg/dl</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9424813 -->  <!-- nanogram per deciliter  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9424813">
+        <rdfs:label rdf:datatype="&xsd;string">nanogram per deciliter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000052"/>
+        <skos:definition rdf:datatype="&xsd;string">Nanogram per deciliter is a mass density unit which is equal to mass of an object expressed in nanograms divided by the volume in expressed in deciliters.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
+        <skos:altLabel rdf:datatype="&xsd;string">ng/dL</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">ng/dl</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9424813 -->  <!-- cells per microliter  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9424813">
+        <rdfs:label rdf:datatype="&xsd;string">cells per microliter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000200"/>
+        <skos:definition rdf:datatype="&xsd;string">Cells per microliter is a cell concentration unit that is equal to one cell in a volume of 1 microliter.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
+        <skos:altLabel rdf:datatype="&xsd;string">cells per uL</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">cells per &#x3BC;L</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">cells/&#x3BC;L</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9424813 -->  <!-- retinol equivalent unit  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9424813">
+        <rdfs:label rdf:datatype="&xsd;string">retinol equivalent unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
+        <skos:definition rdf:datatype="&xsd;string">Retinol equivalent unit is a derived unit that is equal to 1 microgram of the retinol, or equal to 6 micrograms of beta-carotene, or equal to 3.333 International Units of vitamin A.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://dietbio.com/vegaterisme/en/vit_a.html</rdfs:comment>  
+        <skos:altLabel rdf:datatype="&xsd;string">RE</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Retinol equivalent</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
 
 
 
@@ -6316,6 +6367,8 @@ people infected, then extract parasite which are then tested = observation study
 
 
 
+
+<!-- Here -->
 
 
 
