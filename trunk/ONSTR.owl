@@ -6498,8 +6498,129 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
     
      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9239980 -->  <!-- average vitamin intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9239980">
+        <rdfs:label rdf:datatype="&xsd;string">average vitamin intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3812544"/>
+        <skos:definition rdf:datatype="&xsd;string">Average vitamin intake over observed time interval is an average micronutrient intake during observed time interval denoting the total quantity of relevant vitamins contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6081701 -->  <!-- average vitamin A intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6081701">
+        <rdfs:label rdf:datatype="&xsd;string">average vitamin A intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <skos:definition rdf:datatype="&xsd;string">Average vitamin A intake over observed time interval is an average micronutrient intake during observed time interval denoting the total quantity of vitamin A contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average vitamin A intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">average retinol intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2760775 -->  <!-- average vitamin B6 intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2760775">
+        <rdfs:label rdf:datatype="&xsd;string">average vitamin B6 intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <skos:definition rdf:datatype="&xsd;string">Average vitamin B6 intake over observed time interval is an average micronutrient intake during observed time interval denoting the total quantity of vitamin B6 contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average vitamin B6 intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Vitamin B6 in the ONSTR definition refers to all currently known forms of vitamin B6: pyridoxine (PN), pyridoxine 5&apos;-phosphate (PNP), pyridoxal (PL), pyridoxal 5&apos;-phosphate (PLP), pyridoxamine (PM), pyridoxamine 5&apos;-phosphate (PMP), 4-pyridoxic acid (PA). [Source: http://en.wikipedia.org/wiki/Vitamin_B6 ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4999812 -->  <!-- average vitamin B12 intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4999812">
+        <rdfs:label rdf:datatype="&xsd;string">average vitamin B12 intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <skos:definition rdf:datatype="&xsd;string">Average vitamin B12 intake over observed time interval is an average micronutrient intake during observed time interval denoting the total quantity of vitamin B12 contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average vitamin B12 intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">average cobalamine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4277295 -->  <!-- average folacin intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4277295">
+        <rdfs:label rdf:datatype="&xsd;string">average folacin intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <skos:definition rdf:datatype="&xsd;string">Average folacin intake over observed time interval is an average micronutrient intake during observed time interval denoting the total quantity of folacin contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average vitamin B9 intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">average vitamin Bc intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">average folic acid intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7113951 -->  <!-- average vitamin D3 intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7113951">
+        <rdfs:label rdf:datatype="&xsd;string">average vitamin D3 intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <skos:definition rdf:datatype="&xsd;string">Average vitamin D3 intake over observed time interval is an average micronutrient intake during observed time interval denoting the total quantity of vitamin D3 contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average vitamin D3 intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">average cholecalcierol intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">average vitamin D intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1363067 -->  <!-- average dietary mineral intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1363067">
+        <rdfs:label rdf:datatype="&xsd;string">average dietary mineral intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3812544"/>
+        <skos:definition rdf:datatype="&xsd;string">Average dietary mineral intake during observed time interval is an average micronutrient intake during observed time interval denoting the total quantity of relevant dietary minerals contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1583962 -->  <!-- average dietary calcium intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1583962">
+        <rdfs:label rdf:datatype="&xsd;string">average dietary calcium intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
+        <skos:definition rdf:datatype="&xsd;string">Average dietary calcium intake during observed time interval is an average dietary mineral intake during observed time interval denoting the total quantity of dietary calcium contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average Ca intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3440460 -->  <!-- average dietary iron intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3440460">
+        <rdfs:label rdf:datatype="&xsd;string">average dietary iron intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
+        <skos:definition rdf:datatype="&xsd;string">Average dietary iron intake over observed time interval is an average dietary mineral intake during observed time interval denoting the total quantity of dietary iron contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average Fe intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7446995 -->  <!-- average dietary zinc intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7446995">
+        <rdfs:label rdf:datatype="&xsd;string">average dietary zinc intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
+        <skos:definition rdf:datatype="&xsd;string">Average dietary zinc intake during observed time interval is an average dietary mineral intake during observed time interval denoting the total quantity of dietary zinc contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average Zn intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
 
 <!-- Ovde -->
