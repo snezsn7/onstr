@@ -5930,7 +5930,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8717058">
         <rdfs:label rdf:datatype="&xsd;string">nutrient average daily intake information</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
         <skos:definition rdf:datatype="&xsd;string">Nutrient average daily intake information is a data item providing information about the quantity of a particular nutrient taken by a patient during 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -5941,7 +5941,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1378039">
         <rdfs:label rdf:datatype="&xsd;string">nutrient energy average daily intake</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
         <skos:definition rdf:datatype="&xsd;string">Nutrient energy average daily intake is a data item providing information about the energy value of all food items combined that have been taken by a patient during 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -6335,9 +6335,9 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9424813 -->  <!-- cells per microliter  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8224262 -->  <!-- cells per microliter  -->
 
-    <owl:Class rdf:about="&ONSTR;ONSTR_9424813">
+    <owl:Class rdf:about="&ONSTR;ONSTR_8224262">
         <rdfs:label rdf:datatype="&xsd;string">cells per microliter</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000200"/>
         <skos:definition rdf:datatype="&xsd;string">Cells per microliter is a cell concentration unit that is equal to one cell in a volume of 1 microliter.</skos:definition>
@@ -6349,9 +6349,9 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
 
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9424813 -->  <!-- retinol equivalent unit  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8797829 -->  <!-- retinol equivalent unit  -->
 
-    <owl:Class rdf:about="&ONSTR;ONSTR_9424813">
+    <owl:Class rdf:about="&ONSTR;ONSTR_8797829">
         <rdfs:label rdf:datatype="&xsd;string">retinol equivalent unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
         <skos:definition rdf:datatype="&xsd;string">Retinol equivalent unit is a derived unit that is equal to 1 microgram of the retinol, or equal to 6 micrograms of beta-carotene, or equal to 3.333 International Units of vitamin A.</skos:definition>
@@ -6360,15 +6360,90 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">Retinol equivalent</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+   
+      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8199564 -->  <!-- average nutrient intake during observed time interval information  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8199564">
+        <rdfs:label rdf:datatype="&xsd;string">average nutrient intake during observed time interval information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
+        <skos:definition rdf:datatype="&xsd;string">Average nutrient intake over observed time interval information is a scalar measurement datum denoting the average quantity of a given nutrient contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <rdfs:comment rdf:datatype="&xsd;string">Average nutrient intake during observed time interval information is a scalar that can be conceived (and calculated) as a grand average of all daily intakes of nutrient of interest. For instance, average protein intake during three day interval is a grand average of the average daily protein intakes for all three days of observation included dietary analysis.</rdfs:comment>       
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0870721 -->  <!-- average macro nutrient intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0870721">
+        <rdfs:label rdf:datatype="&xsd;string">average macro nutrient intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8199564"/>
+        <skos:definition rdf:datatype="&xsd;string">Average macronutrient intake during observed time interval is an average nutrient intake over observed time interval information denoting the average quantity of a given macro nutrient contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9046621 -->  <!-- average protein intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9046621">
+        <rdfs:label rdf:datatype="&xsd;string">average protein intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
+        <skos:definition rdf:datatype="&xsd;string">Average protein intake during observed time interval is an average macro nutrient intake during observed time interval denoting the average quantity of proteins contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+       
+       
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3033773 -->  <!-- average fat intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3033773">
+        <rdfs:label rdf:datatype="&xsd;string">average fat intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
+        <skos:definition rdf:datatype="&xsd;string">Average fat intake during observed time interval is an average macro nutrient intake during observed time interval denoting the average quantity of fat contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5257504 -->  <!-- average cholesterol intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5257504">
+        <rdfs:label rdf:datatype="&xsd;string">average cholesterol intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
+        <skos:definition rdf:datatype="&xsd;string">Average cholesterol intake during observed time interval is an average macro nutrient intake during observed time interval denoting the average quantity of cholesterol contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+   
+   
+   
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2286225 -->  <!-- average carbohydrate intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2286225">
+        <rdfs:label rdf:datatype="&xsd;string">average carbohydrate intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
+        <skos:definition rdf:datatype="&xsd;string">Average carbohydrate intake during observed time interval is an average macro nutrient intake during observed time interval denoting the average quantity of carbohydrate contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1164140 -->  <!-- average food energy intake during observed time interval information  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1164140">
+        <rdfs:label rdf:datatype="&xsd;string">average food energy intake during observed time interval information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
+        <skos:definition rdf:datatype="&xsd;string">Average food energy intake during observed time interval information is a scalar measurement datum denoting the number of kilocalories derived from all food items ingested by a human patient during a time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
 
 
-
-
-
-
-
-
-<!-- Here -->
+<!-- Ovde -->
 
 
 
