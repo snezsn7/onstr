@@ -5929,7 +5929,7 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8717058 -->  <!-- nutrient average daily intake information  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8717058">
-        <rdfs:label rdf:datatype="&xsd;string">nutrient average daily intake information</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily nutrient intake information</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
         <skos:definition rdf:datatype="&xsd;string">Nutrient average daily intake information is a data item providing information about the quantity of a particular nutrient taken by a patient during 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
@@ -5937,12 +5937,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1378039 -->  <!-- nutrient energy average daily intake  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1378039 -->  <!-- average daily food derived energy intake  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1378039">
-        <rdfs:label rdf:datatype="&xsd;string">nutrient energy average daily intake</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily food derived energy intake</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
-        <skos:definition rdf:datatype="&xsd;string">Nutrient energy average daily intake is a data item providing information about the energy value of all food items combined that have been taken by a patient during 24 hours (one day) time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily food derived energy intake is a data item providing information about the energy value of all food items combined that have been taken by a patient during 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -5951,9 +5951,9 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3133858 -->  <!-- fat average daily intake  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3133858">
-        <rdfs:label rdf:datatype="&xsd;string">fat average daily intake</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily fat intake</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8717058"/>
-        <skos:definition rdf:datatype="&xsd;string">Fat average daily intake is a nutrient average daily intake information about the average quantity of all fats contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily fat intake is an average daily nutrient intake information about the average quantity of all fats contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -5981,12 +5981,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3106991 -->  <!-- amino acid average daily intake  -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3106991 -->  <!-- average daily amino acid intake  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3106991">
-        <rdfs:label rdf:datatype="&xsd;string">amino acid average daily intake</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily amino acid intake</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8717058"/>  
-        <skos:definition rdf:datatype="&xsd;string">Amino acid average daily intake is a nutrient average daily intake information about the average quantity of particular amino acids being observed, and contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily amino acid intake is a average daily nutrient intake information about the average quantity of particular amino acids being observed, and contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6001,6 +6001,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1876405 -->  <!-- mineral nutrient average daily intake  -->
