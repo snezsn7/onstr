@@ -5990,52 +5990,28 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-         
+           
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2585600 -->  <!-- vitamin average daily intake  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_2585600">
-        <rdfs:label rdf:datatype="&xsd;string">vitamin average daily intake</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8717058"/>    
-        <skos:definition rdf:datatype="&xsd;string">Vitamin average daily intake is a nutrient average daily intake information about the average quantity of particular vitamins being observed, and contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
-     
-     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1876405 -->  <!-- mineral nutrient average daily intake  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_1876405">
-        <rdfs:label rdf:datatype="&xsd;string">mineral nutrient average daily intake</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8717058"/> 
-        <skos:definition rdf:datatype="&xsd;string">Mineral nutrient average daily intake is a nutrient average daily intake information about the average quantity of nutrient minerals being observed, and contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
-     
-     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7618297 -->  <!-- phenylalanine average daily intake  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7618297 -->  <!-- average daily phenylalanine intake  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7618297">
-        <rdfs:label rdf:datatype="&xsd;string">phenylalanine average daily intake</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily phenylalanine intake</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
-        <skos:definition rdf:datatype="&xsd;string">Phenylalanine average daily intake is an amino acid average daily intake that has been calculated based on the total quantity of the phenylalanine contained in all food items combined that have been taken (ingested) by a patient in 24 hour time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily phenylalanine intake is an average daily amino acid intake that has been calculated based on the total quantity of the phenylalanine contained in all food items combined that have been taken (ingested) by a patient in 24 hour time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">Phe average daily intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily Phe intake</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3524127 -->  <!-- tyrosine average daily intake  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3524127 -->  <!-- average daily tyrosine intake  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3524127">
-        <rdfs:label rdf:datatype="&xsd;string">tyrosine average daily intake</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily tyrosine intake</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
-        <skos:definition rdf:datatype="&xsd;string">Tyrosine average daily intake is an amino acid average daily intake that has been calculated based on the total quantity of the tyrosine contained in all food items combined that have been taken (ingested) by a patient in 24 hour time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily tyrosine intake is an average daily amino acid intake that has been calculated based on the total quantity of the tyrosine contained in all food items combined that have been taken (ingested) by a patient in 24 hour time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">Tyr average daily intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily Tyr intake</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
