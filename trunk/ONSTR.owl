@@ -6208,8 +6208,25 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Gram per kilogram per day is a mass per unit mass per unit time which is equal to the number of grams of a particular dietary nutrient that has been ingested during one day time interval, divided by the number of kilograms of human body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">(g/kg)/day</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">g/kg/day</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+   
+  
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5127965 -->  <!-- microgram per kilogram per day  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5127965">
+        <rdfs:label rdf:datatype="&xsd;string">microgram per kilogram per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3459861"/>
+        <skos:definition rdf:datatype="&xsd;string">Microgram per kilogram per day is a mass per unit mass per unit time which is equal to the number of grams of a particular dietary nutrient that has been ingested during one day time interval, divided by the number of kilograms of human body mass.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">(ug/kg)/day</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">ug/kg/day</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">(&#x3BC;g/kg)/day</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">&#x3BC;g/kg/day</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
    
     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5128731 -->  <!-- mass per unit time  -->
@@ -6245,6 +6262,19 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">mg/day</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+       
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2553805 -->  <!-- microgram per day  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2553805">
+        <rdfs:label rdf:datatype="&xsd;string">microgram per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5128731"/>
+        <skos:definition rdf:datatype="&xsd;string">Microgram per day is a mass per unit time which is equal to the number of micrograms of a particular dietary nutrient that has been ingested in one day time interval.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
+        <skos:altLabel rdf:datatype="&xsd;string">ug/day</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">&#x3BC;g/dayg/day</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1968249 -->  <!-- kilocalorie per kilogram per day  -->
@@ -6263,9 +6293,9 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3782257 -->  <!-- amino acid content exchange unit  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3782257">
-        <rdfs:label rdf:datatype="&xsd;string">amino acid content exchange unit</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">amino acid exchange unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
-        <skos:definition rdf:datatype="&xsd;string">Amino acid content exchange unit is a derived unit denoting the quantity of food (or food items) that contain certain number of mass units of a given amino acid.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Amino acid exchange unit is a derived unit denoting the quantity of food (or food items) that contain certain number of mass units of a given amino acid.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6348,7 +6378,38 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">Retinol equivalent</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+   
      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1807672 -->  <!-- retinol equivalent per day  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1807672">
+        <rdfs:label rdf:datatype="&xsd;string">retinol equivalent per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/>    
+        <skos:definition rdf:datatype="&xsd;string">Retinol equivalent per day is a mass per day unit which is equal to the number of retinol equivalents that have been ingested by a human patient during one day time interval.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">RE/day</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5194720  -->  <!-- international unit  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5194720">
+        <rdfs:label rdf:datatype="&xsd;string">international unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>  
+        <skos:definition rdf:datatype="&xsd;string">Unit of measurement of the quantity of a substance based on  its biological activity or produced effect.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">RE/day</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/EVS/Thesaurus.owl#International_Unit_of_Biological_Activity</rdfs:comment> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/International_unit</rdfs:comment> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The unitage assigned by the WHO to International Biological Standards - substances, classed as biological according to the criteria provided by WHO Expert Committee on Biological Standardization (e.g. hormones, enzymes, and vaccines), to enable the results of biological and immunological assay procedures to be expressed in the same way throughout the world. [Source: http://ncicb.nci.nih.gov/xml/EVS/Thesaurus.owl#International_Unit_of_Biological_Activity ]</rdfs:comment>       
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The definition of an international unit is generally arbitrary and technical, and has to be officially approved by the International Conference for Unification of Formulae [Source: http://ncicb.nci.nih.gov/xml/EVS/Thesaurus.owl#International_Unit_of_Biological_Activity ]</rdfs:comment>             
+        <skos:altLabel rdf:datatype="&xsd;string">UI</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">IU</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">IE</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+        
    
       <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8199564 -->  <!-- average nutrient intake during observed time interval information  -->
 
@@ -6393,19 +6454,6 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-     
-     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5257504 -->  <!-- average cholesterol intake during observed time interval  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_5257504">
-        <rdfs:label rdf:datatype="&xsd;string">average cholesterol intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
-        <skos:definition rdf:datatype="&xsd;string">Average cholesterol intake during observed time interval is an average macro nutrient intake during observed time interval denoting the average quantity of cholesterol contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-   
-   
    
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2286225 -->  <!-- average carbohydrate intake during observed time interval  -->
 
@@ -6550,15 +6598,13 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7113951 -->  <!-- average vitamin D3 intake during observed time interval  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7113951 -->  <!-- average vitamin D intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7113951">
-        <rdfs:label rdf:datatype="&xsd;string">average vitamin D3 intake during observed time interval</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average vitamin D intake during observed time interval</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
-        <skos:definition rdf:datatype="&xsd;string">Average vitamin D3 intake over observed time interval is an average micronutrient intake during observed time interval denoting the total quantity of vitamin D3 contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average vitamin D intake over observed time interval is an average micronutrient intake during observed time interval denoting the total quantity of vitamin D3 contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">average vitamin D3 intake</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">average cholecalcierol intake</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">average vitamin D intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6567,7 +6613,7 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1363067 -->  <!-- average dietary mineral intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1363067">
-        <rdfs:label rdf:datatype="&xsd;string">average dietary mineral intake during observed time interval</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average dietary mineral/nutrient intake during observed time interval</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3812544"/>
         <skos:definition rdf:datatype="&xsd;string">Average dietary mineral intake during observed time interval is an average micronutrient intake during observed time interval denoting the total quantity of relevant dietary minerals contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
@@ -6609,6 +6655,12 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+     
+     
+     
+     
      
 
 <!-- Ovde -->
