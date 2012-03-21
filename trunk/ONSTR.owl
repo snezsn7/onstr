@@ -5953,7 +5953,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1378039">
         <rdfs:label rdf:datatype="&xsd;string">average daily food derived energy intake</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily food derived energy intake is a data item providing information about the energy value of all food items combined that have been taken by a patient during 24 hours (one day) time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily food derived energy intake is a scalar measurement datum providing information about the energy value of all food items combined that have been taken by a patient during 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6408,7 +6408,6 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">IE</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-    
         
    
       <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8199564 -->  <!-- average nutrient intake during observed time interval information  -->
@@ -6655,6 +6654,189 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1286193 -->  <!-- food item  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1286193">
+        <rdfs:label rdf:datatype="&xsd;string">food item</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&snap;MaterialEntity"/>
+        <skos:definition rdf:datatype="&xsd;string">Food item is a material entity of either plant, animal or artificial origin containing essential body nutrients that when ingested by an organism (for purposes of nourishment or pleasure) serves to produce energy, build body tissues, stimulate growth or maintain homeostasis.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/NCIM/C0016452</rdfs:comment>  
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</rdfs:comment>      
+        <skos:altLabel rdf:datatype="&xsd;string">food</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">foodstuff</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1286193 -->  <!-- dietary nutrient  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1286193">
+        <rdfs:label rdf:datatype="&xsd;string">dietary nutrient</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&snap;MaterialEntity"/>
+        <skos:definition rdf:datatype="&xsd;string">Dietary nutrient is a material entity that is a part of a food item ingested by an organism and used by body to produce energy, build body tissues, stimulate growth and maintain homeostasis.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">nutrient</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7216679 -->  <!-- dietary macronutrient  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7216679">
+        <rdfs:label rdf:datatype="&xsd;string">dietary macronutrient</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1286193"/>
+        <skos:definition rdf:datatype="&xsd;string">Dietary macronutrient is a dietary nutrient that ingested by a human large amounts and serves to produce energy and build body tissues.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">macronutrient</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Rodwell W., S. (1989) Nutrition and diet therapy. 6th Ed. Times Mirror/Mosby College Publishing. St. Luis, MO, pp.5.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7216679 -->  <!-- dietary micronutrient  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7216679">
+        <rdfs:label rdf:datatype="&xsd;string">dietary micronutrient</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1286193"/>
+        <skos:definition rdf:datatype="&xsd;string">Dietary micronutrient is a dietary nutrient that is ingested by a human in small amounts and serves to regulate and control body processes.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">micronutrient</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Rodwell W., S. (1989) Nutrition and diet therapy. 6th Ed. Times Mirror/Mosby College Publishing. St. Luis, MO, pp.5.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6008758 -->  <!-- meal  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6008758">
+        <rdfs:label rdf:datatype="&xsd;string">meal</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&snap;ObjectAggregate"/> 
+        <skos:definition rdf:datatype="&xsd;string">Meal is a collection of food items (consisting of at least one food item) ingested by an organism that occurs by custom or habit at more or less fixed times of the day. The amount and type of food items largely depends on personal and cultural customs and habits and varies over a lifetime.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Meal</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4675402-->  <!-- breakfast  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4675402">
+        <rdfs:label rdf:datatype="&xsd;string">breakfast</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6008758"/> 
+        <skos:definition rdf:datatype="&xsd;string">Breakfast is a meal usually eaten by a human in the morning or shortly after waking up in the morning after a night sleep.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">morning meal</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4900109-->  <!-- lunch -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4900109">
+        <rdfs:label rdf:datatype="&xsd;string">lunch</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6008758"/> 
+        <skos:definition rdf:datatype="&xsd;string">Lunch is a meal usually eaten by a human during the midday or in the early after noon.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9997011-->  <!-- dinner -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9997011">
+        <rdfs:label rdf:datatype="&xsd;string">dinner</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6008758"/> 
+        <skos:definition rdf:datatype="&xsd;string">Dinner is a meal usually eaten by a human during the evening or in the late after noon.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">supper</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">evening meal</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8881263-->  <!-- snack -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8881263">
+        <rdfs:label rdf:datatype="&xsd;string">snack</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6008758"/> 
+        <skos:definition rdf:datatype="&xsd;string">Snack is a meal usually eaten by a human sometime between breakfast or lunch, or lunch and dinner (supper).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5320178-->  <!-- average nutrient intake per body mass during observed time interval information -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5320178">
+        <rdfs:label rdf:datatype="&xsd;string">average nutrient intake per body mass during observed time interval information</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/> 
+        <skos:definition rdf:datatype="&xsd;string">Average nutrient intake per body mass during observed time interval information is a scalar measurement datum denoting the average quantity of a given nutrient contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <rdfs:comment rdf:datatype="&xsd;string">Average nutrient intake per body mass during observed time interval is a scalar obtained by dividing the average quantity of a given nutrient contained in all food items taken by a human patient during the observed time period by the number of kilograms of patient body mass.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8173437-->  <!-- average macronutrient intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8173437">
+        <rdfs:label rdf:datatype="&xsd;string">average macronutrient intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5320178"/> 
+        <skos:definition rdf:datatype="&xsd;string">Average macronutrient intake per body mass during observed time interval is an average nutrient intake per body mass during observed time interval information denoting the average quantity of a given macronutrient contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4580525-->  <!-- average protein intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4580525">
+        <rdfs:label rdf:datatype="&xsd;string">average protein intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+        <skos:definition rdf:datatype="&xsd;string">Average protein intake per body mass during observed time interval is an average daily macronutrient intake per body mass  during observed time interval denoting the average quantity of proteins contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5243910-->  <!-- average fat intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5243910">
+        <rdfs:label rdf:datatype="&xsd;string">average fat intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+        <skos:definition rdf:datatype="&xsd;string">Average fat intake per body mass during observed time interval is an average daily macronutrient intake per body mass  during observed time interval denoting the average quantity of fat contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4054546-->  <!-- average carbohydrate intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4054546">
+        <rdfs:label rdf:datatype="&xsd;string">average carbohydrate intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+		<skos:definition rdf:datatype="&xsd;string">Average carbohydrate intake per body mass during observed time interval is an average daily macronutrient intake per body mass  during observed time interval denoting the average quantity of carbohydrates contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
      
      
      
