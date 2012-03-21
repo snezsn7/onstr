@@ -6824,9 +6824,48 @@ people infected, then extract parasite which are then tested = observation study
      
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3860310-->  <!-- average amino acid intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3860310">
+        <rdfs:label rdf:datatype="&xsd;string">average amino acid intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5320178"/>
+        <skos:definition rdf:datatype="&xsd;string">Average amino acid intake per body mass  during observed time interval is an average nutrient intake per body mass during observed time interval information denoting the average quantity of a given amino acid contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1119426-->  <!-- average phenylalanine intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1119426">
+        <rdfs:label rdf:datatype="&xsd;string">average phenylalanine intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3860310"/>
+        <skos:definition rdf:datatype="&xsd;string">Average phenylalanine intake per body mass during observed time interval is an average amino acid intake per body mass during observed time interval information denoting the average quantity of a amino acid phenylalanine contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5602197-->  <!-- average tyrosine intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5602197">
+        <rdfs:label rdf:datatype="&xsd;string">average tyrosine intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3860310"/>
+        <skos:definition rdf:datatype="&xsd;string">Average phenylalanine intake per body mass  during observed time interval is an average amino acid intake per body mass during observed time interval information denoting the average quantity of a amino acid phenylalanine contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9038599-->  <!-- average food derived energy intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9038599">
+        <rdfs:label rdf:datatype="&xsd;string">average food derived energy intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
+        <skos:definition rdf:datatype="&xsd;string">Average food derived energy intake per body mass during observed time interval information is a scalar measurement datum providing information about the average energy value of all food items combined that have been taken by a patient during observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
      
