@@ -5937,6 +5937,17 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1592726 -->  <!-- average daily macronutrient intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1592726">
+        <rdfs:label rdf:datatype="&xsd;string">average daily macronutrient intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8717058"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily macronutrient intake is an average daily nutrient intake information about the average quantity of a particular macronutrient contained in all food items that have been ingested by a human patient during a 24 hour time interval.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1378039 -->  <!-- average daily food derived energy intake  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1378039">
@@ -5948,34 +5959,34 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3133858 -->  <!-- fat average daily intake  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3133858 -->  <!-- average daily fat intake  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3133858">
         <rdfs:label rdf:datatype="&xsd;string">average daily fat intake</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8717058"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily fat intake is an average daily nutrient intake information about the average quantity of all fats contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1592726"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily fat intake is an average daily macronutrient intake information about the average quantity of all fats contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0591731 -->  <!-- carbohydrate average daily intake  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0591731 -->  <!-- average daily carbohydrate intake  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0591731">
-        <rdfs:label rdf:datatype="&xsd;string">carbohydrate average daily intake</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8717058"/>
-        <skos:definition rdf:datatype="&xsd;string">Carbohydrate average daily intake is a nutrient average daily intake information about the average quantity of all carbohydrates contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">average daily carbohydrate intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1592726"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily carbohydrate intake is a average daily macronuteint intake information about the average quantity of all carbohydrates contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1407818 -->  <!-- protein average daily intake  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1407818 -->  <!-- average daily protein intake  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1407818">
-        <rdfs:label rdf:datatype="&xsd;string">protein average daily intake</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8717058"/>
-        <skos:definition rdf:datatype="&xsd;string">Protein average daily intake is a nutrient average daily intake information about the average quantity of all proteins contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">average daily protein intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1592726"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily protein intake is a average daily macronutrient intake information about the average quantity of all proteins contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
