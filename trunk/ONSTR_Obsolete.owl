@@ -151,7 +151,7 @@
     
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3801118 -->  <!-- amino acid analyzer  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3801118 -->  <!-- amino acid analyzer  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3801118">
         <rdfs:label rdf:datatype="&xsd;string">amino acid analyzer</rdfs:label>
@@ -161,6 +161,37 @@
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
      </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_2585600 -->  <!-- vitamin average daily intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_2585600">
+        <rdfs:label rdf:datatype="&xsd;string">vitamin average daily intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatype="&xsd;string">Vitamin average daily intake is a nutrient average daily intake information about the average quantity of particular vitamins being observed, and contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+  
+        <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_1876405 -->  <!-- mineral nutrient average daily intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1876405">
+        <rdfs:label rdf:datatype="&xsd;string">mineral nutrient average daily intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatype="&xsd;string">Mineral nutrient average daily intake is a nutrient average daily intake information about the average quantity of nutrient minerals being observed, and contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+   
+  
+<!-- Ovde -->     
+    
+    
+    
     
     
     
