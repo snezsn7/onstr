@@ -6945,10 +6945,48 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0312097-->  <!-- average dietary mineral intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0312097">
+        <rdfs:label rdf:datatype="&xsd;string">average dietary mineral intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1653996"/>
+        <skos:definition rdf:datatype="&xsd;string">Average dietary mineral intake per body mass  during observed time interval is an average micronutrient intake per body mass during observed time interval information denoting the average quantity of a given dietary mineral contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0867118-->  <!-- average dietary calcium intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0867118">
+        <rdfs:label rdf:datatype="&xsd;string">average dietary calcium intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average dietary calcium intake per body mass  during observed time interval is an average dietary mineral intake per body mass during observed time interval information denoting the average quantity of a given dietary calcium contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0058365-->  <!-- average dietary iron intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0058365">
+        <rdfs:label rdf:datatype="&xsd;string">average dietary iron intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average dietary iron intake per body mass  during observed time interval is an average dietary mineral intake per body mass during observed time interval information denoting the average quantity of a given dietary iron contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0534168-->  <!-- average dietary zinc intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0534168">
+        <rdfs:label rdf:datatype="&xsd;string">average dietary zinc intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average dietary zinc intake per body mass  during observed time interval is an average dietary mineral intake per body mass during observed time interval information denoting the average quantity of a given dietary zinc contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
      
