@@ -6989,6 +6989,20 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1792329-->  <!-- recommended dietary allowance -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1792329">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance is a scalar measurement datum that denotes the quantity of a particular nutrient that needs to be ingested by a human and that is sufficient to meet the nutrient requirements of 98 percent of humans belonging to an age or condition specific population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://dietandfittnesstoday.com/rda.php</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">RDA</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">recommended daily allowance</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">nutrient recommended daily allowance</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
      
      
      
