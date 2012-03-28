@@ -7238,6 +7238,75 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+         <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9698884-->  <!-- average daily dietary fiber intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9698884">
+        <rdfs:label rdf:datatype="&xsd;string">average daily fiber intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary fiber intake per body mass during observed time interval is an average daily macronutrient intake per body mass  during observed time interval denoting the average quantity of all dietary fibers combined and contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1902317-->  <!-- average daily dietary saturated fatty acid intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1902317">
+        <rdfs:label rdf:datatype="&xsd;string">average daily saturated fatty acid intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary saturated fatty acid intake per body mass during observed time interval is an average daily macronutrient intake per body mass  during observed time interval denoting the average quantity of all dietary saturated fatty acids combined and contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9138906-->  <!-- average daily dietary trans fatty acid intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9138906">
+        <rdfs:label rdf:datatype="&xsd;string">average daily trans fatty acid intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary trans fatty acid intake per body mass during observed time interval is an average daily macronutrient intake per body mass  during observed time interval denoting the average quantity of all dietary trans fatty acids combined and contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4148598-->  <!-- average daily dietary alpha-linoleic acid intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4148598">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary alpha-linoleic acid intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary alpha-linoleic acid intake per body mass during observed time interval is an average daily macronutrient intake per body mass  during observed time interval denoting the average quantity of dietary alpha-linoleic acid contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6379416-->  <!-- average daily dietary linoleic acid intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6379416">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary linoleic acid intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary linoleic acid intake per body mass during observed time interval is an average daily macronutrient intake per body mass  during observed time interval denoting the average quantity of dietary linoleic acid contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2626596-->  <!-- average daily dietary cholesterol intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2626596">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary cholesterol intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary cholesterol intake per body mass during observed time interval is an average daily macronutrient intake per body mass  during observed time interval denoting the average quantity of dietary cholesterol contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+     
+     
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3860310-->  <!-- average daily amino acid intake per body mass during observed time interval -->
 
