@@ -7360,6 +7360,116 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+        <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5443586-->  <!-- average daily vitamin C intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5443586">
+        <rdfs:label rdf:datatype="&xsd;string">average daily vitamin C intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily vitamin C intake per body mass  during observed time interval is an average vitamin intake per body mass during observed time interval information denoting the average quantity of vitamin C contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4596077-->  <!-- average daily vitamin E intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4596077">
+        <rdfs:label rdf:datatype="&xsd;string">average daily vitamin E intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily vitamin E intake per body mass during observed time interval is an average vitamin intake per body mass during observed time interval information denoting the average quantity of vitamin E contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1911808-->  <!-- average daily vitamin K intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1911808">
+        <rdfs:label rdf:datatype="&xsd;string">average daily vitamin K intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily vitamin K intake per body mass during observed time interval is an average vitamin intake per body mass during observed time interval information denoting the average quantity of vitamin K contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8588243-->  <!-- average daily thiamine intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8588243">
+        <rdfs:label rdf:datatype="&xsd;string">average daily thiamine intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily thiamine intake per body mass during observed time interval is an average vitamin intake per body mass during observed time interval information denoting the average quantity of thiamine contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7289743-->  <!-- average daily riboflavin intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7289743">
+        <rdfs:label rdf:datatype="&xsd;string">average daily riboflavin intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily riboflavin intake per body mass during observed time interval is an average vitamin intake per body mass during observed time interval information denoting the average quantity of riboflavin contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6059681-->  <!-- average daily niacin intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6059681">
+        <rdfs:label rdf:datatype="&xsd;string">average daily niacin intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily niacin intake per body mass during observed time interval is an average vitamin intake per body mass during observed time interval information denoting the average quantity of niacin contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7772837-->  <!-- average daily choline intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7772837">
+        <rdfs:label rdf:datatype="&xsd;string">average daily choline intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily choline intake per body mass during observed time interval is an average vitamin intake per body mass during observed time interval information denoting the average quantity of choline contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1317968-->  <!-- average daily pantothenic acid intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1317968">
+        <rdfs:label rdf:datatype="&xsd;string">average daily pantothenic acid intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily pantothenic acid intake per body mass during observed time interval is an average vitamin intake per body mass during observed time interval information denoting the average quantity of pantothenic acid contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8247791-->  <!-- average daily biotin intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8247791">
+        <rdfs:label rdf:datatype="&xsd;string">average daily biotin intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily biotin intake per body mass during observed time interval is an average vitamin intake per body mass during observed time interval information denoting the average quantity of biotin contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1888775-->  <!-- average daily carotenoid intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1888775">
+        <rdfs:label rdf:datatype="&xsd;string">average daily carotenoid intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily carotenoid intake per body mass  during observed time interval is an average vitamin intake per body mass during observed time interval information denoting the average quantity of all carotenoids combined and contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0312097-->  <!-- average daily dietary mineral intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0312097">
