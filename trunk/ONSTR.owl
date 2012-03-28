@@ -5929,9 +5929,9 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8717058 -->  <!-- nutrient average daily intake information  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8717058">
-        <rdfs:label rdf:datatype="&xsd;string">average daily nutrient intake information</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily nutrient intake datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
-        <skos:definition rdf:datatype="&xsd;string">Nutrient average daily intake information is a data item providing information about the quantity of a particular nutrient taken by a patient during 24 hours (one day) time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutrient average daily intake datum is a data item providing information about the quantity of a particular nutrient taken by a patient during 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -5942,7 +5942,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1592726">
         <rdfs:label rdf:datatype="&xsd;string">average daily macronutrient intake</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8717058"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily macronutrient intake is an average daily nutrient intake information about the average quantity of a particular macronutrient contained in all food items that have been ingested by a human patient during a 24 hour time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily macronutrient intake is an average daily nutrient intake datum about the average quantity of a particular macronutrient contained in all food items that have been ingested by a human patient during a 24 hour time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -5964,7 +5964,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3133858">
         <rdfs:label rdf:datatype="&xsd;string">average daily fat intake</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1592726"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily fat intake is an average daily macronutrient intake information about the average quantity of all fats contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily fat intake is an average daily macronutrient intake datum about the average quantity of all fats contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -5975,7 +5975,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0591731">
         <rdfs:label rdf:datatype="&xsd;string">average daily carbohydrate intake</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1592726"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily carbohydrate intake is a average daily macronuteint intake information about the average quantity of all carbohydrates contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily carbohydrate intake is a average daily macronuteint intake datum about the average quantity of all carbohydrates contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -5986,7 +5986,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1407818">
         <rdfs:label rdf:datatype="&xsd;string">average daily protein intake</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1592726"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily protein intake is a average daily macronutrient intake information about the average quantity of all proteins contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily protein intake is a average daily macronutrient intake datum about the average quantity of all proteins contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -5997,7 +5997,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3106991">
         <rdfs:label rdf:datatype="&xsd;string">average daily amino acid intake</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8717058"/>  
-        <skos:definition rdf:datatype="&xsd;string">Average daily amino acid intake is a average daily nutrient intake information about the average quantity of particular amino acids being observed, and contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily amino acid intake is a average daily macronutrient intake about the average quantity of particular amino acids being observed, and contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6427,7 +6427,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0870721">
         <rdfs:label rdf:datatype="&xsd;string">average daily macronutrient intake during observed time interval</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8199564"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily macronutrient intake over observed time interval datum is a scalar measurement datum denoting the average quantity of a given macronutrient contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily macronutrient intake over observed time interval datum is an average daily nutrient intake during observed time interval datum denoting the average quantity of a given macronutrient contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7365,7 +7365,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0312097">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary mineral intake per body mass during observed time interval</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1653996"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary mineral intake per body mass during observed time interval is an average daily micronutrient intake per body mass during observed time interval information denoting the average quantity of a given dietary mineral contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary mineral intake per body mass during observed time interval is an average daily micronutrient intake per body mass during observed time interval datum denoting the average quantity of a given dietary mineral contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7376,7 +7376,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0867118">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary calcium intake per body mass during observed time interval</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary calcium intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval information denoting the average quantity of a given dietary calcium contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary calcium intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval datum denoting the average quantity of dietary calcium contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7387,7 +7387,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0058365">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary iron intake per body mass during observed time interval</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary iron intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval information denoting the average quantity of a given dietary iron contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary iron intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval datum denoting the average quantity of dietary iron contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7398,10 +7398,219 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0534168">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary zinc intake per body mass during observed time interval</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary zinc intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval information denoting the average quantity of a given dietary zinc contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary zinc intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval datum denoting the average quantity of dietary zinc contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+        <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3570827-->  <!-- average daily dietary arsenic intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3570827">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary arsenic intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary arsenic intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary arsenic contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0184244-->  <!-- average daily dietary boron intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0184244">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary boron intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary boron intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary boron contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7976521-->  <!-- average daily dietary chromium intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7976521">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary chromium intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary chromium intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary chromium contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7243860-->  <!-- average daily dietary copper intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7243860">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary copper intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary copper intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary copper contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4679647-->  <!-- average daily dietary chloride intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4679647">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary chloride intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary chloride intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of adietary chloride contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3277054-->  <!-- average daily dietary fluoride intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3277054">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary fluoride intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary fluoride intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary fluoride contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9145873-->  <!-- average daily dietary iodine intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9145873">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary iodine intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary iodine intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary iodine contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5873093-->  <!-- average daily dietary magnesium intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5873093">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary magnesium intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary magnesium intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary magnesium contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3663890-->  <!-- average daily dietary manganese intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3663890">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary manganese intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary manganese intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary manganese contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1769497-->  <!-- average daily dietary molybdenum intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1769497">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary molybdenum intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary molybdenum intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary molybdenum contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1769497-->  <!-- average daily dietary molybdenum intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1769497">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary molybdenum intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary molybdenum intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary molybdenum contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4855812-->  <!-- average daily dietary nickel intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4855812">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary nickel intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary nickel intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary nickel contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4768406-->  <!-- average daily dietary phosphorus intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4768406">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary phosphorus intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary phosphorus intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary phosphorus contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5305807-->  <!-- average daily dietary potassium intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5305807">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary potassium intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary potassium intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary potassium contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>    
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5491871-->  <!-- average daily dietary selenium intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5491871">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary selenium intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary selenium intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary selenium contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4354065-->  <!-- average daily dietary silicon intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4354065">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary silicon intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary silicon intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary silicon contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7916081-->  <!-- average daily dietary sulfate intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7916081">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary sulfate intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary sulfate intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary sulfates contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7762559-->  <!-- average daily dietary sodium intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7762559">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary sodium intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary sodium intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary sodium contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9111606-->  <!-- average daily dietary vanadium intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9111606">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary vanadium intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary vanadium intake per body mass during observed time interval is an average daily dietary mineral intake per body mass during observed time interval denoting the average quantity of dietary vanadium contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1792329-->  <!-- recommended dietary allowance -->
