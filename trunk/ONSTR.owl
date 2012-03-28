@@ -6421,6 +6421,48 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9005768-->  <!-- ounce -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9005768">
+        <rdfs:label rdf:datatype="&xsd;string">ounce</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;UO_0000002"/>
+        <skos:definition rdf:datatype="&xsd;string">Ounce is a mass unit that is a non standard unit of mass used in the imperial and United States customary system of measurement units and that is equal to one sixteenth of avoirdupois pound or 28.3945 grams of the International system of units (SI).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ounce</rdfs:comment>   
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Ounce#International_avoirdupois_ounce</rdfs:comment>     
+        <skos:altLabel rdf:datatype="&xsd;string">oz</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">OZ</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">oz avdp</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Avoirdupois ounce</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">international ounce</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">international avoirdupois ounce</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0855004-->  <!-- fluid ounce -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0855004">
+        <rdfs:label rdf:datatype="&xsd;string">fluid ounce</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;UO_0000095"/>
+        <skos:definition rdf:datatype="&xsd;string">Fluid ounce is a volume unit that is a non standard unit of volume equal to one eight (1/8) of the United States gallon or 29.57352 milliliters (or the same number of cubic centimeters (cm^3)) of the International System of Units.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Fluid_ounce</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Fluid_ounce</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">FL OZ</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">fl oz</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">foz</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">foz us</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">FO</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+     
+     
+     
+     
+     
+     
+     
+     
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0870721 -->  <!-- average daily macronutrient intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0870721">
@@ -6473,9 +6515,6 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-     
-     
-          <!-- COPY MACRONUTR OVDE-->
      
           <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7773980 -->  <!-- average daily dietary fiber intake during observed time interval  -->
 
@@ -7185,8 +7224,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-     
-     
+   
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5320178-->  <!-- average daily nutrient intake per body mass during observed time interval information -->
 
@@ -7230,8 +7268,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Average daily fat intake per body mass during observed time interval is an average daily macronutrient intake per body mass  during observed time interval denoting the average quantity of fat contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
+     </owl:Class> 
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4054546-->  <!-- average daily carbohydrate intake per body mass during observed time interval -->
@@ -7308,12 +7345,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary cholesterol intake per body mass during observed time interval is an average daily macronutrient intake per body mass  during observed time interval denoting the average quantity of dietary cholesterol contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
-     
-     
-     
-     
+     </owl:Class> 
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3860310-->  <!-- average daily amino acid intake per body mass during observed time interval -->
 
@@ -7812,11 +7844,15 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
      
+   
+   
+   
      
      
-     
-     
-
+   
+   
+   
+   
 <!-- Ovde -->
 
 
