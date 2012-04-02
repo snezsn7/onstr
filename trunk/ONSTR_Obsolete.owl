@@ -175,9 +175,9 @@
      </owl:Class>
      
   
-        <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_1876405 -->  <!-- mineral nutrient average daily intake  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_1876405 -->  <!-- mineral nutrient average daily intake  -->
 
-    <owl:Class rdf:about="&ONSTR;ONSTR_1876405">
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_1876405">
         <rdfs:label rdf:datatype="&xsd;string">mineral nutrient average daily intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
         <skos:definition rdf:datatype="&xsd;string">Mineral nutrient average daily intake is a nutrient average daily intake information about the average quantity of nutrient minerals being observed, and contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
@@ -186,8 +186,22 @@
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
      </owl:Class>
         
+        
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_8717058 -->  <!-- nutrient average daily intake information  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_8717058">
+        <rdfs:label rdf:datatype="&xsd;string">average daily nutrient intake datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatype="&xsd;string">Nutrient average daily intake datum is a data item providing information about the quantity of a particular nutrient taken by a patient during 24 hours (one day) time interval.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+        
+        
+        
   
-<!-- Ovde -->     
+<!-- OvdeClass -->     
     
     
     
@@ -210,6 +224,9 @@
         <rdfs:comment rdf:datatype="&xsd;string">This superproperty is a final destination of all object properties (relations) that have previously been asserted in the ONSTR, but not in use any more.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Complete</skos:editorialNote>
     </owl:ObjectProperty>
+
+
+<!-- Ovde Prop --> 
 
 
 
