@@ -6307,7 +6307,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0500010">
         <rdfs:label rdf:datatype="&xsd;string">leucine exchange unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3782257"/>
-        <skos:definition rdf:datatype="&xsd;string">Leucine exchange unit is an amino acid content exchange unit denoting the quantity of food (or food items) containing XXX milligrams of the amino acid leucine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Leucine exchange unit is an amino acid content exchange unit denoting the quantity of food (or food items) containing 30 milligrams of the amino acid leucine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Rani H. Singh.</rdfs:comment>  
         <skos:altLabel rdf:datatype="&xsd;string">Leu-exchange unit</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">leucine exchange</skos:altLabel>
@@ -6444,7 +6444,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
-     <!-- MERE OVDE -->
+     <!-- UNITS OVDE -->
     
      
      
@@ -6456,6 +6456,16 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary macronutrient intake during observed time interval</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8199564"/>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary macronutrient intake over observed time interval datum is an average daily nutrient intake during observed time interval datum denoting the average quantity of a given macronutrient contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0323207 -->  <!-- average daily dietary water intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0323207">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary water intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary water intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average quantity of water contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7522,6 +7532,18 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2490062-->  <!-- average daily dietary water intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2490062">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary water intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary water intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average quantity of water contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4580525-->  <!-- average daily dietary protein intake per body mass during observed time interval -->
