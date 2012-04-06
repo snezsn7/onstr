@@ -5947,34 +5947,34 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3133858 -->  <!-- average daily dietary fat intake  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3133858 -->  <!-- average daily total dietary fat intake  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3133858">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary fat intake</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary fat intake</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1592726"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary fat intake is an average daily dietary macronutrient intake datum about the average quantity of all fats contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary fat intake is an average daily dietary macronuteint intake datum denoting the average intake of dietary fats contained in all nutritional items that have been taken by a human patient during 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0591731 -->  <!-- average daily dietary carbohydrate intake  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0591731 -->  <!-- average daily total dietary carbohydrate intake  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0591731">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary carbohydrate intake</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary carbohydrate intake</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1592726"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary carbohydrate intake is a average daily dietary macronuteint intake datum about the average quantity of all carbohydrates contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary carbohydrate intake is an average daily dietary macronuteint intake datum denoting the average intake of dietary carbohydrates contained in all nutritional items that have been taken by a human patient during 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1407818 -->  <!-- average daily dietary protein intake  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1407818 -->  <!-- average daily total dietary protein intake  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1407818">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary protein intake</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary protein intake</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1592726"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily protein intake is a average daily dietary macronutrient intake datum about the average quantity of all proteins contained in all food items combined that have been taken by a patient during a 24 hours (one day) time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary protein intake is an average daily dietary macronuteint intake datum denoting the average intake of dietary proteins contained in all nutritional items that have been taken by a human patient during 24 hours (one day) time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6524,44 +6524,45 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0323207 -->  <!-- average daily dietary water intake during observed time interval  -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0323207 -->  <!-- average daily total dietary water intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0323207">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary water intake during observed time interval</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary water intake during observed time interval</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary water intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average quantity of water contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary water intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average intake of dietary water contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9046621 -->  <!-- average daily dietary protein intake during observed time interval  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9046621 -->  <!-- average daily total dietary protein intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9046621">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary protein intake during observed time interval</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary protein intake during observed time interval</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary protein intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average quantity of proteins contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary protein intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average intake of dietary proteins contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
        
        
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3033773 -->  <!-- average daily dietary fat intake during observed time interval  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3033773 -->  <!-- average daily total dietary fat intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3033773">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary fat intake during observed time interval</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary fat intake during observed time interval</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary fat intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average quantity of fats contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary fat intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average intake of dietary fats contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+    
    
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2286225 -->  <!-- average daily dietary carbohydrate intake during observed time interval  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2286225 -->  <!-- average daily dietary total carbohydrate intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2286225">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary carbohydrate intake during observed time interval</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary carbohydrate intake during observed time interval</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary carbohydrate intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average quantity of carbohydrates contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary carbohydrate intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average intake of dietary carbohydrates contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6577,12 +6578,12 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
-          <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7773980 -->  <!-- average daily dietary fiber intake during observed time interval  -->
+          <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7773980 -->  <!-- average daily total dietary fiber intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7773980">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary fiber intake during observed time interval</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary fiber intake during observed time interval</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary fiber intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average quantity of all dietary fibers contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary fiber intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average intake of dietary fibers contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7574,57 +7575,57 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2490062-->  <!-- average daily dietary water intake per body mass during observed time interval -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2490062-->  <!-- average daily total dietary water intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2490062">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary water intake per body mass during observed time interval</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary water intake per body mass during observed time interval</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary water intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average quantity of water contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary water intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average intake of water contained in all food items taken by a human patient during the observed time period with respect to patient's body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4580525-->  <!-- average daily dietary protein intake per body mass during observed time interval -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4580525-->  <!-- average daily total dietary protein intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4580525">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary protein intake per body mass during observed time interval</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary protein intake per body mass during observed time interval</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary protein intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average quantity of proteins contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary protein intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average intake of proteins contained in all food items taken by a human patient during the observed time period with respect to patient's body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5243910-->  <!-- average daily dietary fat intake per body mass during observed time interval -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5243910-->  <!-- average daily total dietary fat intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5243910">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary fat intake per body mass during observed time interval</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary total fat intake per body mass during observed time interval</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary fat intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass  during observed time interval denoting the average quantity of fat contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary fat intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average intake of fats contained in all food items taken by a human patient during the observed time period with respect to patient's body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4054546-->  <!-- average daily dietary carbohydrate intake per body mass during observed time interval -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4054546-->  <!-- average daily total dietary carbohydrate intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4054546">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary carbohydrate intake per body mass during observed time interval</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary carbohydrate intake per body mass during observed time interval</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
-		<skos:definition rdf:datatype="&xsd;string">Average daily dietary carbohydrate intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average quantity of carbohydrates contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+		<skos:definition rdf:datatype="&xsd;string">Average daily total dietary carbohydrate intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average intake of carbohydrates contained in all food items taken by a human patient during the observed time period with respect to patient's body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-         <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9698884-->  <!-- average daily dietary fiber intake per body mass during observed time interval -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9698884-->  <!-- average daily total dietary fiber intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9698884">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary fiber intake per body mass during observed time interval</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary fiber intake per body mass during observed time interval</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary fiber intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass  during observed time interval denoting the average quantity of all dietary fibers combined and contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary fiber intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average intake of fibers contained in all food items taken by a human patient during the observed time period with respect to patient's body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
