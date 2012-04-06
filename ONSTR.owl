@@ -6353,19 +6353,6 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">cells/&#x3BC;L</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-     
-
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8797829 -->  <!-- retinol equivalent unit  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_8797829">
-        <rdfs:label rdf:datatype="&xsd;string">retinol equivalent unit</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
-        <skos:definition rdf:datatype="&xsd;string">Retinol equivalent unit is a derived unit that is equal to 1 microgram of the retinol, or equal to 6 micrograms of beta-carotene, or equal to 3.333 International Units of vitamin A.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://dietbio.com/vegaterisme/en/vit_a.html</rdfs:comment>  
-        <skos:altLabel rdf:datatype="&xsd;string">RE</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">Retinol equivalent</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
    
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1807672 -->  <!-- retinol equivalent per day  -->
@@ -6386,7 +6373,6 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">international unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>  
         <skos:definition rdf:datatype="&xsd;string">Unit of measurement of the quantity of a substance based on  its biological activity or produced effect.</skos:definition>
-        <skos:altLabel rdf:datatype="&xsd;string">RE/day</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/EVS/Thesaurus.owl#International_Unit_of_Biological_Activity</rdfs:comment> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/International_unit</rdfs:comment> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: The unitage assigned by the WHO to International Biological Standards - substances, classed as biological according to the criteria provided by WHO Expert Committee on Biological Standardization (e.g. hormones, enzymes, and vaccines), to enable the results of biological and immunological assay procedures to be expressed in the same way throughout the world. [Source: http://ncicb.nci.nih.gov/xml/EVS/Thesaurus.owl#International_Unit_of_Biological_Activity ]</rdfs:comment>       
@@ -6444,7 +6430,85 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
-     <!-- UNITS OVDE -->
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1282628-->  <!-- vitamin specific measurement unit -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1282628">
+        <rdfs:label rdf:datatype="&xsd;string">vitamin specific measurement unit</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
+        <skos:definition rdf:datatype="&xsd;string">Vitamin specific unit is a derived unit that denotes the quantity of a particular vitamin, or vitamin precursors (provitamins) expressed in units of the International System of Measurement Units (SI), or expressed in the international units  (IU).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>  
+     
+     
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2205845-->  <!-- vitamin A specific unit -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2205845">
+        <rdfs:label rdf:datatype="&xsd;string">vitamin A specific unit</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1282628"/>
+	    <skos:definition rdf:datatype="&xsd;string">Vitamin A specific unit is a vitamin specific measurement unit denoting the qunatity of vitamin A (retinol) or the quantity of vitamin A precursors (&#x3B1;-carotene, &#x3B2;-carotene and &#x3B2;-cryptoxantin).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium and Zinc.(2001) Food and Nutrition Board, Institute of Medicine, National Academy of Sciences, National Academy Press, Washington DC, pp. 770-773.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8797829 -->  <!-- retinol equivalent unit  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8797829">
+        <rdfs:label rdf:datatype="&xsd;string">retinol equivalent unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2205845"/>
+        <skos:definition rdf:datatype="&xsd;string">Retinol equivalent unit is a derived unit that is equal to 1 &#x3BC;g of retinol (vitamin A), or  6 &#x3BC;g of &#x3B2;-carotene, or equal to 3.333 International Units of vitamin A.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://dietbio.com/vegaterisme/en/vit_a.html</rdfs:comment>  
+        <skos:altLabel rdf:datatype="&xsd;string">RE</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">retinol equivalent</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3072961 -->  <!-- retinol activity equivalent unit  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3072961">
+        <rdfs:label rdf:datatype="&xsd;string">retinol activity equivalent unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2205845"/>
+        <skos:definition rdf:datatype="&xsd;string">Retinol activity equivalent unit is a vitamin A specific unit denoting a quantity equal to 1 &#x3BC;g of retinol (vitamin A), or 12 &#x3BC;g of &#x3B2;-carotene, or 24 &#x3BC;g of &#x3B1;-carotene or 24 &#x3BC;g of &#x3B2;-cryptoxantin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium and Zinc.(2001) Food and Nutrition Board, Institute of Medicine, National Academy of Sciences, National Academy Press, Washington DC, pp. 770-773.</rdfs:comment> 
+        <rdfs:comment rdf:datatype="&xsd;string">Retinol activity equivalent unit for quivalent unit for preformed vitamin A (retinol) is equal to retinol equivalent unit (RE), whereas, retinol activity equivalent unit  for dietary provitamin A carotenoinds is two-fold greater than retinol equivalent unit (RE). [Source: Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium and Zinc.(2001) Food and Nutrition Board, Institute of Medicine, National Academy of Sciences, National Academy Press, Washington DC, pp. 770-773.]</rdfs:comment>       
+        <skos:altLabel rdf:datatype="&xsd;string">retinol activity equivalent</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">RAE</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9617496 -->  <!-- niacin equivalent unit  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9617496">
+        <rdfs:label rdf:datatype="&xsd;string">niacin equivalent unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1282628"/>
+        <skos:definition rdf:datatype="&xsd;string">Niacin equivalent unit is a vitamin specific measurement unit equal to 1 mg of niacin (vitamin B3) or equal to 60 mg of amino acid tryptophan.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium and Zinc.(2001) Food and Nutrition Board, Institute of Medicine, National Academy of Sciences, National Academy Press, Washington DC, pp. 770-773.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">niacin equivalent</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">NE</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1146016 -->  <!-- dietary folate equivalent unit  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1146016">
+        <rdfs:label rdf:datatype="&xsd;string">dietary folate equivalent unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1282628"/>
+        <skos:definition rdf:datatype="&xsd;string">Dietary folate equivalent unit (DFE) is a vitamin specific measurement unit equal to 1 &#x3BC;g of food folate or 0.6 &#x3BC;g of folic acid added to food, or 0.5 &#x3BC;g of folic acid taken as supplement on an empty stomach.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: West Suitor, C., Bailey, L. B. (2000) Dietary Folate Equivalents: Interpretation and Application. Journal of the American Dietetic Association, Vol 100, Issue 1, pp. 88-94.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">1 &#x3BC;g of of folic acid as a food fortificant is equal to 1.7 DFE. 1 &#x3BC;g of folic acid as a dietary supplement taken on an empty stomach is equal to 2 DFE. [Source: West Suitor, C., Bailey, L. B. (2000) Dietary Folate Equivalents: Interpretation and Application. Journal of the American Dietetic Association, Vol 100, Issue 1, pp. 88-94.]</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Dietary folate equivalents account for differences in the absorption of naturally occurring food folate and bioavailable synthetic folic acid. [Source: West Suitor, C., Bailey, L. B. (2000) Dietary Folate Equivalents: Interpretation and Application. Journal of the American Dietetic Association, Vol 100, Issue 1, pp. 88-94.]</rdfs:comment>        
+        <skos:altLabel rdf:datatype="&xsd;string">DFE</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">dietary folate equivalent</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+        
+    
+     <!-- MERE OVDE -->
     
      
      
@@ -6558,12 +6622,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8208187 -->  <!-- average daily dietary alpha-linoleic acid intake during observed time interval  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8208187 -->  <!-- average daily dietary alpha-linolenic acid intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8208187">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary alpha-linoleic acid intake during observed time interval</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary alpha-linolenic acid intake during observed time interval</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary alpha-linoleic acid intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average quantity of alpha-linoleic acid contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary alpha-linolenic acid intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average quantity of alpha-linolenic acid contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7612,12 +7676,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4148598-->  <!-- average daily dietary alpha-linoleic acid intake per body mass during observed time interval -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4148598-->  <!-- average daily dietary alpha-linolenic acid intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4148598">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary alpha-linoleic acid intake per body mass during observed time interval</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary alpha-linolenic acid intake per body mass during observed time interval</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary alpha-linoleic acid intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass  during observed time interval denoting the average quantity of dietary alpha-linoleic acid contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary alpha-linolenic acid intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass  during observed time interval denoting the average quantity of dietary alpha-linolenic acid contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
