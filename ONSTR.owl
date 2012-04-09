@@ -6159,7 +6159,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0032940">
         <rdfs:label rdf:datatype="&xsd;string">nutrient intake per unit time</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
-        <skos:definition rdf:datatype="&xsd;string">Nutrient intake per unit time is a derived unit which denotes the quantity of a particular dietary nutrient taken by a human in an time interval denoted by a time unit (usually a day).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutrient intake per unit time is a derived unit which denotes the quantity of a particular dietary nutrient taken by a human in an time interval denoted by a time unit (usually a day) with or without respect ot human body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -6170,7 +6170,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3459861">
         <rdfs:label rdf:datatype="&xsd;string">mass per unit mass per unit time</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/>
-        <skos:definition rdf:datatype="&xsd;string">Mass per unit unit mass per unit time is a nutrient intake per unit time that is a measure of the number of mass units of a given nutrient substance taken by a human in a given time interval with or without respect to human body mass.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Mass per unit unit mass per unit time is a nutrient intake per unit time that is a measure of the number of mass units of a given nutrient substance taken by a human in a given time interval with respect to human body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -6264,6 +6264,101 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">&#x3BC;g/day</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6893976 -->  <!-- volume per unit time  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6893976">
+        <rdfs:label rdf:datatype="&xsd;string">volume per unit time</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/>
+        <skos:definition rdf:datatype="&xsd;string">Volume per unit time is a nutrient intake per unit time that is a measure of the number volume units of a particular nutrient taken by a human in time interval denoted by a time unit.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1121265 -->  <!-- liter per day  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1121265">
+        <rdfs:label rdf:datatype="&xsd;string">liter per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6893976"/>
+        <skos:definition rdf:datatype="&xsd;string">Liter per day is a volume per unit time that is equal to nutrient intake of 1 L (1 dm^3) in 1 day time interval.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">l/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">L/d</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4376445 -->  <!-- fluid ounce per day  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4376445">
+        <rdfs:label rdf:datatype="&xsd;string">fluid ounce per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6893976"/>
+        <skos:definition rdf:datatype="&xsd;string">Fluid ounce per day is a volume per unit time that is equal to nutrient intake of 1 FO in 1 day time interval.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">FO/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">fl oz/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">foz/d</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7908293 -->  <!-- volume per unit mass per unit time  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7908293">
+        <rdfs:label rdf:datatype="&xsd;string">volume per unit mass per unit time</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/>
+        <skos:definition rdf:datatype="&xsd;string">Volume per unit mass per unit time is a nutrient intake per unit time that is a measure of the number of volume units of a particular nutrient taken by a human in time interval, with respect to human body mass.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5270306 -->  <!-- liter per kilogram per day  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5270306">
+        <rdfs:label rdf:datatype="&xsd;string">liter per kilogram per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7908293"/>
+        <skos:definition rdf:datatype="&xsd;string">Liter per kilogram per day is a volume per unit mass per unit time that is equal to nutrient intake of 1 L per 1 kg of human body mass in 1 day time interval.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">l/kg/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">(l/kg)/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">L/kg/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">(L/kg)/d</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4239849 -->  <!-- fluid ounce per kilogram per day  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4239849">
+        <rdfs:label rdf:datatype="&xsd;string">fluid ounce per kilogram per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7908293"/>
+        <skos:definition rdf:datatype="&xsd;string">Fluid ounce per kilogram per day is a volume per unit mass per unit time that is equal to nutrient intake of 1 fl oz per 1 kg of human body mass in 1 day time interval.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">floz/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">FO/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">foz/d</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1968249 -->  <!-- kilocalorie per kilogram per day  -->
