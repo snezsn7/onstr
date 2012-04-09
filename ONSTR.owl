@@ -6154,12 +6154,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0032940 -->  <!-- nutrient concentration per unit time  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0032940 -->  <!-- nutrient intake per unit time  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0032940">
-        <rdfs:label rdf:datatype="&xsd;string">nutrient concentration per unit time</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;UO_0000051"/>
-        <skos:definition rdf:datatype="&xsd;string">Nutrient concentration per unit time is a concentration unit which denotes the quantity of a particular dietary nutrient taken by a human in a given time unit, with respect to body mass of a given patient.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">nutrient intake per unit time</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
+        <skos:definition rdf:datatype="&xsd;string">Nutrient intake per unit time is a derived unit which denotes the quantity of a particular dietary nutrient taken by a human in an time interval denoted by a time unit (usually a day).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -6170,7 +6170,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3459861">
         <rdfs:label rdf:datatype="&xsd;string">mass per unit mass per unit time</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/>
-        <skos:definition rdf:datatype="&xsd;string">Mass per unit mass per unit time is a nutrient concentration per unit time denoting a number of mass units of a given nutrient substance in specific mass unit, in a given unit of time.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Mass per unit mass per unit time is a nutrient intake per unit time denoting a number of mass units of a given nutrient substance in specific mass unit, in a given unit of time.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -6222,7 +6222,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5128731">
         <rdfs:label rdf:datatype="&xsd;string">mass per unit time</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/> 
-        <skos:definition rdf:datatype="&xsd;string">Mass per unit time is a nutrient concentration per unit time denoting a number of mass units of a given nutrient substance in one day time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Mass per unit time is a nutrient intake per unit time denoting a number of mass units of a given nutrient substance in one day time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6359,8 +6359,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1807672">
         <rdfs:label rdf:datatype="&xsd;string">retinol equivalent per day</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/>    
-        <skos:definition rdf:datatype="&xsd;string">Retinol equivalent per day is a mass per day unit which is equal to the number of retinol equivalents that have been ingested by a human patient during one day time interval.</skos:definition>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5128731"/>    
+        <skos:definition rdf:datatype="&xsd;string">Retinol equivalent per day is a mass per unit time which is equal to the number of retinol equivalents that have been ingested by a human patient during one day time interval.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">RE/day</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
