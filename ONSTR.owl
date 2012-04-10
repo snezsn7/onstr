@@ -6154,12 +6154,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0032940 -->  <!-- nutrient intake per unit time  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0032940 -->  <!-- dietary nutrient intake per unit time  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0032940">
-        <rdfs:label rdf:datatype="&xsd;string">nutrient intake per unit time</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">dietary nutrient intake per unit time</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
-        <skos:definition rdf:datatype="&xsd;string">Nutrient intake per unit time is a derived unit which denotes the quantity of a particular dietary nutrient taken by a human in an time interval denoted by a time unit (usually a day) with or without respect ot human body mass.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Dietary nutrient intake per unit time is a derived unit which denotes the quantity of a particular dietary nutrient taken by a human in an time interval denoted by a time unit (usually a day) with or without respect ot human body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -6170,7 +6170,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3459861">
         <rdfs:label rdf:datatype="&xsd;string">mass per unit mass per unit time</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/>
-        <skos:definition rdf:datatype="&xsd;string">Mass per unit unit mass per unit time is a nutrient intake per unit time that is a measure of the number of mass units of a given nutrient substance taken by a human in a given time interval with respect to human body mass.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Mass per unit unit mass per unit time is a dietary nutrient intake per unit time that is a measure of the number of mass units of a given nutrient substance taken by a human in a given time interval with respect to human body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -6223,7 +6223,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5128731">
         <rdfs:label rdf:datatype="&xsd;string">mass per unit time</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/> 
-        <skos:definition rdf:datatype="&xsd;string">Mass per unit mass per unit time is a nutrient intake per unit time that is a measure of the number of mass units of a given nutrient taken by a human in a given time interval.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Mass per unit mass per unit time is a dietary nutrient intake per unit time that is a measure of the number of mass units of a given nutrient taken by a human in a given time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6309,7 +6309,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7908293">
         <rdfs:label rdf:datatype="&xsd;string">volume per unit mass per unit time</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/>
-        <skos:definition rdf:datatype="&xsd;string">Volume per unit mass per unit time is a nutrient intake per unit time that is a measure of the number of volume units of a particular nutrient taken by a human in time interval, with respect to human body mass.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Volume per unit mass per unit time is a dietary nutrient intake per unit time that is a measure of the number of volume units of a particular nutrient taken by a human in time interval, with respect to human body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6344,31 +6344,43 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5309155 -->  <!-- dietary energy intake per unit time  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5309155">
+        <rdfs:label rdf:datatype="&xsd;string">dietary energy intake per unit time</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>   
+        <skos:definition rdf:datatype="&xsd;string">Dietary energy intake per unit time	is a derived unit that is a measure of the number of dietary energy units (kilocalories) taken by a human in a give time interval, with or without respect to human body mass.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0274157 -->  <!-- kilocalorie per day  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0274157">
+        <rdfs:label rdf:datatype="&xsd;string">kilocalorie per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5309155"/>
+        <skos:definition rdf:datatype="&xsd;string">Kilocalorie per day is a dietary energy intake per unit time equal to dietary energy intake of 1 kCal in 1 day time interval.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">kCal/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">C/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Cal/d</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
+        
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1968249 -->  <!-- kilocalorie per kilogram per day  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1968249">
         <rdfs:label rdf:datatype="&xsd;string">kilocalorie per kilogram per day</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
-        <skos:definition rdf:datatype="&xsd;string">Kilocalorie per kilogram per day is a derived unit which is equal to the number of kilocalories derived from the ingested nutrients in one day time interval, divided by the number of kilograms of human body mass.</skos:definition>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5309155"/>
+        <skos:definition rdf:datatype="&xsd;string">Kilocalorie per kilogram per day is a dietary energy intake per unit time equal to dietary energy intake of 1 kCal per 1 kg of human body mass in 1 day time interval.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
-        <skos:altLabel rdf:datatype="&xsd;string">Kcal/day</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">kCal/kg/day</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">(kCal/kg)/day</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">C/kg/day</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">(C/kg)/day</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
