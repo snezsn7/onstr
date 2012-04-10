@@ -6384,6 +6384,64 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9679076 -->  <!-- unit vitamin per unit time  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9679076">
+        <rdfs:label rdf:datatype="&xsd;string">unit vitamin per unit time</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/>  
+        <skos:definition rdf:datatype="&xsd;string">Unit vitamin per unit time is a nutrient intake per unit time that is a measure of the number of vitamin specific units taken by a human in a given time interval.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9660969 -->  <!-- unit vitamin per unit time  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9660969">
+        <rdfs:label rdf:datatype="&xsd;string">retinol activity equivalent per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9679076"/>
+        <skos:definition rdf:datatype="&xsd;string">Retinol activity equivalent per day is a unit vitamin per unit time that is equal to vitamin A (retinol) intake of 1 RAE in 1 day time interval.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">RAE/day</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1807672 -->  <!-- retinol equivalent per day  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1807672">
+        <rdfs:label rdf:datatype="&xsd;string">retinol equivalent per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9679076"/>    
+        <skos:definition rdf:datatype="&xsd;string">Retinol equivalent per day is a unit vitamin per unit time that is equal to vitamin A (retinol) intake of 1 RE in 1 day time interval.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">RE/day</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0548739 -->  <!-- niacin equivalent per day  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0548739">
+        <rdfs:label rdf:datatype="&xsd;string">niacin equivalent per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9679076"/>
+        <skos:definition rdf:datatype="&xsd;string">Niacin equivalent per day is a unit vitamin per unit time that is equal to niacin (vitamin B3) intake of 1 NE in 1 day time interval.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">NE/day</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4928224 -->  <!-- dietary folate equivalent per day  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4928224">
+        <rdfs:label rdf:datatype="&xsd;string">dietary folate equivalent per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9679076"/>
+        <skos:definition rdf:datatype="&xsd;string">Dietary folate equivalent per day is a unit vitamin per unit time that is equal to folacin (folic acid, folate, vitamin B9) intake of 1 DFE in 1 day time interval.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">DFE/day</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>    
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3782257 -->  <!-- amino acid content exchange unit  -->
@@ -6462,17 +6520,6 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
    
-     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1807672 -->  <!-- retinol equivalent per day  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_1807672">
-        <rdfs:label rdf:datatype="&xsd;string">retinol equivalent per day</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5128731"/>    
-        <skos:definition rdf:datatype="&xsd;string">Retinol equivalent per day is a mass per unit time which is equal to the number of retinol equivalents that have been ingested by a human patient during one day time interval.</skos:definition>
-        <skos:altLabel rdf:datatype="&xsd;string">RE/day</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>   
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5194720  -->  <!-- international unit  -->
