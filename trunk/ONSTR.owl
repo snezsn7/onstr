@@ -7097,6 +7097,8 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary alpha-linolenic acid intake during observed time interval</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8777352"/>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary alpha-linolenic acid intake over observed time interval datum is an average daily dietary fatty acid intake during observed time interval denoting the average quantity of alpha-linolenic acid contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily ALA intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">daily ALA intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7108,10 +7110,51 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary linoleic acid intake during observed time interval</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8777352"/>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary linoleic acid intake over observed time interval datum is an average daily dietary fatty acid intake during observed time interval denoting the average quantity of linoleic acid contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily LA intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">daily LA intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7733244 -->  <!-- average daily dietary arachidonic acid intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7733244">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary arachidonic acid intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8777352"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary arachidonic acid intake over observed time interval datum is an average daily dietary fatty acid intake during observed time interval denoting the average quantity of arachidonic acid contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily AA intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">daily AA intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4023203 -->  <!-- average daily dietary eicosapentaenoic acid intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4023203">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary eicosapentaenoic acid intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8777352"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary eicosapentaenoic acid intake over observed time interval datum is an average daily dietary fatty acid intake during observed time interval denoting the average quantity of eicosapentaenoic acid contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily EPA intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">daily EPA intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3018657 -->  <!-- average daily dietary docosahexaenoic acid intake during observed time interval  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3018657">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary docosahexaenoic acid intake during observed time interval</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8777352"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary docosahexaenoic acid intake over observed time interval datum is an average daily dietary fatty acid intake during observed time interval denoting the average quantity of docosahexaenoic acid contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily DHA intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">daily DHA intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1164140 -->  <!-- average daily dietary energy intake during observed time interval datum  -->
 
@@ -8117,6 +8160,8 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary alpha-linolenic acid intake per body mass during observed time interval</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3673197"/>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary alpha-linolenic acid intake per body mass during observed time interval is an average daily dietary fatty acid intake per body mass during observed time interval denoting the average quantity of dietary alpha-linolenic acid contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily ALA intake per body mass</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">daily ALA intake per body mass</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -8128,10 +8173,51 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary linoleic acid intake per body mass during observed time interval</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3673197"/>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary linoleic acid intake per body mass during observed time interval is an average daily dietary fatty acid intake per body mass during observed time interval denoting the average quantity of dietary linoleic acid contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily LA intake per body mass</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">daily LA intake per body mass</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9879168-->  <!-- average daily dietary arachidonic acid intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9879168">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary arachidonic acid intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3673197"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary arachidonic acid intake per body mass during observed time interval is an average daily dietary fatty acid intake per body mass during observed time interval denoting the average quantity of dietary arachidonic acid contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily AA intake per body mass</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">daily AA intake per body mass</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5858734-->  <!-- average daily dietary eicosapentaenoic acid intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5858734">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary eicosapentaenoic acid intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3673197"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary eicosapentaenoic acid intake per body mass during observed time interval is an average daily dietary fatty acid intake per body mass during observed time interval denoting the average quantity of dietary eicosapentaenoic acid contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily EPA intake per body mass</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">daily EPA intake per body mass</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3942004-->  <!-- average daily dietary docosahexaenoic acid intake per body mass during observed time interval -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3942004">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary docosahexaenoic acid intake per body mass during observed time interval</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3673197"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary docosahexaenoic acid intake per body mass during observed time interval is an average daily dietary fatty acid intake per body mass during observed time interval denoting the average quantity of dietary docosahexaenoic acid contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily DHA intake per body mass</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">daily DHA intake per body mass</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+        
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2626596-->  <!-- average daily dietary cholesterol intake per body mass during observed time interval -->
 
