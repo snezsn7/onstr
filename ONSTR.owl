@@ -7079,30 +7079,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
-     
-     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3390372 -->  <!-- average daily dietary saturated fatty acid intake during observed time interval  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_3390372">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary saturated fatty acid intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary saturated fatty acid intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average quantity of all dietary saturated fatty acids contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
-     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5948875 -->  <!-- average daily dietary trans fatty acid intake during observed time interval  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_5948875">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary trans fatty acid intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary trans fatty acid intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average quantity of all dietary saturated trans fatty acid contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
-     
+          
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8208187 -->  <!-- average daily dietary alpha-linolenic acid intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8208187">
@@ -8109,29 +8086,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-     
-     
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1902317-->  <!-- average daily dietary saturated fatty acid intake per body mass during observed time interval -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_1902317">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary saturated fatty acid intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary saturated fatty acid intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass  during observed time interval denoting the average quantity of all dietary saturated fatty acids combined and contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
-     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9138906-->  <!-- average daily dietary trans fatty acid intake per body mass during observed time interval -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_9138906">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary trans fatty acid intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary trans fatty acid intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass  during observed time interval denoting the average quantity of all dietary trans fatty acids combined and contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
+             
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4148598-->  <!-- average daily dietary alpha-linolenic acid intake per body mass during observed time interval -->
 
