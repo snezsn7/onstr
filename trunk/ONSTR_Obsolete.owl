@@ -295,6 +295,361 @@
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
      </owl:Class>
      
+           
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_1592726 -->  <!-- average daily dietary macronutrient intake datum -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_1592726">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary macronutrient intake datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary macronutrient intake datum is a nutrient intake datum providing information about the average quantity of relevant macronutrient contained in all food items that have been ingested by a human patient during 24 hour (one day) time interval.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3133858 -->  <!-- average daily total dietary fat intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3133858">
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary fat intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1592726"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary fat intake is an average daily dietary macronuteint intake datum denoting the average intake of dietary fats contained in all nutritional items that have been taken by a human patient during 24 hours (one day) time interval.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_0591731 -->  <!-- average daily total dietary carbohydrate intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_0591731">
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary carbohydrate intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1592726"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary carbohydrate intake is an average daily dietary macronuteint intake datum denoting the average intake of dietary carbohydrates contained in all nutritional items that have been taken by a human patient during 24 hours (one day) time interval.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_1407818 -->  <!-- average daily total dietary protein intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_1407818">
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary protein intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1592726"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary protein intake is an average daily dietary macronuteint intake datum denoting the average intake of dietary proteins contained in all nutritional items that have been taken by a human patient during 24 hours (one day) time interval.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3106991 -->  <!-- average daily dietary amino acid intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3106991">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary amino acid intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1592726"/>  
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary amino acid intake is a average daily dietary macronutrient intake about the average quantity of dietary amino acids being observed that are contained in all nutritional items taken by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_7618297 -->  <!-- average daily dietary phenylalanine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_7618297">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary phenylalanine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary phenylalanine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid phenylalanine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Phe intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Phe intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3524127 -->  <!-- average daily dietary tyrosine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3524127">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary tyrosine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary tyrosine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid tyrosine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Tyr intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Tyr intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_4486508 -->  <!-- average daily dietary alanine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_4486508">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary alanine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary alanine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid alanine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Ala intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Ala intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6580265 -->  <!-- average daily dietary arginine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_6580265">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary arginine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary arginine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid arginine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Arg intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Arg intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+        
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_0304349 -->  <!-- average daily dietary asparagine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_0304349">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary asparagine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary asparagine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid asparagine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Asn intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Asn intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3989641 -->  <!-- average daily dietary aspartic acid intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3989641">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary aspartic acid intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary aspartic acid intake is an average daily dietary amino acid intake calculated based on the total quantity of the aspartic acid contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Asp intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Asp intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_8338845 -->  <!-- average daily dietary cysteine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_8338845">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary cysteine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary cysteine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid cysteine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Cys intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Cys intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_5426449 -->  <!-- average daily dietary glutamine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_5426449">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary glutamine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary glutamine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid glutamine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Gln intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Gln intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_0735376 -->  <!-- average daily dietary glutamic acid intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_0735376">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary glutamic acid intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary glutamic acid intake is an average daily dietary amino acid intake calculated based on the total quantity of the glutamic acid contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Glu intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Glu intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_6536320 -->  <!-- average daily dietary glycine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_6536320">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary glycine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary glycine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid glycine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Gly intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Gly intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_4612277 -->  <!-- average daily dietary isoleucine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_4612277">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary isoleucine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary isoleucine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid isoleucine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Ile intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Ile intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_0343913 -->  <!-- average daily dietary leucine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_0343913">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary leucine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary leucine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid leucine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Leu intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Leu intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_7569244 -->  <!-- average daily dietary lysine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_7569244">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary lysine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary lysine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid lysine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Lys intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Lys intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_7914513 -->  <!-- average daily dietary histidine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_7914513">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary histidine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary histidine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid histidine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary His intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day His intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_9958539 -->  <!-- average daily dietary methionine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_9958539">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary methionine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary methionine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid methionine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Met intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Met intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_7247161 -->  <!-- average daily dietary proline intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_7247161">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary proline intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary proline intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid proline contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Pro intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Pro intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+       
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_7364684 -->  <!-- average daily dietary serine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_7364684">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary serine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary serine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid serine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Ser intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Ser intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_5743014 -->  <!-- average daily dietary threonine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_5743014">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary threonine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/> 
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary threonine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid threonine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Thr intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Thr intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3313706 -->  <!-- average daily dietary tryptophan intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3313706">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary tryptophan intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/> 
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary tryptophan intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid tryptophan contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Trp intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Trp intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_6249761 -->  <!-- average daily dietary valine intake  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_6249761">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary valine intake</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3106991"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary valine intake is an average daily dietary amino acid intake calculated based on the total quantity of the amino acid valine contained in all nutritional items taken (ingested) by a human patient in one day time interval (also called &quot;one usual day&quot;).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Val intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day Val intake</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_1378039 -->  <!-- average daily dietary energy intake datum-->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_1378039">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary energy intake datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary energy intake is a dietary energy intake datum providing information about the dietary energy derived from all nutritional items combined that have been taken by a human patient during 24 hours (one day) time interval.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+        
+        
+        
+        
         
         
         
