@@ -8630,8 +8630,28 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9281587-->  <!-- percent recommended daily dietary nutrient allowance -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9281587">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended daily dietary nutrient allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;UO_0000187"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary nutrient allowance is a percent unit which denotes the quantity of the dietary nutrient that has taken by a human as a percentage of the recommended dietary nutrient allowance for that specific nutrient.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">percent recommended daily allowance</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">percent RDA</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3346730-->  <!-- percent daily dietary energy intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3346730">
+        <rdfs:label rdf:datatype="&xsd;string">percent daily dietary energy intake</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;UO_0000187"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent daily dietary energy intake is a percent unit which denotes the amount of dietary energy intake as a percentage of the total dietary energy intake.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
    
    
