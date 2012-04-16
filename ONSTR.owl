@@ -2910,15 +2910,36 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
-    
-    <!-- http://purl.obolibrary.org/obo/UO_0000163 -->		<!-- mass percentage -->
+     
+     
+    <!-- http://purl.obolibrary.org/obo/UO_0000186 -->		<!-- dimensionless unit  -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000163">
-        <rdfs:label rdf:datatype="&xsd;string">mass percentage</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;UO_0000051"/>
-        <skos:definition rdf:datatype="&xsd;string">A dimensionless concentration unit which denotes the mass of a substance in a mixture as a percentage of the mass of the entire mixture.</skos:definition>
-        <skos:altLabel rdf:datatype="&xsd;string">w/w</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">weight/weight percentage</skos:altLabel>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000186">
+        <rdfs:label rdf:datatype="&xsd;string">dimensionless unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
+        <skos:definition rdf:datatype="&xsd;string">A derived unit which is a standard measure of physical quantity consisting of only a numerical number without any units.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000190 -->  <!-- ratio -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000190">
+        <rdfs:label rdf:datatype="&xsd;string">ratio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000186"/>
+        <skos:definition rdf:datatype="&xsd;string">A dimensionless unit which denotes an amount or magnitude of one quantity relative to another.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+    </owl:Class>
+    
+    
+     <!-- http://purl.obolibrary.org/obo/UO_0000187 -->  <!-- percent -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000187">
+        <rdfs:label rdf:datatype="&xsd;string">percent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000190"/>
+        <skos:definition rdf:datatype="&xsd;string">A dimensionless ratio unit which denotes numbers as fractions of 100.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">%</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
@@ -4861,11 +4882,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-    	
-    	
-    	
-    	
+        </owl:equivalentClass>    	
         <skos:definition rdf:datatype="&xsd;string">Body mass index calculation is data transformation with the goal to calculate body mass index by dividing given body mass (weight) by squared body height (BMI=weight/height^2).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D015992</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
