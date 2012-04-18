@@ -9084,12 +9084,341 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4336452 -->  <!-- recommended dietary allowance for population age 0-to-8 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4336452">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for population age 0-to-8 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1792329"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for population age 0-to-8 years is a recommended dietary allowance datum that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy human population 0 to 8 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1983024 -->  <!-- recommended dietary allowance for infant population -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1983024">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for infant population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4336452"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for infant population is a recommended dietary allowance for population age 0-to-8 years that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy infant population 0 to 12 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3041447 -->  <!-- recommended dietary allowance for infant population age 0-to-6 months -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3041447">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for infant population age 0-to-6 months</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1983024"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for infant population age 0-to-6 months is a recommended dietary allowance for infant population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy infant population 0 to 6 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1385096 -->  <!-- recommended dietary allowance for infant population age 6-to-12 months -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1385096">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for infant population age 6-to-12 months</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1983024"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for infant population age 0-to-6 months is a recommended dietary allowance for infant population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy infant population 6 to 12 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1548265 -->  <!-- recommended dietary allowance for children population -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1548265">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for children population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4336452"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for children population is a recommended dietary allowance for population age 0-to-8 years that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy children population 1 to 8 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0586792 -->  <!-- recommended dietary allowance for children population age 1-to-3 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0586792">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for children population age 1-to-3 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1548265"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for children population age 1-to-3 years is a recommended dietary allowance for children population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy children population 1 to 3 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1590917 -->  <!-- recommended dietary allowance for children population age 4-to-8 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1590917">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for children population age 4-to-8 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1548265"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for children population age 4-to-8 years is a recommended dietary allowance for children population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy children population 4 to 8 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1568766 -->  <!-- recommended dietary allowance for population age 9 years and older -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1568766">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for population age 9 years and older</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1792329"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for population age 9 years and older is a recommended dietary allowance datum that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy human population 9 years and older.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1921252 -->  <!-- recommended dietary allowance for male population -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1921252">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for male population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1568766"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for male population is a recommended dietary allowance for population age 9 years and older that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy male population age 9 years and older.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3102193 -->  <!-- recommended dietary allowance for male population age 9-to-13 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3102193">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for male population age 9-to-13 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1921252"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for male population age 9-to-13 years is a recommended dietary allowance for male population denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy male population 9 to 13 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8487474 -->  <!-- recommended dietary allowance for male population age 14-to-18 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8487474">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for male population age 14-to-18 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1921252"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for male population age 14-to-18 years is a recommended dietary allowance for male population denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy male population 14 to 18 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4387110 -->  <!-- recommended dietary allowance for male population age 19-to-30 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4387110">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for male population age 19-to-30 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1921252"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for male population age 19-to-30 years is a recommended dietary allowance for male population denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy male population 19 to 30 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4584567 -->  <!-- recommended dietary allowance for male population age 31-to-50 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4584567">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for male population age 31-to-50 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1921252"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for male population age 31-to-50 years is a recommended dietary allowance for male population denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy male population 31 to 50 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9832619 -->  <!-- recommended dietary allowance for male population age 51-to-70 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9832619">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for male population age 51-to-70 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1921252"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for male population age 51-to-70 years is a recommended dietary allowance for male population denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy male population 51 to 70 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9158460 -->  <!-- recommended dietary allowance for male population age 70 years and older -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9158460">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for male population age 70 years and older</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1921252"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for male population age 70 years and older is a recommended dietary allowance for male population denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy male population age 70 years and older.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5274111 -->  <!-- recommended dietary allowance for female population -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5274111">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for female population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1568766"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population is a recommended dietary allowance for population age 9 years and older that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population age 9 years and older.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0088622 -->  <!-- recommended dietary allowance for female population age 9-to-13 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0088622">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for female population age 9-to-13 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 9-to-13 years is a recommended dietary allowance for female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 9 to 13 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9086760 -->  <!-- recommended dietary allowance for female population age 14-to-18 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9086760">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for female population age 14-to-18 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 14-to-18 years is a recommended dietary allowance for female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 14 to 18 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8585910 -->  <!-- recommended dietary allowance for female population age 19-to-30 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8585910">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for female population age 19-to-30 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/> 
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 19-to-30 years is a recommended dietary allowance for female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 19 to 30 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6924943 -->  <!-- recommended dietary allowance for female population age 31-to-50 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6924943">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for female population age 31-to-50 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/> 
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 31-to-50 years is a recommended dietary allowance for female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 31 to 50 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2109859 -->  <!-- recommended dietary allowance for female population age 51-to-70 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2109859">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for female population age 51-to-70 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/> 
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 51-to-70 years is a recommended dietary allowance for female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 51 to 70 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6402533 -->  <!-- recommended dietary allowance for female population age 70 years and older -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6402533">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for female population age 70 years and older</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 70 years and older is a recommended dietary allowance for female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population age 70 years and older.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9198598 -->  <!-- recommended dietary allowance for pregnant female population -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9198598">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for pregnant female population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for pregnant female population is a recommended dietary allowance for female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy pregnant female population 14 to 50 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2551520 -->  <!-- recommended dietary allowance for pregnant female population age 14-to-18 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2551520">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for pregnant female population age 14-to-18 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9198598"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for pregnant female population age 14-to-18 years is a recommended dietary allowance for pregnant female population that denotes the the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy pregnant female population 14 to 18 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1179053 -->  <!-- recommended dietary allowance for pregnant female population age 19-to-30 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1179053">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for pregnant female population age 19-to-30 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9198598"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for pregnant female population age 19-to-30 years is a recommended dietary allowance for pregnant female population that denotes the the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy pregnant female population 19 to 30 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8870732 -->  <!-- recommended dietary allowance for pregnant female population age 31-to-50 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8870732">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for pregnant female population age 31-to-50 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9198598"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for pregnant female population age 31-to-50 years is a recommended dietary allowance for pregnant female population that denotes the the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy pregnant female population 31 to 50 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9748599 -->  <!-- recommended dietary allowance for lactating female population -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9748599">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for lactating female population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for lactating female population is a recommended dietary allowance for female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of lactating healthy female population 14 to 50 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9553648 -->  <!-- recommended dietary allowance for lactating female population age 14-to-18 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9553648">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for lactating female population age 14-to-18 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9748599"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for lactating female population age 14-to-18 years is a recommended dietary allowance for lactating female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of lactating healthy female population 14 to 18 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+        
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8585910 -->  <!-- recommended dietary allowance for lactating female population age 19-to-30 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8585910">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for lactating female population age 19-to-30 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9748599"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for lactating female population age 19-to-30 years is a recommended dietary allowance for lactating female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of lactating healthy female population 19 to 30 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6924943 -->  <!-- recommended dietary allowance for lactating female population age 31-to-50 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6924943">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for lactating female population age 31-to-50 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9748599"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for lactating female population age 31-to-50 years is a recommended dietary allowance for lactating female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of lactating healthy female population 31 to 50 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
      
      
      
-   
+     
    
 <!-- Ovde -->
 
