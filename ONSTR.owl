@@ -3781,7 +3781,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Blood specimen collecting is collecting specimen from an organism where a portion of blood (venous, arterial or capillary) is collected from a human patient, organ donor or study subject by making a small puncture (or incision) in patient&apos;s skin and blood vessel followed by collecting a portion of (leaked) blood in the protocol appropriate container.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood specimen collecting is collecting specimen from an organism where a portion of blood (venous, arterial or capillary) is collected from a human patient or study subject by making a small puncture (or incision) in patient&apos;s skin and blood vessel followed by collecting a portion of (leaked) blood in the protocol appropriate container.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74UV  [RCDv3]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>        
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -3793,7 +3793,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0812331">
         <rdfs:label rdf:datatype="&xsd;string">arterial blood specimen collecting</rdfs:label>
        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>
-        <skos:definition rdf:datatype="&xsd;string">Arterial blood specimen collecting is blood specimen collecting by which a portion of arterial blood is collected from a human patient, organ donor or study subject by making a small puncture in patient&apos;s artery followed by collecting a portion of leaked arterial blood in a protocol appropriate container.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Arterial blood specimen collecting is blood specimen collecting by which a portion of arterial blood is collected from a human patient or study subject by making a small puncture in patient&apos;s artery followed by collecting a portion of leaked arterial blood in a protocol appropriate container.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74Uk</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">arterial blood sampling</skos:altLabel>
@@ -3806,7 +3806,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7267693">
         <rdfs:label rdf:datatype="&xsd;string">venous blood specimen collecting</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>  
-        <skos:definition rdf:datatype="&xsd;string">Venous blood specimen collecting is blood specimen collecting by which a portion of venous blood is collected from a human patient, organ donor or study subject by making a small puncture in a vein followed by collecting a portion of (leaked) venous blood in a protocol appropriate container.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Venous blood specimen collecting is blood specimen collecting by which a portion of venous blood is collected from a human patient or study subject by making a small puncture in a vein followed by collecting a portion of (leaked) venous blood in a protocol appropriate container.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74UW  [RCDv3]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>        
         <skos:altLabel rdf:datatype="&xsd;string">venous blood sampling</skos:altLabel>
@@ -3819,7 +3819,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1711364">
         <rdfs:label rdf:datatype="&xsd;string">capillary blood specimen collecting</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6116517"/>
-        <skos:definition rdf:datatype="&xsd;string">Capillary blood specimen collecting is blood specimen collecting by which a portion of capillary blood is collected from a human patient, organ donor or study subject by making a small puncture (or incision) in capillary blood vessels followed by collecting a portion of (leaked) capillary blood in a protocol appropriate container.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Capillary blood specimen collecting is blood specimen collecting by which a portion of capillary blood is collected from a human patient or study subject by making a small puncture (or incision) in capillary blood vessels followed by collecting a portion of (leaked) capillary blood in a protocol appropriate container.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/X74Ug  [RCDv3]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>            
         <skos:altLabel rdf:datatype="&xsd;string">capillary blood sampling</skos:altLabel>
@@ -3849,7 +3849,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4112781">
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1711364"/>
         <rdfs:label rdf:datatype="&xsd;string">finger-prick blood specimen collecting</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">Finger-prick capillary blood specimen collecting is capillary blood collecting by which a portion of capillary blood is collected from a human patient, organ donor or study subject by making a small incision with a lancet in patient&apos;s finger, followed by collecting leaked portion of capillary blood into a protocol appropriate container.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Finger-prick capillary blood specimen collecting is capillary blood collecting by which a portion of capillary blood is collected from a human patient or study subject by making a small incision with a lancet in patient&apos;s finger, followed by collecting leaked portion of capillary blood into a protocol appropriate container.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Finger_Stick</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">finger stick</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -3885,7 +3885,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Urine specimen collecting is collecting specimen from an organism whereby a portion urine is collected from a human patient, organ donor or study subject and stored in protocol appropriate container for further analysis.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Urine specimen collecting is collecting specimen from an organism whereby a portion urine is collected from a human patient or study subject and stored in protocol appropriate container for further analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/RCD/Ua1J4  [RCDv3]</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -6841,7 +6841,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1164140">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary energy intake during observed time interval datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4105817"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary energy intake during observed time interval datum is a dietary energy intake datum denoting the number of kilocalories derived from all food items ingested by a human patient during the time interval observed by a dietitian (one days, two days or three days).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary energy intake during observed time interval datum is a dietary energy intake datum denoting the average number of kilocalories derived from all food items ingested by a human patient during the time interval observed by a dietitian (one days, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -8126,17 +8126,14 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
    </owl:Class>
-     
-     
-     
-     
+       
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9038599-->  <!-- average daily dietary energy intake per body mass during observed time interval datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9038599">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary energy intake per body mass during observed time interval datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4105817"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary energy intake per body mass during observed time interval datum is a dietary energy intake datum providing information about the dietary energy value of all food items combined that have been taken by a patient during observed time period  (one day, two days or three days) with respect to the body mass of the the human patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary energy intake per body mass during observed time interval datum is a dietary energy intake datum providing information about the average dietary energy derived from all food items combined that have been taken by a patient during observed time period (one day, two days or three days) with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -8587,7 +8584,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8313486">
         <rdfs:label rdf:datatype="&xsd;string">dietary intake measurement datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
-        <skos:definition rdf:datatype="&xsd;string">Dietary intake measurement datum is a scalar measurement datum providing the information about dietary energy derived from taken nutritional items or dietary nutrients that have been taken by a human patient, study subject or organ donor during the time interval relevant for dietary analysis.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Dietary intake measurement datum is a scalar measurement datum providing the information about dietary nutrients that are contained in or dietary energy derived from nutritional items a patient or study subject during observed time interval relevant for dietary analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -8598,7 +8595,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3255175">
         <rdfs:label rdf:datatype="&xsd;string">dietary nutrient intake datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8313486"/>
-        <skos:definition rdf:datatype="&xsd;string">Dietary nutrient intake datum is a dietary intake measurement datum providing the information about the quantity of observed dietary nutrients taken by a human patient, study subject or organ donor during the time interval relevant for dietary analysis.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Dietary nutrient intake datum is a dietary intake measurement datum providing the information about the quantity of observed dietary nutrients taken by a human patient or study subject during the time interval relevant for dietary analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -8609,7 +8606,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4105817">
         <rdfs:label rdf:datatype="&xsd;string">dietary energy intake datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8313486"/>
-        <skos:definition rdf:datatype="&xsd;string">Dietary energy intake datum is a dietary intake measurement datum providing the information about the quantity of dietary energy derived from all nutritional items taken by a human patient, study subject or organ donor during the time interval relevant for dietary analysis.</skos:definition>  
+        <skos:definition rdf:datatype="&xsd;string">Dietary energy intake datum is a dietary intake measurement datum providing the information about the quantity of dietary energy derived from all nutritional items taken by a human patient or study subject during the time interval relevant for dietary analysis.</skos:definition>  
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -8644,7 +8641,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4287288">
         <rdfs:label rdf:datatype="&xsd;string">dietary nutrient reference intake datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
-        <skos:definition rdf:datatype="&xsd;string">Dietary nutrient reference intake datum is a scalar measurement datum that is intended to be used as a recommended reference value for dietary nutrient intakes estimated to meet daily nutritional needs of different population groups.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Dietary nutrient reference intake datum is a scalar measurement datum that is intended to be used as a recommended reference value for dietary nutrient intakes established or estimated to meet daily nutritional needs of different population groups.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fnic/nal/usda.gov</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Dietary_Reference_intake</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Dietary_Reference_Intakes</rdfs:comment>        
@@ -8661,7 +8658,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1792329">
         <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4287288"/>
-        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance datum is a scalar measurement datum that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of humans in a particular age, gender or condition specific population.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance datum is a scalar measurement datum that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of humans in a particular age, gender and specific physiological status of being pregnant or lactating.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fnic/nal/usda.gov</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">RDA</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">recommended daily allowance</skos:altLabel>
@@ -8676,7 +8673,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5970451">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4287288"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement datum is a dietary nutrient reference intake datum that denotes the quantity of a dietary nutrient estimated (expected) to satisfy the nutritional requirements for that particular nutrient, of 50% of all members of an healthy human population determined based on age, gender and condition (pregnancy or lactation).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement datum is a dietary nutrient reference intake datum that denotes the quantity of a dietary nutrient estimated (expected) to satisfy the nutritional requirements for that particular nutrient, of 50% of all members of an healthy human population determined based on age, gender and specific physiological status of being pregnant or lactating.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fnic/nal/usda.gov</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Dietary_Reference_intake</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">estimated average requirement</skos:altLabel>
@@ -8754,12 +8751,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4596694-->  <!-- estimated average nutrient requirement for population 0-to-8 years -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4596694-->  <!-- estimated average nutrient requirement for population age 0-to-8 years -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4596694">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for population 0-to-8 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for population age 0-to-8 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5970451"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for population 0-to-8 years is an estimated average nutrient requirement datum that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of human population of 0 to 8 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for population age 0-to-8 years is an estimated average nutrient requirement datum that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of human population of 0 to 8 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -8768,9 +8765,9 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6991523-->  <!-- estimated average nutrient requirement for population 9 years and older -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6991523">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for population 9 years and older</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for population age 9 years and older</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5970451"/> 
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for population 9 years and older is an estimated average nutrient requirement datum that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of human population of 9 years of age and older.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for population age 9 years and older is an estimated average nutrient requirement datum that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of human population of 9 years of age and older.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -8781,29 +8778,29 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8984489">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for infant population</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4596694"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for infant population is an estimated average nutrient requirement for population 0-to-8 years that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of infant population 0 to 12 months of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for infant population is an estimated average nutrient requirement for population age 0-to-8 years that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of infant population 0 to 12 months of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4280782-->  <!-- estimated average nutrient requirement for infants 0-to-6 months  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4280782-->  <!-- estimated average nutrient requirement for infants age 0-to-6 months  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4280782">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for infants 0-to-6 months</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for infants age 0-to-6 months</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8984489"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for infants 0-to-6 months is an estimated average nutrient requirement for infant population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of infant population 0 to 6 months of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for infants age 0-to-6 months is an estimated average nutrient requirement for infant population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of infant population 0 to 6 months of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3030814-->  <!-- estimated average nutrient requirement for infants 6-to-12 months  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3030814-->  <!-- estimated average nutrient requirement for infants age 6-to-12 months  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3030814">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for infants 6-to-12 months</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for infants age 6-to-12 months</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8984489"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for infants 0-to-6 months is an estimated average nutrient requirement for infant population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of infant population 6 to 12 months of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for infants age 0-to-6 months is an estimated average nutrient requirement for infant population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of infant population 6 to 12 months of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -8814,29 +8811,29 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1199665">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for children population</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4596694"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for children population is an estimated average nutrient requirement for population 0-to-8 years that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of children population 1 to 8 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for children population is an estimated average nutrient requirement for population age 0-to-8 years that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of children population 1 to 8 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5041330-->  <!-- estimated average nutrient requirement for children 1-to-3 years  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5041330-->  <!-- estimated average nutrient requirement for children age 1-to-3 years  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5041330">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for children 1-to-3 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for children age 1-to-3 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1199665"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for children 1-to-3 years is an estimated average nutrient requirement for children population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of children population 1 to 3 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for children age 1-to-3 years is an estimated average nutrient requirement for children population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of children population 1 to 3 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3967800-->  <!-- estimated average nutrient requirement for children 4-to-8 years  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3967800-->  <!-- estimated average nutrient requirement for children age 4-to-8 years  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3967800">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for children 4-to-8 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for children age 4-to-8 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1199665"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for children 4-to-8 years is an estimated average nutrient requirement for children population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of children population 4 to 8 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for children age 4-to-8 years is an estimated average nutrient requirement for children population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of children population 4 to 8 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -8847,73 +8844,73 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4662644">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for male population</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6991523"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for male population is an estimated average nutrient requirement for population 9 years and older that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of male population of 9 years of age and older.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for male population is an estimated average nutrient requirement for population age 9 years and older that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of male population of 9 years of age and older.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
    
   
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6583789-->  <!-- estimated average nutrient requirement for male population 9-to-13 years  -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6583789-->  <!-- estimated average nutrient requirement for male population age 9-to-13 years  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6583789">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for male population 9-to-13 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for male population age 9-to-13 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4662644"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for male population 9-to-13 years is an estimated average nutrient requirement for male population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of male population 9 to 13 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for male population age 9-to-13 years is an estimated average nutrient requirement for male population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of male population age 9 to 13 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
    
    
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7321172-->  <!-- estimated average nutrient requirement for male population 14-to-18 years  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7321172-->  <!-- estimated average nutrient requirement for male population age 14-to-18 years  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7321172">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for male population 14-to-18 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for male population age 14-to-18 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4662644"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for male population 14-to-18 years is an estimated average nutrient requirement for male population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of male population 14 to 18 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for male population age 14-to-18 years is an estimated average nutrient requirement for male population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of male population 14 to 18 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3567068-->  <!-- estimated average nutrient requirement for male population 19-to-30 years  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3567068-->  <!-- estimated average nutrient requirement for male population age 19-to-30 years  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3567068">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for male population 19-to-30 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for male population age 19-to-30 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4662644"/>  
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for male population 19-to-30 years is an estimated average nutrient requirement for male population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of male population 19 to 30 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for male population age 19-to-30 years is an estimated average nutrient requirement for male population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of male population 19 to 30 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0403610-->  <!-- estimated average nutrient requirement for male population 31-to-50 years  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0403610-->  <!-- estimated average nutrient requirement for male population age 31-to-50 years  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0403610">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for male population 31-to-50 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for male population age 31-to-50 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4662644"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for male population 31-to-50 years is an estimated average nutrient requirement for male population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of male population 31 to 50 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for male population age 31-to-50 years is an estimated average nutrient requirement for male population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of male population 31 to 50 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7392505-->  <!-- estimated average nutrient requirement for male population 51-to-70 years  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7392505-->  <!-- estimated average nutrient requirement for male population age 51-to-70 years  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7392505">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for male population 51-to-70 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for male population age 51-to-70 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4662644"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for male population 51-to-70 years is an estimated average nutrient requirement for male population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of male population 51 to 70 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for male population age 51-to-70 years is an estimated average nutrient requirement for male population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of male population 51 to 70 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
          
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2159686-->  <!-- estimated average nutrient requirement for male population 70 years and older  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2159686-->  <!-- estimated average nutrient requirement for male population age 70 years and older  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2159686">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for male population 70 years and older</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for male population age 70 years and older</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4662644"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for male population 70 and older years is an estimated average nutrient requirement for male population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of male population 70 years of age and older.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for male population age 70 and older years is an estimated average nutrient requirement for male population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of male population 70 years of age and older.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -8924,73 +8921,73 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5141147">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6991523"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population is an estimated average nutrient requirement for population 9 years and older that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 9 years of age and older.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population is an estimated average nutrient requirement for population age 9 years and older that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 9 years of age and older.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
         
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7626463 -->  <!-- estimated average nutrient requirement for female population 9-to-13 years -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7626463 -->  <!-- estimated average nutrient requirement for female population age 9-to-13 years -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7626463">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population 9-to-13 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population age 9-to-13 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5141147"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population 9-to-13 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 9 to 13 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 9-to-13 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 9 to 13 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4992745 -->  <!-- estimated average nutrient requirement for female population 14-to-18 years -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4992745 -->  <!-- estimated average nutrient requirement for female population age 14-to-18 years -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4992745">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population 14-to-18 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population age 14-to-18 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5141147"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population 14-to-18 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 14 to 18 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 14-to-18 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 14 to 18 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
    
    
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6507737 -->  <!-- estimated average nutrient requirement for female population 19-to-30 years -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6507737 -->  <!-- estimated average nutrient requirement for female population age 19-to-30 years -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6507737">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population 19-to-30 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population age 19-to-30 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5141147"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population 19-to-30 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 19 to 30 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 19-to-30 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 19 to 30 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8965164 -->  <!-- estimated average nutrient requirement for female population 31-to-50 years -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8965164 -->  <!-- estimated average nutrient requirement for female population age 31-to-50 years -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8965164">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population 31-to-50 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population age 31-to-50 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5141147"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population 31-to-50 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 31 to 50 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 31-to-50 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 31 to 50 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0726216 -->  <!-- estimated average nutrient requirement for female population 51-to-70 years -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0726216 -->  <!-- estimated average nutrient requirement for female population age 51-to-70 years -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0726216">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population 51-to-70 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population age 51-to-70 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5141147"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population 51-to-70 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 51 to 70 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 51-to-70 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 51 to 70 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8752766 -->  <!-- estimated average nutrient requirement for female population 70 years and older-->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8752766 -->  <!-- estimated average nutrient requirement for female population age 70 years and older-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8752766">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population 70 years and older</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population age 70 years and older</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5141147"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population 70 years and older is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 70 years of age and older.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 70 years and older is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 70 years of age and older.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -9007,34 +9004,34 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7920062 -->  <!-- estimated average nutrient requirement for pregnant female population 14-to-18 years-->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7920062 -->  <!-- estimated average nutrient requirement for pregnant female population age 14-to-18 years-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7920062">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for pregnant female population 14-to-18 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for pregnant female population age 14-to-18 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7594857"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for pregnant female population 14-to-18 is an estimated average nutrient requirement for pregnant female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of pregnant females 14 to 18 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for pregnant female population age 14-to-18 is an estimated average nutrient requirement for pregnant female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of pregnant females 14 to 18 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7149155 -->  <!-- estimated average nutrient requirement for pregnant female population 19-to-30 years-->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7149155 -->  <!-- estimated average nutrient requirement for pregnant female population age 19-to-30 years-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7149155">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for pregnant female population 19-to-30 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for pregnant female population age 19-to-30 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7594857"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for pregnant female population 19-to-30 is an estimated average nutrient requirement for pregnant female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of pregnant females 19 to 30 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for pregnant female population age 19-to-30 is an estimated average nutrient requirement for pregnant female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of pregnant females 19 to 30 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8267476 -->  <!-- estimated average nutrient requirement for pregnant female population 31-to-50 years-->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8267476 -->  <!-- estimated average nutrient requirement for pregnant female population age 31-to-50 years-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8267476">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for pregnant female population 31-to-50 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for pregnant female population age 31-to-50 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7594857"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for pregnant female population 31-to-50 is an estimated average nutrient requirement for pregnant female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of pregnant females 31 to 50 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for pregnant female population age 31-to-50 is an estimated average nutrient requirement for pregnant female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of pregnant females 31 to 50 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -9051,34 +9048,34 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1508315 -->  <!-- estimated average nutrient requirement for lactating female population 14-to-18 years-->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1508315 -->  <!-- estimated average nutrient requirement for lactating female population age 14-to-18 years-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1508315">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for lactating female population 14-to-18 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for lactating female population age 14-to-18 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7346762"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for lactating female population 14-to-18 years is an estimated average nutrient requirement for lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of lactating females 14 to 18 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for lactating female population age 14-to-18 years is an estimated average nutrient requirement for lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of lactating females 14 to 18 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
         
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2472784 -->  <!-- estimated average nutrient requirement for lactating female population 19-to-30 years-->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2472784 -->  <!-- estimated average nutrient requirement for lactating female population age 19-to-30 years-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2472784">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for lactating female population 19-to-30 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for lactating female population age 19-to-30 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7346762"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for lactating female population 19-to-30 is an estimated average nutrient requirement for lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of lactating females 19 to 30 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for lactating female population age 19-to-30 is an estimated average nutrient requirement for lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of lactating females 19 to 30 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3179050 -->  <!-- estimated average nutrient requirement for lactating female population 31-to-50 years-->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3179050 -->  <!-- estimated average nutrient requirement for lactating female population age 31-to-50 years-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3179050">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for lactating female population 31-to-50 years</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for lactating female population age 31-to-50 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7346762"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for lactating female population 31-to-50 is an estimated average nutrient requirement for lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of lactating females 31 to 50 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for lactating female population age 31-to-50 is an estimated average nutrient requirement for lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of lactating females 31 to 50 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -9167,7 +9164,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1568766">
         <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for population age 9 years and older</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1792329"/>
-        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for population age 9 years and older is a recommended dietary allowance datum that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy human population 9 years and older.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for population age 9 years and older is a recommended dietary allowance datum that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy human population age 9 years and older.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
