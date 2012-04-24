@@ -8698,39 +8698,39 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
         
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2392336-->  <!-- nutrient intake tolerable upper level datum -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2392336-->  <!-- upper tolerable nutrient intake level datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2392336">
-        <rdfs:label rdf:datatype="&xsd;string">nutrient intake tolerable upper level datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4287288"/>
-        <skos:definition rdf:datatype="&xsd;string">Nutrient intake tolerable upper level datum is a dietary nutrient reference intake datum that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of a particular population.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level datum is a dietary nutrient reference intake datum that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of a particular population.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fnic/nal/usda.gov</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Dietary_Reference_intake</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">tolerable upper level intake datum</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">tolerable upper level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">upper tolerable intake datum</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">upper tolerable level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">UL</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">As nutrient intake above the upper tolerable level, the potential risk of adverse effects may increase. [Source: http://fnic/nal/usda.gov ]</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3314861-->  <!-- nutrient intake tolerable upper level for healthy population -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3314861-->  <!-- upper tolerable nutrient intake level for healthy population -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3314861">
-        <rdfs:label rdf:datatype="&xsd;string">nutrient intake tolerable upper level for healthy population</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for healthy population</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2392336"/>
-        <skos:definition rdf:datatype="&xsd;string">Nutrient intake tolerable upper level for healthy population is a nutrient intake tolerable upper level datum that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of a given population of healthy humans.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for healthy population is an upper tolerable nutrient intake level datum that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of a given population of healthy humans.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fnic/nal/usda.gov</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1610185-->  <!-- nutrient intake tolerable upper level population with inherited metabolic disease -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1610185-->  <!-- upper tolerable nutrient intake level for population with inherited metabolic disease -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1610185">
-        <rdfs:label rdf:datatype="&xsd;string">nutrient intake tolerable upper level population with inherited metabolic disease</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for population with inherited metabolic disease</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2392336"/>
-        <skos:definition rdf:datatype="&xsd;string">Nutrient intake tolerable upper level for population with inherited metabolic disease is a nutrient intake tolerable upper level datum that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of a given population with inherited metabolic disease.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for population with inherited metabolic disease is an upper tolerable nutrient intake level datum that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of a given population with inherited metabolic disease.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">UL for inherited metabolic disease population</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">IMD UL</skos:altLabel>
@@ -9412,11 +9412,346 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8248902 -->  <!-- adequate nutrient intake for population age 0-to-8 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8248902">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for population age 0-to-8 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3901624"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for population age 0-to-8 years is an adequate nutrient intake datum that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy population 0 to 8 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5666197 -->  <!-- adequate nutrient intake for infant population -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5666197">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for infant population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8248902"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for infant population is an adequate nutrient intake for population age 0-to-8 years that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy infant population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0551578 -->  <!-- adequate nutrient intake for infant population age 0-to-6 months-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0551578">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for infant population age 0-to-6 months</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5666197"/> 
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for infant population age 0-to-6 months is an adequate nutrient intake for infant population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy infants 0 to 6 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+         
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9153395 -->  <!-- adequate nutrient intake for infant population age 6-to-12 months-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9153395">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for infant population age 6-to-12 months</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5666197"/> 
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for infant population age 6-to-12 months is an adequate nutrient intake for infant population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy infants 6 to 12 months of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2527031 -->  <!-- adequate nutrient intake for children population-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2527031">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for children population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8248902"/> 
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for children population is an adequate nutrient intake for population age 0-to-8 years that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for population of healthy children.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+          
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9511961 -->  <!-- adequate nutrient intake for children population age 1-to-3 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9511961">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for children population age 1-to-3 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2527031"/> 
+		<skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for children population age 1-to-3 years is an adequate nutrient intake for children population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy children 1 to 3 years of age.</skos:definition>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+          
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0332601 -->  <!-- adequate nutrient intake for children population age 4-to-8 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0332601">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for children population age 4-to-8 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2527031"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for children population age 1-to-3 years is an adequate nutrient intake for children population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy children 4 to 8 years of age.</skos:definition>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6241199 -->  <!-- adequate nutrient intake for population age 9 years and older-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6241199">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for population age 9 years and older</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3901624"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for population age 9 years and older is an adequate nutrient intake datum that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy population age 9 years and older.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6691783 -->  <!-- adequate nutrient intake for male population-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6691783">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake male population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6241199"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for male population is an adequate nutrient intake for population age 9 years and older that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy male population age 9 years and older.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0966733 -->  <!-- adequate nutrient intake for male population age 9-to-13 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0966733">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake male population age 9-to-13 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6691783"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for male population age 9-to-13 years  is an adequate nutrient intake for male population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy male population 9 to 13 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6500060 -->  <!-- adequate nutrient intake for male population age 14-to-18 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6500060">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake male population age 14-to-18 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6691783"/> 
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for male population age 14-to-18 years is an adequate nutrient intake for male population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy male population 14 to 18 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1851180 -->  <!-- adequate nutrient intake for male population age 19-to-30 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1851180">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake male population age 19-to-30 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6691783"/> 
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for male population age 19-to-30 years is an adequate nutrient intake for male population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy male population 19 to 30 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2701259 -->  <!-- adequate nutrient intake for male population age 31-to-50 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2701259">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake male population age 31-to-50 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6691783"/> 
+		<skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for male population age 31-to-50 years is an adequate nutrient intake for male population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy male population 31 to 50 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5656935 -->  <!-- adequate nutrient intake for male population age 51-to-70 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5656935">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake male population age 51-to-70 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6691783"/> 
+	    <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for male population age 51-to-70 years is an adequate nutrient intake for male population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy male population 51 to 70 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2283226 -->  <!-- adequate nutrient intake for male population age 70 years and older-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2283226">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for male population age 70 years and older</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6691783"/> 
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for male population age 70 years and older  is an adequate nutrient intake for male population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy male population age 70 years and older.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2324370 -->  <!-- adequate nutrient intake for female population-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2324370">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for female population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6241199"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population is an adequate nutrient intake for population age 9 years and older that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population age 9 years and older.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0001776 -->  <!-- adequate nutrient intake for female population age 9-to-13 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0001776">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for female population age 9-to-13 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 9-to-13 years is an adequate nutrient intake for female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 9 to 13 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5174122 -->  <!-- adequate nutrient intake for female population age 14-to-18 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5174122">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for female population age 14-to-18 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 14-to-18 years is an adequate nutrient intake for female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 14 to 18 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+       
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2841476 -->  <!-- adequate nutrient intake for female population age 19-to-30 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2841476">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for female population age 19-to-30 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/> 
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 19-to-30 years is an adequate nutrient intake for female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 19 to 30 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4636346 -->  <!-- adequate nutrient intake for female population age 31-to-50 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4636346">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for female population age 31-to-50 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 31-to-50 years is an adequate nutrient intake for female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 31 to 50 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3110522 -->  <!-- adequate nutrient intake for female population age 51-to-70 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3110522">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for female population age 51-to-70 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 51-to-70 years is an adequate nutrient intake for female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 51 to 70 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+         
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7608290 -->  <!-- adequate nutrient intake for female population age 70 years and older-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7608290">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for female population age 70 years and older</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 70 years and older is an adequate nutrient intake for female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population age 70 years and older.</skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4566787 -->  <!-- adequate nutrient intake for pregnant female population-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4566787">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for pregnant female population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for pregnant female population is an adequate nutrient intake for female population that denotes the average daily intake of a nutrient based on the observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy pregnant female population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2636941 -->  <!-- adequate nutrient intake for pregnant female population age 14-to-18 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2636941">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for pregnant female population age 14-to-18 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4566787"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for pregnant female population age 14-to-18 years is an adequate nutrient intake for pregnant female population that denotes the average daily intake of a nutrient based on the observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy pregnant female population 14 to 18 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4324226 -->  <!-- adequate nutrient intake for pregnant female population age 19-to-30 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4324226">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for pregnant female population age 19-to-30 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4566787"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for pregnant female population age 19-to-30 years is an adequate nutrient intake for pregnant female population that denotes the average daily intake of a nutrient based on the observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy pregnant female population 19 to 30 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6702385 -->  <!-- adequate nutrient intake for pregnant female population age 31-to-50 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6702385">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for pregnant female population age 31-to-50 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4566787"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for pregnant female population age 31-to-50 years is an adequate nutrient intake for pregnant female population that denotes the average daily intake of a nutrient based on the observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy pregnant female population 31 to 50 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1280377 -->  <!-- adequate nutrient intake for lactating female population-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1280377">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for lactating female population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for lactating female population is an adequate nutrient intake for female population that denotes the average daily intake of a nutrient based on the observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy lactating female population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+       
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6675375 -->  <!-- adequate nutrient intake for lactating female population age 14-to-18 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6675375">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for lactating female population age 14-to-18 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1280377"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for lactating female population age 14-to-18 years is an adequate nutrient intake for lactating population that  that denotes the average daily intake of a nutrient based on the observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy lactating female population 14 to 18 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2032826 -->  <!-- adequate nutrient intake for lactating female population age 19-to-30 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2032826">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for lactating female population age 19-to-30 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1280377"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for lactating female population age 19-to-30 years is an adequate nutrient intake for lactating population that  that denotes the average daily intake of a nutrient based on the observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy lactating female population 19 to 30 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+         
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8766901 -->  <!-- adequate nutrient intake for lactating female population age 31-to-50 years-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8766901">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for lactating female population age 31-to-50 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1280377"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for lactating female population age 31-to-50 years is an adequate nutrient intake for lactating population that  that denotes the average daily intake of a nutrient based on the observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy lactating female population 31 to 50 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
      
      
-   
+     
+     
+     
+     
+     
+     
+     
+     
 <!-- Ovde -->
 
 
