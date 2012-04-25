@@ -7634,21 +7634,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary vanadium intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>    
-     
-     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1286193 -->  <!-- food item  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_1286193">
-        <rdfs:label rdf:datatype="&xsd;string">food item</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&snap;MaterialEntity"/>
-        <skos:definition rdf:datatype="&xsd;string">Food item is a material entity of either plant, animal or artificial origin containing essential body nutrients that when ingested by an organism (for purposes of nourishment or pleasure) serves to produce energy, build body tissues, stimulate growth or maintain homeostasis.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/NCIM/C0016452</rdfs:comment>  
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</rdfs:comment>      
-        <skos:altLabel rdf:datatype="&xsd;string">food</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">foodstuff</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
+     </owl:Class>        
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0193925 -->  <!-- nutrient  -->
@@ -7656,18 +7642,18 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0193925">
         <rdfs:label rdf:datatype="&xsd;string">nutrient</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&snap;MaterialEntity"/>
-        <skos:definition rdf:datatype="&xsd;string">Dietary nutrient is a material entity that is a part of a food item or a dietary supplement or a medical food ingested by an organism and used by body to produce energy, build body tissues, stimulate growth and maintain homeostasis.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutrient is a material entity that is a proper part of a nutritional item (food item, dietary supplement, medical food, special nutrition formula or parenteral nutrition solution) that is introduced into and used by body to produce energy, build body tissues, stimulate growth and maintain homeostasis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7216679 -->  <!-- macronutrient  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8083622 -->  <!-- macronutrient  -->
 
-    <owl:Class rdf:about="&ONSTR;ONSTR_7216679">
+    <owl:Class rdf:about="&ONSTR;ONSTR_8083622">
         <rdfs:label rdf:datatype="&xsd;string">macronutrient</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1286193"/>
-        <skos:definition rdf:datatype="&xsd;string">Macronutrient is a nutrient that ingested by a human large amounts and serves to produce energy and build body tissues.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0193925"/>
+        <skos:definition rdf:datatype="&xsd;string">Macronutrient is a nutrient that ingested by a human or introduced into human body in large amounts and serves to produce energy and build body tissues.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Rodwell W., S. (1989) Nutrition and diet therapy. 6th Ed. Times Mirror/Mosby College Publishing. St. Luis, MO, pp.5.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -7677,8 +7663,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7216679">
         <rdfs:label rdf:datatype="&xsd;string">micronutrient</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1286193"/>
-        <skos:definition rdf:datatype="&xsd;string">Micronutrient is a nutrient that is ingested by a human in small amounts and serves to regulate and control body processes.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0193925"/>
+        <skos:definition rdf:datatype="&xsd;string">Micronutrient is a nutrient that is ingested by a human or introduced into human body in small amounts and serves to regulate and control body processes.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Rodwell W., S. (1989) Nutrition and diet therapy. 6th Ed. Times Mirror/Mosby College Publishing. St. Luis, MO, pp.5.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -10070,6 +10056,140 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5692828 -->  <!-- nutritional item-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5692828">
+        <rdfs:label rdf:datatype="&xsd;string">nutritional item</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&snap;MaterialEntity"/>
+        <skos:definition rdf:datatype="&xsd;string">Nutritional item is a material entity that contains nutrients and may contain nondietary ingredients (fillers, artificial colors, sweeteners, flavors or binders) and that is introduced in human body enterally or parenterally. </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ods.od.nih.gov/factsheets/DietarySupplements/#3</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fda.gov/Food/DietarySupplements/ConsumerInformation/ucm110417.htm</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1286193 -->  <!-- food item  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1286193">
+        <rdfs:label rdf:datatype="&xsd;string">food item</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5692828"/>
+        <skos:definition rdf:datatype="&xsd;string">Food item is a nutritional item that is of either plant, animal or artificial origin (industrially manufactured) and taht containins nutrients and may contain other substances (artficial colors, binders, flavors etc.) that when ingested by an organism (for purposes of nourishment or pleasure) serves to produce energy, build body tissues, stimulate growth or maintain homeostasis.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/NCIM/C0016452</rdfs:comment>  
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</rdfs:comment>      
+        <skos:altLabel rdf:datatype="&xsd;string">food</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">foods</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">foodstuff</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5815166 -->  <!-- dietary supplement  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5815166">
+        <rdfs:label rdf:datatype="&xsd;string">dietary supplement</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5692828"/> 
+        <skos:definition rdf:datatype="&xsd;string">Dietary supplement is a nutritional item that is a industrial product that is intended to supplement the regular diet, contains one or more dietary nutrients or herbs or botanicals, is taken enterally in the form of a pill, capsule, caplique, softgel, gelcap, tablet, liquid or powder, and that is labeled by the manufacturer as being dietary supplement.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ods.od.nih.gov/factsheets/DietarySupplements-HealthProfessional/</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fda.gov/Food/DietarySupplements/ConsumerInformation/ucm110417.htm</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Dietary supplement are regulated by the U.S. Food and Drug Administration (FDA) as foods, but regulated differently from other foods and from drugs (medications). Whether a product is classified as a dietary supplement, conventional food or drug (medication) is based on its intended use. Most often, classification as a dietary supplement is determined by the information that the manufacturer provides on the product label or in accompanying literature, although many food and dietary supplement product labels do not include this information. [Source: http://ods.od.nih.gov/factsheets/DietarySupplements-HealthProfessional/ ]</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">The U.S. Congress defined &quot;dietary supplement&quot; in the Dietary Supplement Health and Education Act (DSHEA) of 1994, as a product taken by mouth that contains &quot;dietary ingredient&quot; intended to supplement the diet. The &quot;dietary ingredients&quot; contained in &quot;dietary supplements&quot; may include: vitamins, dietary minerals, herbs, botanicals, amino acids and substances such as enzymes, organ tissues, glandulars, metabolites and extracts or concentrates. Regardless of their form (pill, capsule, caplique, softgel, gelcap, tablet, liquid, powder or bar), DSHEA places dietary supplements in a special category under general umbrella of &quot;foods&quot;, not drugs (medications), and requires that every supplement be labeled as a dietary supplement. [Source: http://fda.gov/Food/DietarySupplements/ConsumerInformation/ucm110417.htm</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5015919 -->  <!-- medical food  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5015919">
+        <rdfs:label rdf:datatype="&xsd;string">medical food</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5692828"/> 
+        <skos:definition rdf:datatype="&xsd;string">Medical food is a nutritional item that is a pharmaceutically developed food (in the form of powder, pill or liquid) that is formulated to be consumed or administered enterally under the supervision of a physician and which is intended for the specific dietary management of a disease or condition for which distinctive nutritional requirements, based on recognized scientific principles, are established by medical evaluation.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.fda.gov/RegulatoryInformation/Legislation/FederalFoodDrugandCosmeticActFDCAct/SignificantAmendmentstotheFDCAct/OrphanDrugAct/default.htm </rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Medical foods in the U.S. are regulated and developed for &quot;rare disease or condition&quot; (i.e. orphan disease), any disease or condition that occurs so infrequently in the United States that there is no reasonable expectation that a medical food for such disease or condition will be developed without assistance under subsection (a) of the &quot;Grants for development of drugs for rare diseases and conditions&quot; of the Orphan Drug Act (ODA), enacted by the U.S. Congress in January 1983.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">special nutritional formula</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">specialized nutritional formula</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">medical foods</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">medically necessary food</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">medically necessary formula</skos:altLabel> 
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+   
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0573506 -->  <!-- low protein modified food  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0573506">
+        <rdfs:label rdf:datatype="&xsd;string">low protein modified food</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1286193"/> 
+        <skos:definition rdf:datatype="&xsd;string">Low protein modified food is a food item that is a food product specially formulated to have less than 1g of protein per serving, and is intended to be used under the direction of a physician for the dietary treatment of an inherited metabolic disease, but does not include a natural food that is naturally low in protein.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: An Act concerning coverage for foods and food products for inherited metabolic diseases and supplementing P.L.1938, c.366 (C.17:48-1 et seq.), P.L.1940, c.74 (C.17:48A-1 et seq.), P.L.1985, c.236 (C.17:48E-1 et seq.), chapter 26 of Title 17B of the New Jersey Statutes, chapter 27 of Title 17B of the New Jersey Statutes, P.L.1992, c.161 (C.17B:27A-2 et seq.), P.L.1992, c.162 (C.17B:27A-17 et seq.),P.L.1973, c.337 (C.26:2J-1 et seq.) and P.L.1961, c.49 (C.52:14-17.25 et seq.). section C.17:48A-7q C.17:48A-7q &quot;Coverage for treatment of inherited metabolic diseases by medical service corporation&quot;, retrievable at:  http://www.njleg.state.nj.us/9697/bills/pl97/338_.htm</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">low protein modified food product</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low protein modified food products</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">LPMF</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">modified low protein food</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low protein modified foods</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7534799 -->  <!-- parenteral nutrition solution  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7534799">
+        <rdfs:label rdf:datatype="&xsd;string">parenteral nutrition solution</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5692828"/>   
+        <skos:definition rdf:datatype="&xsd;string">Parenteral nutrition solution is a nutritional item in the form of a liquid that is introduced into human body intravenously or subcutaneously. The parenteral nutrition solution usually consists of physiologic saline with glucose, amino acids, electrolytes, vitamins, (and may contain medications), which are not nutritionally complete but maintain fluid and electrolyte balance. The nutrient mix is tailored to the individual needs and tolerance of the patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">parenteral nutrition formula</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">parenteral nutrition fluid</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">parenteral fluid</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">hyperalimentation formula</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">hyperalimentation solution</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3371475 -->  <!-- nutritional item administration  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3371475">
+        <rdfs:label rdf:datatype="&xsd;string">nutritional item administration</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <skos:definition rdf:datatype="&xsd;string">Nutritional item administration is a planned process with the objective of introducing nutritional item(s) into the human body.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6680350 -->  <!-- enteral nutritional item administration  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6680350">
+        <rdfs:label rdf:datatype="&xsd;string">enteral nutritional item administration</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3371475"/>
+        <skos:definition rdf:datatype="&xsd;string">Enteral nutritional item administration is a nutritional item administration where nutritional item is introduced into the human gastrointestinal (GI) tract, through oral cavity (by mouth) or by usage of gastric or nasogastric or jejunostomy tube.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D004750</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Human_gastrointestinal_tract</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">enteral nutrition</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">enteral route</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">enteral nutrient administration</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1552413 -->  <!-- parenteral nutritional item administration  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1552413">
+        <rdfs:label rdf:datatype="&xsd;string">parenteral nutritional item administration</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3371475"/>
+        <skos:definition rdf:datatype="&xsd;string">Parenteral nutritional item administration is nutritional item administration where nutritional item is introduced into the human body intravenously, subcutanously, intramuscularly, intradermally or intrasternally.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Intravenous administration of the nutrient solution is often accomplished via a central venous catheter, usually inserted in the superior vena cava or subclavian vein. Nutrition by intravenous feeding may be total parenteral nutrition (TPN) or supplemental. [Source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition ]</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">The route of administration, constant rate of flow required, and potential patient sensitivity to the elements administered, all contribute to the potential complications of parenteral nutrition. [Source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition ]</rdfs:comment>        
+        <skos:altLabel rdf:datatype="&xsd;string">pareneteral hyperalimentation</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">parenteral nutrition</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">pareneteral nutrient administration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">parenteral route</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">hyperalimentation</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
      
      
      
