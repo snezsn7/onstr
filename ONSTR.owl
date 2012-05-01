@@ -8995,7 +8995,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7920062">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for pregnant female population age 14-to-18 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7594857"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for pregnant female population age 14-to-18 is an estimated average nutrient requirement for pregnant female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of pregnant females 14 to 18 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for pregnant female population age 14-to-18 years is an estimated average nutrient requirement for pregnant female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of pregnant females 14 to 18 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -9006,7 +9006,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7149155">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for pregnant female population age 19-to-30 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7594857"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for pregnant female population age 19-to-30 is an estimated average nutrient requirement for pregnant female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of pregnant females 19 to 30 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for pregnant female population age 19-to-30 years is an estimated average nutrient requirement for pregnant female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of pregnant females 19 to 30 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -9017,7 +9017,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8267476">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for pregnant female population age 31-to-50 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7594857"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for pregnant female population age 31-to-50 is an estimated average nutrient requirement for pregnant female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of pregnant females 31 to 50 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for pregnant female population age 31-to-50 years is an estimated average nutrient requirement for pregnant female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of pregnant females 31 to 50 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -9050,7 +9050,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2472784">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for lactating female population age 19-to-30 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7346762"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for lactating female population age 19-to-30 is an estimated average nutrient requirement for lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of lactating females 19 to 30 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for lactating female population age 19-to-30 years is an estimated average nutrient requirement for lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of lactating females 19 to 30 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -9061,7 +9061,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3179050">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for lactating female population age 31-to-50 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7346762"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for lactating female population age 31-to-50 is an estimated average nutrient requirement for lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of lactating females 31 to 50 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for lactating female population age 31-to-50 years is an estimated average nutrient requirement for lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of population of lactating females 31 to 50 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -9255,7 +9255,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9086760 -->  <!-- recommended dietary allowance for female population age 14-to-18 years -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9086760 -->  <!-- recommended dietary allowance for female population age 14-to-j18 years -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9086760">
         <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for female population age 14-to-18 years</rdfs:label>
@@ -9502,7 +9502,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0966733">
         <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake male population age 9-to-13 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6691783"/>
-        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for male population age 9-to-13 years  is an adequate nutrient intake for male population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy male population 9 to 13 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for male population age 9-to-13 years is an adequate nutrient intake for male population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy male population 9 to 13 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -9557,7 +9557,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2283226">
         <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for male population age 70 years and older</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6691783"/> 
-        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for male population age 70 years and older  is an adequate nutrient intake for male population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy male population age 70 years and older.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for male population age 70 years and older is an adequate nutrient intake for male population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy male population age 70 years and older.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -9755,7 +9755,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7675407">
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for infant population age 0-to-6 months</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2479742"/>
-        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for infant population is an upper tolerable nutrient intake level for population age 0-to-6 months that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy infant population 0 to 6 months of age.</skos:definition>  
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for infant population age 0-to-6 months is an upper tolerable nutrient intake level for infant population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy infant population 0 to 6 months of age.</skos:definition>  
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -9766,7 +9766,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7523695">
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for infant population age 6-to-12 months</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2479742"/>
-		<skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for infant population is an upper tolerable nutrient intake level for population age 6-to-12 months that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy infant population 6 to 12 months of age.</skos:definition>  
+		<skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for infant population age 6-to-12 months is an upper tolerable nutrient intake level for infant population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy infant population 6 to 12 months of age.</skos:definition>  
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -9788,7 +9788,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6437538">
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for children population age 1-to-3 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3840534"/>
-        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for children population age 1-to-3 years is an upper tolerable nutrient intake level for population age 0-to-8 years that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy children population 1 to 3 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for children population age 1-to-3 years is an upper tolerable nutrient intake level for children population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy children population 1 to 3 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -9799,7 +9799,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1732077">
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for children population age 4-to-8 years</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3840534"/>
-        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for children population age 4-to-8 years is an upper tolerable nutrient intake level for population age 0-to-8 years that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy children population 4 to 8 years of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for children population age 4-to-8 years is an upper tolerable nutrient intake level for children population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy children population 4 to 8 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -10063,19 +10063,20 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5692828">
         <rdfs:label rdf:datatype="&xsd;string">nutritional item</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&snap;MaterialEntity"/>
-        <skos:definition rdf:datatype="&xsd;string">Nutritional item is a material entity that contains nutrients and may contain nondietary ingredients (fillers, artificial colors, sweeteners, flavors or binders) and that is introduced in human body enterally or parenterally. </skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutritional item is a material entity that contains nutrients and may contain non-dietary ingredients (fillers, artificial colors, sweeteners, flavors or binders) and that is administered into the human body enterally or parenterally. </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ods.od.nih.gov/factsheets/DietarySupplements/#3</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fda.gov/Food/DietarySupplements/ConsumerInformation/ucm110417.htm</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1286193 -->  <!-- food item  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1286193">
         <rdfs:label rdf:datatype="&xsd;string">food item</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5692828"/>
-        <skos:definition rdf:datatype="&xsd;string">Food item is a nutritional item that is of either plant, animal or artificial origin (industrially manufactured) and taht containins nutrients and may contain other substances (artficial colors, binders, flavors etc.) that when ingested by an organism (for purposes of nourishment or pleasure) serves to produce energy, build body tissues, stimulate growth or maintain homeostasis.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Food item is a nutritional item that is of either plant, animal or artificial origin (industrially manufactured) and that containins nutrients and may contain other substances (artficial colors, binders, flavors etc.) that when ingested by an organism (for purposes of nourishment or pleasure) serves to produce energy, build body tissues, stimulate growth or maintain homeostasis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/NCIM/C0016452</rdfs:comment>  
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl</rdfs:comment>      
         <skos:altLabel rdf:datatype="&xsd;string">food</skos:altLabel>
@@ -10148,48 +10149,47 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3371475 -->  <!-- nutritional item administration  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3371475 -->  <!-- material entity administration into the organism  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3371475">
-        <rdfs:label rdf:datatype="&xsd;string">nutritional item administration</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">material entity administration into the organism</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
-        <skos:definition rdf:datatype="&xsd;string">Nutritional item administration is a planned process with the objective of introducing nutritional item(s) into the human body.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Material entity administration into the organism is a planned process with the objective of introducing material item(s) into the organism.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">This class applies to nutritional items and drugs that can be self-administered (e.g. self feeding) of administered by other person or machine.</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6680350 -->  <!-- enteral nutritional item administration  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6680350 -->  <!-- enteral administration  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6680350">
-        <rdfs:label rdf:datatype="&xsd;string">enteral nutritional item administration</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">enteral administration</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3371475"/>
-        <skos:definition rdf:datatype="&xsd;string">Enteral nutritional item administration is a nutritional item administration where nutritional item is introduced into the human gastrointestinal (GI) tract, through oral cavity (by mouth) or by usage of gastric or nasogastric or jejunostomy tube.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Enteral administration is a material entity administration into the organism where material entity (nutritional item or medication) is introduced into the organism's alimentary canal (oral cavity or gastrointestinal (GI) tract).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D004750</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Human_gastrointestinal_tract</rdfs:comment>    
-        <skos:altLabel rdf:datatype="&xsd;string">enteral nutrition</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">enteral route</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">enteral nutrient administration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">enteral route of administration</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1552413 -->  <!-- parenteral nutritional item administration  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1552413 -->  <!-- parenteral administration  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1552413">
-        <rdfs:label rdf:datatype="&xsd;string">parenteral nutritional item administration</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">parenteral administration</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3371475"/>
-        <skos:definition rdf:datatype="&xsd;string">Parenteral nutritional item administration is nutritional item administration where nutritional item is introduced into the human body intravenously, subcutanously, intramuscularly, intradermally or intrasternally.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Parenteral administration is enteral administration where material entity (fluid nutritional item or medication) is introduced into the organism intravenously, subcutanously, intramuscularly, intradermally or intrasternally.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Intravenous administration of the nutrient solution is often accomplished via a central venous catheter, usually inserted in the superior vena cava or subclavian vein. Nutrition by intravenous feeding may be total parenteral nutrition (TPN) or supplemental. [Source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition ]</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">The route of administration, constant rate of flow required, and potential patient sensitivity to the elements administered, all contribute to the potential complications of parenteral nutrition. [Source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition ]</rdfs:comment>        
-        <skos:altLabel rdf:datatype="&xsd;string">pareneteral hyperalimentation</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">parenteral nutrition</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">pareneteral nutrient administration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">pareneteral route of administration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">parenteral route</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">hyperalimentation</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
+     
+     
+     
      
      
      
