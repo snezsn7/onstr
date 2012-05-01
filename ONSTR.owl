@@ -6665,6 +6665,18 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
         
+   
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5684273-->  <!-- scoop unit -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5684273">
+        <rdfs:label rdf:datatype="&xsd;string">scoop unit</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
+        <skos:definition rdf:datatype="&xsd;string">Scoop unit is a derived unit that is equal to the manufacturer specified quantity of nutritional item, drug or active ingredient.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">scoopful</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">measurment scoop</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.gov/xml/owl/EVS/Thesaurus.owl#Scoopful_Dosing_Unit</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
         
         
     
@@ -10058,6 +10070,21 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2619523 -->  <!-- upper tolerable nutrient intake level for for phenylketonuria population-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2619523">
+        <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for phenylketonuria population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1610185"/> 
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for phenylketonuria population is an upper tolerable nutrient intake level for population witgh inherited metabolic disease that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of population with phenylketonuria.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+     
+     
+     
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5692828 -->  <!-- nutritional item-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5692828">
@@ -10187,6 +10214,24 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">parenteral route</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1062304 -->  <!-- total parenteral nutrient administration  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1062304">
+        <rdfs:label rdf:datatype="&xsd;string">total parenteral nutrient administration</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1552413"/>
+        <skos:definition rdf:datatype="&xsd;string">Total parenteral nutrition is a parenteral administration where parenteral nutrition solution is introduced into the human patient intavenously.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Intravenous administration of the nutrient solution is often accomplished via a central venous catheter, usually inserted in the superior vena cava or subclavian vein. [Source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition ]</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">total pareneteral nutrition</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">total pareneteral hyperalimentation</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">TPN</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">hyperalimentation</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
      
      
      
