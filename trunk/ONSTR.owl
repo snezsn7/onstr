@@ -64,6 +64,7 @@
         <dc:creator rdf:datatype="&xsd;string">Sne&#x17E;ana Nikolic&#x0301;</dc:creator>
         <dc:subject rdf:datatype="&xsd;string">Some general thing, like keywords: ontology, neonatal screening for inborn errors of metabolism, inborn errors of metabolism, translational research, translational medicine, health care, public health</dc:subject>
         <owl:imports rdf:resource="http://www.ifomis.org/bfo/1.1"/>
+        <!-- owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/ --> <!-- BFO2 -->
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
         <owl:imports rdf:resource="http://purl.org/obo/owl/ro"/>   
         <owl:imports rdf:resource="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl"/>
@@ -1162,8 +1163,16 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+   <!-- http://purl.obolibrary.org/obo/OBI_0000047 -->  <!-- processed material
+
+    <owl:Class rdf:about="&obo;OBI_0000047">
+        <rdfs:label rdf:datatype="&xsd;string">processed material</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/ -->
      
-       
+     
+     
+     
+      
     
 <!-- END OF OBI-IAO IMPORTS -->    
 <!-- START PATO IMPORTS -->    
@@ -10079,10 +10088,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-     
-     
-     
-     
+      
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5692828 -->  <!-- nutritional item-->
@@ -10196,6 +10202,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Enteral administration is a material entity administration into the organism where material entity (nutritional item or medication) is introduced into the organism's alimentary canal (oral cavity or gastrointestinal (GI) tract).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D004750</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Human_gastrointestinal_tract</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Enteral administration (and similarly, parenteral administration) is, by implication, applicable only to the organisms that anatomically have the alimentary canal (and/or some form of gastrointestinal tract).</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">enteral route</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">enteral route of administration</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -10210,6 +10217,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Parenteral administration is enteral administration where material entity (fluid nutritional item or medication) is introduced into the organism intravenously, subcutanously, intramuscularly, intradermally or intrasternally.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">The route of administration, constant rate of flow required, and potential patient sensitivity to the elements administered, all contribute to the potential complications of parenteral nutrition. [Source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition ]</rdfs:comment>        
+        <rdfs:comment rdf:datatype="&xsd;string">Parnteral administration (and similarly, enteral administration) is, by implication, applicable only to the organisms that anatomically have the alimentary canal (and/or some form of gastrointestinal tract).</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">pareneteral route of administration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">parenteral route</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
