@@ -6,9 +6,7 @@
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
-    <!ENTITY snap "http://www.ifomis.org/bfo/1.1/snap#" >
     <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
-    <!ENTITY span "http://www.ifomis.org/bfo/1.1/span#" >
     <!ENTITY ro "http://www.obofoundry.org/ro/ro.owl#" >
     <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
@@ -28,7 +26,6 @@
 <rdf:RDF xmlns="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#"
      xml:base="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl"
      xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
-     xmlns:snap="http://www.ifomis.org/bfo/1.1/snap#"
      xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:bfo="http://www.ifomis.org/bfo/1.1#"
@@ -39,7 +36,6 @@
      xmlns:ONSTRobsolete="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:span="http://www.ifomis.org/bfo/1.1/span#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:GO="http://purl.org/obo/owl/GO#"
      xmlns:PRO="http://purl.obolibrary.org/obo/pr.owl#"
