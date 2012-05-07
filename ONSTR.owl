@@ -2,7 +2,6 @@
 
 
 <!DOCTYPE rdf:RDF [
-    <!ENTITY bfo "http://www.ifomis.org/bfo/1.1#" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
@@ -27,7 +26,6 @@
      xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
      xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:bfo="http://www.ifomis.org/bfo/1.1#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
@@ -59,7 +57,7 @@
         <dc:creator rdf:datatype="&xsd;string">Sivaram Arabandi</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sne&#x17E;ana Nikolic&#x0301;</dc:creator>
         <dc:subject rdf:datatype="&xsd;string">Some general thing, like keywords: ontology, neonatal screening for inborn errors of metabolism, inborn errors of metabolism, translational research, translational medicine, health care, public health</dc:subject>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>  <!-- BFO2 -->
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/> <!-- BFO2 stable file, or will be soon. -->
         <owl:imports rdf:resource="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl"/>
     </owl:Ontology>
     
@@ -155,7 +153,6 @@
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine hydroxylase activity</skos:altLabel>	
      	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO)</skos:editorialNote>
    </owl:Class>
-   
 
 
    <!-- http://purl.org/obo/owl/GO#GO_0008150 -->   <!-- biological_process -->
@@ -2207,7 +2204,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">chemical entity</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
             <skos:definition rdf:datatype="&xsd;string">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
        </owl:Class>
       
       
@@ -2217,7 +2214,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">molecular entity</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_24431"/>
             <skos:definition rdf:datatype="&xsd;string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2227,7 +2224,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">main group molecular entity</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
             <skos:definition rdf:datatype="&xsd;string">A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2237,7 +2234,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">p-block molecular entity</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33579"/>
             <skos:definition rdf:datatype="&xsd;string">A p-block molecular entity is a molecular entity containing one or more atoms of a p-block element.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2246,7 +2243,7 @@ people infected, then extract parasite which are then tested = observation study
   		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33582">
     		<rdfs:label rdf:datatype="&xsd;string">carbon group molecular entity</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33675"/>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2256,7 +2253,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">organic molecular entity</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33582"/>
             <skos:definition rdf:datatype="&xsd;string">Any molecular entity that contains carbon.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2266,7 +2263,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">carboxylic acid</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_50860"/>
     		<skos:definition rdf:datatype="&xsd;string">An oxoacid acid carrying at least one -C(=O)OH group and having the structure RC(=O)OH, where R is any any monovalent functional group. Carboxylic acids are the most common type of organic acid.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2276,7 +2273,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">amino acid</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33575"/>
     		<skos:definition rdf:datatype="&xsd;string">A carboxylic acid containing one or more amino groups.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2285,8 +2282,250 @@ people infected, then extract parasite which are then tested = observation study
   		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33704">
     		<rdfs:label rdf:datatype="&xsd;string">alpha amino acid</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33709"/>
-           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
+      
+     <!--AminoAcidList-->     
+      
+      
+      <!-- http://purl.obolibrary.org/obo/CHEBI_16449 -->  <!-- alanine -->
+    
+       <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16449">   
+            <rdfs:label rdf:datatype="&xsd;string">alanine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+            <skos:definition rdf:datatype="&xsd;string">An alpha-amino acid that has formula C3H7NO2.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_16977 -->  <!-- L-alanine -->
+    
+       <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16977">   
+            <rdfs:label rdf:datatype="&xsd;string">L-alanine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_16449"/>
+            <skos:definition rdf:datatype="&xsd;string">The L-enantiomer of alanine.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_29016 -->  <!-- arginine -->
+    
+       <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29016">   
+            <rdfs:label rdf:datatype="&xsd;string">arginine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/> 
+            <skos:definition rdf:datatype="&xsd;string">An alpha-amino acid that has formula C6H14N4O2.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.obolibrary.org/obo/CHEBI_16467 -->  <!-- L-arginine -->
+    
+       <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16467">   
+            <rdfs:label rdf:datatype="&xsd;string">L-arginine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_29016"/>
+            <skos:definition rdf:datatype="&xsd;string">An L-alpha-amino acid that is the L-isomer of arginine.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22653 --> <!-- asparagine -->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22653">
+            <rdfs:label rdf:datatype="&xsd;string">asparagine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+            <skos:definition rdf:datatype="&xsd;string">An alpha-amino acid that has formula C4H8N2O3.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+     
+   <!-- http://purl.obolibrary.org/obo/CHEBI_22660 --> <!-- aspartic acid -->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22660">
+            <rdfs:label rdf:datatype="&xsd;string">aspartic acid</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+    		<skos:definition rdf:datatype="&xsd;string">An alpha-amino acid that has formula C4H7NO4.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15356 --> <!-- cysteine -->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15356">
+            <rdfs:label rdf:datatype="&xsd;string">cysteine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+            <skos:definition rdf:datatype="&xsd;string">A sulfur-containing amino acid that has formula C3H7NO2S.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+    
+   <!-- http://purl.obolibrary.org/obo/CHEBI_18237 --> <!-- glutamic acid -->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18237">
+            <rdfs:label rdf:datatype="&xsd;string">glutamic acid</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>		
+            <skos:definition rdf:datatype="&xsd;string">An alpha-amino acid that has formula C5H9NO4.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+    
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28300 --> <!-- glutamine-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28300">
+            <rdfs:label rdf:datatype="&xsd;string">glutamine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+            <skos:definition rdf:datatype="&xsd;string">An alpha-amino acid that has formula C5H10N2O3.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+   <!-- http://purl.obolibrary.org/obo/CHEBI_15428 --> <!-- glycine-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15428">
+            <rdfs:label rdf:datatype="&xsd;string">glycine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+            <skos:definition rdf:datatype="&xsd;string">The simplest (and the only achiral) proteinogenic amino acid, with a hydrogen atom as its side chain.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+    
+   <!-- http://purl.obolibrary.org/obo/CHEBI_24898 --> <!-- isoleucine -->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24898">
+            <rdfs:label rdf:datatype="&xsd;string">isoleucine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>  
+            <rdfs:comment rdf:datatype="&xsd;string">No ChEBI definition, but: Isoleucine is an alpha-amino acid that has formual C6H13NO2, present in nature in one enantiomeric form (2S,3S)-2-amino-3-methylpenatanoic acid. [Source: http://en.wikipwdia.org/wiki/isoleucine</rdfs:comment>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+   <!-- http://purl.obolibrary.org/obo/CHEBI_25017 --> <!-- leucine-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25017">
+            <rdfs:label rdf:datatype="&xsd;string">leucine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/> 
+            <skos:definition rdf:datatype="&xsd;string">A branched amino acid that has formula C6H13NO2.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+   
+  <!-- http://purl.obolibrary.org/obo/CHEBI_25094 --> <!-- lysine-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25094">
+            <rdfs:label rdf:datatype="&xsd;string">lysine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>   
+            <skos:definition rdf:datatype="&xsd;string">A diamino acid that has formula C6H14N2O2.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+   <!-- http://purl.obolibrary.org/obo/CHEBI_27570 --> <!-- histidine-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27570">
+            <rdfs:label rdf:datatype="&xsd;string">histidine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/> 
+            <skos:definition rdf:datatype="&xsd;string">An imidazole that has formula C6H9N3O2.</skos:definition>
+            <rdfs:comment rdf:datatype="&xsd;string">An amino acid which is also an imidazole.</rdfs:comment>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16811 --> <!-- methionine-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16811">
+            <rdfs:label rdf:datatype="&xsd;string">methionine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/> 
+            <skos:definition rdf:datatype="&xsd;string">Suphur containing amino acid that has formula C5H11NO2S.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26271 --> <!-- proline-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16811">
+            <rdfs:label rdf:datatype="&xsd;string">proline</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/> 
+            <skos:definition rdf:datatype="&xsd;string">A pyrrolidine that has formula C5H9NO2.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+  
+   <!-- http://purl.obolibrary.org/obo/CHEBI_17822 --> <!-- serine-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17822">
+            <rdfs:label rdf:datatype="&xsd;string">serine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>    
+            <skos:definition rdf:datatype="&xsd;string">An alpha-amino acid that has a formula C3H7NO3.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+     
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17115 --> <!-- L-serine-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17115">
+            <rdfs:label rdf:datatype="&xsd;string">L-serine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_17822"/> 
+            <skos:definition rdf:datatype="&xsd;string">The L-enantiomer of serine.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38263 --> <!-- 2-amino-3-hydroxybutanoic acid-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38263">
+            <rdfs:label rdf:datatype="&xsd;string">2-amino-3-hydroxybutanoic acid</rdfs:label>
+            <rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>    
+            <skos:definition rdf:datatype="&xsd;string">An alpha-amino acid that has formula C4H9NO3.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26986 --> <!-- threonine-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26986">
+            <rdfs:label rdf:datatype="&xsd;string">threonine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_38263"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_16857 --> <!-- L-threonine-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16857">
+            <rdfs:label rdf:datatype="&xsd;string">L-threonine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_26986"/>
+            <skos:definition rdf:datatype="&xsd;string">The L-enantiomer of the naturally occuring amino acid threonine.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27897 --> <!-- tryptophan-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27897">
+            <rdfs:label rdf:datatype="&xsd;string">tryptophan</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+            <skos:definition rdf:datatype="&xsd;string">An aminoalkylindole that has formula C11H12N2O2.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16828 --> <!-- L-tryptophan-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16828">
+            <rdfs:label rdf:datatype="&xsd;string">L-tryptophan</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_27897"/>
+            <skos:definition rdf:datatype="&xsd;string">The L-enantiomer of tryptophan</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27266 --> <!-- valine-->
+
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27266">
+            <rdfs:label rdf:datatype="&xsd;string">valine</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
+            <skos:definition rdf:datatype="&xsd;string">A branched-chain amino acid that has formula C2H11NO2.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>     
       
       
       <!-- http://purl.obolibrary.org/obo/CHEBI_28044 --> <!-- phenylalanine -->
@@ -2295,9 +2534,8 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">phenylalanine</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
             <skos:definition rdf:datatype="&xsd;string">An aromatic amino acid that has formula C9H11NO2.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
-      
       
       <!-- http://purl.obolibrary.org/obo/CHEBI_17295 --> <!-- L-phenylalanine -->
       
@@ -2305,7 +2543,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">L-phenylalanine</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_28044"/>
             <skos:definition rdf:datatype="&xsd;string">The L-enantiomer of phenylalanine.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2315,7 +2553,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">tyrosine</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33704"/>
             <skos:definition rdf:datatype="&xsd;string">An amino acid in which the side chain is a para-hydroxyphenyl group.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2325,8 +2563,15 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">L-tyrosine</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_18186"/>
             <skos:definition rdf:datatype="&xsd;string">An optically active form of tyrosine having L-configuration.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
-      </owl:Class>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>    
+      
+<!--DietMinerals - molecular entities -->
+
+
+
+
+
       
        
        <!-- http://purl.obolibrary.org/obo/CHEBI_36357 --> <!-- polyatomic entity -->
@@ -2335,7 +2580,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">polyatomic entity</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
             <skos:definition rdf:datatype="&xsd;string">Any molecular entity consisting of more than one atom.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
      
@@ -2345,7 +2590,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">macromolecule</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_36357"/>
             <skos:definition rdf:datatype="&xsd;string">A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2355,7 +2600,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">biomacromolecule</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33839"/>
             <skos:definition rdf:datatype="&xsd;string">A macromolecule formed by a living organism.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2364,7 +2609,7 @@ people infected, then extract parasite which are then tested = observation study
   		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33695">
     		<rdfs:label rdf:datatype="&xsd;string">information biomacromolecule</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33694"/>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2373,7 +2618,7 @@ people infected, then extract parasite which are then tested = observation study
   		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15986">
     		<rdfs:label rdf:datatype="&xsd;string">polynucleotide</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33695"/>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2383,7 +2628,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">nucleic acid</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_15986"/>
             <skos:definition rdf:datatype="&xsd;string">A macromolecule made up of nucleotide units and hydrolyzable into certain pyrimidine or purine bases (usually adenine, cytosine, guanine, thymine, uracil), D-ribose or 2-deoxy-D-ribose and phosphoric acid.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2393,7 +2638,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">elemental molecular entity</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
             <skos:definition rdf:datatype="&xsd;string">A molecular entity all atoms of which have the same atomic number.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2403,7 +2648,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">elemental molecule</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33259"/>
             <skos:definition rdf:datatype="&xsd;string">A molecule all atoms of which have the same atomic number.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2413,7 +2658,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">dioxygen</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_25362"/>
             <skos:definition rdf:datatype="&xsd;string">An elemental molecule that has formula O2.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
    
    
@@ -2423,7 +2668,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33595">
         <rdfs:label rdf:datatype="&xsd;string">cyclic compound</rdfs:label> <!-- no def -->
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_36357"/>  <!-- polyatomic entity -->
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2433,7 +2678,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">heterocyclic compound</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_33595"/>  
         <skos:definition rdf:datatype="&xsd;string">A cyclic compound having as ring members atoms of at least two different elements.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2443,7 +2688,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">heterobicyclic compound</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_5686"/>
         <skos:definition rdf:datatype="&xsd;string">A bicyclic compound in which at least one of the rings contains at least one skeletal heteroatom.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
     </owl:Class>
       
       
@@ -2452,7 +2697,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27171">
         <rdfs:label rdf:datatype="&xsd;string">organic heterobicyclic compound</rdfs:label>  <!-- no def -->
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_33672"/>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -2461,7 +2706,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26373">
         <rdfs:label rdf:datatype="&xsd;string">pteridines</rdfs:label>  <!-- no def -->
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_27171"/>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -2470,7 +2715,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26375">
         <rdfs:label rdf:datatype="&xsd;string">pterins</rdfs:label>  <!-- no def -->
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_26373"/>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -2479,7 +2724,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22881">
         <rdfs:label rdf:datatype="&xsd;string">biopterins</rdfs:label>  <!-- no def -->
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_26375"/>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
     </owl:Class>
     
    
@@ -2491,7 +2736,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A biopterin that has formula C9H15N5O3.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">BH4</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">tetrahydrobiopterin</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -2502,7 +2747,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_15372"/>
         <skos:definition rdf:datatype="&xsd;string">A tetrahydropterin that is 2-amino-5,6,7,8-tetrahydropteridin-4(3H)-one in which a hydrogen at position 6 is substituted by a 1,2-dihydroxypropyl group (6R,1'R,2'S-enantiomer).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">&quot;Kuvan&quot; is a brand name denoting saproptering as a drug for BH4 deficiencies.</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from ChEBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
     </owl:Class>
    
   
