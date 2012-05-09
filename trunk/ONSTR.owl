@@ -2218,14 +2218,80 @@ people infected, then extract parasite which are then tested = observation study
       </owl:Class>
       
       
-        <!-- http://purl.obolibrary.org/obo/CHEBI_33579 --> <!-- main group molecular entity -->
+     <!-- http://purl.obolibrary.org/obo/CHEBI_33579 --> <!-- main group molecular entity -->
       
   		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33579">
     		<rdfs:label rdf:datatype="&xsd;string">main group molecular entity</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
-            <skos:definition rdf:datatype="&xsd;string">A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.</skos:definition>
+            <skos:definition rdf:datatype="&xsd;string">A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, or 18 of the periodic table.</skos:definition>
             <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
+    
+        
+   <!-- http://purl.obolibrary.org/obo/CHEBI_33674 --> <!-- s-block molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33674">
+    		<rdfs:label rdf:datatype="&xsd;string">s-block molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33579"/>    
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+     
+        
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33296 --> <!-- alkali metal molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33296">
+    		<rdfs:label rdf:datatype="&xsd;string">alkali metal molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33674"/>
+             <skos:definition rdf:datatype="&xsd;string">Molecular entity containing one or more of an alkali metal.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+    
+  <!-- http://purl.obolibrary.org/obo/CHEBI_26712 --> <!-- sodium molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26712">
+    		<rdfs:label rdf:datatype="&xsd;string">sodium molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33296"/>  
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+    
+  
+  <!-- http://purl.obolibrary.org/obo/CHEBI_26217 --> <!-- potassium molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26217">
+    		<rdfs:label rdf:datatype="&xsd;string">potassium molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33296"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+   <!-- http://purl.obolibrary.org/obo/CHEBI_33299 --> <!-- alkaline earth molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33299">
+    		<rdfs:label rdf:datatype="&xsd;string">alkaline earth molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33674"/>
+            <skos:definition rdf:datatype="&xsd;string">An alkaline earth molecular entity is a molecular entity containing one or more atoms of an alkaline earth metal.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+   
+ 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22985 --> <!-- calclium molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22985">
+    		<rdfs:label rdf:datatype="&xsd;string">calclium molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33299"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+   
+   <!-- http://purl.obolibrary.org/obo/CHEBI_25108 --> <!-- magnesium molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25108">
+    		<rdfs:label rdf:datatype="&xsd;string">magnesium molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33299"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>   
+ 
       
       
        <!-- http://purl.obolibrary.org/obo/CHEBI_33675 --> <!-- p-block molecular entity -->
@@ -2238,6 +2304,51 @@ people infected, then extract parasite which are then tested = observation study
       </owl:Class>
       
       
+     <!-- http://purl.obolibrary.org/obo/CHEBI_33302 --> <!-- pnictogen molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33302">
+    		<rdfs:label rdf:datatype="&xsd;string">pnictogen molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33675"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_22632 --> <!-- arsenic molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22632">
+    		<rdfs:label rdf:datatype="&xsd;string">arsenic molecular entity</rdfs:label>  
+            <rdfs:subClassOf rdf:resource="&obo;CHEBI_33302"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_26082 --> <!-- phosphorus molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26082">
+    		<rdfs:label rdf:datatype="&xsd;string">phosphorus molecular entity</rdfs:label>  
+            <rdfs:subClassOf rdf:resource="&obo;CHEBI_33302"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_33581 --> <!-- boron group molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33581">
+    		<rdfs:label rdf:datatype="&xsd;string">boron group molecular entity</rdfs:label>  
+            <rdfs:subClassOf rdf:resource="&obo;CHEBI_33675"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+    
+     <!-- http://purl.obolibrary.org/obo/CHEBI_22916 --> <!-- boron molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22916">
+    		<rdfs:label rdf:datatype="&xsd;string">boron molecular entity</rdfs:label>  
+            <rdfs:subClassOf rdf:resource="&obo;CHEBI_33581"/>  
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+         
+      
        <!-- http://purl.obolibrary.org/obo/CHEBI_33582 --> <!-- carbon group molecular entity -->
       
   		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33582">
@@ -2245,6 +2356,236 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33675"/>
             <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_26677 --> <!-- silicon molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26677">
+    		<rdfs:label rdf:datatype="&xsd;string">silicon molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33582"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_24471 --> <!-- halogen molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24471">
+    		<rdfs:label rdf:datatype="&xsd;string">halogen molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33675"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_23117 --> <!-- chlorine molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23117">
+    		<rdfs:label rdf:datatype="&xsd;string">chlorine molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_24471"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.obolibrary.org/obo/CHEBI_24062 --> <!-- fluorine molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24062">
+    		<rdfs:label rdf:datatype="&xsd;string">fluorine molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_24471"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.obolibrary.org/obo/CHEBI_24860 --> <!-- iodine molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24860">
+    		<rdfs:label rdf:datatype="&xsd;string">iodine molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_24471"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+            
+      <!-- http://purl.obolibrary.org/obo/CHEBI_33304 --> <!-- chalcogen molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33304">
+    		<rdfs:label rdf:datatype="&xsd;string">chalcogen molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33675"/>
+            <skos:definition rdf:datatype="&xsd;string">Any p-block molecular entitiy containing a chalcogen.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.obolibrary.org/obo/CHEBI_26628 --> <!-- selenium molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26628">
+    		<rdfs:label rdf:datatype="&xsd;string">selenium molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33304"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.obolibrary.org/obo/CHEBI_26835 --> <!-- sulfur molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26835">
+    		<rdfs:label rdf:datatype="&xsd;string">sulfur molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33304"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+     
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_33497 --> <!-- transition element molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33497">
+    		<rdfs:label rdf:datatype="&xsd;string">transition element molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>   
+            <skos:definition rdf:datatype="&xsd;string">A molecular entity containing one or more atoms of a transition element.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+    
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33676 --> <!-- d-block molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33676">
+    		<rdfs:label rdf:datatype="&xsd;string">d-block molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33497"/> 
+    		<skos:definition rdf:datatype="&xsd;string">A d-block molecular entity is a molecular entity containing one or more atoms of a d-block element.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>   		
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33741 --> <!-- chromium group molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33741">
+    		<rdfs:label rdf:datatype="&xsd;string">chromium group molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33676"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_23237 --> <!-- chromium molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23237">
+    		<rdfs:label rdf:datatype="&xsd;string">chromium molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33741"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.obolibrary.org/obo/CHEBI_25370 --> <!-- molybdenum molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25370">
+    		<rdfs:label rdf:datatype="&xsd;string">molybdenum molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33741"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33745 --> <!-- copper group molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33745">
+    		<rdfs:label rdf:datatype="&xsd;string">copper group molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33676"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+  
+      <!-- http://purl.obolibrary.org/obo/CHEBI_23377 --> <!-- copper molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23377">
+    		<rdfs:label rdf:datatype="&xsd;string">copper molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33745"/>    
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.obolibrary.org/obo/CHEBI_33744 --> <!-- iron group molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33744">
+    		<rdfs:label rdf:datatype="&xsd;string">iron group molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33676"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_24873 --> <!-- iron molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24873">
+    		<rdfs:label rdf:datatype="&xsd;string">iron molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33744"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_33743 --> <!-- manganeses group molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33743">
+    		<rdfs:label rdf:datatype="&xsd;string">manganese group molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33676"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25154 --> <!-- manganese molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25154">
+    		<rdfs:label rdf:datatype="&xsd;string">manganese molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33743"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_33747 --> <!-- nickel group molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33747">
+    		<rdfs:label rdf:datatype="&xsd;string">nickel group molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33676"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33748 --> <!-- nickel molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33748">
+    		<rdfs:label rdf:datatype="&xsd;string">nickel molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33747"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33746 --> <!-- vanadium group molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33746">
+    		<rdfs:label rdf:datatype="&xsd;string">vanadium group molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33676"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27275 --> <!-- vanadium molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27275">
+    		<rdfs:label rdf:datatype="&xsd;string">vanadium molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33746"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_33673 --> <!-- zinc group molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33673">
+    		<rdfs:label rdf:datatype="&xsd;string">zinc group molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33676"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+     <!-- http://purl.obolibrary.org/obo/CHEBI_27364 --> <!-- zinc molecular entity -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27364">
+    		<rdfs:label rdf:datatype="&xsd;string">zinc molecular entity</rdfs:label>
+    		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33673"/>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
       
       
         <!-- http://purl.obolibrary.org/obo/CHEBI_50860 --> <!-- organic molecular entity -->
