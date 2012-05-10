@@ -4059,6 +4059,82 @@ people infected, then extract parasite which are then tested = observation study
 	<!--  ONSTR CLASSES  -->
 	<!--  				 -->
    
+   
+   <!-- POCETAK ovde -->
+   
+   
+   
+       <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5448898 --> <!-- hyperphenylalaninemia -->
+        
+    <owl:Class rdf:about="&ONSTR;ONSTR_5448898">
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000045"/>
+        <rdfs:label rdf:datatype="&xsd;string">hyperphenylalaninemia</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">Hyperphenylalaninemia is a disorder characterized by the concentrations of amino acid L-phelylalanine in the blood that are considered by medical experts as clinically abnormal (greater than 120 &#x3BC;mol/L or greater than 2 mg/dL).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">HPS</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">hyperPhe</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">hyperphenyalalninemias</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Physician&apos;s guide to the laboratory diagnosis of metabolic diseases. (2004) N. Blau, Duran, M. Blaskovics, M.E., Gibson, K.M. Eds. Springer Verlag, pp. 89.</rdfs:comment> 
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+	</owl:Class>
+   
+   
+       <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7546388 --> <!-- congenital hyperphenylalaninemia -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7546388">  <!-- cross that with congenital metabolic disorder -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5448898"/>
+         <!-- owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                   <rdf:Description rdf:about="&ONSTR;ONSTR_7112823"/> 
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3590764"/>  
+                            <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_0128089"/>
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5173920"/>
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                       </owl:Restriction>    
+                </owl:intersectionOf>                                 
+            </owl:Class>
+        </owl:equivalentClass -->
+        <rdfs:label rdf:datatype="&xsd;string">congenital hyperphenylalaninemia</rdfs:label>
+        <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninemia (disorder)</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninaemias</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">congenital HPA</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A congenital metabolic disorder of L-phenylalanine catabolism, characterized by the concentrations of amino acid L-phenylalanine in the blood that are considered by medical experts as clinically abnormal, and that is caused primarily by a deficiency of hepatic apoenzyme phenylalanine-4-hydrolase (PAH) or by the deficiency of one of the enzymes involved in PAH cofactor(i.e. tetrahydrobiopterin (BH4)) biosythesis (GTP cyclohydrolase 1 (GTPCH) and 6-pyruvol-tetrahydrobiopterin-syntase (PTPS)), or BH4 regeneration (dihydropteridine reductase (DHPR) and pterin carbinolamine-4alpha-dehydratase (PCD)).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Physician's guide to the laboratory diagnosis of metabolic diseases. (2004) N. Blau, Duran, M. Blaskovics, M.E., Gibson, K.M. Eds. Springer Verlag, pp. 89.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: HP:0004923</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+	</owl:Class>
+   
+   
+   
+   
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3854145 --> <!-- transient hyperphenylalaninemia -->
+        
+    <owl:Class rdf:about="&ONSTR;ONSTR_3854145">
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5448898"/>
+        <rdfs:label rdf:datatype="&xsd;string">transient hyperphenylalaninemia</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">Transient hyperphenylalaninemia is a hyperphenylalaninemia charactyerized by temporary elevation of concentration of phenylalanine (and related metabolites: phenylpyruvate, phenyllactate, phenylacetate and phenylacetylglutamine) in the blood and urine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/hyperphenylalaninemia</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+   
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2399802 --> <!-- transient neonatal hyperphenylalaninemia -->
+        
+    <owl:Class rdf:about="&ONSTR;ONSTR_2399802">
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3854145"/>
+        <rdfs:label rdf:datatype="&xsd;string">transient neonatal hyperphenylalaninemia</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">Transient neonatal hyperphenylalaninemia is transient hyperphenylalaninemia that and occurs in small-for-gestation-age neonates and that is characterized by elevated concentration of phenylalanine (and related metabolites: phenylpyruvate, phenyllactate, phenylacetate and phenylacetylglutamine) in the neonate's blood and urine, due to delayed maturation of liver cells producing enzyme phenylalnine hydroxylase.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Ogier de Baulny H., Abadie V., Feillet, F., (2007) Management of phenylketonuria and hypephenylalaninemia. The Journal of Nutrition, June 2007, vol. 137, No. 6, pp. 1561S-1563S.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+        <skos:altLabel rdf:datatype="&xsd;string">transitory neonatal hyperphenylalaninemia</skos:altLabel>
+     </owl:Class>
+   
 
 
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7112823 --> <!-- congenital metabolic disease -->
@@ -4085,40 +4161,8 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Inborn_Errors_of_Metabolism</rdfs:comment>       
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
 	</owl:Class>
-
-
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7546388 --> <!-- congenital hyperphenylalaninemia -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_7546388">
-         <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                   <rdf:Description rdf:about="&ONSTR;ONSTR_7112823"/> 
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3590764"/>  
-                            <owl:someValuesFrom>
-                            	<owl:Class>
-                                	<owl:unionOf rdf:parseType="Collection">
-                                		<rdf:Description rdf:about="&ONSTR;ONSTR_0128089"/>
-                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5173920"/>
-                                	</owl:unionOf> 
-                               </owl:Class> 	
-                            </owl:someValuesFrom>
-                       </owl:Restriction>    
-                </owl:intersectionOf>                                 
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:label rdf:datatype="&xsd;string">congenital hyperphenylalaninemia</rdfs:label>
-        <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninemia (disorder)</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninaemias</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">congenital HPA</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A congenital metabolic disorder of L-phenylalanine catabolism, characterized by the concentrations of amino acid L-phenylalanine in the blood that are considered by medical experts as clinically abnormal, and that is caused primarily by a deficiency of hepatic apoenzyme phenylalanine-4-hydrolase (PAH) or by the deficiency of one of the enzymes involved in PAH cofactor(i.e. tetrahydrobiopterin (BH4)) biosythesis (GTP cyclohydrolase 1 (GTPCH) and 6-pyruvol-tetrahydrobiopterin-syntase (PTPS)), or BH4 regeneration (dihydropteridine reductase (DHPR) and pterin carbinolamine-4alpha-dehydratase (PCD)).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Physician's guide to the laboratory diagnosis of metabolic diseases. (2004) N. Blau, Duran, M. Blaskovics, M.E., Gibson, K.M. Eds. Springer Verlag, pp. 89.</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: HP:0004923</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-	</owl:Class>
-
-
+	
+	
 
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0109406 --> <!-- phenylketonuria -->
 
@@ -10909,6 +10953,59 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7276057 -->  <!-- raw food item  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7276057">
+        <rdfs:label rdf:datatype="&xsd;string">raw food item</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1286193"/>
+        <skos:definition rdf:datatype="&xsd;string">Raw food item is a food item that is ingested by a human in it's natural form without prior thermal and/or chemical processing (cooking, steaming, backing, pasteurizing, pickling, brining etc.) by which the content and/or quantity of chemicals contained in a given food item is been altered.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">raw food</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Peeled, cut and washed fruits and vegetables are not assumed as processed food items, as removing the crust from the fruit is a kind of mechanical processing which does not alter the chemical content of given fruit or vegitable.</rdfs:comment>
+        <rdfs:example rdf:datatype="&xsd;string">Fruits and vegetables eaten fresh, not cooked; uncooked meet and eggs.</rdfs:example>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3572302 -->  <!-- processed food item  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3572302">
+        <rdfs:label rdf:datatype="&xsd;string">processed food item</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1286193"/>
+        <skos:definition rdf:datatype="&xsd;string">Processed food item is a food item that has been thermally or chemically processed or industrially created prior to being ingested by a human.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">processed food</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5880634 -->  <!-- domestically processed food item  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5880634">
+        <rdfs:label rdf:datatype="&xsd;string">domestically processed food item</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3572302"/>
+        <skos:definition rdf:datatype="&xsd;string">Domestically processed food item is a processed food item that has been created at a human household by thermal or other kind of processing (e.g. pickling, smoke drying, marinating) for purposes of immediate or later consumption.</skos:definition>
+        <skos:example rdf:datatype="&xsd;string">Home made soup, beat salad, home pickled cabbage.</skos:example>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3208726 -->  <!-- industrially processed food item  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3208726">
+        <rdfs:label rdf:datatype="&xsd;string">industrially processed food item</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3572302"/>
+        <skos:definition rdf:datatype="&xsd;string">Industrially processed food item is a processed food item that has been created by food manufacturing industry the production and quality of which has been regulated and licensed by the concerned government authority and whose contents has been specified by a manufacturer.</skos:definition>
+        <skos:example rdf:datatype="&xsd;string">Canned food products, frozen hamburger, low fat milk, corn flakes, sugar free cookies.</skos:example>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+     
     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5815166 -->  <!-- dietary supplement  -->
 
@@ -10923,20 +11020,68 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+       
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3617918 -->  <!-- nutritional formula  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3617918">
+        <rdfs:label rdf:datatype="&xsd;string">nutritional formula</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5692828"/> 
+        <skos:definition rdf:datatype="&xsd;string">Nutritional formula is a nutritional item that is a manufactured food product (usually powder) intended to be used as a source of necessary nutrients, sometimes as replacements for conventional food products, usually mixed with water or other liquid prior to ingestion.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/infant_formula</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5015919 -->  <!-- medical food  -->
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7804317 -->  <!-- infant formula  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7804317">
+        <rdfs:label rdf:datatype="&xsd;string">infant formula</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3617918"/> 
+        <skos:definition rdf:datatype="&xsd;string">Infant formula is a nutritional formula which purports to be or is represented for special dietary usage solely as food for infants by reason of its simulation of human milk or its suitability as a complete or partial substitute for human milk.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The United States Code, 2006 Edition, Supplement 4, Title 21 - Food and Drugs. Subchapter II - Definitions, Section 321 - Infant formulas, pp. 34. [Retrievable from http://gpo.gov ]</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">standard infant formula</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">infant milk formula</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">formula milk</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8707579 -->  <!-- elemental formula  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8707579">
+        <rdfs:label rdf:datatype="&xsd;string">elemental formula</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3617918"/>
+        <skos:definition rdf:datatype="&xsd;string">Elemental formula is a nutritional formula that contains individual amino acids, glucose polymers, and have low fat content (with only about 2% to 3% of calories derived from long chain triglycerides).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Makola, D., (2005) Elemental and Semi-Elemental Formulas: Are They Superior to Polymeric Formulas?  In Practical Gastroenterology, December 2005.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">elemental monomeric formula</skos:altLabel>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4929872 -->  <!-- hydrolyzed formula  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4929872">
+        <rdfs:label rdf:datatype="&xsd;string">hydrolyzed formula</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3617918"/>  
+        <skos:definition rdf:datatype="&xsd;string">Hydrolyzed formula is a nutritional formula that contains hydrolyzed proteins and ....XXXXXX</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source:  ADD!!!!</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+        
+    
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5015919 -->  <!-- metabolic formula  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5015919">
-        <rdfs:label rdf:datatype="&xsd;string">medical food</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5692828"/> 
+        <rdfs:label rdf:datatype="&xsd;string">metabolic formula</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3617918"/> 
         <skos:definition rdf:datatype="&xsd;string">Medical food is a nutritional item that is a pharmaceutically developed food (in the form of powder, pill or liquid) that is formulated to be consumed or administered enterally under the supervision of a physician and which is intended for the specific dietary management of a disease or condition for which distinctive nutritional requirements, based on recognized scientific principles, are established by medical evaluation.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.fda.gov/RegulatoryInformation/Legislation/FederalFoodDrugandCosmeticActFDCAct/SignificantAmendmentstotheFDCAct/OrphanDrugAct/default.htm </rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Medical foods in the U.S. are regulated and developed for &quot;rare disease or condition&quot; (i.e. orphan disease), any disease or condition that occurs so infrequently in the United States that there is no reasonable expectation that a medical food for such disease or condition will be developed without assistance under subsection (a) of the &quot;Grants for development of drugs for rare diseases and conditions&quot; of the Orphan Drug Act (ODA), enacted by the U.S. Congress in January 1983.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">special nutritional formula</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">specialized nutritional formula</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">medical foods</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">medically necessary food</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">medically necessary formula</skos:altLabel> 
+        <skos:altLabel rdf:datatype="&xsd;string">medical food</skos:altLabel> 
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -10944,9 +11089,9 @@ people infected, then extract parasite which are then tested = observation study
      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0573506 -->  <!-- low protein modified food  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0573506">
-        <rdfs:label rdf:datatype="&xsd;string">low protein modified food</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">modified low protein food</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1286193"/> 
-        <skos:definition rdf:datatype="&xsd;string">Low protein modified food is a food item that is a food product specially formulated to have less than 1g of protein per serving, and is intended to be used under the direction of a physician for the dietary treatment of an inherited metabolic disease, but does not include a natural food that is naturally low in protein.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Modified low protein food is a food item that is a food product specially formulated to have less than 1g of protein per serving, and is intended to be used under the direction of a physician for the dietary treatment of an inherited metabolic disease, but does not include a natural food that is naturally low in protein.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: An Act concerning coverage for foods and food products for inherited metabolic diseases and supplementing P.L.1938, c.366 (C.17:48-1 et seq.), P.L.1940, c.74 (C.17:48A-1 et seq.), P.L.1985, c.236 (C.17:48E-1 et seq.), chapter 26 of Title 17B of the New Jersey Statutes, chapter 27 of Title 17B of the New Jersey Statutes, P.L.1992, c.161 (C.17B:27A-2 et seq.), P.L.1992, c.162 (C.17B:27A-17 et seq.),P.L.1973, c.337 (C.26:2J-1 et seq.) and P.L.1961, c.49 (C.52:14-17.25 et seq.). section C.17:48A-7q C.17:48A-7q &quot;Coverage for treatment of inherited metabolic diseases by medical service corporation&quot;, retrievable at:  http://www.njleg.state.nj.us/9697/bills/pl97/338_.htm</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">low protein modified food product</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">low protein modified food products</skos:altLabel>
