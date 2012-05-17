@@ -1173,16 +1173,18 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">report</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
         <skos:definition rdf:datatype="&xsd;string">A document assembled by an author for the purpose of providing information for the audience. A report is the output of a documenting process and has the objective to be consumed by a specific audience. Topic of the report is on something that has completed. A report is not a single figure. Examples of reports are journal article, patent application, grant progress report, case report (not patient record).</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Information Artifact Ontology (IAO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://purl.obolibrary.org/obo/OBI_0000047 -->  <!-- processed material
+   <!-- http://purl.obolibrary.org/obo/OBI_0000047 -->  <!-- processed material -->
 
     <owl:Class rdf:about="&obo;OBI_0000047">
         <rdfs:label rdf:datatype="&xsd;string">processed material</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/ -->
-     
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
+        <skos:definition rdf:datatype="&xsd;string">Is a material entity that is created or changed during material processing.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Information Artifact Ontology (IAO)</skos:editorialNote>
+     </owl:Class>
     
       
     
@@ -12306,16 +12308,19 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3258876 -->  <!-- dietary fiber  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3258876">
+        <rdfs:label rdf:datatype="&xsd;string">dietary fiber</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;CHEBI_36357"/> <!-- polyatomic entity -->
+        <skos:definition rdf:datatype="&xsd;string">Dietary fiber is a molecular entity that may be contained in a food item or dietary supplement that has been ingested by a human, and that is not digestible by human gastrointestinal tract. Chemically, what is commonly called dietary fiber includes non-starch polysaccharides (e.g. cellulose or hemicellulose) and other plant and animal origin such as waxes, chitins, pectins, dextrins, inulin, lignin and oligosaccharides.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Dietary_fiber</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Commonly used name &apos;dietary fiber&apos; is actually a misnomer, since many types of so-called dietary fiber are not of fibrous texture, nor they are all chemically polysaccharides (e.g. waxes are esters). [Source: http://en.wikipedia.org/wiki/Dietary_fiber ]</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+       
      
-     
-     
-     
-     
-     
-     
-     
-     
-<!-- Ovde -->
+<!-- Kraj Ovde -->
 
 
 
