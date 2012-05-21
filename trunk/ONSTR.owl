@@ -97,7 +97,7 @@
    	    <rdfs:subClassOf rdf:resource="&obo;BFO_0000034"/>
      	<rdfs:label rdf:datatype="&xsd;string">molecular function</rdfs:label>
      	<skos:definition rdf:datatype="&xsd;string">Elemental activities, such as catalysis or binding, describing the actions of a gene product at the molecular level. A given gene product may exhibit one or more molecular functions.</skos:definition>
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from GO</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO).</skos:editorialNote>
    </owl:Class>
    
    
@@ -151,7 +151,7 @@
         <skos:altLabel rdf:datatype="&xsd;string">phenylalaninase activity</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4-hydroxylase activity</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine hydroxylase activity</skos:altLabel>	
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO)</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO).</skos:editorialNote>
    </owl:Class>
 
 
@@ -161,7 +161,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">biological_process</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&obo;BFO_0000007"/>
      	<skos:definition rdf:datatype="&xsd;string">Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.</skos:definition>
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from GO</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO).</skos:editorialNote>
    </owl:Class>
 
 
@@ -171,7 +171,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">growth</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0008150"/>
      	<skos:definition rdf:datatype="&xsd;string">The increase in size or mass of an entire organism, a part of an organism or a cell.</skos:definition>
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from GO</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO).</skos:editorialNote>
    </owl:Class>
    
    
@@ -181,7 +181,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">developmental growth</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0040007"/>
         <skos:definition rdf:datatype="&xsd;string">The increase in size or mass of an entire organism, a part of an organism or a cell, where the increase in size or mass has the specific outcome of the progression of the organism over time from one condition to another.</skos:definition>
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from GO</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO).</skos:editorialNote>
    </owl:Class>
    
    
@@ -191,7 +191,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">metabolic process</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0008150"/>
      	<skos:definition rdf:datatype="&xsd;string">The chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation.</skos:definition>
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from GO</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO).</skos:editorialNote>
    </owl:Class>
    
    
@@ -201,7 +201,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">macromolecule metabolic process</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0008152"/>
         <skos:definition rdf:datatype="&xsd;string">The chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from GO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO).</skos:editorialNote>
    </owl:Class>
    
    
@@ -232,10 +232,8 @@
      	<rdfs:subClassOf rdf:resource="&GO;GO_0032991"/>
 		<skos:definition rdf:datatype="&xsd;string">Any macromolecular complex composed of two or more polypeptide subunits, which may or may not be identical. Protein complexes may have other associated non-protein prosthetic groups, such as nucleotides, metal ions or other small molecules.</skos:definition>
     	 <skos:altLabel rdf:datatype="&xsd;string">protein-protein complex</skos:altLabel>
-    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO)</skos:editorialNote>
+    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO)</skos:editorialNote>
    </owl:Class>
-
-
 
      
 <!-- END GO IMPORTS -->      
@@ -258,7 +256,7 @@
    		<rdfs:label rdf:datatype="&xsd;string">protein</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&PRO;PR_000018263"/>
 		<skos:definition rdf:datatype="&xsd;string">An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA.</skos:definition>
-    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Protein Ontology (PR)</skos:editorialNote>
+    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Protein Ontology (PR)</skos:editorialNote>
    </owl:Class>
    
 
@@ -283,7 +281,7 @@
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4-monooxygenase</skos:altLabel>    
         <skos:altLabel rdf:datatype="&xsd;string">4-monooxygenase, phenylalanine</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine-4-hydroxylase monomer</skos:altLabel>
-    <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Protein Ontology (PR)</skos:editorialNote>
+    <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Protein Ontology (PR)</skos:editorialNote>
    </owl:Class>
 
 
@@ -298,7 +296,7 @@
       	<rdfs:subClassOf rdf:resource="&obo;BFO_0000007"/>
         <rdfs:label rdf:datatype="&xsd;string">planned process</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A processual entity that realizes a plan which is the concretization of a plan specification.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.obolibrary.org/obo/OBI_0000011</rdfs:comment>
     </owl:Class>     
       
@@ -309,7 +307,7 @@
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">analyte role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Analyte role is a role borne by a molecular entity and realized in an analyte assay which achieves the objective to measure the magnitude/concentration/amount of the analyte in the entity bearing evaluant role</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class> 
       
     <!-- http://purl.obolibrary.org/obo/OBI_0000067 -->   <!-- evaluant role -->
@@ -318,7 +316,7 @@
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">evaluant role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">a role that inheres in an entity that is realized in an assay in which data is generated about the bearer of the evaluant role</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
       
       
@@ -328,7 +326,7 @@
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">drug role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">a role borne by a molecular entity and is realized in a process of absorption by an organism  alters, or effects  (or is assumed to effect) a function(s) which inhere in an organism</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
          
       
@@ -338,7 +336,7 @@
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">investigation agent role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Investigation agent role is a role borne by a person or organization which is realized in a process that is part of an investigation in which an objective is achieved. These processes include: planning, overseeing, funding, reviewing.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
       
       
@@ -348,7 +346,7 @@
           <rdfs:subClassOf rdf:resource="&obo;OBI_0000202"/>
           <rdfs:label rdf:datatype="&xsd;string">reporting party role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">a study personnel role played by a party who reports the outcome of a study component</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
       
       
@@ -358,7 +356,7 @@
           <rdfs:subClassOf rdf:resource="&obo;OBI_0000202"/>
           <rdfs:label rdf:datatype="&xsd;string">responsible party role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">a study personnel role played by a party who is accountable for the execution of a study component and can make decisions about the conduct of the study</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
       
       
@@ -368,7 +366,7 @@
           <rdfs:subClassOf rdf:resource="&obo;OBI_0000102"/>
           <rdfs:label rdf:datatype="&xsd;string">principal investigator role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">a responsible party role played by a person responsible for the overall conduct of a study</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
       
       
@@ -378,7 +376,7 @@
           <rdfs:subClassOf rdf:resource="&obo;OBI_0000102"/>
           <rdfs:label rdf:datatype="&xsd;string">sponsor role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">a responsible party role involved with any of the following activities:  initiating, managing and funding a study</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
     
     
@@ -388,7 +386,7 @@
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">nutrient role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">a role that inheres in a material entity and is realized in the use of that material entity by an organism when it is used in that organism's metabolism and provides nourishment.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
       
       
@@ -398,7 +396,7 @@
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">patient role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">a role which inheres in a person and is realized by the process of being under the care of a physician or health care provider</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
      
      
@@ -408,7 +406,7 @@
     	  <rdfs:label rdf:datatype="&xsd;string">worker role</rdfs:label>
     	  <rdfs:subClassOf rdf:resource="&obo;OBI_0000202"/><!-- investigation agent role -->
     	  <skos:definition rdf:datatype="&xsd;string">A personnel role played by a party who executes a component of the study plan; this can occur before, during, after or outside the study timeline</skos:definition>
-		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+		  <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>	
      
      
@@ -418,7 +416,7 @@
     	 <rdfs:label rdf:datatype="&xsd;string">health care provider role</rdfs:label>
     	 <rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/><!-- worker role -->
     	 <skos:definition rdf:datatype="&xsd;string">A worker role of providing medical care either within or outside the study timeline</skos:definition>
-		 <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+		 <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>	
       
      
@@ -428,7 +426,7 @@
     	 <rdfs:label rdf:datatype="&xsd;string">pathologist role</rdfs:label>
     	 <rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/>  <!-- worker role -->
     	 <skos:definition rdf:datatype="&xsd;string">A worker role of being responsible for making the histopathology diagnoses associated with data from a study; this activity occurs outside the study timeline</skos:definition>
-		 <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+		 <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
       
       
@@ -438,7 +436,7 @@
     		<rdfs:label rdf:datatype="&xsd;string">sub-investigator role</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/><!-- worker role -->
     		<skos:definition rdf:datatype="&xsd;string">a worker role authorized to make study-related decisions and carry out tasks related to the study; this role occurs during the study timeline</skos:definition>
-			<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+			<skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
      
      
@@ -448,7 +446,7 @@
     	  <rdfs:label rdf:datatype="&xsd;string">trial statistician role</rdfs:label>
     	  <rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/> <!-- worker role -->
     	  <skos:definition rdf:datatype="&xsd;string">a worker role that analyzes data obtained during a trial or study; this role occurs after the trial or study is completed or terminated.</skos:definition>
-		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+		  <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
       
       
@@ -459,7 +457,7 @@
     	  <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
     	  <skos:definition rdf:datatype="&xsd;string">pathogen role is a role which inheres in an organism and realized in the process of disease course in the organism bearing host role caused by the organism bearing pathogen role</skos:definition>
     	  <skos:example rdf:datatype="&xsd;string">Pathogen: An agent of disease. A disease producer. The term pathogen most commonly is used to refer to infectious organisms. These include bacteria (such as staph), viruses (such as HIV), and fungi (such as yeast). Less commonly, pathogen refers to a noninfectious agent of disease such as a chemical.   http://www.medterms.com/script/main/art.asp?articlekey=6383</skos:example>
-		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+		  <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
       
       
@@ -469,7 +467,7 @@
            <rdfs:label rdf:datatype="&xsd;string">solute role</rdfs:label>
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
            <skos:definition rdf:datatype="&xsd;string">solute role is a role played by a chemical entity which is dissolved by another chemical entity (the solvent) when creating a solution</skos:definition>
-		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+		  <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
       
       
@@ -479,7 +477,7 @@
            <rdfs:label rdf:datatype="&xsd;string">solvent role</rdfs:label>
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
            <skos:definition rdf:datatype="&xsd;string">solvent role is a role which inheres in a molecular entity capable of ensuring the dissolution of another chemical entity and realized by the process of solvation</skos:definition>
-     	   <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+     	   <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
       
       
@@ -489,7 +487,7 @@
            <rdfs:label rdf:datatype="&xsd;string">specimen role</rdfs:label>
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
            <skos:definition rdf:datatype="&xsd;string">A role borne by a material entity that is gained during a specimen creation process and that is realized by use of the specimen in an investigation.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
      
      
@@ -500,7 +498,7 @@
            <rdfs:subClassOf rdf:resource="&obo;OBI_0000112"/>
            <skos:definition rdf:datatype="&xsd;string">A material sample role is a specimen role borne by a material entity that is the output of a material sampling process.</skos:definition>
            <skos:example rdf:datatype="&xsd;string">a role borne by a portion of blood taken to represent all the blood in an organism; the role borne by a population of humans with HIV enrolled in a study taken to represent patients with HIV in general.</skos:example>
-           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+           <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
       
       
@@ -512,7 +510,7 @@
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
            <skos:definition rdf:datatype="&xsd;string">a study population role where the bearer is a population of material entities and the role is realized in the implementation of a study design wherein the entities bearing the study population role are observed or subjected to intervention according to the study design and are biological replicates, i.e. they receive the same treatment under the protocol</skos:definition>
            <skos:example rdf:datatype="&xsd;string">The group of randomized participants that are assigned to a treatment arm of the trial</skos:example>
-           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+           <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
       
       
@@ -526,7 +524,7 @@
 Parasite example
 people infected, then extract parasite which are then tested = observation study of the parasite
 1 study in which we observe people and 1 study in which subject is parasite is one way to split this.  the true definition will come from the study design specification.</skos:example>
-           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+           <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
       
       
@@ -537,7 +535,7 @@ people infected, then extract parasite which are then tested = observation study
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
            <skos:definition rdf:datatype="&xsd;string">supernatant role is a role which inheres in a material entity and is realized by a material separation process using gravitational force in which the material bearing the supernatant role is the liquid component of the output material.</skos:definition>
            <skos:example rdf:datatype="&xsd;string">Precipitation is the formation of a solid in a solution during a chemical reaction. When the reaction occurs, the solid formed is called the precipitate, and the liquid remaining above the solid is called the supernate.  Wikipedia</skos:example>
-           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+           <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:Class>
    
    
@@ -581,7 +579,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">categorical measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
          <skos:definition rdf:datatype="&xsd;string">A measurement datum that is reported on a categorical scale</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:Class>
     
     
@@ -591,7 +589,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">handedness categorical measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;OBI_0000938"/>
          <skos:definition rdf:datatype="&xsd;string">A datum used to record the answer to a self assessment of whether a person uses their left hand, right hand primarily or each hand equally</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:Class>
     
     
@@ -601,7 +599,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">dose</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
          <skos:definition rdf:datatype="&xsd;string">A measurement datum that measures the quantity of something that may be administered to an organism or that an organism may be exposed to. Quantities of nutrients, drugs, vaccines and toxins are referred to as doses.</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:Class>
     
     
@@ -621,7 +619,7 @@ people infected, then extract parasite which are then tested = observation study
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000987">
          <rdfs:label rdf:datatype="&xsd;string">general scalar measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     	 <rdfs:comment rdf:datatype="&xsd;string">Need to keep an eye on this one, because it may be removed from OBI.</rdfs:comment>
     </owl:Class>
     
@@ -631,7 +629,7 @@ people infected, then extract parasite which are then tested = observation study
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000970">
          <rdfs:label rdf:datatype="&xsd;string">scalar score from composite inputs</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;OBI_0000987"/>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:Class>
     
     
@@ -640,7 +638,7 @@ people infected, then extract parasite which are then tested = observation study
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000991">
          <rdfs:label rdf:datatype="&xsd;string">Edinburgh score</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;OBI_0000970"/>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:Class>
     
     
@@ -680,7 +678,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">age measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000416"/>
          <skos:definition rdf:datatype="&xsd;string">A time measurement datum that is the result of measurement of age of an organism</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:Class>
     
     
@@ -710,7 +708,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">dose specification</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000033"/>
         <skos:definition rdf:datatype="&xsd;string">a directive information entity that describes the dose that will be administered to a target</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:Class>
     
     
@@ -731,7 +729,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">assay objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/>
         <skos:definition rdf:datatype="&xsd;string">is the specification of an objective to determine a specified type of information about an evaluated entity (independent continuant bearing evaluant role)</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:Class>
     
     
@@ -741,7 +739,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">analyte measurement objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000441"/>
         <skos:definition rdf:datatype="&xsd;string">Analyte measurement objective is an assay objective to determine the presence or concentration of an analyte in the evaluant</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:Class>
     
     
@@ -751,7 +749,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">biological feature identification objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/>
         <skos:definition rdf:datatype="&xsd;string">Biological feature identification objective is an objective role carried out by the proposition defining the aim of a study designed to examine or characterize a particular biological feature.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:Class>
     
     
@@ -761,7 +759,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">organism feature identification objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000015"/> 
         <skos:definition rdf:datatype="&xsd;string">Organism feature identification objective is a biological_feature_identification_objective role describing a study designed to examine or characterize a biological feature monitored at the level of the organism, e.g. height, weight, stage of development, stage of life cycle.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:Class>
     
     
@@ -771,7 +769,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">data transformation objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/>
         <skos:definition rdf:datatype="&xsd;string">A data transformation objective is an objective specification that a data transformation may have towards which the realization of that transformation is directed.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:Class>
     
     
@@ -781,7 +779,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">specimen creation objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/>
         <skos:definition rdf:datatype="&xsd;string">A specimen creation objective is to obtain a material entity for potential use as an input during an investigation</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:Class>
    
    
@@ -852,7 +850,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000009"/>
         <skos:definition rdf:datatype="&xsd;string">A label that is part of a categorical datum and that indicates the category of that datum</skos:definition>
         <skos:example rdf:datatype="&xsd;string">The labels 'positive' vs. 'negative', or 'left handed', 'right handed', 'ambidexterous', or 'strongly binding', 'weakly binding' , 'not binding', or '+++', '++', '+', '-' etc. form scales of categorical labels.</skos:example>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:Class>
     
     
@@ -881,7 +879,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
         <skos:definition rdf:datatype="&xsd;string">A material entity that has the specimen role.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
      
      
@@ -891,7 +889,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">blood specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
         <skos:definition rdf:datatype="&xsd;string">A material entity derived from a portion of blood collected from an organism.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
      
      
@@ -901,7 +899,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">urine specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
         <skos:definition rdf:datatype="&xsd;string">A portion of urine collected from an organism.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
      
      
@@ -911,7 +909,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">processed specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
         <skos:definition rdf:datatype="&xsd;string">A specimen that has been intentionally physically modified.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
      
     
@@ -921,7 +919,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">blood plasma specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/> 
         <skos:definition rdf:datatype="&xsd;string">A material entity which corresponds to the liquid component of blood, in which the blood cells are suspended.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
      
      
@@ -931,7 +929,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">blood serum specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/>  
         <skos:definition rdf:datatype="&xsd;string">A material entity which derives from blood and corresponds to blood plasma without fibrinogen or the other clotting factors.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
       
   
@@ -941,7 +939,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/> 
         <skos:definition rdf:datatype="&xsd;string">A planned process with the objective to produce information about some evaluant.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
      
      
@@ -951,7 +949,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">age measurement assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">An assay that measures the duration of temporal interval of a process that is part of the life of the bearer, where the initial time point of the measured process is the beginning of some transitional state of the bearer such as birth or when planted.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
     
     
@@ -961,7 +959,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">mass measurement assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">A process to determine the mass of an evaluant.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
     
     
@@ -971,7 +969,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">analyte assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">An assay with the objective to capture information about the presence, concentration, or amount of an analyte in an evaluant.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
     
     
@@ -981,17 +979,17 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">genotyping assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
         <skos:definition rdf:datatype="&xsd;string">An assay which generates data about a genotype from a specimen of genomic DNA. A variety of techniques and instruments can be used to produce information about sequence variation at particular genomic positions.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
     
     
     <!-- http://purl.obolibrary.org/obo/OBI_0000520" -->   <!-- clinical chemistry assay -->
      
-     <owl:Class rdf:about="http://purl.obolibrary.org/obo/0000520">
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000520">
         <rdfs:label rdf:datatype="&xsd;string">clinical chemistry assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
         <skos:definition rdf:datatype="&xsd;string">A process which uses analytical methods to produce measurements and data on the concentration of a chemical parameters (analytes) present in a bodily fluid collected from an organism.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
     
     
@@ -1001,7 +999,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">specimen creation</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <skos:definition rdf:datatype="&xsd;string">A planned process with the objective of obtaining specimen.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
     
     
@@ -1011,7 +1009,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">collecting specimen from organism</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
         <skos:definition rdf:datatype="&xsd;string">A process with the objective to obtain a material entity that was part of an organism for potential future use in an investigation.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
       
     
@@ -1021,7 +1019,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">data transformation</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/> 
         <skos:definition rdf:datatype="&xsd;string">A data transformation is a process which produces output data from input data.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
     
         
@@ -1031,7 +1029,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">longitudinal data analysis</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
         <skos:definition rdf:datatype="&xsd;string">Longitudinal analysis is a data transformation used to perform repeated observations of the same items over long periods of time.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
     
     
@@ -1041,7 +1039,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">mass spectrometry analysis</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
         <skos:definition rdf:datatype="&xsd;string">A data transformation which has the objective of spectrum analysis.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
      
      
@@ -1051,7 +1049,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">mass spectrometry assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">This is a measuring method consisting of turning elements in a sample into ions, isolating them according to the ratio between the mass and charge numbers and detecting it electrically.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
      
    
@@ -1061,7 +1059,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">metabolite profiling</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">Metabolite profiling is a process which aims at detecting and identifying chemical entities resulting from biochemical and cellular metabolism.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
      
      
@@ -1071,7 +1069,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">performing clinical assessment</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
 		<skos:definition rdf:datatype="&xsd;string">A protocol application during which a series of tests are made of a patient  leading to determination of disease state, or condition.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
      
      
@@ -1082,7 +1080,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">tandem mass spectrometry</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200085"/>
         <skos:definition rdf:datatype="&xsd;string">Tandem mass spectrometry is a data transformation that uses two or more analyzers separated by a region in which ions can be induced to fragment by transfer of energy (frequently by collision with other molecules).</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
      
      
@@ -1092,7 +1090,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">age since birth measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0001167"/>
         <skos:definition rdf:datatype="&xsd;string">An age measurement datum that is the result of the measurement of the age of an organism since birth, the process of emergence and separation of offspring from the mother.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
      </owl:Class>
      
          
@@ -1173,7 +1171,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">report</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
         <skos:definition rdf:datatype="&xsd;string">A document assembled by an author for the purpose of providing information for the audience. A report is the output of a documenting process and has the objective to be consumed by a specific audience. Topic of the report is on something that has completed. A report is not a single figure. Examples of reports are journal article, patent application, grant progress report, case report (not patient record).</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Information Artifact Ontology (IAO)</skos:editorialNote>
      </owl:Class>
      
      
@@ -1181,9 +1179,9 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&obo;OBI_0000047">
         <rdfs:label rdf:datatype="&xsd;string">processed material</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
         <skos:definition rdf:datatype="&xsd;string">Is a material entity that is created or changed during material processing.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Information Artifact Ontology (IAO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
      </owl:Class>
     
       
@@ -1199,9 +1197,9 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
         <skos:definition rdf:datatype="&xsd;string">A quality which inheres in a continuant.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">This is a monadic (not a relational) quality that inheres in a single continuant.</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Relational qualities are qualities that hold between multiple entities. Normal (monadic) qualities such as the shape of a eyeball exist purely as a quality of that eyeball. A relational quality such as sensitivity to light is a quality of that eyeball (and connecting nervous system) as it relates to incoming light waves/particles. [Comment imported from PATO.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Relational qualities are qualities that hold between multiple entities. Normal (monadic) qualities such as the shape of a eyeball exist purely as a quality of that eyeball. A relational quality such as sensitivity to light is a quality of that eyeball (and connecting nervous system) as it relates to incoming light waves/particles. [Comment imported from Phenotypic Quality Ontology (PATO)..]</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">quality of a single physical entity</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
     
@@ -1211,7 +1209,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">functionality</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001241"/>
         <skos:definition rdf:datatype="&xsd;string">A quality of a single physical entity that arises by virtue of whether the bearer exhibits the ability to perform a regular function(s).</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1221,7 +1219,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">functional</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001509"/>
         <skos:definition rdf:datatype="&xsd;string">A functionality quality held by the bearer when the latter is able to perform a regular function(s).</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1231,7 +1229,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">decreased functionality</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001510"/>
     	<skos:definition rdf:datatype="&xsd;string">A functionality quality held by the bearer when the latter exhibits decreased ability to perform a regular function(s).</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
    
     
@@ -1241,7 +1239,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">increased functionality</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001510"/>
         <skos:definition rdf:datatype="&xsd;string">A functionality quality held by the bearer when the latter exhibits increased ability to perform a regular function(s).</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1251,7 +1249,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">non-functional</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001509"/>
         <skos:definition rdf:datatype="&xsd;string">A disfunctional quality held by the bearer when the latter is unable to perform a regular function(s).</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1262,7 +1260,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001241"/>
         <skos:definition rdf:datatype="&xsd;string">A quality which inheres in a molecular entity, a single molecule, atom, ion, radical etc.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">relational molecular quality [exact synonym in PATO]</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1273,7 +1271,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0002182"/>
         <skos:definition rdf:datatype="&xsd;string">A quality inhering in a substance by virtue of the amount of the bearer's that is mixed with another substance.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">concentration [exact synonym in PATO]</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1283,7 +1281,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">concentrated</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000033"/>
         <skos:definition rdf:datatype="&xsd;string">A concentration quality inhering in a bearer by virtue of the bearer's exhibiting concentration.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
         
     
@@ -1294,7 +1292,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001159"/>
         <skos:definition rdf:datatype="&xsd;string">A concentration which is lower relative to the normal or average.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low concentration [exact synonym in PATO]</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1305,7 +1303,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001159"/>
         <skos:definition rdf:datatype="&xsd;string">A concentration which is higher relative to the normal or average.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">high concentration [exact synonym in PATO]</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1315,7 +1313,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">catalytic (activity) concentration</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000033"/>
         <skos:definition rdf:datatype="&xsd;string">A concentration quality inhering in a bearer by virtue of the bearer's catalytic activity divided by the volume of the system.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1325,7 +1323,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">morphology</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001241"/>
         <skos:definition rdf:datatype="&xsd;string">A quality of a single physical entity inhering in the bearer by virtue of the bearer's size or shape or structure.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1335,7 +1333,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">deformed</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001241"/>
         <skos:definition rdf:datatype="&xsd;string">A morphological quality inhering in a bearer by virtue of the bearer's being distorted in form.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1345,7 +1343,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">malformed</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001617"/>
         <skos:definition rdf:datatype="&xsd;string">A morphological quality inhering in a bearer by virtue of the bearer's being distorted during formation.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1355,7 +1353,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">size</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000051"/>
         <skos:definition rdf:datatype="&xsd;string">A morphology quality inhering in a bearer by virtue of the bearer's physical magnitude.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1366,7 +1364,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000117"/>
         <skos:definition rdf:datatype="&xsd;string">A size quality inhering in an bearer by virtue of the bearer's extension in one dimension.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">1-D size [exact synonym in PATO]</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1376,7 +1374,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">length</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001708"/>
         <skos:definition rdf:datatype="&xsd;string">A 1-D extent quality which is equal to the distance between two points.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1386,7 +1384,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">perimeter</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000122"/>
         <skos:definition rdf:datatype="&xsd;string">An 1-D extent quality inhering in two-dimensional bearer by virtue of being equal to the distance around it.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1396,7 +1394,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">circumference</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001711"/>
         <skos:definition rdf:datatype="&xsd;string">An 1-D extent quality which is equal to the length of the closed curve of a circle.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1407,7 +1405,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000117"/>
         <skos:definition rdf:datatype="&xsd;string">A size quality inhering in an bearer by virtue of the bearer's extension in three dimensions.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">3-D size [exact synonym in PATO]</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1417,7 +1415,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">volume</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001710"/>
         <skos:definition rdf:datatype="&xsd;string">A 3-D extent quality inhering in a bearer by virtue of the bearer's amount of 3-dimensional space it occupies.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1428,7 +1426,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000051"/>
         <skos:definition rdf:datatype="&xsd;string">A morphology quality inhering in a bearer by virtue of the bearer's relative position, shape, arrangements and connectivity of an organism's various parts; the pattern underlying its form.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">relational structural quality [exact synonym in PATO]</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1442,7 +1440,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">content [exact synonym in PATO]</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Note: Definition for this term in PATO says &quot;a single physical entity&quot;, while in fact it should say &quot;a quality of single physical entity&quot;. This error is corrected in the definition provided in ONSTR.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">PATO examples: For example calcium composition (which may inhere in bone), haemoglobin composition (which may inhere in blood).</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1452,7 +1450,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">organismal quality</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001241"/>
         <skos:definition rdf:datatype="&xsd;string">A quality that inheres in an entire organism or part of an organism.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
     
@@ -1462,7 +1460,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">biological sex</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/>
     	<skos:definition rdf:datatype="&xsd;string">An organismal quality inhering in a bearer by virtue of the bearer's ability to undergo sexual reproduction in order to differentiate the individuals or types involved.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1471,7 +1469,7 @@ people infected, then extract parasite which are then tested = observation study
       <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001894">
     	<rdfs:label rdf:datatype="&xsd;string">phenotypic sex</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&PATO;PATO_0000047"/>   <!-- no def -->
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
     
@@ -1482,7 +1480,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">female</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001894"/>
         <skos:definition rdf:datatype="&xsd;string">A biological sex quality inhering in an individual or a population that only produces gametes that can be fertilised by male gametes.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1492,7 +1490,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">hermaphrodite</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001894"/>
         <skos:definition rdf:datatype="&xsd;string">A biological sex quality inhering in an organism or a population with both male and female sexual organs in one individual.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1502,7 +1500,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">male</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001894"/>
         <skos:definition rdf:datatype="&xsd;string">A biological sex quality inhering in an individual or a population whose sex organs contain only male gametes.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
    
@@ -1512,7 +1510,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">viability</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/>
         <skos:definition rdf:datatype="&xsd;string">An organismal quality inhering in a bearer or a population by virtue of the bearer's disposition to survive and develop normally or the number of surviving individuals in a given population.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1522,7 +1520,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">alive</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000169"/>
         <skos:definition rdf:datatype="&xsd;string">A viability quality inhering in a bearer by virtue of the bearer's condition before death.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1532,7 +1530,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">dead</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000169"/>
         <skos:definition rdf:datatype="&xsd;string">A viability quality inhering in a bearer by virtue of the cessation of the bearer's life.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1543,7 +1541,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001241"/>
         <skos:definition rdf:datatype="&xsd;string">A quality of a physical entity that exists through action of continuants at the physical level of organisation in relation to other entities.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">relational physical quality [exact synonym in PATO]</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1553,7 +1551,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">mass</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001018"/>
         <skos:definition rdf:datatype="&xsd;string">A physical quality that inheres in a bearer by virtue of the proportion of the bearer's amount of matter.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1563,7 +1561,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">odor</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001018"/>
         <skos:definition rdf:datatype="&xsd;string">A physical quality inhering in a bearer by virtue of the bearer's molecules being are aerially dispersed and perceived by an odorant receptor.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1573,7 +1571,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">odorous</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000058"/>
         <skos:definition rdf:datatype="&xsd;string">An odor quality inhering in a bearer by virtue of the bearer's having odor.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1583,7 +1581,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">time</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0001018"/>
         <skos:definition rdf:datatype="&xsd;string">A quality in which events occur in sequence.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
  
      
@@ -1593,7 +1591,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">age</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000165"/>
         <skos:definition rdf:datatype="&xsd;string">A time quality inhering in a bearer by virtue of how long the bearer has existed.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1603,7 +1601,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">chronological age</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000011"/>
         <skos:definition rdf:datatype="&xsd;string">An age quality that exists by virtue of the time (years and months) that the bearer has existed.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
     
       
@@ -1623,7 +1621,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">handedness</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000186"/>
         <skos:definition rdf:datatype="&xsd;string">A behavioral quality inhering in a bearer by virtue of the bearer's unequal distribution of fine motor skill between its left and right hands or feet.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1633,7 +1631,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">ambidextrous handedness</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0002201"/>
         <skos:definition rdf:datatype="&xsd;string">Handedness where the organism exhibits no overall dominance in the use of right or left hand or foot in the performance of tasks that require one hand or foot or a dominant hand or foot.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1643,7 +1641,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">left handedness</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0002201"/>
         <skos:definition rdf:datatype="&xsd;string">Handedness where the organism preferentially uses the left hand or foot for tasks requiring the use of a single hand or foot or a dominant hand or foot.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1653,7 +1651,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">right handedness</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0002201"/>
         <skos:definition rdf:datatype="&xsd;string">Handedness where the organism preferentially uses the right hand or foot for tasks requiring the use of a single hand or foot or a dominant hand or foot.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1663,7 +1661,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">qualitative</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/> <!-- no def -->
 		<rdfs:comment rdf:datatype="&xsd;string">This one needs to be checked from time to time, as it may be obsoleted and its children moved.</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1673,7 +1671,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">deviation (from normal)</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000068"/>
         <skos:definition rdf:datatype="&xsd;string">A quality inhering in a bearer by virtue of the whether the bearer differs from normal or average.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1683,7 +1681,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">abnormal</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000069"/>
         <skos:definition rdf:datatype="&xsd;string">A quality inhering in a bearer by virtue of the bearer's deviation from normal or average.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1693,7 +1691,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">pathological</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000460"/>
         <skos:definition rdf:datatype="&xsd;string">A quality inhering in a bearer by virtue of the bearer's being abnormal and having a destructive effect on living tissue.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1703,7 +1701,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:label rdf:datatype="&xsd;string">normal</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000068"/>
         <skos:definition rdf:datatype="&xsd;string">A quality inhering in a bearer by virtue of the bearer's exhibiting no deviation from normal or average.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from PATO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
 
    
@@ -1717,7 +1715,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
           <rdfs:label rdf:datatype="&xsd;string">Anatomical entity</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Organismal continuant entity which is enclosed by the bona fide boundary of an organism or is an attribute of its structural organization. Examples: cell, heart, head, peritoneal cavity, apex of lung, anatomical term, sagittal plane.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
      
@@ -1727,7 +1725,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Anatomical_entity"/>
           <rdfs:label rdf:datatype="&xsd;string">Physical anatomical entity</rdfs:label> 
           <skos:definition rdf:datatype="&xsd;string">Anatomical entity which has three or fewer spatial dimensions. Examples: hemoglobin molecule, mitochondrion, hepatocyte, erythrocyte, heart, head, blood, urine, peritoneal cavity, diaphragmatic surface of heart, inferior margin of liver, apex of lung</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1737,7 +1735,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Physical_anatomical_entity"/>
           <rdfs:label rdf:datatype="&xsd;string">Material anatomical entity</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Physical anatomical entity which has mass. Examples: hemoglobin molecule, mitochondrion, hepatocyte, erythrocyte, heart, head, blood, urine.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1747,7 +1745,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Material_anatomical_entity"/>
           <rdfs:label rdf:datatype="&xsd;string">Anatomical structure</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Material anatomical entity which is generated by coordinated expression of the organism's own genes that guide its morphogenesis; has inherent 3D shape; its parts are connected and spatially related to one another in patterns determined by coordinated gene expression. Examples: heart, right ventricle, mitral valve, myocardium, endothelium, lymphocyte, fibroblast, thorax, cardiovascular system, hemoglobin, T cell receptor.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1757,7 +1755,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Anatomical_structure"/>
           <rdfs:label rdf:datatype="&xsd;string">Body</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Anatomical structure which is the aggregate material substance of an individual member of a species.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
     
@@ -1766,7 +1764,7 @@ people infected, then extract parasite which are then tested = observation study
      <owl:Class rdf:about="http://purl.org/sig/fma/Body_of_vertebrate">
           <rdfs:subClassOf rdf:resource="&FMA;Body"/>
           <rdfs:label rdf:datatype="&xsd;string">Body of vertebrate</rdfs:label>  <!-- No def -->
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
     
     
@@ -1776,7 +1774,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Body_of_vertebrate"/>
           <rdfs:label rdf:datatype="&xsd;string">Human body</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Anatomical structure which is the aggregate material substance of an individual member of the human species. Examples: male human body and female human body.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1785,7 +1783,7 @@ people infected, then extract parasite which are then tested = observation study
      <owl:Class rdf:about="http://purl.org/sig/fma/Male_human_body">
           <rdfs:subClassOf rdf:resource="&FMA;Human_body"/>
           <rdfs:label rdf:datatype="&xsd;string">Male human body</rdfs:label>  <!-- No def -->
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
     
       
@@ -1794,7 +1792,7 @@ people infected, then extract parasite which are then tested = observation study
      <owl:Class rdf:about="http://purl.org/sig/fma/Female_human_body">
           <rdfs:subClassOf rdf:resource="&FMA;Human_body"/>
           <rdfs:label rdf:datatype="&xsd;string">Female human body</rdfs:label>  <!-- No def -->
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
         
       
@@ -1804,7 +1802,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Anatomical_structure"/>
           <rdfs:label rdf:datatype="&xsd;string">Organ</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Anatomical structure which has as its direct parts portions of two or more types of tissue or two or more types of cardinal organ part which constitute a maximally connected anatomical structure demarcated predominantly by a bona fide anatomical surface. Examples: femur, biceps, liver, heart, skin, tracheobronchial tree, ovary.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
      </owl:Class>
    
    
@@ -1814,7 +1812,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Organ"/>
           <rdfs:label rdf:datatype="&xsd;string">Solid organ</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Organ the unshared parts of which do not surround macroscopic anatomical spaces; only its shared parts (subdivisions of hollow tree organs) contain anatomical spaces. Examples: lung, liver, thymus, ovary, muscle (organ), meninx, superficial fascia, skin.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
      </owl:Class>
    
    
@@ -1824,7 +1822,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Solid_organ"/>
           <rdfs:label rdf:datatype="&xsd;string">Parenchymatous organ</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Solid organ which consists of parenchyma and connective tissue stroma; the stroma subdivides the parenchyma into lobes, segments, lobules, acini, or cortex and medulla. Examples: lung, liver, spleen, kidney, parathyroid gland.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1834,7 +1832,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Parenchymatous_organ"/>
           <rdfs:label rdf:datatype="&xsd;string">Corticomedulary organ</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Parenchymatous organ the stroma of which subdivides the parenchyma into cortex and medulla. Examples: thymus, spleen, ovary.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1844,7 +1842,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Corticomedulary_organ"/>
           <rdfs:label rdf:datatype="&xsd;string">Kidney</rdfs:label>
           <rdfs:comment rdf:datatype="&xsd;string">Corticomedullary organ which has as its part renal pelvis shared with and connected to ureter. Examples: There are only two, right kidney and left kidney.</rdfs:comment>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1854,7 +1852,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Parenchymatous_organ"/>
           <rdfs:label rdf:datatype="&xsd;string">Lobular organ</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Parenchymatous organ the stroma of which subdivides the parenchyma into lobes, segments, lobules and acini. Examples: lung, liver, lactiferous gland, testis.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1864,7 +1862,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Lobular_organ"/>
           <rdfs:label rdf:datatype="&xsd;string">Liver</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Lobular organ which has as its parts lobules connected to the biliary tree. Examples: There is only one liver.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1874,7 +1872,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Anatomical_structure"/>
           <rdfs:label rdf:datatype="&xsd;string">Cardinal body part</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Anatomical structure, which has as its direct parts instances of anatomical sets of organs and cardinal organ parts spatially associated with either the skull, vertebral column, or the skeleton of a limb; in their aggregate are surrounded by a part of the skin Examples: Head, body proper, right upper limb.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1884,7 +1882,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Cardinal_body_part"/>
           <rdfs:label rdf:datatype="&xsd;string">Head</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Cardinal body part, which consists of a maximal set of diverse subclasses of organ and organ part spatially associated with the skull, it is partially surrounded by skin of head. Examples: There is only one head.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1894,7 +1892,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Anatomical_structure"/>
           <rdfs:label rdf:datatype="&xsd;string">Cardinal organ part</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Anatomical structure which has as its direct parts two or more types of tissue and is continuous with one or more anatomical structures likewise constituted by two or more portions of tissues distinct from those of their complement. Examples: osteon, cortical bone, neck of femur, bronchopulmonary segment, left lobe of liver, anterior right side of heart, interventricular branch of left coronary artery, right atrium, mitral valve, head of pancreas.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
    
@@ -1904,7 +1902,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Cardinal_organ_part"/>
           <rdfs:label rdf:datatype="&xsd;string">Organ region</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Cardinal organ part which is a fiat subdivision of an organ. Examples: lingula of left lung, tail of pancreas, artery, trochanter, nodulus of semilunar valve, right side of heart, duodenum, fundus of stomach.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1914,7 +1912,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Organ_region"/>
           <rdfs:label rdf:datatype="&xsd;string">Organ segment</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Organ region with one or more anchored fiat boundaries. Examples: artery, trunk of nerve, cervical part of esophagus, pelvic part of vagina, horn of thyroid cartilage, anterior segment of eyeball.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1924,7 +1922,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Organ_segment"/>
           <rdfs:label rdf:datatype="&xsd;string">Segment of neuraxis</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Organ segment of neuraxis with one or more fixed fiat boundaries. Examples: brain, brainstem, spinal cord.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
     
     
@@ -1934,7 +1932,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Segment_of_neuraxis"/>
           <rdfs:label rdf:datatype="&xsd;string">Brain</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Segment of neuraxis that has as its parts gray matter and white matter that surround the cerebral ventricular system;  Examples: There is only one brain.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
   
    
@@ -1944,7 +1942,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Material_anatomical_entity"/>
           <rdfs:label rdf:datatype="&xsd;string">Portion of body substance</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Material anatomical entity in a gaseous, liquid, semisolid or solid state, with or without the admixture of cells and biological macromolecules; produced by anatomical structures or derived from inhaled and ingested substances that have been modified by anatomical structures. Examples: saliva, semen, cerebrospinal fluid, respiratory air, urine, feces, blood, plasma, lymph.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1954,7 +1952,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Portion_of_body_substance"/>
           <rdfs:label rdf:datatype="&xsd;string">Portion of body fluid</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Portion of body substance which has as its parts of a mixture of fluid, solutes and particles.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1964,7 +1962,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Portion_of_body_fluid"/>
           <rdfs:label rdf:datatype="&xsd;string">Portion of body fluid solution</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Portion of body fluid which consists of water and solutes.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
         
@@ -1974,7 +1972,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Portion_of_body_fluid_solution"/>
           <rdfs:label rdf:datatype="&xsd;string">Portion of urine</rdfs:label> 
           <skos:definition rdf:datatype="&xsd;string">Excretion in liquid state processed by the kidney.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1984,7 +1982,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Portion_of_body_fluid"/>
           <rdfs:label rdf:datatype="&xsd;string">Portion of body fluid suspension</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Portion of body fluid which has as its parts portion of body fuild solution and particles.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -1994,7 +1992,7 @@ people infected, then extract parasite which are then tested = observation study
           <rdfs:subClassOf rdf:resource="&FMA;Portion_of_body_fluid_suspension"/>
           <rdfs:label rdf:datatype="&xsd;string">Portion of blood</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Portion of body substance which consists of plasma and blood cells.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2003,7 +2001,7 @@ people infected, then extract parasite which are then tested = observation study
      	<owl:Class rdf:about="http://purl.org/sig/fma/Portion_of_arterial_blood">
           <rdfs:subClassOf rdf:resource="&FMA;Portion_of_blood"/>
           <rdfs:label rdf:datatype="&xsd;string">Portion of arterial blood</rdfs:label>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2012,7 +2010,7 @@ people infected, then extract parasite which are then tested = observation study
      	<owl:Class rdf:about="http://purl.org/sig/fma/Portion_of_venous_blood">
           <rdfs:subClassOf rdf:resource="&FMA;Portion_of_blood"/>
           <rdfs:label rdf:datatype="&xsd;string">Portion of venous blood</rdfs:label>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
           
       
@@ -2021,7 +2019,7 @@ people infected, then extract parasite which are then tested = observation study
      	<owl:Class rdf:about="http://purl.org/sig/fma/Portion_of_blood_in_capillary">
           <rdfs:subClassOf rdf:resource="&FMA;Portion_of_blood"/>
           <rdfs:label rdf:datatype="&xsd;string">Portion of blood in capillary</rdfs:label>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>
   
   
@@ -2030,7 +2028,7 @@ people infected, then extract parasite which are then tested = observation study
      	<owl:Class rdf:about="http://purl.org/sig/fma/Portion_of_cerebrospinal_fluid">
           <rdfs:subClassOf rdf:resource="&FMA;Portion_of_body_fluid_suspension"/>
           <rdfs:label rdf:datatype="&xsd;string">Portion of cerebrospinal fluid</rdfs:label>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from FMA</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
       </owl:Class>    
                                                        
       
@@ -2044,7 +2042,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">cell</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&FMA;Anatomical_structure"/>
     		<skos:definition rdf:datatype="&xsd;string">Anatomical structure that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2053,7 +2051,7 @@ people infected, then extract parasite which are then tested = observation study
         <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000003">
     		<rdfs:label rdf:datatype="&xsd;string">cell in vivo</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&CL;CL_0000000"/>
-           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported  Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2063,7 +2061,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">cell by organism</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&CL;CL_0000003"/>
             <skos:definition rdf:datatype="&xsd;string">A classification of cells by the organisms within which they are contained.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2072,7 +2070,7 @@ people infected, then extract parasite which are then tested = observation study
         <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000255">
     		<rdfs:label rdf:datatype="&xsd;string">eucaryotic cell</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&CL;CL_0000004"/>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2081,7 +2079,7 @@ people infected, then extract parasite which are then tested = observation study
         <owl:Class rdf:about="http://purl.org/obo/owl/CL#CL_0000548">
     		<rdfs:label rdf:datatype="&xsd;string">animal cell</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&CL;CL_0000255"/> 
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2091,7 +2089,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">epithelial cell</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&CL;CL_0000548"/>
             <skos:definition rdf:datatype="&xsd;string">A cell that is usually found in a two-dimensional sheet with a free surface. The cell has a cytoskeleton that allows for tight cell to cell contact and for cell polarity where apical part is directed towards the lumen and the basal part to the basal lamina.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2101,7 +2099,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">hepatocyte</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&CL;CL_0000066"/>
       		<skos:definition rdf:datatype="&xsd;string">The main structural component of the liver. They are specialized epithelial cells that are organized into interconnected plates called lobules. Majority of cell population of liver, polygonal in shape, arranged in plates or trabeculae between sinusoids; may have single nucleus or binucleated.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2111,7 +2109,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">kidney epithelial cell</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&CL;CL_0000066"/>
              <skos:definition rdf:datatype="&xsd;string">An epithelial cell of the kidney.</skos:definition>
-             <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+             <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2121,7 +2119,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">hematopoietic cell</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&CL;CL_0000548"/>
             <skos:definition rdf:datatype="&xsd;string">A cell of a hematopoietic lineage.</skos:definition>
-    		<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+    		<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported  Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
   
@@ -2131,7 +2129,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">blood cell</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&CL;CL_0000988"/>
             <skos:definition rdf:datatype="&xsd;string">A cell found predominately in the blood.</skos:definition>
-    		<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+    		<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported  Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2141,7 +2139,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">erythrocyte</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&CL;CL_0000081"/>
             <skos:definition rdf:datatype="&xsd;string">A red blood cell. In mammals, mature erythrocytes are biconcave disks containing hemoglobin whose function is to transport oxygen.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2151,7 +2149,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">granulocyte</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&CL;CL_0000081"/>
             <skos:definition rdf:datatype="&xsd;string">A leukocyte with abundant granules in the cytoplasm.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2161,7 +2159,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">platelet</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&CL;CL_0000081"/>
             <skos:definition rdf:datatype="&xsd;string">A non-nucleated disk-shaped cell formed by extrusion from megakaryocytes, found in the blood of all mammals, and mainly involved in blood coagulation.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2171,7 +2169,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">leukocyte</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&CL;CL_0000988"/>
             <skos:definition rdf:datatype="&xsd;string">An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2182,7 +2180,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:subClassOf rdf:resource="&CL;CL_0000738"/>
     		<skos:definition rdf:datatype="&xsd;string">A leukocyte that lacks granules.</skos:definition>
       	    <rdfs:comment rdf:datatype="&xsd;string">SN: This term has class-complement kind of label (non-xxx). It might be deprecated in later versions of CL. Need to keep an eye on this one.</rdfs:comment>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
       
       
@@ -2192,7 +2190,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:label rdf:datatype="&xsd;string">lymphocyte</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&CL;CL_0002087"/>
             <skos:definition rdf:datatype="&xsd;string">A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin.</skos:definition>
-            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from CL</skos:editorialNote>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Cell Ontology (CL).</skos:editorialNote>
       </owl:Class>
    
   
@@ -5653,9 +5651,9 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_XXXXX --> <!-- blood phenylalanine concentration finding -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0630865 --> <!-- blood phenylalanine concentration finding -->
 
-    <owl:Class rdf:about="&ONSTR;ONSTR_XXXXX">
+    <owl:Class rdf:about="&ONSTR;ONSTR_0630865">
         <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration finding</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
@@ -5674,11 +5672,11 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0114258 --> <!-- blood phenylalanine concentration test -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0114258 --> <!-- blood phenylalanine concentration measurement  assay -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0114258">
-        <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration test</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
+        <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration measurement assay</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
         <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -5686,7 +5684,7 @@ people infected, then extract parasite which are then tested = observation study
 
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1115755 --> <!-- cerebrospinal fluid phenylalanine concentration finding -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1115755 --> <!-- cerebrospinal fluid phenylalanine concentration finding -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1115755">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration finding</rdfs:label>
@@ -5707,11 +5705,11 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2219307 --> <!-- cerebrospinal fluid phenylalanine concentration test -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2219307 --> <!-- cerebrospinal fluid phenylalanine concentration measurement assay -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2219307">
-        <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration test</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
+        <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration measurement assay</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
         <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">CSF phenylalanine concentration test</skos:altLabel>    
@@ -5719,11 +5717,11 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6285423 --> <!-- plasma penylalanine concentration test-->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6285423 --> <!-- plasma phenylalanine concentration measuremet assay -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6285423">
-        <rdfs:label rdf:datatype="&xsd;string">plasma penylalanine concentration test</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
+        <rdfs:label rdf:datatype="&xsd;string">plasma phenylalanine concentration measurement assay</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
         <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -7754,7 +7752,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5875975">
         <rdfs:label rdf:datatype="&xsd;string">body mass index</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
+    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/ -->
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -7964,10 +7962,10 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
 
 
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0232327 -->  <!-- serum albumine concentration measurement datum  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0232327 -->  <!-- serum albumin concentration measurement datum  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0232327">
-        <rdfs:label rdf:datatype="&xsd;string">serum albumine concentration measurement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">serum albumin concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>
         <skos:definition rdf:datatype="&xsd;string">Serum albumin concentration measurement datum is a concentration measurement datum that is the output of the serum albumin concentration assay measures the concentration of the albumin in human blood.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">albumin measurement</skos:altLabel>
@@ -7998,7 +7996,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3075415">
         <rdfs:label rdf:datatype="&xsd;string">serum ferritin concentration measurement assay</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>  <!-- clinical chemistry assay -->
         <skos:definition rdf:datatype="&xsd;string">Serum ferritin concentration measurement assay is an analyte assay that measures the amount of ferritin complex in blood serum derived from the portion of human venous or arterial blood specimen.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">ferritin test</skos:altLabel>
@@ -8010,7 +8008,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6397402">
         <rdfs:label rdf:datatype="&xsd;string">serum transthyretin concentration measurement assay</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
         <skos:definition rdf:datatype="&xsd;string">Serum transthyretin concentration measurement assay is a measurement assay that determines the amount of the transthyretin (pre-albumin) in blood serum derived from the portion of human venous or arterial blood specimen.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">transthyretin test</skos:altLabel>
@@ -8027,14 +8025,13 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3199939">
         <rdfs:label rdf:datatype="&xsd;string">serum albumin concentration measurement assay</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
         <skos:definition rdf:datatype="&xsd;string">Serum albumin concentration measurement assay is an analyte assay that determines the amount of the albumin in blood serum that is derived from the portion of human venous or arterial blood specimen.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">serum albumin test</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood albumin test</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class> 
-     
+     </owl:Class>     
     
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5589907 -->  <!-- kilocalorie  -->
@@ -8677,7 +8674,47 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0323207">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary water intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+         <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_0870721"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_15377"/> <!-- water -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_4376445"/> <!-- fluid ounce per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_1121265"/>  <!-- liter per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily total dietary water intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average intake of dietary water contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -8688,7 +8725,47 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9046621">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary protein intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_0870721"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&PRO;PR_000000001"/> <!-- protein -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5104929"/> <!-- gram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily total dietary protein intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average intake of dietary proteins contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -8710,7 +8787,48 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2286225">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary carbohydrate intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
+        <!--rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_0870721"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_16646"/> <!-- carbohydrate -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5104929"/> <!-- gram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measurment value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        
         <skos:definition rdf:datatype="&xsd;string">Average daily total dietary carbohydrate intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average intake of dietary carbohydrates contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -8731,7 +8849,47 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7773980">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary fiber intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+         <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_0870721"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_3258876"/> <!-- dietary fiber -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5104929"/> <!-- gram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>   
         <skos:definition rdf:datatype="&xsd;string">Average daily total dietary fiber intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average intake of dietary fibers contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -8742,7 +8900,47 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5257504">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary cholesterol intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+         <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_0870721"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_16113"/> <!-- cholestertol -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5104929"/> <!-- gram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>    
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary cholesterol intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average quantity of dietary cholesterol contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -8829,7 +9027,28 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1164140">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary energy intake during observed time interval datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4105817"/>
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4105817"/ -->
+    	
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_4105817"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measur unit label -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0274157"/> <!-- kiloCal per day --> 
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+            
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary energy intake during observed time interval datum is a dietary energy intake datum denoting the average number of kilocalories derived from all food items ingested by a human patient during the time interval observed by a dietitian (one days, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -9745,7 +9964,47 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2490062">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary water intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8173437"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_15377"/> <!-- water -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_4239849"/> <!-- fluid ounce per kg day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5270306"/>  <!-- liter per kg per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily total dietary water intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average intake of water contained in all food items taken by a human patient during the observed time period with respect to patient's body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -9757,7 +10016,48 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4580525">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary protein intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8173437"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&PRO;PR_000000001"/> <!-- protein -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_6794672"/> <!-- gram per kg day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+		
         <skos:definition rdf:datatype="&xsd;string">Average daily total dietary protein intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average intake of proteins contained in all food items taken by a human patient during the observed time period with respect to patient's body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -9779,7 +10079,47 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4054546">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary carbohydrate intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8173437"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_16646"/> <!-- carbohydrate -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_6794672"/> <!-- gram per kg day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
 		<skos:definition rdf:datatype="&xsd;string">Average daily total dietary carbohydrate intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average intake of carbohydrates contained in all food items taken by a human patient during the observed time period with respect to patient's body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -9790,7 +10130,47 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9698884">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary fiber intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8173437"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_3258876"/> <!-- dietary fiber -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_6794672"/> <!-- gram per kg day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily total dietary fiber intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average intake of fibers contained in all food items taken by a human patient during the observed time period with respect to patient's body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -9878,11 +10258,53 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2626596">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary cholesterol intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                <rdf:Description rdf:about="&ONSTR;ONSTR_8173437"/>
+                <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_16113"/> <!-- cholestertol -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_6794672"/> <!-- gram per kg per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+		
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary cholesterol intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass  during observed time interval denoting the average quantity of dietary cholesterol contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
+     
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3860310-->  <!-- average daily dietary amino acid intake per body mass during observed time interval -->
 
@@ -10107,7 +10529,28 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9038599">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary energy intake per body mass during observed time interval datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4105817"/>
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4105817"/ -->
+    	
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_4105817"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measur unit label -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1968249"/> <!-- kiloCal per kg per day --> 
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    	
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary energy intake per body mass during observed time interval datum is a dietary energy intake datum providing information about the average dietary energy derived from all food items combined that have been taken by a patient during observed time period (one day, two days or three days) with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -10558,7 +11001,23 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8313486">
         <rdfs:label rdf:datatype="&xsd;string">dietary intake measurement datum</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
+		<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000032"/>  <!--scalar measur datum-->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/> <!--is specif output od-->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6867187"/> <!--dietary intake analysis--> 
+                    </owl:Restriction>
+                    
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0193925"/> <!--nutrient--> 
+                    </owl:Restriction>  
+                </owl:intersectionOf>
+			</owl:Class>
+		</owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Dietary intake measurement datum is a scalar measurement datum providing the information about dietary nutrients that are contained in or dietary energy derived from nutritional items a patient or study subject during observed time interval relevant for dietary analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -10570,6 +11029,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3255175">
         <rdfs:label rdf:datatype="&xsd;string">dietary nutrient intake datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8313486"/>
+		
+		
+		
+		
         <skos:definition rdf:datatype="&xsd;string">Dietary nutrient intake datum is a dietary intake measurement datum providing the information about the quantity of observed dietary nutrients taken by a human patient or study subject during the time interval relevant for dietary analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -12344,7 +12807,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">has_specified_input</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</skos:definition>
         <rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:ObjectProperty>
     
     
@@ -12356,7 +12819,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</skos:definition>
     	<skos:example rdf:datatype="&xsd;string">some Autologous EBV(Epstein-Barr virus)-transformed B-LCL (B lymphocyte cell line) is_input_for instance of Chromum Release Assay described at https://wiki.cbil.upenn.edu/obiwiki/index.php/Chromium_Release_assay</skos:example>
         <owl:inverseOf rdf:resource="&obo;OBI_0000293"/>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:ObjectProperty>
     
     
@@ -12367,7 +12830,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">is_specified_output_of</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</skos:definition>
         <rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:ObjectProperty>
 
     
@@ -12379,7 +12842,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</skos:definition>
     	<rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
         <owl:inverseOf rdf:resource="&obo;OBI_0000312"/>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
     </owl:ObjectProperty>
 
     
@@ -12458,7 +12921,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
     	<rdfs:label rdf:datatype="&xsd;string">process is result of</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">is a relationship between a process and a preceding occurrent that directly caused the later one to occur</skos:definition>
         <skos:example rdf:datatype="&xsd;string">The production of IFN-gamma by effector T cells is a process result of T cell stimulation through the TCR</skos:example>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
       </owl:ObjectProperty>
     
     
@@ -12467,7 +12930,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
       <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000417">
     	<rdfs:label rdf:datatype="&xsd;string">achieves_planned_objective</rdfs:label>
     	<skos:definition rdf:datatype="&xsd;string">This relation obtains between a planned process and a objective specification when the criteria specified in the objective specification are met at the end of the planned process.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBI</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
   </owl:ObjectProperty>
     
     
@@ -12484,7 +12947,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
   <!-- http://www.obofoundry.org/ro/ro.owl#derives_from -->  <!-- derives_from -->
 
     <owl:ObjectProperty rdf:about="&ro;derives_from"> 
-    <skos:definition rdf:datatype="&xsd;string">Derivation on the instance level (*derives_from*) holds between distinct material continuants when one succeeds the other across a temporal divide in such a way that at least a biologically significant portion of the matter of the earlier continuant is inherited by the later. We say that one class C derives_from class C' if instances of C are connected to instances of C' via some chain of instance-level derivation relations. Example: osteocyte derives_from osteoblast. Formally: C derives_immediately_from C' if and only if: given any c and any t, if c instantiates C at time t, then there is some c' and some t', such that c' instantiates C' at t' and t' earlier-than t and c *derives_from* c'. C derives_from C' if and only if: there is an chain of immediate derivation relations connecting C to C'.</skos:definition>
+    <skos:definition rdf:datatype="&xsd;string">Derivation on the instance level (*derives_from*) holds between distinct material continuants when one succeeds the other across a temporal divide in such a way that at least a biologically significant portion of the matter of the earlier continuant is inherited by the later. We say that one class C derives_ass C' if instances of C are connected to instances of C' via some chain of instance-level derivation relations. Example: osteocyte derives_from osteoblast. Formally: C derives_immediately_from C' if and only if: given any c and any t, if c instantiates C at time t, then there is some c' and some t', such that c' instantiates C' at t' and t' earlier-than t and c *derives_from* c'. C derives_from C' if and only if: there is an chain of immediate derivation relations connecting C to C'.</skos:definition>
     <rdfs:comment rdf:datatype="&xsd;string">Derivation as a relation between instances. The temporal relation of derivation is more complex. Transformation, on the instance level, is just the relation of identity: each adult is identical to some child existing at some earlier time. Derivation on the instance-level is a relation holding between non-identicals. More precisely, it holds between distinct material continuants when one succeeds the other across a temporal divide in such a way that at least a biologically significant portion of the matter of the earlier continuant is inherited by the later. Thus we will have axioms to the effect that from c derives_from c1 we can infer that c and c1 are not identical and that there is some instant of time t such that c1 exists only prior to and c only subsequent to t. We will also be able to infer that the spatial region occupied by c as it begins to exist at t overlaps with the spatial region occupied by c1 as it ceases to exist in the same instant.</rdfs:comment>    
     <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from RO</skos:editorialNote>
     <rdfs:comment rdf:datatype="&xsd;string">This may be (or very likely will be) removed or replaced at a later date.</rdfs:comment>    
@@ -12554,7 +13017,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 
 <!-- END OF ALL OBJECT PROPERTIES -->
 
-
+<!-- KRAJ -->
 
     
 </rdf:RDF>
