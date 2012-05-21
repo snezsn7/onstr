@@ -8776,7 +8776,47 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3033773">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary fat intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_0870721"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_18059"/> <!-- lipid -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5104929"/> <!-- gram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily total dietary fat intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average intake of dietary fats contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -8839,7 +8879,48 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6649635">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary amino acid intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_0870721"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_33704"/> <!-- alpha-amino acid -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5104929"/> <!-- gram per kg day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/>  <!-- microgram per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary amino acid intake over observed time interval datum is an average daily dietary micronutrient intake during observed time interval denoting the average quantity of a given amino acid contained in all food items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -8863,7 +8944,7 @@ people infected, then extract parasite which are then tested = observation study
                    				    <owl:Restriction>
                     					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
-                    					</owl:Restriction>
+                    			    </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
@@ -8951,7 +9032,49 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8777352">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary fatty acid intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_0870721"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                		<owl:unionOf rdf:parseType="Collection">
+                                			<rdf:Description rdf:about="&obo;CHEBI_35366"/> <!-- fatty acid -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_61697"/>  <!-- fatty acid derivative -->
+                   						</owl:unionOf>
+                   					</owl:Class>
+                   					 <owl:Restriction>
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    				</owl:Restriction> 
+                              </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5104929"/> <!-- gram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/>  <!-- microgram per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary fatty acid intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average intake of dietary fatty acids contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -10068,7 +10191,47 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5243910">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary total fat intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8173437"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_18059"/> <!-- lipid -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_6794672"/> <!-- gram per kg day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily total dietary fat intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average intake of fats contained in all food items taken by a human patient during the observed time period with respect to patient's body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -10181,7 +10344,49 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3673197">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary fatty acid intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8173437"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                		<owl:unionOf rdf:parseType="Collection">
+                                			<rdf:Description rdf:about="&obo;CHEBI_35366"/> <!-- fatty acid -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_61697"/>  <!-- fatty acid derivative -->
+                   						</owl:unionOf>
+                   					</owl:Class>
+                   					 <owl:Restriction>
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    				</owl:Restriction> 
+                              </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_6794672"/> <!-- gram per kg per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/>  <!-- microgram per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary fatty acid intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass during observed time interval denoting the average intake of fatty acids contained in all food items taken by a human patient during the observed time period with respect to patient's body mass.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -10299,7 +10504,6 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-		
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary cholesterol intake per body mass during observed time interval is an average daily dietary macronutrient intake per body mass  during observed time interval denoting the average quantity of dietary cholesterol contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -10310,7 +10514,48 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3860310">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary amino acid intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8173437"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_33704"/> <!-- alpha-amino acid -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_6794672"/> <!-- gram per kg per kg day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/>  <!-- microgram per kg per day -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                           <owl:someValuesFrom>
+                               <rdfs:Datatype>
+                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
+                               </rdfs:Datatype>
+                    	  </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary amino acid intake per body mass during observed time interval is an average daily nutrient intake per body mass during observed time interval information denoting the average quantity of a given amino acid contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11009,11 +11254,6 @@ people infected, then extract parasite which are then tested = observation study
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;OBI_0000312"/> <!--is specif output od-->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6867187"/> <!--dietary intake analysis--> 
-                    </owl:Restriction>
-                    
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0193925"/> <!--nutrient--> 
                     </owl:Restriction>  
                 </owl:intersectionOf>
 			</owl:Class>
@@ -11028,11 +11268,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3255175">
         <rdfs:label rdf:datatype="&xsd;string">dietary nutrient intake datum</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8313486"/>
-		
-		
-		
-		
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8313486"/ -->
+	    <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8313486"/>  <!--dietary intake measurement datum-->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0193925"/> <!--nutrient--> 
+                    </owl:Restriction>  
+                </owl:intersectionOf>
+			</owl:Class>
+		</owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Dietary nutrient intake datum is a dietary intake measurement datum providing the information about the quantity of observed dietary nutrients taken by a human patient or study subject during the time interval relevant for dietary analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -13013,9 +13260,73 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <owl:inverseOf rdf:resource="&ONSTR;ONSTR_5859795"/>
     </owl:ObjectProperty>
 
+<!-- END ALL OBJECT PROPERTIES -->
 
 
-<!-- END OF ALL OBJECT PROPERTIES -->
+<!-- ************************************************************************ -->
+<!-- ************************************************************************ -->
+<!-- ************************************************************************ -->
+
+<!-- TEST 1-2 -->
+
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_fattyTest1-linolen-grams -->  <!-- fattyTest1-linolen-grams  -->
+
+    <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_fattyTest1-linolen-grams">
+        <rdf:type rdf:resource="&ONSTR;ONSTR_7192524"/>  <!-- aver daily linolenic acid intake -->
+        <rdfs:label rdf:datatype="&xsd;string">fattyTest1-linolen-grams</rdfs:label>
+        <obo:IAO_0000004 rdf:datatype="&xsd;decimal">32.5</obo:IAO_0000004>  <!-- has measur value -->
+        <obo:IAO_0000039 rdf:resource="&ONSTR;ONSTR_5104929"/> <!-- gram per day -->
+   </owl:NamedIndividual>      
+        
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_fattyTest2-arachid-micrograms -->  <!-- fattyTest2-arachid-micrograms  -->
+        
+   <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_fattyTest2-arachid-micrograms">
+        <rdf:type rdf:resource="&ONSTR;ONSTR_7733244"/>  <!-- aver daily arachidonic acid intake -->
+        <rdfs:label rdf:datatype="&xsd;string">fattyTest2-arachid-micrograms</rdfs:label>
+        <obo:IAO_0000004 rdf:datatype="&xsd;decimal">125.38</obo:IAO_0000004>  <!-- has measur value -->
+        <obo:IAO_0000039 rdf:resource="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
+   </owl:NamedIndividual>
+
+<!-- Amino test -->
+
+
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_aminoTest1-Val-grams -->  <!-- aminoTest1-Val-grams  -->
+
+    <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_aminoTest1-Val-grams">
+        <rdf:type rdf:resource="&ONSTR;ONSTR_6254359"/>  <!-- aver daily valine intake -->
+        <rdfs:label rdf:datatype="&xsd;string">aminoTest1-Val-grams</rdfs:label>
+        <obo:IAO_0000004 rdf:datatype="&xsd;decimal">25.8</obo:IAO_0000004>  <!-- has measur value -->
+        <obo:IAO_0000136 rdf:resource="&ONSTR;ONSTR_5104929"/> <!-- gram per day -->
+   </owl:NamedIndividual> 
+
+
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_aminoTest2-Ala-miligrams -->  <!-- aminoTest2-Ala-miligrams  -->
+
+    <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_aminoTest2-Ala-miligrams">
+        <rdf:type rdf:resource="&ONSTR;ONSTR_8527984"/>  <!-- aver daily alanine intake -->
+        <rdfs:label rdf:datatype="&xsd;string">aminoTest2-Ala-miligrams</rdfs:label>
+        <obo:IAO_0000004 rdf:datatype="&xsd;decimal">350.00</obo:IAO_0000004>  <!-- has measur value -->
+        <obo:IAO_0000136 rdf:resource="&ONSTR;ONSTR_8176500"/> <!-- miligram per day -->
+   </owl:NamedIndividual>
+   
+  
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_aminoTest3-Tyr-micrograms -->  <!-- aminoTest3-Tyr-micrograms  -->
+
+    <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_aminoTest3-Tyr-micrograms">
+        <rdf:type rdf:resource="&ONSTR;ONSTR_9462546"/>  <!-- aver daily tyrosine intake -->
+        <rdfs:label rdf:datatype="&xsd;string">aminoTest3-Tyr-micrograms</rdfs:label> 
+        <obo:IAO_0000004 rdf:datatype="&xsd;decimal">250.00</obo:IAO_0000004>  <!-- has measur value -->
+        <obo:IAO_0000136 rdf:resource="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
+   </owl:NamedIndividual>
+
+
+<!-- END TEST 1-2 -->
+
+<!-- ************************************************************************ -->
+<!-- ************************************************************************ -->
+<!-- ************************************************************************ -->
+
+
 
 <!-- KRAJ -->
 
