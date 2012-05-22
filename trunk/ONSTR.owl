@@ -4069,6 +4069,35 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38295 -->  <!-- azabicycloalkane -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38295">
+        <rdfs:label rdf:datatype="&xsd;string">azabicycloalkane</rdfs:label>  <!-- no def -->
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_27171"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51570 -->  <!-- biotins -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51570">
+        <rdfs:label rdf:datatype="&xsd;string">biotins</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_38295"/>
+        <skos:definition rdf:datatype="&xsd;string">Compounds containing a biotin (5-[(3aS,4S,6aR)-2-oxohexahydro-1H-thieno[3,4-d]imidazol-4-yl]pentanoic acid) skeleton.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://purl.obolibrary.org/obo/CHEBI_15956 -->  <!-- biotin -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15956">
+        <rdfs:label rdf:datatype="&xsd;string">biotin</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_51570"/>
+        <skos:definition rdf:datatype="&xsd;string">An organic heterobicyclic compound that consists of 2-oxohexahydro-1H-thieno[3,4-d]imidazole having a valeric acid substituent attached to the tetrahydrothiophene ring. The parent of the class of biotins.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+    </owl:Class>
+    
+    
     <!-- http://purl.obolibrary.org/obo/CHEBI_22727 -->  <!-- benzopyran -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_22727">
@@ -4149,7 +4178,6 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_23229"/>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
     </owl:Class>
- 
     
     
     <!-- http://purl.obolibrary.org/obo/CHEBI_26373 -->  <!-- pteridines -->
@@ -9133,10 +9161,10 @@ people infected, then extract parasite which are then tested = observation study
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <owl:Class>
-                                		<owl:unionOf rdf:parseType="Collection">
+                                		<owl:intersectionOf rdf:parseType="Collection">
                                 			<rdf:Description rdf:about="&obo;CHEBI_35366"/> <!-- fatty acid -->
                                 			<rdf:Description rdf:about="&obo;CHEBI_61697"/>  <!-- fatty acid derivative -->
-                   						</owl:unionOf>
+                   						</owl:intersectionOf>
                    					</owl:Class>
                    					 <owl:Restriction>
                     				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
@@ -9568,7 +9596,55 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6081701">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin A intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/ -->
+         <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">  <!-- until ChEBI groups things under vitam A, if ever -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_12777"/> <!-- vitamin A -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_50211"/>  <!-- retinol -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_28425"/>  <!-- alpha-carotene -->
+                   						    <rdf:Description rdf:about="&obo;CHEBI_17579"/>  <!-- beta-carotene -->
+                   						    <rdf:Description rdf:about="&obo;CHEBI_27740"/>  <!-- gamma-carotene -->
+                   						    <rdf:Description rdf:about="&obo;CHEBI_10362"/>  <!-- beta-cryptoxantin -->
+                   						</owl:intersectionOf>
+                   					</owl:Class>
+                   					 <owl:Restriction>
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    				</owl:Restriction> 
+                              </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/>  <!-- microgram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9660969"/>  <!-- RAE per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_1807672"/>  <!-- RE per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin A intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of vitamin A contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">daily vitamin A intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily retinol intake</skos:altLabel>
@@ -9581,7 +9657,44 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2760775">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin B6 intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_27306"/> <!-- vitamin B6 = pyridoxine et al -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin B6 intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of vitamin B6 contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary vitamin B6 intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Vitamin B6 in the ONSTR definition refers to all currently known forms of vitamin B6: pyridoxine (PN), pyridoxine 5&apos;-phosphate (PNP), pyridoxal (PL), pyridoxal 5&apos;-phosphate (PLP), pyridoxamine (PM), pyridoxamine 5&apos;-phosphate (PMP), 4-pyridoxic acid (PA). [Source: http://en.wikipedia.org/wiki/Vitamin_B6 ]</rdfs:comment>
@@ -9594,7 +9707,49 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4999812">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin B12 intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                			<rdf:Description rdf:about="&obo;CHEBI_30411"/> <!-- cobalamin = natural B12 -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_17439"/>  <!-- cyanocob(III)alamin = supplement B12 -->
+                   						</owl:intersectionOf>
+                   					</owl:Class>
+                   					 <owl:Restriction>
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    				</owl:Restriction> 
+                              </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/>  <!-- microgram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin B12 intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of vitamin B12 contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">daily vitamin B12 intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily cobalamine intake</skos:altLabel>
@@ -9608,7 +9763,45 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4277295">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary folacin intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_27470"/> <!-- folic acid -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_4928224"/>  <!-- DFE per day -->   
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary folacin intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of folacin contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">average dietary vitamin B9 intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">average dietary vitamin Bc intake</skos:altLabel>
@@ -9625,7 +9818,49 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7113951">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin D intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                			<rdf:Description rdf:about="&obo;CHEBI_27300"/> <!-- vitam D = D3 -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_28934"/>  <!-- vitam D2 -->
+                   						</owl:intersectionOf>
+                   					</owl:Class>
+                   					 <owl:Restriction>
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    				</owl:Restriction> 
+                              </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/>  <!-- microgram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin D intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of vitamin D contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days)</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">average dietary vitamin D intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary vitamin D intake</skos:altLabel>
@@ -9639,7 +9874,44 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6464019">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin C intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_29073"/> <!-- L-ascorbic acid -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin C intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of vitamin C contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -9650,7 +9922,49 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5060782">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin E intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/ -->
+         <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">  <!-- to be replaced by vitamin E CHEBI_33234 if/when CHEBI does it -->
+                                    <owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                			<rdf:Description rdf:about="&obo;CHEBI_27013"/> <!-- tocopherol = all tocopherols -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_33235"/>  <!-- tocotrienol -->
+                   						</owl:intersectionOf>
+                   					</owl:Class>
+                   					 <owl:Restriction>
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    				</owl:Restriction> 
+                              </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/>  <!-- microgram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin E intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of vitamin E contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -9661,7 +9975,44 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4213927">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin K intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_28384"/> <!-- vitamin K -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin K intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of vitamin K contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -9672,7 +10023,44 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6830160">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary thiamine intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/-->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_26948"/> <!-- thiamine -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary thiamine intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of thiamine contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">average daily dietary vitamin B1 intake during observed time interval</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary thiamine intake</skos:altLabel>
@@ -9687,7 +10075,44 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1838254">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary riboflavin intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/-->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_17015"/> <!-- riboflavin = B2 -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary riboflavin intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of riboflavin contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">average daily dietary vitamin B2 intake during observed time interval</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary riboflavin intake</skos:altLabel>
@@ -9702,7 +10127,50 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3068621">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary niacin intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                			<rdf:Description rdf:about="&obo;CHEBI_15940"/> <!-- nicotinic acid -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_17154"/>  <!-- nicotinamide -->
+                   						</owl:intersectionOf>
+                   					</owl:Class>
+                   					 <owl:Restriction>
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    				</owl:Restriction> 
+                              </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/>  <!-- microgram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_0548739"/>  <!-- NE per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary niacin intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of niacin contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">average daily dietary vitamin B3 intake during observed time interval</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary niacin intake</skos:altLabel>
@@ -9716,8 +10184,45 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2284853 -->  <!-- average daily dietary choline intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2284853">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary dietary choline intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary choline intake during observed time interval</rdfs:label>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_15354"/> <!-- choline -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily choline intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of choline contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -9728,7 +10233,44 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8741124">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary pantothenic acid intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_7916"/> <!-- pantothenic acid = vitam B5 -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    			    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary pantothenic acid intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of pantothenic acid contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary pantothenic acid intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary vitamin B5 intake</skos:altLabel>
@@ -9743,7 +10285,44 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9471223">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary biotin intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_15956"/> <!-- biotin -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary biotin intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of biotin contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">daily vitamin H intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary vitamin H intake</skos:altLabel>
@@ -9752,12 +10331,51 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1078667 -->  <!-- average daily dietary carotenoid intake during observed time interval  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1078667 -->  <!-- average daily total dietary carotenoid intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1078667">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary carotenoid intake during observed time interval</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary carotenoid intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of all carotenoids contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary carotenoid intake during observed time interval</rdfs:label>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9239980"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9239980"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_23044"/> <!-- carotenoid -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/>  <!-- microgram per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9660969"/>  <!-- RAE per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_1807672"/>  <!-- RE per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary carotenoid intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of all carotenoids contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -10445,10 +11063,10 @@ people infected, then extract parasite which are then tested = observation study
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <owl:Class>
-                                		<owl:unionOf rdf:parseType="Collection">
+                                		<owl:intersectionOf rdf:parseType="Collection">
                                 			<rdf:Description rdf:about="&obo;CHEBI_35366"/> <!-- fatty acid -->
                                 			<rdf:Description rdf:about="&obo;CHEBI_61697"/>  <!-- fatty acid derivative -->
-                   						</owl:unionOf>
+                   						</owl:intersectionOf>
                    					</owl:Class>
                    					 <owl:Restriction>
                     				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
@@ -10918,7 +11536,55 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8997308">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin A intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">  <!-- until ChEBI groups things under vitam A, if ever -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_12777"/> <!-- vitamin A -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_50211"/>  <!-- retinol -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_28425"/>  <!-- alpha-carotene -->
+                   						    <rdf:Description rdf:about="&obo;CHEBI_17579"/>  <!-- beta-carotene -->
+                   						    <rdf:Description rdf:about="&obo;CHEBI_27740"/>  <!-- gamma-carotene -->
+                   						    <rdf:Description rdf:about="&obo;CHEBI_10362"/>  <!-- beta-cryptoxantin -->
+                   						</owl:intersectionOf>
+                   					</owl:Class>
+                   					 <owl:Restriction>
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    				</owl:Restriction> 
+                              </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/>  <!-- microgram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_7845326"/>  <!-- RAE per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_8673303"/>  <!-- RE per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin A intake per body mass  during observed time interval is an average daily dietary vitamin intake per body mass during observed time interval information denoting the average quantity of vitamin A contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -10929,7 +11595,44 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5697260">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin B6 intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_27306"/> <!-- vitam B6 = pyridoxine et al -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/> <!-- microgram per kg day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin B6 intake per body mass during observed time interval is an average daily dietary vitamin B6 intake per body mass during observed time interval information denoting the average quantity of vitamin B6 contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -10940,7 +11643,49 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9552783">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin B12 intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                			<rdf:Description rdf:about="&obo;CHEBI_30411"/> <!-- cobalamin = natural B12 -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_17439"/>  <!-- cyanocob(III)alamin = supplement B12 -->
+                   						</owl:intersectionOf>
+                   					</owl:Class>
+                   					 <owl:Restriction>
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    				</owl:Restriction> 
+                              </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/>  <!-- microgram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin B12 intake per body mass during observed time interval is an average daily dietary vitamin intake per body mass during observed time interval information denoting the average quantity of vitamin B12 contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -10951,7 +11696,45 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7691352">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary folacin intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_27470"/> <!-- folic acid -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/> <!-- microgram per kg per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9102389"/>  <!-- DFE per kg per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary folacin intake per body mass during observed time interval is an average daily dietary vitamin intake per body mass during observed time interval information denoting the average quantity of folacin contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -10962,7 +11745,49 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0003002">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin D intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                			<rdf:Description rdf:about="&obo;CHEBI_27300"/> <!-- vitam D = D3 -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_28934"/>  <!-- fatty acid derivative -->
+                   						</owl:intersectionOf>
+                   					</owl:Class>
+                   					 <owl:Restriction>
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    				</owl:Restriction> 
+                              </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/>  <!-- microgram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin D intake per body mass during observed time interval is an average daily dietary vitamin intake per body mass during observed time interval information denoting the average quantity of vitamin D contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -10973,7 +11798,44 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5443586">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin C intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_29073"/> <!-- L-ascorbic acid = Vitam C -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/> <!-- microgram per kg day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin C intake per body mass  during observed time interval is an average vitamin intake per body mass during observed time interval information denoting the average quantity of vitamin C contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -10984,7 +11846,49 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4596077">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin E intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">  <!-- to replace by vitam E CHEBI_33234 if/when -->
+                                    <owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                			<rdf:Description rdf:about="&obo;CHEBI_27013"/> <!-- tocopherol - all tocopherols -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_33235"/>  <!-- tocotrienol -->
+                   						</owl:intersectionOf>
+                   					</owl:Class>
+                   					 <owl:Restriction>
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    				</owl:Restriction> 
+                              </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/>  <!-- microgram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin E intake per body mass during observed time interval is an average vitamin intake per body mass during observed time interval information denoting the average quantity of vitamin E contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -10995,7 +11899,44 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1911808">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin K intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_28384"/> <!-- vitamin K -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/> <!-- microgram per kg per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin K intake per body mass during observed time interval is an average daily dietary vitamin intake per body mass during observed time interval information denoting the average quantity of vitamin K contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11006,7 +11947,44 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8588243">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary thiamine intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+    	 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_26948"/> <!-- thiamine -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/> <!-- microgram per kg per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary thiamine intake per body mass during observed time interval is an average daily dietary vitamin intake per body mass during observed time interval information denoting the average quantity of thiamine contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11017,8 +11995,45 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7289743">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary riboflavin intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily riboflavin intake per body mass during observed time interval is an average daily dietary vitamin intake per body mass during observed time interval information denoting the average quantity of riboflavin contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+	   <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_17015"/> <!-- riboflavin -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    		        </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/> <!-- microgram per kg per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary riboflavin intake per body mass during observed time interval is an average daily dietary vitamin intake per body mass during observed time interval information denoting the average quantity of riboflavin contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -11028,7 +12043,50 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6059681">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary niacin intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                			<rdf:Description rdf:about="&obo;CHEBI_15940"/> <!-- nicotinic acid -->
+                                			<rdf:Description rdf:about="&obo;CHEBI_17154"/>  <!-- nicotinamide -->
+                   						</owl:intersectionOf>
+                   					</owl:Class>
+                   					 <owl:Restriction>
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    				</owl:Restriction> 
+                              </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/>  <!-- microgram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day --> 
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_1097591"/>  <!-- NE per kg per day -->     
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary niacin intake per body mass during observed time interval is an average daily dietary vitamin intake per body mass during observed time interval information denoting the average quantity of niacin contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11039,7 +12097,44 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7772837">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary choline intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_15354"/> <!-- choline -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/> <!-- microgram per kg per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary choline intake per body mass during observed time interval is an average daily dietary vitamin intake per body mass during observed time interval information denoting the average quantity of choline contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11050,7 +12145,44 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1317968">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary pantothenic acid intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_7916"/> <!-- pantotehnic acid = vitam B5 -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/> <!-- microgram per kg per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary pantothenic acid intake per body mass during observed time interval is an average daily dietary vitamin intake per body mass during observed time interval information denoting the average quantity of pantothenic acid contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11061,7 +12193,44 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8247791">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary biotin intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_15956"/> <!-- biotin -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/> <!-- microgram per kg per day -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary biotin intake per body mass during observed time interval is an average daily dietary vitamin intake per body mass during observed time interval information denoting the average quantity of biotin contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11071,9 +12240,49 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1888775-->  <!-- average daily dietary carotenoid intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1888775">
-        <rdfs:label rdf:datatype="&xsd;string">average daily dietary carotenoid intake per body mass during observed time interval</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary carotenoid intake per body mass during observed time interval is an average daily dietary vitamin intake per body mass during observed time interval information denoting the average quantity of all carotenoids combined and contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">average daily total dietary carotenoid intake per body mass during observed time interval</rdfs:label>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8689857"/>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;CHEBI_23044"/> <!-- carotenoid -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    					</owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                      </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/>  <!-- microgram per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_7845326"/>  <!-- RAE per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_8673303"/>  <!-- RE per kg per day -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+		
+        <skos:definition rdf:datatype="&xsd;string">Average daily total dietary carotenoid intake per body mass during observed time interval is an average daily dietary vitamin intake per body mass during observed time interval information denoting the average quantity of all carotenoids combined and contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
