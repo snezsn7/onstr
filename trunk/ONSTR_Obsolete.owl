@@ -644,22 +644,10 @@
      </owl:Class>
         
         
-        
-        
-        
-        
-        
-        
   
 <!-- Ovde Class -->     
     
-    
-    
-    
-    
-    
-    
-    
+
     <!--  				     		   -->
 	<!--  OBSOLETED OBJECT PROPERTIES  -->
 	<!--  				     		   -->
@@ -674,6 +662,29 @@
         <rdfs:comment rdf:datatype="&xsd;string">This superproperty is a final destination of all object properties (relations) that have previously been asserted in the ONSTR, but not in use any more.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Complete</skos:editorialNote>
     </owl:ObjectProperty>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6264097 -->  <!-- is cause of -->
+
+    <owl:ObjectProperty rdf:about="&ONSTRobsolete;ONSTR_6264097">
+        <rdfs:label rdf:datatype="&xsd;string">is cause of</rdfs:label>
+        <rdfs:subPropertyOf rdf:about="&ONSTRobsolete;ONSTR_ObsoleteProperty"/>
+        <skos:definition rdf:datatype="&xsd;string">A cause-effect relation between two entities in which the entity X is a cause of the existence of the entity Y.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3590764 -->  <!-- has cause -->
+
+    <owl:ObjectProperty rdf:about="&ONSTRobsolete;ONSTR_3590764">
+        <rdfs:subPropertyOf rdf:about="&ONSTRobsolete;ONSTR_ObsoleteProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">has cause</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A cause-effect relation between two entities in which the entity X is caused by the existence of the entity Y.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+
 
 
 <!-- Ovde Prop --> 
