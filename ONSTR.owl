@@ -5241,24 +5241,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7546388">  <!-- cross that with congenital metabolic disorder -->
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5448898"/>
-         <!-- owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                   <rdf:Description rdf:about="&ONSTR;ONSTR_7112823"/> 
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3590764"/>  
-                            <owl:someValuesFrom>
-                            	<owl:Class>
-                                	<owl:unionOf rdf:parseType="Collection">
-                                		<rdf:Description rdf:about="&ONSTR;ONSTR_0128089"/>
-                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5173920"/>
-                                	</owl:unionOf> 
-                               </owl:Class> 	
-                            </owl:someValuesFrom>
-                       </owl:Restriction>    
-                </owl:intersectionOf>                                 
-            </owl:Class>
-        </owl:equivalentClass -->
+	<!-- ADD LOG DEF -->
         <rdfs:label rdf:datatype="&xsd;string">congenital hyperphenylalaninemia</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninemia (disorder)</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninaemias</skos:altLabel>
@@ -5327,24 +5310,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0109406">
         <rdfs:label rdf:datatype="&xsd;string">phenylketonuria</rdfs:label>
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                   <rdf:Description rdf:about="&ONSTR;ONSTR_7112823"/> 
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3590764"/>  
-                            <owl:someValuesFrom>
-                            	<owl:Class>
-                                	<owl:unionOf rdf:parseType="Collection">
-                                		<rdf:Description rdf:about="&ONSTR;ONSTR_0128089"/>
-                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5173920"/>
-                                	</owl:unionOf> 
-                               </owl:Class> 	
-                            </owl:someValuesFrom>
-                       </owl:Restriction>    
-                </owl:intersectionOf>                                 
-            </owl:Class>
-        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7112823"/> 
         <skos:altLabel rdf:datatype="&xsd;string">PKU</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">PHENYLKETONURIA</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A congenital metabolic disease (of autosomal recessive inheritance), that is characterized by abnormally high levels of phenylalanine (hyperphenylalaninemia) and related metabolites such as phenylpyruvate, phenyllactate, phenylacetate, phenylacetylglutamine), and that is triggered by phenylalanine-4-hydoxilase deficiency (PAH deficinecy) that is caused by the mutations in the gene coding for phenylalanine hydoxilase (PAH). If untreated, pehnylalanine and its metabolic byproducts accumulate in the central nervous system and can cause severe brain damage, seizures (or convilsions), microcephaly, various language disorders (stuttering, slurrs, lisps), mental retardation, behavioral abnormalities, learning disabilities etc. Hypopigmentations and eczema are also observed.</skos:definition>
@@ -5658,44 +5624,45 @@ people infected, then extract parasite which are then tested = observation study
 
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3916451 --> <!-- plasma penylalanine concentration finding-->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3916451 --> <!-- blood plasma penylalanine concentration measurement datum-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3916451">
-        <rdfs:label rdf:datatype="&xsd;string">plasma penylalanine concentration finding</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">blood plasma penylalanine concentration measurement datum</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_1445519"/>
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentration measur datum -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6285423"/> 
+                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output of -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6285423"/>  <!-- blood plasma Phe concentr measur assay -->
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood plasma phenylalanine concentration mesasurement datum is a concentration measurement datum that is the output of the blood plasma phenylalanine concentration measurement assay that measures the concentration of the amino acid phenylalanine in blood plasma specimen.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0630865 --> <!-- blood phenylalanine concentration finding -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0630865 --> <!-- blood phenylalanine concentration mesasurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0630865">
-        <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration finding</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration mesasurement datum</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_1445519"/>
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/> <!-- concentration measurement datum -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0114258"/> 
+                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0114258"/> <!-- blood Phe concentration measur assay --> 
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration mesasurement datum is a concentration measurement datum that is the output of the blood phenylalanine concentration measurement assay that measures the concentration of the amino acid phenylalanine in human blood.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition needs fixing, or maybe this class needs to be deprecated.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
@@ -5705,30 +5672,31 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0114258">
         <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration measurement assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration measurement assay is a clinical chemistry assay that determines the quantity of phenylalanine in the blood specimen derived from human arterial, venous or cappilary blood.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition needs fixing, or maybe this class needs to be deprecated.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
 
 
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1115755 --> <!-- cerebrospinal fluid phenylalanine concentration finding -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1115755 --> <!-- cerebrospinal fluid phenylalanine concentration measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1115755">
-        <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration finding</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration measurement datum</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_1445519"/>
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/> <!-- clinical chemistry assay -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2219307"/> 
+                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>    <!-- is specf output -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2219307"/>  <!-- CSF Phe concentr measur assay -->
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid phenylalanine concentration mesasurement datum is a concentration measurement datum that is the output of the cerebrospinal fluid phenylalanine concentration measurement assay that measures the concentration of the amino acid phenylalanine in human cerebrospinal fluid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
@@ -5738,20 +5706,22 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2219307">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration measurement assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid phenylalanine concentration measurement assay is a clinical chemistry assay that determines the quantity of phenylalanine in the cerebrospinal fluid specimen derived from human cerebrospinal fluid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition needs fixing, or maybe this class needs to be deprecated.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">CSF phenylalanine concentration test</skos:altLabel>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6285423 --> <!-- plasma phenylalanine concentration measuremet assay -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6285423 --> <!-- blood plasma phenylalanine concentration measuremet assay -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6285423">
-        <rdfs:label rdf:datatype="&xsd;string">plasma phenylalanine concentration measurement assay</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">blood plasma phenylalanine concentration measurement assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Blood plasma phenylalanine concentration measurement assay is a clinical chemistry assay that determines the quantity of phenylalanine in blood plasma specimen derived from human arterial, venous or cappilary blood.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition needs fixing, or maybe this class needs to be deprecated.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
@@ -7990,12 +7960,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
 
 
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0232327 -->  <!-- serum albumin concentration measurement datum  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0232327 -->  <!-- blood serum albumin concentration measurement datum  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0232327">
-        <rdfs:label rdf:datatype="&xsd;string">serum albumin concentration measurement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">blood serum albumin concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>
-        <skos:definition rdf:datatype="&xsd;string">Serum albumin concentration measurement datum is a concentration measurement datum that is the output of the serum albumin concentration assay measures the concentration of the albumin in human blood.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood serum albumin concentration measurement datum is a concentration measurement datum that is the output of the serum albumin concentration assay measures the concentration of the albumin in human blood.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">albumin measurement</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">albumin level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">serum albumin concentration</skos:altLabel>
@@ -8020,24 +7990,24 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>  
      
      
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3075415 -->  <!-- serum ferritin concentration measurement assay	  -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3075415 -->  <!-- blood serum ferritin concentration measurement assay	  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3075415">
-        <rdfs:label rdf:datatype="&xsd;string">serum ferritin concentration measurement assay</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">blood serum ferritin concentration measurement assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>  <!-- clinical chemistry assay -->
-        <skos:definition rdf:datatype="&xsd;string">Serum ferritin concentration measurement assay is an analyte assay that measures the amount of ferritin complex in blood serum derived from the portion of human venous or arterial blood specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood serum ferritin concentration measurement assay is a clinical chemistry assay that measures the concentration of ferritin complex in blood serum derived from the portion of human venous or arterial blood specimen.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">ferritin test</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6397402 -->  <!-- serum transthyretin concentration measurement assay	  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6397402 -->  <!-- blood serum transthyretin concentration measurement assay	  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6397402">
-        <rdfs:label rdf:datatype="&xsd;string">serum transthyretin concentration measurement assay</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">blood serum transthyretin concentration measurement assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
-        <skos:definition rdf:datatype="&xsd;string">Serum transthyretin concentration measurement assay is a measurement assay that determines the amount of the transthyretin (pre-albumin) in blood serum derived from the portion of human venous or arterial blood specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood serum transthyretin concentration measurement assay is a clinical chemistry assay that determines the concentration of the transthyretin (pre-albumin) in blood serum derived from the portion of human venous or arterial blood specimen.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">transthyretin test</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">serum prealbumin concentration measurement assay</skos:altLabel>
@@ -8049,12 +8019,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>   
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3199939 -->  <!-- serum albumin concentration measurement assay	  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3199939 -->  <!-- blood serum albumin concentration measurement assay	  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3199939">
-        <rdfs:label rdf:datatype="&xsd;string">serum albumin concentration measurement assay</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">blood serum albumin concentration measurement assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
-        <skos:definition rdf:datatype="&xsd;string">Serum albumin concentration measurement assay is an analyte assay that determines the amount of the albumin in blood serum that is derived from the portion of human venous or arterial blood specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood serum albumin concentration measurement assay is an analyte assay that determines the concentration of the albumin in blood serum that is derived from the portion of human venous or arterial blood specimen.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">serum albumin test</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood albumin test</skos:altLabel>
@@ -16038,27 +16008,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
      <!--  	ONSTR OBJECT PROPERTIES	 -->
      
      
-
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3590764 -->  <!-- has cause -->
-
-    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_3590764">
-        <rdfs:label rdf:datatype="&xsd;string">has cause</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">A cause-effect relation between two entities in which the entity X is caused by the existence of the entity Y.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-       <owl:inverseOf rdf:resource="&ONSTR;ONSTR_6264097"/>
-    </owl:ObjectProperty>
-    
-
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6264097 -->  <!-- is cause of -->
-
-    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_6264097">
-        <rdfs:label rdf:datatype="&xsd;string">is cause of</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">A cause-effect relation between two entities in which the entity X is a cause of the existence of the entity Y.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-    </owl:ObjectProperty>
-    
-    
-    
+ 
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5859795 -->  <!-- has finding -->
 
     <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_5859795">
@@ -16076,6 +16026,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
         <owl:inverseOf rdf:resource="&ONSTR;ONSTR_5859795"/>
     </owl:ObjectProperty>
+
 
 <!-- END ALL OBJECT PROPERTIES -->
 
@@ -16153,7 +16104,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 
 
 <!-- This file was created and maintained manually by Snezana Nikolic and ONSTR curators.
-Much love/light to All !!! -->
+Blessings and much love/light to All !!! -->
 
 
 
