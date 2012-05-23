@@ -6280,7 +6280,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4137435">
         <rdfs:label rdf:datatype="&xsd;string">body mass</rdfs:label>
     	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/ -->
-    	
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -6293,8 +6292,6 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-    	
-    	
         <skos:definition rdf:datatype="&xsd;string">Body mass is human body quality that inheres in human body by virtue of the body's proportion of the amount of matter (i.e. the total amount of matter in human body).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/VT/VT_0001259</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">human body mass</skos:altLabel>
@@ -6442,7 +6439,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3215569">
         <rdfs:label rdf:datatype="&xsd;string">age at follow-up visit measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>
-        <skos:definition rdf:datatype="&xsd;string">Age at follow-up visit measurement datum is age since birth measurement datum that is the result of measurement of the amount of time a human patient has been living until the day of follow-up during which the age measurement is been performed.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Age at follow-up visit measurement datum is age since birth measurement datum that is the result of measurement of the amount of time a human patient has been living until the day of follow-up visit during which the age measurement is been performed.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -6470,10 +6467,10 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5773210 --> <!-- phenotypic sex information -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5773210 --> <!-- phenotypic sex datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5773210">
-        <rdfs:label rdf:datatype="&xsd;string">phenotypic sex information</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">phenotypic sex datum</rdfs:label>
     	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/ -->
     	<owl:equivalentClass>
             <owl:Class>
@@ -6486,7 +6483,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-    	<skos:definition rdf:datatype="&xsd;string">Phenotypic sex information is a data item that provides information about the phenotypical sex quality of a human patient.</skos:definition>
+    	<skos:definition rdf:datatype="&xsd;string">Phenotypic sex datum is a data item that provides information about the phenotypical sex quality of a human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">phenotypical sex information</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -6547,14 +6544,13 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5646467 --> <!-- head circumference at physical examination measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5646467">
-        <rdfs:label rdf:datatype="&xsd;string">head circumference at physical examination measurement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">head circumference at follow-up visit measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2150908"/>
-        <skos:definition rdf:datatype="&xsd;string">Head circumference at physical examination measurement datum is a head circumference measurement datum that is the result of the head circumference measurement assay during physical examination at each scheduled patient visit.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Head circumference at follow-up visit measurement datum is a head circumference measurement datum that is the result of the head circumference measurement assay during physical examination at each scheduled patient follow-up visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
-    
-    
+   
     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8762724 --> <!-- body mass measurement datum -->
 
@@ -6596,7 +6592,7 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0901764 --> <!-- body mass at birth measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0901764">
-        <rdfs:label rdf:datatype="&xsd;string">body mass at birth measurement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">body mass at birth visit measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8762724"/>
         <skos:definition rdf:datatype="&xsd;string">Body mass at birth measurement datum is body mass measurement datum that is the result of mass measurement assay of human body performed shortly after birth.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
@@ -6604,12 +6600,12 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7469225 --> <!-- body mass at physical examination measurement datum -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7469225 --> <!-- body mass at follow-up visit measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7469225">
-        <rdfs:label rdf:datatype="&xsd;string">body mass at physical examination measurement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">body mass at follow-up visit measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8762724"/>
-        <skos:definition rdf:datatype="&xsd;string">Body mass at physical examination measurement datum is body mass measurement datum that is the result of mass measurement assay of human body performed during physical examination at each scheduled patient visit.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Body mass at follow-up visit measurement datum is body mass measurement datum that is the result of mass measurement assay of human body height performed during physical examination at each scheduled patient follow-up visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -7938,38 +7934,41 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6358913 -->  <!-- PKU food intake record  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6358913 -->  <!-- food intake record  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6358913">
-        <rdfs:label rdf:datatype="&xsd;string">PKU food intake record</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">food intake record</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
-        <skos:definition rdf:datatype="&xsd;string">PKU food intake record is an information content entity that is the output of food intake recording, and contains information about the types and amounts of food items, and the estimated quantity of phenylalanine taken per food item a patient has taken in a specified time interval (last 24 hours, one day, two consecutive days or three consecutive days). The patient related information contained in the PKU food intake record are: patient&apos;s name, date of birth, body height and weight (body mass measurement), information about taken prescribed medications and dietary supplements, prescribed pharmacological therapy, prescribed medical food etc.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Food intake record is an information content entity that is the output of food intake recording, and that contains the information about the types and quantites of food items, nutritional supplements, medical foods, food-amino acid excahnges patient has consumed in a time interval relevant for dietary analysis (last 24 hours, one, two or three consacutive days). Food intake record also contains other patient related information such as patient&apos;s name, date of birth, body height and weight, prescribed and taken medications.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">phenylketonuria food intake record</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5837093 -->  <!-- 24 hour recall PKU food intake record  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5837093 -->  <!-- 24 hour recall food intake record  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5837093">
-        <rdfs:label rdf:datatype="&xsd;string">24 hour recall PKU food intake record</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">24 hour recall food intake record</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/>
-        <skos:definition rdf:datatype="&xsd;string">24 hour recall PKU food intake record is a PKU food intake record completed by a patient or patient parent  and dietitian, and that contains information about the types and amounts of food items, and the estimated quantity of phenylalanine taken per food item a patient or patient&apos;s parent can recall the patient has taken in the last 24 hours prior to the PKU follow up visit.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">24 hour recall food intake record is a food intake record completed by a patient or patient parent or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges a patient or patient&apos;s parent can recall the patient has consumed in the last 24 hours prior to the follow-up visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">24 hour recall phenylketonuria food intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">24 hour recall food inatke</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">24 hour recall food intake record</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1409233 -->  <!-- one day PKU food intake record  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1409233 -->  <!-- one day food intake record  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1409233">
-        <rdfs:label rdf:datatype="&xsd;string">one day PKU food intake record</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">one day food intake record</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/>
-        <skos:definition rdf:datatype="&xsd;string">One day PKU food intake record is a PKU food intake record completed by a patient or patient&apos;s parent and a dietitian, and that contains information about the types and amounts of food items, and the estimated quantity of phenylalanine taken per food item the patient has taken in a specified one day time interval prior to the PKU follow up visit.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">One day food intake record is a food intake record completed by a patient or patient parent or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges the patient has consumed in one day time interval prior to the follow-up visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">one day phenylketonuria food intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day food intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day food intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">one day food intake record</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -7977,23 +7976,25 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2560230 -->  <!-- two day PKU food intake record  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2560230">
-        <rdfs:label rdf:datatype="&xsd;string">two day PKU food intake record</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">two day food intake record</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/>
-        <skos:definition rdf:datatype="&xsd;string">Two day PKU food intake record is a PKU food intake record completed by a patient or patient parent and dietitian, and contains information about the types and amounts of food items, and the estimated quantity of phenylalanine taken per food item the patient has taken in a specified two day time interval prior to the PKU follow up visit.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Two day food intake record is a food intake record completed by a patient or patient parent or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges the patient has consumed in two day time interval prior to the follow-up visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">two day phenylketonuria food intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">two day food intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">two day food intake</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3747018 -->  <!-- three day PKU food intake record  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3747018 -->  <!-- three day food intake record  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3747018">
-        <rdfs:label rdf:datatype="&xsd;string">three day PKU food intake record</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">three day food intake record</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/>
-        <skos:definition rdf:datatype="&xsd;string">Three day PKU food intake record is a PKU food intake record completed by a patient or patient parent  and dietitian, and contains information about the types and amounts of food items, and the estimated quantity of phenylalanine taken per food item the patient has taken in a specified three day time interval prior to the PKU follow up visit.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Three day food intake record is a food intake record completed by a patient or patient parent or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges the patient has consumed in two day time interval prior to the follow-up visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">three day phenylketonuria food intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">three day food intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">three day food intake</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
@@ -8765,7 +8766,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3782257">
         <rdfs:label rdf:datatype="&xsd;string">amino acid exchange unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
-        <skos:definition rdf:datatype="&xsd;string">Amino acid exchange unit is a derived unit denoting the quantity of food (or food items) that contain certain number of mass units of a given amino acid.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Amino acid exchange unit is a derived unit denoting the number of grams of a given amino acid contained in consumable food items.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -8776,7 +8777,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7955210">
         <rdfs:label rdf:datatype="&xsd;string">phenylalanine exchange unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3782257"/>
-        <skos:definition rdf:datatype="&xsd;string">Phenylalanine exchange unit is an amino acid content exchange unit denoting the quantity of food (or food items) containing 15 milligrams of the amino acid L-phenylalanine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Phenylalanine exchange unit is an amino acid exchange unit that is equal to 15 milligrams of the amino acid L-phenylalanine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Singh, R., Lesperance, E., Crawford, K. (2001) PKU food list. Keeping track of the foods you eat. Emory University, Department of Human Genetics, Division of Medical Genetics, pp.3.</rdfs:comment>  
         <skos:altLabel rdf:datatype="&xsd;string">Phe-exchange unit</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine exchange</skos:altLabel>
@@ -8789,7 +8790,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0500010">
         <rdfs:label rdf:datatype="&xsd;string">leucine exchange unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3782257"/>
-        <skos:definition rdf:datatype="&xsd;string">Leucine exchange unit is an amino acid content exchange unit denoting the quantity of food (or food items) containing 30 milligrams of the amino acid leucine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Leucine exchange unit is an amino acid exchange unit that is 30 milligrams of the amino acid leucine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Rani H. Singh.</rdfs:comment>  
         <skos:altLabel rdf:datatype="&xsd;string">Leu-exchange unit</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">leucine exchange</skos:altLabel>
@@ -8890,8 +8891,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9005768">
         <rdfs:label rdf:datatype="&xsd;string">ounce</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&obo;UO_0000002"/>
-        <skos:definition rdf:datatype="&xsd;string">Ounce is a mass unit that is a non standard unit of mass used in the imperial and United States customary system of measurement units and that is equal to one sixteenth of avoirdupois pound or 28.3945 grams of the International system of units (SI).</skos:definition>
+		<rdfs:subClassOf rdf:resource="&obo;UO_0000002"/> <!-- mass unit -->
+        <skos:definition rdf:datatype="&xsd;string">Ounce is a mass unit that is a unit of mass used in the imperial and United States customary system of measurement units and that is equal to one sixteenth of avoirdupois pound or 28.3945 grams of the International system of units (SI).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Ounce</rdfs:comment>   
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Ounce#International_avoirdupois_ounce</rdfs:comment>     
         <skos:altLabel rdf:datatype="&xsd;string">oz</skos:altLabel>
@@ -8909,7 +8910,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0855004">
         <rdfs:label rdf:datatype="&xsd;string">fluid ounce</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&obo;UO_0000095"/>
-        <skos:definition rdf:datatype="&xsd;string">Fluid ounce is a volume unit that is a non standard unit of volume equal to one eight (1/8) of the United States gallon or 29.57352 milliliters (or the same number of cubic centimeters (cm^3)) of the International System of Units.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Fluid ounce is a volume unit that is a non-standard unit of volume equal to one eight (1/8) of the United States gallon or 29.57352 milliliters (or the same number of cubic centimeters (cm^3)) of the International System of Units.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Fluid_ounce</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Fluid_ounce</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">FL OZ</skos:altLabel>
@@ -9006,6 +9007,40 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
            
+           
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2504398-->  <!-- pound -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2504398">
+        <rdfs:label rdf:datatype="&xsd;string">pound</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;UO_0000002"/>   <!-- mass unit -->     
+        <skos:definition rdf:datatype="&xsd;string">Mass unit is a base unit that is used in the imperial, United States customary and other systems of measurement, and that is equal to 0.45359237 kilograms (kg) of the International System of Measurement or 16 ounces of the US customary system of measurements.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/Pound_(mass)</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thsaurus.owl#Pound</rdfs:comment> 
+        <skos:altLabel rdf:datatype="&xsd;string">LB</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">lb</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">international avoirdupois pound</skos:altLabel>  
+        <skos:altLabel rdf:datatype="&xsd;string">Avoirdupois pound</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">lb av</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">pound-mass</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">lbm</skos:altLabel>          
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9244411-->  <!-- inch -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9244411">
+        <rdfs:label rdf:datatype="&xsd;string">inch</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;UO_0000001"/>  <!-- length unit -->
+        <skos:definition rdf:datatype="&xsd;string">Inch is a length unit that is used in the imperial, United States customary and other systems of measurement, and that is equal to 24.5 millimeters (mm) of the International System of Measurement or 1/36 of a yard, or 1/12 of a foot in of the US customary system of measurements.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/Inch</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thsaurus.owl#Inch</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">in</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string"> " </skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">international inch</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
     
      <!-- MERE OVDE -->
     
@@ -16090,8 +16125,62 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
        
+        
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9545140 -->  <!-- dietary consumption datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9545140">
+        <rdfs:label rdf:datatype="&xsd;string">dietary consumption datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/> <!-- IAO:data item, for now!!! maybe scalar later -->
+        <skos:definition rdf:datatype="&xsd;string">Dietary consumption datum is a data item providing the information about the kinds and quantities of food items and dietary supplements consumed (ingested) by a human patient during the time interval relevant for dietary analysis.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
      
-<!-- Kraj Ovde -->
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5171079 -->  <!-- consumed food item datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5171079">
+        <rdfs:label rdf:datatype="&xsd;string">consumed food item datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9545140"/> 
+        <skos:definition rdf:datatype="&xsd;string">Consumed food item quantity datum is a dietary consumption measurement datum providing the information about the name and the quantity of each particular food item consumed (ingested) by a human patient during the time interval relevant for dietary analysis.</skos:definition>
+        <skos:example rdf:datatype="&xsd;string">Apple juice 4 floz, strawberry 42 grams, gel cup 1 cup, hard candy 1 piece.</skos:example>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1017357 -->  <!-- consumed food item datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1017357">
+        <rdfs:label rdf:datatype="&xsd;string">consumed dietary supplement datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9545140"/> 
+        <skos:definition rdf:datatype="&xsd;string">Consumed dietary supplement datum is a dietary consumption measurement datum providing the information about the kinds and quantities of dietary supplements consumed (ingested) by a human patient during the time interval relevant for the dietary analysis.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7240990 -->  <!-- food-amino acid exchange datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7240990">
+        <rdfs:label rdf:datatype="&xsd;string">food-amino acid exchange datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9545140"/> 
+        <skos:definition rdf:datatype="&xsd;string">Food-amino acid exchange datum is a dietary consumption datum providing the information about the number of amino acid exchange units corresponding to each listed food item consumed by a patient  during the time interval relevant for the dietary analysis.</skos:definition> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2850127 -->  <!-- consumed nutritional formula datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2850127">
+        <rdfs:label rdf:datatype="&xsd;string">consumed nutritional formula datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9545140"/>
+        <skos:definition rdf:datatype="&xsd;string">Consumed nutritional formula datum is a dietary consumption datum providing the information about the kind and the quantity of nutritional formula consumed by a patient  during the time interval relevant for the dietary analysis.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+<!-- Klase Ovde -->
 
 
 
