@@ -259,6 +259,16 @@
     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Protein Ontology (PR)</skos:editorialNote>
    </owl:Class>
    
+   
+   <!-- http://purl.obolibrary.org/obo/pr.owl#PR_000003918 -->   <!-- serum albumin -->
+   
+   	<owl:Class rdf:about="&PRO;PR_000003918">
+   		<rdfs:label rdf:datatype="&xsd;string">serum albumin</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&PRO;PR_000000001"/>
+       	<skos:definition rdf:datatype="&xsd;string">A protein that is a translation product of the ALB gene or an 1:1 ortholog thereof.</skos:definition>
+       	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Protein Ontology (PR)</skos:editorialNote>
+   </owl:Class>
+   
 
     <!-- http://purl.obolibrary.org/obo/pr.owl#PR_000012234 -->   <!-- phenylalanine-4-hydroxylase -->
    
@@ -5628,17 +5638,57 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3916451">
         <rdfs:label rdf:datatype="&xsd;string">blood plasma penylalanine concentration measurement datum</rdfs:label>
-        <owl:equivalentClass>
+       <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->
+         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentration measur datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output -->
+                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6285423"/> <!-- blood plasma Phe concentration measur assay --> 
+                    	</owl:Restriction>
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
+                        		<owl:someValuesFrom>
+                            		<owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                        	<rdf:Description rdf:about="&obo;CHEBI_28044"/> <!-- phenylalanine  -->
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- has quality -->
+                                        				<owl:someValuesFrom>
+                                            				<owl:Class>
+                                                				<owl:intersectionOf rdf:parseType="Collection">
+                                                    				<rdf:Description rdf:about="&PATO;PATO_0000033"/>  <!-- concentration of -->
+                                        	                        <owl:Restriction>
+                                                        				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
+                                                        			    <owl:someValuesFrom rdf:resource="&obo;OBI_0100016"/> <!-- blood plasma specimen -->
+                                        	                        </owl:Restriction>
+																 </owl:intersectionOf>
+															</owl:Class>
+											            </owl:someValuesFrom>
+					                            </owl:Restriction>											
+										 </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+ 						</owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output of -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6285423"/>  <!-- blood plasma Phe concentr measur assay -->
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5263648"/>  <!-- miligram per dL -->
+                                	    <rdf:Description rdf:about="&obo;UO_0000063"/>  <!-- microMol per L = micromolar -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
                     </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+ 						<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        	<owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    	</owl:Restriction>
+ 			      </owl:intersectionOf>
+ 			</owl:Class>
+ 	    </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Blood plasma phenylalanine concentration mesasurement datum is a concentration measurement datum that is the output of the blood plasma phenylalanine concentration measurement assay that measures the concentration of the amino acid phenylalanine in blood plasma specimen.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -5649,17 +5699,57 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0630865">
         <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration mesasurement datum</rdfs:label>
-        <owl:equivalentClass>
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->
+         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/> <!-- concentration measurement datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output -->
+                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0114258"/> <!-- blood Phe concentration measur assay --> 
+                    	</owl:Restriction>
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
+                        		<owl:someValuesFrom>
+                            		<owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                        	<rdf:Description rdf:about="&obo;CHEBI_28044"/> <!-- phenylalanine  -->
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- has quality -->
+                                        				<owl:someValuesFrom>
+                                            				<owl:Class>
+                                                				<owl:intersectionOf rdf:parseType="Collection">
+                                                    				<rdf:Description rdf:about="&PATO;PATO_0000033"/>  <!-- concentration of -->
+                                        	                        <owl:Restriction>
+                                                        				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
+                                                        			    <owl:someValuesFrom rdf:resource="&obo;OBI_0000655"/> <!-- blood specimen -->
+                                        	                        </owl:Restriction>
+																 </owl:intersectionOf>
+															</owl:Class>
+											            </owl:someValuesFrom>
+					                            </owl:Restriction>											
+										 </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+ 						</owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0114258"/> <!-- blood Phe concentration measur assay --> 
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5263648"/>  <!-- miligram per dL -->
+                                	    <rdf:Description rdf:about="&obo;UO_0000063"/>  <!-- microMol per L = micromolar -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
                     </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+ 						<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        	<owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    	</owl:Restriction>
+ 			      </owl:intersectionOf>
+ 			</owl:Class>
+ 	    </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration mesasurement datum is a concentration measurement datum that is the output of the blood phenylalanine concentration measurement assay that measures the concentration of the amino acid phenylalanine in human blood.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition needs fixing, or maybe this class needs to be deprecated.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
@@ -5684,17 +5774,57 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1115755">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration measurement datum</rdfs:label>
-        <owl:equivalentClass>
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->
+         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/> <!-- clinical chemistry assay -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output -->
+                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2219307"/> <!-- CSF Phe concentration measur assay --> 
+                    	</owl:Restriction>
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
+                        		<owl:someValuesFrom>
+                            		<owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                        	<rdf:Description rdf:about="&obo;CHEBI_28044"/> <!-- phenylalanine  -->
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- has quality -->
+                                        				<owl:someValuesFrom>
+                                            				<owl:Class>
+                                                				<owl:intersectionOf rdf:parseType="Collection">
+                                                    				<rdf:Description rdf:about="&PATO;PATO_0000033"/>  <!-- concentration of -->
+                                        	                        <owl:Restriction>
+                                                        				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
+                                                        			    <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2889784"/> <!-- CSF specimen -->
+                                        	                        </owl:Restriction>
+																 </owl:intersectionOf>
+															</owl:Class>
+											            </owl:someValuesFrom>
+					                            </owl:Restriction>											
+										 </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+ 						</owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>    <!-- is specf output -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2219307"/>  <!-- CSF Phe concentr measur assay -->
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5263648"/>  <!-- miligram per dL -->
+                                	    <rdf:Description rdf:about="&obo;UO_0000063"/>  <!-- microMol per L = micromolar -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
                     </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+ 						<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        	<owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    	</owl:Restriction>
+ 			      </owl:intersectionOf>
+ 			</owl:Class>
+ 	    </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid phenylalanine concentration mesasurement datum is a concentration measurement datum that is the output of the cerebrospinal fluid phenylalanine concentration measurement assay that measures the concentration of the amino acid phenylalanine in human cerebrospinal fluid.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -7929,12 +8059,55 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9906490 -->  <!-- serum ferritin concentration measurement datum  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9906490 -->  <!-- blood serum ferritin concentration measurement datum  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9906490">
-        <rdfs:label rdf:datatype="&xsd;string">serum ferritin concentration measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>
-        <skos:definition rdf:datatype="&xsd;string">Serum ferritin concentration measurement datum is a concentration measurement datum that is the output of the blood serum ferritin test that measures the concentration of ferritin complex in human blood.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">blood serum ferritin concentration measurement datum</rdfs:label>
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output -->
+                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3075415"/> <!-- blood serum ferritin concentration measur assay --> 
+                    	</owl:Restriction>
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
+                        		<owl:someValuesFrom>
+                            		<owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                        	<rdf:Description rdf:about="&ONSTR;ONSTR_2707948"/> <!-- ferritin complex  -->
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- has quality -->
+                                        				<owl:someValuesFrom>
+                                            				<owl:Class>
+                                                				<owl:intersectionOf rdf:parseType="Collection">
+                                                    				<rdf:Description rdf:about="&PATO;PATO_0000033"/>  <!-- concentration of -->
+                                        	                        <owl:Restriction>
+                                                        				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
+                                                        			    <owl:someValuesFrom rdf:resource="&obo;OBI_0100017"/> <!-- blood serum specimen = thing 2 -->
+                                        	                        </owl:Restriction>
+																 </owl:intersectionOf>
+															</owl:Class>
+											            </owl:someValuesFrom>
+					                            </owl:Restriction>											
+										 </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+ 						</owl:Restriction>
+ 						<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_9424813"/> <!-- nanogram per mL -->
+ 						</owl:Restriction>
+ 						<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        	<owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    	</owl:Restriction>
+ 			      </owl:intersectionOf>
+ 			</owl:Class>
+ 	    </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Blood serum ferritin concentration measurement datum is a concentration measurement datum that is the output of the blood serum ferritin test that measures the concentration of ferritin complex in human blood.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Ferritin</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.prospecbio.com/Ferritin_Human_10_177</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">The serum ferritin level (the amount of ferriting in the blood) is directly related to the amount of iron stored in the body. [source: http://www.prospecbio.com/Ferritin_Human_10_177]</rdfs:comment>    
@@ -7944,12 +8117,55 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7654391 -->  <!-- serum transthyretin concentration measurement datum  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7654391 -->  <!-- blood serum transthyretin concentration measurement datum  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7654391">
-        <rdfs:label rdf:datatype="&xsd;string">serum transthyretin concentration measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>
-        <skos:definition rdf:datatype="&xsd;string">Serum transthyretin concentration measurement datum is a concentration measurement datum that is the output of the transthyretin measurement assay that measures the concentration of transthyretine (pre-albumin) in human blood.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">blood serum transthyretin concentration measurement datum</rdfs:label>
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output -->
+                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6397402"/> <!-- blood serum transthyretin concentration measur assay --> 
+                    	</owl:Restriction>
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
+                        		<owl:someValuesFrom>
+                            		<owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                        	<rdf:Description rdf:about="&ONSTR;ONSTR_5107576"/> <!-- transthyretin complex = pre-albumin -->
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- has quality -->
+                                        				<owl:someValuesFrom>
+                                            				<owl:Class>
+                                                				<owl:intersectionOf rdf:parseType="Collection">
+                                                    				<rdf:Description rdf:about="&PATO;PATO_0000033"/>  <!-- concentration of -->
+                                        	                        <owl:Restriction>
+                                                        				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
+                                                        			    <owl:someValuesFrom rdf:resource="&obo;OBI_0100017"/> <!-- blood serum specimen = thing 2 -->
+                                        	                        </owl:Restriction>
+																 </owl:intersectionOf>
+															</owl:Class>
+											            </owl:someValuesFrom>
+					                            </owl:Restriction>											
+										 </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+ 						</owl:Restriction>
+ 						<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5263648"/> <!-- miligram per dL -->
+ 						</owl:Restriction>
+ 						<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        	<owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    	</owl:Restriction>
+ 			      </owl:intersectionOf>
+ 			</owl:Class>
+ 	    </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Blood serum transthyretin concentration measurement datum is a concentration measurement datum that is the output of the transthyretin measurement assay that measures the concentration of transthyretine (pre-albumin) in human blood.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">blood (serum) prealbumin measurement datum</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood serum TTR measurement datum</skos:altLabel>
@@ -7964,7 +8180,50 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0232327">
         <rdfs:label rdf:datatype="&xsd;string">blood serum albumin concentration measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->
+    	<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output -->
+                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3199939"/> <!-- blood serum albumin concentration measur assay --> 
+                    	</owl:Restriction>
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
+                        		<owl:someValuesFrom>
+                            		<owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                        	<rdf:Description rdf:about="&PRO;PR_000003918"/> <!-- albumin  -->
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- has quality -->
+                                        				<owl:someValuesFrom>
+                                            				<owl:Class>
+                                                				<owl:intersectionOf rdf:parseType="Collection">
+                                                    				<rdf:Description rdf:about="&PATO;PATO_0000033"/>  <!-- concentration of -->
+                                        	                        <owl:Restriction>
+                                                        				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
+                                                        			    <owl:someValuesFrom rdf:resource="&obo;OBI_0100017"/> <!-- blood serum specimen = thing 2 -->
+                                        	                        </owl:Restriction>
+																 </owl:intersectionOf>
+															</owl:Class>
+											            </owl:someValuesFrom>
+					                            </owl:Restriction>											
+										 </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+ 						</owl:Restriction>
+ 						<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    	<owl:someValuesFrom rdf:resource="&obo;UO_0000208"/> <!-- gram per gL -->
+ 						</owl:Restriction>
+ 						<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        	<owl:someValuesFrom rdf:resource="&xsd;decimal"/>
+                    	</owl:Restriction>
+ 			      </owl:intersectionOf>
+ 			</owl:Class>
+ 	    </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Blood serum albumin concentration measurement datum is a concentration measurement datum that is the output of the serum albumin concentration assay measures the concentration of the albumin in human blood.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">albumin measurement</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">albumin level</skos:altLabel>
@@ -8001,6 +8260,21 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
      
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5107576 -->  <!-- transthyretin complex  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5107576">
+        <rdfs:label rdf:datatype="&xsd;string">transthyretin complex</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&GO;GO_0043234"/>
+    	<skos:definition rdf:datatype="&xsd;string">Transthyretin complex is a protein complex that is a homotetramer with dimer of dimers quaternary structure (each monomer being a single transthyretin protein). Transthyretin complex is sythetized in the liver, choroid plexus of brain ventricles and retinal pigment epithelium for secretion into the blood, cerebrospinal fluid and the eye, respectively.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Transthyretin</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Transthyretin (transthyretin protein and transthyretin protein complex) has previously been called &apos;pre-albumin&apos;, because it ran faster than albumin on electrophoresis gels. [Source:  http://en.wikipedia.org/wiki/Transthyretin ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">To be replaced by the corresponding imported PRO class, if/when PRO asserts one.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">TTR</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">TTR complex</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+    	 
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6397402 -->  <!-- blood serum transthyretin concentration measurement assay	  -->
 
@@ -8536,15 +8810,15 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9424813 -->  <!-- nanogram per deciliter  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9424813 -->  <!-- nanogram per mililiter  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9424813">
-        <rdfs:label rdf:datatype="&xsd;string">nanogram per deciliter</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">nanogram per mililiter</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000052"/>
-        <skos:definition rdf:datatype="&xsd;string">Nanogram per deciliter is a mass density unit which is equal to mass of an object expressed in nanograms divided by the volume in expressed in deciliters.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nanogram per mililiter is a mass density unit which is equal to mass of an object expressed in nanograms divided by the volume in expressed in mililiters.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
-        <skos:altLabel rdf:datatype="&xsd;string">ng/dL</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">ng/dl</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">ng/mL</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">ng/ml</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
