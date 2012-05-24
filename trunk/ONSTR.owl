@@ -6961,24 +6961,22 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7294200">
         <rdfs:label rdf:datatype="&xsd;string">body mass index calculation</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
-    	
+    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/ -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;OBI_0200000"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_8762724"/>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>  <!-- has specif input -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_8762724"/>  <!-- body mass measur datum -->
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7664189"/>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>    <!-- has specif input -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7664189"/> <!-- body height measur datum -->
                     </owl:Restriction>
-                    
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000417"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_9799826"/>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000417"/>  <!-- achieves planned objective -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_9799826"/> <!-- BMI calc objective -->
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -7916,7 +7914,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5288942">
         <rdfs:label rdf:datatype="&xsd;string">food intake recording</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/ -->
+    	 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0000011"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000417"/>  <!-- achieves planned objective -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0287800"/> <!-- food intake recording objective -->
+                    </owl:Restriction>
+                </owl:intersectionOf> 
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Food intake recording is a planned process of obtaining information from a patient or patient's parent about food items taken by a patient within a specific time interval (last 24 hours, one day, two days, three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -8016,7 +8025,22 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6867187">
         <rdfs:label rdf:datatype="&xsd;string">dietary intake analysis</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0200000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000417"/>  <!-- achieves planned objective -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5763854"/> <!-- dietary intake analysis objective -->
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>  <!-- has specif input -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_9545140"/>  <!-- dietary consumption datum -->
+                    </owl:Restriction>
+                </owl:intersectionOf> 
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Dietary intake analysis is a data transformation performed by nutrient analyzer software where the data transformation inputs are the type and quantity of food items been taken and outputs of the analysis are the quantity and the energy value of nutrients contained in the food item(s) been analyzed.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">nutritional analysis</skos:altLabel>
@@ -11715,7 +11739,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0193925">
         <rdfs:label rdf:datatype="&xsd;string">nutrient</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+		<!-- rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/ -->
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;BFO_0000040"/>  <!-- bfo:material ent  -->
+                    <owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;BFO_0000087"/>  <!-- has role -->
+                        	<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
+                    	</owl:Restriction>
+				</owl:intersectionOf>
+		  </owl:Class>
+       </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Nutrient is a material entity that is a proper part of a nutritional item (food item, dietary supplement, medical food, special nutrition formula or parenteral nutrition solution) that is introduced into and used by body to produce energy, build body tissues, stimulate growth and maintain homeostasis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11748,7 +11783,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6008758">
         <rdfs:label rdf:datatype="&xsd;string">meal</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/> 
+		<!-- rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/ --> 
+	    <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;BFO_0000040"/>  <!-- bfo:material ent -->
+                    <owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;BFO_0000051"/>  <!-- has part -->
+                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1286193"/>  <!-- food item -->
+                    	</owl:Restriction>
+				</owl:intersectionOf>
+		  </owl:Class>
+       </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Meal is a collection of food items (consisting of at least one food item) ingested by an organism that occurs by custom or habit at more or less fixed times of the day. The amount and type of food items largely depends on personal and cultural customs and habits and varies over a lifetime.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Meal</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
@@ -15869,7 +15915,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5692828">
         <rdfs:label rdf:datatype="&xsd;string">nutritional item</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+		<!-- rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/ -->
+	    <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;BFO_0000040"/>  <!-- bfo:material ent -->
+                    <owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;BFO_0000051"/>  <!-- has part -->
+                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0193925"/>  <!-- nutrient -->
+                    	</owl:Restriction>
+				</owl:intersectionOf>
+		  </owl:Class>
+       </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Nutritional item is a material entity that contains nutrients and may contain non-dietary ingredients (fillers, artificial colors, sweeteners, flavors or binders) and that is administered into the human body enterally or parenterally. </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ods.od.nih.gov/factsheets/DietarySupplements/#3</rdfs:comment>    
@@ -16127,10 +16184,38 @@ people infected, then extract parasite which are then tested = observation study
        
         
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9545140 -->  <!-- dietary consumption datum  -->
-
     <owl:Class rdf:about="&ONSTR;ONSTR_9545140">
         <rdfs:label rdf:datatype="&xsd;string">dietary consumption datum</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/> <!-- IAO:data item, for now!!! maybe scalar later -->
+        <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/ --> <!-- IAO:data item, for now!!! maybe scalar later -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000027"/>  <!-- data item -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output of -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5288942"/>  <!-- food intake recording -->
+                    </owl:Restriction>
+                     <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>  <!-- is part of -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6358913"/> <!-- food intake record -->
+                    </owl:Restriction>
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_5692828"/> <!-- nutritional item -->
+                   				    <owl:Restriction>
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000056"/> <!-- participates in -->
+                    					<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6680350"/> <!-- enteral administration -->
+                    			     </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                     </owl:Restriction>   
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Dietary consumption datum is a data item providing the information about the kinds and quantities of food items and dietary supplements consumed (ingested) by a human patient during the time interval relevant for dietary analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -16160,12 +16245,24 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7240990 -->  <!-- food-amino acid exchange datum  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7240990 -->  <!-- food item-amino acid exchange datum  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7240990">
-        <rdfs:label rdf:datatype="&xsd;string">food-amino acid exchange datum</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9545140"/> 
-        <skos:definition rdf:datatype="&xsd;string">Food-amino acid exchange datum is a dietary consumption datum providing the information about the number of amino acid exchange units corresponding to each listed food item consumed by a patient  during the time interval relevant for the dietary analysis.</skos:definition> 
+        <rdfs:label rdf:datatype="&xsd;string">food item-amino acid exchange datum</rdfs:label>  
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9545140"/ --> 
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9545140"/>  <!-- the super class -->
+                    <rdf:Description rdf:about="&obo;IAO_0000032"/>  <!-- scalar measur datum -->
+				    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measur unit label -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3782257"/> <!--  amino acid exchange unit -->
+                    </owl:Restriction>
+				</owl:intersectionOf>
+           </owl:Class>
+       </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Food item-amino acid exchange datum is a dietary consumption datum providing the information about the number of amino acid exchange units corresponding to each listed food item consumed by a patient  during the time interval relevant for the dietary analysis.</skos:definition> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
