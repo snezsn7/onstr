@@ -14753,13 +14753,24 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5604042-->  <!-- estimated average nutrient requirement for non-pregnant non-lactating female population  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5604042">
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for non-pregnant non-lactating female population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5141147"/>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for non-pregnant non-lactating female population is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of healthy non-pregnant non-lactating female population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
         
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7626463 -->  <!-- estimated average nutrient requirement for female population age 9-to-13 years -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7626463">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population age 9-to-13 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5141147"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 9-to-13 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 9 to 13 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5604042"/>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 9-to-13 years is an estimated average nutrient requirement for non-pregnant non-lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 9 to 13 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14769,8 +14780,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4992745">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population age 14-to-18 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5141147"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 14-to-18 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 14 to 18 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5604042"/>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 14-to-18 years is an estimated average nutrient requirement for non-pregnant non-lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 14 to 18 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14780,8 +14791,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6507737">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population age 19-to-30 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5141147"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 19-to-30 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 19 to 30 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5604042"/>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 19-to-30 years is an estimated average nutrient requirement for non-pregnant non-lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 19 to 30 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14791,8 +14802,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8965164">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population age 31-to-50 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5141147"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 31-to-50 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 31 to 50 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5604042"/>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 31-to-50 years is an estimated average nutrient requirement for non-pregnant non-lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 31 to 50 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14802,8 +14813,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0726216">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population age 51-to-70 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5141147"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 51-to-70 years is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 51 to 70 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5604042"/>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 51-to-70 years is an estimated average nutrient requirement for non-pregnant non-lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 51 to 70 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14813,8 +14824,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8752766">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for female population age 70 years and older</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5141147"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 70 years and older is an estimated average nutrient requirement for female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 70 years of age and older.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5604042"/>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for female population age 70 years and older is an estimated average nutrient requirement for non-pregnant non-lactating female population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of female population of 70 years of age and older.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15084,13 +15095,25 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+   
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3799714 -->  <!-- recommended dietary allowance for non-pregnant non-lactating female population -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3799714">
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for non-pregnant non-lactating female population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/>  
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for non-pregnant non-lactating female population is a recommended dietary allowance for female population that denotes dietary nutrient intake sufficient to meet requirements of 97-98% of healthy non-pregnant non-lactating female population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0088622 -->  <!-- recommended dietary allowance for female population age 9-to-13 years -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0088622">
         <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for female population age 9-to-13 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/>
-        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 9-to-13 years is a recommended dietary allowance for female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 9 to 13 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3799714"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 9-to-13 years is a recommended dietary allowance for non-pregnant non-lactating female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 9 to 13 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15100,8 +15123,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9086760">
         <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for female population age 14-to-18 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/>
-        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 14-to-18 years is a recommended dietary allowance for female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 14 to 18 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3799714"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 14-to-18 years is a recommended dietary allowance for non-pregnant non-lactating female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 14 to 18 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15111,8 +15134,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8585910">
         <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for female population age 19-to-30 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/> 
-        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 19-to-30 years is a recommended dietary allowance for female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 19 to 30 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3799714"/> 
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 19-to-30 years is a recommended dietary allowance for non-pregnant non-lactating female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 19 to 30 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15122,8 +15145,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6924943">
         <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for female population age 31-to-50 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/> 
-        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 31-to-50 years is a recommended dietary allowance for female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 31 to 50 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3799714"/> 
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 31-to-50 years is a recommended dietary allowance for non-pregnant non-lactating female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 31 to 50 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15133,8 +15156,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2109859">
         <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for female population age 51-to-70 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/> 
-        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 51-to-70 years is a recommended dietary allowance for female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 51 to 70 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3799714"/> 
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 51-to-70 years is a recommended dietary allowance for non-pregnant non-lactating female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population 51 to 70 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15144,8 +15167,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6402533">
         <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for female population age 70 years and older</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5274111"/>
-        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 70 years and older is a recommended dietary allowance for female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population age 70 years and older.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3799714"/>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for female population age 70 years and older is a recommended dietary allowance for non-pregnant non-lactating female population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy female population age 70 years and older.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15415,12 +15438,24 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4846874 -->  <!-- adequate nutrient intake for for non-pregnant non-lactating female population-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4846874">
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for non-pregnant non-lactating female population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for non-pregnant non-lactating female population is an adequate nutrient intake for female population denoting the average daily intake of a nutrient based on the observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for population of healthy non-pregnant non-lactating females.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0001776 -->  <!-- adequate nutrient intake for female population age 9-to-13 years-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0001776">
         <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for female population age 9-to-13 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/>
-        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 9-to-13 years is an adequate nutrient intake for female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 9 to 13 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4846874"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 9-to-13 years is an adequate nutrient intake for non-pregnant non-lactating female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 9 to 13 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15430,8 +15465,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5174122">
         <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for female population age 14-to-18 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/>
-        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 14-to-18 years is an adequate nutrient intake for female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 14 to 18 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4846874"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 14-to-18 years is an adequate nutrient intake for non-pregnant non-lactating female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 14 to 18 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15441,8 +15476,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2841476">
         <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for female population age 19-to-30 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/> 
-        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 19-to-30 years is an adequate nutrient intake for female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 19 to 30 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4846874"/> 
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 19-to-30 years is an adequate nutrient intake for non-pregnant non-lactating female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 19 to 30 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15452,8 +15487,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4636346">
         <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for female population age 31-to-50 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/>
-        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 31-to-50 years is an adequate nutrient intake for female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 31 to 50 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4846874"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 31-to-50 years is an adequate nutrient intake for non-pregnant non-lactating female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 31 to 50 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15463,8 +15498,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3110522">
         <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for female population age 51-to-70 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/>
-        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 51-to-70 years is an adequate nutrient intake for female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 51 to 70 years of age.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4846874"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 51-to-70 years is an adequate nutrient intake for non-pregnant non-lactating female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population 51 to 70 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15474,8 +15509,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7608290">
         <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for female population age 70 years and older</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2324370"/>
-        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 70 years and older is an adequate nutrient intake for female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population age 70 years and older.</skos:definition> 
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4846874"/>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for female population age 70 years and older is an adequate nutrient intake for non-pregnant non-lactating female population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy female population age 70 years and older.</skos:definition> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15739,18 +15774,30 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4516298">
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for female population</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6345843"/> 
-        <skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for female population is an upper tolerable nutrient intake level for population age 9 years and older that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy female population 9 years or older.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8579471 -->  <!-- upper tolerable nutrient intake level for non-pregnant non-lactating female population-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8579471">
+        <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for non-pregnant non-lactating female population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4516298"/>    
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for non-pregnant non-lactating female population is an upper tolerable nutrient intake level for female population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of population of healthy non-pregnant non-lactating females.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1377652 -->  <!-- upper tolerable nutrient intake level for female population age 9-to-13 years-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1377652">
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for female population age 9-to-13 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4516298"/>
-        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for female population age 9-to-13 years is an upper tolerable nutrient intake level for female population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy female population 9 to 13 years of age.</skos:definition>    
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8579471"/>
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for female population age 9-to-13 years is an upper tolerable nutrient intake level for non-pregnant non-lactating female population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy female population 9 to 13 years of age.</skos:definition>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15760,8 +15807,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3368970">
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for female population age 14-to-18 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4516298"/>
-        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for female population age 14-to-18 years is an upper tolerable nutrient intake level for female population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy female population 14 to 18 years of age.</skos:definition>    
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8579471"/>
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for female population age 14-to-18 years is an upper tolerable nutrient intake level for non-pregnant non-lactating female population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy female population 14 to 18 years of age.</skos:definition>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15771,8 +15818,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9828768">
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for female population age 19-to-30 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4516298"/>
-        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for female population age 19-to-30 years is an upper tolerable nutrient intake level for female population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy female population 19 to 30 years of age.</skos:definition>    
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8579471"/>
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for female population age 19-to-30 years is an upper tolerable nutrient intake level for non-pregnant non-lactating female population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy female population 19 to 30 years of age.</skos:definition>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15782,8 +15829,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8359675">
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for female population age 31-to-50 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4516298"/>
-        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for female population age 31-to-50 years is an upper tolerable nutrient intake level for female population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy female population 31 to 50 years of age.</skos:definition>    
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8579471"/>
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for female population age 31-to-50 years is an upper tolerable nutrient intake level for non-pregnant non-lactating female population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy female population 31 to 50 years of age.</skos:definition>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15793,8 +15840,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4998021">
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for female population age 51-to-70 years</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4516298"/>
-        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for female population age 51-to-70 years is an upper tolerable nutrient intake level for female population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy female population 51 to 70 years of age.</skos:definition>    
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8579471"/>
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for female population age 51-to-70 years is an upper tolerable nutrient intake level for non-pregnant non-lactating female population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy female population 51 to 70 years of age.</skos:definition>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15804,8 +15851,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8449792">
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for female population age 70 years and older</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4516298"/>
-        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for female population age 70 years and older is an upper tolerable nutrient intake level for female population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy female population age 70 years and older.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8579471"/>
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for female population age 70 years and older is an upper tolerable nutrient intake level for non-pregnant non-lactating female population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy female population age 70 years and older.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
