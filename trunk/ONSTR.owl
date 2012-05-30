@@ -11,14 +11,14 @@
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY obo  "http://purl.obolibrary.org/obo/">  <!-- Most of OBOFoundry ontos -->
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY ONSTR "http://onstr.googlecode.com/svn/trunk/ONSTR.owl#" >
-    <!ENTITY GO "http://purl.org/obo/owl/GO#">
-    <!ENTITY PRO "http://purl.obolibrary.org/obo/pr.owl#">
-    <!ENTITY PATO "http://purl.org/obo/owl/PATO#">
+    <!ENTITY ONSTR "http://onstr.googlecode.com/svn/trunk/ONSTR.owl#" >  
+    <!ENTITY GO "http://purl.org/obo/owl/GO#"> 
+    <!ENTITY PRO "http://purl.obolibrary.org/obo/pr.owl#">  
+    <!ENTITY PATO "http://purl.org/obo/owl/PATO#">  
     <!ENTITY FMA "http://purl.org/sig/fma/">  <!-- new PURLized IRIs as of fma_v3.2 -->
-    <!ENTITY CL "http://purl.org/obo/owl/CL#">
+    <!ENTITY CL "http://purl.org/obo/owl/CL#"> 
     <!ENTITY OBO_REL "http://purl.org/obo/owl/OBO_REL#"> <!-- ro_proposed in OBI, keep for now -->
-    <!ENTITY NCBITaxon "http://purl.org/obo/owl/NCBITaxon#">
+    <!ENTITY NCBITaxon "http://purl.org/obo/owl/NCBITaxon#">  
 ]>    
 
 <rdf:RDF xmlns="http://onstr.googlecode.com/svn/trunk/ONSTR.owl#"
@@ -45,9 +45,9 @@
     <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/trunk/ONSTR.owl">
         <owl:versionInfo rdf:datatype="&xsd;string">0.1</owl:versionInfo>
         <dc:date rdf:datatype="&xsd;string">2011-06-03</dc:date>
-        <dc:description rdf:datatype="&xsd;string">Here goes the description of the ONSTR. The Ontology for Neonatal Screening and Translational Research is ...something something something...Prabhu HELP!</dc:description>
+        <dc:description rdf:datatype="&xsd;string">Here goes the description of the ONSTR. The Ontology for Newborn Screening and Translational Research is ...something something something...Prabhu HELP!</dc:description>
         <skos:altLabel rdf:datatype="&xsd;string">ONSTR</skos:altLabel>
-        <dc:title rdf:datatype="&xsd;string">Ontology for Neonatal Screening and Translational Research</dc:title>
+        <dc:title rdf:datatype="&xsd;string">Ontology for Newborn Screening and Translational Research</dc:title>
         <dc:format rdf:datatype="&xsd;string">RDF/XML</dc:format>
         <dc:creator rdf:datatype="&xsd;string">Prabhu Shankar (&#2346;&#2381;&#2352;&#2349;&#2369; &#2358;&#2344;&#2381;&#2325;&#2352;&#2381;)</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Akshaye Dhawan</dc:creator>
@@ -56,8 +56,8 @@
         <dc:creator rdf:datatype="&xsd;string">Sham Navathe</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sivaram Arabandi</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sne&#x17E;ana Nikolic&#x0301;</dc:creator>
-        <dc:subject rdf:datatype="&xsd;string">Some general thing, like keywords: ontology, neonatal screening for inborn errors of metabolism, inborn errors of metabolism, translational research, translational medicine, health care, public health</dc:subject>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/> <!-- BFO2 stable file, or will be soon. -->
+        <dc:subject rdf:datatype="&xsd;string">Keywords: biomedical ontology, neborn screening for inborn errors of metabolism, translational research, translational medicine, nutrition, genetics, health care, public health</dc:subject>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/> <!-- 2012-05-24, BFO2 stable version, or soon will be. -->
         <owl:imports rdf:resource="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl"/>
     </owl:Ontology>
     
@@ -297,7 +297,7 @@
 
 
 <!-- END PRO IMPORTS --> 
-<!-- START OBI-IOA IMPORTS -->
+<!-- START OBI-IAO IMPORTS -->
 
 
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->  <!-- planned process -->
@@ -16348,7 +16348,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">has_specified_input</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</skos:definition>
         <rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:ObjectProperty>
     
     
@@ -16359,8 +16359,9 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">is_specified_input_of</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</skos:definition>
     	<skos:example rdf:datatype="&xsd;string">some Autologous EBV(Epstein-Barr virus)-transformed B-LCL (B lymphocyte cell line) is_input_for instance of Chromum Release Assay described at https://wiki.cbil.upenn.edu/obiwiki/index.php/Chromium_Release_assay</skos:example>
+        <rdfs:range rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
         <owl:inverseOf rdf:resource="&obo;OBI_0000293"/>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:ObjectProperty>
     
     
@@ -16370,8 +16371,8 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000056"/>  <!--was &ro;participates_in -->
         <rdfs:label rdf:datatype="&xsd;string">is_specified_output_of</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</skos:definition>
-        <rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <rdfs:range rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
+        <skos:editorialNote rdf:datatype="&xsd;string">Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:ObjectProperty>
 
     
@@ -16383,7 +16384,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</skos:definition>
     	<rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
         <owl:inverseOf rdf:resource="&obo;OBI_0000312"/>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:ObjectProperty>
 
     
@@ -16393,7 +16394,8 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000051"/>  <!-- was &ro;has_part -->
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
         <rdfs:label rdf:datatype="&xsd;string">has measurement unit label</rdfs:label>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
+        <rdfs:range rdf:resource="&obo;IAO_0000003"/>  <!-- measur unit label -->
     </owl:ObjectProperty>
     
     
@@ -16402,7 +16404,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:ObjectProperty rdf:about="&obo;IAO_0000136">
         <rdfs:label rdf:datatype="&xsd;string">is about</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">is about is a (currently) primitive relation that relates an information artifact to an entity.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
+        <rdfs:domain rdf:resource="&obo;IAO_0000030"/> <!-- info content entity -->
     </owl:ObjectProperty>
     
     
@@ -16442,7 +16445,9 @@ v is that number
 unit of measure is inches
 
 We have had a long discussion about denotes versus describes.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
+        <rdfs:domain rdf:resource="&obo;IAO_0000109"/>  <!-- measurement datum -->
+        <rdfs:range rdf:resource="&obo;BFO_0000019"/>  <!-- bfo:quality -->
     </owl:ObjectProperty>
        
     
@@ -16460,9 +16465,11 @@ We have had a long discussion about denotes versus describes.</skos:definition>
      <owl:ObjectProperty rdf:about="&obo;OBI_1110060">
     	<rdfs:subPropertyOf rdf:resource="&obo;BFO_0000060"/>  <!-- bfo:preceded by -->
     	<rdfs:label rdf:datatype="&xsd;string">process is result of</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">is a relationship between a process and a preceding occurrent that directly caused the later one to occur</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Is a relationship between a process and a preceding occurrent that directly caused the later one to occur</skos:definition>
         <skos:example rdf:datatype="&xsd;string">The production of IFN-gamma by effector T cells is a process result of T cell stimulation through the TCR</skos:example>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <rdfs:range rdf:resource="&obo;BFO_0000003"/>  <!-- bfo:occurent -->
+        <rdfs:domain rdf:resource="&obo;BFO_0000003"/>  <!-- bfo:occurent -->
+        <skos:editorialNote rdf:datatype="&xsd;string">Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:ObjectProperty>
     
     
@@ -16470,8 +16477,10 @@ We have had a long discussion about denotes versus describes.</skos:definition>
      
       <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000417">
     	<rdfs:label rdf:datatype="&xsd;string">achieves_planned_objective</rdfs:label>
-    	<skos:definition rdf:datatype="&xsd;string">This relation obtains between a planned process and a objective specification when the criteria specified in the objective specification are met at the end of the planned process.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+    	<skos:definition rdf:datatype="&xsd;string">This relation obtains between a planned process and an objective specification when the criteria specified in the objective specification are met at the end of the planned process.</skos:definition>
+        <rdfs:range rdf:resource="&obo;IAO_0000005"/>  <!-- objective specification -->
+        <rdfs:domain rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+        <skos:editorialNote rdf:datatype="&xsd;string">Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
   </owl:ObjectProperty>
     
     
@@ -16507,6 +16516,8 @@ We have had a long discussion about denotes versus describes.</skos:definition>
     <owl:DatatypeProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000004">
         <rdf:type rdf:resource="&owl;FunctionalProperty"/>
         <rdfs:label rdf:datatype="&xsd;string">has measurement value</rdfs:label>
+        <rdfs:domain rdf:resource="&obo;IAO_0000032"/>  <!-- scalar measurement datum -->
+        <rdfs:range rdf:resource="&xsd;float"/>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
     </owl:DatatypeProperty>
   
