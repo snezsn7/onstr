@@ -579,7 +579,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
         <skos:definition rdf:datatype="&xsd;string">A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by an instrument.</skos:definition>
         <skos:example rdf:datatype="&xsd;string">Examples of measurement data are the recoding of the weight of a mouse as {40,mass,&quot;grams&quot;}, the recording of an observation of the behavior of the mouse {,process,&quot;agitated&quot;}, the recording of the expression level of a gene as measured through the process of microarray experiment {3.4,luminosity,}.</skos:example>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
@@ -620,7 +620,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">scalar measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
          <skos:definition rdf:datatype="&xsd;string">a scalar measurement datum is a measurement datum that is composed of two parts, a single numeral and a unit label.</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
@@ -658,7 +658,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">length measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
          <skos:definition rdf:datatype="&xsd;string">A scalar measurement datum that is the result of measurement of length quality</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
@@ -668,7 +668,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">mass measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
          <skos:definition rdf:datatype="&xsd;string">A scalar measurement datum that is the result of measurement of mass quality</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
@@ -678,7 +678,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">time measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
          <skos:definition rdf:datatype="&xsd;string">A scalar measurement datum that is the result of measuring a temporal interval</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
@@ -698,7 +698,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">directive information entity</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
          <skos:definition rdf:datatype="&xsd;string">An information content entity whose concretizations indicate to their bearer how to realize them in a process.</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
@@ -708,7 +708,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">action specification</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000033"/>
         <skos:definition rdf:datatype="&xsd;string">An action specification is information about a realizable that describes an action the bearer will take</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
@@ -729,7 +729,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000033"/>
         <skos:definition rdf:datatype="&xsd;string">An objective specification is an information entity about a realizable entity that describes a intended process endpoint. When part of a plan specification the concretization is realized in a planned process in which the bearer tries to effect the world so that the process endpoint is achieved.</skos:definition>
         <skos:example rdf:datatype="&xsd;string">purpose of a study; support of hypothesis, discovery of new information</skos:example>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
@@ -799,7 +799,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">figure</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
     	<skos:definition rdf:datatype="&xsd;string">An information content entity consisting of a two dimensional arrangement of information content entities such that the arrangement itself is about something.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
@@ -809,7 +809,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">diagram</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000308"/>
         <skos:definition rdf:datatype="&xsd;string">A figure that expresses one or more propositions</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
@@ -819,7 +819,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">graph</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000309"/>
         <skos:definition rdf:datatype="&xsd;string">A diagram that presents one or more tuples of information by mapping those tuples in to a two dimensional space in a non arbitrary way.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
@@ -829,7 +829,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">line graph</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000038"/>
     	<skos:definition rdf:datatype="&xsd;string">A line graph is a type of graph created by connecting a series of data points together with a line.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
@@ -839,17 +839,17 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">image</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000308"/>
         <skos:definition rdf:datatype="&xsd;string">An image is an affine projection to a two dimensional surface, of measurements of some quality of an entity or entities repeated at regular intervals across a spatial range, where the measurements are represented as color and luminosity on the projected on surface.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
     <!-- http://purl.obolibrary.org/obo/IAO_0000009 -->  <!-- label -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000009">
-        <rdfs:label rdf:datatype="&xsd;string">label</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">datum label</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
         <skos:definition rdf:datatype="&xsd;string">A label is a symbol that is part of some other datum and is used to either partially define  the denotation of that datum or to provide a means for identifying the datum as a member of the set of data with the same label</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifac Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
@@ -860,7 +860,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000009"/>
         <skos:definition rdf:datatype="&xsd;string">A label that is part of a categorical datum and that indicates the category of that datum</skos:definition>
         <skos:example rdf:datatype="&xsd;string">The labels 'positive' vs. 'negative', or 'left handed', 'right handed', 'ambidexterous', or 'strongly binding', 'weakly binding' , 'not binding', or '+++', '++', '+', '-' etc. form scales of categorical labels.</skos:example>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -870,7 +870,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">measurement unit label</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000009"/>
         <skos:definition rdf:datatype="&xsd;string">A measurement unit label is as a label that is part of a scalar measurement datum and denotes a unit of measure.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifac Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
@@ -879,7 +879,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000028">
         <rdfs:label rdf:datatype="&xsd;string">symbol</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
         
      
@@ -1191,8 +1191,69 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">processed material</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
         <skos:definition rdf:datatype="&xsd;string">Is a material entity that is created or changed during material processing.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
      </owl:Class>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/IAO_0000300 -->  <!-- textual entity -->
+
+    <owl:Class rdf:about="&obo;IAO_0000300">
+        <rdfs:label rdf:datatype="&xsd;string">textual entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>  <!-- info content entity -->
+        <skos:definition rdf:datatype="&xsd;string">A textual entity is a part of a manifestation (FRBR sense), a generically dependent continuant whose concretizations are patterns of glyphs intended to be interpreted as words, formulas, etc.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Information Artifact Ontology (IAO)</skos:editorialNote>
+     </owl:Class>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/IAO_0000303 -->  <!-- institutional identification -->
+
+    <owl:Class rdf:about="&obo;IAO_0000303">
+       <rdfs:label rdf:datatype="&xsd;string">institutional identification</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;IAO_0000300"/>  <!-- textual ent for now=May31-2012, should be under written name IAO_0000590-->
+       <skos:definition rdf:datatype="&xsd;string">A textual entity intended to identify a particular institution.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
+     </owl:Class>
+     
+    
+    <!-- http://purl.obolibrary.org/obo/OBI_0001672 -->  <!-- country name -->
+
+    <owl:Class rdf:about="&obo;OBI_0001672">
+       <rdfs:label rdf:datatype="&xsd;string">country name</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;IAO_0000300"/>  <!-- textual ent for now=May31-2012, should be under written name IAO_0000590-->
+       <skos:definition rdf:datatype="&xsd;string">A textual entity that denotes a geographic location that is a site or part of a site that is identified as a country in the political geography.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+     </owl:Class>
+     
+     
+     <!-- http://purl.obolibrary.org/obo/IAO_0000422 -->  <!-- postal address -->
+
+    <owl:Class rdf:about="&obo;IAO_0000422">
+       <rdfs:label rdf:datatype="&xsd;string">postal address</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;IAO_0000300"/>  <!-- textual ent -->
+       <skos:definition rdf:datatype="&xsd;string">A textual entity that is used as directive to deliver something to a person, or organization.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.obolibrary.org/obo/IAO_0000590 -->  <!-- written name -->
+
+    <owl:Class rdf:about="&obo;IAO_0000590">
+       <rdfs:label rdf:datatype="&xsd;string">written name</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;IAO_0000300"/>  <!-- textual ent -->
+       <skos:definition rdf:datatype="&xsd;string">A textual entity that denotes a particular in reality.</skos:definition>
+       <rdfs:comment rdf:datatype="&xsd;string">The qualifier &quot;written&quot; is to set it apart from spoken names.  Also, note the restrictions to particulars.  We are not naming universals.   We could however, be naming, attributive collections which are particulars, so &quot;All people located in the boundaries of the city of Little Rock, AR on June 18, 2011 at 9:50a CDT&quot; would be a name. [Comment source: obo:IAO_0000590 ]</rdfs:comment>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.obolibrary.org/obo/OBI_0001141 -->  <!-- individual organism identifier -->
+
+    <owl:Class rdf:about="&obo;OBI_0001141">
+       <rdfs:label rdf:datatype="&xsd;string">individual organism identifier</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;IAO_0000028"/> <!-- symbol -->
+       <skos:definition rdf:datatype="&xsd;string">A symbol used to distinguish one individual organism from another.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
+   </owl:Class>
     
       
     
@@ -16518,7 +16579,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <rdfs:label rdf:datatype="&xsd;string">has measurement value</rdfs:label>
         <rdfs:domain rdf:resource="&obo;IAO_0000032"/>  <!-- scalar measurement datum -->
         <rdfs:range rdf:resource="&xsd;float"/>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from IAO</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:DatatypeProperty>
   
   
