@@ -16581,6 +16581,65 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <rdfs:range rdf:resource="&xsd;float"/>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:DatatypeProperty>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7334867 -->  <!-- has numeric value -->
+
+    <owl:DatatypeProperty rdf:about="&ONSTR;ONSTR_7334867">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">has numerical value</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">Has numerical value is a datatype property intended to be used for data item instance values that in part or in whole include numeral character (also known as Hindu-Arabic numerals or Arabic numerals or Western numerals) that represent numbers.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: W3C XML Schema Definition Language (XSD) 1.1 Part 2: Dataypes. W3C Recommendation 5 April 2012, retrievable from http://www.w3.org/TR/2012/REC-xmlschema11-2-20120405/ </rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Intended to be used for data items which include numerical type of values such as instances of scalar measurements data, counts or percentiles, i.e. any kind of numbers amenable to computation.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+        <skos:altLabel rdf:datatype="&xsd;string">has number value</skos:altLabel>
+        <rdfs:domain rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
+        <rdfs:range>
+        	<owl:Class>
+            	<owl:unionOf  rdf:parseType="Collection">
+                	<rdf:Description rdf:about="&xsd;decimal"/>
+                    <rdf:Description rdf:about="&xsd;integer"/>
+                    <rdf:Description rdf:about="&xsd;float"/>
+                </owl:unionOf> 
+           </owl:Class> 	
+       </rdfs:range>
+     </owl:DatatypeProperty>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4339330 -->  <!-- has alphabetical value -->
+
+    <owl:DatatypeProperty rdf:about="&ONSTR;ONSTR_4339330">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">has alphabetical value</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">Has alphabetical value is a datatype property intended to be used for data items that in part or in whole include a string of zero or more alphanumeric characters that together represent a stretch of human readable, but not necessarily, natural language material.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: W3C XML Schema Definition Language (XSD) 1.1 Part 2: Dataypes. W3C Recommendation 5 April 2012, retrievable from http://www.w3.org/TR/2012/REC-xmlschema11-2-20120405/ </rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Intended to be used for data item instance values such as names, labels, symbols and/or similar kind of identifiers for which strings of alphanumeric characters are commonly used. For instance, country name &quot;Canada&quot; or nutritional formula name &quot;Phenex&quot;, patient ID &quot;SNDM01234567&quot;. Strictly speaking, XML Schema (XSD) data type xsd:string and xsd:Name, among alphabetical characters also include numeral characters, hyphen, underscore etc. However, such non-alphabetical kinds of character strings such as numeral character &quot;3&quot; in character string &quot;W3C&quot; or &quot;4&quot; in &quot;4Hero&quot;, do not represent numbers (i.e. computable mathematical entities) which are in XSD represented by numerical datatypes like xsd:decimal or xsd:float.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+        <rdfs:domain rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
+        <rdfs:range>
+        	<owl:Class>
+            	<owl:unionOf  rdf:parseType="Collection">
+                	<rdf:Description rdf:about="&xsd;string"/>
+                    <rdf:Description rdf:about="&xsd;Name"/>
+                </owl:unionOf> 
+           </owl:Class> 	
+       </rdfs:range>
+     </owl:DatatypeProperty>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9561606 -->  <!-- has date value -->
+
+    <owl:DatatypeProperty rdf:about="&ONSTR;ONSTR_9561606">
+        <rdf:type rdf:resource="&owl;FunctionalProperty"/>
+        <rdfs:label rdf:datatype="&xsd;string">has date value</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">Has date value is a datatype property intended to be used for data item instances referring to specific days counted in accordance with the Julian calendar, such as date of birth, date of follow-up visit etc.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: W3C XML Schema Definition Language (XSD) 1.1 Part 2: Dataypes. W3C Recommendation 5 April 2012, retrievable from http://www.w3.org/TR/2012/REC-xmlschema11-2-20120405/ </rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Note: Standard xsd:date datatype form is YYYY-MM-DD (e.g.2012-12-24), not MM-DD-YYYY or DD-MM-YYYY as customary in certain parts of the world.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+        <rdfs:domain rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
+        <rdfs:range rdf:resource="&xsd;date"/>
+     </owl:DatatypeProperty>   
+ 
   
   
    
