@@ -6480,11 +6480,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;float"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                    </owl:Restriction>  
                 </owl:intersectionOf>
             </owl:Class>
@@ -6570,11 +6566,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;float"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -6632,11 +6624,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -6691,11 +6679,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -7946,11 +7930,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -9188,11 +9168,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -9239,11 +9215,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -9290,11 +9262,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -9341,11 +9309,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measurment value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -9394,11 +9358,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -9444,11 +9404,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -9495,11 +9451,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -9633,7 +9585,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1164140">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary energy intake during observed time interval datum</rdfs:label>
     	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4105817"/ -->
-    	
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -9644,16 +9595,11 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-            
+        </owl:equivalentClass> 
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary energy intake during observed time interval datum is a dietary energy intake datum denoting the average number of kilocalories derived from all food items ingested by a human patient during the time interval observed by a dietitian (one days, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11969,11 +11915,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -12021,11 +11963,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -12073,11 +12011,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -12124,11 +12058,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -12175,11 +12105,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -12345,11 +12271,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -12397,11 +12319,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -12636,11 +12554,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
-                           <owl:someValuesFrom>
-                               <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;decimal"/>         
-                               </rdfs:Datatype>
-                    	  </owl:someValuesFrom>
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
