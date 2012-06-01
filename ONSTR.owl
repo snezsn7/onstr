@@ -16509,13 +16509,13 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">has number value</skos:altLabel>
         <rdfs:domain rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
         <rdfs:range>
-        	<owl:Class>
+        	<rdfs:Datatype>
             	<owl:unionOf  rdf:parseType="Collection">
                 	<rdf:Description rdf:about="&xsd;decimal"/>
                     <rdf:Description rdf:about="&xsd;integer"/>
                     <rdf:Description rdf:about="&xsd;float"/>
                 </owl:unionOf> 
-           </owl:Class> 	
+           </rdfs:Datatype> 	
        </rdfs:range>
      </owl:DatatypeProperty>
      
@@ -16532,12 +16532,12 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
         <rdfs:domain rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
         <rdfs:range>
-        	<owl:Class>
+        	<rdfs:Datatype>
             	<owl:unionOf  rdf:parseType="Collection">
                 	<rdf:Description rdf:about="&xsd;string"/>
                     <rdf:Description rdf:about="&xsd;Name"/>
                 </owl:unionOf> 
-           </owl:Class> 	
+           </rdfs:Datatype> 	
        </rdfs:range>
      </owl:DatatypeProperty>
      
