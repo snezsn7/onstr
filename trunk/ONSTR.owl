@@ -9106,6 +9106,42 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6635527-->  <!-- dietary reference intake percentage -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6635527">
+        <rdfs:label rdf:datatype="&xsd;string">dietary reference intake percentage</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;UO_0000187"/>  <!-- percent -->
+        <skos:definition rdf:datatype="&xsd;string">Dietary reference intake percentage is a percent unit (dimensionless unit) which denotes the quantity of a dietary nutrient that may be (or has been) consumed by a human as a percentage of the dietary reference intake for that specific nutrient.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">%DRI</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7731715-->  <!-- recommended daily allowance percentage -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7731715">
+        <rdfs:label rdf:datatype="&xsd;string">recommended daily allowance percentage</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;UO_0000187"/>  <!-- percent --> 
+        <skos:definition rdf:datatype="&xsd;string">Recommended daily allowance percentage is a percent unit (dimensionless unit) which denotes the quantity of a dietary nutrient that may be (or has been) consumed by a human as a percentage of the recommended daily allowance for that specific nutrient.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">%RDA</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+        
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0942164-->  <!-- upper tolerable level percentage -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0942164">
+        <rdfs:label rdf:datatype="&xsd;string">upper tolerable level percentage</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;UO_0000187"/>  <!-- percent --> 
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable level percentage is a percent unit (dimensionless unit) which denotes the quantity of a dietary nutrient that may be (or has been) consumed by a human as a percentage of the upper tolerable intake level for that specific nutrient.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">%UL</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>  
+     
     
      <!-- MERE OVDE -->
     
