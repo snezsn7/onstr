@@ -16419,6 +16419,19 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:domain rdf:resource="&obo;IAO_0000030"/> <!-- info content entity -->
     </owl:ObjectProperty>
     
+   <!-- http://purl.obolibrary.org/obo/IAO_0000219 -->  <!-- denotes -->
+
+    <owl:ObjectProperty rdf:about="&obo;IAO_0000219">
+    	<rdfs:subPropertyOf rdf:resource="&obo;IAO_0000136"/>
+    	<rdfs:label rdf:datatype="&xsd;string">denotes</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">Denotes is a primitive, instance-level, relation obtaining between an information content entity and some portion of reality. Denotation is what happens when someone creates an information content entity E in order to specifically refer to something. The only relation between E and the thing is that E can be used to &#39;pick out&#39; the thing. This relation connects those two together. Freedictionary.com sense 3: To signify directly; refer to specifically.</skos:definition>
+        <skos:example rdf:datatype="&xsd;string">A person&apos;s name denotes the person. A variable name in a computer program denotes some piece of memory. Lexically equivalent strings can denote different things, for instance &quot;Alan&quot; can denote different people. In each case of use, there is a case of the denotation relation obtaining, between &quot;Alan&quot; and the person that is being named.</skos:example>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+    
+    
     
         <!-- http://purl.obolibrary.org/obo/IAO_0000221 -->  <!-- is quality measurement of -->
 
@@ -16513,7 +16526,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
     <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from RO</skos:editorialNote>
     <rdfs:comment rdf:datatype="&xsd;string">This may be (or very likely will be) removed or replaced at a later date.</rdfs:comment>    
   </owl:ObjectProperty>
-  
+    
 
 <!-- Rels Ovde -->
    
