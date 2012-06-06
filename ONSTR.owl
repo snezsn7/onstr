@@ -16398,6 +16398,79 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1431266 -->  <!-- nutritional item quantity datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1431266">
+        <rdfs:label rdf:datatype="&xsd;string">nutritional item quantity datum</rdfs:label>  
+        <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/--> <!-- scalar measur datum-->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000032"/> <!-- scalar measur datum -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_6486199"/>  <!-- food item measur unit -->
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_5684273"/>  <!-- scoop unit -->
+                                	    <rdf:Description rdf:about="&obo;UO_0000002"/>  <!-- mass unit -->   
+                                	    <rdf:Description rdf:about="&obo;UO_0000095"/>  <!-- volume unit -->
+                                	    <!-- ADD pharma product measur unit?? !!!! -->   
+                                	    <!-- PER DAY some measur unit?? !!!! -->   
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        
+        <skos:definition rdf:datatype="&xsd;string">Nutritional item quantity datum is a scalar measurement datum that provides the information about the quantity of a given nutritional item (consumed or prescribed).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4311702 -->  <!-- food item quantity datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4311702">
+        <rdfs:label rdf:datatype="&xsd;string">food item quantity datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1431266"/> 
+        <skos:definition rdf:datatype="&xsd;string">Food item quantity datum is a nutritional item quantity datum  that provides the information about the quantity of a food item (consumed or prescribed).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6981186 -->  <!-- dietary supplement quantity datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6981186">
+        <rdfs:label rdf:datatype="&xsd;string">dietary supplement quantity datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1431266"/>
+        <skos:definition rdf:datatype="&xsd;string">Dietary supplement quantity datum is a nutritional item quantity datum  that provides the information about the quantity of dietary supplement (consumed or prescribed).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4999231 -->  <!-- nutritional formula quantity datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4999231">
+        <rdfs:label rdf:datatype="&xsd;string">nutritional formula quantity datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1431266"/> 
+        <skos:definition rdf:datatype="&xsd;string">Nutritional formula quantity datum is a nutritional item quantity datum  that provides the information about the quantity of the nutritional formula (consumed or prescribed).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+     
      
      
      
