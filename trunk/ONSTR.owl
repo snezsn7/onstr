@@ -16274,7 +16274,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Dietary consumption datum is a data item providing the information about the kinds and quantities of food items and dietary supplements consumed (ingested) by a human patient during the time interval relevant for dietary analysis.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Dietary consumption datum is a data item providing the information about the kinds and quantities of nutritional items consumed (ingested) by a human patient during the time interval relevant for dietary analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -16333,6 +16333,77 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Consumed nutritional formula datum is a dietary consumption datum providing the information about the kind and the quantity of nutritional formula consumed by a patient  during the time interval relevant for the dietary analysis.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4852474 -->  <!-- nutritional item name  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4852474">
+        <rdfs:label rdf:datatype="&xsd;string">nutritional item name</rdfs:label>  
+        <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000590"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000590"/>  <!-- written name - THIS MAY CHANGE!!! -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000219"/> <!--denotes-->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5692828"/> <!-- nutritional item --> 
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has alphabetical value -->
+                        	<owl:someValuesFrom rdf:resource="&xsd;Name"/>
+                   </owl:Restriction>
+                </owl:intersectionOf>  
+            </owl:Class>
+    	 </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Nutritional item name is a written name referring to an instance of a nutritional item.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">&quot;nutritional item name&quot; does not denote a class of any given nutritional item, but refers to a particular of that class. For instance, nutritional item name &quot;carrot&quot; would not denote the class of entities that by their properties can be named as &quot;carrot&quot;. What it would refer to is a particular of the &quot;carrot&quot;, that is &quot;a carrot that Lori has eaten yesterday after noon at her mom&apos;s  lighthouse in Cape Code MA&quot;.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6972256 -->  <!-- food item name  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6972256">
+        <rdfs:label rdf:datatype="&xsd;string">food item name</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4852474"/> 
+        <skos:definition rdf:datatype="&xsd;string">Food item name is a nutritional item name referring to the instance of a specific food item.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">&quot;food item name&quot; does not denote a class of any given food item, but refers to a particular of that class. For instance food item name &quot;apple pie&quot; would not denote the class of entities that by their properties can be named as &quot;apple pie&quot;. What it would refer to is a particular of the &quot;apple pie&quot;, that is &quot;an apple pie that John ate yesterday after noon at his beach house in Virginia Beach VA&quot;.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2570575 -->  <!-- dietary supplement name  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2570575">
+        <rdfs:label rdf:datatype="&xsd;string">dietary supplement name</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4852474"/>
+        <skos:definition rdf:datatype="&xsd;string">Dietary supplement name is a nutritional item name referring to an instance of specific dietary supplement.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">&quot;dietary supplement name&quot; does not denote a class of any given dietary supplement, but refers to a particular of that class. For instance dietary supplement name &quot;Vitamin B12 supplemen&quot; would not denote the class of entities that by their properties can be named as &quot;vitamin B12 supplement&quot;. What it would refer to is a particular of the &quot;vitamin B12&quot; class, that is &quot;vitamin B12 supplement Tommy has taken yesterday morning after his breakfast at his grandmother&apos;s house in Oxford UK&quot;.</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3799901 -->  <!-- nutritional formula name  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3799901">
+        <rdfs:label rdf:datatype="&xsd;string">nutritional formula name</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4852474"/>
+        <skos:definition rdf:datatype="&xsd;string">Nutritional formula name is a nutritional item name referring to an instance of specific nutritional formula.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">&quot;nutritional formula name&quot; does not denote a class of any given nutritional formula, but refers to a particular of that class. For instance nutritional formula name &quot;Ketonex-2&quot; would not denote the class of entities that by their properties can be named as &quot;Ketonex-2 formula&quot;. What it would refer to is a particular of the &quot;Ketonex-2 formula&quot; class, that is it would refer to &quot;a portion of Ketonex-2 formula Lilly has taken yesterday morning after his breakfast at her home in Atlanta GA&quot;.</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+     
+     
+     
+     
+     
      
     
 <!-- Klase Ovde -->
