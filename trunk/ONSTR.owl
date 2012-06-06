@@ -6641,7 +6641,7 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0901764 --> <!-- body mass at birth measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0901764">
-        <rdfs:label rdf:datatype="&xsd;string">body mass at birth visit measurement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">body mass at birth measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8762724"/>
         <skos:definition rdf:datatype="&xsd;string">Body mass at birth measurement datum is body mass measurement datum that is the result of mass measurement assay of human body performed shortly after birth.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
@@ -16259,17 +16259,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                      <owl:Restriction>
                       	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
-                      	<owl:someValuesFrom>
-                            <owl:Class>
-                                <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="&ONSTR;ONSTR_5692828"/> <!-- nutritional item -->
-                   				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000056"/> <!-- participates in -->
-                    					<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6680350"/> <!-- enteral administration -->
-                    			     </owl:Restriction>
-                                </owl:intersectionOf>
-                            </owl:Class>
-                        </owl:someValuesFrom>
+                      	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5692828"/> <!-- nutritional item -->
                      </owl:Restriction>   
                 </owl:intersectionOf>
             </owl:Class>
@@ -16278,29 +16268,6 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
-     
-     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5171079 -->  <!-- consumed food item datum  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_5171079">
-        <rdfs:label rdf:datatype="&xsd;string">consumed food item datum</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9545140"/> 
-        <skos:definition rdf:datatype="&xsd;string">Consumed food item quantity datum is a dietary consumption measurement datum providing the information about the name and the quantity of each particular food item consumed (ingested) by a human patient during the time interval relevant for dietary analysis.</skos:definition>
-        <skos:example rdf:datatype="&xsd;string">Apple juice 4 floz, strawberry 42 grams, gel cup 1 cup, hard candy 1 piece.</skos:example>    
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
-     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1017357 -->  <!-- consumed food item datum  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_1017357">
-        <rdfs:label rdf:datatype="&xsd;string">consumed dietary supplement datum</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9545140"/> 
-        <skos:definition rdf:datatype="&xsd;string">Consumed dietary supplement datum is a dietary consumption measurement datum providing the information about the kinds and quantities of dietary supplements consumed (ingested) by a human patient during the time interval relevant for the dietary analysis.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7240990 -->  <!-- food item-amino acid exchange datum  -->
@@ -16317,20 +16284,245 @@ people infected, then extract parasite which are then tested = observation study
                         <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measur unit label -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3782257"/> <!--  amino acid exchange unit -->
                     </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
+                    </owl:Restriction>
 				</owl:intersectionOf>
            </owl:Class>
        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Food item-amino acid exchange datum is a dietary consumption datum providing the information about the number of amino acid exchange units corresponding to each listed food item consumed by a patient  during the time interval relevant for the dietary analysis.</skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2850127 -->  <!-- consumed nutritional formula datum  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8256836 -->  <!-- dietary prescription datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8256836">
+        <rdfs:label rdf:datatype="&xsd;string">dietary prescription datum</rdfs:label>  
+        <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/ --> <!-- IAO:data item, for now!!! maybe scalar later -->
+        <!-- NEED TO ADD MORE LOG DESCR is specif output, is part of... -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000027"/>  <!-- data item -->
+                     <owl:Restriction>
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5692828"/> <!-- nutritional item -->
+                     </owl:Restriction>
+                 </owl:intersectionOf>
+           </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Dietary prescription datum is a data item that provides the information about the kinds and quantities of nutritional items prescribed by a dietitian (or a physician) to be consumed by a human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1474441 -->  <!-- nutritional item datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1474441">
+        <rdfs:label rdf:datatype="&xsd;string">nutritional item datum</rdfs:label>  
+        <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/ -->  <!-- data item -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000027"/> <!-- data item -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/> <!-- has part -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_4852474"/> <!-- nutritional item name -->
+                    </owl:Restriction>
+                     <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/> <!-- has part -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1431266"/> <!-- nutritional item quantity datum -->
+                    </owl:Restriction> 
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Nutritional item datum is a data item that provides the information about the kinds and quantities of nutritional items have been prescribed to be consumed during the course of treatment or have been consumed by a human patient during the time interval relevant for dietary analysis.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6640610 -->  <!-- food item datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6640610">
+        <rdfs:label rdf:datatype="&xsd;string">food item datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1474441"/>  <!-- nutritional item datum -->
+        <skos:definition rdf:datatype="&xsd;string">Food item datum is a nutritional item datum that provides the information about the kinds and quantities prescribed to or consumed by a human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5171079 -->  <!-- consumed food item datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5171079">
+        <rdfs:label rdf:datatype="&xsd;string">consumed food item datum</rdfs:label>  
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6640610"/ --> <!-- food item datum --> 
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_6640610"/>  <!-- food item datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9545140"/>  <!-- dietary consumption datum -->
+				</owl:intersectionOf>
+		  </owl:Class>
+       </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Consumed food item quantity datum is a food item datum providing the information about the name and the quantity of each particular food item consumed (ingested) by a human patient during the time interval relevant for dietary analysis.</skos:definition>
+        <skos:example rdf:datatype="&xsd;string">Apple juice 4 floz, strawberry 42 grams, gel cup 1 cup, hard candy 1 piece.</skos:example>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3856334 -->  <!-- prescribed food item datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3856334">
+        <rdfs:label rdf:datatype="&xsd;string">prescribed food item datum</rdfs:label>  
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6640610"/ --> <!-- food item datum -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_6640610"/>  <!-- food item datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8256836"/>  <!-- dietary prescription datum -->
+				</owl:intersectionOf>
+		   </owl:Class>
+       	</owl:equivalentClass>
+       	<skos:definition rdf:datatype="&xsd;string">Prescribed food item datum is a food item datum that provides the information about the kinds and quantities of food items prescribed by dietitian to be consumed by a human patient.</skos:definition>
+       	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+       	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1124010 -->  <!-- dietary supplement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1124010">
+        <rdfs:label rdf:datatype="&xsd;string">dietary supplement datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1474441"/>  <!-- nutritional item datum -->
+        <skos:definition rdf:datatype="&xsd;string">Dietary supplement datum is a nutritional item datum that provides the information about the kinds and quantities of dietary supplements prescribed to or consumed by a human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+       	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1017357 -->  <!-- consumed dietary supplement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1017357">
+        <rdfs:label rdf:datatype="&xsd;string">consumed dietary supplement datum</rdfs:label>  
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1124010"/ -->   <!--dietary supplement datum-->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_1124010"/>  <!-- dietary supplement datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9545140"/>  <!-- dietary consumption datum -->
+				</owl:intersectionOf>
+		  </owl:Class>
+       </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Consumed dietary supplement datum is a dietary supplement datum providing the information about the kinds and quantities of dietary supplements consumed (ingested) by a human patient during the time interval relevant for the dietary analysis.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7348043 -->  <!-- prescribed dietary supplement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7348043">
+        <rdfs:label rdf:datatype="&xsd;string">prescribed dietary supplement datum</rdfs:label>  
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1124010"/ -->   <!--dietary supplement datum-->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_1124010"/>  <!-- dietary supplement datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8256836"/>  <!-- dietary prescription datum -->
+				</owl:intersectionOf>
+		  </owl:Class>
+       </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Prescribed dietary supplement datum	is a dietary supplement datum that provides the information about the kinds and quantities of dietary supplements prescribed by a dietitian (or physician) to be consumed by a human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9235387 -->  <!-- nutritional formula datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9235387">
+        <rdfs:label rdf:datatype="&xsd;string">nutritional formula datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1474441"/>  <!-- nutritional item datum -->
+        <skos:definition rdf:datatype="&xsd;string">Nutritional formula datum is a nutritional item datum that provides the information about the kinds and quantities of nutritional formula prescribed to or consumed by a human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2850127 -->  <!-- consumed nutritional formula datum  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2850127">
         <rdfs:label rdf:datatype="&xsd;string">consumed nutritional formula datum</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9545140"/>
-        <skos:definition rdf:datatype="&xsd;string">Consumed nutritional formula datum is a dietary consumption datum providing the information about the kind and the quantity of nutritional formula consumed by a patient  during the time interval relevant for the dietary analysis.</skos:definition>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9235387"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9235387"/>  <!-- nutritional formula datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9545140"/>  <!-- dietary consumption datum -->
+				</owl:intersectionOf>
+		  </owl:Class>
+       </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Consumed nutritional formula datum is a nutritional formula datum providing the information about the kind and the quantity of nutritional formula consumed by a patient  during the time interval relevant for the dietary analysis.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1987347 -->  <!-- prescribed nutritional formula datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1987347">
+        <rdfs:label rdf:datatype="&xsd;string">prescribed nutritional formula datum</rdfs:label>  
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9235387"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9235387"/>  <!-- nutritional formula datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8256836"/>  <!-- dietary prescription datum -->
+				</owl:intersectionOf>
+		  </owl:Class>
+       	</owl:equivalentClass>
+       	<skos:definition rdf:datatype="&xsd;string">Prescribed nutritional formula datum is a nutritional formula datum that provides the information about the kinds and quantities of nutritional formulas prescribed by a dietitian to be consumed by a human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4175006 -->  <!-- parenteral nutrition datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4175006">
+        <rdfs:label rdf:datatype="&xsd;string">parenteral nutrition datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1474441"/>  <!-- nutritional item datum -->
+        <skos:definition rdf:datatype="&xsd;string">Parenteral nutrition datum is a nutritional item datum that provides the information about the kinds and quantities of parenteral nutrition solution that have been prescribed to be administered or already have been administered to a human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3847214 -->  <!-- administered parenteral nutrition datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3847214">
+        <rdfs:label rdf:datatype="&xsd;string">administered parenteral nutrition datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4175006"/>
+        <skos:definition rdf:datatype="&xsd;string">Administered parenteral nutrition datum is a parenteral nutrition datum that provides the information about the kinds and quantities of parenteral nutrition solution that have been administered to a human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3847214 -->  <!-- prescribed parenteral nutrition datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3847214">
+        <rdfs:label rdf:datatype="&xsd;string">prescribed parenteral nutrition datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4175006"/>
+        <skos:definition rdf:datatype="&xsd;string">Prescribed parenteral nutrition datum is a parenteral nutrition datum that provides the information about the kinds and quantities of parenteral nutrition solution prescribed by a dietitian (or physician) to be administered to a human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -16350,7 +16542,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has alphabetical value -->
-                        	<owl:someValuesFrom rdf:resource="&xsd;Name"/>
+                        	<owl:someValuesFrom rdf:resource="&xsd;string"/>
                    </owl:Restriction>
                 </owl:intersectionOf>  
             </owl:Class>
@@ -16428,8 +16620,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
-        
+        </owl:equivalentClass> 
         <skos:definition rdf:datatype="&xsd;string">Nutritional item quantity datum is a scalar measurement datum that provides the information about the quantity of a given nutritional item (consumed or prescribed).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -16467,16 +16658,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-     
-     
-     
-     
-     
-     
-     
-     
-     
-     
+    
      
     
 <!-- Klase Ovde -->
@@ -16728,7 +16910,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         	<rdfs:Datatype>
             	<owl:unionOf  rdf:parseType="Collection">
                 	<rdf:Description rdf:about="&xsd;string"/>
-                    <rdf:Description rdf:about="&xsd;Name"/>
+                    <rdf:Description rdf:about="&xsd;string"/>
                 </owl:unionOf> 
            </rdfs:Datatype> 	
        </rdfs:range>
