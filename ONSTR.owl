@@ -6562,7 +6562,14 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->
-                        <owl:someValuesFrom rdf:resource="&obo;UO_0000015"/> <!--UO:centimeter--> 
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_9244411"/> <!-- inch -->
+                                		<rdf:Description rdf:about="&obo;UO_0000015"/>  <!-- centimeter -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
@@ -6620,7 +6627,15 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->
-                        <owl:someValuesFrom rdf:resource="&obo;UO_0000009"/> <!--UO:centimeter--> 
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&obo;UO_0000021"/> <!-- gram -->
+                                		<rdf:Description rdf:about="&obo;UO_0000009"/>  <!-- kilogram-->
+                      					<rdf:Description rdf:about="&ONSTR;ONSTR_2504398"/>  <!-- pound-->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
@@ -6674,9 +6689,16 @@ people infected, then extract parasite which are then tested = observation study
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_8294453"/>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->
-                        <owl:someValuesFrom rdf:resource="&obo;UO_0000015"/> <!--UO:centimeter--> 
-                    </owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label--> 
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_9244411"/> <!-- inch -->
+                                		<rdf:Description rdf:about="&obo;UO_0000015"/>  <!-- centimeter -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                        </owl:someValuesFrom>
+                    </owl:Restriction>     
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
                         <owl:someValuesFrom rdf:resource="&xsd;float"/>
@@ -13790,7 +13812,7 @@ people infected, then extract parasite which are then tested = observation study
                             </owl:Class>
                         </owl:someValuesFrom>
                       </owl:Restriction>
-                    <owl:Restriction>
+                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
                    	    <owl:someValuesFrom>
                             	<owl:Class>
@@ -16119,8 +16141,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source:  ADD!!!!</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-        
-    
+          
      
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5015919 -->  <!-- metabolic formula  -->
 
@@ -16135,7 +16156,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">medically necessary formula</skos:altLabel> 
         <skos:altLabel rdf:datatype="&xsd;string">medical food</skos:altLabel> 
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
+    </owl:Class>
      
    
      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0573506 -->  <!-- low protein modified food  -->
