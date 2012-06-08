@@ -5930,10 +5930,10 @@ people infected, then extract parasite which are then tested = observation study
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>
+                                    <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!--Homo sapines-->
                                     <owl:Restriction>
-                                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>  <!--patient-->
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -16208,7 +16208,41 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6680350">
         <rdfs:label rdf:datatype="&xsd;string">enteral administration</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3371475"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3371475"/ --> <!--material ent admin into the organism-->
+    	 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_3371475"/>  <!-- superclass:material ent admin into the organism -->      
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>  <!-- has participant -->
+                        	<owl:someValuesFrom>
+                               	<owl:Class>
+                                	<owl:intersectionOf rdf:parseType="Collection">
+                                	<rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!--Homo sapines-->
+                                    	<owl:Restriction>
+                                        	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                                        	<owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>  <!--patient-->
+                                    	</owl:Restriction>
+                   					</owl:intersectionOf>
+                    			</owl:Class>
+                    	 </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>  <!-- has participant -->
+                        	<owl:someValuesFrom>
+                               	<owl:Class>
+                    				<owl:intersectionOf rdf:parseType="Collection">
+                    					<rdf:Description rdf:about="&ONSTR;ONSTR_5692828"/>  <!--nutritional item-->
+                    						<owl:Class>
+                    							<owl:complementOf rdf:resource="&ONSTR;ONSTR_7534799"/> <!--parenteral nutri solution-->
+                    						</owl:Class>
+                    				</owl:intersectionOf>
+                    			</owl:Class>
+                    		</owl:someValuesFrom>
+                  	</owl:Restriction>
+                  </owl:intersectionOf>
+            </owl:Class>
+         </owl:equivalentClass>	
         <skos:definition rdf:datatype="&xsd;string">Enteral administration is a material entity administration into the organism where material entity (nutritional item or medication) is introduced into the organism's alimentary canal (oral cavity or gastrointestinal (GI) tract).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D004750</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Human_gastrointestinal_tract</rdfs:comment>    
@@ -16223,7 +16257,48 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1552413">
         <rdfs:label rdf:datatype="&xsd;string">parenteral administration</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3371475"/>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3371475"/ -->
+		
+		<owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_3371475"/>  <!-- superclass:material ent admin into the organism -->      
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>  <!-- has participant -->
+                        	<owl:someValuesFrom>
+                               	<owl:Class>
+                                	<owl:intersectionOf rdf:parseType="Collection">
+                                	<rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!--Homo sapines-->
+                                    	<owl:Restriction>
+                                        	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                                        	<owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>  <!--patient role-->
+                                    	</owl:Restriction>
+                   					</owl:intersectionOf>
+                    			</owl:Class>
+                    	 </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>  <!-- has participant -->
+                        	<owl:someValuesFrom>
+                               	<owl:Class>
+                                	<owl:intersectionOf rdf:parseType="Collection">
+                                	<rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!--Homo sapines-->
+                                    	<owl:Restriction>
+                                        	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                                        	<owl:someValuesFrom rdf:resource="&obo;OBI_0000207"/>  <!--health care provider role-->
+                                    	</owl:Restriction>
+                   					</owl:intersectionOf>
+                    			</owl:Class>
+                    	 </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>  <!-- has participant -->
+						<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7534799"/> <!--parenteral nutri solution-->
+		           </owl:Restriction>
+		       </owl:intersectionOf>
+		   </owl:Class>
+		</owl:equivalentClass>
+		
         <skos:definition rdf:datatype="&xsd;string">Parenteral administration is enteral administration where material entity (fluid nutritional item or medication) is introduced into the organism intravenously, subcutanously, intramuscularly, intradermally or intrasternally.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">The route of administration, constant rate of flow required, and potential patient sensitivity to the elements administered, all contribute to the potential complications of parenteral nutrition. [Source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition ]</rdfs:comment>        
