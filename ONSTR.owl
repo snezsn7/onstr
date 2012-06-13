@@ -14750,8 +14750,6 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-     
-     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0856506 -->  <!-- percent recommended dietary cholesterol acid allowance-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0856506">
@@ -14773,6 +14771,60 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1560326 -->  <!-- percent recommended dietary alpha-linolenic acid acid allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1560326">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary alpha-linolenic acid allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4421038"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary alpha-linolenic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary alpha-linolenic acid consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for alpha-linolenic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3461344 -->  <!-- percent recommended dietary arachidonic acid acid allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3461344">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary arachidonic acid allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4421038"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary arachidonic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary arachidonic acid consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for arachidonic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4802516 -->  <!-- percent recommended dietary docosahexaenoic acid acid allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4802516">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary docosahexaenoic acid allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4421038"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary docosahexaenoic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary docosahexaenoic acid consumed by a human patient during the time interval relevant for dietary intake analysis, expressed as percentage of the recommended dietary allowance for docosahexaenoic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3115504 -->  <!-- percent recommended dietary eicosapentaenoic acid acid allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3115504">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary eicosapentaenoic acid allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4421038"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary eicosapentaenoic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary eicosapentaenoic acid consumed by a human patient during the time interval relevant for dietary intake analysis, expressed as percentage of the recommended dietary allowance for eicosapentaenoic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3891411 -->  <!-- percent recommended dietary linoleic acid acid allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3891411">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary linoleic acid allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4421038"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary linoleic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary linoleic acid consumed by a human patient during the time interval relevant for dietary intake analysis, expressed as percentage of the recommended dietary allowance for linoleic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2740580 -->  <!-- percent recommended dietary carbohydrate allowance-->
 
@@ -14827,6 +14879,14 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+       <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2594192-->  <!-- percent recommended dietary macronutrient allowance-->
+
+    <!-- owl:Class rdf:about="&ONSTR;ONSTR_2594192">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary macronutrient allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9281587"/ -->
+     
      
      
      
