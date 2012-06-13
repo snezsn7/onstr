@@ -14500,7 +14500,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9281587">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary nutrient allowance datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3255175"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary nutrient allowance datum is a dietary nutrient intake datum which provides the information about the quantity of a dietary nutrient consumed by a human, expressed as percentage of the recommended dietary nutrient allowance for that specific nutrient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary nutrient allowance datum is a dietary nutrient intake datum which provides the information about the quantity of a dietary nutrient consumed by a human during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary nutrient allowance for that specific nutrient.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">percent recommended daily allowance</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">percent RDA</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
@@ -14513,7 +14513,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2594192">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary macronutrient allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9281587"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary macronutrient allowance is a percent recommended dietary nutrient allowance datum that provides the information about the quantity of particular dietary nutrient consumed by a human patient during the time interval relevant for dietary intake analysis, and expressed as percentage of the recommended dietary allowance for that specific dietary nutrient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary macronutrient allowance is a percent recommended dietary nutrient allowance datum that provides the information about the quantity of particular dietary nutrient consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for that specific dietary nutrient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14524,7 +14524,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9367124">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary amino acid allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2594192"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary amino acid allowance is a percent recommended dietary macronutrient allowance that provides the information about the quantity of specific dietary amino acid consumed by a human patient during the time interval relevant for dietary intake analysis, and expressed as percentage of the recommended dietary allowance for observed amino acid.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary amino acid allowance is a percent recommended dietary macronutrient allowance that provides the information about the quantity of specific dietary amino acid consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for observed amino acid.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14535,7 +14535,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4561862">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary alanine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary alanine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary alanine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid alanine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary alanine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary alanine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid alanine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14546,7 +14546,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5985064">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary arginine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary arginine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary arginine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid arginine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary arginine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary arginine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid arginine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14557,7 +14557,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6070889">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary asparagine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary asparagine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary asparagine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid asparagine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary asparagine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary asparagine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid asparagine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14568,7 +14568,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5977484">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary aspartic acid allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/> 
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary aspartic acid allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary aspartic acid consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for aspartic acid.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary aspartic acid allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary aspartic acid consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for aspartic acid.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14579,7 +14579,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7624772">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary cysteine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary cysteine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary cysteine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid cysteine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary cysteine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary cysteine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid cysteine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14590,7 +14590,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9477126">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary glutamic acid allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary glutamic acid allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary glutamic acid consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for glutamic acid.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary glutamic acid allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary glutamic acid consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for glutamic acid.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14612,7 +14612,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9345452">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary glycine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary glycine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary glycine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid glycine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary glycine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary glycine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid glycine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14623,7 +14623,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3833901">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary isoleucine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary isoleucine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary isoleucine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid isoleucine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary isoleucine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary isoleucine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid isoleucine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14634,7 +14634,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9677528">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary leucine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary leucine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary leucine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid leucine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary leucine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary leucine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid leucine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14645,7 +14645,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5978745">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary lysine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/> 
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary lysine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary lysine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid lysine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary lysine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary lysine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid lysine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14656,7 +14656,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3765273">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary histidine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary histidine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary histidine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid histidine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary histidine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary histidine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid histidine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14667,7 +14667,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1690491">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary methionine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary methionine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary methionine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid methionine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary methionine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary methionine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid methionine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14678,7 +14678,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9579536">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary proline allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/> 
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary proline allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary proline consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid proline.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary proline allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary proline consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid proline.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14689,7 +14689,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4169315">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary serine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/> 
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary serine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary serine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid serine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary serine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary serine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid serine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14700,7 +14700,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6062494">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary threonine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary threonine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary threonine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid threonine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary threonine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary threonine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid threonine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14711,7 +14711,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6955767">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary tryptophan allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary tryptophan allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary tryptophan consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid tryptophan.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary tryptophan allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary tryptophan consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid tryptophan.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14722,7 +14722,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1719621">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary valine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary valine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary valine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid valine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary valine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary valine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid valine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14733,7 +14733,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1277105">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary phenylalanine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/> 
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary phenylalanine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary phenylalanine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid phenylalanine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary phenylalanine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary phenylalanine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid phenylalanine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14744,7 +14744,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1357690">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary tyrosine allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9367124"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary tyrosine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary tyrosine consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for amino acid tyrosine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary tyrosine allowance is a percent recommended dietary amino acid allowance that provides the information about the quantity of dietary tyrosine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for amino acid tyrosine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14755,7 +14755,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0856506">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary cholesterol allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2594192"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary cholesterol allowance is a percent recommended dietary macronutrient allowance that provides the information about the total quantity of dietary cholesterol consumed by a human patient during the time interval relevant for dietary intake analysis, and expressed as percentage of the recommended dietary allowance for dietary cholesterol.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary cholesterol allowance is a percent recommended dietary macronutrient allowance that provides the information about the total quantity of dietary cholesterol consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for dietary cholesterol.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14766,7 +14766,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4421038">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary fatty acid allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2594192"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary fatty acid allowance is a percent recommended dietary macronutrient allowance that provides the information about the quantity of dietary fatty acid consumed by a human patient during the time interval relevant for dietary intake analysis, and expressed as percentage of the recommended dietary allowance for observed fatty acid.</skos:definition>   
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary fatty acid allowance is a percent recommended dietary macronutrient allowance that provides the information about the quantity of dietary fatty acid consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for observed fatty acid.</skos:definition>   
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14777,7 +14777,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1560326">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary alpha-linolenic acid allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4421038"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary alpha-linolenic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary alpha-linolenic acid consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for alpha-linolenic acid.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary alpha-linolenic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary alpha-linolenic acid consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for alpha-linolenic acid.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14788,7 +14788,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3461344">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary arachidonic acid allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4421038"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary arachidonic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary arachidonic acid consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for arachidonic acid.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary arachidonic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary arachidonic acid consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for arachidonic acid.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14799,7 +14799,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4802516">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary docosahexaenoic acid allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4421038"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary docosahexaenoic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary docosahexaenoic acid consumed by a human patient during the time interval relevant for dietary intake analysis, expressed as percentage of the recommended dietary allowance for docosahexaenoic acid.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary docosahexaenoic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary docosahexaenoic acid consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and expressed as percentage of the recommended dietary allowance for docosahexaenoic acid.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14810,7 +14810,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3115504">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary eicosapentaenoic acid allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4421038"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary eicosapentaenoic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary eicosapentaenoic acid consumed by a human patient during the time interval relevant for dietary intake analysis, expressed as percentage of the recommended dietary allowance for eicosapentaenoic acid.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary eicosapentaenoic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary eicosapentaenoic acid consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for eicosapentaenoic acid.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14821,7 +14821,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3891411">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary linoleic acid allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4421038"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary linoleic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary linoleic acid consumed by a human patient during the time interval relevant for dietary intake analysis, expressed as percentage of the recommended dietary allowance for linoleic acid.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary linoleic acid allowance is a percent recommended dietary fatty acid allowance that provides the information about the quantity of dietary linoleic acid consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for linoleic acid.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14831,7 +14831,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2740580">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary carbohydrate allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2594192"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary carbohydrate allowance is a percent recommended dietary macronutrient allowance that provides the information about the total quantity of dietary carbohydrates combined, consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percentage of the recommended dietary allowance for dietary carbohydrate.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary carbohydrate allowance is a percent recommended dietary macronutrient allowance that provides the information about the total quantity of dietary carbohydrates combined, consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for dietary carbohydrate.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14842,7 +14842,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8953989">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary fat allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2594192"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary fat allowance is a percent recommended dietary macronutrient allowance that provides the information about the total quantity of dietary fats combined, consumed by a human patient during the time interval relevant for dietary intake analysis, and expressed as percentage of the recommended dietary allowance for dietary fat.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary fat allowance is a percent recommended dietary macronutrient allowance that provides the information about the total quantity of dietary fats combined, consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for dietary fat.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14853,7 +14853,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1867414">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary fiber allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2594192"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary fiber allowance is a percent recommended dietary macronutrient allowance that provides the information about the total quantity of all dietary fibers combines, consumed by a human patient during the time interval relevant for dietary intake analysis, and expressed as percentage of the recommended dietary allowance for dietary fiber.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary fiber allowance is a percent recommended dietary macronutrient allowance that provides the information about the total quantity of all dietary fibers combines, consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for dietary fiber.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14864,7 +14864,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4696269">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary protein allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2594192"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary protein allowance is a percent recommended dietary macronutrient allowance that provides the information about the total quantity of all dietary proteins combined, consumed by a human patient during the time interval relevant for dietary intake analysis, and expressed as percentage of the recommended dietary allowance for dietary protein.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary protein allowance is a percent recommended dietary macronutrient allowance that provides the information about the total quantity of all dietary proteins combined, consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for dietary protein.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14875,7 +14875,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0514381">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary water allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2594192"/> 
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary water allowance is a percent recommended dietary macronutrient allowance that provides the information about the total quantity of dietary water consumed by a human patient during the time interval relevant for dietary intake analysis, expressed as percentage of the recommended dietary allowance for water.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary water allowance is a percent recommended dietary macronutrient allowance that provides the information about the total quantity of dietary water consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for water.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14886,7 +14886,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1587001">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary micronutrient allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9281587"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary micronutrient allowance is a percent recommended dietary nutrient allowance datum that provides the information about the quantity of particular dietary nutrient consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percent of the recommended dietary allowance for the observed dietary nutrient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary micronutrient allowance is a percent recommended dietary nutrient allowance datum that provides the information about the quantity of particular dietary nutrient consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percent of the recommended dietary allowance for the observed dietary nutrient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14897,24 +14897,257 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2115401">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary mineral allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1587001"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary mineral allowance is a percent recommended dietary micronutrient allowance that provides the information about the quantity of particular dietary mineral consumed by a human patient during the time interval relevant for dietary intake analysis, and that is expressed as percent of the recommended dietary allowance for the observed dietary mineral.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary mineral allowance is a percent recommended dietary micronutrient allowance that provides the information about the quantity of particular dietary mineral consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percent of the recommended dietary allowance for the observed dietary mineral.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0323514 -->  <!-- percent recommended dietary arsenic allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0323514">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary arsenic allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary arsenic allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary arsenic consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for arsenic.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
+       
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3481491 -->  <!-- percent recommended dietary boron allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3481491">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary boron allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary boron allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary boron consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for boron.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5115929 -->  <!-- percent recommended dietary calcium allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5115929">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary calcium allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary calcium allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary calcium consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for calcium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+   
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9072789 -->  <!-- percent recommended dietary chloride allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9072789">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary chloride allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>  
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary chloride allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary chloride consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for chloride.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+  
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5475171 -->  <!-- percent recommended dietary chromium allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5475171">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary chromium allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>   
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary chromium allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary chromium consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for chromium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0452049 -->  <!-- percent recommended dietary copper allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0452049">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary copper allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>  
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary copper allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary copper consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for copper.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4842426 -->  <!-- percent recommended dietary fluoride allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4842426">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary fluoride allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary fluoride allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary fluoride consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for fluoride.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4403020 -->  <!-- percent recommended dietary iodine allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4403020">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary iodine allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary iodine allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary iodine consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for iodine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0076769 -->  <!-- percent recommended dietary iron allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0076769">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary iron allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary iron allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary iron consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for iron.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+   
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6876575 -->  <!-- percent recommended dietary magnesium allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6876575">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary magnesium allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary magnesium allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary magnesium consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for magnesium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+   
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4032136 -->  <!-- percent recommended dietary manganese allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4032136">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary manganese allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary manganese allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary manganese consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for manganese.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5983012 -->  <!-- percent recommended dietary molybdenum allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5983012">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary molybdenum allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary molybdenum allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary molybdenum consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for molybdenum.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+   
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6863786 -->  <!-- percent recommended dietary nickel allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6863786">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary nickel allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary nickel allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary nickel consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for nickel.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4943432 -->  <!-- percent recommended dietary phosphorus allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4943432">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary phosphorus allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary phosphorus allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary phosphorus consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for phosphorus.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4438585 -->  <!-- percent recommended dietary potassium allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4438585">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary potassium allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary potassium allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary potassium consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for potassium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+     
+  
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0164208 -->  <!-- percent recommended dietary selenium allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0164208">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary selenium allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary selenium allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary selenium consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for selenium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+   
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0969453 -->  <!-- percent recommended dietary silicon allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0969453">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary silicon allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary silicon allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary silicon consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for silicon.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+   
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2363484 -->  <!-- percent recommended dietary sodium allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2363484">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary sodium allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary sodium allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary sodium consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for sodium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+   
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8047878 -->  <!-- percent recommended dietary sulfate allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8047878">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary sulfate allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary sulfate allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary sulfate consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for sulfate.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+   
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7469847 -->  <!-- percent recommended dietary vanadium allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7469847">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary vanadium allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary vanadium allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary vanadium consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for vanadium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+   
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5654422 -->  <!-- percent recommended dietary zinc allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5654422">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary zinc allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2115401"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary zinc allowance is a percent recommended dietary mineral allowance that provides the information about the quantity of dietary zinc consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary allowance for zinc.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+    
+   
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4193232 -->  <!-- percent recommended dietary vitamin allowance-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4193232">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary vitamin allowance</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1587001"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary vitamin allowance is a percent recommended dietary micronutrient allowance that provides the information about the quantity of particular dietary vitamin consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percent of the recommended dietary allowance for the observed dietary vitamin.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary vitamin allowance is a percent recommended dietary micronutrient allowance that provides the information about the quantity of particular dietary vitamin consumed by a human patient during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percent of the recommended dietary allowance for the observed dietary vitamin.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
        
+   
+   
+   
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3346730-->  <!-- percent daily dietary energy intake datum -->
 
