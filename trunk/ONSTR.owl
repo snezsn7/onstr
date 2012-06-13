@@ -14881,14 +14881,40 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-       <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2594192-->  <!-- percent recommended dietary macronutrient allowance-->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1587001-->  <!-- percent recommended dietary micronutrient allowance-->
 
-    <!-- owl:Class rdf:about="&ONSTR;ONSTR_2594192">
-        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary macronutrient allowance</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9281587"/ -->
+    <owl:Class rdf:about="&ONSTR;ONSTR_1587001">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary micronutrient allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9281587"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary micronutrient allowance is a percent recommended dietary nutrient allowance datum that provides the information about the quantity of particular dietary nutrient consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percent of the recommended dietary allowance for the observed dietary nutrient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2115401 -->  <!-- percent recommended dietary mineral allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2115401">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary mineral allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1587001"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary mineral allowance is a percent recommended dietary micronutrient allowance that provides the information about the quantity of particular dietary mineral consumed by a human patient during the time interval relevant for dietary intake analysis, and that is expressed as percent of the recommended dietary allowance for the observed dietary mineral.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
      
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4193232 -->  <!-- percent recommended dietary vitamin allowance-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4193232">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary vitamin allowance</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1587001"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary vitamin allowance is a percent recommended dietary micronutrient allowance that provides the information about the quantity of particular dietary vitamin consumed by a human patient during the time interval relevant for dietary intake analysis, that is expressed as percent of the recommended dietary allowance for the observed dietary vitamin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+       
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3346730-->  <!-- percent daily dietary energy intake datum -->
 
