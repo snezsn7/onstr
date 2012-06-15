@@ -17786,14 +17786,29 @@ We have had a long discussion about denotes versus describes.</skos:definition>
   
   <!-- http://www.obofoundry.org/ro/ro.owl#derives_from -->  <!-- derives_from -->
 
-    <owl:ObjectProperty rdf:about="&ro;derives_from"> 
-    <skos:definition rdf:datatype="&xsd;string">Derivation on the instance level (*derives_from*) holds between distinct material continuants when one succeeds the other across a temporal divide in such a way that at least a biologically significant portion of the matter of the earlier continuant is inherited by the later. We say that one class C derives_ass C' if instances of C are connected to instances of C' via some chain of instance-level derivation relations. Example: osteocyte derives_from osteoblast. Formally: C derives_immediately_from C' if and only if: given any c and any t, if c instantiates C at time t, then there is some c' and some t', such that c' instantiates C' at t' and t' earlier-than t and c *derives_from* c'. C derives_from C' if and only if: there is an chain of immediate derivation relations connecting C to C'.</skos:definition>
-    <rdfs:comment rdf:datatype="&xsd;string">Derivation as a relation between instances. The temporal relation of derivation is more complex. Transformation, on the instance level, is just the relation of identity: each adult is identical to some child existing at some earlier time. Derivation on the instance-level is a relation holding between non-identicals. More precisely, it holds between distinct material continuants when one succeeds the other across a temporal divide in such a way that at least a biologically significant portion of the matter of the earlier continuant is inherited by the later. Thus we will have axioms to the effect that from c derives_from c1 we can infer that c and c1 are not identical and that there is some instant of time t such that c1 exists only prior to and c only subsequent to t. We will also be able to infer that the spatial region occupied by c as it begins to exist at t overlaps with the spatial region occupied by c1 as it ceases to exist in the same instant.</rdfs:comment>    
-    <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from RO</skos:editorialNote>
-    <rdfs:comment rdf:datatype="&xsd;string">This may be (or very likely will be) removed or replaced at a later date.</rdfs:comment>    
+   <owl:ObjectProperty rdf:about="&ro;derives_from"> 
+        <rdfs:label rdf:datatype="&xsd;string">derives_from</rdfs:label>
+    	<skos:definition rdf:datatype="&xsd;string">Derivation on the instance level (*derives_from*) holds between distinct material continuants when one succeeds the other across a temporal divide in such a way that at least a biologically significant portion of the matter of the earlier continuant is inherited by the later. We say that one class C derives_ass C' if instances of C are connected to instances of C' via some chain of instance-level derivation relations. Example: osteocyte derives_from osteoblast. Formally: C derives_immediately_from C' if and only if: given any c and any t, if c instantiates C at time t, then there is some c' and some t', such that c' instantiates C' at t' and t' earlier-than t and c *derives_from* c'. C derives_from C' if and only if: there is an chain of immediate derivation relations connecting C to C'.</skos:definition>
+    	<rdfs:comment rdf:datatype="&xsd;string">Derivation as a relation between instances. The temporal relation of derivation is more complex. Transformation, on the instance level, is just the relation of identity: each adult is identical to some child existing at some earlier time. Derivation on the instance-level is a relation holding between non-identicals. More precisely, it holds between distinct material continuants when one succeeds the other across a temporal divide in such a way that at least a biologically significant portion of the matter of the earlier continuant is inherited by the later. Thus we will have axioms to the effect that from c derives_from c1 we can infer that c and c1 are not identical and that there is some instant of time t such that c1 exists only prior to and c only subsequent to t. We will also be able to infer that the spatial region occupied by c as it begins to exist at t overlaps with the spatial region occupied by c1 as it ceases to exist in the same instant.</rdfs:comment>    
+    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Relation Ontology (RO)</skos:editorialNote>
+    	<rdfs:comment rdf:datatype="&xsd;string">This may be (or very likely will be) removed or replaced at a later date.</rdfs:comment>    
   </owl:ObjectProperty>
+  
+  
+  <!-- http://purl.org/obo/owl/obo#directly_associated_with -->  <!-- directly associated with -->
+  
+  <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/obo#directly_associated_with">
+       <rdfs:label rdf:datatype="&xsd;string">directly_associated_with</rdfs:label>
+       <skos:definition rdf:datatype="&xsd;string">q1 directly_associated_with q2 iff q1 is dependent on q2, and the magnitude of q1 increases if the magnitude of q2 is increased, or the magnitude of q1 decreases if the magnitude of q2 is decreased. The relationship is not necessarily linear.</skos:definition>
+       <rdfs:comment rdf:datatype="&xsd;string">Note: In PATO the domain and range for this object property are &quot;quality&quot; PATO_0000001, a class which technically overlaps with BFO2 class &quot;quality&quot; BFO_0000019 which is, therefore, in this ontology asserted as domain and range for directly_associated_with.</rdfs:comment>    
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+       <skos:example rdf:datatype="&xsd;string">Example: 'Lewy bodies increased number related to dystrophic neurite increased number' (from annotation of PMID:8740227 in http://ccdb.ucsd.edu/1.0/NDPO.owl#ndpo_404). Here the increase in the number of lewy bodies is directly_associated_with the increase in the number of dystrophic neurites.nAssociation is weaker than correlation or proportionality. These relations may be later added to PATO. [Source: PATO.]</skos:example>
+       <rdfs:domain rdf:resource="&obo;BFO_0000019"/>  <!-- quality, same as PATO_0000001 quality -->
+       <rdfs:range rdf:resource="&obo;BFO_0000019"/>  <!-- quality same as PATO_0000001 quality -->
+</owl:ObjectProperty>
     
-
+    
+    
 <!-- Rels Ovde -->
    
    
