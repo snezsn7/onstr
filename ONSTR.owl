@@ -1758,7 +1758,7 @@ people infected, then extract parasite which are then tested = observation study
      
      <!-- http://purl.org/obo/owl/PATO#PATO_0001869 -->  <!-- pathological -->
     
-      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001869">
+      <owl:Class rdf:about="&PATO;PATO_0001869">
     	<rdfs:label rdf:datatype="&xsd;string">pathological</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000460"/>
         <skos:definition rdf:datatype="&xsd;string">A quality inhering in a bearer by virtue of the bearer's being abnormal and having a destructive effect on living tissue.</skos:definition>
@@ -1768,13 +1768,42 @@ people infected, then extract parasite which are then tested = observation study
      
      <!-- http://purl.org/obo/owl/PATO#PATO_0000461 -->  <!-- normal -->
     
-      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0000461">
+      <owl:Class rdf:about="&PATO;PATO_0000461">
     	<rdfs:label rdf:datatype="&xsd;string">normal</rdfs:label>
         <rdfs:subClassOf rdf:resource="&PATO;PATO_0000068"/>
         <skos:definition rdf:datatype="&xsd;string">A quality inhering in a bearer by virtue of the bearer's exhibiting no deviation from normal or average.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
-
+    
+    
+   <!-- http://purl.org/obo/owl/PATO#PATO_0001236 -->  <!-- process quality -->
+    
+      <owl:Class rdf:about="&PATO;PATO_0001236">
+      	<rdfs:label rdf:datatype="&xsd;string">process quality</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/> <!-- quality -->
+        <skos:definition rdf:datatype="&xsd;string">A quality which inheres in an process.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://purl.org/obo/owl/PATO#PATO_0002062 -->  <!-- physical quality of a process -->
+    
+      <owl:Class rdf:about="&PATO;PATO_0002062">
+      	<rdfs:label rdf:datatype="&xsd;string">physical quality of a process</rdfs:label>   
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001236"/> <!-- process quality -->
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://purl.org/obo/owl/PATO#PATO_0000161 -->  <!-- rate -->
+    
+      <owl:Class rdf:about="&PATO;PATO_0000161">
+      	<rdfs:label rdf:datatype="&xsd;string">rate</rdfs:label>   
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0002062"/> <!-- physical quality of a process -->
+        <skos:definition rdf:datatype="&xsd;string">A quality of a single process inhering in a bearer by virtue of the bearer's occurrence per unit time.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+   
    
  <!-- END PATO IMPORTS -->  
  <!-- START FMA -->  
@@ -7894,6 +7923,8 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000027"/>  <!-- data item -->
                     <rdf:Description rdf:about="&ONSTR;ONSTR_8918965"/>  <!-- percentile -->
+    		    
+    		    
     		    </owl:intersectionOf>
 		  </owl:Class>
         </owl:equivalentClass>
@@ -17806,7 +17837,6 @@ We have had a long discussion about denotes versus describes.</skos:definition>
        <rdfs:domain rdf:resource="&obo;BFO_0000019"/>  <!-- quality, same as PATO_0000001 quality -->
        <rdfs:range rdf:resource="&obo;BFO_0000019"/>  <!-- quality same as PATO_0000001 quality -->
 </owl:ObjectProperty>
-    
     
     
 <!-- Rels Ovde -->
