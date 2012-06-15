@@ -3177,10 +3177,10 @@ people infected, then extract parasite which are then tested = observation study
       </owl:Class>
       
       
-     <!-- http://purl.obolibrary.org/obo/CHEBI_33720 --> <!-- carboydrate acid -->
+     <!-- http://purl.obolibrary.org/obo/CHEBI_33720 --> <!-- carbohydrate acid -->
       
   		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33720">
-    		<rdfs:label rdf:datatype="&xsd;string">carboydrate acid</rdfs:label>
+    		<rdfs:label rdf:datatype="&xsd;string">carbohydrate acid</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33575"/>
             <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
@@ -5719,7 +5719,7 @@ people infected, then extract parasite which are then tested = observation study
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
-                                                    				<rdf:Description rdf:about="&PATO;PATO_0000033"/>  <!-- concentration of -->
+                                                    				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
                                         	                        <owl:Restriction>
                                                         				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
                                                         			    <owl:someValuesFrom rdf:resource="&obo;OBI_0100016"/> <!-- blood plasma specimen -->
@@ -5750,16 +5750,16 @@ people infected, then extract parasite which are then tested = observation study
  			      </owl:intersectionOf>
  			</owl:Class>
  	    </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Blood plasma phenylalanine concentration mesasurement datum is a concentration measurement datum that is the output of the blood plasma phenylalanine concentration measurement assay that measures the concentration of the amino acid phenylalanine in blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood plasma phenylalanine concentration measurement datum is a concentration measurement datum that is the output of the blood plasma phenylalanine concentration measurement assay that measures the concentration of the amino acid phenylalanine in blood plasma specimen.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0630865 --> <!-- blood phenylalanine concentration mesasurement datum -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0630865 --> <!-- blood phenylalanine concentration measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0630865">
-        <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration mesasurement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration measurement datum</rdfs:label>
     	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->
          <owl:equivalentClass>
             <owl:Class>
@@ -5780,7 +5780,7 @@ people infected, then extract parasite which are then tested = observation study
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
-                                                    				<rdf:Description rdf:about="&PATO;PATO_0000033"/>  <!-- concentration of -->
+                                                    				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
                                         	                        <owl:Restriction>
                                                         				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
                                                         			    <owl:someValuesFrom rdf:resource="&obo;OBI_0000655"/> <!-- blood specimen -->
@@ -5855,7 +5855,7 @@ people infected, then extract parasite which are then tested = observation study
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
-                                                    				<rdf:Description rdf:about="&PATO;PATO_0000033"/>  <!-- concentration of -->
+                                                    				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
                                         	                        <owl:Restriction>
                                                         				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
                                                         			    <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2889784"/> <!-- CSF specimen -->
@@ -6161,8 +6161,11 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7549502">
         <rdfs:label rdf:datatype="&xsd;string">dried blood spot specimen</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3725003"/>
-        <skos:definition rdf:datatype="&xsd;string">Dried blood spot specimen is a capillary blood specimen that is specified output of neonatal-heel prick blood specimen collecting or finger-prick capillary blood specimen collecting.</skos:definition>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/> <!-- processed specimen -->
+    	<!-- ADD LOG DEF, specif output of cappilary blood collecting  -->
+        <skos:definition rdf:datatype="&xsd;string">Dried blood spot specimen is a processed specimen that is specified output of neonatal-heel prick blood specimen collecting or finger-prick capillary blood specimen collecting.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">DBS</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">dried blood spot</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -8211,7 +8214,7 @@ people infected, then extract parasite which are then tested = observation study
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
-                                                    				<rdf:Description rdf:about="&PATO;PATO_0000033"/>  <!-- concentration of -->
+                                                    				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
                                         	                        <owl:Restriction>
                                                         				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
                                                         			    <owl:someValuesFrom rdf:resource="&obo;OBI_0100017"/> <!-- blood serum specimen = thing 2 -->
@@ -8269,7 +8272,7 @@ people infected, then extract parasite which are then tested = observation study
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
-                                                    				<rdf:Description rdf:about="&PATO;PATO_0000033"/>  <!-- concentration of -->
+                                                    				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
                                         	                        <owl:Restriction>
                                                         				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
                                                         			    <owl:someValuesFrom rdf:resource="&obo;OBI_0100017"/> <!-- blood serum specimen = thing 2 -->
@@ -8328,7 +8331,7 @@ people infected, then extract parasite which are then tested = observation study
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
-                                                    				<rdf:Description rdf:about="&PATO;PATO_0000033"/>  <!-- concentration of -->
+                                                    				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
                                         	                        <owl:Restriction>
                                                         				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
                                                         			    <owl:someValuesFrom rdf:resource="&obo;OBI_0100017"/> <!-- blood serum specimen = thing 2 -->
@@ -17212,11 +17215,10 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7240990">
         <rdfs:label rdf:datatype="&xsd;string">food item-amino acid exchange datum</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9545140"/ --> 
+        <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/ --> 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_9545140"/>  <!-- the super class -->
                     <rdf:Description rdf:about="&obo;IAO_0000032"/>  <!-- scalar measur datum -->
 				    <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measur unit label -->
@@ -17229,7 +17231,7 @@ people infected, then extract parasite which are then tested = observation study
 				</owl:intersectionOf>
            </owl:Class>
        </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Food item-amino acid exchange datum is a dietary consumption datum providing the information about the number of amino acid exchange units corresponding to each listed food item consumed by a patient  during the time interval relevant for the dietary analysis.</skos:definition> 
+        <skos:definition rdf:datatype="&xsd;string">Food item-amino acid exchange datum is a scalar measurement datum providing the information about the number of amino acid exchange units corresponding to each listed food item consumed by a patient  during the time interval relevant for the dietary analysis.</skos:definition> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -17278,7 +17280,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Nutritional item datum is a data item that provides the information about the kinds and quantities of nutritional items have been prescribed to be consumed during the course of treatment or have been consumed by a human patient during the time interval relevant for dietary analysis.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutritional item datum is a data item that provides the information about the kinds, quantities and nutrient content of nutritional items have been prescribed to be consumed during the course of treatment or have been consumed by a human patient during the time interval relevant for dietary analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -17289,7 +17291,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6640610">
         <rdfs:label rdf:datatype="&xsd;string">food item datum</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1474441"/>  <!-- nutritional item datum -->
-        <skos:definition rdf:datatype="&xsd;string">Food item datum is a nutritional item datum that provides the information about the kinds and quantities prescribed to or consumed by a human patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Food item datum is a nutritional item datum that provides the information about the kinds, quantities and nutrient content of food items prescribed to or consumed by a human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
