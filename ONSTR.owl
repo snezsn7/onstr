@@ -8882,6 +8882,23 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8602784 -->  <!-- alpha-tocopherol equivalent unit  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8602784">
+        <rdfs:label rdf:datatype="&xsd;string">alpha-tocopherol equivalent unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1282628"/>
+        <skos:definition rdf:datatype="&xsd;string">Alpha-tocopherol equivalent unit is a vitamin specific measurement unit that is determined based on biological activity of &#x3B1;-, &#x3B2;-, &#x3B3;- and &#x3B4;-tocopherols and that can be calculated following the formula: 1 &#x3B1;-TE = 1 mg &#x3B1;-RRR-tocopherol + (0.4 mg &#x3B2;-tocopherol) + (0.1 mg &#x3B3;-tocopherol) + (0.01 mg &#x3B4;-tocopherol) + 1 mg of all-rac-&#x3B;-tocopherols (i.e all synthetic forms of tocopherol).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Three DRI values for vitamin E (the EAR, RDA and AI) apply only to intake of 2R-stereoizomeric forms of &#x3B1;-tocopherol from food, fortified foods and supplements. The other naturally occuring isomers of vitamin E (&#x3B2;-, &#x3B3;- and &#x3B4;-tocopherols and &#x3B1;-, &#x3B2;-, &#x3B3;- and &#x3B4;-tocotrienols) do not contribute to meeting the vitamin E requirements, because they are not converted to &#x3B1;-tocopherol in humans. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) DRIs: The essential guide to nutrient requirements. Institute of medicine of the National academies. The National academies press, Washington DC., pp 237. ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Currently, most nutrient databases, as well as nutrition labels, do not distinguish among all the different forms of vitamin E found in food, and still use &#x3B1;-TE, thus including the contribution of all naturally occurring forms of vitamin E.  Because the forms of vitamin E other than the naturally occurring form RRR-&#x3B1;tocopherol) do not occur in foods, the intake of &#x3B1;-TE is greater than the intake of &#x3B1;-tocopherol alone, and it is thus recommended that the use of &#x3B1;-TE be abandoned due to the lack of evidence of bioavailability via transport in the blood plasma or tissues. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) DRIs: The essential guide to nutrient requirements. Institute of medicine of the National academies. The National academies press, Washington DC, pp 236-237. ]</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">alpha-TE</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">&#x3B1;-TE</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">alpha-tocoferol equivalent</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncc.umn.edu/products/databaseNUTvitamins.html </rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) DRIs: The essential guide to nutrient requirements.  Institute of medicine of the National academies. The National academies press, Washington DC, pp 237. </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9679076 -->  <!-- unit vitamin per unit time  -->
 
@@ -8941,6 +8958,20 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>    
     
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4406094 -->  <!-- alpha-tocopherol equivalent per day  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4406094">
+        <rdfs:label rdf:datatype="&xsd;string">alpha-tocopherol equivalent per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9679076"/>  
+        <skos:definition rdf:datatype="&xsd;string">Alpha-tocopherol equivalent per day is a unit vitamin per unit time that is equal to vitamin E intake of 1 &#x3B1;-TE in 1 day time interval.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Currently, most nutrient databases, as well as nutrition labels, do not distinguish among all the different forms of vitamin E found in food, and still use &#x3B1;-TE, thus including the contribution of all naturally occurring forms of vitamin E.  Because the forms of vitamin E other than the naturally occurring form RRR-&#x3B1;tocopherol) do not occur in foods, the intake of &#x3B1;-TE is greater than the intake of &#x3B1;-tocopherol alone, and it is thus recommended that the use of &#x3B1;-TE be abandoned due to the lack of evidence of bioavailability via transport in the blood plasma or tissues. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) DRIs: The essential guide to nutrient requirements.  Institute of medicine of the National academies. The National academies press, Washington DC, pp 236-237. ]</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">alpha-TE/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">&#x3B1;-TE/d</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9407520 -->  <!-- unit vitamin per mass per unit time  -->
 
@@ -8979,6 +9010,23 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6367574 -->  <!-- alpha-tocopherol equivalent per kilogram per day  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6367574">
+        <rdfs:label rdf:datatype="&xsd;string">alpha-tocopherol equivalent per kilogram per day</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9407520"/> 
+        <skos:definition rdf:datatype="&xsd;string">Alpha-tocopherol equivalent per kilogram per day is a unit vitamin per mass per unit time that is equal to vitamin E intake of 1 &#x3B1;-TE per 1 kg of human body mass in 1 day time interval.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Currently, most nutrient databases, as well as nutrition labels, do not distinguish among all the different forms of vitamin E found in food, and still use &#x3B1;-TE, thus including the contribution of all naturally occurring forms of vitamin E.  Because the forms of vitamin E other than the naturally occurring form RRR-&#x3B1;tocopherol) do not occur in foods, the intake of &#x3B1;-TE is greater than the intake of &#x3B1;-tocopherol alone, and it is thus recommended that the use of &#x3B1;-TE be abandoned due to the lack of evidence of bioavailability via transport in the blood plasma or tissues. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) DRIs: The essential guide to nutrient requirements. Institute of medicine of the National academies. The National academies press, Washington DC, pp 236-237. ]</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">&#x3B1;-TE/kg/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">(&#x3B1;-TE/kg)/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">alhpa-TE/kg/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">(alpha-TE/kg)/d</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7845326 -->  <!-- retinol activity equivalent per kilogram per day  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7845326">
@@ -9003,7 +9051,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-    
+   
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3782257 -->  <!-- amino acid content exchange unit  -->
 
@@ -10479,6 +10527,7 @@ people infected, then extract parasite which are then tested = observation study
                                 		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
                                 	    <rdf:Description rdf:about="&ONSTR;ONSTR_2553805"/>  <!-- microgram per day -->
                                 	    <rdf:Description rdf:about="&ONSTR;ONSTR_6650399"/>  <!-- IU per day -->   
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_4406094"/>  <!-- alpha-TE per day -->   
                                 	</owl:unionOf> 
                                </owl:Class> 	
                             </owl:someValuesFrom>
@@ -10491,6 +10540,8 @@ people infected, then extract parasite which are then tested = observation study
             </owl:Class>
         </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin E intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of vitamin E contained in all food items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Three DRI values for vitamin E (the EAR, RDA and AI) apply only to intake of 2R-stereoizomeric forms of &#x3B1;-tocopherol from food, fortified foods and supplements. The other naturally occuring isomers of vitamin E (&#x3B2;-, &#x3B3;- and &#x3B4;-tocopherols and &#x3B1;-, &#x3B2;-, &#x3B3;- and &#x3B4;-tocotrienols) do not contribute to meeting the vitamin E requirements, because they are not converted to &#x3B1;-tocopherol in humans. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) DRIs: The essential guide to nutrient requirements. The Insitute of medicine of the National academies. The National academies press, Washington DC, pp 237. ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Currently, most nutrient databases, as well as nutrition labels, do not distinguish among all the different forms of vitamin E found in food, and still use &#x3B1;-TE, thus including the contribution of all naturally occurring forms of vitamin E.  Because the forms of vitamin E other than the naturally occurring form RRR-&#x3B1;tocopherol) do not occur in foods, the intake of &#x3B1;-TE is greater than the intake of &#x3B1;-tocopherol alone, and it is thus recommended that the use of &#x3B1;-TE be abandoned due to the lack of evidence of bioavailability via transport in the blood plasma or tissues. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) DRIs: The essential guide to nutrient requirements.  The Insitute of medicine of the National academies. The National academies press, Washington DC, pp 236-237. ]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -13148,7 +13199,8 @@ people infected, then extract parasite which are then tested = observation study
                                 	<owl:unionOf rdf:parseType="Collection">
                                 		<rdf:Description rdf:about="&ONSTR;ONSTR_8982893"/>  <!-- miligram per kg per day -->
                                 	    <rdf:Description rdf:about="&ONSTR;ONSTR_5127965"/>  <!-- microgram per kg per day -->
-                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->   
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_9620541"/>  <!-- IU per kg per day -->  
+                                	    <rdf:Description rdf:about="&ONSTR;ONSTR_6367574"/>  <!-- alpha-TE per kg per day -->    
                                 	</owl:unionOf> 
                                </owl:Class> 	
                             </owl:someValuesFrom>
@@ -13161,6 +13213,8 @@ people infected, then extract parasite which are then tested = observation study
             </owl:Class>
         </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin E intake per body mass during observed time interval is an average vitamin intake per body mass during observed time interval information denoting the average quantity of vitamin E contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Three DRI values for vitamin E (the EAR, RDA and AI) apply only to intake of 2R-stereoizomeric forms of &#x3B1;-tocopherol from food, fortified foods and supplements. The other naturally occuring isomers of vitamin E (&#x3B2;-, &#x3B3;- and &#x3B4;-tocopherols and &#x3B1;-, &#x3B2;-, &#x3B3;- and &#x3B4;-tocotrienols) do not contribute to meeting the vitamin E requirements, because they are not converted to &#x3B1;-tocopherol in humans. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) DRIs: The essential guide to nutrient requirements. The Insitute of medicine of the National academies. The National academies press, Washington DC, pp 237. ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Currently, most nutrient databases, as well as nutrition labels, do not distinguish among all the different forms of vitamin E found in food, and still use &#x3B1;-TE, thus including the contribution of all naturally occurring forms of vitamin E.  Because the forms of vitamin E other than the naturally occurring form RRR-&#x3B1;tocopherol) do not occur in foods, the intake of &#x3B1;-TE is greater than the intake of &#x3B1;-tocopherol alone, and it is thus recommended that the use of &#x3B1;-TE be abandoned due to the lack of evidence of bioavailability via transport in the blood plasma or tissues. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) DRIs: The essential guide to nutrient requirements. The Insitute of medicine of the National academies. The National academies press, Washington D.C., pp 236-237. ]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
