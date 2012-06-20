@@ -17194,16 +17194,169 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7534799">
         <rdfs:label rdf:datatype="&xsd;string">parenteral nutrition solution</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5692828"/>   
-        <skos:definition rdf:datatype="&xsd;string">Parenteral nutrition solution is a nutritional item in the form of a liquid that is introduced into human body intravenously or subcutaneously. The parenteral nutrition solution usually consists of physiologic saline with glucose, amino acids, electrolytes, vitamins, (and may contain medications), which are not nutritionally complete but maintain fluid and electrolyte balance. The nutrient mix is tailored to the individual needs and tolerance of the patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Parenteral nutrition solution is a nutritional item in the form of a liquid that is introduced into human body intravenously or subcutaneously. The parenteral nutrition solution usually consists of physiologic saline with glucose, amino acids, electrolytes, vitamins, (and may contain medications), which are not nutritionally complete but maintain fluid and electrolyte balance.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">The nutrient contents in the solution may be customised to the individual patient needs and tolerance of the patient, or standardized solutions mat be used. Inndividual nutrient components may, if possible, be infused individually, or they may be injected into a bag of nutrient solution or intravenous fluids that is given to the patient. [Source: http://en.wikipedia.org/wiki/Parenteral_nutrition ] </rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">parenteral nutrition formula</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">parenteral nutrition fluid</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">parenteral fluid</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">intravenous feeding solution</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">hyperalimentation formula</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">hyperalimentation solution</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">hyperalimentation preparation</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8369223 -->  <!-- parenteral amino acid solution  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8369223">
+        <rdfs:label rdf:datatype="&xsd;string">parenteral amino acid solution</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7534799"/> 
+        <skos:definition rdf:datatype="&xsd;string">Parenteral amino acid solution is a parenteral nutrition solution that is composed of sterile water and crystalline amino acids (essential and non-essential) in different concentrations depending on patient&apos;s needs.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Hovasi Cox, J., Melbardis, I. M. (2005) Parenteral nutrition. In Handbook of pediatric nutrition, 3rd Ed. Jones and Bartlett publishers Inc. pp. 525-557.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Parenteral_nutrition</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: O'Leary, E.,Wasseff, S. (1993) Pediatric parenteral nutrition support handobook. Nutrition support service, Egleston Children&apos;s Hospital, Emory University, Atlanta, GA, pp. 6-10.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">parenteral crystalline amino acid solution</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">CAA solution</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">parenteral CAA</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1328060 -->  <!-- parenteral dextrose solution  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1328060">
+        <rdfs:label rdf:datatype="&xsd;string">parenteral dextrose solution</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7534799"/>
+        <skos:definition rdf:datatype="&xsd;string">Parenteral dextrose solution is a parenteral nutrition solution that is a solution of monohydrous dextrose (glucose monohydrate) diluted in sterile water.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Hovasi Cox, J., Melbardis, I. M. (2005) Parenteral nutrition. In Handbook of pediatric nutrition, 3rd Ed. Jones and Bartlett publishers Inc. pp. 525-557.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: O'Leary, E.,Wasseff, S. (1993) Pediatric parenteral nutrition support handobook. Nutrition support service, Egleston Children&apos;s Hospital, Emory University, Atlanta, GA, pp. 6-10.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1884454 -->  <!-- parenteral lipid solution  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1884454">
+        <rdfs:label rdf:datatype="&xsd;string">parenteral lipid solution</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7534799"/>
+        <skos:definition rdf:datatype="&xsd;string">Parenteral lipid solution is a parenteral nutrition solution that is a sterile fat emulsion (e.g. soybean or olive oil based) usually contains a mixture of essential fatty acids, egg yolk phospholipids and glycerol to make the emulsion isotonic, and may contain medium-chain triglicerides.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Guidelines on paediatric parenteral nutrition: 4. Lipids. Journal of pediatric and nutrition, Vol 41, Suppl. 2, S19-S27, November 2005.</rdfs:comment>   
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Hovasi Cox, J., Melbardis, I. M. (2005) Parenteral nutrition. In Handbook of pediatric nutrition, 3rd Ed. Jones and Bartlett publishers Inc. pp. 525-557.</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Asfaw, M., Buchanan, C., Davis, R., Glassman, M., Noakes, W., O'Leary, E.,Wasseff, S. (1993) Pediatric parenteral nutrition support handobook. Nutrition support service, Egleston Children's Hospital, Emory University, Atlanta, GA, pp. 6-10.</rdfs:comment>     
+        <skos:altLabel rdf:datatype="&xsd;string">parenteral lipid emulsion</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">intralipid solution</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">intravenous lipid emulsion</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">intravenous fat emulsion</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">IVFE</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9520679 -->  <!-- parenteral electrolyte solution  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9520679">
+        <rdfs:label rdf:datatype="&xsd;string">parenteral electrolyte solution</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7534799"/>
+        <skos:definition rdf:datatype="&xsd;string">Parenteral electrolyte solution is a parenteral nutrition solution composed of sterile water and one or more essential mineral nutrients (sodium, potassium, calcium, magnesium, phosphorus).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">intravenous electrolyte solution</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Electrolytes provided in parenteral solution must maintain neutral polarity, i.e. the number of cations (positively charged particles) must be matched with the number of anions (negatively charged). [Source: http://www2.kumc.edu/pharmacy/Nutrition_Info_Handbook/VI._Parenteral_Nutrition_(PN).pdf ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Asfaw, M., Buchanan, C., Davis, R., Glassman, M., Noakes, W., O'Leary, E.,Wasseff, S. (1993) Pediatric parenteral nutrition support handobook. Nutrition support service, Egleston Children's Hospital, Emory University, Atlanta, GA, pp. 6-10.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0339986 -->  <!-- parenteral multivitamin solution  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0339986">
+        <rdfs:label rdf:datatype="&xsd;string">parenteral multivitamin solution</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7534799"/>
+        <skos:definition rdf:datatype="&xsd;string">Parenteral multivitamin solution is a parenteral nutrition solution that contains both fat soluble vitamins (water solubilized with polysorbate 80 or other solubilizer) and water soluble vitamins, and that is usually composed of multivitamin powder formula (a dry mixture of various vitamins in various concentrations) diluted in sterile water (reconstituted).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Guidelines on paediatric parenteral nutrition: 8. Vitamins. Journal of pediatric and nutrition, Vol 41, Suppl. 2, S41-S53, November 2005.</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Asfaw, M., Buchanan, C., Davis, R., Glassman, M., Noakes, W., O'Leary, E., Wasseff, S. (1993) Pediatric parenteral nutrition support handobook. Nutrition support service, Egleston Children&apos;s Hospital, Emory University, Atlanta, GA, pp. 6-10.</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Parenteral multivitamin solution is usually added to parenteral dextrose solution, or other parenteral nutrition solution, and not administered as direct undiluted injection, as it may give rise to dizziness, faintness, possible tissue irritation and other adverse reactions.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3203924 -->  <!-- parenteral trace element solution  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3203924">
+        <rdfs:label rdf:datatype="&xsd;string">parenteral trace element solution</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7534799"/>   
+        <skos:definition rdf:datatype="&xsd;string">Parenteral trace element solution is a parenteral nutrition solution containing sterile water and on or more chemical compounds containing trace elements essential for human metabolism.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source:Asfaw, M., Buchanan, C., Davis, R., Glassman, M., Noakes, W., O'Leary, E.,Wasseff, S. (1993) Pediatric parenteral nutrition support handobook. Nutrition support service, Egleston Children's Hospital, Emory University, Atlanta, GA, pp. 6-10.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">parenteral trace mineral solution</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4766320 -->  <!-- parenteral two-in-one solution  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4766320">
+        <rdfs:label rdf:datatype="&xsd;string">parenteral two-in-one solution</rdfs:label>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7534799"/ -->
+	    <owl:equivalentClass>  
+          <owl:Class>  
+             <owl:intersectionOf rdf:parseType="Collection">
+                 <rdf:Description rdf:about="&ONSTR;ONSTR_7534799"/>    
+                     <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>    <!-- has part -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_8369223"/> <!-- parenteral amino acid solution --> 
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>    <!-- has part -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1328060"/> <!-- parenteral dextrose solution --> 
+                    </owl:Restriction>
+		      </owl:intersectionOf>
+           </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Parenteral two-in-one solution is a parenteral nutrition solution that is a mixture of parenteral dextrose solution and parenteral amino acid solution.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Hovasi Cox, J., Melbardis, I. M. (2005) Parenteral nutrition. In Handbook of pediatric nutrition, 3rd Ed. Jones and Bartlett publishers Inc. pp. 525-557.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Parenteral two-in-one solution is usually prepared on site, and infused through one arm of a Y-connector, while a parenteral lipid solution is infused through the other arm of the Y-connector. [Source: Hovasi Cox, J., Melbardis, I. M. (2005) Parenteral nutrition. In Handbook of pediatric nutrition, 3rd Ed. Jones and Bartlett publishers Inc. pp. 525-557. ]</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">parenteral two-in-one admixture solution</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">two-in-one solution</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9415312 -->  <!-- parenteral three-in-one solution  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9415312">
+        <rdfs:label rdf:datatype="&xsd;string">parenteral three-in-one solution</rdfs:label>
+		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7534799"/ -->
+		<owl:equivalentClass>  
+          <owl:Class>  
+             <owl:intersectionOf rdf:parseType="Collection">
+                 <rdf:Description rdf:about="&ONSTR;ONSTR_7534799"/>    
+                     <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>    <!-- has part -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_8369223"/> <!-- parenteral amino acid solution --> 
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>    <!-- has part -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1328060"/> <!-- parenteral dextrose solution --> 
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>    <!-- has part -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1884454"/> <!-- parenteral lipid solution --> 
+                    </owl:Restriction>
+             </owl:intersectionOf>
+           </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Parenteral three-in-one solution is a parenteral nutrition solution that is a mixture of parenteral dextrose solution, parenteral amino acid solution and parenteral lipid solution and may also contain mineral nutrients, trace elements and vitamins.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Hovasi Cox, J., Melbardis, I. M. (2005) Parenteral nutrition. In Handbook of pediatric nutrition, 3rd Ed. Jones and Bartlett publishers Inc. pp. 525-557.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Mirtallo, J., Canada, T., Kumpf, V., Petersen, C., Sacks, G., Seres, D., Guenter, P. (2004) Safe practices for parenteral nutrition. Journal of parenteral and enteral nutrition, Vol. 28, No. 6, Suppl. Nov-Dec 2004.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Parenteral three-in-one solutions are available as already prepared pharmaceutical products or can be made on site (mixed in a single bag). They are cost-effective and convenient, however, unlike the two-in-one solutions, they contain fat and are thus a sort of lipid emulsion which is more significantly influenced by pH and temperature. [Source: Hovasi Cox, J., Melbardis, I. M. (2005) Parenteral nutrition. In Handbook of pediatric nutrition, 3rd Ed. Jones and Bartlett publishers Inc. pp. 525-557. ]</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">total nutrient admixture</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">TNA</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">parenteral three-in-one admixture solution</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">three-in-one solution</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">three-in-one admixture</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+       
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3371475 -->  <!-- material entity administration into the organism  -->
 
@@ -17271,11 +17424,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1552413">
         <rdfs:label rdf:datatype="&xsd;string">parenteral administration</rdfs:label>
 		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3371475"/ -->
-		
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_3371475"/>  <!-- superclass:material ent admin into the organism -->      
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_3371475"/>  <!-- material ent admin into the organism -->      
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000057"/>  <!-- has participant -->
                         	<owl:someValuesFrom>
@@ -17329,7 +17481,7 @@ people infected, then extract parasite which are then tested = observation study
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1552413"/>
         <skos:definition rdf:datatype="&xsd;string">Total parenteral nutrition is a parenteral administration where parenteral nutrition solution is introduced into the human patient intavenously.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition</rdfs:comment>    
-        <rdfs:comment rdf:datatype="&xsd;string">Intravenous administration of the nutrient solution is often accomplished via a central venous catheter, usually inserted in the superior vena cava or subclavian vein. [Source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Intravenous administration of the nutrient solution is often accomplished via a central venous catheter, usually inserted in the superior vena cava or subclavian vein, or through the periferal vein. [Source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition ]</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">total pareneteral nutrition</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">total pareneteral hyperalimentation</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">TPN</skos:altLabel>
