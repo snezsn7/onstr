@@ -14977,7 +14977,59 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1507712-->  <!-- percent estimated average alpha-linolenic acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1507712">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average alpha-linolenic acid requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7491011"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average alpha-linolenic acid requirement is a percent estimated average fatty acid requirement that provides the information about the quantity of alpha-linolenic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for alpha-linolenic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1669719-->  <!-- percent estimated average arachidonic acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1669719">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average arachidonic acid requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7491011"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average arachidonic acid requirement is a percent estimated average fatty acid requirement that provides the information about the quantity of arachidonic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for arachidonic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6457549-->  <!-- percent estimated average docosahexaenoic acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6457549">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average docosahexaenoic acid requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7491011"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average docosahexaenoic acid requirement is a percent estimated average fatty acid requirement that provides the information about the quantity of docosahexaenoic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for docosahexaenoic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3689104-->  <!-- percent estimated average eicosapentaenoic acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3689104">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average eicosapentaenoic acid requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7491011"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average eicosapentaenoic acid requirement is a percent estimated average fatty acid requirement that provides the information about the quantity of eicosapentaenoic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for eicosapentaenoic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2193409-->  <!-- percent estimated average linoleic acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2193409">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average linoleic acid requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7491011"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average linoleic acid requirement is a percent estimated average fatty acid requirement that provides the information about the quantity of linoleic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for linoleic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2470194-->  <!-- percent estimated average dietary fiber requirement datum-->
