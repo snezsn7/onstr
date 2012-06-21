@@ -14678,12 +14678,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1837313-->  <!-- percent estimated average requirement datum-->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1837313-->  <!-- percent estimated average nutrient requirement datum-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1837313">
-        <rdfs:label rdf:datatype="&xsd;string">percent estimated average requirement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average nutrient requirement datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7595557"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent estimated average requirement datum is a percent dietary reference intake that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for the observed nutrient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average nutrient requirement datum is a percent dietary reference intake that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for the observed nutrient.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">percent EAR</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">percent DRI-EAR</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
@@ -14691,12 +14691,148 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8986811-->  <!-- percent adequate intake datum-->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3845166-->  <!-- percent estimated average macronutrient  requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3845166">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average macronutrient requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1837313"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average macronutrient requirement is a percent estimated average requirement datum that provides the information about the quantity of specific macronutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for the observed macronutrient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6284135-->  <!-- percent estimated average amino acid  requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6284135">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average amino acid requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3845166"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average amino acid requirement is a percent estimated average macronutrient requirement that provides the information about the quantity of specific amino acid consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for the observed amino acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+  
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2293279-->  <!-- percent estimated average carbohydrate  requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2293279">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average carbohydrate requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3845166"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average carbohydrate requirement is a percent estimated average macronutrient requirement that provides the information about the total quantity of all carbohydrates consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for (total) carbohydrate intake.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9443463-->  <!-- percent estimated average cholesterol  requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9443463">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average cholesterol requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3845166"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average cholesterol requirement is a percent estimated average macronutrient requirement that provides the information about the quantity of cholesterol consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for cholesterol intake.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3953391-->  <!-- percent estimated average fat requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3953391">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average fat requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3845166"/>  
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average fat requirement is a percent estimated average macronutrient requirement that provides the information about the total quantity of all fats consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for (total) fat intake.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7491011-->  <!-- percent estimated average fatty acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7491011">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average fatty acid requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3845166"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average fatty acid requirement is a percent estimated average macronutrient requirement that provides the information about the quantity of specific fatty acid consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for the observed fatty acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2470194-->  <!-- percent estimated average dietary fiber requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2470194">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average dietary fiber requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3845166"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average dietary fiber requirement is a percent estimated average macronutrient requirement that provides the information about the total quantity of dietary fiber consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for (total) dietary fiber intake.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+       
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2470194-->  <!-- percent estimated average dietary fiber requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2470194">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average dietary fiber requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3845166"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average dietary fiber requirement is a percent estimated average macronutrient requirement that provides the information about the total quantity of dietary fiber consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for (total) dietary fiber intake.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6981713-->  <!-- percent estimated average protein requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6981713">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average protein requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3845166"/>  
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average protein requirement is a percent estimated average macronutrient requirement that provides the information about the total quantity of proteins consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for (total) protein intake.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6981713-->  <!-- percent estimated average protein requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6981713">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average protein requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3845166"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average protein requirement is a percent estimated average macronutrient requirement that provides the information about the total quantity of proteins consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for (total) protein intake.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+       
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4770209-->  <!-- percent estimated average water requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4770209">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average water requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3845166"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average water requirement is a percent estimated average macronutrient requirement that provides the information about the total quantity of water consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for (total) water intake.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5495478-->  <!-- percent estimated average micronutrient  requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5495478">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average micronutrient requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1837313"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average micronutrient requirement is a percent estimated average requirement datum that provides the information about the quantity of specific macronutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for the observed micronutrient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+        
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8986811-->  <!-- percent adequate nutrient intake datum-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8986811">
-        <rdfs:label rdf:datatype="&xsd;string">percent adequate intake datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate nutrient intake datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7595557"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent adequate intake datum is a percent dietary reference intake that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for the observed nutrient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate nutrient intake datum is a percent dietary reference intake that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for the observed nutrient.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">percent AI</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">percent DRI-AI</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
@@ -14704,12 +14840,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
    
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9198656-->  <!-- percent upper tolerable intake level datum-->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9198656-->  <!-- percent upper tolerable nutrient intake level datum-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9198656">
-        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable intake level datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable nutrient intake level datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7595557"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable intake level datum is a percent dietary reference intake that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for the observed nutrient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable nutrient intake level datum is a percent dietary reference intake that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for the observed nutrient.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">percent UL</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">percent DRI-UL</skos:altLabel> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
