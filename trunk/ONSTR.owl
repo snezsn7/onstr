@@ -14665,12 +14665,63 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+   
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7595557-->  <!-- percent recommended dietary nutrient allowance datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7595557">
+        <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary nutrient allowance datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent dietary reference intake is a scalar measurement datum that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as a percentage of the dietary reference intake for the observed nutrient.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">percent DRI</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1837313-->  <!-- percent estimated average requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1837313">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7595557"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average requirement datum is a percent dietary reference intake that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for the observed nutrient.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">percent EAR</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">percent DRI-EAR</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8986811-->  <!-- percent adequate intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8986811">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7595557"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate intake datum is a percent dietary reference intake that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for the observed nutrient.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">percent AI</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">percent DRI-AI</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9198656-->  <!-- percent upper tolerable intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9198656">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7595557"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable intake level datum is a percent dietary reference intake that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for the observed nutrient.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">percent UL</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">percent DRI-UL</skos:altLabel> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9281587-->  <!-- percent recommended dietary nutrient allowance datum-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9281587">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary nutrient allowance datum</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3255175"/>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7595557"/>
         <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary nutrient allowance datum is a dietary nutrient intake datum which provides the information about the quantity of a dietary nutrient consumed by a human during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary nutrient allowance for that specific nutrient.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">percent recommended daily allowance</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">percent RDA</skos:altLabel>
@@ -15498,11 +15549,10 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">dietary reference intake datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
         <skos:definition rdf:datatype="&xsd;string">Dietary reference intake datum is a scalar measurement datum that is intended to be used as a recommended reference value for dietary nutrient and dietary energy intakes estimated to meet daily nutritional needs of different population groups.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fnic/nal/usda.gov</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Dietary_Reference_intake</rdfs:comment>    
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Dietary_Reference_Intakes</rdfs:comment>        
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. 2006. Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">dietary reference intakes</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">dietary reference intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">DRIs</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">DRI</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Dietary reference intake is a system of nutrition recommendations designed by the Institute of Medicine of the U.S. National Academy of Sciences and is used both in the United States and in Canada for the general public and health professionals and applied in composition of diets for schools, hospitals, prisons or nursing homes, industrial development of new food stuffs and by healthcare policy makers and public health officials. [Source: http://en.wikipedia.org/wiki/Dietary_Reference_intake ]</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -15515,9 +15565,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">dietary nutrient reference intake datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5283753"/>
         <skos:definition rdf:datatype="&xsd;string">Dietary nutrient reference intake datum is a dietary reference intake datum that is intended to be used as a recommended reference value for dietary nutrient intakes established or estimated to meet daily nutritional needs of different population groups.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fnic/nal/usda.gov</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Dietary_Reference_intake</rdfs:comment>    
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Dietary_Reference_Intakes</rdfs:comment>        
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. 2006. Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>        
         <skos:altLabel rdf:datatype="&xsd;string">dietary reference intakes</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">dietary reference intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">DRI</skos:altLabel>
@@ -15531,10 +15579,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1792329">
         <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4287288"/>
-        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance datum is a scalar measurement datum that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of humans in a particular age, gender and specific physiological status of being pregnant or lactating.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fnic/nal/usda.gov</rdfs:comment>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance datum is a dietary nutrient reference intake datum that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of humans in a particular age, gender and specific physiological status of being pregnant or lactating.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. 2006. Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">RDA</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">RDAs</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">DRI-RDA</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">recommended daily allowance</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">dietary reference intake-recommended dietary allowance</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">nutrient recommended daily allowance</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -15547,10 +15598,13 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4287288"/>
         <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement datum is a dietary nutrient reference intake datum that denotes the quantity of a dietary nutrient estimated (expected) to satisfy the nutritional requirements for that particular nutrient, of 50% of all members of an healthy human population determined based on age, gender and specific physiological status of being pregnant or lactating.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fnic/nal/usda.gov</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Dietary_Reference_intake</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. 2006. Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">estimated average requirement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">estimated average requirements</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">dietary reference intake-estimated average requirement</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">EAR</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">EARs</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">DRI-EAR</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -15561,11 +15615,13 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4287288"/>
         <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake datum	is a dietary nutrient reference intake datum that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake by a healthy population (or populations) that is assumed to be adequate for given population.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fnic/nal/usda.gov</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Dietary_Reference_intake</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. 2006. Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">adequate intakes</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">adequate intake</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">AI</skos:altLabel>        
+        <skos:altLabel rdf:datatype="&xsd;string">dietary reference intake-adequate intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">AI</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">AIs</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">DRI-AI</skos:altLabel>                
         <rdfs:comment rdf:datatype="&xsd;string">Adequate intakes are intended to be used when the recommended dietary allowance (RDA) for given nutrient cannot be determined. [Source: http://fnic/nal/usda.gov ]</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15577,11 +15633,12 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4287288"/>
         <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level datum is a dietary nutrient reference intake datum that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of a particular population.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fnic/nal/usda.gov</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Dietary_Reference_intake</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. 2006. Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">upper tolerable intake datum</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">upper tolerable level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">upper tolerable levels</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">UL</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">ULs</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">As nutrient intake above the upper tolerable level, the potential risk of adverse effects may increase. [Source: http://fnic/nal/usda.gov ]</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15593,7 +15650,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for healthy population</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2392336"/>
         <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for healthy population is an upper tolerable nutrient intake level datum that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of a given population of healthy humans.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fnic/nal/usda.gov</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. 2006. Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -15606,7 +15663,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for population with inherited metabolic disease is an upper tolerable nutrient intake level datum that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of a given population with inherited metabolic disease.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">UL for inherited metabolic disease population</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">IMD UL</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">IMD-UL</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -15618,8 +15675,10 @@ people infected, then extract parasite which are then tested = observation study
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5283753"/>
         <skos:definition rdf:datatype="&xsd;string">Estimated dietary energy requirement datum is a scalar measurement datum denoting the average amount of dietary energy intake that is predicted to maintain energy balance in a healthy human adult of a specific age, gender, weight, height, and level of physical activity consistent with good health.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fnic/nal/usda.gov</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">dietary reference intake-estimated energy requirement</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">estimated energy requirement</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">EER</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">RDI-EER</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -17002,6 +17061,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
       
+    
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5692828 -->  <!-- nutritional item-->
