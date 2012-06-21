@@ -15064,17 +15064,6 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
-     
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6981713-->  <!-- percent estimated average protein requirement datum-->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_6981713">
-        <rdfs:label rdf:datatype="&xsd;string">percent estimated average protein requirement datum</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3845166"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent estimated average protein requirement is a percent estimated average macronutrient requirement that provides the information about the total quantity of proteins consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for (total) protein intake.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
        
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4770209-->  <!-- percent estimated average water requirement datum-->
 
@@ -15098,6 +15087,28 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
         
+   
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2630892-->  <!-- percent estimated average dietary mineral  requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2630892">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average dietary mineral requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5495478"/>  
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average dietary mineral requirement is a percent estimated average micronutrient requirement that provides the information about the quantity of specific mineral nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for the observed mineral nutrient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+   
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0656655-->  <!-- percent estimated average vitamin requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0656655">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average vitamin requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5495478"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average vitamin requirement is a percent estimated average micronutrient requirement that provides the information about the quantity of specific vitamin consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for the observed vitamin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8986811-->  <!-- percent adequate nutrient intake datum-->
 
