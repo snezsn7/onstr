@@ -15341,6 +15341,169 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5474499-->  <!-- percent estimated average biotin requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5474499">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average biotin requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average biotin requirement is a percent estimated average vitamin requirement that provides the information about the quantity of biotin consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for biotin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+         
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2969949-->  <!-- percent estimated average carotenoid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2969949">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average carotenoid requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average carotenoid requirement is a percent estimated average vitamin requirement that provides the information about the total quantity of all carotenoids consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for (total) carotenoids.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1660800-->  <!-- percent estimated average choline requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1660800">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average choline requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average choline requirement is a percent estimated average vitamin requirement that provides the information about the quantity of choline consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for choline.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9660945-->  <!-- percent estimated average folacin requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9660945">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average folacin requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average folacin requirement is a percent estimated average vitamin requirement that provides the information about the quantity of folacin consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for folacin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3480132-->  <!-- percent estimated average niacin requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3480132">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average niacin requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average niacin requirement is a percent estimated average vitamin requirement that provides the information about the quantity of niacin consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for niacin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+   
+   
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0551279-->  <!-- percent estimated average pantothenic acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0551279">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average pantothenic acid requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average pantothenic acid requirement is a percent estimated average vitamin requirement that provides the information about the quantity of pantothenic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for pantothenic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+   
+   
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1058537-->  <!-- percent estimated average riboflavin acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1058537">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average riboflavin requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average riboflavin requirement is a percent estimated average vitamin requirement that provides the information about the quantity of riboflavin consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for riboflavin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7991777-->  <!-- percent estimated average thiamine acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7991777">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average thiamine requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average thiamine requirement is a percent estimated average vitamin requirement that provides the information about the quantity of thiamine consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for thiamine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2304455-->  <!-- percent estimated average vitamin A acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2304455">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average vitamin A requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average vitamin A requirement is a percent estimated average vitamin requirement that provides the information about the quantity of vitamin A consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for vitamin A.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4879889-->  <!-- percent estimated average vitamin B12 acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4879889">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average vitamin B12 requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average vitamin B12 requirement is a percent estimated average vitamin requirement that provides the information about the quantity of vitamin B12 consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for vitamin B12.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3617133-->  <!-- percent estimated average vitamin B6 acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3617133">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average vitamin B6 requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average vitamin B6 requirement is a percent estimated average vitamin requirement that provides the information about the quantity of vitamin B6 consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for vitamin B6.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9013283-->  <!-- percent estimated average vitamin C acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9013283">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average vitamin C requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average vitamin C requirement is a percent estimated average vitamin requirement that provides the information about the quantity of vitamin C consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for vitamin C.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1904740-->  <!-- percent estimated average vitamin D acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1904740">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average vitamin D requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average vitamin D requirement is a percent estimated average vitamin requirement that provides the information about the quantity of vitamin D consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for vitamin D.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8283208-->  <!-- percent estimated average vitamin E acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8283208">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average vitamin E requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average vitamin E requirement is a percent estimated average vitamin requirement that provides the information about the quantity of vitamin E consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for vitamin E.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8437809-->  <!-- percent estimated average vitamin K acid requirement datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8437809">
+        <rdfs:label rdf:datatype="&xsd;string">percent estimated average vitamin K requirement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0656655"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average vitamin K requirement is a percent estimated average vitamin requirement that provides the information about the quantity of vitamin K consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for vitamin K.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>    
     
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8986811-->  <!-- percent adequate nutrient intake datum-->
