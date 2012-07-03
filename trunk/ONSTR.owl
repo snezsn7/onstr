@@ -15539,6 +15539,227 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6883808-->  <!-- percent adequate alanine intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6883808">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate alanine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate alanine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid alanine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for alanine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8115283-->  <!-- percent adequate arginine intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8115283">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate arginine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate arginine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid arginine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for arginine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1484856-->  <!-- percent adequate asparagine intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1484856">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate asparagine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate asparagine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid asparagine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for asparagine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4992516-->  <!-- percent adequate aspartic acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4992516">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate aspartic acid intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate aspartic acid intake is a percent adequate amino acid intake that provides the information about the quantity of aspartic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for aspartic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5738407-->  <!-- percent adequate cysteine intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5738407">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate cysteine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate cysteine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid cysteine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for cysteine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3961897-->  <!-- percent adequate glutamic acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3961897">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate glutamic acid intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate glutamic acid intake is a percent adequate amino acid intake that provides the information about the quantity of glutamic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for glutamic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1496685-->  <!-- percent adequate glutamine acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1496685">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate glutamine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate glutamine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid glutamine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for glutamine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1894545-->  <!-- percent adequate glycine acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1894545">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate glycine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate glycine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid glycine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for glycine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+       
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5790426-->  <!-- percent adequate histidine acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5790426">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate histidine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate histidine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid histidine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for histidine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6012755-->  <!-- percent adequate isoleucine acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6012755">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate isoleucine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate isoleucine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid isoleucine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for isoleucine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3358249-->  <!-- percent adequate leucine acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3358249">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate leucine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate leucine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid leucine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for leucine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8632143-->  <!-- percent adequate lysine acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8632143">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate lysine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate lysine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid lysine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for lysine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+   
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3706807-->  <!-- percent adequate methionine acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3706807">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate methionine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>  
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate methionine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid methionine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for methionine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+  
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0148771-->  <!-- percent adequate proline acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0148771">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate proline intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate proline intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid proline consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for proline.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8589294-->  <!-- percent adequate serine acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8589294">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate serine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate serine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid serine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for serine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7877066-->  <!-- percent adequate threonine acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7877066">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate threonine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate threonine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid threonine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for threonine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5527326-->  <!-- percent adequate tryptophan acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5527326">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate tryptophan intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate tryptophan intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid tryptophan consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for tryptophan.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9281026-->  <!-- percent adequate valine acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9281026">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate valine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate valine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid valine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for valine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1852639-->  <!-- percent adequate phenylalanine acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1852639">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate phenylalanine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate phenylalanine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid phenylalanine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for phenylalanine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5339171-->  <!-- percent adequate tyrosine acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5339171">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate tyrosine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3478284"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate tyrosine intake is a percent adequate amino acid intake that provides the information about the quantity of amino acid tyrosine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for tyrosine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
   
   
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8391545-->  <!-- percent adequate carbohydrate intake datum-->
