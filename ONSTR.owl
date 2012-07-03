@@ -9350,8 +9350,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7731715">
         <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance percentage</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&obo;UO_0000187"/>  <!-- percent --> 
-        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance percentage is a percent unit (dimensionless unit) which denotes the quantity of a dietary nutrient that may be (or has been) consumed by a human as a percentage of the recommended dietary allowance for that specific nutrient.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6635527"/>  <!-- dietary reference intake percentage --> 
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance percentage is a dietary reference intake percentage unit (dimensionless unit) which denotes the quantity of a dietary nutrient that may be (or has been) consumed by a human as a percentage of the recommended dietary allowance for that specific nutrient.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">%RDA</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -9362,8 +9362,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0942164">
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable level percentage</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&obo;UO_0000187"/>  <!-- percent --> 
-        <skos:definition rdf:datatype="&xsd;string">Upper tolerable level percentage is a percent unit (dimensionless unit) which denotes the quantity of a dietary nutrient that may be (or has been) consumed by a human as a percentage of the upper tolerable intake level for that specific nutrient.</skos:definition>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6635527"/>  <!-- dietary reference intake percentage --> 
+        <skos:definition rdf:datatype="&xsd;string">Upper tolerable level percentage is a dietary reference intake percentage unit (dimensionless unit) which denotes the quantity of a dietary nutrient that may be (or has been) consumed by a human as a percentage of the upper tolerable intake level for that specific nutrient.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">%UL</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -15514,6 +15514,116 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Percent adequate nutrient intake datum is a percent dietary reference intake that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for the observed nutrient.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">percent AI</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">percent DRI-AI</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9887977-->  <!-- percent adequate macronutrient intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9887977">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate macronutrient intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8986811"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate macronutrient intake is a percent adequate nutrient intake datum that provides the information about the quantity of specific dietary macronutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for the observed macronutrient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+  
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3478284-->  <!-- percent adequate amino acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3478284">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate amino acid intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9887977"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate amino acid intake is a percent adequate macronutrient intake that provides the information about the quantity of specific amino acid consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for the observed amino acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8391545-->  <!-- percent adequate carbohydrate intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8391545">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate carbohydrate intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9887977"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate carbohydrate intake is a percent adequate macronutrient intake that provides the information about the total quantity of all carbohydrates combined, consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for (total) carbohydrate.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+  
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6661323-->  <!-- percent adequate cholesterol intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6661323">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate cholesterol intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9887977"/>   
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate cholesterol intake is a percent adequate macronutrient intake that provides the information about the quantity of specific dietary cholesterol consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for cholesterol.</skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3189039-->  <!-- percent adequate fat intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3189039">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate fat intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9887977"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate fat intake is a percent adequate macronutrient intake that provides the information about the total quantity of all fats combined, consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for (total) fat.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7567208-->  <!-- percent adequate fatty acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7567208">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate fatty acid intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9887977"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate fatty acid intake is a percent adequate macronutrient intake that provides the information about the quantity of specific dietary fatty acid consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for the observed fatty acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2774806-->  <!-- percent adequate dietary fiber intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2774806">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate dietary fiber intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9887977"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate dietary fiber intake is a percent adequate macronutrient intake that provides the information about the total quantity of all dietary fibers combined, consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for (total) dietary fiber.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5980902-->  <!-- percent adequate protein intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5980902">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate protein intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9887977"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate protein intake is a percent adequate macronutrient intake that provides the information about the total quantity of all proteins combined, consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for (total) protein.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1070048-->  <!-- percent adequate water intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1070048">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate water intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9887977"/>   
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate water intake is a percent adequate macronutrient intake that provides the information about the total quantity of water consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for (total) water.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3380104-->  <!-- percent adequate micronutrient intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_3380104">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate micronutrient intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8986811"/>   
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate micronutrient intake is a percent adequate nutrient intake datum that provides the information about the quantity of specific dietary micronutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for the observed micronutrient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
