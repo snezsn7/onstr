@@ -15806,6 +15806,61 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
   
   
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2131084-->  <!-- percent adequate alpha-linolenic acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2131084">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate alpha-linolenic acid intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7567208"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate alpha-linolenic acid intake is a percent adequate fatty acid intake that provides the information about the quantity of alpha-linolenic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for alpha-linolenic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4544637-->  <!-- percent adequate arachidonic acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4544637">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate arachidonic acid intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7567208"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate arachidonic acid intake is a percent adequate fatty acid intake that provides the information about the quantity of arachidonic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for arachidonic acid.</skos:definition>   
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+      
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5693272-->  <!-- percent adequate docosahexaenoic acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5693272">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate docosahexaenoic acid intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7567208"/>   
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate docosahexaenoic acid intake is a percent adequate fatty acid intake that provides the information about the quantity of docosahexaenoic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for docosahexaenoic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+    
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2250468-->  <!-- percent adequate eicosapentaenoic acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2250468">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate eicosapentaenoic acid intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7567208"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate eicosapentaenoic acid intake is a percent adequate fatty acid intake that provides the information about the quantity of eicosapentaenoic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for eicosapentaenoic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+ 
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1061345-->  <!-- percent adequate linoleic acid intake datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1061345">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate linoleic acid intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7567208"/>     
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate linoleic acid intake is a percent adequate fatty acid intake that provides the information about the quantity of linoleic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for linoleic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+  
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2774806-->  <!-- percent adequate dietary fiber intake datum-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2774806">
