@@ -15905,6 +15905,261 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3466069-->  <!-- percent adequate vitamin intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_3466069">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate vitamin intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3380104"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate vitamin intake is a percent adequate micronutrient intake that provides the information about the quantity of specific vitamin consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for the observed vitamin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+    
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1390627-->  <!-- percent adequate dietary mineral intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_1390627">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate dietary mineral intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3380104"/>  
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate dietary mineral intake is a percent adequate micronutrient intake that provides the information about the quantity of specific dietary mineral consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for the observed dietary mineral.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1196394-->  <!-- percent adequate arsenic intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_1196394">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate arsenic intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate arsenic intake is a percent adequate dietary mineral intake that provides the information about the quantity arsenic consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for arsenic.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1773106-->  <!-- percent adequate boron intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_1773106">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate boron intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate boron intake is a percent adequate dietary mineral intake that provides the information about the quantity boron consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for boron.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1407586-->  <!-- percent adequate calcium intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_1407586">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate calcium intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate calcium intake is a percent adequate dietary mineral intake that provides the information about the quantity calcium consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for calcium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+      
+     
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2640387-->  <!-- percent adequate chloride intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_2640387">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate chloride intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate chloride intake is a percent adequate dietary mineral intake that provides the information about the quantity chloride consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for chloride.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+     
+    
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8417322-->  <!-- percent adequate chromium intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_8417322">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate chromium intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate chromium intake is a percent adequate dietary mineral intake that provides the information about the quantity chromium consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for chromium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+     
+    
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2182221-->  <!-- percent adequate copper intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_2182221">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate copper intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate copper intake is a percent adequate dietary mineral intake that provides the information about the quantity copper consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for copper.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+     
+ 
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4483050-->  <!-- percent adequate fluoride intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_4483050">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate fluoride intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate fluoride intake is a percent adequate dietary mineral intake that provides the information about the quantity fluoride consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for fluoride.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+ 
+ 
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1168565-->  <!-- percent adequate iodine intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_1168565">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate iodine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate iodine intake is a percent adequate dietary mineral intake that provides the information about the quantity iodine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for iodine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+     
+     
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2767108-->  <!-- percent adequate iron intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_2767108">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate iron intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate iron intake is a percent adequate dietary mineral intake that provides the information about the quantity iron consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for iron.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+     
+ 
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6564852-->  <!-- percent adequate magnesium intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_6564852">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate magnesium intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate magnesium intake is a percent adequate dietary mineral intake that provides the information about the quantity magnesium consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for magnesium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+     
+     
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3951448-->  <!-- percent adequate manganese intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_3951448">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate manganese intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate manganese intake is a percent adequate dietary mineral intake that provides the information about the quantity manganese consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for manganese.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+ 
+ 
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0488722-->  <!-- percent adequate molybdenum intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_0488722">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate molybdenum intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate molybdenum intake is a percent adequate dietary mineral intake that provides the information about the quantity molybdenum consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for molybdenum.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5929460-->  <!-- percent adequate nickel intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_5929460">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate nickel intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate nickel intake is a percent adequate dietary mineral intake that provides the information about the quantity nickel consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for nickel.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0162918-->  <!-- percent adequate phosphorus intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_0162918">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate phosphorus intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate phosphorus intake is a percent adequate dietary mineral intake that provides the information about the quantity phosphorus consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for phosphorus.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3465271-->  <!-- percent adequate potassium intake datum-->
+      
+    <owl:Class rdf:about="&ONSTR;ONSTR_3465271">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate potassium intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate potassium intake is a percent adequate dietary mineral intake that provides the information about the quantity potassium consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for potassium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+ 
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6083248-->  <!-- percent adequate selenium intake datum-->
+      
+    <owl:Class rdf:about="&ONSTR;ONSTR_6083248">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate selenium intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate selenium intake is a percent adequate dietary mineral intake that provides the information about the quantity selenium consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for selenium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4836589-->  <!-- percent adequate silicon intake datum-->
+      
+    <owl:Class rdf:about="&ONSTR;ONSTR_4836589">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate silicon intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate silicon intake is a percent adequate dietary mineral intake that provides the information about the quantity silicon consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for silicon.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+  
+  
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5580969-->  <!-- percent adequate sodium intake datum-->
+      
+    <owl:Class rdf:about="&ONSTR;ONSTR_5580969">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate sodium intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate sodium intake is a percent adequate dietary mineral intake that provides the information about the quantity sodium consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for sodium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+   
+    
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9461265-->  <!-- percent adequate sulfate intake datum-->
+      
+    <owl:Class rdf:about="&ONSTR;ONSTR_9461265">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate sulfate intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate sulfate intake is a percent adequate dietary mineral intake that provides the information about the quantity sulfate consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for sulfate.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2372433-->  <!-- percent adequate vanadium intake datum-->
+      
+    <owl:Class rdf:about="&ONSTR;ONSTR_2372433">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate vanadium intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate vanadium intake is a percent adequate dietary mineral intake that provides the information about the quantity vanadium consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for vanadium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4678678-->  <!-- percent adequate zinc intake datum-->
+      
+    <owl:Class rdf:about="&ONSTR;ONSTR_4678678">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate zinc intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1390627"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate zinc intake is a percent adequate dietary mineral intake that provides the information about the quantity zinc consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for zinc.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+   
+    
+    
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9198656-->  <!-- percent upper tolerable nutrient intake level datum-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9198656">
