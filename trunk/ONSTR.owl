@@ -16622,6 +16622,61 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2959990-->  <!-- percent upper tolerable alpha-linolenic acid intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2959990">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable alpha-linolenic acid intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4067680"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable alpha-linolenic acid intake level is a percent upper tolerable fatty acid intake level that provides the information about the quantity of alpha-linolenic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for the observed for alpha-linolenic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7033250-->  <!-- percent upper tolerable arachidonic acid intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7033250">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable arachidonic acid intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4067680"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable arachidonic acid intake level is a percent upper tolerable fatty acid intake level that provides the information about the quantity of arachidonic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for the observed for arachidonic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+ 
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7928270-->  <!-- percent upper tolerable arachidonic acid intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7928270">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable docosahexaenoic acid intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4067680"/>    
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable docosahexaenoic acid intake level is a percent upper tolerable fatty acid intake level that provides the information about the quantity of docosahexaenoic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for the observed for docosahexaenoic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4525530-->  <!-- percent upper tolerable eicosapentaenoic acid intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4525530">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable eicosapentaenoic acid intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4067680"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable eicosapentaenoic acid intake level is a percent upper tolerable fatty acid intake level that provides the information about the quantity of eicosapentaenoic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for the observed for eicosapentaenoic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4085727-->  <!-- percent upper tolerable linoleic acid intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4085727">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable linoleic acid intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4067680"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable linoleic acid intake level is a percent upper tolerable fatty acid intake level that provides the information about the quantity of linoleic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for the observed for linoleic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
    
  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8744038-->  <!-- percent upper tolerable dietary fiber intake level datum-->
 
@@ -16677,6 +16732,8 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
   
+     
+     
      
  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0077672-->  <!-- percent upper tolerable vitamin intake level datum-->
 
