@@ -15914,6 +15914,172 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7622495-->  <!-- percent adequate biotine intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_7622495">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate biotine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/>  
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate biotine intake is a percent adequate vitamin intake that provides the information about the quantity of biotine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for biotine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0335638-->  <!-- percent adequate carotenoid intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_0335638">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate carotenoid intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate carotenoid intake is a percent adequate vitamin intake that provides the information about the total quantity of all carotenoids combined, consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for (total) carotenoid.</skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+   
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4404854-->  <!-- percent adequate choline intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_4404854">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate choline intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate choline intake is a percent adequate vitamin intake that provides the information about the quantity of choline consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for choline.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2510169-->  <!-- percent adequate folacin intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_2510169">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate folacin intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate folacin intake is a percent adequate vitamin intake that provides the information about the quantity of folacin consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for folacin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+  
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2901849-->  <!-- percent adequate niacin intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_2901849">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate niacin intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/>  
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate niacin intake is a percent adequate vitamin intake that provides the information about the quantity of niacin consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for niacin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+ 
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0802429-->  <!-- percent adequate pantothenic acid intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_0802429">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate pantothenic acid intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate pantothenic acid intake is a percent adequate vitamin intake that provides the information about the quantity of pantothenic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for pantothenic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+   
+   
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7313354-->  <!-- percent adequate riboflavin intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_7313354">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate riboflavin intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate riboflavin intake is a percent adequate vitamin intake that provides the information about the quantity of riboflavin consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for riboflavin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+  
+   
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0736365-->  <!-- percent adequate thiamine intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_0736365">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate thiamine intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate thiamine intake is a percent adequate vitamin intake that provides the information about the quantity of thiamine consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for thiamine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5956458-->  <!-- percent adequate vitamin A intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_5956458">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate vitamin A intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate vitamin A intake is a percent adequate vitamin intake that provides the information about the quantity of vitamin A consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for vitamin A.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7059751-->  <!-- percent adequate vitamin B12 intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_7059751">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate vitamin B12 intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate vitamin B12 intake is a percent adequate vitamin intake that provides the information about the quantity of vitamin B12 consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for vitamin B12.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6842282-->  <!-- percent adequate vitamin B6 intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_6842282">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate vitamin B6 intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/>    
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate vitamin B6 intake is a percent adequate vitamin intake that provides the information about the quantity of vitamin B6 consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for vitamin B6.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+  
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6501512-->  <!-- percent adequate vitamin C intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_6501512">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate vitamin C intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/>  
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate vitamin C intake is a percent adequate vitamin intake that provides the information about the quantity of vitamin C consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for vitamin C.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+   
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9994295-->  <!-- percent adequate vitamin D intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_9994295">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate vitamin D intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate vitamin D intake is a percent adequate vitamin intake that provides the information about the quantity of vitamin D consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for vitamin D.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4896927-->  <!-- percent adequate vitamin E intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_4896927">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate vitamin E intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate vitamin E intake is a percent adequate vitamin intake that provides the information about the quantity of vitamin E consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for vitamin E.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+  
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2809886-->  <!-- percent adequate vitamin K intake datum-->
+  
+    <owl:Class rdf:about="&ONSTR;ONSTR_2809886">
+        <rdfs:label rdf:datatype="&xsd;string">percent adequate vitamin K intake datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3466069"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate vitamin K intake is a percent adequate vitamin intake that provides the information about the quantity of vitamin K consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for vitamin K.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
     
     
 <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1390627-->  <!-- percent adequate dietary mineral intake datum-->
@@ -15925,7 +16091,6 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-     
      
     
  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1196394-->  <!-- percent adequate arsenic intake datum-->
