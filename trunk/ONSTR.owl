@@ -16357,6 +16357,8 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
     
      
  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6025078-->  <!-- percent upper tolerable carbohydrate intake level datum-->
@@ -16445,6 +16447,29 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+   
+   
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6854872-->  <!-- percent upper tolerable dietary mineral intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6854872">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable dietary mineral intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5417525"/>  
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable dietary mineral intake level is a percent upper tolerable micronutrient intake level that provides the information about the quantity of specific dietary mineral consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for the observed dietary mineral.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0077672-->  <!-- percent upper tolerable vitamin intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0077672">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable vitamin intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5417525"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable vitamin intake level is a percent upper tolerable micronutrient intake level that provides the information about the quantity of specific vitamin consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for the observed vitamin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+
    
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9281587-->  <!-- percent recommended dietary nutrient allowance datum-->
