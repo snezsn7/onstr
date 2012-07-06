@@ -16733,7 +16733,236 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
   
      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6495598-->  <!-- percent upper tolerable arsenic intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6495598">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable arsenic intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable arsenic intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of arsenic consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for arsenic.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
      
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8923831-->  <!-- percent upper tolerable boron intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8923831">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable boron intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable boron intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of boron consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for boron.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+ 
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4943854-->  <!-- percent upper tolerable calcium intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4943854">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable calcium intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>   
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable calcium intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of calcium consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for calcium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3492302-->  <!-- percent upper tolerable chloride intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3492302">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable chloride intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable chloride intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of chloride consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for chloride.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5740574-->  <!-- percent upper tolerable chromium intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5740574">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable chromium intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable chromium intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of chromium consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for chromium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7333071-->  <!-- percent upper tolerable copper intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7333071">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable copper intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable copper intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of copper consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for copper.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9206560-->  <!-- percent upper tolerable fluoride intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9206560">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable fluoride intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable fluoride intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of fluoride consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for fluoride.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0201025-->  <!-- percent upper tolerable iodine intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0201025">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable iodine intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>   
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable iodine intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of iodine consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for iodine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+  
+  
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1376910-->  <!-- percent upper tolerable iron intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1376910">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable iron intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>  
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable iron intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of iron consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for iron.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+ 
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2744700-->  <!-- percent upper tolerable magnesium intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2744700">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable magnesium intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>   
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable magnesium intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of magnesium consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for magnesium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6196515-->  <!-- percent upper tolerable manganese intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6196515">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable manganese intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable manganese intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of manganese consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for manganese.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+ 
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3156588-->  <!-- percent upper tolerable molybdenum intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3156588">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable molybdenum intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable molybdenum intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of molybdenum consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for molybdenum.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7226853-->  <!-- percent upper tolerable nickel intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7226853">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable nickel intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable nickel intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of nickel consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for nickel.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+ 
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0548398-->  <!-- percent upper tolerable phosphorus intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0548398">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable phosphorus intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>   
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable phosphorus intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of phosphorus consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for phosphorus.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+  
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7342395-->  <!-- percent upper tolerable potassium intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7342395">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable potassium intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable potassium intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of potassium consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for potassium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0138680-->  <!-- percent upper tolerable selenium intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0138680">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable selenium intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable selenium intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of selenium consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for selenium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0353807-->  <!-- percent upper tolerable silicon intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0353807">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable silicon intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable silicon intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of silicon consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for silicon.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5190710-->  <!-- percent upper tolerable sodium intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5190710">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable sodium intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable sodium intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of sodium consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for sodium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7448771-->  <!-- percent upper tolerable sulfate intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7448771">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable sulfate intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable sulfate intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of sulfate consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for sulfate.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8983485-->  <!-- percent upper tolerable vanadium intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8983485">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable vanadium intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable vanadium intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of vanadium consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for vanadium.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8472949-->  <!-- percent upper tolerable zinc intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8472949">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable zinc intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6854872"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable zinc intake level is a percent upper tolerable mineral intake level that provides the information about the quantity of zinc consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for zinc.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
      
  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0077672-->  <!-- percent upper tolerable vitamin intake level datum-->
 
@@ -16745,6 +16974,8 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
 
+   
+   
    
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9281587-->  <!-- percent recommended dietary nutrient allowance datum-->
