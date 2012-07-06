@@ -16972,12 +16972,174 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable vitamin intake level is a percent upper tolerable micronutrient intake level that provides the information about the quantity of specific vitamin consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for the observed vitamin.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
+    </owl:Class>
 
    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9802605-->  <!-- percent upper tolerable biotine intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9802605">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable biotine intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable biotine intake level is a percent upper tolerable vitamin intake level that provides the information about the quantity of biotine consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for biotine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2720052-->  <!-- percent upper tolerable carotenoid intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2720052">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable carotenoid intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable carotenoid intake level is a percent upper tolerable vitamin intake level that provides the information about the total quantity of all carotenoids combined, consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for (total) carotenoid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5789148-->  <!-- percent upper tolerable choline intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5789148">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable choline intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable choline intake level is a percent upper tolerable vitamin intake level that provides the information about the quantity of choline consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for choline.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9935556-->  <!-- percent upper tolerable folacin intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9935556">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable folacin intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable folacin intake level is a percent upper tolerable vitamin intake level that provides the information about the quantity of folacin consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for folacin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8851246-->  <!-- percent upper tolerable niacin intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8851246">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable niacin intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable niacin intake level is a percent upper tolerable vitamin intake level that provides the information about the quantity of niacin consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for niacin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6449370-->  <!-- percent upper tolerable pantothenic acid intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6449370">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable pantothenic acid intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable pantothenic acid intake level is a percent upper tolerable vitamin intake level that provides the information about the quantity of pantothenic acid consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for pantothenic acid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8377012-->  <!-- percent upper tolerable riboflavin intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8377012">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable riboflavin intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable riboflavin intake level is a percent upper tolerable vitamin intake level that provides the information about the quantity of riboflavin consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for riboflavin.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1213123-->  <!-- percent upper tolerable thiamine intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1213123">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable thiamine intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable thiamine intake level is a percent upper tolerable vitamin intake level that provides the information about the quantity of thiamine consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for thiamine.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7967727-->  <!-- percent upper tolerable vitamin A intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7967727">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable vitamin A intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable vitamin A intake level is a percent upper tolerable vitamin intake level that provides the information about the quantity of vitamin A consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for vitamin A.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1980971-->  <!-- percent upper tolerable vitamin B12 intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1980971">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable vitamin B12 intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable vitamin B12 intake level is a percent upper tolerable vitamin intake level that provides the information about the quantity of vitamin B12 consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for vitamin B12.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+ 
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1514961-->  <!-- percent upper tolerable vitamin B6 intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1514961">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable vitamin B6 intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/>   
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable vitamin B6 intake level is a percent upper tolerable vitamin intake level that provides the information about the quantity of vitamin B6 consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for vitamin B6.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
    
-     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1775075-->  <!-- percent upper tolerable vitamin C intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1775075">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable vitamin C intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable vitamin C intake level is a percent upper tolerable vitamin intake level that provides the information about the quantity of vitamin C consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for vitamin C.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+  
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8271869-->  <!-- percent upper tolerable vitamin D intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8271869">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable vitamin D intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/>  
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable vitamin D intake level is a percent upper tolerable vitamin intake level that provides the information about the quantity of vitamin D consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for vitamin D.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+  
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8458226-->  <!-- percent upper tolerable vitamin E intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8458226">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable vitamin E intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/> 
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable vitamin E intake level is a percent upper tolerable vitamin intake level that provides the information about the quantity of vitamin E consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for vitamin E.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7743924-->  <!-- percent upper tolerable vitamin K intake level datum-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7743924">
+        <rdfs:label rdf:datatype="&xsd;string">percent upper tolerable vitamin K intake level datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0077672"/>
+        <skos:definition rdf:datatype="&xsd;string">Percent upper tolerable vitamin K intake level is a percent upper tolerable vitamin intake level that provides the information about the quantity of vitamin K consumed (or to be consumed) by a human, that is expressed as the percentage of the upper tolerable intake level for vitamin K.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>    
+    
+    
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9281587-->  <!-- percent recommended dietary nutrient allowance datum-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9281587">
