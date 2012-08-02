@@ -887,9 +887,9 @@ people infected, then extract parasite which are then tested = observation study
      
      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100051">
         <rdfs:label rdf:datatype="&xsd;string">specimen</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+    	<rdfs:subClassOf rdf:resource="&obo;BFO_0000030"/> <!-- BFO2:object -->
         <skos:definition rdf:datatype="&xsd;string">A material entity that has the specimen role.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -899,7 +899,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">blood specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
         <skos:definition rdf:datatype="&xsd;string">A material entity derived from a portion of blood collected from an organism.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -909,7 +909,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">urine specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
         <skos:definition rdf:datatype="&xsd;string">A portion of urine collected from an organism.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -919,7 +919,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">processed specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
         <skos:definition rdf:datatype="&xsd;string">A specimen that has been intentionally physically modified.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
     
@@ -929,7 +929,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">blood plasma specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/> 
         <skos:definition rdf:datatype="&xsd;string">A material entity which corresponds to the liquid component of blood, in which the blood cells are suspended.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -939,7 +939,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">blood serum specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/>  
         <skos:definition rdf:datatype="&xsd;string">A material entity which derives from blood and corresponds to blood plasma without fibrinogen or the other clotting factors.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
       
   
@@ -949,7 +949,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/> 
         <skos:definition rdf:datatype="&xsd;string">A planned process with the objective to produce information about some evaluant.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -959,7 +959,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">age measurement assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">An assay that measures the duration of temporal interval of a process that is part of the life of the bearer, where the initial time point of the measured process is the beginning of some transitional state of the bearer such as birth or when planted.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -969,7 +969,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">mass measurement assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">A process to determine the mass of an evaluant.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -979,7 +979,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">analyte assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">An assay with the objective to capture information about the presence, concentration, or amount of an analyte in an evaluant.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -989,7 +989,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">genotyping assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
         <skos:definition rdf:datatype="&xsd;string">An assay which generates data about a genotype from a specimen of genomic DNA. A variety of techniques and instruments can be used to produce information about sequence variation at particular genomic positions.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -999,7 +999,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">clinical chemistry assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
         <skos:definition rdf:datatype="&xsd;string">A process which uses analytical methods to produce measurements and data on the concentration of a chemical parameters (analytes) present in a bodily fluid collected from an organism.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1009,7 +1009,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">specimen creation</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <skos:definition rdf:datatype="&xsd;string">A planned process with the objective of obtaining specimen.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1019,7 +1019,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">collecting specimen from organism</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
         <skos:definition rdf:datatype="&xsd;string">A process with the objective to obtain a material entity that was part of an organism for potential future use in an investigation.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
       
     
@@ -1029,7 +1029,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">data transformation</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/> 
         <skos:definition rdf:datatype="&xsd;string">A data transformation is a process which produces output data from input data.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
         
@@ -1039,7 +1039,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">longitudinal data analysis</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
         <skos:definition rdf:datatype="&xsd;string">Longitudinal analysis is a data transformation used to perform repeated observations of the same items over long periods of time.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1049,7 +1049,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">mass spectrometry analysis</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
         <skos:definition rdf:datatype="&xsd;string">A data transformation which has the objective of spectrum analysis.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1059,7 +1059,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">mass spectrometry assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">This is a measuring method consisting of turning elements in a sample into ions, isolating them according to the ratio between the mass and charge numbers and detecting it electrically.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
    
@@ -1069,7 +1069,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">metabolite profiling</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">Metabolite profiling is a process which aims at detecting and identifying chemical entities resulting from biochemical and cellular metabolism.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1079,7 +1079,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">performing clinical assessment</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
 		<skos:definition rdf:datatype="&xsd;string">A protocol application during which a series of tests are made of a patient  leading to determination of disease state, or condition.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1090,7 +1090,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">tandem mass spectrometry</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200085"/>
         <skos:definition rdf:datatype="&xsd;string">Tandem mass spectrometry is a data transformation that uses two or more analyzers separated by a region in which ions can be induced to fragment by transfer of energy (frequently by collision with other molecules).</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1100,7 +1100,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">age since birth measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0001167"/>
         <skos:definition rdf:datatype="&xsd;string">An age measurement datum that is the result of the measurement of the age of an organism since birth, the process of emergence and separation of offspring from the mother.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
          
@@ -1189,7 +1189,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&obo;OBI_0000047">
         <rdfs:label rdf:datatype="&xsd;string">processed material</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000030"/>  <!-- BFO2:object -->
         <skos:definition rdf:datatype="&xsd;string">Is a material entity that is created or changed during material processing.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
      </owl:Class>
@@ -1812,7 +1812,7 @@ people infected, then extract parasite which are then tested = observation study
    <!--  http://purl.org/sig/fma/Anatomical_entity -->  <!-- anatomical entity -->
      
      <owl:Class rdf:about="http://purl.org/sig/fma/Anatomical_entity">
-          <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+          <rdfs:subClassOf rdf:resource="&obo;BFO_0000030"/> <!-- BFO2:object -->
           <rdfs:label rdf:datatype="&xsd;string">Anatomical entity</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Organismal continuant entity which is enclosed by the bona fide boundary of an organism or is an attribute of its structural organization. Examples: cell, heart, head, peritoneal cavity, apex of lung, anatomical term, sagittal plane.</skos:definition>
           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Foundational Model of Anatomy (FMA).</skos:editorialNote>
@@ -2302,7 +2302,7 @@ people infected, then extract parasite which are then tested = observation study
       
   		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
     		<rdfs:label rdf:datatype="&xsd;string">chemical entity</rdfs:label>
-    		<rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+    		<rdfs:subClassOf rdf:resource="&obo;BFO_0000030"/> <!-- BFO2:object -->
             <skos:definition rdf:datatype="&xsd;string">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</skos:definition>
             <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
        </owl:Class>
@@ -4359,7 +4359,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_131567">
         <rdfs:label rdf:datatype="&xsd;string">cellular organisms</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000030"/> <!-- BFO2:object -->
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from NCBITaxonomy</skos:editorialNote>
     </owl:Class>
   
@@ -5744,7 +5744,7 @@ people infected, then extract parasite which are then tested = observation study
                                 		<owl:intersectionOf rdf:parseType="Collection">
                                         	<rdf:Description rdf:about="&obo;CHEBI_28044"/> <!-- phenylalanine  -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- has quality -->
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000159"/> <!-- BFO2:has quality at all times -->
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
@@ -5805,7 +5805,7 @@ people infected, then extract parasite which are then tested = observation study
                                 		<owl:intersectionOf rdf:parseType="Collection">
                                         	<rdf:Description rdf:about="&obo;CHEBI_28044"/> <!-- phenylalanine  -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- has quality -->
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000159"/> <!-- BFO2:has quality at all times -->
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
@@ -5880,7 +5880,7 @@ people infected, then extract parasite which are then tested = observation study
                                 		<owl:intersectionOf rdf:parseType="Collection">
                                         	<rdf:Description rdf:about="&obo;CHEBI_28044"/> <!-- phenylalanine  -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- has quality -->
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000159"/> <!-- BFO2:has quality at all times-->
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
@@ -7935,7 +7935,7 @@ people infected, then extract parasite which are then tested = observation study
                                         </owl:unionOf>
                                     </owl:Class>
                                     <owl:Restriction>
-                                        <owl:onProperty rdf:resource="&obo;BFO_0000086"/>  <!-- is quality of -->
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000159"/>  <!-- BFO2:has quality at all times -->
                                         <owl:someValuesFrom>
                                             <owl:Class>
                                                 <owl:intersectionOf rdf:parseType="Collection">
@@ -8324,7 +8324,7 @@ people infected, then extract parasite which are then tested = observation study
                                 		<owl:intersectionOf rdf:parseType="Collection">
                                         	<rdf:Description rdf:about="&ONSTR;ONSTR_2707948"/> <!-- ferritin complex  -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- has quality -->
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000159"/> <!-- BFO2:quality at all times-->
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
@@ -8382,7 +8382,7 @@ people infected, then extract parasite which are then tested = observation study
                                 		<owl:intersectionOf rdf:parseType="Collection">
                                         	<rdf:Description rdf:about="&ONSTR;ONSTR_5107576"/> <!-- transthyretin complex = pre-albumin -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- has quality -->
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000159"/> <!-- BFO2:has quality at all times -->
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
@@ -8441,7 +8441,7 @@ people infected, then extract parasite which are then tested = observation study
                                 		<owl:intersectionOf rdf:parseType="Collection">
                                         	<rdf:Description rdf:about="&PRO;PR_000003918"/> <!-- albumin  -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- has quality -->
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000159"/> <!-- BFO2:has quality at all times -->
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
@@ -12016,7 +12016,7 @@ people infected, then extract parasite which are then tested = observation study
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;BFO_0000040"/>  <!-- bfo:material ent  -->
+                    <rdf:Description rdf:about="&obo;BFO_0000030"/>  <!-- BFO2:object -->
                     <owl:Restriction>
                         	<owl:onProperty rdf:resource="&obo;BFO_0000087"/>  <!-- has role -->
                         	<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
@@ -19495,7 +19495,7 @@ people infected, then extract parasite which are then tested = observation study
 	    <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;BFO_0000040"/>  <!-- bfo:material ent -->
+                    <rdf:Description rdf:about="&obo;BFO_0000030"/>  <!-- BFO2:object -->
                     <owl:Restriction>
                         	<owl:onProperty rdf:resource="&obo;BFO_0000111"/>  <!-- has proper continuant part at all times -->
                         	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0193925"/>  <!-- nutrient -->
@@ -20557,7 +20557,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
     <!-- http://purl.obolibrary.org/obo/OBI_1110060 -->  <!-- process is result of -->
     
      <owl:ObjectProperty rdf:about="&obo;OBI_1110060">
-    	<rdfs:subPropertyOf rdf:resource="&obo;BFO_0000060"/>  <!-- bfo:preceded by -->
+    	<rdfs:subPropertyOf rdf:resource="&obo;BFO_0000060"/>  <!-- BFO2-v1:preceded by -->
     	<rdfs:label rdf:datatype="&xsd;string">process is result of</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">Is a relationship between a process and a preceding occurrent that directly caused the later one to occur</skos:definition>
         <skos:example rdf:datatype="&xsd;string">The production of IFN-gamma by effector T cells is a process result of T cell stimulation through the TCR</skos:example>
@@ -20582,9 +20582,10 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 
     <owl:ObjectProperty rdf:about="&OBO_REL;towards">
         <rdfs:label rdf:datatype="&xsd;string">towards</rdfs:label>
-        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000052"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000052"/> <!-- BFO2:inheres in at all times -->
     	<skos:definition rdf:datatype="&xsd;string">A relation between a relational quality and an independent continuant, subproperty of inheres that distinguishes the main bearers of a relational quality from additional dependents.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from OBO_REL</skos:editorialNote>
+ 		<skos:editorialNote rdf:datatype="&xsd;string">This may be deprecated/replaced by a suitable (potentially equivalent) PATO relation. [SN:Aug01-2012]</skos:editorialNote> 
   </owl:ObjectProperty>
   
   
