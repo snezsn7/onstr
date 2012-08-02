@@ -6262,9 +6262,9 @@ people infected, then extract parasite which are then tested = observation study
     	 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&GO;GO_0048589"/>
+                    <rdf:Description rdf:about="&GO;GO_0048589"/> <!-- GO:develpmental growth -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/> <!-- BFO2:has participant at all times -->
                         <owl:someValuesFrom rdf:resource="&FMA;Human_body"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -6284,9 +6284,9 @@ people infected, then extract parasite which are then tested = observation study
     	 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&GO;GO_0048589"/>
+                    <rdf:Description rdf:about="&GO;GO_0048589"/> <!-- GO:develpmental growth -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/> <!-- BFO2:has participant at all times -->
                         <owl:someValuesFrom rdf:resource="&FMA;Head"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -6309,7 +6309,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&PATO;PATO_0001995"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000052"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000052"/> <!-- BFO2:inheres in at all times -->
                         <owl:someValuesFrom rdf:resource="&FMA;Human_body"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -6328,10 +6328,10 @@ people infected, then extract parasite which are then tested = observation study
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2038914"/>
-                    <rdf:Description rdf:about="&PATO;PATO_0001711"/>
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2038914"/> <!-- human body quality -->
+                    <rdf:Description rdf:about="&PATO;PATO_0001711"/>  <!-- perimeter -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000052"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000052"/>  <!-- BFO2:inheres in at all times -->
                         <owl:someValuesFrom rdf:resource="&FMA;Head"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -6353,10 +6353,10 @@ people infected, then extract parasite which are then tested = observation study
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2038914"/>
-                    <rdf:Description rdf:about="&PATO;PATO_0000918"/>
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2038914"/>  <!-- human body quality -->
+                    <rdf:Description rdf:about="&PATO;PATO_0000918"/>  <!-- PATO:volume -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000052"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000052"/>   <!-- BFO2:inheres in at all times -->
                         <owl:someValuesFrom rdf:resource="&FMA;Head"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -6376,10 +6376,10 @@ people infected, then extract parasite which are then tested = observation study
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2038914"/>
-                    <rdf:Description rdf:about="&PATO;PATO_0000125"/>
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2038914"/>  <!-- human body quality -->
+                    <rdf:Description rdf:about="&PATO;PATO_0000125"/>  <!-- PATO:mass -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000052"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000052"/>   <!-- BFO2:inheres in at all times -->
                         <owl:someValuesFrom rdf:resource="&FMA;Human_body"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -6400,10 +6400,10 @@ people infected, then extract parasite which are then tested = observation study
     	 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2038914"/>
-                    <rdf:Description rdf:about="&PATO;PATO_0000122"/>
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2038914"/>  <!-- human body quality -->
+                    <rdf:Description rdf:about="&PATO;PATO_0000122"/>  <!-- PATO: length -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000052"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000052"/>   <!-- BFO2:inheres in at all times -->
                         <owl:someValuesFrom rdf:resource="&FMA;Human_body"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -6425,17 +6425,17 @@ people infected, then extract parasite which are then tested = observation study
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&PATO;PATO_0001995"/>
-                    <rdf:Description rdf:about="&PATO;PATO_0001486"/>
+                    <rdf:Description rdf:about="&PATO;PATO_0001995"/>  <!-- organismal quality -->
+                    <rdf:Description rdf:about="&PATO;PATO_0001486"/>  <!-- chronological age -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000052"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000052"/>   <!-- BFO2:inheres in at all times -->
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>
                                     <owl:Restriction>
-                                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>  <!-- BFO2:has role at some time -->
+                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>  <!-- patient role -->
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -6483,7 +6483,7 @@ people infected, then extract parasite which are then tested = observation study
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2038914"/> <!-- human body quality -->
                     <rdf:Description rdf:about="&PATO;PATO_0000025"/>  <!-- composition -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000052"/>  <!-- inheres in -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000052"/>  <!-- BFO2:inheres in at all times -->
                         <owl:someValuesFrom rdf:resource="&FMA;Human_body"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -19863,27 +19863,30 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_3371475"/>  <!-- superclass:material ent admin into the organism -->      
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>  <!-- has participant -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/>  <!-- BFO2:has participant at all times -->
                         	<owl:someValuesFrom>
                                	<owl:Class>
                                 	<owl:intersectionOf rdf:parseType="Collection">
                                 	<rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!--Homo sapines-->
                                     	<owl:Restriction>
-                                        	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
-                                        	<owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>  <!--patient-->
+                                        	<owl:onProperty rdf:resource="&obo;BFO_0000055"/> <!-- BFO2:realizes-->
+                                        	<owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>  <!--patient role-->
                                     	</owl:Restriction>
                    					</owl:intersectionOf>
                     			</owl:Class>
                     	 </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>  <!-- has participant -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/>  <!-- BFO2:has participant at all times -->
                         	<owl:someValuesFrom>
                                	<owl:Class>
                     				<owl:intersectionOf rdf:parseType="Collection">
                     					<rdf:Description rdf:about="&ONSTR;ONSTR_5692828"/>  <!--nutritional item-->
                     						<owl:Class>
                     							<owl:complementOf rdf:resource="&ONSTR;ONSTR_7534799"/> <!--parenteral nutri solution-->
+                    						<!-- HERE-most likely NEED TO ADD!! 
+                    				        <owl:restriction....  -realizes "&obo;BFO_0000087" 
+		           							some nutritional item role=TO MAKE !!! -->
                     						</owl:Class>
                     				</owl:intersectionOf>
                     			</owl:Class>
@@ -19912,13 +19915,13 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_3371475"/>  <!-- material ent admin into the organism -->      
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>  <!-- has participant -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/>  <!-- BFO2:has participant at all times (during which parent admin process exists) -->
                         	<owl:someValuesFrom>
                                	<owl:Class>
                                 	<owl:intersectionOf rdf:parseType="Collection">
                                 	<rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!--Homo sapines-->
                                     	<owl:Restriction>
-                                        	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                                        	<owl:onProperty rdf:resource="&obo;BFO_0000055"/> <!--BFO2:realizes -->
                                         	<owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>  <!--patient role-->
                                     	</owl:Restriction>
                    					</owl:intersectionOf>
@@ -19926,13 +19929,13 @@ people infected, then extract parasite which are then tested = observation study
                     	 </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>  <!-- has participant -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/>  <!-- BFO2:has participant at all times -->
                         	<owl:someValuesFrom>
                                	<owl:Class>
                                 	<owl:intersectionOf rdf:parseType="Collection">
                                 	<rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!--Homo sapines-->
                                     	<owl:Restriction>
-                                        	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                                        	<owl:onProperty rdf:resource="&obo;BFO_0000055"/> <!--BFO2:realizes -->
                                         	<owl:someValuesFrom rdf:resource="&obo;OBI_0000207"/>  <!--health care provider role-->
                                     	</owl:Restriction>
                    					</owl:intersectionOf>
@@ -19940,13 +19943,14 @@ people infected, then extract parasite which are then tested = observation study
                     	 </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>  <!-- has participant -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/>  <!-- BFO2:has participant at all times -->
 						<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7534799"/> <!--parenteral nutri solution-->
 		           </owl:Restriction>
+		           <!-- HERE NEED TO ADD: -realizes "&obo;BFO_0000087" 
+		           							some nutritional item role=TO MAKE !!! -->
 		       </owl:intersectionOf>
 		   </owl:Class>
 		</owl:equivalentClass>
-		
         <skos:definition rdf:datatype="&xsd;string">Parenteral administration is enteral administration where material entity (fluid nutritional item or medication) is introduced into the organism intravenously, subcutanously, intramuscularly, intradermally or intrasternally.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">The route of administration, constant rate of flow required, and potential patient sensitivity to the elements administered, all contribute to the potential complications of parenteral nutrition. [Source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition ]</rdfs:comment>        
