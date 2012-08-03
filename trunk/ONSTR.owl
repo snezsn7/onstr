@@ -18,7 +18,7 @@
     <!ENTITY FMA "http://purl.org/sig/fma/">  <!-- new PURLized IRIs as of fma_v3.2 -->
     <!ENTITY CL "http://purl.org/obo/owl/CL#"> 
     <!ENTITY OBO_REL "http://purl.org/obo/owl/OBO_REL#"> <!-- ro_proposed in OBI, keep for now -->
-    <!ENTITY NCBITaxon "http://purl.org/obo/owl/NCBITaxon#">  
+    <!ENTITY NCBITaxon "http://purl.org/obo/owl/NCBITaxon#"> ]>  
 ]>    
 
 <rdf:RDF xmlns="http://onstr.googlecode.com/svn/trunk/ONSTR.owl#"
@@ -629,7 +629,7 @@ people infected, then extract parasite which are then tested = observation study
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000987">
          <rdfs:label rdf:datatype="&xsd;string">general scalar measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
-         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     	 <rdfs:comment rdf:datatype="&xsd;string">Need to keep an eye on this one, because it may be removed from OBI.</rdfs:comment>
     </owl:Class>
     
@@ -639,7 +639,7 @@ people infected, then extract parasite which are then tested = observation study
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000970">
          <rdfs:label rdf:datatype="&xsd;string">scalar score from composite inputs</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;OBI_0000987"/>
-         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -648,7 +648,7 @@ people infected, then extract parasite which are then tested = observation study
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000991">
          <rdfs:label rdf:datatype="&xsd;string">Edinburgh score</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;OBI_0000970"/>
-         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -688,7 +688,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">age measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000416"/>
          <skos:definition rdf:datatype="&xsd;string">A time measurement datum that is the result of measurement of age of an organism</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -20599,8 +20599,8 @@ We have had a long discussion about denotes versus describes.</skos:definition>
        <rdfs:comment rdf:datatype="&xsd;string">Note: In PATO the domain and range for this object property are &quot;quality&quot; PATO_0000001, a class which technically overlaps with BFO2 class &quot;quality&quot; BFO_0000019 which is, therefore, in this ontology asserted as domain and range for directly_associated_with.</rdfs:comment>    
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
        <skos:example rdf:datatype="&xsd;string">Example: 'Lewy bodies increased number related to dystrophic neurite increased number' (from annotation of PMID:8740227 in http://ccdb.ucsd.edu/1.0/NDPO.owl#ndpo_404). Here the increase in the number of lewy bodies is directly_associated_with the increase in the number of dystrophic neurites.nAssociation is weaker than correlation or proportionality. These relations may be later added to PATO. [Source: PATO.]</skos:example>
-       <rdfs:domain rdf:resource="&obo;BFO_0000019"/>  <!-- quality, same as PATO_0000001 quality -->
-       <rdfs:range rdf:resource="&obo;BFO_0000019"/>  <!-- quality same as PATO_0000001 quality -->
+       <rdfs:domain rdf:resource="&obo;BFO_0000019"/>  <!-- BFO2:quality, same as PATO_0000001 quality -->
+       <rdfs:range rdf:resource="&obo;BFO_0000019"/>  <!-- BFO2:quality same as PATO_0000001 quality -->
 </owl:ObjectProperty>
     
     
