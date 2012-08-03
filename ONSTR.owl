@@ -18,7 +18,7 @@
     <!ENTITY FMA "http://purl.org/sig/fma/">  <!-- new PURLized IRIs as of fma_v3.2 -->
     <!ENTITY CL "http://purl.org/obo/owl/CL#"> 
     <!ENTITY OBO_REL "http://purl.org/obo/owl/OBO_REL#"> <!-- ro_proposed in OBI, keep for now -->
-    <!ENTITY NCBITaxon "http://purl.org/obo/owl/NCBITaxon#"> ]>  
+    <!ENTITY NCBITaxon "http://purl.org/obo/owl/NCBITaxon#"> 
 ]>    
 
 <rdf:RDF xmlns="http://onstr.googlecode.com/svn/trunk/ONSTR.owl#"
@@ -20714,55 +20714,6 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 
 <!-- TEST 1-2 -->
 
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_fattyTest1-linolen-grams -->  <!-- fattyTest1-linolen-grams  -->
-
-    <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_fattyTest1-linolen-grams">
-        <rdf:type rdf:resource="&ONSTR;ONSTR_7192524"/>  <!-- aver daily linolenic acid intake -->
-        <rdfs:label rdf:datatype="&xsd;string">fattyTest1-linolen-grams</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&xsd;float">32.5</obo:IAO_0000004>  <!-- has measur value -->
-        <obo:IAO_0000039 rdf:resource="&ONSTR;ONSTR_5104929"/> <!-- gram per day -->
-   </owl:NamedIndividual>      
-        
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_fattyTest2-arachid-micrograms -->  <!-- fattyTest2-arachid-micrograms  -->
-        
-   <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_fattyTest2-arachid-micrograms">
-        <rdf:type rdf:resource="&ONSTR;ONSTR_7733244"/>  <!-- aver daily arachidonic acid intake -->
-        <rdfs:label rdf:datatype="&xsd;string">fattyTest2-arachid-micrograms</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&xsd;float">125.38</obo:IAO_0000004>  <!-- has measur value -->
-        <obo:IAO_0000039 rdf:resource="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
-   </owl:NamedIndividual>
-
-<!-- Amino test -->
-
-
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_aminoTest1-Val-grams -->  <!-- aminoTest1-Val-grams  -->
-
-    <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_aminoTest1-Val-grams">
-        <rdf:type rdf:resource="&ONSTR;ONSTR_6254359"/>  <!-- aver daily valine intake -->
-        <rdfs:label rdf:datatype="&xsd;string">aminoTest1-Val-grams</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&xsd;float">25.8</obo:IAO_0000004>  <!-- has measur value -->
-        <obo:IAO_0000136 rdf:resource="&ONSTR;ONSTR_5104929"/> <!-- gram per day -->
-   </owl:NamedIndividual> 
-
-
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_aminoTest2-Ala-miligrams -->  <!-- aminoTest2-Ala-miligrams  -->
-
-    <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_aminoTest2-Ala-miligrams">
-        <rdf:type rdf:resource="&ONSTR;ONSTR_8527984"/>  <!-- aver daily alanine intake -->
-        <rdfs:label rdf:datatype="&xsd;string">aminoTest2-Ala-miligrams</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&xsd;float">350.00</obo:IAO_0000004>  <!-- has measur value -->
-        <obo:IAO_0000136 rdf:resource="&ONSTR;ONSTR_8176500"/> <!-- miligram per day -->
-   </owl:NamedIndividual>
-   
-  
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_aminoTest3-Tyr-micrograms -->  <!-- aminoTest3-Tyr-micrograms  -->
-
-    <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_aminoTest3-Tyr-micrograms">
-        <rdf:type rdf:resource="&ONSTR;ONSTR_9462546"/>  <!-- aver daily tyrosine intake -->
-        <rdfs:label rdf:datatype="&xsd;string">aminoTest3-Tyr-micrograms</rdfs:label> 
-        <obo:IAO_0000004 rdf:datatype="&xsd;float">250.00</obo:IAO_0000004>  <!-- has measur value -->
-        <obo:IAO_0000136 rdf:resource="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
-   </owl:NamedIndividual>
 
 
 <!-- END TEST 1-2 -->
