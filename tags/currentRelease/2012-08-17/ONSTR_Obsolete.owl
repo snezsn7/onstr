@@ -1,0 +1,92 @@
+<!-- ************************************************* -->
+<!-- ************************************************* -->
+<!-- ************************************************* -->
+
+<!-- THIS IS JUST A URI REDIRECT TEST FILE !!! -->
+
+<!-- NO ONSTR_OBSOLETE CONTENT HERE !!!-->
+
+
+<!-- ************************************************* -->
+<!-- ************************************************* -->
+<!-- ************************************************* -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY bfo "http://www.ifomis.org/bfo/1.1#" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY ro "http://www.obofoundry.org/ro/ro.owl#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY obo  "http://purl.obolibrary.org/obo/">
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY ONSTR "http://onstr.googlecode.com/svn/trunk/ONSTR.owl#" >
+    <!ENTITY ONSTRobsolete "http://onstr.googlecode.com/svn/trunk/ONSTR.owl#" >
+    <!ENTITY GO "http://purl.org/obo/owl/GO#">
+    <!ENTITY PRO "http://purl.obolibrary.org/obo/pr.owl#">
+    <!ENTITY PATO "http://purl.org/obo/owl/PATO#">
+    <!ENTITY FMA "http://purl.org/sig/fma/">  <!-- PURLized IRIs as of fma_v3.2 -->
+    <!ENTITY CL "http://purl.org/obo/owl/CL#">
+    <!ENTITY OBO_REL "http://purl.org/obo/owl/OBO_REL#"> <!-- ro_proposed in OBI-->
+    <!ENTITY NCBITaxon "http://purl.org/obo/owl/NCBITaxon#">
+]>    
+
+<rdf:RDF xmlns="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#"
+     xml:base="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bfo="http://www.ifomis.org/bfo/1.1#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:ONSTR="http://onstr.googlecode.com/svn/trunk/ONSTR.owl#"
+     xmlns:ONSTRobsolete="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:GO="http://purl.org/obo/owl/GO#"
+     xmlns:PRO="http://purl.obolibrary.org/obo/pr.owl#"
+     xmlns:PATO="http://purl.org/obo/owl/PATO#"
+     xmlns:FMA="http://purl.org/sig/fma/"
+     xmlns:CL="http://purl.org/obo/owl/CL#"
+     xmlns:OBO_REL="http://purl.org/obo/owl/OBO_REL#"
+     xmlns:NCBITaxon="http://purl.org/obo/owl/NCBITaxon#">
+     
+     
+    <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl">  <!-- permanent ONSTR onto-IRI. This DOES NOT CHANGE -->
+        <owl:versionInfo rdf:datatype="&xsd;string">0.1</owl:versionInfo>
+        <owl:versionIRI rdf:resource="http://purl.bioontology.org/ONSTR/ontology/2012-08-17/ONSTR_Obsolet.owl"/>     <!-- ONSTR RELEASE version IRI. THIS NEEDS TO GET UPDATED! WITH EVERY NEW RELEASE   -->
+  
+    </owl:Ontology>
+    
+
+	<!-- 					   -->
+	<!-- ANNOTATION PROPERTIES -->
+	<!-- 					   -->
+	
+	    <owl:AnnotationProperty rdf:about="&owl;versionInfo"/>
+	    <owl:AnnotationProperty rdf:about="&rdfs;label"/>
+	    <owl:AnnotationProperty rdf:about="&rdfs;comment"/>
+	    <owl:AnnotationProperty rdf:about="&dc;title"/>	
+	    <owl:AnnotationProperty rdf:about="&dc;format"/>
+	    <owl:AnnotationProperty rdf:about="&dc;creator"/>
+	    <owl:AnnotationProperty rdf:about="&dc;contributor"/>
+	    <owl:AnnotationProperty rdf:about="&dc;date"/>
+	    <owl:AnnotationProperty rdf:about="&dc;subject"/>
+	    <owl:AnnotationProperty rdf:about="&dc;description"/>	
+	    <owl:AnnotationProperty rdf:about="&skos;altLabel"/>
+	    <owl:AnnotationProperty rdf:about="&skos;source"/>
+	    <owl:AnnotationProperty rdf:about="&skos;editorialNote"/>
+	    <owl:AnnotationProperty rdf:about="&skos;definition"/>	
+	    <owl:AnnotationProperty rdf:about="&skos;example"/>
+	    <owl:AnnotationProperty rdf:about="&skos;prefLabel"/>	
+
+    
+</rdf:RDF>
+
+<!-- END of ONSTR_OBSOLETE TEST FILE -->
