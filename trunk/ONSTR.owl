@@ -5706,67 +5706,6 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3916451 --> <!-- blood plasma penylalanine concentration measurement datum-->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_3916451">
-        <rdfs:label rdf:datatype="&xsd;string">blood plasma penylalanine concentration measurement datum</rdfs:label>
-       <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->
-         <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
-                    	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output -->
-                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6285423"/> <!-- blood plasma Phe concentration measur assay --> 
-                    	</owl:Restriction>
-                    	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
-                        		<owl:someValuesFrom>
-                            		<owl:Class>
-                                		<owl:intersectionOf rdf:parseType="Collection">
-                                        	<rdf:Description rdf:about="&obo;CHEBI_28044"/> <!-- phenylalanine  -->
-                                        		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000159"/> <!-- BFO2:has quality at all times -->
-                                        				<owl:someValuesFrom>
-                                            				<owl:Class>
-                                                				<owl:intersectionOf rdf:parseType="Collection">
-                                                    				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
-                                        	                        <owl:Restriction>
-                                                        				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
-                                                        			    <owl:someValuesFrom rdf:resource="&obo;OBI_0100016"/> <!-- blood plasma specimen -->
-                                        	                        </owl:Restriction>
-																 </owl:intersectionOf>
-															</owl:Class>
-											            </owl:someValuesFrom>
-					                            </owl:Restriction>											
-										 </owl:intersectionOf>
-                                    </owl:Class>
-                                </owl:someValuesFrom>
- 						</owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
-                   	    <owl:someValuesFrom>
-                            	<owl:Class>
-                                	<owl:unionOf rdf:parseType="Collection">
-                                		<rdf:Description rdf:about="&ONSTR;ONSTR_5263648"/>  <!-- miligram per dL -->
-                                	    <rdf:Description rdf:about="&obo;UO_0000063"/>  <!-- microMol per L = micromolar -->
-                                	</owl:unionOf> 
-                               </owl:Class> 	
-                            </owl:someValuesFrom>
-                    </owl:Restriction>
- 						<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
-                        	<owl:someValuesFrom rdf:resource="&xsd;float"/>
-                    	</owl:Restriction>
- 			      </owl:intersectionOf>
- 			</owl:Class>
- 	    </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Blood plasma phenylalanine concentration measurement datum is a concentration measurement datum that is the output of the blood plasma phenylalanine concentration measurement assay that measures the concentration of the amino acid phenylalanine in blood plasma specimen.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
-    </owl:Class>
-
-
      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0630865 --> <!-- blood phenylalanine concentration measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0630865">
@@ -5827,19 +5766,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
-
-
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0114258 --> <!-- blood phenylalanine concentration measurement  assay -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_0114258">
-        <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration measurement assay</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
-        <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration measurement assay is a clinical chemistry assay that determines the quantity of phenylalanine in the blood specimen derived from human arterial, venous or cappilary blood.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition needs fixing, or maybe this class needs to be deprecated.</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
-    </owl:Class>
-    
+   
 
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1115755 --> <!-- cerebrospinal fluid phenylalanine concentration measurement datum -->
 
@@ -5911,18 +5838,6 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition needs fixing, or maybe this class needs to be deprecated.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">CSF phenylalanine concentration test</skos:altLabel>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
-    </owl:Class>
-
-
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6285423 --> <!-- blood plasma phenylalanine concentration measuremet assay -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_6285423">
-        <rdfs:label rdf:datatype="&xsd;string">blood plasma phenylalanine concentration measurement assay</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
-        <skos:definition rdf:datatype="&xsd;string">Blood plasma phenylalanine concentration measurement assay is a clinical chemistry assay that determines the quantity of phenylalanine in blood plasma specimen derived from human arterial, venous or cappilary blood.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition needs fixing, or maybe this class needs to be deprecated.</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
