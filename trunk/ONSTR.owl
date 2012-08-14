@@ -5716,7 +5716,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
                     	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output -->
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                         	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0114258"/> <!-- blood Phe concentration measur assay --> 
                     	</owl:Restriction>
                     	<owl:Restriction>
@@ -5778,7 +5778,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
                     	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output -->
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                         	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2219307"/> <!-- CSF Phe concentration measur assay --> 
                     	</owl:Restriction>
                     	<owl:Restriction>
@@ -5851,13 +5851,13 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;OBI_0600005"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/> <!-- has specif input -->
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!--Homo sapines-->
                                     <owl:Restriction>
-                                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time-->
                                         <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>  <!--patient-->
                                     </owl:Restriction>
                                 </owl:intersectionOf>
@@ -5955,14 +5955,14 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;OBI_0600005"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/> <!-- has specif input -->
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>
                                     <owl:Restriction>
-                                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>  <!-- BFO2:has role at some time -->
+                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>  <!-- patirnt role -->
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -5990,7 +5990,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;OBI_0600005"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/> <!-- has specif input -->
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
@@ -6677,7 +6677,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;OBI_0000445"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/> <!-- has specif input -->
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
@@ -6721,7 +6721,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_8336133"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/> <!-- has specif input -->
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
@@ -6742,7 +6742,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Height_of_a_human_being</rdfs:comment>      
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
-    
+   
     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1298692--> <!-- head circumference measurement assay -->
 
@@ -6754,14 +6754,14 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_8336133"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/> <!-- has specif input -->
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&FMA;Head"/>
                                     <owl:Restriction>
-                                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000067"/>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>  <!-- BFO2:has role at some time -->
+                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000067"/>  <!-- evaluant role -->
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -6787,19 +6787,19 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;OBI_0200000"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>  <!-- has specif input -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/> <!-- has specif input -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3215569"/> <!-- age at follow-up visit measur datum -->
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>  <!-- has specif input -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/> <!-- has specif input -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5773210"/> <!-- phenotypic sex datum -->
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>   <!-- has specif input -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/>   <!-- has specif input -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3614873"/> <!-- devel growth chart -->
                     </owl:Restriction>
                      <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>  <!-- has specif input -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/>  <!-- has specif input -->
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:unionOf rdf:parseType="Collection">
@@ -6810,13 +6810,13 @@ people infected, then extract parasite which are then tested = observation study
                                         </owl:intersectionOf>
                                     </owl:Class>
                                     <owl:Restriction>
-                                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/> <!-- has specif input -->
+                                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/> <!-- has specif input -->
                                         <owl:someValuesFrom>
                                             <owl:Class>
                                                 <owl:unionOf rdf:parseType="Collection">
                                                     <rdf:Description rdf:about="&ONSTR;ONSTR_2150908"/>  <!-- HC measur datum -->
                                                     <rdf:Description rdf:about="&ONSTR;ONSTR_5875975"/>  <!-- body mass index -->
-                                                    <rdf:Description rdf:about="&ONSTR;ONSTR_7664189"/> <!-- body height measur datum -->
+                                                    <rdf:Description rdf:about="&ONSTR;ONSTR_7664189"/>  <!-- body height measur datum -->
                                                     <rdf:Description rdf:about="&ONSTR;ONSTR_8762724"/>  <!-- body mass measur datum -->
                                                 </owl:unionOf>
                                             </owl:Class>
@@ -6827,7 +6827,7 @@ people infected, then extract parasite which are then tested = observation study
                         </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>   <!-- has specif input -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/>   <!-- has specif input -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3614873"/> <!-- devel growth chart -->
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -6843,26 +6843,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6405272">
         <rdfs:label rdf:datatype="&xsd;string">height-for-age percentile derivation</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7375219"/ -->
-    	<owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_7375219"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5773210"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3215569"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7664189"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7375219"/>
         <skos:definition rdf:datatype="&xsd;string">Height-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation) height-for-age percentile for given child at the time of physical examination. In order to derive height-for-age percentile information about child's body height and age is first plotted with respect to the height and age scales of the age and sex appropriate height-for-age growth chart; position of the resulting point is then compared with respect to height-for-age percentile curves comprising height-for-age growth chart; height-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -6873,26 +6854,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6066538">
         <rdfs:label rdf:datatype="&xsd;string">weight-for-age percentile derivation</rdfs:label>
-    	<!--rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7375219"/ -->
-    	<owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_7375219"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5773210"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3215569"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_8762724"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7375219"/>
         <skos:definition rdf:datatype="&xsd;string">Weight-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) weight-for-age percentile for given child at the time of physical examination. In order to derive weight-for-age percentile information about child's body height and age are first plotted with respect to the height and age scales of the age and sex appropriate weight-for-age growth chart; the position of the resulting point is then compared with respect to weight-for-age percentile curves comprising weight-for-age growth chart; weight-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -6903,26 +6865,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3780666">
         <rdfs:label rdf:datatype="&xsd;string">weight-for-height percentile derivation</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7375219"/ -->
-    	<owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_7375219"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5773210"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3215569"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7664189"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>	
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7375219"/>	
         <skos:definition rdf:datatype="&xsd;string">Weight-for-height percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) weight-for-height percentile for given child at the time of physical examination. In order to derive weight-for-height percentile, information about child's body weight (mass) and height are first plotted with respect to the weight and height scales of the age and sex appropriate weight-for-height growth chart; the position of the resulting point is then compared with closest weight-for-height percentile curves comprising the weight-for-height chart; weight-for-height percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -6934,25 +6877,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2672569">
         <rdfs:label rdf:datatype="&xsd;string">head circumference-for-age percentile derivation</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7375219"/>
-    	<owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_7375219"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5773210"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3215569"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2150908"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Head circumference-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) head circumference-for-age percentile for given child, at the time of physical examination. In order to derive head circumference-for-age percentile, information about child's head circumference and age are plotted with respect to the head circumference and age scales of the age and sex appropriate head circumference-for-age percentile growth chart; the position of the resulting point is then compared with the closest head circumference-for-age percentile curves comprising the circumference-for-age growth chart; head circumference-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -6963,26 +6887,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8529802">
         <rdfs:label rdf:datatype="&xsd;string">body mass index-for-age percentile derivation</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7375219"/ -->
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_7375219"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5773210"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3215569"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5875975"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7375219"/>
         <skos:definition rdf:datatype="&xsd;string">Body mass index-for-age percentile derivation is developmental growth indicator derivation with the goal to determine (or give best possible approximation of) body mass index-for-age percentile for given child, at the time of physical examination. In order to derive body mass index-for-age percentile information, child's body mass index and age are plotted with respect to the body mass index and age scales of the age and sex appropriate body mass index-for-age percentile growth chart; the position of the resulting point is then compared with the closest body mass index-for-age percentile curves comprising the body mass index-for-age growth chart; body mass index-for-age percentile is then determined (or maximally approximated) based on the closest percentile curve.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:altLabel rdf:datatype="&xsd;string">BMI-for-age percentile derivation</skos:altLabel>
@@ -7000,11 +6905,11 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;OBI_0200000"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>  <!-- has specif input -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/>  <!-- has specif input -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_8762724"/>  <!-- body mass measur datum -->
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000293"/>    <!-- has specif input -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/>    <!-- has specif input -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7664189"/> <!-- body height measur datum -->
                     </owl:Restriction>
                     <owl:Restriction>
@@ -7894,7 +7799,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_7867655"/>  <!-- devel growth indicator  -->
                     <owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output of -->
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output of -->
                         	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6405272"/> <!-- height-for-age percentile deriv -->
                     </owl:Restriction>
 				</owl:intersectionOf>
@@ -7922,7 +7827,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_7867655"/>  <!-- devel growth indicator  -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output of -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output of -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6066538"/> <!-- weight-for-age percentile deriv -->
                     </owl:Restriction>
 				</owl:intersectionOf>
@@ -7952,7 +7857,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_7867655"/>  <!-- devel growth indicator  -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output of -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output of -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3780666"/> <!-- weight-for-height percentile deriv -->
                     </owl:Restriction>
 				</owl:intersectionOf>
@@ -7975,7 +7880,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_7867655"/>  <!-- devel growth indicator  -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output of -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output of -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2672569"/> <!-- HC-for-age percentile deriv -->
                     </owl:Restriction>
 				</owl:intersectionOf>
@@ -8000,7 +7905,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_7867655"/>  <!-- devel growth indicator  -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output of -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output of -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_8529802"/> <!-- BMI-for-age percentile deriv -->
                     </owl:Restriction>
 				</owl:intersectionOf>
@@ -8229,7 +8134,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
                     	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output -->
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                         	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3075415"/> <!-- blood serum ferritin concentration measur assay --> 
                     	</owl:Restriction>
                     	<owl:Restriction>
@@ -8287,7 +8192,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
                     	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output -->
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                         	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6397402"/> <!-- blood serum transthyretin concentration measur assay --> 
                     	</owl:Restriction>
                     	<owl:Restriction>
@@ -8346,7 +8251,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
                     	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output -->
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                         	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3199939"/> <!-- blood serum albumin concentration measur assay --> 
                     	</owl:Restriction>
                     	<owl:Restriction>
@@ -14532,7 +14437,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000032"/>  <!--scalar measur datum-->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/> <!--is specif output of-->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/> <!--is specif output of-->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6867187"/> <!--dietary intake analysis--> 
                     </owl:Restriction>  
                 </owl:intersectionOf>
@@ -19903,7 +19808,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000027"/>  <!-- data item -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>  <!-- is specif output of -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output of -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5288942"/>  <!-- food intake recording -->
                     </owl:Restriction>
                      <owl:Restriction>
@@ -19915,7 +19820,7 @@ people infected, then extract parasite which are then tested = observation study
                       	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5692828"/> <!-- nutritional item -->
                      </owl:Restriction>  
                      <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000295"/> <!-- is specif input of -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3333333"/> <!-- is specif input of -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6867187"/> <!-- dietary intake analysis-->
                     </owl:Restriction> 
                 </owl:intersectionOf>
@@ -20324,55 +20229,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <!--  IMPORTED OBJECT PROPERTIES -->    
  
- <!-- OBO_REL-RO-OBI  -->
-  
-      <!-- http://purl.obolibrary.org/obo/OBI_0000293 --> <!-- has_specified_input -->
-
-    <owl:ObjectProperty rdf:about="&obo;OBI_0000293">
-        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000057"/>  <!-- was &ro;has_participant -->
-        <rdfs:label rdf:datatype="&xsd;string">has_specified_input</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</skos:definition>
-        <rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
-        <skos:editorialNote rdf:datatype="&xsd;string">Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
-    </owl:ObjectProperty>
-    
-    
-        <!-- http://purl.obolibrary.org/obo/OBI_0000295 --> <!-- is_specified_input_of -->
-
-    <owl:ObjectProperty rdf:about="&obo;OBI_0000295">
-        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000056"/>  <!-- was &ro;participates_in -->
-        <rdfs:label rdf:datatype="&xsd;string">is_specified_input_of</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process that is not created during  the process. The presence of the continuant during the process is explicitly specified in the plan specification which the process realizes the concretization of.</skos:definition>
-    	<skos:example rdf:datatype="&xsd;string">some Autologous EBV(Epstein-Barr virus)-transformed B-LCL (B lymphocyte cell line) is_input_for instance of Chromum Release Assay described at https://wiki.cbil.upenn.edu/obiwiki/index.php/Chromium_Release_assay</skos:example>
-        <rdfs:range rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
-        <owl:inverseOf rdf:resource="&obo;OBI_0000293"/>
-        <skos:editorialNote rdf:datatype="&xsd;string">Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
-    </owl:ObjectProperty>
-    
-    
-    <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->  <!-- is_specified_output_of -->
-
-    <owl:ObjectProperty rdf:about="&obo;OBI_0000312">
-         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000056"/>  <!--BFO2:participates in at some time -->
-        <rdfs:label rdf:datatype="&xsd;string">is_specified_output_of</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</skos:definition>
-        <rdfs:range rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
-        <skos:editorialNote rdf:datatype="&xsd;string">Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
-    </owl:ObjectProperty>
-
-    
-  <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->  <!-- has_specified_output -->
-
-    <owl:ObjectProperty rdf:about="&obo;OBI_0000299">
-        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000057"/>  <!-- BFO2:has participant at some time -->
-        <rdfs:label rdf:datatype="&xsd;string">has_specified_output</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</skos:definition>
-    	<rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
-        <owl:inverseOf rdf:resource="&obo;OBI_0000312"/>
-        <skos:editorialNote rdf:datatype="&xsd;string">Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
-    </owl:ObjectProperty>
-
-    
+ <!-- OBO_REL/RO/OBI/IAO rel imports -->
+         
       <!-- http://purl.obolibrary.org/obo/IAO_0000039 -->  <!-- has measurement unit label --> 
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000039">
@@ -20487,24 +20345,125 @@ We have had a long discussion about denotes versus describes.</skos:definition>
     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Relation Ontology (RO)</skos:editorialNote>
     	<rdfs:comment rdf:datatype="&xsd;string">This may be (or very likely will be) removed or replaced at a later date.</rdfs:comment>    
   </owl:ObjectProperty>
+  	
   
+  	<!-- http://purl.org/obo/owl/obo#directly_associated_with -->  <!-- directly associated with -->
   
-  <!-- http://purl.org/obo/owl/obo#directly_associated_with -->  <!-- directly associated with -->
-  
-  <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/obo#directly_associated_with">
-       <rdfs:label rdf:datatype="&xsd;string">directly_associated_with</rdfs:label>
-       <skos:definition rdf:datatype="&xsd;string">q1 directly_associated_with q2 iff q1 is dependent on q2, and the magnitude of q1 increases if the magnitude of q2 is increased, or the magnitude of q1 decreases if the magnitude of q2 is decreased. The relationship is not necessarily linear.</skos:definition>
-       <rdfs:comment rdf:datatype="&xsd;string">Note: In PATO the domain and range for this object property are &quot;quality&quot; PATO_0000001, a class which technically overlaps with BFO2 class &quot;quality&quot; BFO_0000019 which is, therefore, in this ontology asserted as domain and range for directly_associated_with.</rdfs:comment>    
-       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
-       <skos:example rdf:datatype="&xsd;string">Example: 'Lewy bodies increased number related to dystrophic neurite increased number' (from annotation of PMID:8740227 in http://ccdb.ucsd.edu/1.0/NDPO.owl#ndpo_404). Here the increase in the number of lewy bodies is directly_associated_with the increase in the number of dystrophic neurites.nAssociation is weaker than correlation or proportionality. These relations may be later added to PATO. [Source: PATO.]</skos:example>
-       <rdfs:domain rdf:resource="&obo;BFO_0000019"/>  <!-- quality, same as PATO_0000001 quality -->
-       <rdfs:range rdf:resource="&obo;BFO_0000019"/>  <!-- quality same as PATO_0000001 quality -->
-</owl:ObjectProperty>
+  	<owl:ObjectProperty rdf:about="http://purl.org/obo/owl/obo#directly_associated_with">
+       	<rdfs:label rdf:datatype="&xsd;string">directly_associated_with</rdfs:label>
+       	<skos:definition rdf:datatype="&xsd;string">q1 directly_associated_with q2 iff q1 is dependent on q2, and the magnitude of q1 increases if the magnitude of q2 is increased, or the magnitude of q1 decreases if the magnitude of q2 is decreased. The relationship is not necessarily linear.</skos:definition>
+       	<rdfs:comment rdf:datatype="&xsd;string">Note: In PATO the domain and range for this object property are &quot;quality&quot; PATO_0000001, a class which technically overlaps with BFO2 class &quot;quality&quot; BFO_0000019 which is, therefore, in this ontology asserted as domain and range for directly_associated_with.</rdfs:comment>    
+       	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+       	<skos:example rdf:datatype="&xsd;string">Example: 'Lewy bodies increased number related to dystrophic neurite increased number' (from annotation of PMID:8740227 in http://ccdb.ucsd.edu/1.0/NDPO.owl#ndpo_404). Here the increase in the number of lewy bodies is directly_associated_with the increase in the number of dystrophic neurites.nAssociation is weaker than correlation or proportionality. These relations may be later added to PATO. [Source: PATO.]</skos:example>
+       	<rdfs:domain rdf:resource="&obo;BFO_0000019"/>  <!-- quality, same as PATO_0000001 quality -->
+       	<rdfs:range rdf:resource="&obo;BFO_0000019"/>  <!-- quality same as PATO_0000001 quality -->
+	</owl:ObjectProperty>
     
     
-<!-- Rels Ovde -->
+  
+   <!-- ONSTR OBJECT PROPERTIES	 -->
+     
+ 
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5859795 -->  <!-- has finding -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_5859795">
+        <rdfs:label rdf:datatype="&xsd;string">has finding</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">Relates disease or quality [snap:specificallyDependentContinuan] to a clinical finding.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:ObjectProperty>
+    
+    
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1932532 -->  <!-- is finding of -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_1932532">
+        <rdfs:label rdf:datatype="&xsd;string">is finding of</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">Relates the clinical finding and disease or quality [snap:specificallyDependentContinuan].</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+        <owl:inverseOf rdf:resource="&ONSTR;ONSTR_5859795"/>
+    </owl:ObjectProperty>   
       
+      
+<!-- ****************************************************************************** -->
+<!-- The following 4 ONSTR obj properties are TEMPORARY,
+     They will be REMOVED/RE-PLACED by OBI's relations once OBI settled unde BFO2 vGraz -->
+<!-- ***************************************************************************** -->
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1111111 -->  <!-- ONSTR:has specified input -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_1111111">
+        <rdfs:label rdf:datatype="&xsd;string">has specified input</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process where a continuant is an input to a given planned proces.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+        <rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
+        <rdfs:range> <!-- range:independent continuant (not spatial region) or GDC -->
+       		<owl:Class>
+            	<owl:unionOf rdf:parseType="Collection">
+            		<rdf:Description rdf:about="&obo;BFO_0000031"/>  <!-- GDC -->
+            		<owl:Class>
+                		<owl:intersectionOf rdf:parseType="Collection">
+                    		<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002"/> <!-- BFO2:independent continuant -->
+                    			<owl:Class>
+                        			<owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>  <!-- BFO2:spatial region -->
+                    			</owl:Class>
+                    	</owl:intersectionOf>		
+                  </owl:Class>
+                </owl:unionOf> 
+            </owl:Class> 
+        </rdfs:range>   	
+       <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
+    </owl:ObjectProperty>
+      
+      
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2222222 -->  <!-- ONSTR:has specified output -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_2222222">
+        <rdfs:label rdf:datatype="&xsd;string">has specified output</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process where a continuant is an output of a given planned proces.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+        <rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
+        <rdfs:range> <!-- range:independent continuant (not spatial region) or GDC -->
+       		<owl:Class>
+            	<owl:unionOf rdf:parseType="Collection">
+            		<rdf:Description rdf:about="&obo;BFO_0000031"/>  <!-- GDC -->
+            		<owl:Class>
+                		<owl:intersectionOf rdf:parseType="Collection">
+                    		<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002"/> <!-- BFO2:independent continuant -->
+                    			<owl:Class>
+                        			<owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>  <!-- BFO2:spatial region -->
+                    			</owl:Class>
+                    	</owl:intersectionOf>		
+                  </owl:Class>
+                </owl:unionOf> 
+            </owl:Class> 
+        </rdfs:range>   	
+       <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
+    </owl:ObjectProperty>   
+      
+      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3333333 -->  <!-- ONSTR:is specified input of -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_3333333">
+        <rdfs:label rdf:datatype="&xsd;string">is specified input of</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A relation between a continuant that is an input of a process and a planned process.</skos:definition>
+		<skos:editorialNote rdf:datatype="&xsd;string">This is the inverse relation of temporary relation has specified input (ONSTR_1111111).</skos:editorialNote>
+		<owl:inverseOf rdf:resource="&ONSTR;ONSTR_1111111"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
+    </owl:ObjectProperty> 
+      
+      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4444444 -->  <!-- ONSTR:is specified output of -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_4444444">
+        <rdfs:label rdf:datatype="&xsd;string">is specified output of</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A relation between a continuant that is an output of a process and a planned process.</skos:definition>
+		<skos:editorialNote rdf:datatype="&xsd;string">This is the inverse relation of temporary relation has specified input (ONSTR_2222222).</skos:editorialNote>
+		<owl:inverseOf rdf:resource="&ONSTR;ONSTR_2222222"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
+    </owl:ObjectProperty>
+      
+   
     <!--  DATATYPE PROPERTIES -->   
+    
     
     <!-- http://purl.obolibrary.org/obo/IAO_0000004 -->   <!-- has measurement value  -->
 
@@ -20568,36 +20527,13 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <rdfs:range rdf:resource="&xsd;date"/>
      </owl:DatatypeProperty>   
  
- 
-   
-     <!--  	ONSTR OBJECT PROPERTIES	 -->
-     
- 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5859795 -->  <!-- has finding -->
-
-    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_5859795">
-        <rdfs:label rdf:datatype="&xsd;string">has finding</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">Relates disease or quality [snap:specificallyDependentContinuan] to a clinical finding.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-    </owl:ObjectProperty>
-    
-    
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1932532 -->  <!-- is finding of -->
-
-    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_1932532">
-        <rdfs:label rdf:datatype="&xsd;string">is finding of</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">Relates the clinical finding and disease or quality [snap:specificallyDependentContinuan].</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-        <owl:inverseOf rdf:resource="&ONSTR;ONSTR_5859795"/>
-    </owl:ObjectProperty>
-
-
-
-<!-- END ALL OBJECT PROPERTIES -->
+  
+  
 <!-- END ALL -->
     
-    
 </rdf:RDF>
+
+
 
 
 
