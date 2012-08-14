@@ -20220,7 +20220,50 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
-<!-- Classes Here -->
+    
+        
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5413434 -->  <!-- bacterial inhibition assay  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5413434">
+        <rdfs:label rdf:datatype="&xsd;string">bacterial inhibition assay</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>  <!-- assay -->
+        <skos:definition rdf:datatype="&xsd;string">Bacterial inhibition assay is an assay (a semiqunatitive assay) designed to detect the level of amino acid phenylalanine in the dried blood spot specimen. A small disk (of standardized size) is punched from dried blood spot specimen and put on the agar gel plate that contains &#x3B2;-2-thyenilalanine that inhibits growth of Bacillus subtilis bacteria. In the presence of elevated levels of phenylalanine leached from the filter paper disk, inhibition of &#x3B2;-2-thyenilalanine is overcome and a bacterial colony grows surrounding the disk. Measured diameter of the colony is roughly proportional to the amount of phenylalanine in the blood. Guthrie test is sensitive enough to detect blood phenylalanine levels of 180-240 &#x3BC;mol/L (3-4 mg/dL)</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">BIA</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Guthrie test</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Guthrie bacterial inhibition assay</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Guthrie assay</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylketonuria screen test</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylketonuria screen</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">PKU screen</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine screen</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.pkutest.com/2012/07/20/guthrie-test-brought-pku-screening-every-hospital/</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Guthrie_test</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">This calss may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2055480 -->  <!-- dried blood spot eluate  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2055480">
+        <rdfs:label rdf:datatype="&xsd;string">dried blood spot eluate</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/>  <!-- processed specimen -->
+        <!-- ADD log descr: is pecif output of dried blood elution process -->
+        <skos:definition rdf:datatype="&xsd;string">Dried blood spot eluate is a processed specimen that is the output of the process of blood elution using a small disk punched from a blood saturated filter paper. The disk punched from a filer paper is dropped into a flat bottom microtitre plate and blood is eluted out in phosphate buffered saline solution containing 0.05% Tween 80 and 0.005% sodium azide, overnight at  4 &#x00B0;C.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Dried_blood_spot</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">This calss may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    
+    
+      
+    
+<!-- New Classes Here -->
+
+
+
 
 	<!--  				     -->
 	<!--  OBJECT PROPERTIES	 -->
