@@ -9,15 +9,15 @@
     <!ENTITY ro "http://www.obofoundry.org/ro/ro.owl#">
     <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
-    <!ENTITY obo  "http://purl.obolibrary.org/obo/">  <!-- Most of OBOFoundry ontos -->
+    <!ENTITY obo  "http://purl.obolibrary.org/obo/"> 
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY ONSTR "http://onstr.googlecode.com/svn/trunk/ONSTR.owl#" >  
     <!ENTITY GO "http://purl.org/obo/owl/GO#"> 
     <!ENTITY PRO "http://purl.obolibrary.org/obo/pr.owl#">  
     <!ENTITY PATO "http://purl.org/obo/owl/PATO#">  
-    <!ENTITY FMA "http://purl.org/sig/fma/">  <!-- new PURLized IRIs as of fma_v3.2 -->
+    <!ENTITY FMA "http://purl.org/sig/fma/">  
     <!ENTITY CL "http://purl.org/obo/owl/CL#"> 
-    <!ENTITY OBO_REL "http://purl.org/obo/owl/OBO_REL#"> <!-- ro_proposed in OBI, keep for now -->
+    <!ENTITY OBO_REL "http://purl.org/obo/owl/OBO_REL#">
     <!ENTITY NCBITaxon "http://purl.org/obo/owl/NCBITaxon#">  
 ]>    
 
@@ -45,10 +45,11 @@
     <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/trunk/ONSTR.owl">
         <owl:versionInfo rdf:datatype="&xsd;string">0.1</owl:versionInfo>
         <dc:date rdf:datatype="&xsd;string">2011-06-03</dc:date>
-        <dc:description rdf:datatype="&xsd;string">Here goes the description of the ONSTR. The Ontology for Newborn Screening and Translational Research is ...something something something...Prabhu HELP!</dc:description>
+        <dc:description rdf:datatype="&xsd;string">ADD SOME TEXT!!!! The Ontology for Newborn Screening and Translational Research is....</dc:description>
         <skos:altLabel rdf:datatype="&xsd;string">ONSTR</skos:altLabel>
         <dc:title rdf:datatype="&xsd;string">Ontology for Newborn Screening and Translational Research</dc:title>
         <dc:format rdf:datatype="&xsd;string">RDF/XML</dc:format>
+        <rdfs:comment rdf:datatype="&xsd;string">For release notes please see http://.....ADD LINK!!!</rdfs:comment>
         <dc:creator rdf:datatype="&xsd;string">Prabhu Shankar (&#2346;&#2381;&#2352;&#2349;&#2369; &#2358;&#2344;&#2381;&#2325;&#2352;&#2381;)</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Akshaye Dhawan</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Rajshekar Sunderraman</dc:creator>
@@ -57,7 +58,7 @@
         <dc:creator rdf:datatype="&xsd;string">Sivaram Arabandi</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sne&#x17E;ana Nikolic&#x0301;</dc:creator>
         <dc:subject rdf:datatype="&xsd;string">Keywords: biomedical ontology, neborn screening for inborn errors of metabolism, translational research, translational medicine, nutrition, genetics, health care, public health</dc:subject>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/> <!-- 2012-05-24, BFO2 stable version, or soon will be. -->
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/> <!-- 2012-07-20, (vGraz) BFO2 stable version, or soon will be. -->
         <owl:imports rdf:resource="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl"/>
     </owl:Ontology>
     
@@ -295,7 +296,6 @@
    </owl:Class>
 
 
-
 <!-- END PRO IMPORTS --> 
 <!-- START OBI-IAO IMPORTS -->
 
@@ -306,7 +306,7 @@
       	<rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
         <rdfs:label rdf:datatype="&xsd;string">planned process</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A processual entity that realizes a plan which is the concretization of a plan specification.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.obolibrary.org/obo/OBI_0000011</rdfs:comment>
     </owl:Class>     
       
@@ -317,7 +317,7 @@
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">analyte role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Analyte role is a role borne by a molecular entity and realized in an analyte assay which achieves the objective to measure the magnitude/concentration/amount of the analyte in the entity bearing evaluant role</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class> 
       
     <!-- http://purl.obolibrary.org/obo/OBI_0000067 -->   <!-- evaluant role -->
@@ -325,8 +325,8 @@
      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000067">
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">evaluant role</rdfs:label>
-          <skos:definition rdf:datatype="&xsd;string">a role that inheres in an entity that is realized in an assay in which data is generated about the bearer of the evaluant role</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+          <skos:definition rdf:datatype="&xsd;string">A role that inheres in an entity that is realized in an assay in which data is generated about the bearer of the evaluant role</skos:definition>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -335,8 +335,8 @@
      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000040">
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">drug role</rdfs:label>
-          <skos:definition rdf:datatype="&xsd;string">a role borne by a molecular entity and is realized in a process of absorption by an organism  alters, or effects  (or is assumed to effect) a function(s) which inhere in an organism</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+          <skos:definition rdf:datatype="&xsd;string">A role borne by a molecular entity and is realized in a process of absorption by an organism  alters, or effects  (or is assumed to effect) a function(s) which inhere in an organism</skos:definition>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
          
       
@@ -346,7 +346,7 @@
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">investigation agent role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Investigation agent role is a role borne by a person or organization which is realized in a process that is part of an investigation in which an objective is achieved. These processes include: planning, overseeing, funding, reviewing.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -356,7 +356,7 @@
           <rdfs:subClassOf rdf:resource="&obo;OBI_0000202"/>
           <rdfs:label rdf:datatype="&xsd;string">reporting party role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">a study personnel role played by a party who reports the outcome of a study component</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -365,8 +365,8 @@
      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000102">
           <rdfs:subClassOf rdf:resource="&obo;OBI_0000202"/>
           <rdfs:label rdf:datatype="&xsd;string">responsible party role</rdfs:label>
-          <skos:definition rdf:datatype="&xsd;string">a study personnel role played by a party who is accountable for the execution of a study component and can make decisions about the conduct of the study</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+          <skos:definition rdf:datatype="&xsd;string">A study personnel role played by a party who is accountable for the execution of a study component and can make decisions about the conduct of the study</skos:definition>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -375,8 +375,8 @@
      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000103">
           <rdfs:subClassOf rdf:resource="&obo;OBI_0000102"/>
           <rdfs:label rdf:datatype="&xsd;string">principal investigator role</rdfs:label>
-          <skos:definition rdf:datatype="&xsd;string">a responsible party role played by a person responsible for the overall conduct of a study</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+          <skos:definition rdf:datatype="&xsd;string">A responsible party role played by a person responsible for the overall conduct of a study</skos:definition>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -385,8 +385,8 @@
      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000243">
           <rdfs:subClassOf rdf:resource="&obo;OBI_0000102"/>
           <rdfs:label rdf:datatype="&xsd;string">sponsor role</rdfs:label>
-          <skos:definition rdf:datatype="&xsd;string">a responsible party role involved with any of the following activities:  initiating, managing and funding a study</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+          <skos:definition rdf:datatype="&xsd;string">A responsible party role involved with any of the following activities:  initiating, managing and funding a study</skos:definition>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
     
     
@@ -395,8 +395,8 @@
      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000204">
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">nutrient role</rdfs:label>
-          <skos:definition rdf:datatype="&xsd;string">a role that inheres in a material entity and is realized in the use of that material entity by an organism when it is used in that organism's metabolism and provides nourishment.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+          <skos:definition rdf:datatype="&xsd;string">A role that inheres in a material entity and is realized in the use of that material entity by an organism when it is used in that organism's metabolism and provides nourishment.</skos:definition>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -405,8 +405,8 @@
      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000093">
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">patient role</rdfs:label>
-          <skos:definition rdf:datatype="&xsd;string">a role which inheres in a person and is realized by the process of being under the care of a physician or health care provider</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+          <skos:definition rdf:datatype="&xsd;string">A role which inheres in a person and is realized by the process of being under the care of a physician or health care provider</skos:definition>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
      
      
@@ -416,7 +416,7 @@
     	  <rdfs:label rdf:datatype="&xsd;string">worker role</rdfs:label>
     	  <rdfs:subClassOf rdf:resource="&obo;OBI_0000202"/><!-- investigation agent role -->
     	  <skos:definition rdf:datatype="&xsd;string">A personnel role played by a party who executes a component of the study plan; this can occur before, during, after or outside the study timeline</skos:definition>
-		  <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>	
      
      
@@ -426,7 +426,7 @@
     	 <rdfs:label rdf:datatype="&xsd;string">health care provider role</rdfs:label>
     	 <rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/><!-- worker role -->
     	 <skos:definition rdf:datatype="&xsd;string">A worker role of providing medical care either within or outside the study timeline</skos:definition>
-		 <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+		 <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>	
       
      
@@ -436,7 +436,7 @@
     	 <rdfs:label rdf:datatype="&xsd;string">pathologist role</rdfs:label>
     	 <rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/>  <!-- worker role -->
     	 <skos:definition rdf:datatype="&xsd;string">A worker role of being responsible for making the histopathology diagnoses associated with data from a study; this activity occurs outside the study timeline</skos:definition>
-		 <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+		 <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -445,8 +445,8 @@
         <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000224">
     		<rdfs:label rdf:datatype="&xsd;string">sub-investigator role</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/><!-- worker role -->
-    		<skos:definition rdf:datatype="&xsd;string">a worker role authorized to make study-related decisions and carry out tasks related to the study; this role occurs during the study timeline</skos:definition>
-			<skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+    		<skos:definition rdf:datatype="&xsd;string">A worker role authorized to make study-related decisions and carry out tasks related to the study; this role occurs during the study timeline</skos:definition>
+			<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
      
      
@@ -455,8 +455,8 @@
      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000234">
     	  <rdfs:label rdf:datatype="&xsd;string">trial statistician role</rdfs:label>
     	  <rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/> <!-- worker role -->
-    	  <skos:definition rdf:datatype="&xsd;string">a worker role that analyzes data obtained during a trial or study; this role occurs after the trial or study is completed or terminated.</skos:definition>
-		  <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+    	  <skos:definition rdf:datatype="&xsd;string">A worker role that analyzes data obtained during a trial or study; this role occurs after the trial or study is completed or terminated.</skos:definition>
+		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -467,7 +467,7 @@
     	  <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
     	  <skos:definition rdf:datatype="&xsd;string">pathogen role is a role which inheres in an organism and realized in the process of disease course in the organism bearing host role caused by the organism bearing pathogen role</skos:definition>
     	  <skos:example rdf:datatype="&xsd;string">Pathogen: An agent of disease. A disease producer. The term pathogen most commonly is used to refer to infectious organisms. These include bacteria (such as staph), viruses (such as HIV), and fungi (such as yeast). Less commonly, pathogen refers to a noninfectious agent of disease such as a chemical.   http://www.medterms.com/script/main/art.asp?articlekey=6383</skos:example>
-		  <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -476,8 +476,8 @@
      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0302733">
            <rdfs:label rdf:datatype="&xsd;string">solute role</rdfs:label>
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
-           <skos:definition rdf:datatype="&xsd;string">solute role is a role played by a chemical entity which is dissolved by another chemical entity (the solvent) when creating a solution</skos:definition>
-		  <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+           <skos:definition rdf:datatype="&xsd;string">Solute role is a role played by a chemical entity which is dissolved by another chemical entity (the solvent) when creating a solution</skos:definition>
+		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -486,8 +486,8 @@
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0302732">
            <rdfs:label rdf:datatype="&xsd;string">solvent role</rdfs:label>
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
-           <skos:definition rdf:datatype="&xsd;string">solvent role is a role which inheres in a molecular entity capable of ensuring the dissolution of another chemical entity and realized by the process of solvation</skos:definition>
-     	   <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+           <skos:definition rdf:datatype="&xsd;string">Solvent role is a role which inheres in a molecular entity capable of ensuring the dissolution of another chemical entity and realized by the process of solvation</skos:definition>
+     	   <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -497,7 +497,7 @@
            <rdfs:label rdf:datatype="&xsd;string">specimen role</rdfs:label>
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
            <skos:definition rdf:datatype="&xsd;string">A role borne by a material entity that is gained during a specimen creation process and that is realized by use of the specimen in an investigation.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
      
      
@@ -507,8 +507,8 @@
            <rdfs:label rdf:datatype="&xsd;string">material sample role</rdfs:label>
            <rdfs:subClassOf rdf:resource="&obo;OBI_0000112"/>
            <skos:definition rdf:datatype="&xsd;string">A material sample role is a specimen role borne by a material entity that is the output of a material sampling process.</skos:definition>
-           <skos:example rdf:datatype="&xsd;string">a role borne by a portion of blood taken to represent all the blood in an organism; the role borne by a population of humans with HIV enrolled in a study taken to represent patients with HIV in general.</skos:example>
-           <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+           <skos:example rdf:datatype="&xsd;string">A role borne by a portion of blood taken to represent all the blood in an organism; the role borne by a population of humans with HIV enrolled in a study taken to represent patients with HIV in general.</skos:example>
+           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -520,7 +520,7 @@
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
            <skos:definition rdf:datatype="&xsd;string">a study population role where the bearer is a population of material entities and the role is realized in the implementation of a study design wherein the entities bearing the study population role are observed or subjected to intervention according to the study design and are biological replicates, i.e. they receive the same treatment under the protocol</skos:definition>
            <skos:example rdf:datatype="&xsd;string">The group of randomized participants that are assigned to a treatment arm of the trial</skos:example>
-           <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -534,7 +534,7 @@
 Parasite example
 people infected, then extract parasite which are then tested = observation study of the parasite
 1 study in which we observe people and 1 study in which subject is parasite is one way to split this.  the true definition will come from the study design specification.</skos:example>
-           <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -545,7 +545,7 @@ people infected, then extract parasite which are then tested = observation study
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
            <skos:definition rdf:datatype="&xsd;string">supernatant role is a role which inheres in a material entity and is realized by a material separation process using gravitational force in which the material bearing the supernatant role is the liquid component of the output material.</skos:definition>
            <skos:example rdf:datatype="&xsd;string">Precipitation is the formation of a solid in a solution during a chemical reaction. When the reaction occurs, the solid formed is called the precipitate, and the liquid remaining above the solid is called the supernate.  Wikipedia</skos:example>
-           <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
    
    
@@ -589,7 +589,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">categorical measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
          <skos:definition rdf:datatype="&xsd;string">A measurement datum that is reported on a categorical scale</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -599,7 +599,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">handedness categorical measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;OBI_0000938"/>
          <skos:definition rdf:datatype="&xsd;string">A datum used to record the answer to a self assessment of whether a person uses their left hand, right hand primarily or each hand equally</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -609,7 +609,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">dose</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
          <skos:definition rdf:datatype="&xsd;string">A measurement datum that measures the quantity of something that may be administered to an organism or that an organism may be exposed to. Quantities of nutrients, drugs, vaccines and toxins are referred to as doses.</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -629,7 +629,7 @@ people infected, then extract parasite which are then tested = observation study
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000987">
          <rdfs:label rdf:datatype="&xsd;string">general scalar measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
-         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     	 <rdfs:comment rdf:datatype="&xsd;string">Need to keep an eye on this one, because it may be removed from OBI.</rdfs:comment>
     </owl:Class>
     
@@ -639,7 +639,7 @@ people infected, then extract parasite which are then tested = observation study
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000970">
          <rdfs:label rdf:datatype="&xsd;string">scalar score from composite inputs</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;OBI_0000987"/>
-         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -648,7 +648,7 @@ people infected, then extract parasite which are then tested = observation study
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000991">
          <rdfs:label rdf:datatype="&xsd;string">Edinburgh score</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;OBI_0000970"/>
-         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -688,7 +688,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">age measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000416"/>
          <skos:definition rdf:datatype="&xsd;string">A time measurement datum that is the result of measurement of age of an organism</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -717,8 +717,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000969">
         <rdfs:label rdf:datatype="&xsd;string">dose specification</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000033"/>
-        <skos:definition rdf:datatype="&xsd;string">a directive information entity that describes the dose that will be administered to a target</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:definition rdf:datatype="&xsd;string">A directive information entity that describes the dose that will be administered to a target</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -738,8 +738,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000441">
         <rdfs:label rdf:datatype="&xsd;string">assay objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/>
-        <skos:definition rdf:datatype="&xsd;string">is the specification of an objective to determine a specified type of information about an evaluated entity (independent continuant bearing evaluant role)</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:definition rdf:datatype="&xsd;string">Assay objective is the specification of an objective to determine a specified type of information about an evaluated entity (independent continuant bearing evaluant role)</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -749,7 +749,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">analyte measurement objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000441"/>
         <skos:definition rdf:datatype="&xsd;string">Analyte measurement objective is an assay objective to determine the presence or concentration of an analyte in the evaluant</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -759,7 +759,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">biological feature identification objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/>
         <skos:definition rdf:datatype="&xsd;string">Biological feature identification objective is an objective role carried out by the proposition defining the aim of a study designed to examine or characterize a particular biological feature.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -769,7 +769,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">organism feature identification objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000015"/> 
         <skos:definition rdf:datatype="&xsd;string">Organism feature identification objective is a biological_feature_identification_objective role describing a study designed to examine or characterize a biological feature monitored at the level of the organism, e.g. height, weight, stage of development, stage of life cycle.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -779,7 +779,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">data transformation objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/>
         <skos:definition rdf:datatype="&xsd;string">A data transformation objective is an objective specification that a data transformation may have towards which the realization of that transformation is directed.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -789,7 +789,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">specimen creation objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/>
         <skos:definition rdf:datatype="&xsd;string">A specimen creation objective is to obtain a material entity for potential use as an input during an investigation</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string"></skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
    
    
@@ -1254,8 +1254,7 @@ people infected, then extract parasite which are then tested = observation study
        <skos:definition rdf:datatype="&xsd;string">A symbol used to distinguish one individual organism from another.</skos:definition>
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
    </owl:Class>
-    
-      
+        
     
 <!-- END OBI-IAO IMPORTS -->    
 <!-- START PATO IMPORTS -->    
@@ -1542,8 +1541,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:subClassOf rdf:resource="&PATO;PATO_0000047"/>   <!-- no def -->
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
-     
-    
+        
      
     <!-- http://purl.org/obo/owl/PATO#PATO_0000383 -->  <!-- female -->
     
@@ -2415,9 +2413,7 @@ people infected, then extract parasite which are then tested = observation study
             <skos:definition rdf:datatype="&xsd;string">An inorganic hydroxy compound that has formula H2O.</skos:definition>
             <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
-       
-      
-      
+     
       
      <!-- http://purl.obolibrary.org/obo/CHEBI_33579 --> <!-- main group molecular entity -->
       
@@ -2643,8 +2639,6 @@ people infected, then extract parasite which are then tested = observation study
             <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
      
-      
-      
       
       <!-- http://purl.obolibrary.org/obo/CHEBI_26628 --> <!-- selenium molecular entity -->
       
@@ -3261,10 +3255,8 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33709"/> <!-- amino acid -->
            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
-      
-     <!--AminoAcidList-->     
-      
-      
+   
+          
       <!-- http://purl.obolibrary.org/obo/CHEBI_16449 -->  <!-- alanine -->
     
        <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16449">   
@@ -3620,8 +3612,7 @@ people infected, then extract parasite which are then tested = observation study
             <skos:definition rdf:datatype="&xsd;string">A compound which contains oxygen, at least one other element, and at least one hydrogen bound to oxygen, and which produces a conjugate base by loss of positive hydrogen ion(s) (hydrons).</skos:definition>
             <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>  
-      
-      
+         
      
       <!-- http://purl.obolibrary.org/obo/CHEBI_33839 --> <!-- macromolecule -->
       
@@ -3794,8 +3785,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A hydroxycalciol that has formula C27H44O3.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
-      
-      
+       
       
    <!-- http://purl.obolibrary.org/obo/CHEBI_35788 -->  <!-- seco-steroid -->
 
@@ -3909,11 +3899,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_30527"/>    
         <skos:definition rdf:datatype="&xsd;string">D-Ribitol in which the hydroxy group at position 5 is substituted by a 7,8-dimethyl-2,4-dioxo-3,4-dihydrobenzo[g]pteridin-10(2H)-yl moiety. It is a nutritional factor found in milk, eggs, malted barley, liver, kidney, heart, and leafy vegetables, but the richest natural source is yeast. The free form occurs only in the retina of the eye, in whey, and in urine; its principal forms in tissues and cells are as flavin mononucleotide and flavin-adenine dinucleotide.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
-      </owl:Class>
-      
-      
-      
-      
+      </owl:Class>      
       
    <!-- http://purl.obolibrary.org/obo/CHEBI_33833 -->  <!-- heteroarene -->
 
@@ -5382,7 +5368,7 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7112823 --> <!-- congenital metabolic disease -->
         
     <owl:Class rdf:about="&ONSTR;ONSTR_7112823">
-        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000035"/>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000035"/> <!-- constitutional genetic diesase -->
         <rdfs:label rdf:datatype="&xsd;string">congenital metabolic disease</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A large class of constitutional genetic diseases, involving the disorders of metabolism that result from inborn genetic mutations of single genes (inherited or acquired in utero) that code for enzymes that facilitate conversion of various substances (substrates) into others (products) and which may be present at birth and lead to disturbances in carbohydrate, lipid, lysosomal storage or amino acid metabolism. These diseases are usually characterized of accumulation of substances which are toxic or interfere with normal function, or the reduced ability to synthesize essential compounds.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">inborn errors of metabolism</skos:altLabel>
@@ -5396,14 +5382,13 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2709221 --> <!--congenital metabolic disorder -->
     
     <owl:Class rdf:about="&ONSTR;ONSTR_2709221">
-        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000045"/>
-        <rdfs:label rdf:datatype="&xsd;string">congenital metabolic disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000045"/> <!-- disorder -->
+        <rdfs:label rdf:datatype="&xsd;string">congenital metabolic disorder</rdfs:label> 
         <skos:altLabel rdf:datatype="&xsd;string">congenital biochemical disorder</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A group of constitutional genetic disorders that are inborn genetic mutations (for particular enzyme) and that result in enzyme absence or disfunction that produces disturbances in metabolic process involving lipids, lysosome storage and amino acids (depending on the enzyme being encoded by mutated gene).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Inborn_Errors_of_Metabolism</rdfs:comment>       
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
 	</owl:Class>
-	
 	
 
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0109406 --> <!-- phenylketonuria -->
@@ -5509,7 +5494,7 @@ people infected, then extract parasite which are then tested = observation study
     
     <owl:Class rdf:about="&ONSTR;ONSTR_7175949">
         <rdfs:label rdf:datatype="&xsd;string">genotype</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000027"/>  <!-- bfo:object aggregate-->
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000027"/>  <!-- BFO2:object aggregate-->
         <skos:definition rdf:datatype="&xsd;string">The complete genetic constitution of an organism at particular locations (loci) in organism's genome, usually regarded with respect to a particular gene of interest. In diploid organisms (such as humans), &quot;genotype&quot; refers to a pair of alleles (of a particular gene) found at identical loci in each of the homologous chromosomes (i.e. maternal and paternal autosomes).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Genotype</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Millodot: Dictionary of Optometry and Visual Science, 7th edition. (2009) Butterworth-Heinemann</rdfs:comment>    
@@ -5681,13 +5666,12 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7003914">
         <rdfs:label rdf:datatype="&xsd;string">oxidoreductase complex</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&GO;GO_0043234"/>
+        <rdfs:subClassOf rdf:resource="&GO;GO_0043234"/>  <!-- protein complex -->
         <skos:definition rdf:datatype="&xsd;string">A protein complex that functions as a catalyst of an oxidation-reduction (redox) reaction, a reversible chemical reaction in which the oxidation state of an atom or atoms within a molecule is altered. One substrate acts as a hydrogen or electron donor and becomes oxidized, while the other acts as hydrogen or electron acceptor and becomes reduced.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.org/obo/owl/GO#GO_0016491</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
- 
- 
+
  
       <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2681014 --> <!-- monoxygenase -->
 
@@ -5698,8 +5682,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.org/obo/owl/GO#GO_0004497</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
- 
-	
+
 
      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2522662 --> <!-- hyperphenylalaninemia finding -->
 
@@ -5712,7 +5695,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1445519 --> <!-- phenylalanine concentration finding -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1445519 --> <!-- phenylalanine concentration finding -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1445519">
         <rdfs:label rdf:datatype="&xsd;string">phenylalanine concentration finding</rdfs:label>
@@ -5721,10 +5704,9 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
+    
 
-
-
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3916451 --> <!-- blood plasma penylalanine concentration measurement datum-->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3916451 --> <!-- blood plasma penylalanine concentration measurement datum-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3916451">
         <rdfs:label rdf:datatype="&xsd;string">blood plasma penylalanine concentration measurement datum</rdfs:label>
@@ -5833,11 +5815,11 @@ people infected, then extract parasite which are then tested = observation study
                                </owl:Class> 	
                             </owl:someValuesFrom>
                     </owl:Restriction>
- 						<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
-                        	<owl:someValuesFrom rdf:resource="&xsd;float"/>
-                    	</owl:Restriction>
- 			      </owl:intersectionOf>
+ 				    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
+                    </owl:Restriction>
+ 			    </owl:intersectionOf>
  			</owl:Class>
  	    </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration mesasurement datum is a concentration measurement datum that is the output of the blood phenylalanine concentration measurement assay that measures the concentration of the amino acid phenylalanine in human blood.</skos:definition>
@@ -5857,8 +5839,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
-
-
+    
 
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1115755 --> <!-- cerebrospinal fluid phenylalanine concentration measurement datum -->
 
@@ -6141,8 +6122,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
-    
-    
+     
     
      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0983341 --> <!-- venous blood specimen -->
 
@@ -6349,7 +6329,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1273733">
         <rdfs:label rdf:datatype="&xsd;string">head size</rdfs:label>
     	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/ -->
-    	
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -7156,14 +7135,14 @@ people infected, then extract parasite which are then tested = observation study
          <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                   <rdf:Description rdf:about="&obo;IAO_0000308"/> 
+                   <rdf:Description rdf:about="&obo;IAO_0000308"/>  <!-- graph -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000136"/>  
+                        <owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
                             <owl:someValuesFrom>
                             	<owl:Class>
                                 	<owl:unionOf rdf:parseType="Collection">
-                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8454231"/>
-                                		<rdf:Description rdf:about="&ONSTR;ONSTR_6184665"/>
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_8454231"/>  <!-- developmental body growth --> 
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_6184665"/>  <!-- developmental head growth -->
                                 	</owl:unionOf> 
                                </owl:Class> 	
                             </owl:someValuesFrom>
@@ -7186,7 +7165,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5540226">
         <rdfs:label rdf:datatype="&xsd;string">CDC growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3614873"/>
-    	<owl:disjointWith rdf:about="&ONSTR;ONSTR_0270384"/>
+    	<owl:disjointWith rdf:about="&ONSTR;ONSTR_0270384"/>  <!-- WHO groeth chart -->
     	<skos:definition rdf:datatype="&xsd;string">CDC growth chart is a developmental growth chart that is based on typical growth patterns of children in the U.S. during a specific period of childern's life time, published by the CDC in May 2000 and designed for use in the United States. The 2000 CDC growth charts are available in two formats, as individual charts (i.e. CDC individual growth chart) and clinical charts (i.e. CDC clinical chart).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: 2000 CDC Growth Charts for the United States: Methods and development, Vital and Health Statistics, Series 11, No 246, Department of Health and Human Services, CDC National Center for Health Statistics, Hyattsville, MD, May 2002, pp 1.</rdfs:comment> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/who_charts.htm</rdfs:comment>       
@@ -7198,12 +7177,12 @@ people infected, then extract parasite which are then tested = observation study
    </owl:Class>
     
     
-      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2397558 -->  <!-- CDC individual growth chart -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2397558 -->  <!-- CDC individual growth chart -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2397558">
         <rdfs:label rdf:datatype="&xsd;string">CDC individual growth chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5540226"/>
-    	<owl:disjointWith rdf:resource="&ONSTR;ONSTR_4888014"/>
+    	<owl:disjointWith rdf:resource="&ONSTR;ONSTR_4888014"/>  <!-- CDC clinical growth chart -->
         <skos:definition rdf:datatype="&xsd;string">CDC individual growth chart is a CDC growth chart that contains sex and age specific smoothed percentile curves for observed pair of phenotypic qualities (e.g. age and body height). Each individual growth chart contains smoothed curves for selected percentiles plotted on a grid that is scaled to international units of measurement (kg, cm) and has secondary scale in British colonial units (lb, in). Individual growth charts are available for infants, birth to 36 months of age and for children and adolescents 2 to 20 years of age, and preschoolers 2 to 5 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm#Summary</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: 2000 CDC Growth Charts for the United States: Methods and development, Vital and Health Statistics, Series 11, Number 246, Department of Health and Human Services, CDC National Center for Health Statistics, Hyattsville, MD, May 2002, pp 1 and 20-34.</rdfs:comment>    
@@ -7243,7 +7222,6 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">WHO international growth chart</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
-     
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2186832 -->  <!-- birth-to-24 months head circumference-for-age weight-for-age WHO growth chart -->
@@ -7903,7 +7881,6 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
      
-    
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8918965 -->  <!-- percentile  -->
 
@@ -7974,7 +7951,7 @@ people infected, then extract parasite which are then tested = observation study
                                             <rdf:Description rdf:about="&ONSTR;ONSTR_8454231"/>  <!-- developmental body growth -->
                                         </owl:unionOf>
                                     </owl:Class>
-     						<!--HERE NEED TO ADD, somehow, that the extent of devel growth proces is directly related to age. -->                  
+     						    <!--HERE NEED TO ADD, that the extent of devel growth proces is directly related to age. -->                  
                                 </owl:intersectionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
@@ -8500,8 +8477,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.nml.nih.gov/medlineplus/ency/article/003480.htm</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-
-
+     
 
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2707948 -->  <!-- ferritin complex  -->
 
@@ -8811,8 +8787,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
-        
-     
+           
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1968249 -->  <!-- kilocalorie per kilogram per day  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1968249">
@@ -8829,7 +8804,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
     
      
-        <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1282628-->  <!-- vitamin specific measurement unit -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1282628-->  <!-- vitamin specific measurement unit -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1282628">
         <rdfs:label rdf:datatype="&xsd;string">vitamin specific measurement unit</rdfs:label>
@@ -9049,7 +9024,6 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-     
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7845326 -->  <!-- retinol activity equivalent per kilogram per day  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7845326">
@@ -9151,8 +9125,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">cells/&#x3BC;L</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-   
-     
+      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5194720  -->  <!-- international unit  -->
 
@@ -9235,6 +9208,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">FO</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>      
+  
         
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6486199-->  <!-- food item measurement unit -->
 
@@ -9393,9 +9367,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>  
      
     
-     <!-- MERE OVDE -->
-    
-     
+     <!-- MERE OVDE -->  
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8199564 -->  <!-- average daily dietary nutrient intake during observed time interval datum  -->
 
@@ -9417,6 +9389,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
      
      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0323207 -->  <!-- average daily total dietary water intake during observed time interval  -->
 
@@ -9600,7 +9573,6 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        
         <skos:definition rdf:datatype="&xsd;string">Average daily total dietary carbohydrate intake over observed time interval datum is an average daily dietary macronutrient intake during observed time interval denoting the average intake of dietary carbohydrates contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -9654,7 +9626,8 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
-          <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7773980 -->  <!-- average daily total dietary fiber intake during observed time interval  -->
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7773980 -->  <!-- average daily total dietary fiber intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7773980">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary fiber intake during observed time interval</rdfs:label>
@@ -9678,7 +9651,7 @@ people infected, then extract parasite which are then tested = observation study
                         </owl:someValuesFrom>
                       </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measurement unit label-->                            
                    	    <owl:someValuesFrom>
                             	<owl:Class>
                                 	<owl:unionOf rdf:parseType="Collection">
@@ -9711,13 +9684,13 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_0870721"/>
                      <owl:Restriction>
-                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
                       	<owl:someValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_16113"/> <!-- cholestertol -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -9733,10 +9706,10 @@ people infected, then extract parasite which are then tested = observation study
                                 		<rdf:Description rdf:about="&ONSTR;ONSTR_8176500"/>  <!-- miligram per day -->
                                 	</owl:unionOf> 
                                </owl:Class> 	
-                            </owl:someValuesFrom>
+                       </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!-- has measur value -->
                         <owl:someValuesFrom rdf:resource="&xsd;float"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -9769,7 +9742,7 @@ people infected, then extract parasite which are then tested = observation study
                    						</owl:intersectionOf>
                    					</owl:Class>
                    					 <owl:Restriction>
-                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction> 
                               </owl:intersectionOf>
@@ -10213,7 +10186,7 @@ people infected, then extract parasite which are then tested = observation study
                    						</owl:intersectionOf>
                    					</owl:Class>
                    					 <owl:Restriction>
-                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction> 
                               </owl:intersectionOf>
@@ -10273,7 +10246,7 @@ people infected, then extract parasite which are then tested = observation study
                         </owl:someValuesFrom>
                       </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measur unit label -->                            
                    	    <owl:someValuesFrom>
                             	<owl:Class>
                                 	<owl:unionOf rdf:parseType="Collection">
@@ -10320,7 +10293,7 @@ people infected, then extract parasite which are then tested = observation study
                    						</owl:intersectionOf>
                    					</owl:Class>
                    					 <owl:Restriction>
-                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction> 
                               </owl:intersectionOf>
@@ -10371,7 +10344,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_27470"/> <!-- folic acid -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -10431,7 +10404,7 @@ people infected, then extract parasite which are then tested = observation study
                    						</owl:intersectionOf>
                    					</owl:Class>
                    					 <owl:Restriction>
-                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction> 
                               </owl:intersectionOf>
@@ -10482,7 +10455,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_29073"/> <!-- L-ascorbic acid -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -10535,7 +10508,7 @@ people infected, then extract parasite which are then tested = observation study
                    						</owl:intersectionOf>
                    					</owl:Class>
                    					 <owl:Restriction>
-                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction> 
                               </owl:intersectionOf>
@@ -10586,7 +10559,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_28384"/> <!-- vitamin K -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -10634,7 +10607,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_26948"/> <!-- thiamine -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -10686,7 +10659,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_17015"/> <!-- riboflavin = B2 -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -10743,7 +10716,7 @@ people infected, then extract parasite which are then tested = observation study
                    						</owl:intersectionOf>
                    					</owl:Class>
                    					 <owl:Restriction>
-                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction> 
                               </owl:intersectionOf>
@@ -10796,7 +10769,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_15354"/> <!-- choline -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -10844,7 +10817,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_7916"/> <!-- pantothenic acid = vitam B5 -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			    </owl:Restriction>
                                 </owl:intersectionOf>
@@ -10896,7 +10869,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_15956"/> <!-- biotin -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -10946,7 +10919,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_23044"/> <!-- carotenoid -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -11008,7 +10981,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_22985"/> <!-- calcium mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -11106,7 +11079,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_27364"/> <!-- zinc mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			     </owl:Restriction>
                                 </owl:intersectionOf>
@@ -11153,7 +11126,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_22632"/> <!-- arsenic mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -11202,7 +11175,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_22916"/> <!-- boron mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			    </owl:Restriction>
                                 </owl:intersectionOf>
@@ -11251,7 +11224,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_23237"/> <!-- chromium molleculare ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction>
                                 </owl:intersectionOf>
@@ -11301,7 +11274,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_23377"/> <!-- copper mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			     </owl:Restriction>
                                 </owl:intersectionOf>
@@ -11350,7 +11323,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_23117"/> <!-- chlirine mollecular entity -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -11398,7 +11371,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_24062"/> <!-- fluorine mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -11446,7 +11419,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_24860"/> <!-- iodine mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			    </owl:Restriction>
                                 </owl:intersectionOf>
@@ -11546,7 +11519,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_25154"/> <!-- manganese mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			     </owl:Restriction>
                                 </owl:intersectionOf>
@@ -11596,7 +11569,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_25370"/> <!-- molybdenum mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			     </owl:Restriction>
                                 </owl:intersectionOf>
@@ -11646,7 +11619,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_33748"/> <!-- nickel mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			     </owl:Restriction>
                                 </owl:intersectionOf>
@@ -11696,7 +11669,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_26082"/> <!-- phosphorus molecular entity -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -11746,7 +11719,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_26217"/> <!-- potassium mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -11797,7 +11770,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_26628"/> <!-- selenium mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -11847,7 +11820,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_26677"/> <!-- silicon mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -11897,7 +11870,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_26835"/> <!-- sulfur mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			    </owl:Restriction>
                                 </owl:intersectionOf>
@@ -11946,7 +11919,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_26712"/> <!-- sodium mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -11997,7 +11970,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_27275"/> <!-- vanadium mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			     </owl:Restriction>
                                 </owl:intersectionOf>
@@ -12083,9 +12056,9 @@ people infected, then extract parasite which are then tested = observation study
 	    <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;BFO_0000027"/>  <!-- bfo:object aggregate -->
+                    <rdf:Description rdf:about="&obo;BFO_0000027"/>  <!-- BFO2:object aggregate -->
                     <owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;BFO_0000111"/>  <!-- has proper continuant part at all times-->
+                        	<owl:onProperty rdf:resource="&obo;BFO_0000111"/>  <!-- BFO2:has proper continuant part at all times-->
                         	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1286193"/>  <!-- food item -->
                     	</owl:Restriction>
 				</owl:intersectionOf>
@@ -12184,7 +12157,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_15377"/> <!-- water -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -12232,7 +12205,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&PRO;PR_000000001"/> <!-- protein -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -12280,7 +12253,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_18059"/> <!-- lipid -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -12327,7 +12300,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_16646"/> <!-- carbohydrate -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -12374,7 +12347,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&ONSTR;ONSTR_3258876"/> <!-- dietary fiber -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -12426,7 +12399,7 @@ people infected, then extract parasite which are then tested = observation study
                    						</owl:intersectionOf>
                    					</owl:Class>
                    					 <owl:Restriction>
-                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction> 
                               </owl:intersectionOf>
@@ -12540,7 +12513,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_16113"/> <!-- cholestertol -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -12587,7 +12560,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_33704"/> <!-- alpha-amino acid -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -12902,7 +12875,7 @@ people infected, then extract parasite which are then tested = observation study
                    						</owl:intersectionOf>
                    					</owl:Class>
                    					 <owl:Restriction>
-                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction> 
                               </owl:intersectionOf>
@@ -12952,7 +12925,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_27306"/> <!-- vitam B6 = pyridoxine et al -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13005,7 +12978,7 @@ people infected, then extract parasite which are then tested = observation study
                    						</owl:intersectionOf>
                    					</owl:Class>
                    					 <owl:Restriction>
-                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction> 
                               </owl:intersectionOf>
@@ -13053,7 +13026,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_27470"/> <!-- folic acid -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13107,7 +13080,7 @@ people infected, then extract parasite which are then tested = observation study
                    						</owl:intersectionOf>
                    					</owl:Class>
                    					 <owl:Restriction>
-                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction> 
                               </owl:intersectionOf>
@@ -13155,7 +13128,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_29073"/> <!-- L-ascorbic acid = Vitam C -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13208,7 +13181,7 @@ people infected, then extract parasite which are then tested = observation study
                    						</owl:intersectionOf>
                    					</owl:Class>
                    					 <owl:Restriction>
-                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction> 
                               </owl:intersectionOf>
@@ -13259,7 +13232,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_28384"/> <!-- vitamin K -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13307,7 +13280,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_26948"/> <!-- thiamine -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13355,7 +13328,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_17015"/> <!-- riboflavin -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     		        </owl:Restriction>
                                 </owl:intersectionOf>
@@ -13408,7 +13381,7 @@ people infected, then extract parasite which are then tested = observation study
                    						</owl:intersectionOf>
                    					</owl:Class>
                    					 <owl:Restriction>
-                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction> 
                               </owl:intersectionOf>
@@ -13457,7 +13430,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_15354"/> <!-- choline -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13505,7 +13478,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_7916"/> <!-- pantotehnic acid = vitam B5 -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13553,7 +13526,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_15956"/> <!-- biotin -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13601,7 +13574,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_23044"/> <!-- carotenoid -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13663,7 +13636,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_22985"/> <!-- calcium mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13710,7 +13683,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_24873"/> <!-- iron mollecullar ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13757,7 +13730,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_27364"/> <!-- zinc mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13804,7 +13777,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_22632"/> <!-- arsenic mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13851,7 +13824,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_22916"/> <!-- boron mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13898,7 +13871,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_23237"/> <!-- chromium mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			    </owl:Restriction>
                                 </owl:intersectionOf>
@@ -13945,7 +13918,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_23377"/> <!-- copper mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction>
                                 </owl:intersectionOf>
@@ -13992,7 +13965,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_23117"/> <!-- chlorine mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -14039,7 +14012,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_24062"/> <!-- fluorine mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -14086,7 +14059,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_24860"/> <!-- iodine mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			    </owl:Restriction>
                                 </owl:intersectionOf>
@@ -14133,7 +14106,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_25108"/> <!-- magnesium mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -14180,7 +14153,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_25154"/> <!-- manganese mollecula ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction>
                                 </owl:intersectionOf>
@@ -14227,7 +14200,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_25370"/> <!-- molybdenum molleculare ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction>
                                 </owl:intersectionOf>
@@ -14274,7 +14247,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_33748"/> <!-- nickel mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			     </owl:Restriction>
                                 </owl:intersectionOf>
@@ -14321,7 +14294,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_26082"/> <!-- phosporus mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -14368,7 +14341,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_26217"/> <!-- potassium mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -14415,7 +14388,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_26628"/> <!-- selenium mollecular entity -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			    </owl:Restriction>
                                 </owl:intersectionOf>
@@ -14462,7 +14435,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_26677"/> <!-- silicon mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -14509,7 +14482,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_26835"/> <!-- sulur mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     			    </owl:Restriction>
                                 </owl:intersectionOf>
@@ -14556,7 +14529,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_26712"/> <!-- sodium mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -14603,7 +14576,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_27275"/> <!-- vanadium mollecular ent -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -14644,7 +14617,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000032"/>  <!--scalar measur datum-->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/> <!--is specif output od-->
+                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/> <!--is specif output of-->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6867187"/> <!--dietary intake analysis--> 
                     </owl:Restriction>  
                 </owl:intersectionOf>
@@ -19597,7 +19570,6 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-    
      
     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5815166 -->  <!-- dietary supplement  -->
@@ -19645,7 +19617,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">elemental formula</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3617918"/>
         <skos:definition rdf:datatype="&xsd;string">Elemental formula is a nutritional formula that contains individual amino acids, glucose polymers, and have low fat content (with only about 2% to 3% of calories derived from long chain triglycerides).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Makola, D., (2005) Elemental and Semi-Elemental Formulas: Are They Superior to Polymeric Formulas?  In Practical Gastroenterology, December 2005.</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Makola, D. (2005) Elemental and Semi-Elemental Formulas: Are They Superior to Polymeric Formulas?  In Practical Gastroenterology, December 2005.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">elemental monomeric formula</skos:altLabel>
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -19656,8 +19628,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4929872">
         <rdfs:label rdf:datatype="&xsd;string">hydrolyzed formula</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3617918"/>  
-        <skos:definition rdf:datatype="&xsd;string">Hydrolyzed formula is a nutritional formula that contains hydrolyzed proteins and ....XXXXXX</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source:  ADD!!!!</rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Hydrolyzed formula is a nutritional formula that contains hydrolyzed proteins and ....ADD TEXT!!</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source:  ADD TEXT!!</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
           
@@ -19808,11 +19780,11 @@ people infected, then extract parasite which are then tested = observation study
              <owl:intersectionOf rdf:parseType="Collection">
                  <rdf:Description rdf:about="&ONSTR;ONSTR_7534799"/>    
                      <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/>    <!-- has proper continuant part at all times -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/>    <!-- BFO2:has proper continuant part at all times -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_8369223"/> <!-- parenteral amino acid solution --> 
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/>    <!-- has proper continuant part at all times -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/>    <!-- BFO2:has proper continuant part at all times -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1328060"/> <!-- parenteral dextrose solution --> 
                     </owl:Restriction>
 		      </owl:intersectionOf>
@@ -19837,15 +19809,15 @@ people infected, then extract parasite which are then tested = observation study
              <owl:intersectionOf rdf:parseType="Collection">
                  <rdf:Description rdf:about="&ONSTR;ONSTR_7534799"/>    
                      <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/>    <!-- has proper continuant part at all times -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/>    <!-- BFO2:has proper continuant part at all times -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_8369223"/> <!-- parenteral amino acid solution --> 
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/>    <!-- has proper continuant part at all times -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/>    <!-- BFO2:has proper continuant part at all times -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1328060"/> <!-- parenteral dextrose solution --> 
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/>    <!-- has proper continuant part at all times -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/>    <!-- BFO2:has proper continuant part at all times -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1884454"/> <!-- parenteral lipid solution --> 
                     </owl:Restriction>
              </owl:intersectionOf>
@@ -19907,9 +19879,6 @@ people infected, then extract parasite which are then tested = observation study
                     					<rdf:Description rdf:about="&ONSTR;ONSTR_5692828"/>  <!--nutritional item-->
                     						<owl:Class>
                     							<owl:complementOf rdf:resource="&ONSTR;ONSTR_7534799"/> <!--parenteral nutri solution-->
-                    						<!-- HERE-most likely NEED TO ADD!! 
-                    				        <owl:restriction....  -realizes "&obo;BFO_0000087" 
-		           							some nutritional item role=TO MAKE !!! -->
                     						</owl:Class>
                     				</owl:intersectionOf>
                     			</owl:Class>
@@ -19969,8 +19938,6 @@ people infected, then extract parasite which are then tested = observation study
                         <owl:onProperty rdf:resource="&obo;BFO_0000167"/>  <!-- BFO2:has participant at all times -->
 						<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7534799"/> <!--parenteral nutri solution-->
 		           </owl:Restriction>
-		           <!-- HERE NEED TO ADD: -realizes "&obo;BFO_0000087" 
-		           							some nutritional item role=TO MAKE !!! -->
 		       </owl:intersectionOf>
 		   </owl:Class>
 		</owl:equivalentClass>
@@ -20104,11 +20071,11 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000027"/> <!-- data item -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/> <!-- has proper continuant part at all times -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/> <!-- BFO2:has proper continuant part at all times -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_4852474"/> <!-- nutritional item name -->
                     </owl:Restriction>
                      <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/> <!-- has proper continuant part at all times -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/> <!-- BFO2:has proper continuant part at all times -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1431266"/> <!-- nutritional item quantity datum -->
                     </owl:Restriction> 
                 </owl:intersectionOf>
@@ -20311,7 +20278,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000590"/>  <!-- written name - THIS MAY CHANGE!!! -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000219"/> <!--denotes-->
+                        <owl:onProperty rdf:resource="&obo;IAO_0000219"/> <!-- denotes -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5692828"/> <!-- nutritional item --> 
                     </owl:Restriction>
                     <owl:Restriction>
@@ -20433,13 +20400,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
-     
-    
-<!-- Klase Ovde -->
-
-
-
-
+<!-- Classes Here -->
 
 	<!--  				     -->
 	<!--  OBJECT PROPERTIES	 -->
@@ -20449,8 +20410,6 @@ people infected, then extract parasite which are then tested = observation study
     <!--  IMPORTED OBJECT PROPERTIES -->    
  
  <!-- OBO_REL-RO-OBI  -->
- 
-
   
       <!-- http://purl.obolibrary.org/obo/OBI_0000293 --> <!-- has_specified_input -->
 
@@ -20479,7 +20438,7 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://purl.obolibrary.org/obo/OBI_0000312 -->  <!-- is_specified_output_of -->
 
     <owl:ObjectProperty rdf:about="&obo;OBI_0000312">
-         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000056"/>  <!--was &ro;participates_in -->
+         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000056"/>  <!--BFO2:participates in at some time -->
         <rdfs:label rdf:datatype="&xsd;string">is_specified_output_of</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</skos:definition>
         <rdfs:range rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
@@ -20490,7 +20449,7 @@ people infected, then extract parasite which are then tested = observation study
   <!-- http://purl.obolibrary.org/obo/OBI_0000299 -->  <!-- has_specified_output -->
 
     <owl:ObjectProperty rdf:about="&obo;OBI_0000299">
-        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000057"/>  <!-- was &ro;has_participant -->
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000057"/>  <!-- BFO2:has participant at some time -->
         <rdfs:label rdf:datatype="&xsd;string">has_specified_output</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process. The presence of the continuant at the end of the process is explicitly specified in the objective specification which the process realizes the concretization of.</skos:definition>
     	<rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
@@ -20520,6 +20479,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:domain rdf:resource="&obo;IAO_0000030"/> <!-- info content entity -->
     </owl:ObjectProperty>
     
+    
    <!-- http://purl.obolibrary.org/obo/IAO_0000219 -->  <!-- denotes -->
 
     <owl:ObjectProperty rdf:about="&obo;IAO_0000219">
@@ -20529,12 +20489,9 @@ people infected, then extract parasite which are then tested = observation study
         <skos:example rdf:datatype="&xsd;string">A person&apos;s name denotes the person. A variable name in a computer program denotes some piece of memory. Lexically equivalent strings can denote different things, for instance &quot;Alan&quot; can denote different people. In each case of use, there is a case of the denotation relation obtaining, between &quot;Alan&quot; and the person that is being named.</skos:example>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:ObjectProperty>
+      
     
-    
-    
-    
-    
-        <!-- http://purl.obolibrary.org/obo/IAO_0000221 -->  <!-- is quality measurement of -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000221 -->  <!-- is quality measurement of -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000221">
         <rdfs:subPropertyOf rdf:resource="&obo;IAO_0000136"/>
@@ -20572,7 +20529,7 @@ unit of measure is inches
 We have had a long discussion about denotes versus describes.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
         <rdfs:domain rdf:resource="&obo;IAO_0000109"/>  <!-- measurement datum -->
-        <rdfs:range rdf:resource="&obo;BFO_0000019"/>  <!-- bfo:quality -->
+        <rdfs:range rdf:resource="&obo;BFO_0000019"/>  <!-- BFO2:quality -->
     </owl:ObjectProperty>
        
     
@@ -20631,11 +20588,8 @@ We have had a long discussion about denotes versus describes.</skos:definition>
     
     
 <!-- Rels Ovde -->
-   
-   
-    
-    <!--  DATATYPE PROPERTIES -->
-    
+      
+    <!--  DATATYPE PROPERTIES -->   
     
     <!-- http://purl.obolibrary.org/obo/IAO_0000004 -->   <!-- has measurement value  -->
 
@@ -20682,14 +20636,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">has literal value</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
         <rdfs:domain rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
-        <rdfs:range>
-        	<rdfs:Datatype>
-            	<owl:unionOf  rdf:parseType="Collection">
-                	<rdf:Description rdf:about="&xsd;string"/>
-                    <rdf:Description rdf:about="&xsd;string"/>
-                </owl:unionOf> 
-           </rdfs:Datatype> 	
-       </rdfs:range>
+        <rdfs:range rdf:resource="&xsd;string"/>
      </owl:DatatypeProperty>
      
      
@@ -20706,7 +20653,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <rdfs:range rdf:resource="&xsd;date"/>
      </owl:DatatypeProperty>   
  
-  
+ 
    
      <!--  	ONSTR OBJECT PROPERTIES	 -->
      
@@ -20732,82 +20679,20 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 
 
 <!-- END ALL OBJECT PROPERTIES -->
-
-
-<!-- ************************************************************************ -->
-<!-- ************************************************************************ -->
-<!-- ************************************************************************ -->
-
-<!-- TEST 1-2 -->
-
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_fattyTest1-linolen-grams -->  <!-- fattyTest1-linolen-grams  -->
-
-    <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_fattyTest1-linolen-grams">
-        <rdf:type rdf:resource="&ONSTR;ONSTR_7192524"/>  <!-- aver daily linolenic acid intake -->
-        <rdfs:label rdf:datatype="&xsd;string">fattyTest1-linolen-grams</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&xsd;float">32.5</obo:IAO_0000004>  <!-- has measur value -->
-        <obo:IAO_0000039 rdf:resource="&ONSTR;ONSTR_5104929"/> <!-- gram per day -->
-   </owl:NamedIndividual>      
-        
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_fattyTest2-arachid-micrograms -->  <!-- fattyTest2-arachid-micrograms  -->
-        
-   <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_fattyTest2-arachid-micrograms">
-        <rdf:type rdf:resource="&ONSTR;ONSTR_7733244"/>  <!-- aver daily arachidonic acid intake -->
-        <rdfs:label rdf:datatype="&xsd;string">fattyTest2-arachid-micrograms</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&xsd;float">125.38</obo:IAO_0000004>  <!-- has measur value -->
-        <obo:IAO_0000039 rdf:resource="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
-   </owl:NamedIndividual>
-
-<!-- Amino test -->
-
-
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_aminoTest1-Val-grams -->  <!-- aminoTest1-Val-grams  -->
-
-    <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_aminoTest1-Val-grams">
-        <rdf:type rdf:resource="&ONSTR;ONSTR_6254359"/>  <!-- aver daily valine intake -->
-        <rdfs:label rdf:datatype="&xsd;string">aminoTest1-Val-grams</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&xsd;float">25.8</obo:IAO_0000004>  <!-- has measur value -->
-        <obo:IAO_0000136 rdf:resource="&ONSTR;ONSTR_5104929"/> <!-- gram per day -->
-   </owl:NamedIndividual> 
-
-
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_aminoTest2-Ala-miligrams -->  <!-- aminoTest2-Ala-miligrams  -->
-
-    <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_aminoTest2-Ala-miligrams">
-        <rdf:type rdf:resource="&ONSTR;ONSTR_8527984"/>  <!-- aver daily alanine intake -->
-        <rdfs:label rdf:datatype="&xsd;string">aminoTest2-Ala-miligrams</rdfs:label>
-        <obo:IAO_0000004 rdf:datatype="&xsd;float">350.00</obo:IAO_0000004>  <!-- has measur value -->
-        <obo:IAO_0000136 rdf:resource="&ONSTR;ONSTR_8176500"/> <!-- miligram per day -->
-   </owl:NamedIndividual>
-   
-  
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_aminoTest3-Tyr-micrograms -->  <!-- aminoTest3-Tyr-micrograms  -->
-
-    <owl:NamedIndividual rdf:about="&ONSTR;ONSTR_aminoTest3-Tyr-micrograms">
-        <rdf:type rdf:resource="&ONSTR;ONSTR_9462546"/>  <!-- aver daily tyrosine intake -->
-        <rdfs:label rdf:datatype="&xsd;string">aminoTest3-Tyr-micrograms</rdfs:label> 
-        <obo:IAO_0000004 rdf:datatype="&xsd;float">250.00</obo:IAO_0000004>  <!-- has measur value -->
-        <obo:IAO_0000136 rdf:resource="&ONSTR;ONSTR_2553805"/> <!-- microgram per day -->
-   </owl:NamedIndividual>
-
-
-<!-- END TEST 1-2 -->
-
-<!-- ************************************************************************ -->
-<!-- ************************************************************************ -->
-<!-- ************************************************************************ -->
-
-
-
-<!-- END -->
-
+<!-- END ALL -->
+    
     
 </rdf:RDF>
 
 
 
+
+
+
+
+
 <!-- This file was created and maintained manually by Snezana Nikolic and ONSTR curators.
-Blessings and much love/light to All !!! -->
+Blessings and much love/light to all !!! -->
 
 
 
