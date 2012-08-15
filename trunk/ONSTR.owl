@@ -1225,6 +1225,36 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+   <!-- http://purl.obolibrary.org/obo/OBI_0000094 -->  <!-- material processing  -->
+
+    <owl:Class rdf:about="&obo;OBI_0000094">
+       <rdfs:label rdf:datatype="&xsd;string">material processing</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+       <skos:definition rdf:datatype="&xsd;string">A planned process which results in physical changes in a specified input material.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+     </owl:Class>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/OBI_0600014 -->  <!-- material component separation  -->
+
+    <owl:Class rdf:about="&obo;OBI_0600014">
+       <rdfs:label rdf:datatype="&xsd;string">material component separation</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0000094"/>
+       <skos:definition rdf:datatype="&xsd;string">A material processing in which components of an input material become segregated in space.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+     </owl:Class>
+     
+   
+  <!-- http://purl.obolibrary.org/obo/OBI_0600046 -->  <!-- preparative chromatography  -->
+
+    <owl:Class rdf:about="&obo;OBI_0600046">
+       <rdfs:label rdf:datatype="&xsd;string">preparative chromatography</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0600014"/>  
+       <skos:definition rdf:datatype="&xsd;string">The use of a biomaterial&#39;s preferential affinity for either the mobile phase or the stationary phase to separate it from other materials of differing affinity.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+     </owl:Class>
+     
+       
      <!-- http://purl.obolibrary.org/obo/IAO_0000422 -->  <!-- postal address -->
 
     <owl:Class rdf:about="&obo;IAO_0000422">
@@ -1254,9 +1284,48 @@ people infected, then extract parasite which are then tested = observation study
        <skos:definition rdf:datatype="&xsd;string">A symbol used to distinguish one individual organism from another.</skos:definition>
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
    </owl:Class>
-        
+            
     
-<!-- END OBI-IAO IMPORTS -->    
+<!-- END OBI-IAO IMPORTS --> 
+<!-- START ERO IMPORTS -->
+
+   <!-- http://purl.obolibrary.org/obo/ERO_0001500 -->  <!-- liquid chromatography  -->
+
+    <owl:Class rdf:about="&obo;ERO_0001500">
+       <rdfs:label rdf:datatype="&xsd;string">liquid chromatography</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0600046"/>  <!-- preparative chromatography -->
+	   <skos:definition rdf:datatype="&xsd;string">A chromatography technique in which the mobile phase is a liquid and is carried out either in a column or a plane for the purpose of separating mixtures.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+   </owl:Class>
+   
+   
+   <!-- http://purl.obolibrary.org/obo/ERO_0000185 -->  <!-- high performance liquid chromatography  -->
+
+    <owl:Class rdf:about="&obo;ERO_0000185">
+       <rdfs:label rdf:datatype="&xsd;string">high performance liquid chromatography</rdfs:label> 
+   	   <rdfs:subClassOf rdf:resource="&obo;ERO_0001500"/>  <!-- liquid chromatography  -->
+   	   <skos:definition rdf:datatype="&xsd;string">A liquid chromatography technique that can separate a mixture of compounds and is used in biochemistry and analytical chemistry to identify, quantify and purify the individual components of the mixture.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+   </owl:Class>
+   
+  
+     <!-- http://purl.obolibrary.org/obo/ERO_0001329 -->  <!-- liquid chromatography-mass spectrometry  -->
+
+    <owl:Class rdf:about="&obo;ERO_0001329">
+       <rdfs:label rdf:datatype="&xsd;string">liquid chromatography-mass spectrometry</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0000470"/> <!-- mass spectrometry assay -->
+       <skos:definition rdf:datatype="&xsd;string">A mass spectrometry technique that combines the physical separation capabilities of liquid chromatography (or HPLC) with the mass analysis capabilities of mass spectrometry. Generally its application is oriented towards the specific detection and potential identification of chemicals in the presence of other chemicals (in a complex mixture).</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+   </owl:Class>
+   
+   
+
+
+
+<!-- END ERO IMPORTS -->   
 <!-- START PATO IMPORTS -->    
     
     
@@ -20255,9 +20324,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
-     
-    
-    
+  
       
     
 <!-- New Classes Here -->
