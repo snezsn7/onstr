@@ -1321,9 +1321,6 @@ people infected, then extract parasite which are then tested = observation study
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
    </owl:Class>
    
-   
-
-
 
 <!-- END ERO IMPORTS -->   
 <!-- START PATO IMPORTS -->    
@@ -5786,7 +5783,20 @@ people infected, then extract parasite which are then tested = observation study
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
-                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0114258"/> <!-- blood Phe concentration measur assay --> 
+                        	<owl:someValuesFrom>
+                        		<owl:Class>
+                        			<owl:intersectionOf rdf:parseType="Collection">
+                        				<owl:Class>
+                        					<owl:unionOf rdf:parseType="Collection">
+                        						<rdf:Description rdf:about="&ONSTR;ONSTR_5413434"/>  <!-- bacterial inhibition assay -->
+                    							<rdf:Description rdf:about="&obo;OBI_0200198"/> <!-- tandem mass spectrometry -->
+                    							<rdf:Description rdf:about="&obo;ERO_0000185"/> <!-- high perform liquid chromatogarphy, THIS MAY CHANGE into OBI's class!!! -->
+                    							<rdf:Description rdf:about="&obo;ERO_0001329"/>  <!-- liquid chromatography-mass spectrometry, THIS MAY CHANGE into OBI's class!!! -->
+                    						</owl:unionOf>
+                    					</owl:Class>
+                    				</owl:intersectionOf>	
+                    			</owl:Class>
+                    		</owl:someValuesFrom>
                     	</owl:Restriction>
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
@@ -5795,14 +5805,26 @@ people infected, then extract parasite which are then tested = observation study
                                 		<owl:intersectionOf rdf:parseType="Collection">
                                         	<rdf:Description rdf:about="&obo;CHEBI_28044"/> <!-- phenylalanine  -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000159"/> <!-- BFO2:has quality at all times -->
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- BFO2:has quality at some time -->
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
                                                     				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
                                         	                        <owl:Restriction>
                                                         				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
-                                                        			    <owl:someValuesFrom rdf:resource="&obo;OBI_0000655"/> <!-- blood specimen -->
+                                                        			    <owl:someValuesFrom>
+                                                        			    	<owl:Class>
+                                                        			    		<owl:intersectionOf rdf:parseType="Collection">
+                                                        			    			<owl:Class>
+                                                        			    				<owl:unionOf rdf:parseType="Collection">
+                                                        			    					<rdf:Description rdf:about="&obo;OBI_0000655"/> <!-- blood specimen --> 	
+                                                        			    					<rdf:Description rdf:about="&obo;OBI_0100016"/> <!-- blood plasma specimen -->
+                                                        			    					<rdf:Description rdf:about="&ONSTR;ONSTR_2055480"/>  <!-- dried blood spot eluate -->
+                                                        			    	    		</owl:unionOf>
+                                                        			    	    	</owl:Class>
+                                                        			    	    </owl:intersectionOf>
+                                                        			     	</owl:Class>
+                                                        			     </owl:someValuesFrom>
                                         	                        </owl:Restriction>
 																 </owl:intersectionOf>
 															</owl:Class>
@@ -5857,7 +5879,7 @@ people infected, then extract parasite which are then tested = observation study
                                 		<owl:intersectionOf rdf:parseType="Collection">
                                         	<rdf:Description rdf:about="&obo;CHEBI_28044"/> <!-- phenylalanine  -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000159"/> <!-- BFO2:has quality at all times-->
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- BFO2:has quality at some time-->
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
@@ -8213,7 +8235,7 @@ people infected, then extract parasite which are then tested = observation study
                                 		<owl:intersectionOf rdf:parseType="Collection">
                                         	<rdf:Description rdf:about="&ONSTR;ONSTR_2707948"/> <!-- ferritin complex  -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000159"/> <!-- BFO2:quality at all times-->
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- BFO2:quality at some time-->
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
@@ -8271,7 +8293,7 @@ people infected, then extract parasite which are then tested = observation study
                                 		<owl:intersectionOf rdf:parseType="Collection">
                                         	<rdf:Description rdf:about="&ONSTR;ONSTR_5107576"/> <!-- transthyretin complex = pre-albumin -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000159"/> <!-- BFO2:has quality at all times -->
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- BFO2:has quality at some time -->
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
@@ -8330,7 +8352,7 @@ people infected, then extract parasite which are then tested = observation study
                                 		<owl:intersectionOf rdf:parseType="Collection">
                                         	<rdf:Description rdf:about="&PRO;PR_000003918"/> <!-- albumin  -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000159"/> <!-- BFO2:has quality at all times -->
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- BFO2:has quality at some time -->
                                         				<owl:someValuesFrom>
                                             				<owl:Class>
                                                 				<owl:intersectionOf rdf:parseType="Collection">
@@ -19543,7 +19565,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0573506">
         <rdfs:label rdf:datatype="&xsd;string">modified low protein food</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1286193"/> 
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3208726"/> 
         <skos:definition rdf:datatype="&xsd;string">Modified low protein food is a food item that is a food product specially formulated to have less than 1g of protein per serving, and is intended to be used under the direction of a physician for the dietary treatment of an inherited metabolic disease, but does not include a natural food that is naturally low in protein.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: An Act concerning coverage for foods and food products for inherited metabolic diseases and supplementing P.L.1938, c.366 (C.17:48-1 et seq.), P.L.1940, c.74 (C.17:48A-1 et seq.), P.L.1985, c.236 (C.17:48E-1 et seq.), chapter 26 of Title 17B of the New Jersey Statutes, chapter 27 of Title 17B of the New Jersey Statutes, P.L.1992, c.161 (C.17B:27A-2 et seq.), P.L.1992, c.162 (C.17B:27A-17 et seq.),P.L.1973, c.337 (C.26:2J-1 et seq.) and P.L.1961, c.49 (C.52:14-17.25 et seq.). section C.17:48A-7q C.17:48A-7q &quot;Coverage for treatment of inherited metabolic diseases by medical service corporation&quot;, retrievable at:  http://www.njleg.state.nj.us/9697/bills/pl97/338_.htm</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">low protein modified food product</skos:altLabel>
@@ -20295,7 +20317,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5413434">
         <rdfs:label rdf:datatype="&xsd;string">bacterial inhibition assay</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>  <!-- assay -->
+        <!-- rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/ -->  <!-- assay -->
+        <owl:equivalentClass>  
+          <owl:Class>  
+             <owl:intersectionOf rdf:parseType="Collection">
+                 <rdf:Description rdf:about="&obo;OBI_0000070"/> <!-- assay -->   
+                     <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1111111"/>  <!-- has specif input -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7549502"/>  <!-- dried blood spot specimen -->
+                    </owl:Restriction>
+             </owl:intersectionOf>
+           </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Bacterial inhibition assay is an assay (a semiqunatitive assay) designed to detect the level of amino acid phenylalanine in the dried blood spot specimen. A small disk (of standardized size) is punched from dried blood spot specimen and put on the agar gel plate that contains &#x3B2;-2-thyenilalanine that inhibits growth of Bacillus subtilis bacteria. In the presence of elevated levels of phenylalanine leached from the filter paper disk, inhibition of &#x3B2;-2-thyenilalanine is overcome and a bacterial colony grows surrounding the disk. Measured diameter of the colony is roughly proportional to the amount of phenylalanine in the blood. Guthrie test is sensitive enough to detect blood phenylalanine levels of 180-240 &#x3BC;mol/L (3-4 mg/dL)</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">BIA</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">Guthrie test</skos:altLabel>
@@ -20511,7 +20544,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
             		<rdf:Description rdf:about="&obo;BFO_0000031"/>  <!-- GDC -->
             		<owl:Class>
                 		<owl:intersectionOf rdf:parseType="Collection">
-                    		<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002"/> <!-- BFO2:independent continuant -->
+                    		<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/> <!-- BFO2:independent continuant -->
                     			<owl:Class>
                         			<owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>  <!-- BFO2:spatial region -->
                     			</owl:Class>
@@ -20537,7 +20570,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
             		<rdf:Description rdf:about="&obo;BFO_0000031"/>  <!-- GDC -->
             		<owl:Class>
                 		<owl:intersectionOf rdf:parseType="Collection">
-                    		<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000002"/> <!-- BFO2:independent continuant -->
+                    		<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/> <!-- BFO2:independent continuant -->
                     			<owl:Class>
                         			<owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>  <!-- BFO2:spatial region -->
                     			</owl:Class>
@@ -20637,13 +20670,14 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <rdfs:range rdf:resource="&xsd;date"/>
      </owl:DatatypeProperty>   
  
-  
-  
-<!-- END ALL -->
+
+
     
 </rdf:RDF>
 
-
+<!-- ******* -->  
+<!--   END   -->
+<!-- ******* -->
 
 
 
