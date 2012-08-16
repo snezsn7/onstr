@@ -20039,8 +20039,29 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9857078">
         <rdfs:label rdf:datatype="&xsd;string">food item amino acid content datum</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/> 
-        <!-- ADD LOG descr HERE -->
+        <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/ --> 
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000032"/>  <!-- scalar measur datum -->
+				    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measur unit label -->
+                            <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&obo;UO_0000022"/>  <!-- miligram -->
+                                		<rdf:Description rdf:about="&obo;UO_0000021"/>  <!-- gram -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
+                    </owl:Restriction>
+				</owl:intersectionOf>
+           </owl:Class>
+       </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Food item amino acid content datum is a scalar measurement datum providing the information about the content of the observed amino acid in each food item consumed by human patient during the time period relevant for dietary intake analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -20100,7 +20121,22 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6640610">
         <rdfs:label rdf:datatype="&xsd;string">food item datum</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1474441"/>  <!-- nutritional item datum -->
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1474441"/ -->  <!-- nutritional item datum -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_1474441"/> <!-- nutritional item datum -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/> <!-- BFO2:has proper continuant part at all times -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_9857078"/> <!-- food item amino acid content datum -->
+                    </owl:Restriction>
+                     <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/> <!-- BFO2:has proper continuant part at all times -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7240990"/> <!-- food item-amino acid exchange datum-->
+                    </owl:Restriction> 
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Food item datum is a nutritional item datum that provides the information about the kinds, quantities and nutrient content of food items prescribed to or consumed by a human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
