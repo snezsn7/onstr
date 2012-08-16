@@ -9,12 +9,12 @@
     <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
-    <!ENTITY ONSTR "http://onstr.googlecode.com/svn/trunk/ONSTR.owl#" >
-    <!ENTITY ONSTRobsolete "http://onstr.googlecode.com/svn/trunk/ONSTR.owl#" >
+    <!ENTITY ONSTR "http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR.owl#" >
+    <!ENTITY ONSTRobsolete "http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR.owl#" >
 ]>    
 
-<rdf:RDF xmlns="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#"
-     xml:base="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl"
+<rdf:RDF xmlns="http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#"
+     xml:base="http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl"
      xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
@@ -22,14 +22,15 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:ONSTR="http://onstr.googlecode.com/svn/trunk/ONSTR.owl#"
-     xmlns:ONSTRobsolete="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#">
+     xmlns:ONSTR="http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR.owl#"
+     xmlns:ONSTRobsolete="http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#">
      
      
-    <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl">
-        <owl:versionInfo rdf:datatype="&xsd;string">0.1</owl:versionInfo>
-        <dc:date rdf:datatype="&xsd;string">2012-02-01</dc:date>
-        <dc:description rdf:datatype="&xsd;string">This file is a general purpose storage space for all obsoleted (deprecated) classes, relations (object properties)</dc:description>
+    <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl">
+        <owl:versionInfo rdf:datatype="&xsd;string">v0.1</owl:versionInfo>
+        <dc:date rdf:datatype="&xsd;string">2012-08-17</dc:date>
+        <owl:versionInfo rdf:datatype="&xsd;string">v0.1 based on SVN revision r268</owl:versionInfo>
+        <dc:description rdf:datatype="&xsd;string">This file is a general purpose storage space for all ONSTR native obsoleted (deprecated) classes and relations (object properties)</dc:description>
         <skos:altLabel rdf:datatype="&xsd;string">ONSTR obsolete</skos:altLabel>
         <dc:format rdf:datatype="&xsd;string">RDF/XML</dc:format>
         <dc:creator rdf:datatype="&xsd;string">Prabhu Shankar</dc:creator>
@@ -69,7 +70,7 @@
 	<!--  				     -->
 	
     
- 	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_ObsoleteClass -->  <!-- ONSTRObsoleteClass  --> 
+ 	<!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_ObsoleteClass -->  <!-- ONSTRObsoleteClass  --> 
     
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_ObsoleteClass">
         <rdfs:subClassOf rdf:resource="&owl;Thing"/>
@@ -81,7 +82,7 @@
     </owl:Class>
      
    
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_0426948 --> <!-- phenylalanine hyrdoxylase function -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_0426948 --> <!-- phenylalanine hyrdoxylase function -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_0426948">
         <rdfs:label rdf:datatype="&xsd;string">phenylalanine hyrdoxylase function</rdfs:label>
@@ -95,7 +96,7 @@
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_2219307 --> <!-- cerebrospinal fluid phenylalanine concentration measurement assay -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_2219307 --> <!-- cerebrospinal fluid phenylalanine concentration measurement assay -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_2219307">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration measurement assay</rdfs:label>
@@ -110,7 +111,7 @@
     
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_6285423 --> <!-- blood plasma phenylalanine concentration measuremet assay -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_6285423 --> <!-- blood plasma phenylalanine concentration measuremet assay -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_6285423">
         <rdfs:label rdf:datatype="&xsd;string">blood plasma phenylalanine concentration measurement assay</rdfs:label>
@@ -123,7 +124,7 @@
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_0114258 --> <!-- blood phenylalanine concentration measurement  assay -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_0114258 --> <!-- blood phenylalanine concentration measurement  assay -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_0114258">
         <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration measurement assay</rdfs:label>
@@ -136,7 +137,7 @@
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3916451 --> <!-- blood plasma penylalanine concentration measurement datum-->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_3916451 --> <!-- blood plasma penylalanine concentration measurement datum-->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3916451">
         <rdfs:label rdf:datatype="&xsd;string">blood plasma penylalanine concentration measurement datum</rdfs:label>
@@ -148,7 +149,7 @@
     </owl:Class>
        
     
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_2355072 --> <!-- biomaterial entity --> 
+     <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_2355072 --> <!-- biomaterial entity --> 
     
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_2355072">
         <rdfs:label rdf:datatype="&xsd;string">biomaterial entity</rdfs:label>
@@ -164,7 +165,7 @@
     
     
     
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_7924462 --> <!-- enzyme -->
+  <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_7924462 --> <!-- enzyme -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_7924462">
         <rdfs:label rdf:datatype="&xsd;string">enzyme</rdfs:label>
@@ -177,7 +178,7 @@
     
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3801118 -->  <!-- amino acid analyzer  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_3801118 -->  <!-- amino acid analyzer  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3801118">
         <rdfs:label rdf:datatype="&xsd;string">amino acid analyzer</rdfs:label>
@@ -189,7 +190,7 @@
      </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_2585600 -->  <!-- vitamin average daily intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_2585600 -->  <!-- vitamin average daily intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_2585600">
         <rdfs:label rdf:datatype="&xsd;string">vitamin average daily intake</rdfs:label>
@@ -201,7 +202,7 @@
      </owl:Class>
      
   
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_1876405 -->  <!-- mineral nutrient average daily intake  -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_1876405 -->  <!-- mineral nutrient average daily intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_1876405">
         <rdfs:label rdf:datatype="&xsd;string">mineral nutrient average daily intake</rdfs:label>
@@ -213,7 +214,7 @@
      </owl:Class>
         
         
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_8717058 -->  <!-- nutrient average daily intake information  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_8717058 -->  <!-- nutrient average daily intake information  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_8717058">
         <rdfs:label rdf:datatype="&xsd;string">average daily nutrient intake datum</rdfs:label>
@@ -225,7 +226,7 @@
      </owl:Class>
         
         
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_4240789 -->  <!-- average daily dietary homocysteine intake during observed time interval  -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_4240789 -->  <!-- average daily dietary homocysteine intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_4240789">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary homocysteine intake during observed time interval</rdfs:label>
@@ -237,7 +238,7 @@
      </owl:Class>
         
            
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_8799437-->  <!-- average daily dietary homocysteine intake per body mass during observed time interval -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_8799437-->  <!-- average daily dietary homocysteine intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_8799437">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary homocysteine intake per body mass during observed time interval</rdfs:label>
@@ -249,7 +250,7 @@
      </owl:Class>
         
         
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_1792500-->  <!-- average daily dietary selenocysteine intake per body mass during observed time interval -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_1792500-->  <!-- average daily dietary selenocysteine intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_1792500">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary selenocysteine intake per body mass during observed time interval</rdfs:label>
@@ -261,7 +262,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_9092632 -->  <!-- average daily dietary selenocysteine intake during observed time interval  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_9092632 -->  <!-- average daily dietary selenocysteine intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_9092632">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary selenocysteine intake during observed time interval</rdfs:label>
@@ -275,7 +276,7 @@
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_5948875 -->  <!-- average daily dietary trans fatty acid intake during observed time interval  -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_5948875 -->  <!-- average daily dietary trans fatty acid intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_5948875">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary trans fatty acid intake during observed time interval</rdfs:label>
@@ -287,7 +288,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_9138906-->  <!-- average daily dietary trans fatty acid intake per body mass during observed time interval -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_9138906-->  <!-- average daily dietary trans fatty acid intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_9138906">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary trans fatty acid intake per body mass during observed time interval</rdfs:label>
@@ -299,7 +300,7 @@
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsoleta.owl#ONSTR_3390372 -->  <!-- average daily dietary saturated fatty acid intake during observed time interval  -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsoleta.owl#ONSTR_3390372 -->  <!-- average daily dietary saturated fatty acid intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3390372">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary saturated fatty acid intake during observed time interval</rdfs:label>
@@ -311,7 +312,7 @@
      </owl:Class>
        
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_1902317-->  <!-- average daily dietary saturated fatty acid intake per body mass during observed time interval -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_1902317-->  <!-- average daily dietary saturated fatty acid intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_1902317">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary saturated fatty acid intake per body mass during observed time interval</rdfs:label>
@@ -322,7 +323,7 @@
      </owl:Class>
      
            
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_1592726 -->  <!-- average daily dietary macronutrient intake datum -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_1592726 -->  <!-- average daily dietary macronutrient intake datum -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_1592726">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary macronutrient intake datum</rdfs:label>
@@ -334,7 +335,7 @@
      </owl:Class>
      
      
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3133858 -->  <!-- average daily total dietary fat intake  -->
+  <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_3133858 -->  <!-- average daily total dietary fat intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3133858">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary fat intake</rdfs:label>
@@ -346,7 +347,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_0591731 -->  <!-- average daily total dietary carbohydrate intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_0591731 -->  <!-- average daily total dietary carbohydrate intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_0591731">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary carbohydrate intake</rdfs:label>
@@ -358,7 +359,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_1407818 -->  <!-- average daily total dietary protein intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_1407818 -->  <!-- average daily total dietary protein intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_1407818">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary protein intake</rdfs:label>
@@ -370,7 +371,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3106991 -->  <!-- average daily dietary amino acid intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_3106991 -->  <!-- average daily dietary amino acid intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3106991">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary amino acid intake</rdfs:label>
@@ -382,7 +383,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_7618297 -->  <!-- average daily dietary phenylalanine intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_7618297 -->  <!-- average daily dietary phenylalanine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_7618297">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary phenylalanine intake</rdfs:label>
@@ -396,7 +397,7 @@
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3524127 -->  <!-- average daily dietary tyrosine intake  -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_3524127 -->  <!-- average daily dietary tyrosine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3524127">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary tyrosine intake</rdfs:label>
@@ -410,7 +411,7 @@
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_4486508 -->  <!-- average daily dietary alanine intake  -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_4486508 -->  <!-- average daily dietary alanine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_4486508">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary alanine intake</rdfs:label>
@@ -424,7 +425,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6580265 -->  <!-- average daily dietary arginine intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR.owl#ONSTR_6580265 -->  <!-- average daily dietary arginine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_6580265">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary arginine intake</rdfs:label>
@@ -438,7 +439,7 @@
      </owl:Class>
         
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_0304349 -->  <!-- average daily dietary asparagine intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_0304349 -->  <!-- average daily dietary asparagine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_0304349">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary asparagine intake</rdfs:label>
@@ -452,7 +453,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3989641 -->  <!-- average daily dietary aspartic acid intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_3989641 -->  <!-- average daily dietary aspartic acid intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3989641">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary aspartic acid intake</rdfs:label>
@@ -466,7 +467,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_8338845 -->  <!-- average daily dietary cysteine intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_8338845 -->  <!-- average daily dietary cysteine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_8338845">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary cysteine intake</rdfs:label>
@@ -480,7 +481,7 @@
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_5426449 -->  <!-- average daily dietary glutamine intake  -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_5426449 -->  <!-- average daily dietary glutamine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_5426449">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary glutamine intake</rdfs:label>
@@ -494,7 +495,7 @@
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_0735376 -->  <!-- average daily dietary glutamic acid intake  -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_0735376 -->  <!-- average daily dietary glutamic acid intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_0735376">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary glutamic acid intake</rdfs:label>
@@ -508,7 +509,7 @@
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_6536320 -->  <!-- average daily dietary glycine intake  -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_6536320 -->  <!-- average daily dietary glycine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_6536320">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary glycine intake</rdfs:label>
@@ -522,7 +523,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_4612277 -->  <!-- average daily dietary isoleucine intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_4612277 -->  <!-- average daily dietary isoleucine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_4612277">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary isoleucine intake</rdfs:label>
@@ -536,7 +537,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_0343913 -->  <!-- average daily dietary leucine intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_0343913 -->  <!-- average daily dietary leucine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_0343913">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary leucine intake</rdfs:label>
@@ -550,7 +551,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_7569244 -->  <!-- average daily dietary lysine intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_7569244 -->  <!-- average daily dietary lysine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_7569244">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary lysine intake</rdfs:label>
@@ -564,7 +565,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_7914513 -->  <!-- average daily dietary histidine intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_7914513 -->  <!-- average daily dietary histidine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_7914513">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary histidine intake</rdfs:label>
@@ -578,7 +579,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_9958539 -->  <!-- average daily dietary methionine intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_9958539 -->  <!-- average daily dietary methionine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_9958539">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary methionine intake</rdfs:label>
@@ -592,7 +593,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_7247161 -->  <!-- average daily dietary proline intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_7247161 -->  <!-- average daily dietary proline intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_7247161">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary proline intake</rdfs:label>
@@ -606,7 +607,7 @@
      </owl:Class>
        
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_7364684 -->  <!-- average daily dietary serine intake  -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_7364684 -->  <!-- average daily dietary serine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_7364684">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary serine intake</rdfs:label>
@@ -620,7 +621,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_5743014 -->  <!-- average daily dietary threonine intake  -->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_5743014 -->  <!-- average daily dietary threonine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_5743014">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary threonine intake</rdfs:label>
@@ -634,7 +635,7 @@
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3313706 -->  <!-- average daily dietary tryptophan intake  -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_3313706 -->  <!-- average daily dietary tryptophan intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3313706">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary tryptophan intake</rdfs:label>
@@ -648,7 +649,7 @@
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_6249761 -->  <!-- average daily dietary valine intake  -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_6249761 -->  <!-- average daily dietary valine intake  -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_6249761">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary valine intake</rdfs:label>
@@ -662,7 +663,7 @@
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_1378039 -->  <!-- average daily dietary energy intake datum-->
+   <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR_Obsolete.owl#ONSTR_1378039 -->  <!-- average daily dietary energy intake datum-->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_1378039">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary energy intake datum</rdfs:label>
@@ -683,7 +684,7 @@
 	<!--  				     		   -->
     
     
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_ObsoleteProperty -->  <!-- ONSTRObsoleteProperty -->
+     <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR.owl#ONSTR_ObsoleteProperty -->  <!-- ONSTRObsoleteProperty -->
 
     <owl:ObjectProperty rdf:about="&ONSTRobsolete;ONSTR_ObsoleteProperty">
     	<rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
@@ -694,7 +695,7 @@
     </owl:ObjectProperty>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6264097 -->  <!-- is cause of -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR.owl#ONSTR_6264097 -->  <!-- is cause of -->
 
     <owl:ObjectProperty rdf:about="&ONSTRobsolete;ONSTR_6264097">
         <rdfs:label rdf:datatype="&xsd;string">is cause of</rdfs:label>
@@ -705,7 +706,7 @@
     </owl:ObjectProperty>
 
 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3590764 -->  <!-- has cause -->
+    <!-- http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR.owl#ONSTR_3590764 -->  <!-- has cause -->
 
     <owl:ObjectProperty rdf:about="&ONSTRobsolete;ONSTR_3590764">
         <rdfs:subPropertyOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteProperty"/>
@@ -715,16 +716,11 @@
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
     </owl:ObjectProperty>
 
-
-
-<!-- Ovde Prop --> 
-
-
-
-
     
 </rdf:RDF>
 
+<!-- END of ONSTR Obsoletes -->
 
 
 
+<!-- Blessings and much love/light to all !!! -->
