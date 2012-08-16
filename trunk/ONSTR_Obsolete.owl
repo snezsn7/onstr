@@ -95,6 +95,21 @@
     </owl:Class>
     
     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_2219307 --> <!-- cerebrospinal fluid phenylalanine concentration measurement assay -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_2219307">
+        <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration measurement assay</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid phenylalanine concentration measurement assay is a clinical chemistry assay that determines the quantity of phenylalanine in the cerebrospinal fluid specimen derived from human cerebrospinal fluid.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition needs fixing, or maybe this class needs to be deprecated.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">CSF phenylalanine concentration test</skos:altLabel>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsoleted - Retired.</skos:editorialNote>  
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </owl:Class>
+    
+    
+    
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_6285423 --> <!-- blood plasma phenylalanine concentration measuremet assay -->
 
     <owl:Class rdf:about="&ONSTRobsolete;ONSTR_6285423">
