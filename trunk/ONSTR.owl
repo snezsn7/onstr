@@ -5749,18 +5749,6 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
-
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2522662 --> <!-- hyperphenylalaninemia finding -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_2522662">
-        <rdfs:label rdf:datatype="&xsd;string">hyperphenylalaninemia finding</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000018"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma or blood phenylalaninemia concentration greated than 120 mumol/L.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD some</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
-    </owl:Class>
-    
-    
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1445519 --> <!-- phenylalanine concentration finding -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1445519">
@@ -5768,6 +5756,104 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;OGMS_0000018"/>
         <skos:definition rdf:datatype="&xsd;string">Concentration of phenylalanine in the plasma or blood or cerebrspinal fluid (CSF), expressed in mumol/L.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5644811 --> <!-- blood phenylalanine concentration finding -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5644811">
+        <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1445519"/> <!-- Phe concentration finding -->
+        <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration finding is a phenylalanine concentration finding that is physician&apos;s interpretation of the value of blood phenylalanine concentration measurement datum, and that is based blood phenyalanine concentration reference value ranges established through clinical research.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3680244 --> <!-- normal blood phenylalanine concentration finding -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3680244">
+        <rdfs:label rdf:datatype="&xsd;string">normal blood phenylalanine concentration finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5644811"/>
+        <skos:definition rdf:datatype="&xsd;string">Normal blood phenylalanine concentration finding is a blood phenylalanine concentration finding based on the value of blood phenylalanine concentration measurement datum falling within the range that has been clinically and empirically established as being normal for healthy human population (i.e. below 120 &#x3BC;mol/L or below 2 mg/dL).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2522662 --> <!-- hyperphenylalaninemia finding -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2522662">
+        <rdfs:label rdf:datatype="&xsd;string">hyperphenylalaninemia finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5644811"/>
+        <skos:definition rdf:datatype="&xsd;string">Hyperphenylalaninemia finding is a blood phenylalanine concentration finding  based on the value of blood phenylalanine concentration measurement datum falling within the range that has been clinically and empirically established as higher than that of a healthy human population (i.e. above 120 &#x3BC;mol/L or above 2 mg/dL).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6067230 --> <!-- non-PKU hyperphenylalaninemia finding -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6067230">
+        <rdfs:label rdf:datatype="&xsd;string">non-PKU hyperphenylalaninemia finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2522662"/>
+        <skos:definition rdf:datatype="&xsd;string">Non-PKU hyperphenylalaninemia finding is a hyperphenylalaninemia finding based on the value of blood phenylalanine concentration measurement datum falling within the range of 120 - 360 &#x3BC;mol/L (or 2 - 10 mg/dL) that is not considered as indicative of phenylketonuria (PKU).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8464423 --> <!-- PKU hyperphenylalaninemia finding -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8464423">
+        <rdfs:label rdf:datatype="&xsd;string">PKU hyperphenylalaninemia finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2522662"/>
+        <skos:definition rdf:datatype="&xsd;string">PKU hyperphenylalaninemia finding is a hyperphenylalaninemia finding based on the value of blood phenylalanine concentration measurement datum greater than 360 &#x3BC;mol/L (10 mg/dL) for which it has been clinically established as being indicative of phenylketonuria (PKU).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6832076 --> <!-- mild PKU hyperphenylalaninemia finding -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6832076">
+        <rdfs:label rdf:datatype="&xsd;string">mild PKU hyperphenylalaninemia finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/>
+        <skos:definition rdf:datatype="&xsd;string">Mild PKU hyperphenylalaninemia finding is a PKU hyperphenylalaninemia finding based on the value of blood phenylalanine concentration measurement datum falling within the range of 360 - 900 &#x3BC;mol/L (or 10 - 15 mg/dL).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0134074 --> <!-- moderate PKU hyperphenylalaninemia finding -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0134074">
+        <rdfs:label rdf:datatype="&xsd;string">moderate PKU hyperphenylalaninemia finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/>
+        <skos:definition rdf:datatype="&xsd;string">Moderate PKU hyperphenylalaninemia finding is a hyperphenylalaninemia finding based on the value of blood phenylalanine concentration measurement datum falling within the range of 900 - 1200 &#x3BC;mol/L (or 15 - 20 mg/dL).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0014697 --> <!-- classic PKU hyperphenylalaninemia finding -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0014697">
+        <rdfs:label rdf:datatype="&xsd;string">classic PKU hyperphenylalaninemia finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/>
+        <skos:definition rdf:datatype="&xsd;string">Classic PKU hyperphenylalaninemia finding is a hyperphenylalaninemia finding based on the value of blood phenylalanine concentration measurement datum that is greater than 1200 &#x3BC;mol/L (or 20 mg/dL).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8335262 --> <!-- cerebrospinal fluid phenylalanine concentration finding -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8335262">
+        <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration finding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1445519"/>
+        <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid phenylalanine concentration finding is a phenylalanine concentration finding that is physician&apos;s interpretation of the value of cerebrospinal fluid phenylalanine concentration measurement datum, and that is based cerebrospinal fluid phenyalanine concentration reference value ranges established through clinical research.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
@@ -5852,7 +5938,7 @@ people infected, then extract parasite which are then tested = observation study
  			    </owl:intersectionOf>
  			</owl:Class>
  	    </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration mesasurement datum is a concentration measurement datum that is the output of the blood phenylalanine concentration measurement assay that measures the concentration of the amino acid phenylalanine in human blood.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration mesasurement datum is a concentration measurement datum that is the output of tandem mass specterometry or high performance liquid chromatography or liquid chromatography-mass spectrometry bacterial inhibiton assay measuring the conentration of the amino acid phenylalanine in human blood specimen, blood plasma specimen or dried blood spot eluate.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition needs fixing, or maybe this class needs to be deprecated.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -19949,6 +20035,18 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9857078 -->  <!-- food item amino acid content datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9857078">
+        <rdfs:label rdf:datatype="&xsd;string">food item amino acid content datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/> 
+        <!-- ADD LOG descr HERE -->
+        <skos:definition rdf:datatype="&xsd;string">Food item amino acid content datum is a scalar measurement datum providing the information about the content of the observed amino acid in each food item consumed by human patient during the time period relevant for dietary intake analysis.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8256836 -->  <!-- dietary prescription datum  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8256836">
@@ -20553,7 +20651,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
                 </owl:unionOf> 
             </owl:Class> 
         </rdfs:range>   	
-       <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding (or more appropriate) OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
     </owl:ObjectProperty>
       
       
@@ -20579,7 +20677,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
                 </owl:unionOf> 
             </owl:Class> 
         </rdfs:range>   	
-       <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding (or more appropriate) OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
     </owl:ObjectProperty>   
       
       
@@ -20590,7 +20688,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <skos:definition rdf:datatype="&xsd;string">A relation between a continuant that is an input of a process and a planned process.</skos:definition>
 		<skos:editorialNote rdf:datatype="&xsd;string">This is the inverse relation of temporary relation has specified input (ONSTR_1111111).</skos:editorialNote>
 		<owl:inverseOf rdf:resource="&ONSTR;ONSTR_1111111"/>
-        <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding (or more appropriate) OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
     </owl:ObjectProperty> 
       
       
@@ -20601,7 +20699,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <skos:definition rdf:datatype="&xsd;string">A relation between a continuant that is an output of a process and a planned process.</skos:definition>
 		<skos:editorialNote rdf:datatype="&xsd;string">This is the inverse relation of temporary relation has specified input (ONSTR_2222222).</skos:editorialNote>
 		<owl:inverseOf rdf:resource="&ONSTR;ONSTR_2222222"/>
-        <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding (or more appropriate) OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
     </owl:ObjectProperty>
       
    
