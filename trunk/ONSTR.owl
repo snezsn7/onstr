@@ -43,13 +43,13 @@
      
      
     <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/trunk/ONSTR.owl">
-        <owl:versionInfo rdf:datatype="&xsd;string">0.1</owl:versionInfo>
-        <dc:date rdf:datatype="&xsd;string">2011-06-03</dc:date>
-        <dc:description rdf:datatype="&xsd;string">ADD SOME TEXT!!!! The Ontology for Newborn Screening and Translational Research is....</dc:description>
+        <owl:versionInfo rdf:datatype="&xsd;string">v0.1 release date:2012-08-17</owl:versionInfo>
+        <dc:date rdf:datatype="&xsd;string">2012-08-17</dc:date>
+        <dc:description rdf:datatype="&xsd;string">Ontology for Newborn Screening and Translational Research (ONSTR) is an application ontology covering the domain of genetic disorders mainly identified through newborn screening, long term follow up after diagnosis resulting from positive newborn screen and related translational research.</dc:description>
         <skos:altLabel rdf:datatype="&xsd;string">ONSTR</skos:altLabel>
         <dc:title rdf:datatype="&xsd;string">Ontology for Newborn Screening and Translational Research</dc:title>
         <dc:format rdf:datatype="&xsd;string">RDF/XML</dc:format>
-        <rdfs:comment rdf:datatype="&xsd;string">For release notes please see http://.....ADD LINK!!!</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">For release notes please see http://onstr.googlecode.com/svn/tags/currentRelease/2012-08-17/ </rdfs:comment>
         <dc:creator rdf:datatype="&xsd;string">Prabhu Shankar (&#2346;&#2381;&#2352;&#2349;&#2369; &#2358;&#2344;&#2381;&#2325;&#2352;&#2381;)</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Akshaye Dhawan</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Rajshekar Sunderraman</dc:creator>
@@ -57,7 +57,7 @@
         <dc:creator rdf:datatype="&xsd;string">Sham Navathe</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sivaram Arabandi</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Sne&#x17E;ana Nikolic&#x0301;</dc:creator>
-        <dc:subject rdf:datatype="&xsd;string">Keywords: biomedical ontology, neborn screening for inborn errors of metabolism, translational research, translational medicine, nutrition, genetics, health care, public health</dc:subject>
+        <dc:subject rdf:datatype="&xsd;string">Keywords: biomedical ontology, neborn screening, inherited metabolic disorders, translational research, metabolism, genetic disorders, health care, public health, nutrition, diet.</dc:subject>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/> <!-- 2012-07-20, (vGraz) BFO2 stable version, or soon will be. -->
         <owl:imports rdf:resource="http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl"/>
     </owl:Ontology>
@@ -1321,7 +1321,7 @@ people infected, then extract parasite which are then tested = observation study
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
    </owl:Class>
    
-
+   
 <!-- END ERO IMPORTS -->   
 <!-- START PATO IMPORTS -->    
     
@@ -5223,7 +5223,6 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
    
     
-    
      <!-- http://purl.obolibrary.org/obo/OGMS_0000023 -->  <!--phenotype-->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000023">
@@ -5311,7 +5310,8 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>  
     
-        <!-- http://purl.obolibrary.org/obo/OGMS_0000096 -->  <!--health care process-->
+    
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000096 -->  <!--health care process-->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000096">
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>  <!--bfo:process-->
@@ -5320,8 +5320,7 @@ people infected, then extract parasite which are then tested = observation study
 		<rdfs:comment rdf:datatype="&xsd;string">Definition source: http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</rdfs:comment>
  		<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
     </owl:Class>
-    
-    
+      
     
    <!-- http://purl.obolibrary.org/obo/OGMS_0000097 -->  <!--health care encounter-->
 
@@ -5343,8 +5342,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
     </owl:Class>
-
-
+    
 
     <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->  <!--treatment-->
 
@@ -5356,26 +5354,18 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A processual entity whose completion is hypothesized (by a healthcare provider) to alleviate the signs and symptoms associated with a disorder</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
     </owl:Class>
-
-
+    
 <!-- END OGMS IMPORTS -->
 
-
-
-<!-- END ALL IMPORTED CLASSES -->
-   
-   
+<!-- END ALL IMPORTED CLASSES --> 
    
 	<!--  				 -->
 	<!--  ONSTR CLASSES  -->
 	<!--  				 -->
    
-   
    <!-- POCETAK ovde -->
    
-   
-   
-       <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5448898 --> <!-- hyperphenylalaninemia -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5448898 --> <!-- hyperphenylalaninemia -->
         
     <owl:Class rdf:about="&ONSTR;ONSTR_5448898">
         <rdfs:subClassOf rdf:resource="&obo;OGMS_0000045"/>
@@ -5393,7 +5383,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7546388">  <!-- cross that with congenital metabolic disorder -->
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5448898"/>
-	<!-- ADD LOG DEF -->
+	    <!-- ADD LOG DEF -->
         <rdfs:label rdf:datatype="&xsd;string">congenital hyperphenylalaninemia</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninemia (disorder)</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninaemias</skos:altLabel>
@@ -5404,8 +5394,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
 	</owl:Class>
    
-   
-   
+ 
    
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3854145 --> <!-- transient hyperphenylalaninemia -->
         
@@ -5468,7 +5457,6 @@ people infected, then extract parasite which are then tested = observation study
 		<rdfs:comment rdf:datatype="&xsd;string">Definition source: Donlon, J., Levy, H., Scriver, C. R.  The online metabolic and molecular bases of inherited diseases. Part 8. Chapter 77: Hyperphenylalaninemia: Phenylalanine Hydroxylase Deficiency, The McGraw-Hill Companies, retrievable from http://www.ommbid.com/OMMBID/the_online_metabolic_and_molecular_bases_of_inherited_disease/b/abstract/part8/ch77</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
-	
 
 	
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0128089 --> <!-- PAH deficiency -->
@@ -5527,7 +5515,8 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">classic PKU</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">severe PKU</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is caused by hyperphenylalaninemina (HPA) having phenyalalnine blood concentration greater than 1200 mumol/L (20 mg/dL).</skos:definition>
-		<rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD DefSorce Scriver</rdfs:comment>
+		<rdfs:comment rdf:datatype="&xsd;string">Need better def source.</rdfs:comment>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: Scriver, C. R., Sly, W. S., Childs, B., Baudet, A. L., Valle, D., Kinzler, K. W., Vogelstein, B. (2000) The metabolic and molecular bases of inherited metabolic disease, 8th Ed. McGraw-Hill Professional.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
     
@@ -5539,7 +5528,8 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">moderate phenylketonuria</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">moderate PKU</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is caused by hyperphenylalaninemina (HPA) having measured phenyalalnine blood concentration in the range 900-1200 mumol/L (15-20 mg/dL).</skos:definition>
-		<rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD DefSource Scriver ???</rdfs:comment>
+		<rdfs:comment rdf:datatype="&xsd;string">Need better def source.</rdfs:comment>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: Scriver, C. R., Sly, W. S., Childs, B., Baudet, A. L., Valle, D., Kinzler, K. W., Vogelstein, B. (2000) The metabolic and molecular bases of inherited metabolic disease, 8th Ed. McGraw-Hill Professional.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
       
@@ -5551,7 +5541,8 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">mild phenylketonuria</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">mild PKU</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is caused by hyperphenylalaninemina (HPA) having phenyalalnine blood concentration greater in the range 600-900 mumol/L (10-15 mg/dL).</skos:definition>
-		<rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD DefSource Scriver</rdfs:comment>
+		<rdfs:comment rdf:datatype="&xsd;string">Need better def source.</rdfs:comment>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: Scriver, C. R., Sly, W. S., Childs, B., Baudet, A. L., Valle, D., Kinzler, K. W., Vogelstein, B. (2000) The metabolic and molecular bases of inherited metabolic disease, 8th Ed. McGraw-Hill Professional.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
 	
@@ -5643,8 +5634,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.62-64.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
-	
-	
+
 		
 	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4241089 --> <!-- homozygous mutant PAH genotype -->
 
@@ -5693,8 +5683,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">4-monooxygenase, phenylalanine</skos:altLabel>       
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
-    
-    
+     
        
      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5363814 --> <!-- normal PAH complex -->
 
@@ -5726,9 +5715,8 @@ people infected, then extract parasite which are then tested = observation study
     	<owl:disjointWith rdf:about="&ONSTR;ONSTR_5363814"/>
     </owl:Class>
     
-    
  
-      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7003914 --> <!-- oxidoreductase -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7003914 --> <!-- oxidoreductase -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7003914">
         <rdfs:label rdf:datatype="&xsd;string">oxidoreductase complex</rdfs:label>
@@ -5749,6 +5737,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
+
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1445519 --> <!-- phenylalanine concentration finding -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1445519">
@@ -5758,6 +5747,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
+
 
  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5644811 --> <!-- blood phenylalanine concentration finding -->
 
@@ -21165,7 +21155,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 
     <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_5859795">
         <rdfs:label rdf:datatype="&xsd;string">has interpretation</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">A realtion between two information content enetities a scalar measurement datum and clinical finding, where an instancle of clinical finding is an interperetation of a given scala measurement datum based on the vlaue thereof.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">A realtion between two information content enetities a scalar measurement datum and clinical finding, where an instancle of clinical finding is an interperetation of a given scalar measurement datum based on the vlaue thereof.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">This relation is not stable and may be obsoloteted at a later date.</skos:editorialNote>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:ObjectProperty>
@@ -21175,7 +21165,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 
     <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_1932532">
         <rdfs:label rdf:datatype="&xsd;string">is interpretation of</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">A realtion between two information content enetities a scalar measurement datum and clinical finding, where an instancle of clinical finding is an interperetation of a given scala measurement datum based on the vlaue thereof.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">A realtion between two information content enetities a scalar measurement datum and clinical finding, where an instancle of clinical finding is an interperetation of a given scalar measurement datum based on the vlaue thereof.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">This relation is not stable and may be obsoloteted at a later date.</skos:editorialNote>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
         <owl:inverseOf rdf:resource="&ONSTR;ONSTR_5859795"/>
