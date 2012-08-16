@@ -5754,8 +5754,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1445519">
         <rdfs:label rdf:datatype="&xsd;string">phenylalanine concentration finding</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OGMS_0000018"/>
-        <skos:definition rdf:datatype="&xsd;string">Concentration of phenylalanine in the plasma or blood or cerebrspinal fluid (CSF), expressed in mumol/L.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Phenylalanine conentration finding is a laboratory finding that is the interpretation of measurement values of the concentration of amino acid phenylalanine in the human blood specimen (including blood plasma specimen and dried blood spot eluate) or in the human crerebrospinal fluid specimen.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
@@ -5763,7 +5763,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5644811">
         <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration finding</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1445519"/> <!-- Phe concentration finding -->
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1445519"/ --> <!-- Phe concentration finding -->
+        <owl:equivalentClass>  
+          <owl:Class>  
+             <owl:intersectionOf rdf:parseType="Collection">
+                 <rdf:Description rdf:about="&ONSTR;ONSTR_1445519"/> <!-- Phe concentration finding -->    
+                     <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1932532"/>  <!-- is interpretation of -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0630865"/>  <!-- blood Phe concentration measurement datum -->
+                    </owl:Restriction>
+             </owl:intersectionOf>
+           </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration finding is a phenylalanine concentration finding that is physician&apos;s interpretation of the value of blood phenylalanine concentration measurement datum, and that is based blood phenyalanine concentration reference value ranges established through clinical research.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -5774,7 +5785,70 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3680244">
         <rdfs:label rdf:datatype="&xsd;string">normal blood phenylalanine concentration finding</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5644811"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5644811"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_5644811"/>  <!-- blood Phe finding -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1932532"/> <!-- is interpretation -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_0630865"/>  <!-- blood Phe concentration measurment datum -->
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/>  <!-- has measurement unit label -->
+                                                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5263648"/>  <!-- milligram per deciliter -->
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measurement value -->
+                                                        <owl:someValuesFrom>
+                                                            <rdfs:Datatype>
+                                                                <owl:onDatatype rdf:resource="&xsd;float"/>
+                                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                                    <rdf:Description>
+                                                                        <xsd:maxExclusive rdf:datatype="&xsd;float">2.0</xsd:maxExclusive>
+                                                                    </rdf:Description>
+                                                                </owl:withRestrictions>
+                                                            </rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/>   <!-- has measurement unit label -->
+                                                        <owl:someValuesFrom rdf:resource="&obo;UO_0000063"/>  <!-- micromolar -->
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>   <!-- has measurement value -->
+                                                        <owl:someValuesFrom>
+                                                            <rdfs:Datatype>
+                                                                <owl:onDatatype rdf:resource="&xsd;float"/>
+                                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                                    <rdf:Description>
+                                                                        <xsd:maxExclusive rdf:datatype="&xsd;float">120.0</xsd:maxExclusive>
+                                                                    </rdf:Description>
+                                                                </owl:withRestrictions>
+                                                            </rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Normal blood phenylalanine concentration finding is a blood phenylalanine concentration finding based on the value of blood phenylalanine concentration measurement datum falling within the range that has been clinically and empirically established as being normal for healthy human population (i.e. below 120 &#x3BC;mol/L or below 2 mg/dL).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -5785,7 +5859,70 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2522662">
         <rdfs:label rdf:datatype="&xsd;string">hyperphenylalaninemia finding</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5644811"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5644811"/-->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_5644811"/>  <!-- blood Phe finding -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1932532"/> <!-- is interpretation -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_0630865"/>  <!-- blood Phe concentration measurment datum -->
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/>  <!-- has measurement unit label -->
+                                                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5263648"/>  <!-- milligram per deciliter -->
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measurement value -->
+                                                        <owl:someValuesFrom>
+                                                            <rdfs:Datatype>
+                                                                <owl:onDatatype rdf:resource="&xsd;float"/>
+                                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                                    <rdf:Description>
+                                                                        <xsd:minInclusive rdf:datatype="&xsd;float">2.0</xsd:minInclusive>
+                                                                    </rdf:Description>
+                                                                </owl:withRestrictions>
+                                                            </rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/>   <!-- has measurement unit label -->
+                                                        <owl:someValuesFrom rdf:resource="&obo;UO_0000063"/>  <!-- micromolar -->
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>   <!-- has measurement value -->
+                                                        <owl:someValuesFrom>
+                                                            <rdfs:Datatype>
+                                                                <owl:onDatatype rdf:resource="&xsd;float"/>
+                                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                                    <rdf:Description>
+                                                                        <xsd:minInclusive rdf:datatype="&xsd;float">120.0</xsd:minInclusive>
+                                                                    </rdf:Description>
+                                                                </owl:withRestrictions>
+                                                            </rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Hyperphenylalaninemia finding is a blood phenylalanine concentration finding  based on the value of blood phenylalanine concentration measurement datum falling within the range that has been clinically and empirically established as higher than that of a healthy human population (i.e. above 120 &#x3BC;mol/L or above 2 mg/dL).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -5796,7 +5933,94 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6067230">
         <rdfs:label rdf:datatype="&xsd;string">non-PKU hyperphenylalaninemia finding</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2522662"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2522662"/ -->  <!--PKU hyperphenylalaninemia finding -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2522662"/>  <!-- PKU hyperphenylalaninemia finding -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1932532"/> <!-- is interpretation -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_0630865"/>  <!-- blood Phe concentration measurment datum -->
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/>  <!-- has measurement unit label -->
+                                                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5263648"/>  <!-- milligram per deciliter -->
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measurement value -->
+                                                        <owl:someValuesFrom>
+                                 							<rdfs:Datatype>
+                                    							<owl:intersectionOf rdf:parseType="Collection">
+                                         							<rdfs:Datatype>
+                                             							<owl:onDatatype rdf:resource="&xsd;float"/>
+                                                							<owl:withRestrictions rdf:parseType="Collection">
+                                                    							<rdf:Description>
+                                                        							<xsd:minInclusive rdf:datatype="&xsd;float">2.0</xsd:minInclusive>
+                                                         						</rdf:Description>
+                                                     						</owl:withRestrictions>
+                                            						</rdfs:Datatype>
+                                            						<rdfs:Datatype>
+                                                						<owl:onDatatype rdf:resource="&xsd;float"/>
+                                                							<owl:withRestrictions rdf:parseType="Collection">
+                                                    							<rdf:Description>
+                                                        							<xsd:maxExclusive rdf:datatype="&xsd;float">10.0</xsd:maxExclusive>
+                                                        						</rdf:Description>
+                                                    						</owl:withRestrictions>
+                                                					</rdfs:Datatype>
+                                        						</owl:intersectionOf>
+                                    						</rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/>   <!-- has measurement unit label -->
+                                                        <owl:someValuesFrom rdf:resource="&obo;UO_0000063"/>  <!-- micromolar -->
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>   <!-- has measurement value -->
+                                                        <owl:someValuesFrom>
+                                 							<rdfs:Datatype>
+                                    							<owl:intersectionOf rdf:parseType="Collection">
+                                         							<rdfs:Datatype>
+                                             							<owl:onDatatype rdf:resource="&xsd;float"/>
+                                                							<owl:withRestrictions rdf:parseType="Collection">
+                                                    							<rdf:Description>
+                                                        							<xsd:minInclusive rdf:datatype="&xsd;float">120.0</xsd:minInclusive>
+                                                         						</rdf:Description>
+                                                     						</owl:withRestrictions>
+                                            						</rdfs:Datatype>
+                                            						<rdfs:Datatype>
+                                                						<owl:onDatatype rdf:resource="&xsd;float"/>
+                                                							<owl:withRestrictions rdf:parseType="Collection">
+                                                    							<rdf:Description>
+                                                        							<xsd:maxExclusive rdf:datatype="&xsd;float">360.0</xsd:maxExclusive>
+                                                        						</rdf:Description>
+                                                    						</owl:withRestrictions>
+                                                					</rdfs:Datatype>
+                                        						</owl:intersectionOf>
+                                    						</rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Non-PKU hyperphenylalaninemia finding is a hyperphenylalaninemia finding based on the value of blood phenylalanine concentration measurement datum falling within the range of 120 - 360 &#x3BC;mol/L (or 2 - 10 mg/dL) that is not considered as indicative of phenylketonuria (PKU).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -5807,7 +6031,70 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8464423">
         <rdfs:label rdf:datatype="&xsd;string">PKU hyperphenylalaninemia finding</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2522662"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2522662"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2522662"/>  <!-- hyperphenylalaninemia finding -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1932532"/> <!-- is interpretation -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_0630865"/>  <!-- blood Phe concentration measurment datum -->
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/>  <!-- has measurement unit label -->
+                                                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5263648"/>  <!-- milligram per deciliter -->
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measurement value -->
+                                                        <owl:someValuesFrom>
+                                                            <rdfs:Datatype>
+                                                                <owl:onDatatype rdf:resource="&xsd;float"/>
+                                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                                    <rdf:Description>
+                                                                        <xsd:minInclusive rdf:datatype="&xsd;float">10.0</xsd:minInclusive>
+                                                                    </rdf:Description>
+                                                                </owl:withRestrictions>
+                                                            </rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/>   <!-- has measurement unit label -->
+                                                        <owl:someValuesFrom rdf:resource="&obo;UO_0000063"/>  <!-- micromolar -->
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>   <!-- has measurement value -->
+                                                        <owl:someValuesFrom>
+                                                            <rdfs:Datatype>
+                                                                <owl:onDatatype rdf:resource="&xsd;float"/>
+                                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                                    <rdf:Description>
+                                                                        <xsd:minInclusive rdf:datatype="&xsd;float">360.0</xsd:minInclusive>
+                                                                    </rdf:Description>
+                                                                </owl:withRestrictions>
+                                                            </rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">PKU hyperphenylalaninemia finding is a hyperphenylalaninemia finding based on the value of blood phenylalanine concentration measurement datum greater than 360 &#x3BC;mol/L (10 mg/dL) for which it has been clinically established as being indicative of phenylketonuria (PKU).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -5818,7 +6105,94 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6832076">
         <rdfs:label rdf:datatype="&xsd;string">mild PKU hyperphenylalaninemia finding</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/ -->  <!-- PKU hyperphenylalaninemia finding -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8464423"/>  <!-- PKU hyperphenylalaninemia finding -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1932532"/> <!-- is interpretation -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_0630865"/>  <!-- blood Phe concentration measurment datum -->
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/>  <!-- has measurement unit label -->
+                                                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5263648"/>  <!-- milligram per deciliter -->
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measurement value -->
+                                                        <owl:someValuesFrom>
+                                 							<rdfs:Datatype>
+                                    							<owl:intersectionOf rdf:parseType="Collection">
+                                         							<rdfs:Datatype>
+                                             							<owl:onDatatype rdf:resource="&xsd;float"/>
+                                                							<owl:withRestrictions rdf:parseType="Collection">
+                                                    							<rdf:Description>
+                                                        							<xsd:minInclusive rdf:datatype="&xsd;float">10.0</xsd:minInclusive>
+                                                         						</rdf:Description>
+                                                     						</owl:withRestrictions>
+                                            						</rdfs:Datatype>
+                                            						<rdfs:Datatype>
+                                                						<owl:onDatatype rdf:resource="&xsd;float"/>
+                                                							<owl:withRestrictions rdf:parseType="Collection">
+                                                    							<rdf:Description>
+                                                        							<xsd:maxExclusive rdf:datatype="&xsd;float">15.0</xsd:maxExclusive>
+                                                        						</rdf:Description>
+                                                    						</owl:withRestrictions>
+                                                					</rdfs:Datatype>
+                                        						</owl:intersectionOf>
+                                    						</rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/>   <!-- has measurement unit label -->
+                                                        <owl:someValuesFrom rdf:resource="&obo;UO_0000063"/>  <!-- micromolar -->
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>   <!-- has measurement value -->
+                                                        <owl:someValuesFrom>
+                                 							<rdfs:Datatype>
+                                    							<owl:intersectionOf rdf:parseType="Collection">
+                                         							<rdfs:Datatype>
+                                             							<owl:onDatatype rdf:resource="&xsd;float"/>
+                                                							<owl:withRestrictions rdf:parseType="Collection">
+                                                    							<rdf:Description>
+                                                        							<xsd:minInclusive rdf:datatype="&xsd;float">360.0</xsd:minInclusive>
+                                                         						</rdf:Description>
+                                                     						</owl:withRestrictions>
+                                            						</rdfs:Datatype>
+                                            						<rdfs:Datatype>
+                                                						<owl:onDatatype rdf:resource="&xsd;float"/>
+                                                							<owl:withRestrictions rdf:parseType="Collection">
+                                                    							<rdf:Description>
+                                                        							<xsd:maxExclusive rdf:datatype="&xsd;float">900.0</xsd:maxExclusive>
+                                                        						</rdf:Description>
+                                                    						</owl:withRestrictions>
+                                                					</rdfs:Datatype>
+                                        						</owl:intersectionOf>
+                                    						</rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Mild PKU hyperphenylalaninemia finding is a PKU hyperphenylalaninemia finding based on the value of blood phenylalanine concentration measurement datum falling within the range of 360 - 900 &#x3BC;mol/L (or 10 - 15 mg/dL).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -5829,7 +6203,94 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0134074">
         <rdfs:label rdf:datatype="&xsd;string">moderate PKU hyperphenylalaninemia finding</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/ --> <!-- PKU hyperphenylalaninemia finding -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8464423"/>  <!-- PKU hyperphenylalaninemia finding -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1932532"/> <!-- is interpretation -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_0630865"/>  <!-- blood Phe concentration measurment datum -->
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/>  <!-- has measurement unit label -->
+                                                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5263648"/>  <!-- milligram per deciliter -->
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measurement value -->
+                                                        <owl:someValuesFrom>
+                                 							<rdfs:Datatype>
+                                    							<owl:intersectionOf rdf:parseType="Collection">
+                                         							<rdfs:Datatype>
+                                             							<owl:onDatatype rdf:resource="&xsd;float"/>
+                                                							<owl:withRestrictions rdf:parseType="Collection">
+                                                    							<rdf:Description>
+                                                        							<xsd:minInclusive rdf:datatype="&xsd;float">15.0</xsd:minInclusive>
+                                                         						</rdf:Description>
+                                                     						</owl:withRestrictions>
+                                            						</rdfs:Datatype>
+                                            						<rdfs:Datatype>
+                                                						<owl:onDatatype rdf:resource="&xsd;float"/>
+                                                							<owl:withRestrictions rdf:parseType="Collection">
+                                                    							<rdf:Description>
+                                                        							<xsd:maxExclusive rdf:datatype="&xsd;float">20.0</xsd:maxExclusive>
+                                                        						</rdf:Description>
+                                                    						</owl:withRestrictions>
+                                                					</rdfs:Datatype>
+                                        						</owl:intersectionOf>
+                                    						</rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/>   <!-- has measurement unit label -->
+                                                        <owl:someValuesFrom rdf:resource="&obo;UO_0000063"/>  <!-- micromolar -->
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>   <!-- has measurement value -->
+                                                        <owl:someValuesFrom>
+                                 							<rdfs:Datatype>
+                                    							<owl:intersectionOf rdf:parseType="Collection">
+                                         							<rdfs:Datatype>
+                                             							<owl:onDatatype rdf:resource="&xsd;float"/>
+                                                							<owl:withRestrictions rdf:parseType="Collection">
+                                                    							<rdf:Description>
+                                                        							<xsd:minInclusive rdf:datatype="&xsd;float">900.0</xsd:minInclusive>
+                                                         						</rdf:Description>
+                                                     						</owl:withRestrictions>
+                                            						</rdfs:Datatype>
+                                            						<rdfs:Datatype>
+                                                						<owl:onDatatype rdf:resource="&xsd;float"/>
+                                                							<owl:withRestrictions rdf:parseType="Collection">
+                                                    							<rdf:Description>
+                                                        							<xsd:maxExclusive rdf:datatype="&xsd;float">1200.0</xsd:maxExclusive>
+                                                        						</rdf:Description>
+                                                    						</owl:withRestrictions>
+                                                					</rdfs:Datatype>
+                                        						</owl:intersectionOf>
+                                    						</rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Moderate PKU hyperphenylalaninemia finding is a hyperphenylalaninemia finding based on the value of blood phenylalanine concentration measurement datum falling within the range of 900 - 1200 &#x3BC;mol/L (or 15 - 20 mg/dL).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -5840,7 +6301,70 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0014697">
         <rdfs:label rdf:datatype="&xsd;string">classic PKU hyperphenylalaninemia finding</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/ -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8464423"/>  <!-- PKU hyperphenylalaninemia finding -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1932532"/> <!-- is interpretation -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_0630865"/>  <!-- blood Phe concentration measurment datum -->
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/>  <!-- has measurement unit label -->
+                                                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5263648"/>  <!-- milligram per deciliter -->
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measurement value -->
+                                                        <owl:someValuesFrom>
+                                                            <rdfs:Datatype>
+                                                                <owl:onDatatype rdf:resource="&xsd;float"/>
+                                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                                    <rdf:Description>
+                                                                        <xsd:minInclusive rdf:datatype="&xsd;float">20.0</xsd:minInclusive>
+                                                                    </rdf:Description>
+                                                                </owl:withRestrictions>
+                                                            </rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/>   <!-- has measurement unit label -->
+                                                        <owl:someValuesFrom rdf:resource="&obo;UO_0000063"/>  <!-- micromolar -->
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>   <!-- has measurement value -->
+                                                        <owl:someValuesFrom>
+                                                            <rdfs:Datatype>
+                                                                <owl:onDatatype rdf:resource="&xsd;float"/>
+                                                                <owl:withRestrictions rdf:parseType="Collection">
+                                                                    <rdf:Description>
+                                                                        <xsd:minInclusive rdf:datatype="&xsd;float">1200.0</xsd:minInclusive>
+                                                                    </rdf:Description>
+                                                                </owl:withRestrictions>
+                                                            </rdfs:Datatype>
+                                                        </owl:someValuesFrom>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Classic PKU hyperphenylalaninemia finding is a hyperphenylalaninemia finding based on the value of blood phenylalanine concentration measurement datum that is greater than 1200 &#x3BC;mol/L (or 20 mg/dL).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -5851,7 +6375,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8335262">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration finding</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1445519"/>
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1445519"/ -->
+        <owl:equivalentClass>  
+          <owl:Class>  
+             <owl:intersectionOf rdf:parseType="Collection">
+                 <rdf:Description rdf:about="&ONSTR;ONSTR_1445519"/> <!-- Phe concentration finding -->    
+                     <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1932532"/>  <!-- is interpretation of -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1115755"/>  <!-- CSF Phe concentration measurement datum -->
+                    </owl:Restriction>
+             </owl:intersectionOf>
+           </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid phenylalanine concentration finding is a phenylalanine concentration finding that is physician&apos;s interpretation of the value of cerebrospinal fluid phenylalanine concentration measurement datum, and that is based cerebrospinal fluid phenyalanine concentration reference value ranges established through clinical research.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -5897,7 +6432,7 @@ people infected, then extract parasite which are then tested = observation study
                                                 				<owl:intersectionOf rdf:parseType="Collection">
                                                     				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
                                         	                        <owl:Restriction>
-                                                        				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
+                                                        				<owl:onProperty rdf:resource="&OBO_REL;towards"/>  <!-- towards --> 
                                                         			    <owl:someValuesFrom>
                                                         			    	<owl:Class>
                                                         			    		<owl:intersectionOf rdf:parseType="Collection">
@@ -5955,10 +6490,7 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
                     	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
-                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2219307"/> <!-- CSF Phe concentration measur assay --> 
-                    	</owl:Restriction>
-                    	<owl:Restriction>
+                    	<!-- NEED to ADD is specif output of some assay -->
                         	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
                         		<owl:someValuesFrom>
                             		<owl:Class>
@@ -6002,19 +6534,6 @@ people infected, then extract parasite which are then tested = observation study
  	    </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid phenylalanine concentration mesasurement datum is a concentration measurement datum that is the output of the cerebrospinal fluid phenylalanine concentration measurement assay that measures the concentration of the amino acid phenylalanine in human cerebrospinal fluid.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
-    </owl:Class>
-
-
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2219307 --> <!-- cerebrospinal fluid phenylalanine concentration measurement assay -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_2219307">
-        <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration measurement assay</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
-        <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid phenylalanine concentration measurement assay is a clinical chemistry assay that determines the quantity of phenylalanine in the cerebrospinal fluid specimen derived from human cerebrospinal fluid.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition needs fixing, or maybe this class needs to be deprecated.</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">CSF phenylalanine concentration test</skos:altLabel>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
 
@@ -19625,8 +20144,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4929872">
         <rdfs:label rdf:datatype="&xsd;string">hydrolyzed formula</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3617918"/>  
-        <skos:definition rdf:datatype="&xsd;string">Hydrolyzed formula is a nutritional formula that contains hydrolyzed proteins and ....ADD TEXT!!</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source:  ADD TEXT!!</rdfs:comment>    
+        <skos:definition rdf:datatype="&xsd;string">Hydrolyzed formula is a nutritional formula that contains hydrolyzed proteins.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Need better definiton for this class.</skos:editorialNote>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curtors.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
           
@@ -20641,20 +21161,22 @@ We have had a long discussion about denotes versus describes.</skos:definition>
    <!-- ONSTR OBJECT PROPERTIES	 -->
      
  
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5859795 -->  <!-- has finding -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5859795 -->  <!-- has interpretation -->
 
     <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_5859795">
-        <rdfs:label rdf:datatype="&xsd;string">has finding</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">Relates disease or quality [snap:specificallyDependentContinuan] to a clinical finding.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">has interpretation</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A realtion between two information content enetities a scalar measurement datum and clinical finding, where an instancle of clinical finding is an interperetation of a given scala measurement datum based on the vlaue thereof.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">This relation is not stable and may be obsoloteted at a later date.</skos:editorialNote>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:ObjectProperty>
     
     
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1932532 -->  <!-- is finding of -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1932532 -->  <!-- is interpretation of -->
 
     <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_1932532">
-        <rdfs:label rdf:datatype="&xsd;string">is finding of</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">Relates the clinical finding and disease or quality [snap:specificallyDependentContinuan].</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">is interpretation of</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">A realtion between two information content enetities a scalar measurement datum and clinical finding, where an instancle of clinical finding is an interperetation of a given scala measurement datum based on the vlaue thereof.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">This relation is not stable and may be obsoloteted at a later date.</skos:editorialNote>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
         <owl:inverseOf rdf:resource="&ONSTR;ONSTR_5859795"/>
     </owl:ObjectProperty>   
@@ -20737,7 +21259,10 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 		<owl:inverseOf rdf:resource="&ONSTR;ONSTR_2222222"/>
         <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding (or more appropriate) OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
     </owl:ObjectProperty>
-      
+ 
+    <!-- END TEMPORARY ONSTR relations -->  
+   
+   
    
     <!--  DATATYPE PROPERTIES -->   
     
