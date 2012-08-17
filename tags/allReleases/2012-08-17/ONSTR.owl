@@ -43,7 +43,7 @@
      
      
     <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR.owl">
-        <owl:versionInfo rdf:datatype="&xsd;string">v0.1</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="&xsd;string">0.1</owl:versionInfo>
         <dc:date rdf:datatype="&xsd;string">2012-08-17</dc:date>
         <owl:versionInfo rdf:datatype="&xsd;string">v0.1 based on SVN revision r268</owl:versionInfo>
         <owl:versionIRI rdf:resource="http://onstr.googlecode.com/svn/tags/allReleases/2012-08-17/ONSTR.owl"/>
