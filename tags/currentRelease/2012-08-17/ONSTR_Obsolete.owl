@@ -27,7 +27,7 @@
      
      
     <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/tags/currentRelease/2012-08-17/ONSTR_Obsolete.owl">
-        <owl:versionInfo rdf:datatype="&xsd;string">v0.1</owl:versionInfo>
+        <owl:versionInfo rdf:datatype="&xsd;string">0.1</owl:versionInfo>
         <dc:date rdf:datatype="&xsd;string">2012-08-17</dc:date>
         <owl:versionInfo rdf:datatype="&xsd;string">v0.1 based on SVN revision r268</owl:versionInfo>
         <dc:description rdf:datatype="&xsd;string">This file is a general purpose storage space for all ONSTR native obsoleted (deprecated) classes and relations (object properties)</dc:description>
