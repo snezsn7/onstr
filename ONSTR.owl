@@ -5144,7 +5144,8 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
-         <!-- http://purl.obolibrary.org/obo/UO_0000111 -->  <!-- energy unit -->
+    
+    <!-- http://purl.obolibrary.org/obo/UO_0000111 -->  <!-- energy unit -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000111">
         <rdfs:label rdf:datatype="&xsd;string">energy unit</rdfs:label>
@@ -5152,7 +5153,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A derived unit which is a standard measure of the work done by a certain force (gravitational, electric, magnetic, force of inertia, etc).</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
-    
+   
     
      <!-- http://purl.obolibrary.org/obo/UO_0000112 -->  <!-- joule -->
 
@@ -5356,7 +5357,6 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
 <!-- END OGMS IMPORTS -->
-
 <!-- END ALL IMPORTED CLASSES --> 
    
 	<!--  				 -->
@@ -6467,7 +6467,22 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition needs fixing, or maybe this class needs to be deprecated.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
-    </owl:Class>
+    </owl:Class> 
+   
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6487114 --> <!-- blood tyrosine concentration measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6487114">
+        <rdfs:label rdf:datatype="&xsd;string">blood tyrosine concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>
+        <skos:definition rdf:datatype="&xsd;string">Blood tyrosine concentration measurement datum is a concentration measurement datum that is the output of tandem mass spectrometry, or high performance liquid chromatography or liquid chromatography-tandem mass spectrometry and that measures the concentration of amino acid tyrosine in human blood plasma specimen or dried blood spot eluate.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Tyr concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Tyr</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Tyr</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Tyr level</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
    
 
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1115755 --> <!-- cerebrospinal fluid phenylalanine concentration measurement datum -->
@@ -9872,8 +9887,69 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>  
      
+     
+      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7714709-->  <!-- equivalent unit -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7714709">
+        <rdfs:label rdf:datatype="&xsd;string">equivalent unit</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
+        <skos:definition rdf:datatype="&xsd;string">Equivalent is a derived unit that is a unit of the amount of substance which reacts with or supply one mole of hydrogen ions (H+) or which reacts with or supply one mole of electrons in a redox reaction.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Equivalent_(chemistry)</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">This definition is not all that good. Need to formulate a better one, from a better source.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">eq</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">equivalent</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Eq</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">molar equivalent</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7755457-->  <!-- milliequivalent-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7755457">
+        <rdfs:label rdf:datatype="&xsd;string">milliequivalent</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
+        <skos:definition rdf:datatype="&xsd;string">Milliequivalent is a derived unit (unit of substance) equal to one thousandth of an equivalent unit.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">meq</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mEq</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3638696-->  <!-- milliequivalent per day-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3638696">
+        <rdfs:label rdf:datatype="&xsd;string">milliequivalent per day</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/>  <!-- dietary nutrient intake per unit time -->
+        <skos:definition rdf:datatype="&xsd;string">Milliequivalent per day is a dietary nutrient intake per unit time that is equal to dietary nutrient (usually electrolyte or trace element) intake of 1 mEq (one milliequivalent) in 1 d (day) time interval.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">meq/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mEq/d</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0013573-->  <!-- milliequivalent per kilogram per day-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0013573">
+        <rdfs:label rdf:datatype="&xsd;string">milliequivalent per kilogram per day</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0032940"/>  <!-- dietary nutrient intake per unit time -->
+        <skos:definition rdf:datatype="&xsd;string">Milliequivalent per kilogram per day is a dietary nutrient intake per unit time equal to dietary nutrient (usually electrolyte or trace element) intake of 1 mEq (one milliequivalent) per 1 kg of human body mass in 1 d (day) time interval.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">meq/kg/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mEq/kg/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">(meq/kg)/d</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">(mEq/kg)/d</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
     
      <!-- MERE OVDE -->  
+    
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8199564 -->  <!-- average daily dietary nutrient intake during observed time interval datum  -->
 
@@ -20264,6 +20340,32 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1278470 -->  <!-- pediatric parenteral multivitamin solution  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1278470">
+        <rdfs:label rdf:datatype="&xsd;string">pediatric parenteral multivitamin solution</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0339986"/>  
+        <skos:definition rdf:datatype="&xsd;string">Pediatric parenteral multivitamin solution is a parenteral multivitamin solution formulated for infants and children younger than 11 years of age, and specifically for incorporation into intravenous infusions or other kinds of parenteral solutions (e.g. parenteral three-in-one solution).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Some parenteral multivitamin solutions need to be reconstituted (diluted in sterile water) before administration.</rdfs:comment>
+        <skos:example rdf:datatype="&xsd;string">pediatric MVI-12</skos:example>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3167688 -->  <!-- adult parenteral multivitamin solution  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3167688">
+        <rdfs:label rdf:datatype="&xsd;string">adult parenteral multivitamin solution</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0339986"/>  
+        <skos:definition rdf:datatype="&xsd;string">Adult parenteral multivitamin solution is a parenteral multivitamin solution formulated for adults and children older than 11 years of age, and for incorporation into intravenous infusions or other kinds of parenteral solutions (e.g. parenteral three-in-one solution).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Some parenteral multivitamin solutions need to be reconstituted (diluted in sterile water) before administration.</rdfs:comment>
+        <skos:example rdf:datatype="&xsd;string">MVI-12</skos:example>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3203924 -->  <!-- parenteral trace element solution  -->
 
@@ -20271,10 +20373,34 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">parenteral trace element solution</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7534799"/>   
         <skos:definition rdf:datatype="&xsd;string">Parenteral trace element solution is a parenteral nutrition solution containing sterile water and on or more chemical compounds containing trace elements essential for human metabolism.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source:Asfaw, M., Buchanan, C., Davis, R., Glassman, M., Noakes, W., O'Leary, E.,Wasseff, S. (1993) Pediatric parenteral nutrition support handobook. Nutrition support service, Egleston Children's Hospital, Emory University, Atlanta, GA, pp. 6-10.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Asfaw, M., Buchanan, C., Davis, R., Glassman, M., Noakes, W., O'Leary, E.,Wasseff, S. (1993) Pediatric parenteral nutrition support handobook. Nutrition support service, Egleston Children's Hospital, Emory University, Atlanta, GA, pp. 6-10.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">parenteral trace mineral solution</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4706181 -->  <!-- pediatric parenteral trace element solution  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4706181">
+        <rdfs:label rdf:datatype="&xsd;string">pediatric parenteral trace element solution</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3203924"/> 
+        <skos:definition rdf:datatype="&xsd;string">Pediatric trace element nutrient solution is a parenteral trace elements solution containing a combination of certain trace element micronutrients in various amounts, formulated for adults and children older than 11 years of age.</skos:definition>
+        <skos:example rdf:datatype="&xsd;string">Multitrace-4 Pediatric or Neonatal, Pedtrace-4, PedTE-PAK-4</skos:example>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5125591 -->  <!-- adult parenteral trace element solution  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5125591">
+        <rdfs:label rdf:datatype="&xsd;string">adult parenteral trace element solution</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3203924"/>   
+        <skos:definition rdf:datatype="&xsd;string">Adult trace element nutrient solution is a parenteral trace elements solution containing a combination of trace element micronutrients in various amounts, formulated for adults and children older than 11 years of age.</skos:definition>
+        <skos:example rdf:datatype="&xsd;string">Multitrace-5</skos:example>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4766320 -->  <!-- parenteral two-in-one solution  -->
@@ -21002,11 +21128,8 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
   
-      
-    
-<!-- New Classes Here -->
 
-
+<!-- New Classes Ovde -->
 
 
 	<!--  				     -->
