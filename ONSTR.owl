@@ -6585,15 +6585,34 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
 
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7156237 --> <!-- blood amino acid concentration measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7156237">
+        <rdfs:label rdf:datatype="&xsd;string">blood amino acid concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/> <!-- concentration measurement datum -->
+        <skos:definition rdf:datatype="&xsd;string">Blood amino acid concentration measurement datum is a concentration measurement datum that is the output of various measurement assays (electrophoresis, gas chromatography, liquid chromatography, liquid chromatography-mass spectrometry, liquid chromatography-tandem mass spectrometry, ion exchange chromatography) measuring the concentration of an observed amino acid in human blood specimen (blood plasma specimen, or dried blood spot eluate).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.obolibrary.org/obo/VT_0005311</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
+        <skos:altLabel rdf:datatype="&xsd;string">blood amino acid concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood amino acid level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood amino acid content</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">circulating amino acid level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood amino acid measurement</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+
+
+
+
      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0630865 --> <!-- blood phenylalanine concentration measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0630865">
         <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/ -->
          <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_7156237"/>  <!-- blood amino acid concentration measurement datum -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                         	<owl:someValuesFrom>
@@ -6665,9 +6684,17 @@ people infected, then extract parasite which are then tested = observation study
  			    </owl:intersectionOf>
  			</owl:Class>
  	    </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration mesasurement datum is a concentration measurement datum that is the output of tandem mass specterometry or high performance liquid chromatography or liquid chromatography-mass spectrometry bacterial inhibiton assay measuring the conentration of the amino acid phenylalanine in human blood specimen, blood plasma specimen or dried blood spot eluate.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition needs fixing, or maybe this class needs to be deprecated.</rdfs:comment>
+        <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration mesasurement datum is a blood amino acid concentration measurement datum that is the output of tandem mass specterometry or high performance liquid chromatography or liquid chromatography-mass spectrometry or bacterial inhibiton assay measuring the conentration of the amino acid phenylalanine in human blood specimen, blood plasma specimen or dried blood spot eluate.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">blood phenylalanine concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Phe</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood phenylalanine level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Phe level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma phenylalanine concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma phenylalanine level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Phe level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma phenylalanine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Phe</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class> 
    
@@ -6676,12 +6703,16 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6487114">
         <rdfs:label rdf:datatype="&xsd;string">blood tyrosine concentration measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>
-        <skos:definition rdf:datatype="&xsd;string">Blood tyrosine concentration measurement datum is a concentration measurement datum that is the output of tandem mass spectrometry, or high performance liquid chromatography or liquid chromatography-tandem mass spectrometry and that measures the concentration of amino acid tyrosine in human blood plasma specimen or dried blood spot eluate.</skos:definition>
-        <skos:altLabel rdf:datatype="&xsd;string">blood Tyr concentration</skos:altLabel>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
+        <skos:definition rdf:datatype="&xsd;string">Blood tyrosine concentration measurement datum is a blood amino acid concentration measurement datum that provides the information about the quantity of amino acid alanine in the human blood specimen.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">blood tyrosine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood Tyr</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">plasma Tyr</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood tyrosine level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Tyr level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma tyrosine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Tyr level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Tyr</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma tyrosine measurement</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
