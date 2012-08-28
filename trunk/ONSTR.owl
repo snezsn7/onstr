@@ -3433,7 +3433,7 @@ people infected, then extract parasite which are then tested = observation study
     		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33709"/> <!-- amino acid -->
             <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
         </owl:Class>
-      
+        
     
       <!-- http://purl.obolibrary.org/obo/CHEBI_18257 --> <!-- ornithine -->
       
@@ -3742,6 +3742,46 @@ people infected, then extract parasite which are then tested = observation study
             <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
      
+     
+     <!-- http://purl.obolibrary.org/obo/CHEBI_24610 --> <!-- homocysteines -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24610">
+    		<rdfs:label rdf:datatype="&xsd;string">homocysteines</rdfs:label> 
+            <rdfs:subClassOf rdf:resource="&obo;CHEBI_25359"/>  <!-- modified amino acid -->  
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.obolibrary.org/obo/CHEBI_17230 --> <!-- homocysteine -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17230">
+    		<rdfs:label rdf:datatype="&xsd;string">homocysteine</rdfs:label> 
+            <rdfs:subClassOf rdf:resource="&obo;CHEBI_24610"/>
+            <skos:definition rdf:datatype="&xsd;string">A sulfur-containing amino acid consisting of a glycine core with a 2-mercaptoethyl side-chain.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+     
+     
+     <!-- http://purl.obolibrary.org/obo/CHEBI_24612 --> <!-- homocystines -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24612">
+    		<rdfs:label rdf:datatype="&xsd;string">homocystines</rdfs:label> 
+            <rdfs:subClassOf rdf:resource="&obo;CHEBI_25359"/>  <!-- modified amino acid -->
+            <skos:definition rdf:datatype="&xsd;string">A class of modified amino acids obtained by oxidative dimerisation of homocysteine and its derivatives.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+      <!-- http://purl.obolibrary.org/obo/CHEBI_17485 --> <!-- homocystine -->
+      
+  		<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17485">
+    		<rdfs:label rdf:datatype="&xsd;string">homocystine</rdfs:label> 
+            <rdfs:subClassOf rdf:resource="&obo;CHEBI_24612"/>  <!-- homocystines -->
+            <skos:definition rdf:datatype="&xsd;string">An organic disulfide obtained by oxidative dimerisation of homocysteine.</skos:definition>
+            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
      
      <!-- http://purl.obolibrary.org/obo/CHEBI_23324 --> <!-- citrullines -->
       
