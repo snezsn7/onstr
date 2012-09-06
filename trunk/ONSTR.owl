@@ -7137,6 +7137,62 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2522542 --> <!-- blood vitamin C concentration measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2522542">
+        <rdfs:label rdf:datatype="&xsd;string">blood vitamin C concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurment datum -->
+        <skos:definition rdf:datatype="&xsd;string">Blood vitamin C concentration measurement datum is a concentration measurement datum that is the output of the immunoassay or high performance liquid chromatography providing the information about the quantity of the acorbic acid (vitamin C) in the whole or (Lithium-heparine diluted) human blood plasma.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">blood vitamin C concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood vitamin C level</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Vitamin C (ascorbic acid) HPLC retrieved from http://www.alpco.com/pdfs/30/30-2009.pdf</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+ 
+ 
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2786064 --> <!-- blood plasma vitamin B6 concentration measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2786064">
+        <rdfs:label rdf:datatype="&xsd;string">blood plasma vitamin B6 concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurment datum -->
+        <skos:definition rdf:datatype="&xsd;string">Blood plasma vitamin B6 concentration measurement datum  is a concentration measurement datum that is the output of liquid chromatography-tandem mass spectrometry measuring the total quantity of all vitamin B6 forms present in the blood of more specifically, vitamin B6 in the form of pyridoxal-5&apos;'-phosphate, in the human blood plasma specimen.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma B6 level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma B6 concentration</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+ 
+ 
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2966439 --> <!-- blood plasma vitamin B12 concentration measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2966439">
+        <rdfs:label rdf:datatype="&xsd;string">blood plasma vitamin B12 concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurment datum -->
+        <skos:definition rdf:datatype="&xsd;string">Blood vitamin B12 concentration measurement datum is a concentration measurement datum that is the output of the immunoassay (or radioimmunoassay) measuring the quantity of vitamin B12 (in the form of cob(III)alamine and cyanocobalalmine) in the human blood serum or plasma specimen.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma B12 level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma B12 concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum B12 level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum B12 concentration</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+ 
+ 
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9960504 --> <!-- blood plasma folate concentration measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9960504">
+        <rdfs:label rdf:datatype="&xsd;string">blood plasma folate concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurment datum -->
+        <skos:definition rdf:datatype="&xsd;string">Blood serum folate concentration measurement datum is a concentration measurement datum that is the output of the immunoassay measuring the quantity of folic acid (folate) in the human blood serum or plasma specimen.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma folate level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma folate concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum folate level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum folate concentration</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.webmed.com/diet/folic-acid</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+ 
+     
  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2366136 --> <!-- blood vitamin D concentration measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2366136">
@@ -7149,7 +7205,6 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/</rdfs:comment>        
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-   
    
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9243312 --> <!-- blood 25-hydroxyvitamin D concentration measurement datum -->
 
