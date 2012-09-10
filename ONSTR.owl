@@ -1365,6 +1365,8 @@ people infected, then extract parasite which are then tested = observation study
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
    </owl:Class>
    
+     
+   
    
 <!-- END ERO IMPORTS -->   
 <!-- START PATO IMPORTS -->    
@@ -6584,13 +6586,24 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
+  
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5020674 --> <!-- blood  amino acid concentration measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5020674">
+        <rdfs:label rdf:datatype="&xsd;string">blood amino acid concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/> <!-- concentration measurement datum -->
+        <skos:definition rdf:datatype="&xsd;string">Blood amino acid concentration measurement datum is a concentration measurement datum that provides the information about the quantity of an observed amino acid in the human whole blood specimen or blood plasma specimen.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
 
      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7156237 --> <!-- blood plasma amino acid concentration measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7156237">
         <rdfs:label rdf:datatype="&xsd;string">blood plasma amino acid concentration measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/> <!-- concentration measurement datum -->
-        <skos:definition rdf:datatype="&xsd;string">Blood plasma amino acid concentration measurement datum is a concentration measurement datum that is the output of various measurement assays (electrophoresis, gas chromatography, liquid chromatography, liquid chromatography-mass spectrometry, liquid chromatography-tandem mass spectrometry, ion exchange chromatography) measuring the concentration of an observed amino acid in human blood plasma specimen.</skos:definition>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5020674"/> <!-- blood amino acid concentration measurement datum -->
+        <skos:definition rdf:datatype="&xsd;string">Blood plasma amino acid concentration measurement datum is a blood amino acid concentration measurement datum that is the output of various measurement assays (electrophoresis, gas chromatography, liquid chromatography, liquid chromatography-mass spectrometry, liquid chromatography-tandem mass spectrometry, ion exchange chromatography) measuring the concentration of an observed amino acid in human blood plasma specimen.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.obolibrary.org/obo/VT_0005311</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
         <skos:altLabel rdf:datatype="&xsd;string">plasma amino acid concentration</skos:altLabel>
@@ -7060,8 +7073,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3202058">
         <rdfs:label rdf:datatype="&xsd;string">whole blood amino acid concentration measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>
-        <skos:definition rdf:datatype="&xsd;string">Whole blood amino acid concentration measurement datum is a concentration measurement datum that is the output of bacterial inhibition assay or other assays (electrophoresis, gas chromatography, liquid chromatography, liquid chromatography-mass spectrometry) measuring the concentration of an observed amino acid in human blood specimen (whole blood specimen, or dried blood spot eluate).</skos:definition>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5020674"/>  <!-- blood amino acid concentration measurement datum -->
+        <skos:definition rdf:datatype="&xsd;string">Whole blood amino acid concentration measurement datum is a blood amino acid concentration measurement datum that is the output of bacterial inhibition assay or other assays (electrophoresis, gas chromatography, liquid chromatography, liquid chromatography-mass spectrometry) measuring the concentration of an observed amino acid in human blood specimen (whole blood specimen, or dried blood spot eluate).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
