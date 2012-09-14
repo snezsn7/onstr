@@ -11466,10 +11466,23 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Average daily isoleucine intake during observed time interval is an average daily dietary amino acid intake during observed time interval denoting the average quantity of amino acid isoleucine contained in all nutritional items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Ile intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily Ile intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean isoleucine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4568823 -->  <!-- low average daily dietary isoleucine intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4568823">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary isoleucine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2625983"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary isoleucine intake is an average daily dietary isoleucine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary isoleucine for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean isoleucine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+       
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4914732 -->  <!-- average daily dietary leucine intake during observed time interval  -->
 
@@ -11479,10 +11492,23 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Average daily leucine intake during observed time interval is an average daily dietary amino acid intake during observed time interval denoting the average quantity of amino acid leucine contained in all nutritional items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Leu intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily Leu intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean leucine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3418254 -->  <!-- low average daily dietary leucine intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3418254">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary leucine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4914732"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary leucine intake is an average daily dietary leucine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary leucine for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean leucine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5471926 -->  <!-- average daily dietary lysine intake during observed time interval  -->
 
@@ -11492,7 +11518,20 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Average daily lysine intake during observed time interval is an average daily dietary amino acid intake during observed time interval denoting the average quantity of amino acid lysine contained in all nutritional items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Lys intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily Lys intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean lysine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4867208 -->  <!-- low average daily dietary lysine intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4867208">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary lysine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5471926"/> 
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary lysine intake is an average daily dietary lysine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary lysine for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean lysine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -11505,11 +11544,24 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Average daily histidine intake during observed time interval is an average daily dietary amino acid intake during observed time interval denoting the average quantity of amino acid histidine contained in all nutritional items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">average daily dietary His intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily His intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean histidine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0810120 -->  <!-- average daily dietary histidine intake-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0810120">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary histidine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9099585"/> 
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary histidine intake is an average daily dietary histidine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary histidine for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean histidine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
+         
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9261993 -->  <!-- average daily dietary methionine intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9261993">
@@ -11557,9 +11609,22 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Average daily threonine intake during observed time interval is an average daily dietary amino acid intake during observed time interval denoting the average quantity of amino acid threonine contained in all nutritional items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Thr intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily Thr intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean threonine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3842980 -->  <!-- low average daily dietary threonine intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3842980">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary threonine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0348887"/>   
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary threonine intake is an average daily dietary threonine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary threonine for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean threonine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>    
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8468666 -->  <!-- average daily dietary tryptophan intake during observed time interval  -->
@@ -11570,10 +11635,23 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Average daily tryptophan intake during observed time interval is an average daily dietary amino acid intake during observed time interval denoting the average quantity of amino acid tryptophan contained in all nutritional items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Trp intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily Trp intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean tryptophan intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0645128 -->  <!-- low average daily dietary tryptophan intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0645128">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary tryptophan intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8468666"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary tryptophan intake is an average daily dietary tryptophan intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary tryptophan for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean tryptophan intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6254359 -->  <!-- average daily dietary valine intake during observed time interval  -->
 
@@ -11583,7 +11661,20 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Average daily valine intake during observed time interval is an average daily dietary amino acid intake during observed time interval denoting the average quantity of amino acid valine contained in all nutritional items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">average daily dietary Val intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily Val intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean valin intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+  
+  
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6514703 -->  <!-- low average daily dietary valine intake-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6514703">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary valine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6254359"/>   
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary valine intake is an average daily dietary valine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary valine for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean valin intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
