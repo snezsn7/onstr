@@ -11222,6 +11222,18 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0265675 -->  <!-- average daily dietary alpha-linolenic acid intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0265675">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary alpha-linolenic acid intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8208187"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary alpha-linolenic acid intake is an average daily dietary alpha-linolenic acid intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary alpha-linolenic acid (aLnA) for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean alpha-linolenic acid intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.122-139.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7192524 -->  <!-- average daily dietary linoleic acid intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7192524">
@@ -11230,10 +11242,23 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary linoleic acid intake over observed time interval datum is an average daily dietary fatty acid intake during observed time interval denoting the average quantity of linoleic acid contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">average daily LA intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily LA intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean linoleic acid intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0981568 -->  <!-- low average daily dietary linoleic acid intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0981568">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary linoleic acid intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7192524"/> 
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary linoleic acid intake is an average daily dietary linoleic acid intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary linoleic acid (LA) for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean linoleic acid intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.122-139.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+       
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7733244 -->  <!-- average daily dietary arachidonic acid intake during observed time interval  -->
 
