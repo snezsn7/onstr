@@ -11502,7 +11502,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4568823">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary isoleucine intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2625983"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary isoleucine intake is an average daily dietary isoleucine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary isoleucine for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary isoleucine intake is an average daily dietary isoleucine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary isoleucine for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean isoleucine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11528,7 +11528,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3418254">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary leucine intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4914732"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary leucine intake is an average daily dietary leucine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary leucine for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary leucine intake is an average daily dietary leucine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary leucine for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean leucine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11554,7 +11554,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4867208">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary lysine intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5471926"/> 
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary lysine intake is an average daily dietary lysine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary lysine for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary lysine intake is an average daily dietary lysine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary lysine for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean lysine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11580,7 +11580,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0810120">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary histidine intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9099585"/> 
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary histidine intake is an average daily dietary histidine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary histidine for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary histidine intake is an average daily dietary histidine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary histidine for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean histidine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11645,7 +11645,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3842980">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary threonine intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0348887"/>   
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary threonine intake is an average daily dietary threonine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary threonine for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary threonine intake is an average daily dietary threonine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary threonine for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean threonine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11671,7 +11671,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0645128">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary tryptophan intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8468666"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary tryptophan intake is an average daily dietary tryptophan intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary tryptophan for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary tryptophan intake is an average daily dietary tryptophan intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary tryptophan for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean tryptophan intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11697,7 +11697,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6514703">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary valine intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6254359"/>   
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary valine intake is an average daily dietary valine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary valine for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary valine intake is an average daily dietary valine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary valine for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean valin intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11771,7 +11771,20 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin A intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of vitamin A contained in all nutritional items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">daily vitamin A intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily retinol intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean vitamin A intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6330670 -->  <!-- low average daily dietary vitamin A intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6330670">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary vitamin A intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6081701"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary vitamin A intake is an average daily dietary vitamin A intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary vitamin A for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean vitamin A intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.170-181.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
@@ -11821,9 +11834,23 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin B6 intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of vitamin B6 contained in all nutritional items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary vitamin B6 intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Vitamin B6 in the ONSTR definition refers to all currently known forms of vitamin B6: pyridoxine (PN), pyridoxine 5&apos;-phosphate (PNP), pyridoxal (PL), pyridoxal 5&apos;-phosphate (PLP), pyridoxamine (PM), pyridoxamine 5&apos;-phosphate (PMP), 4-pyridoxic acid (PA). [Source: http://en.wikipedia.org/wiki/Vitamin_B6 ]</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">mean vitamin B6 intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4900837 -->  <!-- low average daily dietary vitamin B6 intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4900837">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary vitamin B6 intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2760775"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary vitamin B6 intake is an average daily dietary vitamin B6 intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary vitamin B6 for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean vitamin B6 intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.182-187.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4999812 -->  <!-- average daily dietary vitamin B12 intake during observed time interval  -->
@@ -11877,9 +11904,22 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">daily vitamin B12 intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily cobalamine intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">average daily dietary cobalamine intake during observed time interval</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean vitamin B12 intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0966715 -->  <!-- low average daily dietary vitamin B12 intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0966715">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary vitamin B12 intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4999812"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary vitamin B12 intake is an average daily dietary vitamin B12 intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary vitamin B12 for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean vitamin B12 intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.188-195.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4277295 -->  <!-- average daily dietary folacin intake during observed time interval  -->
@@ -11932,7 +11972,20 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary folic acid intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary folate intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily B9 intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean folate intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5965017 -->  <!-- average daily dietary folacin intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5965017">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary folacin intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4277295"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary folacin intake is an average daily dietary folacin intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary folacin (folate) for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean folate intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.244-253.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -11988,7 +12041,20 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">average dietary vitamin D intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary vitamin D intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily vitamin D intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean vitamin D intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4335147 -->  <!-- low average daily dietary vitamin D intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4335147">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary vitamin D intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7113951"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary vitamin D intake is an average daily dietary vitamin D intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary vitamin D for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean vitamin D intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.224-233.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -12036,10 +12102,23 @@ people infected, then extract parasite which are then tested = observation study
             </owl:Class>
         </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin C intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of vitamin C contained in all nutritional items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">mean vitamin C intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0679347 -->  <!-- low average daily dietary vitamin C intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0679347">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary vitamin C intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6464019"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary vitamin C intake is an average daily dietary vitamin C intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary vitamin C for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean vitamin C intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.202-210.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+ 
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5060782 -->  <!-- average daily dietary vitamin E intake during observed time interval  -->
 
@@ -12092,10 +12171,23 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin E intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of vitamin E contained in all nutritional items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Three DRI values for vitamin E (the EAR, RDA and AI) apply only to intake of 2R-stereoizomeric forms of &#x3B1;-tocopherol from food, fortified foods and supplements. The other naturally occuring isomers of vitamin E (&#x3B2;-, &#x3B3;- and &#x3B4;-tocopherols and &#x3B1;-, &#x3B2;-, &#x3B3;- and &#x3B4;-tocotrienols) do not contribute to meeting the vitamin E requirements, because they are not converted to &#x3B1;-tocopherol in humans. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) DRIs: The essential guide to nutrient requirements. The Insitute of medicine of the National academies. The National academies press, Washington DC, pp 237. ]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Currently, most nutrient databases, as well as nutrition labels, do not distinguish among all the different forms of vitamin E found in food, and still use &#x3B1;-TE, thus including the contribution of all naturally occurring forms of vitamin E.  Because the forms of vitamin E other than the naturally occurring form RRR-&#x3B1;tocopherol) do not occur in foods, the intake of &#x3B1;-TE is greater than the intake of &#x3B1;-tocopherol alone, and it is thus recommended that the use of &#x3B1;-TE be abandoned due to the lack of evidence of bioavailability via transport in the blood plasma or tissues. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) DRIs: The essential guide to nutrient requirements.  The Insitute of medicine of the National academies. The National academies press, Washington DC, pp 236-237. ]</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">mean vitamin E intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2220128 -->  <!-- low average daily dietary vitamin E intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2220128">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary vitamin E intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5060782"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary vitamin E intake is an average daily dietary vitamin E intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary vitamin E for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean vitamin E intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp.234-243.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+       
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4213927 -->  <!-- average daily dietary vitamin K intake during observed time interval  -->
 
@@ -12140,9 +12232,22 @@ people infected, then extract parasite which are then tested = observation study
             </owl:Class>
         </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary vitamin K intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of vitamin K contained in all nutritional items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">mean vitamin K intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0218431 -->  <!-- low average daily dietary vitamin K intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0218431">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary vitamin K intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4213927"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary vitamin K intake is an average daily dietary vitamin K intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary vitamin K for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean vitamin K intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.234-243.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>    
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6830160 -->  <!-- average daily dietary thiamine intake during observed time interval  -->
@@ -12192,9 +12297,23 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary thiamine intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary vitamin B1 intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily vitamin B1 intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean thiamine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5077448 -->  <!-- average daily dietary thiamine intake-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5077448">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary thiamine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6830160"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary thiamine intake is an average daily dietary thiamine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary thiamine for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean thiamine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.280-285.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1838254 -->  <!-- average daily dietary riboflavin intake during observed time interval  -->
@@ -12244,9 +12363,24 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary riboflavin intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary vitamin B2 intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily vitamin B2 intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">daily vitamin B2 intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean riboflavine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0937984 -->  <!-- low average daily dietary riboflavin intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0937984">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary riboflavin intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1838254"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary riboflavin intake is an average daily dietary riboflavin intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary riboflavin for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean riboflavine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.274-279.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3068621 -->  <!-- average daily dietary niacin intake during observed time interval  -->
@@ -12302,7 +12436,20 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary niacin intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary vitamin B3 intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily vitamin B3 intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean niacin intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5066707 -->  <!-- low average daily dietary niacin intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5066707">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary niacin intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3068621"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary niacin intake is an average daily dietary niacin intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary niacin for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean niacin intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.262-269.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -12350,7 +12497,20 @@ people infected, then extract parasite which are then tested = observation study
             </owl:Class>
         </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Average daily choline intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of choline contained in all nutritional items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">mean choline intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4741631 -->  <!-- low average daily dietary choline intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4741631">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary choline intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2284853"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary choline intake is an average daily dietary choline intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary choline for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean choline intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp.218-223.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -12402,7 +12562,20 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary vitamin B5 intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily vitamin B5 intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary pantothenate intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean pantothenic acid intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2191830 -->  <!-- low average daily dietary pantothenic acid intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2191830">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary pantothenic acid intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8741124"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary pantothenic acid intake is an average daily dietary pantothenic acid intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary pantothenic acid for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">mean pantothenic acid intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.262-269.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -12452,9 +12625,23 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary biotin intake during observed time interval is an average daily dietary vitamin intake during observed time interval denoting the average quantity of biotin contained in all nutritional items taken by a human patient over the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">daily vitamin H intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">daily dietary vitamin H intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mean biotin intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2224330 -->  <!-- average daily dietary biotin intake-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2224330">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary biotin intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9471223"/>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary biotin intake is an average daily dietary biotin intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary biotin for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean biotin intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.196-201.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1078667 -->  <!-- average daily total dietary carotenoid intake during observed time interval  -->
@@ -12574,7 +12761,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1177320">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary calcium intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1583962"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary calcium intake is an average daily dietary calcium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary calcium for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary calcium intake is an average daily dietary calcium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary calcium for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean calcium intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 286-295.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -12636,7 +12823,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4054701">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary iron intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3440460"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary iron intake is an average daily dietary iron intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary iron for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary iron intake is an average daily dietary iron intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary iron for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean iron intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp.328-339.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -12698,7 +12885,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9752476">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary zinc intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7446995"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary zinc intake is an average daily dietary zinc intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary zinc for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary zinc intake is an average daily dietary zinc intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary zinc for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean zinc intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.402-413.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -12858,7 +13045,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9669357">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary chromium intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6015466"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary chromium intake is an average daily dietary chromium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary chromium for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary chromium intake is an average daily dietary chromium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary chromium for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean chromium intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp. 296-303.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -12920,7 +13107,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4547815">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary copper intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4721332"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary copper intake is an average daily dietary copper intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary copper for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary copper intake is an average daily dietary copper intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary copper for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean copper intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp. 304-310.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -12981,7 +13168,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7256013">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary chloride intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9890923"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary chloride intake is an average daily dietary chloride intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary chloride for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary chloride intake is an average daily dietary chloride intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary chloride for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean chloride intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp. 386-396.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -13042,7 +13229,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2239367">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary fluoride intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1207407"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary fluoride intake is an average daily dietary fluoride intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary fluoride for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary fluoride intake is an average daily dietary fluoride intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary fluoride for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean fluoride intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 312-319.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -13105,7 +13292,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8076467">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary iodine intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1575035"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary iodine intake is an average daily dietary iodine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary iodine for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary iodine intake is an average daily dietary iodine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary iodine for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean iodine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.320-326.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -13168,7 +13355,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7734161">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary magnesium intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9522419"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary magnesium intake is an average daily dietary magnesium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary magnesium for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary magnesium intake is an average daily dietary magnesium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary magnesium for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean magnesium intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 328-339.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -13231,7 +13418,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5619441">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary manganese intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4060111"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary manganese intake is an average daily dietary manganese intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary manganese for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary manganese intake is an average daily dietary manganese intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary manganese for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean manganese intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp.350-355.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -13294,7 +13481,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6225611">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary molybdenum intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0923831"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary molybdenum intake is an average daily dietary molybdenum intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary molybdenum for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary molybdenum intake is an average daily dietary molybdenum intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary molybdenum for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean molybdenum intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.356-361.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -13407,7 +13594,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7588725">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary phosphorus intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3736352"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary phosphorus intake is an average daily dietary phosphorus intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary phosphorus for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary phosphorus intake is an average daily dietary phosphorus intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary phosphorus for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean phosphorus intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.362-370.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -13472,7 +13659,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3983113">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary potassium intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1759467"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary potassium intake is an average daily dietary potassium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary potassium (kalium) for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary potassium intake is an average daily dietary potassium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary potassium (kalium) for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean potassium intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">low mean kalium intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.370-379.</rdfs:comment> 
@@ -13536,7 +13723,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5985880">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary selenium intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5178796"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary selenium intake is an average daily dietary selenium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary selenium for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary selenium intake is an average daily dietary selenium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary selenium for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean selenium intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.380-384.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -13700,7 +13887,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4748813">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary sodium intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2627773"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary sodium intake is an average daily dietary sodium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary sodium for for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary sodium intake is an average daily dietary sodium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) and estimated average requirement (DRI-EAR) for dietary sodium for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean natrium intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">low mean sodium intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.386-396.</rdfs:comment> 
@@ -15112,6 +15299,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+    
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6059681-->  <!-- average daily dietary niacin intake per body mass during observed time interval -->
 
@@ -15214,7 +15402,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
-     
+
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1317968-->  <!-- average daily dietary pantothenic acid intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1317968">
@@ -20716,7 +20904,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4846874 -->  <!-- adequate nutrient intake for for non-pregnant non-lactating female population-->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4846874 -->  <!-- adequate nutrient intake for non-pregnant non-lactating female population-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4846874">
         <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for non-pregnant non-lactating female population</rdfs:label>
@@ -21224,7 +21412,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2619523 -->  <!-- upper tolerable nutrient intake level for for phenylketonuria population-->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2619523 -->  <!-- upper tolerable nutrient intake level for phenylketonuria population-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2619523">
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for phenylketonuria population</rdfs:label>
