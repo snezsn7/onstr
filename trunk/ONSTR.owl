@@ -9256,7 +9256,6 @@ people infected, then extract parasite which are then tested = observation study
         </owl:equivalentClass>    
         <skos:definition rdf:datatype="&xsd;string">Developmental growth indicator is a data item that is an approximated percentile associated with the value of a measured phenotypical quality, and which is used as clinical indicator to assess the magnitude and pattern of developmental growth of individual child being assessed. Estimated percentile provides the information of how given phenotypic quality measurement datum of a child being assessed, compares to that of the age and sex specific reference population.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://pediatrics.about.com/cs/growthcharts2/a/percentiles.htm</rdfs:comment>    
-        <rdfs:comment rdf:datatype="&xsd;string">The rate of developmental growth as a process is directly associated with the age until the completion of the growth process. That is after the process of developmental growth has been completed, the increase of age does is not directly_associsated_with growth and more.</rdfs:comment> 
         <skos:altLabel rdf:datatype="&xsd;string">developmental growth percentile</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">growth percentile</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">growth centile</skos:altLabel>
@@ -9467,7 +9466,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6358913">
         <rdfs:label rdf:datatype="&xsd;string">food intake record</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
-        <skos:definition rdf:datatype="&xsd;string">Food intake record is an information content entity that is the output of food intake recording, and that contains the information about the types and quantites of food items, nutritional supplements, medical foods, food-amino acid excahnges patient has consumed in a time interval relevant for dietary analysis (last 24 hours, one, two or three consacutive days). Food intake record also contains other patient related information such as patient&apos;s name, date of birth, body height and weight, prescribed and taken medications.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Food intake record is a document that is the output of food intake recording, and that contains the information about the types and quantites of food items, nutritional supplements, medical foods, food-amino acid excahnges patient has consumed in a time interval relevant for dietary analysis (last 24 hours, one, two or three consacutive days). Food intake record also contains other patient related information such as patient&apos;s name, date of birth, body height and weight, prescribed and taken medications.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">phenylketonuria food intake record</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -11222,14 +11221,14 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0265675 -->  <!-- average daily dietary alpha-linolenic acid intake -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0265675 -->  <!-- low average daily dietary alpha-linolenic acid intake -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0265675">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary alpha-linolenic acid intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8208187"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary alpha-linolenic acid intake is an average daily dietary alpha-linolenic acid intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary alpha-linolenic acid (aLnA) for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean alpha-linolenic acid intake</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.122-139.</rdfs:comment> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.122-139.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -13961,7 +13960,7 @@ people infected, then extract parasite which are then tested = observation study
 				</owl:intersectionOf>
 		  </owl:Class>
        </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Nutrient is a material entity that is a proper part of a nutritional item (food item, dietary supplement, medical food, special nutrition formula or parenteral nutrition solution) that is introduced into and used by body to produce energy, build body tissues, stimulate growth and maintain homeostasis.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutrient is an object that is a proper part of a nutritional item (food item, dietary supplement, medical food, special nutrition formula or parenteral nutrition solution) that is introduced into and used by body to produce energy, build body tissues, stimulate growth and maintain homeostasis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -13972,7 +13971,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8083622">
         <rdfs:label rdf:datatype="&xsd;string">macronutrient</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0193925"/>
-        <skos:definition rdf:datatype="&xsd;string">Macronutrient is a nutrient that ingested by a human or introduced into human body in large amounts and serves to produce energy and build body tissues.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Macronutrient is a nutrient that introduced into human body in large amounts and serves to produce energy and build body tissues.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Rodwell W., S. (1989) Nutrition and diet therapy. 6th Ed. Times Mirror/Mosby College Publishing. St. Luis, MO, pp.5.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -13983,7 +13982,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7216679">
         <rdfs:label rdf:datatype="&xsd;string">micronutrient</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0193925"/>
-        <skos:definition rdf:datatype="&xsd;string">Micronutrient is a nutrient that is ingested by a human or introduced into human body in small amounts and serves to regulate and control body processes.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Dietary micronutrient is a dietary nutrient that is introduced into human body in small amounts and serves to regulate and control bodily processes.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Rodwell W., S. (1989) Nutrition and diet therapy. 6th Ed. Times Mirror/Mosby College Publishing. St. Luis, MO, pp.5.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -16694,7 +16693,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7595557">
         <rdfs:label rdf:datatype="&xsd;string">percent dietary reference intake datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent dietary reference intake datum is a scalar measurement datum that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as a percentage of the dietary reference intake for the observed nutrient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent dietary reference intake datum is a scalar measurement datum that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as a percentage of the dietary reference intake (DRI) for the observed nutrient.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">percent DRI</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -16706,7 +16705,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1837313">
         <rdfs:label rdf:datatype="&xsd;string">percent estimated average nutrient requirement datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7595557"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent estimated average nutrient requirement datum is a percent dietary reference intake that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement for the observed nutrient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent estimated average nutrient requirement datum is a percent dietary reference intake that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the estimated average requirement (EAR) for the observed nutrient.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">percent EAR</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">%EAR</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">percent DRI-EAR</skos:altLabel>
@@ -17535,9 +17534,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8986811">
         <rdfs:label rdf:datatype="&xsd;string">percent adequate nutrient intake datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7595557"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent adequate nutrient intake datum is a percent dietary reference intake that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake for the observed nutrient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent adequate nutrient intake datum is a percent dietary reference intake that provides the information about the quantity of specific dietary nutrient consumed (or to be consumed) by a human, that is expressed as the percentage of the adequate intake (AI) for the observed nutrient.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">percent AI</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">percent DRI-AI</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">%AI</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -19169,9 +19169,11 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9281587">
         <rdfs:label rdf:datatype="&xsd;string">percent recommended dietary nutrient allowance datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7595557"/>
-        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary nutrient allowance datum is a dietary nutrient intake datum which provides the information about the quantity of a dietary nutrient consumed by a human during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary nutrient allowance for that specific nutrient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent recommended dietary nutrient allowance datum is a dietary nutrient intake datum which provides the information about the quantity of a dietary nutrient consumed by a human during the time interval relevant for dietary intake analysis (one, two or three days), and that is expressed as percentage of the recommended dietary nutrient allowance (RDA) for that specific nutrient.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">percent recommended daily allowance</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">percent RDA</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">percent DRI-RDA</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">%RDA</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -19994,14 +19996,18 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5283753">
         <rdfs:label rdf:datatype="&xsd;string">dietary reference intake datum</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
-        <skos:definition rdf:datatype="&xsd;string">Dietary reference intake datum is a scalar measurement datum that is intended to be used as a recommended reference value for dietary nutrient and dietary energy intakes estimated to meet daily nutritional needs of different population groups.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. 2006. Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>
+		<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>  <!-- scalar measurement datum -->
+        <skos:definition rdf:datatype="&xsd;string">Dietary reference intake datum is a scalar measurement datum that is intended to be used as a recommended reference value for dietary nutrient and dietary energy intakes estimated to meet daily nutritional needs of different populations of healthy human individuals.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 6-12.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">dietary reference intakes</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">dietary reference intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">DRIs</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">DRI</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Dietary reference intake is a system of nutrition recommendations designed by the Institute of Medicine of the U.S. National Academy of Sciences and is used both in the United States and in Canada for the general public and health professionals and applied in composition of diets for schools, hospitals, prisons or nursing homes, industrial development of new food stuffs and by healthcare policy makers and public health officials. [Source: http://en.wikipedia.org/wiki/Dietary_Reference_intake ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">The Dietary Reference Intakes (DRIs) replace and expand the previous revisions of the RDAs (recommended daily allowances) and RNIs (recommended nutrient intakes) and represent a new approach to setting nutrient values by greatly expanding the scope and application of previous nutrient standards. [Source:  Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 17.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">An important principle underlying DRIs is that they are standards for apparently healthy people and are not meant to be applied to those with acute or chronic disease or for the repletion of nutrient levels in previously deficient individuals. Meeting the recommended intakes for the nutrients would not necessarily provide enough for individuals who are already malnourished, nor would they be adequate for certain disease states marked by increase nutrient requirements. [Source:  Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 13.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Where data were available, DRIs were divided into 12 life stage groups and also by gender. The life stage groups were chosen by considering variations in the requirements of all of the nutrients under review. [Source:  Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 13.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">When assessing and planning diets, it is important to be mindful of the limitations in the data that underpin the DRIs and their application, which include the following: 1) The Estimated Average Requirements (EARs) may be based on data from limited number of individuals. 2) For most nutrients, the precise variation in requirements is not known but is approximated. 3) In the absence of evidence to the contrary, variation in individual requirements is assumed to follow a normal distribution. 4) The EAR is often extrapolated from one population group to another. 5) The degree of uncertainty associated with the EAR has not been specified.  [Source:  Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 19.]</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
          
@@ -20017,6 +20023,10 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">dietary reference intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">DRI</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Dietary reference intake is a system of nutrition recommendations designed by the Institute of Medicine of the U.S. National Academy of Sciences and is used both in the United States and in Canada for the general public and health professionals and applied in composition of diets for schools, hospitals, prisons or nursing homes, industrial development of new food stuffs and by healthcare policy makers and public health officials. [Source: http://en.wikipedia.org/wiki/Dietary_Reference_intake ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">The Dietary Reference Intakes (DRIs) replace and expand the previous revisions of the RDAs (recommended daily allowances) and RNIs (recommended nutrient intakes) and represent a new approach to setting nutrient values by greatly expanding the scope and application of previous nutrient standards. [Source:  Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 17.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">An important principle underlying DRIs is that they are standards for apparently healthy people and are not meant to be applied to those with acute or chronic disease or for the repletion of nutrient levels in previously deficient individuals. Meeting the recommended intakes for the nutrients would not necessarily provide enough for individuals who are already malnourished, nor would they be adequate for certain disease states marked by increase nutrient requirements. [Source:  Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 13.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Where data were available, DRIs were divided into 12 life stage groups and also by gender. The life stage groups were chosen by considering variations in the requirements of all of the nutrients under review. [Source:  Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 13.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">When assessing and planning diets, it is important to be mindful of the limitations in the data that underpin the DRIs and their application, which include the following: 1) The Estimated Average Requirements (EARs) may be based on data from limited number of individuals. 2) For most nutrients, the precise variation in requirements is not known but is approximated. 3) In the absence of evidence to the contrary, variation in individual requirements is assumed to follow a normal distribution. 4) The EAR is often extrapolated from one population group to another. 5) The degree of uncertainty associated with the EAR has not been specified.  [Source:  Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 19.]</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
      
@@ -20026,7 +20036,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1792329">
         <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4287288"/>
-        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance datum is a dietary nutrient reference intake datum that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of humans in a particular age, gender and specific physiological status of being pregnant or lactating.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance datum is a dietary nutrient reference intake datum that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of humans in a particular group based on age, gender and gender specific physiological status of being pregnant or lactating.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">RDA</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">RDAs</skos:altLabel>
@@ -20044,7 +20054,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5970451">
         <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4287288"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement datum is a dietary nutrient reference intake datum that denotes the quantity of a dietary nutrient estimated (expected) to satisfy the nutritional requirements for that particular nutrient, of 50% of all members of an healthy human population determined based on age, gender and specific physiological status of being pregnant or lactating.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement datum is a dietary nutrient reference intake datum that denotes the quantity of a dietary nutrient estimated (expected) to satisfy the nutritional requirements for that particular nutrient, of 50% of all members of an healthy human population determined based on age, gender and gender specific physiological status of being pregnant or lactating.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. 2006. Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">estimated average requirement</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">estimated average requirements</skos:altLabel>
@@ -20052,6 +20062,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">EAR</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">EARs</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">DRI-EAR</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">When assessing and planning diets, it is important to be mindful of the limitations in the data that underpin the DRIs and their application, which include the following: 1) The Estimated Average Requirements (EARs) may be based on data from limited number of individuals. 2) For most nutrients, the precise variation in requirements is not known but is approximated. 3) In the absence of evidence to the contrary, variation in individual requirements is assumed to follow a normal distribution. 4) The EAR is often extrapolated from one population group to another. 5) The degree of uncertainty associated with the EAR has not been specified.  [Source:  Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 19.]</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -20062,14 +20073,15 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4287288"/>
         <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake datum	is a dietary nutrient reference intake datum that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake by a healthy population (or populations) that is assumed to be adequate for given population.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. 2006. Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. 2006. The National Academies Press, Washington DC., pp. 6-12.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">adequate intakes</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">adequate intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">dietary reference intake-adequate intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">AI</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">AIs</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">DRI-AI</skos:altLabel>                
-        <rdfs:comment rdf:datatype="&xsd;string">Adequate intakes are intended to be used when the recommended dietary allowance (RDA) for given nutrient cannot be determined. [Source: http://fnic/nal/usda.gov ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">If sufficient or adequate scientific evidence available to establish an estimated average requirement (EAR) and thus the RDA (recommended dietary allowance), an AI is usually derived for the nutrient instead. An AI is based on fewer data and incorporate more judgement than is used in establishing EAR and subsequently the RDA. [Source:  Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 11.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">The AI is expected to meet or exceed the needs of most individuals in a specific life stage and gender group. When RDA is not available for a nutrient (because an EAR could not be developed), the AI can be used as the guide for an individual&apos;intake. [Source:  Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 11.]</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
         
@@ -20080,13 +20092,13 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4287288"/>
         <skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level datum is a dietary nutrient reference intake datum that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of a particular population.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. 2006. Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. 2006. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">upper tolerable intake datum</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">upper tolerable level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">upper tolerable levels</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">UL</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">ULs</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">As nutrient intake above the upper tolerable level, the potential risk of adverse effects may increase. [Source: http://fnic/nal/usda.gov ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">The UL is not a recommended level of intake, but rather the highest level that can be tolerated without the possibility of causing ill effects. The value applies to chronic daily use and is usually based on total intake of a nutrient from food, water, and supplements if adverse effects have been associated with total intake. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 12.]</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -21668,7 +21680,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5015919">
         <rdfs:label rdf:datatype="&xsd;string">metabolic formula</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3617918"/> 
-        <skos:definition rdf:datatype="&xsd;string">Medical food is a nutritional item that is a pharmaceutically developed food (in the form of powder, pill or liquid) that is formulated to be consumed or administered enterally under the supervision of a physician and which is intended for the specific dietary management of a disease or condition for which distinctive nutritional requirements, based on recognized scientific principles, are established by medical evaluation.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Metabolic formula is a nutritional formula that is a pharmaceutically developed food product (in the form of powder, pill or liquid) that is formulated to be consumed or administered enterally under the supervision of a physician and which is intended for the specific dietary management of a disease or condition for which distinctive nutritional requirements, based on recognized scientific principles, are established by medical evaluation.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.fda.gov/RegulatoryInformation/Legislation/FederalFoodDrugandCosmeticActFDCAct/SignificantAmendmentstotheFDCAct/OrphanDrugAct/default.htm </rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Medical foods in the U.S. are regulated and developed for &quot;rare disease or condition&quot; (i.e. orphan disease), any disease or condition that occurs so infrequently in the United States that there is no reasonable expectation that a medical food for such disease or condition will be developed without assistance under subsection (a) of the &quot;Grants for development of drugs for rare diseases and conditions&quot; of the Orphan Drug Act (ODA), enacted by the U.S. Congress in January 1983.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">medical foods</skos:altLabel>
