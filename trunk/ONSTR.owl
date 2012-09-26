@@ -9661,10 +9661,10 @@ people infected, then extract parasite which are then tested = observation study
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
-                    	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
-                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3075415"/> <!-- blood serum ferritin concentration measur assay --> 
-                    	</owl:Restriction>
+                    	<!-- owl:Restriction>
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <! is specif output >
+                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3075415"/> <! blood serum ferritin concentration measur assay > 
+                    	</owl:Restriction -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
                         		<owl:someValuesFrom>
@@ -9719,10 +9719,10 @@ people infected, then extract parasite which are then tested = observation study
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
-                    	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
-                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6397402"/> <!-- blood serum transthyretin concentration measur assay --> 
-                    	</owl:Restriction>
+                    	<!-- owl:Restriction>
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <! is specif output >
+                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6397402"/> <! blood serum transthyretin concentration measur assay > 
+                    	</owl:Restriction -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
                         		<owl:someValuesFrom>
@@ -9778,10 +9778,10 @@ people infected, then extract parasite which are then tested = observation study
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
-                    	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
-                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3199939"/> <!-- blood serum albumin concentration measur assay --> 
-                    	</owl:Restriction>
+                    	<!-- owl:Restriction>
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <! is specif output >
+                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3199939"/> <! blood serum albumin concentration measur assay > 
+                    	</owl:Restriction -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
                         		<owl:someValuesFrom>
@@ -9839,19 +9839,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">This class actually belongs to the Protein Ontology (PRO) domain, but they don't have one at the this being. If/when PRO team asserts one, this class is going to be deprecated and replaced by the corresponding PRO class.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>  
-     
-     
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3075415 -->  <!-- blood serum ferritin concentration measurement assay	  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_3075415">
-        <rdfs:label rdf:datatype="&xsd;string">blood serum ferritin concentration measurement assay</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>  <!-- clinical chemistry assay -->
-        <skos:definition rdf:datatype="&xsd;string">Blood serum ferritin concentration measurement assay is a clinical chemistry assay that measures the concentration of ferritin complex in blood serum derived from the portion of human venous or arterial blood specimen.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
-        <skos:altLabel rdf:datatype="&xsd;string">ferritin test</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>   
-     
+    
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5107576 -->  <!-- transthyretin complex  -->
 
@@ -9866,37 +9854,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">TTR complex</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
-    	 
-     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6397402 -->  <!-- blood serum transthyretin concentration measurement assay	  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_6397402">
-        <rdfs:label rdf:datatype="&xsd;string">blood serum transthyretin concentration measurement assay</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
-        <skos:definition rdf:datatype="&xsd;string">Blood serum transthyretin concentration measurement assay is a clinical chemistry assay that determines the concentration of the transthyretin (pre-albumin) in blood serum derived from the portion of human venous or arterial blood specimen.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
-        <skos:altLabel rdf:datatype="&xsd;string">transthyretin test</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">serum prealbumin concentration measurement assay</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">serum TTR test</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">prealbumin test</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">blood TTR test</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">blood prealbunmin test</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>   
-     
-     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3199939 -->  <!-- blood serum albumin concentration measurement assay	  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_3199939">
-        <rdfs:label rdf:datatype="&xsd;string">blood serum albumin concentration measurement assay</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000520"/>
-        <skos:definition rdf:datatype="&xsd;string">Blood serum albumin concentration measurement assay is an analyte assay that determines the concentration of the albumin in blood serum that is derived from the portion of human venous or arterial blood specimen.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
-        <skos:altLabel rdf:datatype="&xsd;string">serum albumin test</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">blood albumin test</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>     
-    
+       
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5589907 -->  <!-- kilocalorie  -->
 
