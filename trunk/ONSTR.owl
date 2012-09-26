@@ -952,6 +952,26 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
+  
+   <!-- http://purl.obolibrary.org/obo/OBI_0000201" -->   <!-- radioactivity detection -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000201">
+        <rdfs:label rdf:datatype="&xsd;string">radioactivity detection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>  <!-- assay -->
+        <skos:definition rdf:datatype="&xsd;string">An assay in which a material radioactivity is measured.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://purl.obolibrary.org/obo/OBI_0000910" -->   <!-- radio immuno assay -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000910">
+        <rdfs:label rdf:datatype="&xsd;string">radio immuno assay</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000201"/> <!-- radioactivity detection -->
+        <skos:definition rdf:datatype="&xsd;string">An assay in which a radioactive label is used to determine the interaction between an antigen and an anibody. This can be used to detect the presence of an antigen of interest or determine the specificity of an antibody.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+     </owl:Class>
+     
      
      <!-- http://purl.obolibrary.org/obo/OBI_0001158" -->   <!-- age measurement assay -->
      
@@ -981,6 +1001,19 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">An assay with the objective to capture information about the presence, concentration, or amount of an analyte in an evaluant.</skos:definition> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OBI_0000661" -->   <!-- ELISA -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000661">
+        <rdfs:label rdf:datatype="&xsd;string">ELISA</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/> <!-- analyte assay -->
+    	<skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
+    	<skos:altLabel rdf:datatype="&xsd;string">Enzyme-Linked ImmunoSorbent Assay</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be moved under immuno assay, if/when team OBI asserst one</skos:editorialNote> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+     </owl:Class>
+    
     
     
     <!-- http://purl.obolibrary.org/obo/OBI_0000435" -->   <!-- genotyping assay -->
@@ -1364,10 +1397,31 @@ people infected, then extract parasite which are then tested = observation study
        <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
    </owl:Class>
-   
+  
+    
+    <!-- http://purl.obolibrary.org/obo/ERO_0001332 -->  <!-- capillary electrophoresis  -->
+
+    <owl:Class rdf:about="&obo;ERO_0001332">
+       <rdfs:label rdf:datatype="&xsd;string">capillary electrophoresis</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0600053"/> <!-- obi:electrophoresis --> 
+       <skos:definition rdf:datatype="&xsd;string">An electrophoresis thechnique used to separate ionic species by their charge and frictional forces and hydrodynamic radius.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+   </owl:Class>
      
-   
-   
+     
+  <!-- http://purl.obolibrary.org/obo/ERO_0001362 -->  <!-- immunoassay  -->
+
+    <owl:Class rdf:about="&obo;ERO_0001362">
+       <rdfs:label rdf:datatype="&xsd;string">immunoassay</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/> <!-- obi:assay -->
+       <skos:definition rdf:datatype="&xsd;string">An assay that enables the presence or the concentartion of a substance in a material to be measured by exploiting the specific binding between an analyte and the corresponding detection antibody.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+   </owl:Class>
+     
+     
+     
 <!-- END ERO IMPORTS -->   
 <!-- START PATO IMPORTS -->    
     
