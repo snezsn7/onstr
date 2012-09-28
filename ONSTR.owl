@@ -20197,12 +20197,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3030814-->  <!-- estimated average nutrient requirement for infants age 6-to-12 months  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3030814-->  <!-- estimated average nutrient requirement for infants age 7-to-12 months  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3030814">
-        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for infants age 6-to-12 months</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">estimated average nutrient requirement for infants age 7-to-12 months</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8984489"/>
-        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for infants age 0-to-6 months is an estimated average nutrient requirement for infant population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of infant population 6 to 12 months of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Estimated average nutrient requirement for infants age 0-to-6 months is an estimated average nutrient requirement for infant population that denotes the quantity of a dietary nutrient estimated to satisfy the nutrient requirements of 50% of all members of infant population 7 to 12 months of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -20528,12 +20528,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1385096 -->  <!-- recommended dietary allowance for infant population age 6-to-12 months -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1385096 -->  <!-- recommended dietary allowance for infant population age 7-to-12 months -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1385096">
-        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for infant population age 6-to-12 months</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">recommended dietary allowance for infant population age 7-to-12 months</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1983024"/>
-        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for infant population age 0-to-6 months is a recommended dietary allowance for infant population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy infant population 6 to 12 months of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Recommended dietary allowance for infant population age 0-to-6 months is a recommended dietary allowance for infant population that denotes the dietary nutrient intake sufficient to meet nutrient requirements of 97-98% of healthy infant population 7 to 12 months of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -20870,12 +20870,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
          
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9153395 -->  <!-- adequate nutrient intake for infant population age 6-to-12 months-->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9153395 -->  <!-- adequate nutrient intake for infant population age 7-to-12 months-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9153395">
-        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for infant population age 6-to-12 months</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">adequate nutrient intake for infant population age 7-to-12 months</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5666197"/> 
-        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for infant population age 6-to-12 months is an adequate nutrient intake for infant population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy infants 6 to 12 months of age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Adequate nutrient intake for infant population age 7-to-12 months is an adequate nutrient intake for infant population that denotes the average daily intake of a nutrient based on observed or experimentally determined approximations or estimates of the nutrient intake that is assumed to be adequate for healthy infant population 7 to 12 months of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -21212,12 +21212,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
        
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7523695 -->  <!-- upper tolerable nutrient intake level for infant population age 6-to-12 months-->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7523695 -->  <!-- upper tolerable nutrient intake level for infant population age 7-to-12 months-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7523695">
-        <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for infant population age 6-to-12 months</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">upper tolerable nutrient intake level for infant population age 7-to-12 months</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2479742"/>
-		<skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for infant population age 6-to-12 months is an upper tolerable nutrient intake level for infant population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy infant population 6 to 12 months of age.</skos:definition>  
+		<skos:definition rdf:datatype="&xsd;string">Upper tolerable nutrient intake level for infant population age 7-to-12 months is an upper tolerable nutrient intake level for infant population that denotes the highest nutrient intake estimated to pose no risk of adverse health effects to almost all members of healthy infant population 7 to 12 months of age.</skos:definition>  
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
