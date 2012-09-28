@@ -11151,20 +11151,8 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">mean cholesterol intake</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
-     
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6717449 -->  <!-- low average daily dietary cholesterol intake  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_6717449">
-        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary cholesterol intake</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5257504"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary cholesterol intake is an average daily dietary cholesterol intake during observed time interval that has value less than that of the estimated average requirement (DRI-EAR) or the recommended dietary allowance (DRI-RDA) or the adequate intake (DRI-AI) or between the estimated average requirement (DRI-EAR) and recommended dietary allowance (DRI-RDA) for total dietary cholesterol for the population corresponding to patient's sex and age.</skos:definition>
-        <skos:definition rdf:datatype="&xsd;string">low mean cholesterol intake</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 140-143.</rdfs:comment>
-       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-      
+     </owl:Class>  
+    
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8777352 -->  <!-- average daily dietary fatty acid intake during observed time interval  -->
 
