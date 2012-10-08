@@ -1419,7 +1419,28 @@ people infected, then extract parasite which are then tested = observation study
        <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
    </owl:Class>
+   
+   
+     <!-- http://purl.obolibrary.org/obo/ERO_0000833 -->  <!-- molecular assay  -->
+
+    <owl:Class rdf:about="&obo;ERO_0000833">
+       <rdfs:label rdf:datatype="&xsd;string">molecular assay</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/> <!-- obi:assay -->
+       <skos:definition rdf:datatape="&xsd;string">An assay that generates data about the presence, abundance, structure, function, or activity of biological molecules, or a process at a molecular level of granularity.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+   </owl:Class>
      
+   
+  <!-- http://purl.obolibrary.org/obo/ERO_0001239 -->  <!-- spectrophotometry  -->
+
+    <owl:Class rdf:about="&obo;ERO_0001239">
+       <rdfs:label rdf:datatype="&xsd;string">spectrophotometry</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;ERO_0000833"/>  <!-- molecular assay  -->
+       <skos:definition rdf:datatape="&xsd;string">A molecular assay is the quantitative measurement of the reflection or transmission properties of a material as a function of wavelenght.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+   </owl:Class>
      
      
 <!-- END ERO IMPORTS -->   
@@ -9661,10 +9682,17 @@ people infected, then extract parasite which are then tested = observation study
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
-                    	<!-- owl:Restriction>
-                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <! is specif output >
-                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3075415"/> <! blood serum ferritin concentration measur assay > 
-                    	</owl:Restriction -->
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
+                        	<owl:someValuesFrom> 
+                    	       <owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&obo;ERO_0001362"/> <!-- immunoassay -->
+                                		<rdf:Description rdf:about="&obo;OBI_0000661"/> <!-- ELISA -->
+                                	</owl:unionOf> 
+                    	        </owl:Class>
+                    	    </owl:someValuesFrom>
+                    	</owl:Restriction>
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
                         		<owl:someValuesFrom>
@@ -9719,10 +9747,19 @@ people infected, then extract parasite which are then tested = observation study
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
-                    	<!-- owl:Restriction>
-                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <! is specif output >
-                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6397402"/> <! blood serum transthyretin concentration measur assay > 
-                    	</owl:Restriction -->
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
+                        	<owl:someValuesFrom> 
+                    	        <owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&obo;OBI_0000661"/> <!--  ELISA -->
+                                		<rdf:Description rdf:about="&obo;OBI_0600053"/> <!-- electrophoresis -->
+                                        <rdf:Description rdf:about="&obo;ERO_0000185"/> <!-- HPLC -->
+                                        <rdf:Description rdf:about="&obo;OBI_0000910"/> <!-- radioimmunoassay -->
+                                	</owl:unionOf> 
+                    	        </owl:Class>
+                    	    </owl:someValuesFrom>
+                    	</owl:Restriction>
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
                         		<owl:someValuesFrom>
@@ -9778,10 +9815,17 @@ people infected, then extract parasite which are then tested = observation study
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
-                    	<!-- owl:Restriction>
-                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <! is specif output >
-                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3199939"/> <! blood serum albumin concentration measur assay > 
-                    	</owl:Restriction -->
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
+                        	<owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&obo;ERO_0001239"/> <!--  spectrophotometry -->
+                                		<rdf:Description rdf:about="&obo;OBI_0600053"/> <!-- electrophoresis -->
+                                	</owl:unionOf> 
+                    	        </owl:Class>
+                    	    </owl:someValuesFrom>
+                    	</owl:Restriction>
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
                         		<owl:someValuesFrom>
@@ -11174,7 +11218,7 @@ people infected, then extract parasite which are then tested = observation study
                                 			<rdf:Description rdf:about="&obo;CHEBI_61697"/>  <!-- fatty acid derivative -->
                    						</owl:intersectionOf>
                    					</owl:Class>
-                   					 <owl:Restriction>
+                   					<owl:Restriction>
                     				 	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- BFO2:has role at some time -->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     				</owl:Restriction> 
