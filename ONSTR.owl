@@ -6773,7 +6773,7 @@ people infected, then extract parasite which are then tested = observation study
  			    </owl:intersectionOf>
  			</owl:Class>
  	    </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Plasma phenylalanine concentration mesasurement datum is a blood plasma amino acid concentration measurement datum that is the output of tandem mass specterometry or high performance liquid chromatography or liquid chromatography-mass spectrometry measuring the conentration of the amino acid phenylalanine in human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma phenylalanine concentration mesasurement datum is a blood plasma amino acid concentration measurement datum that is the output of tandem mass specterometry or high performance liquid chromatography or liquid chromatography-mass spectrometry measuring the conentration of the amino acid phenylalanine in human blood plasma speciment that is obtained from blood specimen collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">plasma phenylalanine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma phenylalanine level</skos:altLabel>
@@ -7160,7 +7160,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2466421">
         <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3202058"/>
-        <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration measurement datum is a whole blood amino acid concentration measurement datum that provides the information about the quantity of amino acid phenylalanine in the dried blood spot specimen or blood eluate.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration measurement datum is a whole blood amino acid concentration measurement datum that provides the information about the quantity of amino acid phenylalanine in the dried blood spot specimen (or blood eluate obtained by processing the dried blood spot specimen) collected from patient at least 2.5 or 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">blood Phe level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood phenylalanine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood phenylalanine measurement</skos:altLabel>
