@@ -6036,15 +6036,17 @@ people infected, then extract parasite which are then tested = observation study
         <owl:equivalentClass>  
           <owl:Class>  
              <owl:intersectionOf rdf:parseType="Collection">
-                 <rdf:Description rdf:about="&ONSTR;ONSTR_1445519"/> <!-- Phe concentration finding -->    
-                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1932532"/>  <!-- is interpretation of -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0630865"/>  <!-- blood Phe concentration measurement datum -->
-                    </owl:Restriction>
+                 <rdf:Description rdf:about="&ONSTR;ONSTR_1445519"/> <!-- Phe concentration finding --> 
+                 <rdf:Description rdf:about="&ONSTR;ONSTR_0630865"/> <!-- plasma Phe concentration measurement datum -->
+                 <rdf:Description rdf:about="&ONSTR;ONSTR_2466421"/> <!-- blood Phe concentration measurement datum -->
+                     <!-- owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1932532"/>  <! is interpretation of >
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0630865"/>  <! blood Phe concentration measurement datum >
+                    </owl:Restriction -->
              </owl:intersectionOf>
            </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration finding is a phenylalanine concentration finding that is physician&apos;s interpretation of the value of blood phenylalanine concentration measurement datum, and that is based blood phenyalanine concentration reference value ranges established through clinical research.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration finding is a phenylalanine concentration finding that is physician&apos;s interpretation of the value of blood or plasma phenylalanine concentration measurement datum, and that is based blood phenyalanine concentration reference value ranges established through clinical research.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -6718,7 +6720,7 @@ people infected, then extract parasite which are then tested = observation study
                     		</owl:someValuesFrom>
                     	</owl:Restriction>
                     	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000221"/>  <!-- is quality measurement of -->
                         		<owl:someValuesFrom>
                             		<owl:Class>
                                 		<owl:intersectionOf rdf:parseType="Collection">
@@ -6731,19 +6733,7 @@ people infected, then extract parasite which are then tested = observation study
                                                     				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
                                         	                        <owl:Restriction>
                                                         				<owl:onProperty rdf:resource="&OBO_REL;towards"/>  <!-- towards --> 
-                                                        			    <owl:someValuesFrom>
-                                                        			    	<owl:Class>
-                                                        			    		<owl:intersectionOf rdf:parseType="Collection">
-                                                        			    			<owl:Class>
-                                                        			    				<owl:unionOf rdf:parseType="Collection">
-                                                        			    					<rdf:Description rdf:about="&obo;OBI_0000655"/> <!-- blood specimen --> 	
-                                                        			    					<rdf:Description rdf:about="&obo;OBI_0100016"/> <!-- blood plasma specimen -->
-                                                        			    					<rdf:Description rdf:about="&ONSTR;ONSTR_2055480"/>  <!-- dried blood spot eluate -->
-                                                        			    	    		</owl:unionOf>
-                                                        			    	    	</owl:Class>
-                                                        			    	    </owl:intersectionOf>
-                                                        			     	</owl:Class>
-                                                        			     </owl:someValuesFrom>
+                                                        			    <owl:someValuesFrom rdf:resource="&obo;OBI_0100016"/> <!-- blood plasma specimen -->
                                         	                        </owl:Restriction>
 																 </owl:intersectionOf>
 															</owl:Class>
@@ -7421,7 +7411,7 @@ people infected, then extract parasite which are then tested = observation study
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
                     	<owl:Restriction>
                     	<!-- NEED to ADD is specif output of some assay -->
-                        	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000221"/>  <!-- is quality measurement of -->
                         		<owl:someValuesFrom>
                             		<owl:Class>
                                 		<owl:intersectionOf rdf:parseType="Collection">
