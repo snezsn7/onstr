@@ -6667,7 +6667,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5020674">
         <rdfs:label rdf:datatype="&xsd;string">blood amino acid concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/> <!-- concentration measurement datum -->
-        <skos:definition rdf:datatype="&xsd;string">Blood amino acid concentration measurement datum is a concentration measurement datum that provides the information about the quantity of an observed amino acid in the human whole blood specimen or blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood amino acid concentration measurement datum is a concentration measurement datum that provides the information about the quantity of an observed amino acid in the human blood eluate or blood plasma specimen collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -6678,7 +6678,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7156237">
         <rdfs:label rdf:datatype="&xsd;string">blood plasma amino acid concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5020674"/> <!-- blood amino acid concentration measurement datum -->
-        <skos:definition rdf:datatype="&xsd;string">Blood plasma amino acid concentration measurement datum is a blood amino acid concentration measurement datum that is the output of various measurement assays (electrophoresis, gas chromatography, liquid chromatography, liquid chromatography-mass spectrometry, liquid chromatography-tandem mass spectrometry, ion exchange chromatography) measuring the concentration of an observed amino acid in human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood plasma amino acid concentration measurement datum is a blood amino acid concentration measurement datum that is the output of various measurement assays (electrophoresis, gas chromatography, liquid chromatography, liquid chromatography-mass spectrometry, liquid chromatography-tandem mass spectrometry, ion exchange chromatography) measuring the concentration of an observed amino acid in human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.obolibrary.org/obo/VT_0005311</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
         <skos:altLabel rdf:datatype="&xsd;string">plasma amino acid concentration</skos:altLabel>
@@ -6688,8 +6688,6 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">plasma amino acid measurement</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-
-
 
 
      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0630865 --> <!-- plasma phenylalanine concentration measurement datum -->
@@ -6777,9 +6775,11 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">plasma phenylalanine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma phenylalanine level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma phenylalanine status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Phe level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma phenylalanine measurement</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Phe</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Phe status</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class> 
    
@@ -6789,11 +6789,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6487114">
         <rdfs:label rdf:datatype="&xsd;string">plasma tyrosine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma tyrosine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid alanine in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma tyrosine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid alanine in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma tyrosine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Tyr level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Tyr</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Tyr status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma tyrosine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma tyrosine status</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6804,11 +6806,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3788590">
         <rdfs:label rdf:datatype="&xsd;string">plasma alanine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-    	<skos:definition rdf:datatype="&xsd;string">Plasma alanine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid alanine in the human blood plasma specimen.</skos:definition>
+    	<skos:definition rdf:datatype="&xsd;string">Plasma alanine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid alanine in the human blood plasma specimen  obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma alanine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Ala level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Ala</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Ala status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma alanine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma alanine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -6819,11 +6823,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5654570">
         <rdfs:label rdf:datatype="&xsd;string">plasma arginine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma arginine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid arginine in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma arginine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid arginine in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma arginine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Arg level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Arg</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Arg status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma arginine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma arginine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -6834,11 +6840,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4615235">
         <rdfs:label rdf:datatype="&xsd;string">plasma asparagine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma asparagine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid asparagine in the human plasma blood specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma asparagine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid asparagine in the human plasma blood specimen  obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma asparagine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Asn level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Asn</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Asn status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma asparagine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma asparagine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6849,11 +6857,12 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5932346">
         <rdfs:label rdf:datatype="&xsd;string">plasma aspartic acid concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma aspartic acid concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of aspartic acid in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma aspartic acid concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of aspartic acid in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma aspartic acid concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Asp level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Asp</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma aspartic acid measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma aspartic acid status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6864,11 +6873,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3513361">
         <rdfs:label rdf:datatype="&xsd;string">plasma cysteine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma cysteine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid cysteine in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma cysteine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid cysteine in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma cysteine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Cys level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Cys</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Cys status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma cysteine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma cysteine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6879,11 +6890,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3380310">
         <rdfs:label rdf:datatype="&xsd;string">plasma glutamic acid concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma glutamic acid concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of glutamic acid in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma glutamic acid concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of glutamic acid in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma glutamic acid concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Glu level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Glu</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Glu status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma glutamic acid measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma glutamic acid status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6894,11 +6907,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9937675">
         <rdfs:label rdf:datatype="&xsd;string">plasma glutamine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma glutamine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid glutamine in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma glutamine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid glutamine in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma glutamine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Gln level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Gln</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Gln status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma glutamine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma glutamine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6909,11 +6924,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0677523">
         <rdfs:label rdf:datatype="&xsd;string">plasma glycine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma glycine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid glycine in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma glycine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid glycine in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma glycine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Gly level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Gly</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Gly status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma glycine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma glycine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6924,11 +6941,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2706074">
         <rdfs:label rdf:datatype="&xsd;string">plasma isoleucine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma isoleucine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid isoleucine in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma isoleucine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid isoleucine in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma isoleucine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Ile level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Ile</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Ile status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma isoleucine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma isoleucine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6939,11 +6958,12 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9527458">
         <rdfs:label rdf:datatype="&xsd;string">plasma leucine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma leucine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid leucine in human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma leucine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid leucine in human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma leucine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Leu level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Leu</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma leucine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma leucine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6954,11 +6974,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4837700">
         <rdfs:label rdf:datatype="&xsd;string">plasma lysine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma lysine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid lysine in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma lysine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid lysine in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma lysine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Lys level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Lys</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Lys status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma lysine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma lysine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6969,11 +6991,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3831849">
         <rdfs:label rdf:datatype="&xsd;string">plasma histidine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma histidine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid histidine in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma histidine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid histidine in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma histidine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma His level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma His</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma His status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma histidine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma histidine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6984,11 +7008,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4698666">
         <rdfs:label rdf:datatype="&xsd;string">plasma methionine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma methionine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid methionine in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma methionine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid methionine in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma methionine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Met level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Met</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Met status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma methionine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma methionine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6999,11 +7025,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8963002">
         <rdfs:label rdf:datatype="&xsd;string">plasma proline concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma proline concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid proline in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma proline concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid proline in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma proline concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Pro level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Pro</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Pro status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma proline measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma proline status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7014,11 +7042,13 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5995471">
         <rdfs:label rdf:datatype="&xsd;string">plasma serine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/> 
-        <skos:definition rdf:datatype="&xsd;string">Plasma serine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid serine in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma serine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid serine in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma serine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Ser level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Ser</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Ser status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma serine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma serine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7029,11 +7059,14 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4051308">
         <rdfs:label rdf:datatype="&xsd;string">plasma threonine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/> 
-        <skos:definition rdf:datatype="&xsd;string">Plasma threonine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid threonine in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma threonine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid threonine in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma threonine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Thr level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Thr</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Thr status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma threonine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma threonine status</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma threonine level</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7044,11 +7077,14 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5512104">
         <rdfs:label rdf:datatype="&xsd;string">plasma tryptophan concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/> 
-        <skos:definition rdf:datatype="&xsd;string">Plasma tryptophan concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid tryptophan in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma tryptophan concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid tryptophan in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma tryptophan concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Trp level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Trp</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Trp status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma tryptophan measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma tryptophan status</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma tryptophan level</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7059,7 +7095,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4226828">
         <rdfs:label rdf:datatype="&xsd;string">plasma valine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/> 
-        <skos:definition rdf:datatype="&xsd;string">Plasma valine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid valine in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma valine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid valine in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma valine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Val level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Val</skos:altLabel>
@@ -7074,11 +7110,14 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0153095">
         <rdfs:label rdf:datatype="&xsd;string">plasma homocysteine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/> 
-        <skos:definition rdf:datatype="&xsd;string">Plasma homocysteine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid homocysteine in the human plasma blood specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma homocysteine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid homocysteine in the human plasma blood specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma homocysteine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Hcy level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Hcy</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Hcy status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma homocysteine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma homocysteine level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma homocysteine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7089,11 +7128,14 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3841004">
         <rdfs:label rdf:datatype="&xsd;string">plasma citrulline concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/> 
-        <skos:definition rdf:datatype="&xsd;string">Plasma citrulline concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid citrulline in the human blood plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Plasma citrulline concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid citrulline in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma citrulline concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Cit level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Cit</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Cit status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma citrulline measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma citrulline level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma citrulline status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7104,11 +7146,14 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4181226">
         <rdfs:label rdf:datatype="&xsd;string">plasma taurine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/> 
-        <skos:definition rdf:datatype="&xsd;string">Plasma taurine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid taurine in the human plasma blood specimen.</skos:definition>     
+        <skos:definition rdf:datatype="&xsd;string">Plasma taurine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid taurine in the human plasma blood specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>     
         <skos:altLabel rdf:datatype="&xsd;string">plasma taurine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Tau level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Tau</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Tau status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma taurine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma taurine level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma taurine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7119,11 +7164,14 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0543092">
         <rdfs:label rdf:datatype="&xsd;string">plasma ornithine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/> 
-        <skos:definition rdf:datatype="&xsd;string">Plasma ornithine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid ornithine in the human blood plasma specimen.</skos:definition>     
+        <skos:definition rdf:datatype="&xsd;string">Plasma ornithine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid ornithine in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>     
         <skos:altLabel rdf:datatype="&xsd;string">plasma ornithine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Orn level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma Orn</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma Orn status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma ornithine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma ornithine level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma ornithine status</skos:altLabel>
     	<rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7134,7 +7182,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1791189">
         <rdfs:label rdf:datatype="&xsd;string">plasma homocystine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
-        <skos:definition rdf:datatype="&xsd;string">Plasma homocystine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid homocystine in the human blood plasma specimen.</skos:definition>     
+        <skos:definition rdf:datatype="&xsd;string">Plasma homocystine concentration measurement datum is a blood plasma amino acid concentration measurement datum that provides the information about the quantity of amino acid homocystine in the human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>     
         <skos:altLabel rdf:datatype="&xsd;string">blood homocystine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood homocystine level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma homocystine concentration</skos:altLabel>
@@ -7149,7 +7197,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3202058">
         <rdfs:label rdf:datatype="&xsd;string">whole blood amino acid concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5020674"/>  <!-- blood amino acid concentration measurement datum -->
-        <skos:definition rdf:datatype="&xsd;string">Whole blood amino acid concentration measurement datum is a blood amino acid concentration measurement datum that is the output of bacterial inhibition assay or other assays (electrophoresis, gas chromatography, liquid chromatography, liquid chromatography-mass spectrometry) measuring the concentration of an observed amino acid in human blood specimen (whole blood specimen, or dried blood spot eluate).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Whole blood amino acid concentration measurement datum is a blood amino acid concentration measurement datum that is the output of bacterial inhibition assay or other assays (electrophoresis, gas chromatography, liquid chromatography, liquid chromatography-mass spectrometry) measuring the concentration of an observed amino acid in human blood specimen (whole blood specimen, or dried blood spot eluate) that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7160,10 +7208,15 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2466421">
         <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3202058"/>
-        <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration measurement datum is a whole blood amino acid concentration measurement datum that provides the information about the quantity of amino acid phenylalanine in the dried blood spot specimen (or blood eluate obtained by processing the dried blood spot specimen) collected from patient at least 2.5 or 3 hours post feed.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood phenylalanine concentration measurement datum is a whole blood amino acid concentration measurement datum that provides the information about the quantity of amino acid phenylalanine in the dried blood spot specimen (or blood eluate derived from the dried blood spot specimen) that has been collected from patient at least 2.5 or 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">blood Phe level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Phe status</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Phe</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Phe concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood phenylalanine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood phenylalanine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood phenylalanine status</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood phenylalanine level</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7174,10 +7227,14 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1319796">
         <rdfs:label rdf:datatype="&xsd;string">blood tyrosine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3202058"/>
-        <skos:definition rdf:datatype="&xsd;string">Blood tyrosine concentration measurement datum is a whole blood amino acid concentration measurement datum that provides the information about the quantity of amino acid tyrosine in the human blood specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood tyrosine concentration measurement datum is a whole blood amino acid concentration measurement datum that provides the information about the quantity of amino acid tyrosine in the human blood specimen (or blood eluate derived from the dried blood spot specimen) that has been collected from patient at least 2.5 or 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">blood Tyr level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Tyr status</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Tyr concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood tyrosine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood tyrosine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood tyrosine level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood tyrosine status</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7188,24 +7245,32 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5821678">
         <rdfs:label rdf:datatype="&xsd;string">blood isoleucine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3202058"/>
-        <skos:definition rdf:datatype="&xsd;string">Blood isoleucine concentration measurement datum is a whole blood amino acid concentration measurement datum that provides the information about the quantity of amino acid isoleucine in the human blood specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood isoleucine concentration measurement datum is a whole blood amino acid concentration measurement datum that provides the information about the quantity of amino acid isoleucine in the human blood specimen (or blood eluate derived from the dried blood spot specimen) that has been collected from patient at least 2.5 or 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">blood Ile level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Ile status</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Ile concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood isoleucine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood isoleucine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood isoleucine status</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood isoleucine level</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7646124 --> <!-- blood isoleucine concentration measurement datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7646124 --> <!-- blood leucine concentration measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7646124">
         <rdfs:label rdf:datatype="&xsd;string">blood leucine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3202058"/> 
-        <skos:definition rdf:datatype="&xsd;string">Blood leucine concentration measurement datum is a whole blood amino acid concentration measurement datum that provides the information about the quantity of amino acid leucine in the human blood specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood leucine concentration measurement datum is a whole blood amino acid concentration measurement datum that provides the information about the quantity of amino acid leucine in the human blood specimen (or blood eluate derived from the dried blood spot specimen) that has been collected from patient at least 2.5 or 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">blood Leu level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Leu concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Leu status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood leucine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood leucine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood leucine status</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood leucine level</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7216,10 +7281,14 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8300260">
         <rdfs:label rdf:datatype="&xsd;string">blood valine concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3202058"/> 
-        <skos:definition rdf:datatype="&xsd;string">Blood valine concentration measurement datum is a whole blood amino acid concentration measurement datum that provides the information about the quantity of amino acid valine in the human blood specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood valine concentration measurement datum is a whole blood amino acid concentration measurement datum that provides the information about the quantity of amino acid valine in the human blood specimen (or blood eluate derived from the dried blood spot specimen) that has been collected from patient at least 2.5 or 3 hours post feed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">blood Val level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Val concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood Val status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood valine concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood valine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood valine level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood valine status</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7233,6 +7302,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Blood vitamin C concentration measurement datum is a concentration measurement datum that is the output of the immunoassay or high performance liquid chromatography providing the information about the quantity of the acorbic acid (vitamin C) in the whole or (Lithium-heparine diluted) human blood plasma.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">blood vitamin C concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood vitamin C level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood vitamin C status</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Vitamin C (ascorbic acid) HPLC retrieved from http://www.alpco.com/pdfs/30/30-2009.pdf</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -7241,40 +7311,45 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2786064 --> <!-- blood plasma vitamin B6 concentration measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2786064">
-        <rdfs:label rdf:datatype="&xsd;string">blood plasma vitamin B6 concentration measurement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">blood vitamin B6 concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurment datum -->
-        <skos:definition rdf:datatype="&xsd;string">Blood plasma vitamin B6 concentration measurement datum  is a concentration measurement datum that is the output of liquid chromatography-tandem mass spectrometry measuring the total quantity of all vitamin B6 forms present in the blood of more specifically, vitamin B6 in the form of pyridoxal-5&apos;'-phosphate, in the human blood plasma specimen.</skos:definition>
-        <skos:altLabel rdf:datatype="&xsd;string">plasma B6 level</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">plasma B6 concentration</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">Blood vitamin B6 concentration measurement datum  is a concentration measurement datum that is the output of liquid chromatography-tandem mass spectrometry measuring the total quantity of all vitamin B6 forms present in the blood of more specifically, vitamin B6 in the form of pyridoxal-5&apos;'-phosphate, in the human blood plasma specimen.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma vitamin B6 level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma vitamin B6 concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma vitamin B6 status</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ods.od.nih.gov/factsheets/VitaminB6-HealthProfessional/</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
  
  
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2966439 --> <!-- blood plasma vitamin B12 concentration measurement datum -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2966439 --> <!-- blood vitamin B12 concentration measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2966439">
-        <rdfs:label rdf:datatype="&xsd;string">blood plasma vitamin B12 concentration measurement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">blood vitamin B12 concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurment datum -->
         <skos:definition rdf:datatype="&xsd;string">Blood vitamin B12 concentration measurement datum is a concentration measurement datum that is the output of the immunoassay (or radioimmunoassay) measuring the quantity of vitamin B12 (in the form of cob(III)alamine and cyanocobalalmine) in the human blood serum or plasma specimen.</skos:definition>
-        <skos:altLabel rdf:datatype="&xsd;string">plasma B12 level</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">plasma B12 concentration</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">serum B12 level</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">serum B12 concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma vitamin B12 level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma vitamin B12 status</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma vitamin B12 concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum vitamin B12 level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum vitamin B12 status</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum vitamin B12 concentration</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
  
  
- <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9960504 --> <!-- blood plasma folate concentration measurement datum -->
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9960504 --> <!-- blood folate concentration measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9960504">
-        <rdfs:label rdf:datatype="&xsd;string">blood plasma folate concentration measurement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">blood folate concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurment datum -->
-        <skos:definition rdf:datatype="&xsd;string">Blood serum folate concentration measurement datum is a concentration measurement datum that is the output of the immunoassay measuring the quantity of folic acid (folate) in the human blood serum or plasma specimen.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Blood folate concentration measurement datum is a concentration measurement datum that is the output of the immunoassay measuring the quantity of folic acid (folate) in the human blood serum or plasma specimen.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma folate level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma folate status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma folate concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">serum folate level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum folate status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">serum folate concentration</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.webmed.com/diet/folic-acid</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -7288,6 +7363,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurment datum -->
         <skos:definition rdf:datatype="&xsd;string">Blood vitamin D concentration measurement datum is a concentration measurement datum that is the output of liquid chromatography-tandem mass spectrometry, ligand binding assay or radioimmunoassay and that provides the information about the quantity of specific form of vitamin D in the blood sample (blood plasma or serum).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">blood vitamin D level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood vitamin D status</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://nim.nih.gov/medlineplus/ency/article/003569.htm</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://mayomedicallaboratories.com/articles/vitamind/index.htm</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/</rdfs:comment>        
@@ -7387,6 +7463,13 @@ people infected, then extract parasite which are then tested = observation study
  			</owl:Class>
  	    </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid phenylalanine concentration mesasurement datum is a concentration measurement datum that is the output of the cerebrospinal fluid phenylalanine concentration measurement assay that measures the concentration of the amino acid phenylalanine in human cerebrospinal fluid.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">CSF phenylalanine status</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">CSF phenylalanine level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">CSF Phe level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">CSF Phe</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">CSF Phe concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">CSF phenylalanine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">CSF phenylalanine concentration</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
