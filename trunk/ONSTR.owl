@@ -20035,6 +20035,67 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1696794-->  <!-- acceptable macronutrient distribution range datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1696794">
+        <rdfs:label rdf:datatype="&xsd;string">acceptable macronutrient distribution range datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>  <!-- scalar measurement datum -->  
+        <skos:definition rdf:datatape="&xsd;string">Acceptable macronutrient distribution range datum is a scalar measurement datum that is defined as a range of daily intake of particular dietary energy source that is associated with a reduced risk of chronic disease, while providing adequate intakes of essential macronutrients and that is expressed as percentage of total daily dietary energy intake for particular macronutrient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">The acceptable macronutrient distribution range (AMDR) of a macronutrient is expressed as a percentage of total energy intake because its requirement, in a classical sense, is not independent of energy fuel sources or of the total energy requirement of the individual. Each must be expressed in terms relative to the other. A key feature of each AMDR is that it has a lowed and upper boundary. If an individual consumes below or above this range, there is a potential for increasing risk of chronic diseases shown to affect long term health, as well as increasing risk of insufficient intakes of essential nutrients. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp.70.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 11, 70-81.</rdfs:comment> 
+        <skos:altLabel rdf:datatype="&xsd;string">acceptable macronutrient distribution range</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">AMDR</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5112397 -->  <!-- acceptable macronutrient distribution range for children population -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5112397">
+        <rdfs:label rdf:datatype="&xsd;string">acceptable macronutrient distribution range for children population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1696794"/>  <!-- acceptable macronutrient distribution range datum -->
+        <skos:definition rdf:datatape="&xsd;string">Acceptable macronutrient distribution range for children population is an acceptable macronutrient distribution range datum that is assumed to adequate for healthy children population 1 to 18 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 70-81.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3872598 -->  <!-- acceptable macronutrient distribution range for children population age 1-to-3 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3872598">
+        <rdfs:label rdf:datatype="&xsd;string">acceptable macronutrient distribution range for children population age 1-to-3 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5112397"/>  
+        <skos:definition rdf:datatape="&xsd;string">Acceptable macronutrient distribution range for children population age 1-to-3 years is an acceptable macronutrient distribution range for children population that is is assumed to adequate for healthy children population 1 to 3 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 70-81.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3492370 -->  <!-- acceptable macronutrient distribution range for children population age 1-to-3 years -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3492370">
+        <rdfs:label rdf:datatype="&xsd;string">acceptable macronutrient distribution range for children population age 4-to-18 years</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5112397"/>
+        <skos:definition rdf:datatape="&xsd;string">Acceptable macronutrient distribution range for children population age 1-to-3 years is an acceptable macronutrient distribution range for children population that is is assumed to adequate for healthy children population 4 to 18 years of age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 70-81.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6378395 -->  <!-- acceptable macronutrient distribution range for adult population -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6378395">
+        <rdfs:label rdf:datatype="&xsd;string">acceptable macronutrient distribution range for adult population</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1696794"/>  <!-- acceptable macronutrient distribution range datum -->
+        <skos:definition rdf:datatape="&xsd;string">Acceptable macronutrient distribution range for adult population is an acceptable macronutrient distribution range datum that is assumed to adequate for healthy adult population (older than 18 years of age).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 70-81.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+       
+     
+ 
+ 
+     
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5283753-->  <!-- dietary reference intake datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5283753">
