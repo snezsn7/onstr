@@ -14708,6 +14708,28 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9828959-->  <!-- average daily dietary intake per body mass of phenylalanine and tyrosine combined -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9828959">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3860310"/>  
+        <skos:definition rdf:datatape="&xsd;string">Average daily dietary intake per body mass of phenylalanine and tyrosine combined is an average daily dietary amino acid intake per body mass during observed time interval denoting the average quantity of a amino acids phenylalanine and tyrosine combined, contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2413154-->  <!-- low average daily dietary intake per body mass of phenylalanine and tyrosine combined -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2413154">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9828959"/>  
+        <skos:definition rdf:datatape="&xsd;string">Low average daily dietary intake per body mass of phenylalanine and tyrosine combined is an average daily dietary intake per body mass of methionine and cysteine combined that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary phenylalanine and tyrosine combined per body mass for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 459-465.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5602197-->  <!-- average daily dietary tyrosine intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5602197">
@@ -14897,6 +14919,28 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
    </owl:Class>
    
+  
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4199842-->  <!-- average daily dietary intake per body mass of methionine and cysteine combined -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4199842">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary intake per body mass of methionine and cysteine combined</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3860310"/> 
+        <skos:definition rdf:datatape="&xsd;string">Average daily dietary intake per body mass of methionine and cysteine combined is an average daily dietary amino acid intake per body mass during observed time interval denoting the average quantity of a amino acids methionine and cysteine combined, contained in all food items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+   
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5466043-->  <!-- low average daily dietary intake per body mass of methionine and cysteine combined -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5466043">
+        <rdfs:label rdf:datatype="&xsd;string">low average daily dietary intake per body mass of methionine and cysteine combined</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4199842"/>
+        <skos:definition rdf:datatape="&xsd;string">Low average daily dietary intake per body mass of methionine and cysteine combined is an average daily dietary intake per body mass of methionine and cysteine combined that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary methionine and cysteine combined per body mass for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 459-465.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+     
    
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4052233-->  <!-- average daily dietary proline intake per body mass during observed time interval -->
 
@@ -14918,7 +14962,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
    </owl:Class>
-    
+      
    
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1669993-->  <!-- average daily dietary threonine intake per body mass during observed time interval -->
 
