@@ -11131,7 +11131,7 @@ people infected, then extract parasite which are then tested = observation study
                                 <owl:intersectionOf rdf:parseType="Collection">
                                     <rdf:Description rdf:about="&obo;CHEBI_33704"/> <!-- alpha-amino acid -->
                    				    <owl:Restriction>
-                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--has role-->
+                    					<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--bfo2:has role at some time-->
                     					<owl:someValuesFrom rdf:resource="&obo;OBI_0000204"/> <!-- nutrient role -->
                     					</owl:Restriction>
                                 </owl:intersectionOf>
@@ -11157,7 +11157,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary amino acid intake over observed time interval datum is an average daily dietary micronutrient intake during observed time interval denoting the average quantity of a given amino acid contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary amino acid intake over observed time interval datum is an average daily dietary micronutrient intake during observed time interval denoting the average quantity of a given amino acid or two amino acids combined contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days and/or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14646,7 +14646,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary amino acid intake per body mass during observed time interval is an average daily nutrient intake per body mass during observed time interval information denoting the average quantity of a given amino acid contained in all nutritional items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary amino acid intake per body mass during observed time interval is an average daily nutrient intake per body mass during observed time interval information denoting the average quantity of a given amino acid or two amino acids combined, contained in all nutritional items taken by a human patient during the observed time period with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
