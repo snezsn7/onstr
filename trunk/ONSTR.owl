@@ -6679,29 +6679,11 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7156237">
         <rdfs:label rdf:datatype="&xsd;string">blood plasma amino acid concentration measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5020674"/> <!-- blood amino acid concentration measurement datum -->
-        <skos:definition rdf:datatype="&xsd;string">Blood plasma amino acid concentration measurement datum is a blood amino acid concentration measurement datum that is the output of various measurement assays (electrophoresis, gas chromatography, liquid chromatography, liquid chromatography-mass spectrometry, liquid chromatography-tandem mass spectrometry, ion exchange chromatography) measuring the concentration of an observed amino acid in human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.obolibrary.org/obo/VT_0005311</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
-        <skos:altLabel rdf:datatype="&xsd;string">plasma amino acid concentration</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">plasma amino acid level</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">plasma amino acid content</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">circulating amino acid level</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">plasma amino acid measurement</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-
-
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0630865 --> <!-- plasma phenylalanine concentration measurement datum -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_0630865">
-        <rdfs:label rdf:datatype="&xsd;string">plasma phenylalanine concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/ -->
-        <!-- Exclude blood eluate and blood sample from log descr -->
-         <owl:equivalentClass>
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5020674"/ --> <!-- blood amino acid concentration measurement datum -->
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_7156237"/>  <!-- blood amino acid concentration measurement datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_5020674"/>  <!-- blood amino acid concentration measurement datum -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                         	<owl:someValuesFrom>
@@ -6709,7 +6691,6 @@ people infected, then extract parasite which are then tested = observation study
                         			<owl:intersectionOf rdf:parseType="Collection">
                         				<owl:Class>
                         					<owl:unionOf rdf:parseType="Collection">
-                        						<rdf:Description rdf:about="&ONSTR;ONSTR_5413434"/>  <!-- bacterial inhibition assay -->
                     							<rdf:Description rdf:about="&obo;OBI_0200198"/> <!-- tandem mass spectrometry -->
                     							<rdf:Description rdf:about="&obo;ERO_0000185"/> <!-- high perform liquid chromatogarphy, THIS MAY CHANGE into OBI's class!!! -->
                     							<rdf:Description rdf:about="&obo;ERO_0001329"/>  <!-- liquid chromatography-mass spectrometry, THIS MAY CHANGE into OBI's class!!! -->
@@ -6724,7 +6705,7 @@ people infected, then extract parasite which are then tested = observation study
                         		<owl:someValuesFrom>
                             		<owl:Class>
                                 		<owl:intersectionOf rdf:parseType="Collection">
-                                        	<rdf:Description rdf:about="&obo;CHEBI_28044"/> <!-- phenylalanine  -->
+                                        	<rdf:Description rdf:about="&obo;CHEBI_33709"/> <!-- amino acid  -->
                                         		<owl:Restriction>
                                         			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- BFO2:has quality at some time -->
                                         				<owl:someValuesFrom>
@@ -6761,6 +6742,23 @@ people infected, then extract parasite which are then tested = observation study
  			    </owl:intersectionOf>
  			</owl:Class>
  	    </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Blood plasma amino acid concentration measurement datum is a blood amino acid concentration measurement datum that is the output of various measurement assays (electrophoresis, gas chromatography, liquid chromatography, liquid chromatography-mass spectrometry, liquid chromatography-tandem mass spectrometry, ion exchange chromatography) measuring the concentration of an observed amino acid in human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.obolibrary.org/obo/VT_0005311</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
+        <skos:altLabel rdf:datatype="&xsd;string">plasma amino acid concentration</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma amino acid level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma amino acid content</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">circulating amino acid level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma amino acid measurement</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+
+
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0630865 --> <!-- plasma phenylalanine concentration measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0630865">
+        <rdfs:label rdf:datatype="&xsd;string">plasma phenylalanine concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7156237"/>
         <skos:definition rdf:datatype="&xsd;string">Plasma phenylalanine concentration mesasurement datum is a blood plasma amino acid concentration measurement datum that is the output of tandem mass specterometry or high performance liquid chromatography or liquid chromatography-mass spectrometry measuring the conentration of the amino acid phenylalanine in human blood plasma speciment that is obtained from blood specimen collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">plasma phenylalanine concentration</skos:altLabel>
