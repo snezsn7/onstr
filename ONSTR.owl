@@ -6668,22 +6668,11 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5020674">
         <rdfs:label rdf:datatype="&xsd;string">blood amino acid concentration measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/> <!-- concentration measurement datum -->
-        <skos:definition rdf:datatype="&xsd;string">Blood amino acid concentration measurement datum is a concentration measurement datum that provides the information about the quantity of an observed amino acid in the human blood eluate or blood plasma specimen collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
-    </owl:Class>
-    
-
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7156237 --> <!-- blood plasma amino acid concentration measurement datum -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_7156237">
-        <rdfs:label rdf:datatype="&xsd;string">blood plasma amino acid concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5020674"/ --> <!-- blood amino acid concentration measurement datum -->
-        <owl:equivalentClass>
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ --> <!-- concentration measurement datum -->
+          <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_5020674"/>  <!-- blood amino acid concentration measurement datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurement datum -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                         	<owl:someValuesFrom>
@@ -6694,6 +6683,7 @@ people infected, then extract parasite which are then tested = observation study
                     							<rdf:Description rdf:about="&obo;OBI_0200198"/> <!-- tandem mass spectrometry -->
                     							<rdf:Description rdf:about="&obo;ERO_0000185"/> <!-- high perform liquid chromatogarphy, THIS MAY CHANGE into OBI's class!!! -->
                     							<rdf:Description rdf:about="&obo;ERO_0001329"/>  <!-- liquid chromatography-mass spectrometry, THIS MAY CHANGE into OBI's class!!! -->
+                    							<rdf:Description rdf:about="&ONSTR;ONSTR_5413434"/> <!-- bacterial inhibition assay -->
                     						</owl:unionOf>
                     					</owl:Class>
                     				</owl:intersectionOf>	
@@ -6714,7 +6704,14 @@ people infected, then extract parasite which are then tested = observation study
                                                     				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
                                         	                        <owl:Restriction>
                                                         				<owl:onProperty rdf:resource="&OBO_REL;towards"/>  <!-- towards --> 
-                                                        			    <owl:someValuesFrom rdf:resource="&obo;OBI_0100016"/> <!-- blood plasma specimen -->
+                                                        			    <owl:someValuesFrom>
+                                                        			    	<owl:Class>
+                                												<owl:intersectionOf rdf:parseType="Collection">
+                                                        			     			<rdf:Description rdf:about="&obo;OBI_0100016"/> <!-- blood plasma specimen -->
+                                        	                                        <rdf:Description rdf:about="&ONSTR;ONSTR_2055480"/> <!-- dried blood spot eluate specimen -->
+                                        	                                    </owl:intersectionOf>
+                                        	                                </owl:Class>
+                                        	                             </owl:someValuesFrom>      
                                         	                        </owl:Restriction>
 																 </owl:intersectionOf>
 															</owl:Class>
@@ -6742,6 +6739,17 @@ people infected, then extract parasite which are then tested = observation study
  			    </owl:intersectionOf>
  			</owl:Class>
  	    </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Blood amino acid concentration measurement datum is a concentration measurement datum that provides the information about the quantity of an observed amino acid in the human blood eluate or blood plasma specimen collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7156237 --> <!-- blood plasma amino acid concentration measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7156237">
+        <rdfs:label rdf:datatype="&xsd;string">blood plasma amino acid concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5020674"/> <!-- blood amino acid concentration measurement datum -->
         <skos:definition rdf:datatype="&xsd;string">Blood plasma amino acid concentration measurement datum is a blood amino acid concentration measurement datum that is the output of various measurement assays (electrophoresis, gas chromatography, liquid chromatography, liquid chromatography-mass spectrometry, liquid chromatography-tandem mass spectrometry, ion exchange chromatography) measuring the concentration of an observed amino acid in human blood plasma specimen obtained from the blood specimen that has been collected from a patient at least 2.5 to 3 hours post feed.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.obolibrary.org/obo/VT_0005311</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>        
