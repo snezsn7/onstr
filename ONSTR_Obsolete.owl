@@ -757,7 +757,7 @@
     </owl:ObjectProperty>
 
 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3590764 -->  <!-- has cause -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTRobsolete.owl#ONSTR_3590764 -->  <!-- has cause -->
 
     <owl:ObjectProperty rdf:about="&ONSTRobsolete;ONSTR_3590764">
         <rdfs:subPropertyOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteProperty"/>
@@ -766,6 +766,33 @@
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
     </owl:ObjectProperty>
+
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTRobsolete.owl#ONSTR_5859795 -->  <!-- has interpretation -->
+
+    <owl:ObjectProperty rdf:about="&ONSTRobsolete;ONSTR_5859795">
+        <rdfs:label rdf:datatype="&xsd;string">has interpretation</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteProperty"/>
+        <skos:definition rdf:datatype="&xsd;string">A realtion between two information content enetities a scalar measurement datum and clinical finding, where an instancle of clinical finding is an interperetation of a given scalar measurement datum based on the vlaue thereof.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">This relation is not stable and may be obsoloteted at a later date.</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </owl:ObjectProperty>
+
+
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTRobsolete.owl#ONSTR_1932532 -->  <!-- is interpretation of -->
+
+    <owl:ObjectProperty rdf:about="&ONSTRobsolete;ONSTR_1932532">
+        <rdfs:label rdf:datatype="&xsd;string">is interpretation of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteProperty"/>
+        <skos:definition rdf:datatype="&xsd;string">A realtion between two information content enetities a scalar measurement datum and clinical finding, where an instancle of clinical finding is an interperetation of a given scalar measurement datum based on the vlaue thereof.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">This relation is not stable and may be obsoloteted at a later date.</skos:editorialNote>
+        <owl:inverseOf rdf:resource="&ONSTR;ONSTR_5859795"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+    </owl:ObjectProperty>  
+
 
 
 
