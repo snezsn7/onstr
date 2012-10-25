@@ -95,10 +95,11 @@
     <!-- http://purl.org/obo/owl/GO#GO_0003674 -->   <!-- molecular function -->
    
    	<owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0003674">
-   	    <rdfs:subClassOf rdf:resource="&obo;BFO_0000034"/>
+   	    <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>  <!-- BFO2:process -->
      	<rdfs:label rdf:datatype="&xsd;string">molecular function</rdfs:label>
      	<skos:definition rdf:datatype="&xsd;string">Elemental activities, such as catalysis or binding, describing the actions of a gene product at the molecular level. A given gene product may exhibit one or more molecular functions.</skos:definition>
      	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO).</skos:editorialNote>
+   		<skos:editorialNote rdf:datatype="&xsd;string">Note: Following GO Consortium, the instances of classes of GO:molecular_function hierarchy stand in parf_of relation to instances of GO:biological_process class hierarchy. As a consequnece of such intepretation in ONSTR, GO:molecular_function is placed under BFO:process, as an BFO:occurent, and NOT as a continuant subsumed under BFO:function, even though GO class name(s) may lead to be interpreted as such. [Source: The Gene Ontology Consortium. (2011) The Gene Ontology: enhancements for 2011. Nucleic Acid Research, 2011, Vol 40.]</skos:editorialNote>
    </owl:Class>
    
    
