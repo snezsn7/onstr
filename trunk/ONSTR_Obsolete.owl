@@ -79,21 +79,7 @@
 		<rdfs:comment rdf:datatype="&xsd;string">This class is a final resting place for all classes that have previously been asserted in the ONSTR, but not in use any more.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Complete</skos:editorialNote>
     </owl:Class>
-     
-   
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_0426948 --> <!-- phenylalanine hyrdoxylase function -->
-
-    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_0426948">
-        <rdfs:label rdf:datatype="&xsd;string">phenylalanine hyrdoxylase function</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
-        <skos:definition rdf:datatype="&xsd;string">A catalytic function of the reaction: L-phenylalanine + tetrahydrobiopterin + O2 = L-tyrosine + 4-alpha-hydroxytetrahydrobiopterin.</skos:definition>
-        <skos:altLabel rdf:datatype="&xsd;string">PAH function</skos:altLabel>
-        <skos:source rdf:datatype="&xsd;string">http://purl.org/obo/owl/GO#GO_0004505</skos:source>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.org/obo/owl/GO#GO_0004505</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsoleted - Replaced by import: phenylalanine hydroxylase function (GO:0004505)</skos:editorialNote>  
-        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
-    </owl:Class>
-    
+        
     
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_6397402 -->  <!-- blood serum transthyretin concentration measurement assay	  -->
 
