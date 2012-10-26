@@ -10512,7 +10512,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5263648">
         <rdfs:label rdf:datatype="&xsd;string">milligram per deciliter</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000052"/>
-        <skos:definition rdf:datatype="&xsd;string">Milligram per deciliter is a mass density unit which is equal to mass of an object expressed in milligrams divided by the volume expressed in deciliters.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Milligram per deciliter is a mass density unit which is equal to mass of substance of 1 milligram (1 mg) contained in the volume of 1 deciliter (1 dL).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
         <skos:altLabel rdf:datatype="&xsd;string">mg/dL</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">mg/dl</skos:altLabel>
@@ -10523,14 +10523,45 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9424813 -->  <!-- nanogram per mililiter  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9424813">
-        <rdfs:label rdf:datatype="&xsd;string">nanogram per mililiter</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">nanogram per milliliter</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000052"/>
-        <skos:definition rdf:datatype="&xsd;string">Nanogram per mililiter is a mass density unit which is equal to mass of an object expressed in nanograms divided by the volume in expressed in mililiters.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nanogram per mililiter is a mass density unit which is equal to mass of substance of 1 nanogram (1 ng) contained in the volume of 1 milliliter (1 mL).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
         <skos:altLabel rdf:datatype="&xsd;string">ng/mL</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">ng/ml</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2470522 -->  <!-- microgram per deciliter  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2470522">
+        <rdfs:label rdf:datatype="&xsd;string">microgram per deciliter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000052"/>
+        <skos:definition rdf:datatape="&xsd;string">Microgram per deciliter is a mass density unit which is equal to the mass of substance of 1 microgram (1 &#x3BC;g) contained in the volume of 1 deciliter (1 dl).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">&#x3BC;g/dL</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">&#x3BC;g/dl</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">ug/dl</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">ug/dL</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mcg/dl</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mcg/dL</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5559694 -->  <!-- picogram per milliliter  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5559694">
+        <rdfs:label rdf:datatype="&xsd;string">picogram per milliliter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000052"/> 
+        <skos:definition rdf:datatape="&xsd;string">Picogram per mililiter is a mass density unit which is equal to mass of substance of 1 picogram (1 pg) contained in the volume of 1 milliliter (1 mL).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">pg/ml</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">pg/mL</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8224262 -->  <!-- cells per microliter  -->
