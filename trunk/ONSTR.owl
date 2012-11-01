@@ -1444,6 +1444,7 @@ people infected, then extract parasite which are then tested = observation study
    </owl:Class>
      
      
+     
 <!-- END ERO IMPORTS -->   
 <!-- START PATO IMPORTS -->    
     
@@ -5659,7 +5660,7 @@ people infected, then extract parasite which are then tested = observation study
 	</owl:Class>
    
    
-       <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7546388 --> <!-- congenital hyperphenylalaninemia -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7546388 --> <!-- congenital hyperphenylalaninemia -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7546388">  <!-- cross that with congenital metabolic disorder -->
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5448898"/>
@@ -7284,7 +7285,63 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2522542">
         <rdfs:label rdf:datatype="&xsd;string">blood vitamin C concentration measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurment datum -->
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->  <!-- concentration measurment datum -->
+          <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurement datum -->
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
+                    	    <owl:someValuesFrom>
+                        		<owl:Class>
+                        			<owl:intersectionOf rdf:parseType="Collection">
+                        				<owl:Class>
+                        					<owl:unionOf rdf:parseType="Collection">
+                    							<rdf:Description rdf:about="&obo;ERO_0000185"/>  <!-- HPLC - -->
+                    							<rdf:Description rdf:about="&obo;ERO_0001349"/> <!-- LC-TMS -->
+                    							<rdf:Description rdf:about="&obo;ERO_0001332"/> <!-- capillary electrophoresis -->
+                    						</owl:unionOf>
+                    					</owl:Class>
+                    				</owl:intersectionOf>	
+                    			</owl:Class>
+                    		</owl:someValuesFrom>
+                    	</owl:Restriction>
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000221"/>  <!-- is quality measurement of -->
+                        		<owl:someValuesFrom>
+                            		<owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                        	<rdf:Description rdf:about="&PATO;PATO_0001159"/> <!-- concentrated  -->
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000080"/> <!-- bfo:quality at all times - during existence of the quality -->
+                                        			<owl:someValuesFrom rdf:resource="&obo;CHEBI_29073"/>  <!-- L-ascorbic acid=vit C -->
+                                        		</owl:Restriction>
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&OBO_REL;towards"/> <!-- towards -->
+                   	    								<owl:someValuesFrom>
+                            								<owl:Class>
+                                								<owl:unionOf rdf:parseType="Collection">
+                                									<rdf:Description rdf:about="&obo;OBI_0100017"/> <!-- blood serum specimen -->
+                                	    							<rdf:Description rdf:about="&obo;OBI_0100016"/>  <!-- blood plasma specimen -->
+                                								</owl:unionOf> 
+                              								</owl:Class> 	
+                            							</owl:someValuesFrom>
+                                        		</owl:Restriction>
+										 </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+ 						</owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measur unit label-->                            
+                   	    <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5263648"/>  <!-- milligram per deciliter -->
+                    </owl:Restriction>
+ 				    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
+                    </owl:Restriction>
+ 			    </owl:intersectionOf>
+ 			</owl:Class>
+ 	    </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Blood vitamin C concentration measurement datum is a concentration measurement datum that is the output of the immunoassay or high performance liquid chromatography providing the information about the quantity of the acorbic acid (vitamin C) in the whole or (Lithium-heparine diluted) human blood plasma.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">blood vitamin C concentration</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood vitamin C level</skos:altLabel>
@@ -7298,7 +7355,62 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2786064">
         <rdfs:label rdf:datatype="&xsd;string">blood vitamin B6 concentration measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurment datum -->
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->  <!-- concentration measurment datum -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurement datum -->
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
+                    	    <owl:someValuesFrom>
+                        		<owl:Class>
+                        			<owl:intersectionOf rdf:parseType="Collection">
+                        				<owl:Class>
+                        					<owl:unionOf rdf:parseType="Collection">
+                    							<rdf:Description rdf:about="&obo;ERO_0000185"/>  <!-- HPLC - -->
+                    							<rdf:Description rdf:about="&obo;ERO_0001349"/> <!-- LC-TMS -->
+                    						</owl:unionOf>
+                    					</owl:Class>
+                    				</owl:intersectionOf>	
+                    			</owl:Class>
+                    		</owl:someValuesFrom>
+                    	</owl:Restriction>
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000221"/>  <!-- is quality measurement of -->
+                        		<owl:someValuesFrom>
+                            		<owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                        	<rdf:Description rdf:about="&PATO;PATO_0001159"/> <!-- concentrated  -->
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000080"/> <!-- bfo:quality at all times - during existence of the quality -->
+                                        			<owl:someValuesFrom rdf:resource="&obo;CHEBI_27306"/>  <!-- vitamin B6 -->
+                                        		</owl:Restriction>
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&OBO_REL;towards"/> <!-- towards -->
+                   	    								<owl:someValuesFrom>
+                            								<owl:Class>
+                                								<owl:unionOf rdf:parseType="Collection">
+                                									<rdf:Description rdf:about="&obo;OBI_0100017"/> <!-- blood serum specimen -->
+                                	    							<rdf:Description rdf:about="&obo;OBI_0100016"/>  <!-- blood plasma specimen -->
+                                								</owl:unionOf> 
+                              								</owl:Class> 	
+                            							</owl:someValuesFrom>
+                                        		</owl:Restriction>
+										 </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+ 						</owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measur unit label-->                            
+                   	    <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_9424813"/>  <!-- nanogram per milliliter -->
+                    </owl:Restriction>
+ 				    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
+                    </owl:Restriction>
+ 			    </owl:intersectionOf>
+ 			</owl:Class>
+ 	    </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Blood vitamin B6 concentration measurement datum  is a concentration measurement datum that is the output of liquid chromatography-tandem mass spectrometry measuring the total quantity of all vitamin B6 forms present in the blood of more specifically, vitamin B6 in the form of pyridoxal-5&apos;'-phosphate, in the human blood plasma specimen.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma vitamin B6 level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma vitamin B6 concentration</skos:altLabel>
@@ -7312,8 +7424,62 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2966439">
         <rdfs:label rdf:datatype="&xsd;string">blood vitamin B12 concentration measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurment datum -->
-       
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->  <!-- concentration measurment datum -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurement datum -->
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
+                    	    <owl:someValuesFrom>
+                        		<owl:Class>
+                        			<owl:intersectionOf rdf:parseType="Collection">
+                        				<owl:Class>
+                        					<owl:unionOf rdf:parseType="Collection">
+                    							<rdf:Description rdf:about="&obo;ERO_0001362"/>  <!-- immunoassay - -->
+                    							<rdf:Description rdf:about="&obo;OBI_0000910"/> <!-- radio immuno assay -->
+                    						</owl:unionOf>
+                    					</owl:Class>
+                    				</owl:intersectionOf>	
+                    			</owl:Class>
+                    		</owl:someValuesFrom>
+                    	</owl:Restriction>
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000221"/>  <!-- is quality measurement of -->
+                        		<owl:someValuesFrom>
+                            		<owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                        	<rdf:Description rdf:about="&PATO;PATO_0001159"/> <!-- concentrated  -->
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000080"/> <!-- bfo:quality at all times - during existence of the quality -->
+                                        			<owl:someValuesFrom rdf:resource="&obo;CHEBI_30411"/>  <!-- cobalamin=B12 -->
+                                        		</owl:Restriction>
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&OBO_REL;towards"/> <!-- towards -->
+                   	    								<owl:someValuesFrom>
+                            								<owl:Class>
+                                								<owl:unionOf rdf:parseType="Collection">
+                                									<rdf:Description rdf:about="&obo;OBI_0100017"/> <!-- blood serum specimen -->
+                                	    							<rdf:Description rdf:about="&obo;OBI_0100016"/>  <!-- blood plasma specimen -->
+                                								</owl:unionOf> 
+                              								</owl:Class> 	
+                            							</owl:someValuesFrom>
+                                        		</owl:Restriction>
+										 </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+ 						</owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measur unit label-->                            
+                   	    <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5559694"/>  <!-- picogram per milliliter -->
+                    </owl:Restriction>
+ 				    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
+                    </owl:Restriction>
+ 			    </owl:intersectionOf>
+ 			</owl:Class>
+ 	    </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Blood vitamin B12 concentration measurement datum is a concentration measurement datum that is the output of the immunoassay (or radioimmunoassay) measuring the quantity of vitamin B12 (in the form of cob(III)alamine and cyanocobalalmine) in the human blood serum or plasma specimen.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma vitamin B12 level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma vitamin B12 status</skos:altLabel>
@@ -7330,7 +7496,52 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9960504">
         <rdfs:label rdf:datatype="&xsd;string">blood folate concentration measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurment datum -->
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ !-->  <!-- concentration measurment datum -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurement datum -->
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
+                        	<owl:someValuesFrom rdf:resource="&obo;ERO_0001362"/>  <!-- immunoassay - should be ECLIA!!! -->
+                    	</owl:Restriction>
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000221"/>  <!-- is quality measurement of -->
+                        		<owl:someValuesFrom>
+                            		<owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                        	<rdf:Description rdf:about="&PATO;PATO_0001159"/> <!-- concentrated  -->
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000080"/> <!-- bfo:quality at all times - during existence of the quality -->
+                                        			<owl:someValuesFrom rdf:resource="&obo;CHEBI_27470"/>  <!-- folic acid -->
+                                        		</owl:Restriction>
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&OBO_REL;towards"/> <!-- towards -->
+                   	    								<owl:someValuesFrom>
+                            								<owl:Class>
+                                								<owl:unionOf rdf:parseType="Collection">
+                                									<rdf:Description rdf:about="&obo;OBI_0100017"/> <!-- blood serum specimen -->
+                                	    							<rdf:Description rdf:about="&obo;OBI_0100016"/>  <!-- blood plasma specimen -->
+                                								</owl:unionOf> 
+                              								</owl:Class> 	
+                            							</owl:someValuesFrom>
+                                        		</owl:Restriction>
+										 </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+ 						</owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measur unit label-->                            
+                   	    <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_9424813"/>  <!-- nanogram per milliliter -->
+                    </owl:Restriction>
+ 				    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
+                    </owl:Restriction>
+ 			    </owl:intersectionOf>
+ 			</owl:Class>
+ 	    </owl:equivalentClass>  
+ 	    
         <skos:definition rdf:datatype="&xsd;string">Blood folate concentration measurement datum is a concentration measurement datum that is the output of the immunoassay measuring the quantity of folic acid (folate) in the human blood serum or plasma specimen.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">plasma folate level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">plasma folate status</skos:altLabel>
@@ -7347,7 +7558,72 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2366136">
         <rdfs:label rdf:datatype="&xsd;string">blood vitamin D concentration measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurment datum -->
+    	<!--  rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->  <!-- concentration measurment datum -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurement datum -->
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
+                    	    <owl:someValuesFrom>
+                        		<owl:Class>
+                        			<owl:intersectionOf rdf:parseType="Collection">
+                        				<owl:Class>
+                        					<owl:unionOf rdf:parseType="Collection">
+                    							<rdf:Description rdf:about="&obo;ERO_0000185"/> <!-- HPLC -->
+                    							<rdf:Description rdf:about="&obo;ERO_0001349"/> <!-- LC-MS/MS -->
+                    							<rdf:Description rdf:about="&obo;ERO_0001332"/> <!-- capillary electrophoresis -->
+                    						</owl:unionOf>
+                    					</owl:Class>
+                    				</owl:intersectionOf>	
+                    			</owl:Class>
+                    		</owl:someValuesFrom>
+                    	</owl:Restriction>
+                    	<owl:Restriction>
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000221"/>  <!-- is quality measurement of -->
+                        		<owl:someValuesFrom>
+                            		<owl:Class>
+                                		<owl:intersectionOf rdf:parseType="Collection">
+                                        	<rdf:Description rdf:about="&PATO;PATO_0001159"/> <!-- concentrated  -->
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000080"/> <!-- bfo:quality at all times - during existence of the quality -->
+                                        			<owl:someValuesFrom>  
+                                        				<owl:Class>
+                                							<owl:unionOf rdf:parseType="Collection">
+                                								<rdf:Description rdf:about="&obo;CHEBI_17823"/> <!-- calcitriol=1,25-duhydrohycholecalciferol -->
+                                	    						<rdf:Description rdf:about="&obo;CHEBI_17933"/>  <!-- calcidiol=25-hydroxycholecalcipherol -->
+                                							</owl:unionOf>
+                                        			    </owl:Class>
+                                        			</owl:someValuesFrom>  
+                                        		</owl:Restriction>
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&OBO_REL;towards"/> <!-- towards -->
+                   	    								<owl:someValuesFrom>
+                            								<owl:Class>
+                                								<owl:unionOf rdf:parseType="Collection">
+                                									<rdf:Description rdf:about="&obo;OBI_0100017"/> <!-- blood serum specimen -->
+                                	    							<rdf:Description rdf:about="&obo;OBI_0100016"/>  <!-- blood plasma specimen -->
+                                								</owl:unionOf> 
+                              								</owl:Class> 	
+                            							</owl:someValuesFrom>
+                                        		</owl:Restriction>
+										 </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:someValuesFrom>
+ 						</owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measur unit label-->                            
+                   	    <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5559694"/>  <!-- picogram per milliliter -->
+                    </owl:Restriction>
+ 				    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/>  <!-- has measur value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;float"/>
+                    </owl:Restriction>
+ 			    </owl:intersectionOf>
+ 			</owl:Class>
+ 	    </owl:equivalentClass>
+        
+        
         <skos:definition rdf:datatype="&xsd;string">Blood vitamin D concentration measurement datum is a concentration measurement datum that is the output of liquid chromatography-tandem mass spectrometry, ligand binding assay or radioimmunoassay and that provides the information about the quantity of specific form of vitamin D in the blood sample (blood plasma or serum).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">blood vitamin D level</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">blood vitamin D status</skos:altLabel>
