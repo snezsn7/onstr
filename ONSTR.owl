@@ -6686,32 +6686,26 @@ people infected, then extract parasite which are then tested = observation study
                         		<owl:someValuesFrom>
                             		<owl:Class>
                                 		<owl:intersectionOf rdf:parseType="Collection">
-                                        	<rdf:Description rdf:about="&obo;CHEBI_33709"/> <!-- amino acid  -->
+                                        	<rdf:Description rdf:about="&PATO;PATO_0001159"/> <!-- concentrated  -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- BFO2:has quality at some time -->
-                                        				<owl:someValuesFrom>
-                                            				<owl:Class>
-                                                				<owl:intersectionOf rdf:parseType="Collection">
-                                                    				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
-                                        	                        <owl:Restriction>
-                                                        				<owl:onProperty rdf:resource="&OBO_REL;towards"/>  <!-- towards --> 
-                                                        			    <owl:someValuesFrom>
-                                                        			    	<owl:Class>
-                                												<owl:intersectionOf rdf:parseType="Collection">
-                                                        			     			<rdf:Description rdf:about="&obo;OBI_0100016"/> <!-- blood plasma specimen -->
-                                        	                                        <rdf:Description rdf:about="&ONSTR;ONSTR_2055480"/> <!-- dried blood spot eluate specimen -->
-                                        	                                    </owl:intersectionOf>
-                                        	                                </owl:Class>
-                                        	                             </owl:someValuesFrom>      
-                                        	                        </owl:Restriction>
-																 </owl:intersectionOf>
-															</owl:Class>
-											            </owl:someValuesFrom>
-					                            </owl:Restriction>											
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000080"/> <!-- bfo:quality at all times - during existence of the quality -->
+                                        			<owl:someValuesFrom rdf:resource="&obo;CHEBI_33709"/> <!-- amino acid  -->
+                                        		</owl:Restriction>
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&OBO_REL;towards"/> <!-- towards -->
+                   	    								<owl:someValuesFrom>
+                            								<owl:Class>
+                                								<owl:unionOf rdf:parseType="Collection">
+                                                        			<rdf:Description rdf:about="&obo;OBI_0100016"/> <!-- blood plasma specimen -->
+                                        	                        <rdf:Description rdf:about="&ONSTR;ONSTR_2055480"/> <!-- dried blood spot eluate -->
+                                								</owl:unionOf> 
+                              								</owl:Class> 	
+                            							</owl:someValuesFrom>
+                                        		</owl:Restriction>
 										 </owl:intersectionOf>
                                     </owl:Class>
                                 </owl:someValuesFrom>
- 						</owl:Restriction>
+ 					</owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
                    	    <owl:someValuesFrom>
@@ -7683,30 +7677,39 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
                     	<owl:Restriction>
-                    	<!-- NEED to ADD is specif output of some assay -->
+                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
+                        	<owl:someValuesFrom>
+                        		<owl:Class>
+                        			<owl:intersectionOf rdf:parseType="Collection">
+                        				<owl:Class>
+                        					<owl:unionOf rdf:parseType="Collection">
+                    							<rdf:Description rdf:about="&obo;OBI_0200198"/> <!-- tandem mass spectrometry -->
+                    							<rdf:Description rdf:about="&obo;ERO_0000185"/> <!-- high perform liquid chromatogarphy, THIS MAY CHANGE into OBI's class!!! -->
+                    							<rdf:Description rdf:about="&obo;ERO_0001329"/>  <!-- liquid chromatography-mass spectrometry, THIS MAY CHANGE into OBI's class!!! -->
+                    						</owl:unionOf>
+                    					</owl:Class>
+                    				</owl:intersectionOf>	
+                    			</owl:Class>
+                    		</owl:someValuesFrom>
+                    	</owl:Restriction>
+                    	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&obo;IAO_0000221"/>  <!-- is quality measurement of -->
                         		<owl:someValuesFrom>
                             		<owl:Class>
                                 		<owl:intersectionOf rdf:parseType="Collection">
-                                        	<rdf:Description rdf:about="&obo;CHEBI_28044"/> <!-- phenylalanine  -->
+                                        	<rdf:Description rdf:about="&PATO;PATO_0001159"/> <!-- concentrated  -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- BFO2:has quality at some time-->
-                                        				<owl:someValuesFrom>
-                                            				<owl:Class>
-                                                				<owl:intersectionOf rdf:parseType="Collection">
-                                                    				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
-                                        	                        <owl:Restriction>
-                                                        				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
-                                                        			    <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2889784"/> <!-- CSF specimen -->
-                                        	                        </owl:Restriction>
-																 </owl:intersectionOf>
-															</owl:Class>
-											            </owl:someValuesFrom>
-					                            </owl:Restriction>											
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000080"/> <!-- bfo:quality at all times - during existence of the quality -->
+                                        			<owl:someValuesFrom rdf:resource="&obo;CHEBI_28044"/> <!-- phenylalanine  -->
+                                        		</owl:Restriction>
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&OBO_REL;towards"/> <!-- towards -->
+                                              		<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2889784"/> <!-- CSF specimen -->
+                                        		</owl:Restriction>
 										 </owl:intersectionOf>
                                     </owl:Class>
                                 </owl:someValuesFrom>
- 						</owl:Restriction>
+ 					</owl:Restriction>	
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!--has measur unit label-->                            
                    	    <owl:someValuesFrom>
@@ -10040,25 +10043,19 @@ people infected, then extract parasite which are then tested = observation study
                     	    </owl:someValuesFrom>
                     	</owl:Restriction>
                     	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000221"/>  <!-- is quality measurement of -->
                         		<owl:someValuesFrom>
                             		<owl:Class>
                                 		<owl:intersectionOf rdf:parseType="Collection">
-                                        	<rdf:Description rdf:about="&ONSTR;ONSTR_2707948"/> <!-- ferritin complex  -->
+                                        	<rdf:Description rdf:about="&PATO;PATO_0001159"/> <!-- concentrated  -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- BFO2:quality at some time-->
-                                        				<owl:someValuesFrom>
-                                            				<owl:Class>
-                                                				<owl:intersectionOf rdf:parseType="Collection">
-                                                    				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
-                                        	                        <owl:Restriction>
-                                                        				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
-                                                        			    <owl:someValuesFrom rdf:resource="&obo;OBI_0100017"/> <!-- blood serum specimen = thing 2 -->
-                                        	                        </owl:Restriction>
-																 </owl:intersectionOf>
-															</owl:Class>
-											            </owl:someValuesFrom>
-					                            </owl:Restriction>											
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000080"/> <!-- bfo:quality at all times - during existence of the quality -->
+                                        			<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2707948"/> <!-- ferritin complex  -->
+                                        		</owl:Restriction>
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&OBO_REL;towards"/> <!-- towards -->
+                   	    						    <owl:someValuesFrom rdf:resource="&obo;OBI_0100017"/> <!-- blood serum specimen -->
+                                        		</owl:Restriction>
 										 </owl:intersectionOf>
                                     </owl:Class>
                                 </owl:someValuesFrom>
@@ -10107,25 +10104,19 @@ people infected, then extract parasite which are then tested = observation study
                     	    </owl:someValuesFrom>
                     	</owl:Restriction>
                     	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000221"/>  <!-- is quality measurement of -->
                         		<owl:someValuesFrom>
                             		<owl:Class>
                                 		<owl:intersectionOf rdf:parseType="Collection">
-                                        	<rdf:Description rdf:about="&ONSTR;ONSTR_5107576"/> <!-- transthyretin complex = pre-albumin -->
+                                        	<rdf:Description rdf:about="&PATO;PATO_0001159"/> <!-- concentrated  -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- BFO2:has quality at some time -->
-                                        				<owl:someValuesFrom>
-                                            				<owl:Class>
-                                                				<owl:intersectionOf rdf:parseType="Collection">
-                                                    				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
-                                        	                        <owl:Restriction>
-                                                        				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
-                                                        			    <owl:someValuesFrom rdf:resource="&obo;OBI_0100017"/> <!-- blood serum specimen = thing 2 -->
-                                        	                        </owl:Restriction>
-																 </owl:intersectionOf>
-															</owl:Class>
-											            </owl:someValuesFrom>
-					                            </owl:Restriction>											
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000080"/> <!-- bfo:quality at all times - during existence of the quality -->
+                                        			<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5107576"/> <!-- transthyretin complex = pre-albumin -->
+                                        		</owl:Restriction>
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&OBO_REL;towards"/> <!-- towards -->
+                   	    						    <owl:someValuesFrom rdf:resource="&obo;OBI_0100017"/> <!-- blood serum specimen -->
+                                        		</owl:Restriction>
 										 </owl:intersectionOf>
                                     </owl:Class>
                                 </owl:someValuesFrom>
@@ -10173,25 +10164,19 @@ people infected, then extract parasite which are then tested = observation study
                     	    </owl:someValuesFrom>
                     	</owl:Restriction>
                     	<owl:Restriction>
-                        	<owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
+                        	<owl:onProperty rdf:resource="&obo;IAO_0000221"/>  <!-- is quality measurement of -->
                         		<owl:someValuesFrom>
                             		<owl:Class>
                                 		<owl:intersectionOf rdf:parseType="Collection">
-                                        	<rdf:Description rdf:about="&PRO;PR_000003918"/> <!-- albumin  -->
+                                        	<rdf:Description rdf:about="&PATO;PATO_0001159"/> <!-- concentrated  -->
                                         		<owl:Restriction>
-                                        			<owl:onProperty rdf:resource="&obo;BFO_0000086"/> <!-- BFO2:has quality at some time -->
-                                        				<owl:someValuesFrom>
-                                            				<owl:Class>
-                                                				<owl:intersectionOf rdf:parseType="Collection">
-                                                    				<rdf:Description rdf:about="&PATO;PATO_0001159"/>  <!-- concentrated -->
-                                        	                        <owl:Restriction>
-                                                        				<owl:onProperty rdf:resource="&OBO_REL;towards"/>
-                                                        			    <owl:someValuesFrom rdf:resource="&obo;OBI_0100017"/> <!-- blood serum specimen = thing 2 -->
-                                        	                        </owl:Restriction>
-																 </owl:intersectionOf>
-															</owl:Class>
-											            </owl:someValuesFrom>
-					                            </owl:Restriction>											
+                                        			<owl:onProperty rdf:resource="&obo;BFO_0000080"/> <!-- bfo:quality at all times - during existence of the quality -->
+                                        			<owl:someValuesFrom rdf:resource="&PRO;PR_000003918"/> <!-- albumin  -->
+                                        		</owl:Restriction>
+                                        		<owl:Restriction>
+                                        			<owl:onProperty rdf:resource="&OBO_REL;towards"/> <!-- towards -->
+                   	    						    <owl:someValuesFrom rdf:resource="&obo;OBI_0100017"/> <!-- blood serum specimen -->
+                                        		</owl:Restriction>
 										 </owl:intersectionOf>
                                     </owl:Class>
                                 </owl:someValuesFrom>
