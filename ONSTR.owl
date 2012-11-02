@@ -6664,11 +6664,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class> 
-    
-    
-    
-    
-    
+   
   
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5020674 --> <!-- blood  amino acid concentration measurement datum -->
 
@@ -6678,7 +6674,7 @@ people infected, then extract parasite which are then tested = observation study
           <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurement datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_6769309"/> <!-- blood chemical concentration measurement datum -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                         	<owl:someValuesFrom>
@@ -7294,11 +7290,11 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2522542">
         <rdfs:label rdf:datatype="&xsd;string">blood vitamin C concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->  <!-- concentration measurment datum -->
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
           <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurement datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_6769309"/> <!-- blood chemical concentration measurement datum -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                     	    <owl:someValuesFrom>
@@ -7364,11 +7360,11 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2786064">
         <rdfs:label rdf:datatype="&xsd;string">blood vitamin B6 concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->  <!-- concentration measurment datum -->
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurement datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                     	    <owl:someValuesFrom>
@@ -7433,11 +7429,11 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2966439">
         <rdfs:label rdf:datatype="&xsd;string">blood vitamin B12 concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->  <!-- concentration measurment datum -->
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurement datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                     	    <owl:someValuesFrom>
@@ -7505,11 +7501,11 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9960504">
         <rdfs:label rdf:datatype="&xsd;string">blood folate concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ !-->  <!-- concentration measurment datum -->
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurement datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                         	<owl:someValuesFrom rdf:resource="&obo;ERO_0001362"/>  <!-- immunoassay - should be ECLIA!!! -->
@@ -7567,11 +7563,11 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2366136">
         <rdfs:label rdf:datatype="&xsd;string">blood vitamin D concentration measurement datum</rdfs:label>
-    	<!--  rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->  <!-- concentration measurment datum -->
+    	<!--  rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentration measurement datum -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                     	    <owl:someValuesFrom>
@@ -7708,11 +7704,11 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1115755">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->  <!-- CSF chemical concentration measurement datum -->
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8315858"/ -->  <!-- CSF chemical concentration measurement datum -->
          <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8315858"/>  <!-- CSF chemical concentration measurement datum -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                         	<owl:someValuesFrom>
@@ -10063,11 +10059,11 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9906490">
         <rdfs:label rdf:datatype="&xsd;string">blood serum ferritin concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                         	<owl:someValuesFrom> 
@@ -10122,11 +10118,11 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7654391">
         <rdfs:label rdf:datatype="&xsd;string">blood serum transthyretin concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                         	<owl:someValuesFrom> 
@@ -10184,11 +10180,11 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0232327">
         <rdfs:label rdf:datatype="&xsd;string">blood serum albumin concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/ -->
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2972996"/>  <!-- concentrat measur datum = superCalss -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
                     	<owl:Restriction>
                         	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output -->
                         	<owl:someValuesFrom>
