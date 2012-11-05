@@ -6692,10 +6692,72 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6769309">
         <rdfs:label rdf:datatype="&xsd;string">blood chemical concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/> <!-- concentration measurement datum -->
-        <skos:definition rdf:datatape="&xsd;string">Blood chemical concentration measurement datum is a concentration measurement datum providing the information about the concentration of a observed chemical in the human blood specimen or processed blood specimen.</skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Blood chemical concentration measurement datum is a concentration measurement datum providing the information about the concentration of a observed chemical in the human blood specimen or processed blood specimen (blood plasma, serum or dried blood spot eluate).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class> 
+   
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8764887 --> <!-- blood zinc concentration measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8764887">
+        <rdfs:label rdf:datatype="&xsd;string">blood zinc concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/> <!-- blood chemical concentration measurement datum -->
+        <skos:definition rdf:datatape="&xsd;string">Blood zinc concentration measurement datum is a blood chemical concentration measurement datum providing the information about the concentration of zinc in the blood plasma or serum specimen.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">blood zinc level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood zinc measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood zinc</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">plasma zinc</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum zinc</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+   
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7819287 --> <!-- total serum iron concentration measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7819287">
+        <rdfs:label rdf:datatype="&xsd;string">total serum iron concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/> <!-- blood chemical concentration measurement datum -->
+        <skos:definition rdf:datatape="&xsd;string">Total serum iron concentration measurement datum is a blood chemical concentration measurement datum that provides the information about the total concentration of iron in the observed blood serum specimen, that includes iron circulating in the blood and iron bound to transferrin (serotransferin).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">serum iron</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">total serum iron</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum iron level</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Serum_iron</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+   
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1162650 --> <!-- blood selenium concentration measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1162650">
+        <rdfs:label rdf:datatype="&xsd;string">blood selenium concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/> <!-- blood chemical concentration measurement datum -->
+        <skos:definition rdf:datatape="&xsd;string">Blood selenium concentration measurement datum is a blood chemical concentration measurement datum that provides the information about the concentration of selenium in the blood plasma or serum specimen.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">blood selenium level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum selenium level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood selenium measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum selenium measurement</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4434268 --> <!-- blood serum transferrin concentration measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4434268">
+        <rdfs:label rdf:datatype="&xsd;string">blood serum transferrin concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/> <!-- blood chemical concentration measurement datum -->
+        <skos:definition rdf:datatape="&xsd;string">Blood serum transferrin concentration measurement datum is a blood chemical concentration measurement datum  that provides the information about the concentration of serotransferrin (also known as only &apos;transferrin&apos;) in human blood serum specimen.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">serum transferrin level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serotransferrin level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serum transferrin measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">serotransferrin measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">blood transferrin level</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
    
   
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5020674 --> <!-- blood  amino acid concentration measurement datum -->
@@ -7716,6 +7778,20 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">urine chemical concentration measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2972996"/> <!-- concentration measurement datum -->
         <skos:definition rdf:datatape="&xsd;string">Urine chemical concentration measurement datum is a concentration measurement datum providing the information about the concentration of a observed chemical in the human urine specimen or processed urine specimen.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9965048 --> <!-- urine creatinine concentration measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9965048">
+        <rdfs:label rdf:datatype="&xsd;string">urine creatinine concentration measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6127102"/> <!-- urine chemical concentration measurement datum -->
+        <skos:definition rdf:datatape="&xsd;string">Urine creatinine concentration measurement datum is a urine chemical concentration measurement datum that provides the information about the concentration of creatinine in human urine specimen collected by patient at random time of the day.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">urine creatinine measurement</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">urine creatinine level</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">creatinine, random urine</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -10842,6 +10918,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
         <skos:altLabel rdf:datatype="&xsd;string">mg/dL</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">mg/dl</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">This class will most likely be replaced by the parallel UO class if/when team UO asserts one.</rdfs:comment>   
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -10855,6 +10932,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
         <skos:altLabel rdf:datatype="&xsd;string">ng/mL</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">ng/ml</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">This class will most likely be replaced by the parallel UO class if/when team UO asserts one.</rdfs:comment>   
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -10871,6 +10949,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">ug/dL</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">mcg/dl</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">mcg/dL</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">This class will most likely be replaced by the parallel UO class if/when team UO asserts one.</rdfs:comment>   
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -10880,14 +10959,32 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5559694">
         <rdfs:label rdf:datatype="&xsd;string">picogram per milliliter</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;UO_0000052"/> 
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000052"/> <!-- mass density unit -->
         <skos:definition rdf:datatape="&xsd;string">Picogram per mililiter is a mass density unit which is equal to mass of substance of 1 picogram (1 pg) contained in the volume of 1 milliliter (1 mL).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">pg/ml</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">pg/mL</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">This class will most likely be replaced by the parallel UO class if/when team UO asserts one.</rdfs:comment>   
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-    
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0986510 -->  <!-- microgram per milliliter  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0986510">
+        <rdfs:label rdf:datatype="&xsd;string">microgram per milliliter</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000052"/> <!-- mass density unit -->
+        <skos:definition rdf:datatape="&xsd;string">Microgram per milliliter is a mass density unit which is equal to mass of substance of 1 microgram (1 &#x3BC;g) contained in the volume of 1 milliliter (1 mL).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">ug/ml</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">ug/mL</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">&#x3BC;g/mL</skos:altLabel>    
+        <skos:altLabel rdf:datatype="&xsd;string">&#x3BC;g/ml</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mcg/ml</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mcg/mL</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">This class will most likely be replaced by the parallel UO class if/when team UO asserts one.</rdfs:comment>   
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>  
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8224262 -->  <!-- cells per microliter  -->
@@ -10900,6 +10997,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">cells per uL</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">cells per &#x3BC;L</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">cells/&#x3BC;L</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">This class will most likely be replaced by the parallel UO class if/when team UO asserts one.</rdfs:comment>   
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
       
@@ -23219,7 +23317,6 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
-    
         
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5413434 -->  <!-- bacterial inhibition assay  -->
 
@@ -23253,6 +23350,20 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8717650 -->  <!-- nephelometry  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8717650">
+        <rdfs:label rdf:datatype="&xsd;string">nephelometry</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>  <!-- assay -->
+        <skos:definition rdf:datatape="&xsd;string">Nephelometry is an assay of measuring the concentration of certain proteins in bodily fluids, that is performed by passing light through the prepared specimen and measuring the amount of scattering of collected light (passed through the specimen) at an angle (usually 30&#x00B0; or 90&#x00B0;), and that is based on the tendency of observed proteins to scatter light at identifiable angles.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Nephelometry_(medicine)</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/nephelometry</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://britannica.com/EBchecked/topic/409243/nephelometry-and-turbidimetry</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">This calss may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2055480 -->  <!-- dried blood spot eluate  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2055480">
@@ -23265,7 +23376,6 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
-  
 
 <!-- New Classes Ovde -->
 
