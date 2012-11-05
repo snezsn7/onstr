@@ -4210,6 +4210,26 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
       </owl:Class>
       
+     
+   <!-- http://purl.obolibrary.org/obo/CHEBI_24995 -->  <!-- lactam -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24995">
+        <rdfs:label rdf:datatype="&xsd;string">lactam</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_38101"/>  
+        <skos:definition rdf:datatape="&xsd;string">Cyclic amides of amino carboxylic acids, having a 1-azacycloalkan-2-one- structure, or analogues having unsaturation or heteroatoms replacing one or more carbon atoms of the ring.</skos:definition>
+       	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://purl.obolibrary.org/obo/CHEBI_16737 -->  <!-- creatinine -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16737">
+        <rdfs:label rdf:datatype="&xsd;string">creatinine</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24995"/> 
+        <skos:definition rdf:datatape="&xsd;string">A lactam obtained by formal cyclocondensation of creatine</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Chemical Entities of Biological Interest (ChEBI).</skos:editorialNote>
+    </owl:Class>
+    
       
     <!-- http://purl.obolibrary.org/obo/CHEBI_38925 -->  <!-- benzopteridine -->
 
