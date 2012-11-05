@@ -248,7 +248,7 @@
    		<rdfs:label rdf:datatype="&xsd;string">amino acid chain</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&obo;CHEBI_33694"/>
 		<skos:definition rdf:datatype="&xsd;string">A polymer of amino acids linked by peptide bonds.</skos:definition>
-    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Protein Ontology (PR)</skos:editorialNote>
+    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Protein Ontology (PRO).</skos:editorialNote>
    </owl:Class>
    
    
@@ -258,7 +258,19 @@
    		<rdfs:label rdf:datatype="&xsd;string">protein</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&PRO;PR_000018263"/>
 		<skos:definition rdf:datatype="&xsd;string">An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA.</skos:definition>
-    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Protein Ontology (PR)</skos:editorialNote>
+    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Protein Ontology (PRO).</skos:editorialNote>
+   </owl:Class>
+   
+   
+  <!-- http://purl.obolibrary.org/obo/pr.owl#PR_00001626 -->   <!-- serotransferrin -->
+   
+   	<owl:Class rdf:about="&PRO;PR_00001626">
+   		<rdfs:label rdf:datatype="&xsd;string">serotransferrin</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&PRO;PR_000000001"/>
+        <skos:definition rdf:datatape="&xsd;string">A protein that is a translation product of the human TF gene or a 1:1 ortholog thereof.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">serum transferrin</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">transferrin</skos:altLabel>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Protein Ontology (PRO).</skos:editorialNote>
    </owl:Class>
    
    
@@ -268,7 +280,7 @@
    		<rdfs:label rdf:datatype="&xsd;string">serum albumin</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&PRO;PR_000000001"/>
        	<skos:definition rdf:datatype="&xsd;string">A protein that is a translation product of the ALB gene or an 1:1 ortholog thereof.</skos:definition>
-       	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Protein Ontology (PR)</skos:editorialNote>
+       	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Protein Ontology (PRO).</skos:editorialNote>
    </owl:Class>
    
 
@@ -293,7 +305,7 @@
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4-monooxygenase</skos:altLabel>    
         <skos:altLabel rdf:datatype="&xsd;string">4-monooxygenase, phenylalanine</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine-4-hydroxylase monomer</skos:altLabel>
-    <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Protein Ontology (PR)</skos:editorialNote>
+    <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Protein Ontology (PRO).</skos:editorialNote>
    </owl:Class>
 
 
