@@ -1443,7 +1443,7 @@ people infected, then extract parasite which are then tested = observation study
        <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
    </owl:Class>
-     
+ 
    
   <!-- http://purl.obolibrary.org/obo/ERO_0001239 -->  <!-- spectrophotometry  -->
 
@@ -1454,7 +1454,31 @@ people infected, then extract parasite which are then tested = observation study
        <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
    </owl:Class>
+   
+   
+  <!-- http://purl.obolibrary.org/obo/ERO_0001439 -->  <!-- atomic absorption spectroscopy -->
+
+    <owl:Class rdf:about="&obo;ERO_0001439">
+       <rdfs:label rdf:datatype="&xsd;string">atomic absorption spectroscopy</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;ERO_0000833"/>  <!-- molecular assay  -->  
+       <skos:definition rdf:datatape="&xsd;string">A molecular assay used for the qualitative and quantitative determination of chemical elements employing the absorption of optical radiation (light) by free atoms in the gaseous state.</skos:definition>
+       <skos:altLabel rdf:datatype="&xsd;string">AAS</skos:altLabel>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+   </owl:Class>
      
+     
+   <!-- http://purl.obolibrary.org/obo/ERO_0001354 -->  <!-- inductively coupled plasma mass spectrometry -->
+
+    <owl:Class rdf:about="&obo;ERO_0001354">
+       <rdfs:label rdf:datatype="&xsd;string">inductively coupled plasma mass spectrometry</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0000470"/>  <!-- mass spectrometry assay  --> 
+       <skos:definition rdf:datatape="&xsd;string">A mass spectrometry technique that is highly sensitive and capable of the determination of a range of metals and several non-metals at concentrations below one part in 1012 (part per trillion). It is based on coupling together an inductively coupled plasma as a method of producing ions (ionization) with a mass spectrometer as a method of separating and detecting the ions.</skos:definition>
+       <skos:altLabel rdf:datatype="&xsd;string">ICP-MS</skos:altLabel>
+       <skos:altLabel rdf:datatype="&xsd;string">ICP/MS</skos:altLabel>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+   </owl:Class>
      
      
 <!-- END ERO IMPORTS -->   
