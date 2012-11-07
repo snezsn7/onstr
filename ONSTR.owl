@@ -13,6 +13,7 @@
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY ONSTR "http://onstr.googlecode.com/svn/trunk/ONSTR.owl#" >  
     <!ENTITY GO "http://purl.org/obo/owl/GO#"> 
+    <!ENTITY SO "http://purl.org/obo/owl/SO#">
     <!ENTITY PRO "http://purl.obolibrary.org/obo/pr.owl#">  
     <!ENTITY PATO "http://purl.org/obo/owl/PATO#">  
     <!ENTITY FMA "http://purl.org/sig/fma/">  
@@ -34,6 +35,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:GO="http://purl.org/obo/owl/GO#"
+     xmlns:SO="http://purl.org/obo/owl/SO#"
      xmlns:PRO="http://purl.obolibrary.org/obo/pr.owl#"
      xmlns:PATO="http://purl.org/obo/owl/PATO#"
      xmlns:FMA="http://purl.org/sig/fma/"
@@ -98,7 +100,7 @@
    	    <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>  <!-- BFO2:process -->
      	<rdfs:label rdf:datatype="&xsd;string">molecular_function</rdfs:label>
      	<skos:definition rdf:datatype="&xsd;string">Elemental activities, such as catalysis or binding, describing the actions of a gene product at the molecular level. A given gene product may exhibit one or more molecular functions.</skos:definition>
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO).</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO)..</skos:editorialNote>
    		<skos:editorialNote rdf:datatype="&xsd;string">Note: Following GO Consortium, the instances of classes of GO:molecular_function hierarchy stand in parf_of relation to instances of GO:biological_process class hierarchy. As a consequnece of such intepretation in ONSTR, GO:molecular_function is placed under BFO:process, as an BFO:occurent, and NOT as a continuant subsumed under BFO:function, even though GO class name(s) may lead to be interpreted as such. [Source: The Gene Ontology Consortium. (2011) The Gene Ontology: enhancements for 2011. Nucleic Acid Research, 2011, Vol 40.]</skos:editorialNote>
    </owl:Class>
    
@@ -109,7 +111,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">catalytic activity</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0003674"/>   <!-- molecular function -->
      	<skos:definition rdf:datatype="&xsd;string">Catalysis of a biochemical reaction at physiological temperatures. In biologically catalyzed reactions, the reactants are known as substrates, and the catalysts are naturally occurring macromolecular substances known as enzymes. Enzymes possess specific binding sites for substrates, and are usually composed wholly or largely of protein, but RNA that has catalytic activity (ribozyme) is often also regarded as enzymatic." [ISBN:0198506732 "Oxford Dictionary of Biochemistry and Molecular Biology"]</skos:definition>
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO)</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO).</skos:editorialNote>
    </owl:Class>
    
 
@@ -119,7 +121,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">oxidoreductase activity</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0003824"/>  
      	<skos:definition rdf:datatype="&xsd;string">Catalysis of an oxidation-reduction (redox) reaction, a reversible chemical reaction in which the oxidation state of an atom or atoms within a molecule is altered. One substrate acts as a hydrogen or electron donor and becomes oxidized, while the other acts as hydrogen or electron acceptor and becomes reduced.</skos:definition>
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO)</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO).</skos:editorialNote>
    </owl:Class>
    
    
@@ -129,7 +131,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">monooxygenase activity</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0016491"/> 
         <skos:definition rdf:datatype="&xsd;string">Catalysis of the incorporation of one atom from molecular oxygen into a compound and the reduction of the other atom of oxygen to water.</skos:definition>
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO)</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO).</skos:editorialNote>
    </owl:Class>
    
    
@@ -139,7 +141,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">oxidoreductase activity, acting on paired donors, with incorporation or reduction of molecular oxygen, reduced pteridine as one donor, and incorporation of one atom of oxygen</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0004497"/>
         <skos:definition rdf:datatype="&xsd;string">Catalysis of an oxidation-reduction (redox) reaction in which hydrogen or electrons are transferred from reduced pteridine and one other donor, and one atom of oxygen is incorporated into one donor.</skos:definition>
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO)</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO).</skos:editorialNote>
    </owl:Class>
    
    
@@ -153,7 +155,7 @@
         <skos:altLabel rdf:datatype="&xsd;string">phenylalaninase activity</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4-hydroxylase activity</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine hydroxylase activity</skos:altLabel>	
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO).</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO)..</skos:editorialNote>
    </owl:Class>
 
 
@@ -163,7 +165,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">biological_process</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
      	<skos:definition rdf:datatype="&xsd;string">Any process specifically pertinent to the functioning of integrated living units: cells, tissues, organs, and organisms. A process is a collection of molecular events with a defined beginning and end.</skos:definition>
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO).</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO)..</skos:editorialNote>
    </owl:Class>
 
 
@@ -173,7 +175,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">growth</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0008150"/>
      	<skos:definition rdf:datatype="&xsd;string">The increase in size or mass of an entire organism, a part of an organism or a cell.</skos:definition>
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO).</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO)..</skos:editorialNote>
    </owl:Class>
    
    
@@ -183,7 +185,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">developmental growth</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0040007"/>
         <skos:definition rdf:datatype="&xsd;string">The increase in size or mass of an entire organism, a part of an organism or a cell, where the increase in size or mass has the specific outcome of the progression of the organism over time from one condition to another.</skos:definition>
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO).</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO)..</skos:editorialNote>
    </owl:Class>
    
    
@@ -193,7 +195,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">metabolic process</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0008150"/>
      	<skos:definition rdf:datatype="&xsd;string">The chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation.</skos:definition>
-     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO).</skos:editorialNote>
+     	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO)..</skos:editorialNote>
    </owl:Class>
    
    
@@ -203,7 +205,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">macromolecule metabolic process</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0008152"/>
         <skos:definition rdf:datatype="&xsd;string">The chemical reactions and pathways involving macromolecules, any molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO)..</skos:editorialNote>
    </owl:Class>
    
    
@@ -213,7 +215,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">gene expression</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&GO;GO_0043170"/>
         <skos:definition rdf:datatype="&xsd;string">The process in which a gene's sequence is converted into a mature gene product or products (proteins or RNA). This includes the production of an RNA transcript as well as any processing to produce a mature RNA product or an mRNA (for protein-coding genes) and the translation of that mRNA into protein. Some protein processing events may be included when they are required to form an active form of a product from an inactive precursor form.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO).</skos:editorialNote>
    </owl:Class>
        
 
@@ -223,7 +225,7 @@
      	<rdfs:label rdf:datatype="&xsd;string">macromolecular complex</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&obo;CHEBI_36357"/>
 		<skos:definition rdf:datatype="&xsd;string">A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which the constituent parts function together.</skos:definition>
-    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO)</skos:editorialNote>
+    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO).</skos:editorialNote>
    </owl:Class>
 
 
@@ -234,11 +236,67 @@
      	<rdfs:subClassOf rdf:resource="&GO;GO_0032991"/>
 		<skos:definition rdf:datatype="&xsd;string">Any macromolecular complex composed of two or more polypeptide subunits, which may or may not be identical. Protein complexes may have other associated non-protein prosthetic groups, such as nucleotides, metal ions or other small molecules.</skos:definition>
     	 <skos:altLabel rdf:datatype="&xsd;string">protein-protein complex</skos:altLabel>
-    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO)</skos:editorialNote>
+    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Gene Ontology (GO)..</skos:editorialNote>
    </owl:Class>
 
      
-<!-- END GO IMPORTS -->      
+<!-- END GO IMPORTS -->
+<!-- START SO IMPORTS -->
+
+    <!-- http://purl.org/obo/owl/SO#SO_0000110 -->   <!-- sequence feature -->
+   
+   	<owl:Class rdf:about="&SO;SO_0000110">
+     	<rdfs:label rdf:datatype="&xsd;string">sequence_feature</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&obo;BFO_0000031"/>  <!-- gener dependent continuant -->
+        <skos:definition rdf:datatape="&xsd;string">An extent of biological sequence.</skos:definition>
+		<skos:editorialNote rdf:datatype="&xsd;string">This calss (SO:sequence_feature) is placed under BFO:quality (BFO_000019) following Mungall et al. 2011. (Mungall, C. J., Batchelor, C., Eilbeck, K. (2011) Evolution of the Sequence Ontology terms and relations. Journal of Biomedical Informatics, 2011 February; 44(1):87-93).</skos:editorialNote>
+    	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Sequence Ontology (SO).</skos:editorialNote>
+   </owl:Class>
+   
+   
+   <!-- http://purl.org/obo/owl/SO#SO_0000001 -->   <!-- region -->
+   
+   	<owl:Class rdf:about="&SO;SO_0000001">
+     	<rdfs:label rdf:datatype="&xsd;string">region</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&SO;SO_0000110"/> 
+        <skos:definition rdf:datatape="&xsd;string">A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.</skos:definition>
+       	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Sequence Ontology (SO).</skos:editorialNote>
+   </owl:Class>
+   
+   
+   <!-- http://purl.org/obo/owl/SO#SO_0001411 -->   <!-- biological region -->
+   
+   	<owl:Class rdf:about="&SO;SO_0001411">
+     	<rdfs:label rdf:datatype="&xsd;string">biological region</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&SO;SO_0000001"/> 
+        <skos:definition rdf:datatape="&xsd;string">A region defined by its disposition to be involved in a biological process.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Sequence Ontology (SO).</skos:editorialNote>
+   </owl:Class>
+   
+
+   <!-- http://purl.org/obo/owl/SO#SO_0000704 -->   <!-- gene -->
+   
+   	<owl:Class rdf:about="&SO;SO_0000704">
+     	<rdfs:label rdf:datatype="&xsd;string">gene</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&SO;SO_0001411"/>
+     	<skos:definition rdf:datatape="&xsd;string">A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Sequence Ontology (SO).</skos:editorialNote>
+   </owl:Class>
+
+
+   <!-- http://purl.org/obo/owl/SO#SO_0001217 -->   <!-- protein coding gene -->
+   
+   	<owl:Class rdf:about="&SO;SO_0001217">
+     	<rdfs:label rdf:datatype="&xsd;string">protein coding gene</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&SO;SO_0000704"/>
+		<!-- skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition -->  <!-- no def nov072012-->
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Sequence Ontology (SO).</skos:editorialNote>
+   </owl:Class>
+
+   
+
+
+<!-- END SO IMPORTS -->      
 <!-- START PRO IMPORTS -->
 
 
