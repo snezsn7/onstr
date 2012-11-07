@@ -267,7 +267,7 @@
    <!-- http://purl.org/obo/owl/SO#SO_0001411 -->   <!-- biological region -->
    
    	<owl:Class rdf:about="&SO;SO_0001411">
-     	<rdfs:label rdf:datatype="&xsd;string">biological region</rdfs:label>
+     	<rdfs:label rdf:datatype="&xsd;string">biological_region</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&SO;SO_0000001"/> 
         <skos:definition rdf:datatape="&xsd;string">A region defined by its disposition to be involved in a biological process.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Sequence Ontology (SO).</skos:editorialNote>
@@ -287,13 +287,51 @@
    <!-- http://purl.org/obo/owl/SO#SO_0001217 -->   <!-- protein coding gene -->
    
    	<owl:Class rdf:about="&SO;SO_0001217">
-     	<rdfs:label rdf:datatype="&xsd;string">protein coding gene</rdfs:label>
+     	<rdfs:label rdf:datatype="&xsd;string">protein_coding_gene</rdfs:label>
      	<rdfs:subClassOf rdf:resource="&SO;SO_0000704"/>
 		<!-- skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition -->  <!-- no def nov072012-->
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Sequence Ontology (SO).</skos:editorialNote>
    </owl:Class>
 
    
+   <!-- http://purl.org/obo/owl/SO#SO_0001260 -->   <!-- sequence collection -->
+   
+   	<owl:Class rdf:about="&SO;SO_0001260">
+     	<rdfs:label rdf:datatype="&xsd;string">sequence_collection</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&obo;BFO_0000031"/>  <!-- bfo:gener dependent continuant -->
+   		<skos:definition rdf:datatape="&xsd;string">A collection of discontinuous sequences</skos:definition>  
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Sequence Ontology (SO).</skos:editorialNote>
+   </owl:Class>
+   
+   
+   <!-- http://purl.org/obo/owl/SO#SO_0001507 -->   <!-- variant collection -->
+   
+   	<owl:Class rdf:about="&SO;SO_0001507">
+     	<rdfs:label rdf:datatype="&xsd;string">variant_collection</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&SO;SO_0001260"/>
+        <skos:definition rdf:datatape="&xsd;string">A collection of one or more sequences of an individual.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Sequence Ontology (SO).</skos:editorialNote>
+   </owl:Class>
+   
+   
+  <!-- http://purl.org/obo/owl/SO#SO_0001203 -->   <!-- allele -->
+   
+   	<owl:Class rdf:about="&SO;SO_0001203">
+     	<rdfs:label rdf:datatype="&xsd;string">allele</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&SO;SO_0001507"/>
+        <skos:definition rdf:datatape="&xsd;string">An allele is one of a set of coexisting sequence variants of a gene.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Sequence Ontology (SO).</skos:editorialNote>
+   </owl:Class>
+
+
+  <!-- http://purl.org/obo/owl/SO#SO_0001207 -->   <!-- genotype -->
+
+   	<owl:Class rdf:about="&SO;SO_0001207">
+     	<rdfs:label rdf:datatype="&xsd;string">genotype</rdfs:label>
+     	<rdfs:subClassOf rdf:resource="&SO;SO_0001507"/>
+        <skos:definition rdf:datatape="&xsd;string">A genotype is a variant genome, complete or incomplete</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Sequence Ontology (SO).</skos:editorialNote>
+   </owl:Class>
 
 
 <!-- END SO IMPORTS -->      
