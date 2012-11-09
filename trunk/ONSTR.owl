@@ -8122,7 +8122,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9965048">
         <rdfs:label rdf:datatype="&xsd;string">urine creatinine concentration measurement datum</rdfs:label>
     	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6127102"/ --> <!-- urine chemical concentration measurement datum -->
-        
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -10377,10 +10376,10 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
       
       
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5288942 -->  <!-- food intake recording  -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5288942 -->  <!-- nutritional item intake recording  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5288942">
-        <rdfs:label rdf:datatype="&xsd;string">food intake recording</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">nutritional item intake recording</rdfs:label>
     	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/ -->
     	 <owl:equivalentClass>
             <owl:Class>
@@ -10393,81 +10392,85 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf> 
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Food intake recording is a planned process of obtaining information from a patient or patient's parent about food items taken by a patient within a specific time interval (last 24 hours, one day, two days, three days).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutritional item intake recording is a planned process of obtaining information from a patient or patient's parent or caretaker about food items consumed (enterally or parenterally) by a patient within a specific time interval (last 24 hours, one day, two days, three days, seven days or thirty days).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">food intake recording</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">feeding recording</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">dietary intake recording</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0287800 -->  <!-- food intake recording objective  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0287800 -->  <!-- nutritional item intake recording objective  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0287800">
-        <rdfs:label rdf:datatype="&xsd;string">food intake recording objective</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">nutritional item intake recording objective</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/>
-        <skos:definition rdf:datatype="&xsd;string">Food intake recording objective is objective specification where the goal of food intake recording is to record the type (food item), amount of taken food and the amount of a particular nutrient a human patient has taken in a specific time interval (last 24 hours, one day, two days or three days).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutritional item intake recording objective is objective specification where the goal of nutritional item intake recording is to record the type (food item), amount of taken food and the amount of a particular nutrient a human patient has taken in a specific time interval (last 24 hours, one day, two days or three days, seven days or thirty days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6358913 -->  <!-- food intake record  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6358913 -->  <!-- nutritional item intake record  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6358913">
-        <rdfs:label rdf:datatype="&xsd;string">food intake record</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
-        <skos:definition rdf:datatype="&xsd;string">Food intake record is a document that is the output of food intake recording, and that contains the information about the types and quantites of food items, nutritional supplements, medical foods, food-amino acid excahnges patient has consumed in a time interval relevant for dietary analysis (last 24 hours, one, two or three consacutive days). Food intake record also contains other patient related information such as patient&apos;s name, date of birth, body height and weight, prescribed and taken medications.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">nutritional item intake record</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/> <!-- iao:document -->
+        <skos:definition rdf:datatype="&xsd;string">Nutritional item intake record is a document that is the output of nutrition item intake recording, and that contains the information about the types and quantites of food items, nutritional supplements, medical foods, food-amino acid excahnges patient has consumed in a time interval relevant for dietary analysis (last 24 hours, one, two or three days, seven days or thirty days). Nutritional item intake record also contains other patient related information such as patient&apos;s name, date of birth, body height and weight, prescribed and taken medications.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">phenylketonuria food intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">food intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">feeding record</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5837093 -->  <!-- 24 hour recall food intake record  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5837093 -->  <!-- 24 hour recall nutritional item intake record  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5837093">
-        <rdfs:label rdf:datatype="&xsd;string">24 hour recall food intake record</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/>
-        <skos:definition rdf:datatype="&xsd;string">24 hour recall food intake record is a food intake record completed by a patient or patient parent or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges a patient or patient&apos;s parent can recall the patient has consumed in the last 24 hours prior to the follow-up visit.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">24 hour recall nutritional item intake record</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/> <!-- nutritional item intake record -->
+        <skos:definition rdf:datatype="&xsd;string">24 hour recall nutritional item intake record is a nutritional item intake record completed by a patient, patient&apos;s parent or caretaker or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges a patient or patient&apos;s parent can recall the patient has consumed in the last 24 hours prior to the follow-up visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">24 hour recall food inatke</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">24 hour recall food intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">24 hour recall food intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">24 hour recall intake record</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1409233 -->  <!-- one day food intake record  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1409233 -->  <!-- one day nutritional item intake record  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1409233">
-        <rdfs:label rdf:datatype="&xsd;string">one day food intake record</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">one day nutritional item intake record</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/>
-        <skos:definition rdf:datatype="&xsd;string">One day food intake record is a food intake record completed by a patient or patient parent or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges the patient has consumed in one day time interval prior to the follow-up visit.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">One day nutritional item intake record is a nutritional item intake record completed by a patient, patient&apos;s parent or caretaker or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges the patient has consumed in one day time interval (24 hours) prior to the follow-up visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">usual day food intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">usual day intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">usual day food intake record</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">one day food intake record</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2560230 -->  <!-- two day PKU food intake record  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2560230 -->  <!-- two day nutritional item intake record  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2560230">
-        <rdfs:label rdf:datatype="&xsd;string">two day food intake record</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">two day nutritional item intake record</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/>
-        <skos:definition rdf:datatype="&xsd;string">Two day food intake record is a food intake record completed by a patient or patient parent or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges the patient has consumed in two day time interval prior to the follow-up visit.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Two day nutritional item intake record is a nutritional item intake record completed by a patient, patient&apos;s parent or caretaker or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges the patient has consumed in two day time interval prior to the follow-up visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">two day food intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">two day intake record</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">two day food intake</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3747018 -->  <!-- three day food intake record  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3747018 -->  <!-- three day nutritional item intake record  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3747018">
-        <rdfs:label rdf:datatype="&xsd;string">three day food intake record</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">three day nutritional item intake record</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/>
-        <skos:definition rdf:datatype="&xsd;string">Three day food intake record is a food intake record completed by a patient or patient parent or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges the patient has consumed in two day time interval prior to the follow-up visit.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Three day nutritional item intake record is a nutritional item intake record completed by a patient, patient&apos;s parent or caretaker or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges the patient has consumed in two day time interval prior to the follow-up visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">three day food intake record</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">three day food intake</skos:altLabel>
@@ -10475,15 +10478,16 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
     
 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5883438 -->  <!-- dietary analysis software -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5883438 -->  <!-- nutrient analysis software -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5883438">
-        <rdfs:label rdf:datatype="&xsd;string">dietary analysis software</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000010"/>
-    	<skos:definition rdf:datatype="&xsd;string">Dietary analysis software is a software that performs nutrition analysis of food item(s) been taken or used as a recipe ingredients, and that provides information about nutrient content and energy value(s) of analyzed food items as the output of the nutrient analysis.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">nutrient analysis software</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000010"/> <!-- software -->
+    	<skos:definition rdf:datatype="&xsd;string">Nutrient analysis software is a software that performs nutrition analysis of food item(s) been taken or used as a recipe ingredients, and that provides information about nutrient content and energy value(s) of analyzed food items as the output of the nutrient analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.nutritionalanalysissoftware.com</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Originally, method of nutritional analysis was performed in a laboratory where a chemical process was used to establish the nutritional value. Software analysis is based on sets of previously laboratory analyzed food samples, while more advanced form of this analysis is done through a web application. [Source: http://www.nutritionalanalysissoftware.com]</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">diet record analysis software</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">dietary analysis software</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">nutrition analysis software</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -10491,8 +10495,8 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6867187 -->  <!-- dietary intake analysis  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6867187">
-        <rdfs:label rdf:datatype="&xsd;string">dietary intake analysis</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/ -->
+        <rdfs:label rdf:datatype="&xsd;string">nutrient intake analysis</rdfs:label>
+    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/ -->  <!-- data transformation -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -10504,10 +10508,11 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf> 
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Dietary intake analysis is a data transformation performed by nutrient analyzer software where the data transformation inputs are the type and quantity of food items been taken and outputs of the analysis are the quantity and the energy value of nutrients contained in the food item(s) been analyzed.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutrient intake analysis is a data transformation performed by nutrient analyzer software where the data transformation inputs are the type and quantity of food items been consumed and outputs of the analysis are the quantity and the energy value of nutrients contained in the food item(s) been analyzed.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">nutritional analysis</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">dietary analysis</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">diet intake analysis</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -10515,20 +10520,20 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5763854 -->  <!-- dietary intake analysis objective  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5763854">
-        <rdfs:label rdf:datatype="&xsd;string">dietary intake analysis objective</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">nutrient intake analysis objective</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200166"/>
-        <skos:definition rdf:datatype="&xsd;string">Dietary intake analysis objective is objective specification where the goal of nutrient analysis is determination of quantities of nutrients contained in particular food item(s) been taken and their energy value.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutrient intake analysis objective is objective specification where the goal of nutrient analysis is determination of quantities of nutrients contained in particular food item(s) been consumed and their energy value.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0999466 -->  <!-- dietary intake summary report  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0999466 -->  <!-- nutrient intake summary report  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0999466">
-        <rdfs:label rdf:datatype="&xsd;string">dietary intake summary report</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">nutrient intake summary report</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
-        <skos:definition rdf:datatype="&xsd;string">Dietary intake summary report is an information content entity that contains the information about the dietary energy value and the average quantities of all dietary nutrients contained in food items ingested by a patient in a specific time interval relevant for dietary analysis.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutrient intake summary report is an information content entity that contains the information about the energy intake value and the average quantities of all nutrients contained in food items consumed by a patient in a specific time interval relevant for dietary analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
