@@ -10421,6 +10421,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">food intake record</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">feeding record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">diet history record</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -10428,12 +10429,15 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5837093 -->  <!-- 24 hour recall nutritional item intake record  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5837093">
-        <rdfs:label rdf:datatype="&xsd;string">24 hour recall nutritional item intake record</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">24-hour recall nutritional item intake record</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/> <!-- nutritional item intake record -->
-        <skos:definition rdf:datatype="&xsd;string">24 hour recall nutritional item intake record is a nutritional item intake record completed by a patient, patient&apos;s parent or caretaker or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges a patient or patient&apos;s parent can recall the patient has consumed in the last 24 hours prior to the follow-up visit.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">24-hour recall nutritional item intake record is a nutritional item intake record completed by a patient, patient&apos;s parent or caretaker or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges a patient or patient&apos;s parent can recall the patient has consumed in the last 24 hours prior to the follow-up visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
-        <skos:altLabel rdf:datatype="&xsd;string">24 hour recall food intake</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">24 hour recall intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">24-hour recall food intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">24-hour recall intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">24-hour recall record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">24-hour recall</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">24-h recall</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
@@ -10448,6 +10452,11 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">usual day intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">usual day food intake record</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">one day food intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">1-day intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">1-day record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">1-day food diary</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">1-d food diary</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">1-d record</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -10461,6 +10470,11 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">two day intake record</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">two day food intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">2-day intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">2-day record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">2-day food diary</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">2-d food diary</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">2-d record</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -10474,6 +10488,11 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">three day food intake record</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">three day food intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">3-day intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">3-day record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">3-day food diary</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">3-d food diary</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">3-d record</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
