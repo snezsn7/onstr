@@ -10465,7 +10465,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">one day nutritional item intake record</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5994959"/>
         <skos:definition rdf:datatype="&xsd;string">One day nutritional item intake record is a nutritional item intake record completed by a patient, patient&apos;s parent or caretaker or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges the patient has consumed in one day time interval (24 hours) prior to the follow-up visit.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Charney, P., Malone, A. Eds. (2004) ADA pocket guide to nutrition assessment. American Dietetic Association, pp. 33-39.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">usual day intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">usual day food intake record</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">one day food intake record</skos:altLabel>
@@ -10484,7 +10484,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">two day nutritional item intake record</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5994959"/>
         <skos:definition rdf:datatype="&xsd;string">Two day nutritional item intake record is a nutritional item intake record completed by a patient, patient&apos;s parent or caretaker or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges the patient has consumed in two day time interval prior to the follow-up visit.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Charney, P., Malone, A. Eds. (2004) ADA pocket guide to nutrition assessment. American Dietetic Association, pp. 33-39.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">two day intake record</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">two day food intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">2-day intake record</skos:altLabel>
@@ -10502,7 +10502,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">three day nutritional item intake record</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5994959"/>
         <skos:definition rdf:datatype="&xsd;string">Three day nutritional item intake record is a nutritional item intake record completed by a patient, patient&apos;s parent or caretaker or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges the patient has consumed in two day time interval prior to the follow-up visit.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Charney, P., Malone, A. Eds. (2004) ADA pocket guide to nutrition assessment. American Dietetic Association, pp. 33-39.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">three day food intake record</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">three day food intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">3-day intake record</skos:altLabel>
@@ -10510,6 +10510,24 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">3-day food diary</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">3-d food diary</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">3-d record</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4395652 -->  <!-- seven day nutritional item intake record  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4395652">
+        <rdfs:label rdf:datatype="&xsd;string">seven day nutritional item intake record</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5994959"/>
+        <skos:definition rdf:datatape="&xsd;string">Seven day nutritional item intake record is a completed by a patient, patient&apos;s parent or caretaker or dietitian, and that contains the information about the types and quantites of consumed food items, nutritional supplements, medical foods and food-amino acid excahnges the patient has consumed in seven day time interval prior to the follow-up visit.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Charney, P., Malone, A. Eds. (2004) ADA pocket guide to nutrition assessment. American Dietetic Association, pp. 33-39.</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">seven day food intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">seven day food intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">7-day intake record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">7-day record</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">7-day food diary</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">7-d food diary</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">7-d record</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
