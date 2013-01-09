@@ -1530,6 +1530,39 @@ people infected, then extract parasite which are then tested = observation study
    </owl:Class>
    
    
+ <!-- http://purl.obolibrary.org/obo/ERO_0001285 -->  <!-- organismal assay  -->
+
+    <owl:Class rdf:about="&obo;ERO_0001285">
+       <rdfs:label rdf:datatype="&xsd;string">organismal assay</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/> <!-- obi:assay -->
+       <skos:definition rdf:datatape="&xsd;string">An assay that generates data about the physical characteristics, physiological functions, or behavior or organisms or viruses.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+   </owl:Class>
+   
+   
+    <!-- http://purl.obolibrary.org/obo/ERO_0001292 -->  <!-- physiological assay  -->
+
+    <owl:Class rdf:about="&obo;ERO_0001292">
+       <rdfs:label rdf:datatype="&xsd;string">physiological assay</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;ERO_0001285"/> <!-- organismal assay -->
+       <skos:definition rdf:datatape="&xsd;string">An organismal assay designed to capture information pertaining to the organic precesses and phenomena of an organism or any of its parts or of a particular bodily process.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+   </owl:Class>
+   
+   
+   <!-- http://purl.obolibrary.org/obo/ERO_0001784 -->  <!-- pulse oximetry  -->
+
+    <owl:Class rdf:about="&obo;ERO_0001784">
+       <rdfs:label rdf:datatype="&xsd;string">pulse oximetry</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;ERO_0001292"/> <!-- physiological assay -->
+       <skos:definition rdf:datatape="&xsd;string">A physiological assay used to monitor the saturation of a patient&apos;s hemoglobin.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+   </owl:Class>
+   
+   
      <!-- http://purl.obolibrary.org/obo/ERO_0000833 -->  <!-- molecular assay  -->
 
     <owl:Class rdf:about="&obo;ERO_0000833">
@@ -1575,6 +1608,8 @@ people infected, then extract parasite which are then tested = observation study
        <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
    </owl:Class>
+     
+     
      
      
 <!-- END ERO IMPORTS -->   
