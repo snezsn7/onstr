@@ -1427,18 +1427,59 @@ people infected, then extract parasite which are then tested = observation study
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
      </owl:Class>
      
+   
+    <!-- http://purl.obolibrary.org/obo/IAO_0000578 -->  <!-- CRID -->
+
+    <owl:Class rdf:about="&obo;IAO_0000578">
+       <rdfs:label rdf:datatype="&xsd;string">CRID</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/> <!-- information content entity -->
+       <skos:definition rdf:datatape="&xsd;string">An information content entity that consists of a CRID symbol and additional information about which CRID registry it belongs.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
+    </owl:Class>
+     
+     
+    <!-- http://purl.obolibrary.org/obo/IAO_0000577 -->  <!-- CRID symbol -->
+
+    <owl:Class rdf:about="&obo;IAO_0000577">
+       <rdfs:label rdf:datatype="&xsd;string">CRID symbol</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;IAO_0000028"/> <!-- symbol -->
+       <skos:definition rdf:datatape="&xsd;string">A symobl that is part_of a CRID and that is sufficient to look up a record from the CRID&apos;s registry.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
+   </owl:Class>
+     
+     
+   <!-- http://purl.obolibrary.org/obo/IAO_0000579 -->  <!-- CRID registry -->
+
+    <owl:Class rdf:about="&obo;IAO_0000579">
+       <rdfs:label rdf:datatype="&xsd;string">CRID registry</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;IAO_0000100"/> <!-- data set -->
+       <skos:definition rdf:datatape="&xsd;string">A CRID registry is a data set of CRID records, each consisting of a CRID symbol and additional information which was recorded in the dataset through a assigning a centrally registered identifier process.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
+   </owl:Class>
+     
      
     <!-- http://purl.obolibrary.org/obo/OBI_0001141 -->  <!-- individual organism identifier -->
 
     <owl:Class rdf:about="&obo;OBI_0001141">
        <rdfs:label rdf:datatype="&xsd;string">individual organism identifier</rdfs:label>
-       <rdfs:subClassOf rdf:resource="&obo;IAO_0000028"/> <!-- symbol -->
+       <rdfs:subClassOf rdf:resource="&obo;IAO_0000028"/> <!-- CRID symbol -->
        <skos:definition rdf:datatype="&xsd;string">A symbol used to distinguish one individual organism from another.</skos:definition>
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
    </owl:Class>
           
     
-<!-- END OBI-IAO IMPORTS --> 
+   <!-- http://purl.obolibrary.org/obo/IAO_0000100-->  <!-- data set -->
+
+    <owl:Class rdf:about="&obo;IAO_0000100">
+       <rdfs:label rdf:datatype="&xsd;string">data set</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/> <!-- data item -->
+       <skos:definition rdf:datatape="&xsd;string">A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data set.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
+   </owl:Class>
+    
+     
+    
+<!-- END OBI/IAO IMPORTS --> 
 <!-- START ERO IMPORTS -->
 
    <!-- http://purl.obolibrary.org/obo/ERO_0001500 -->  <!-- liquid chromatography  -->
@@ -8652,10 +8693,10 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2038914 --> <!-- human body quality -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2038914 --> <!-- body quality -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2038914">
-        <rdfs:label rdf:datatype="&xsd;string">human body quality</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">body quality</rdfs:label>
     	<!-- rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/ -->
      	<owl:equivalentClass>
             <owl:Class>
@@ -8668,7 +8709,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Human body quality is organismal quality that inheres in human body or a part of the human body.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Body quality is organismal quality that inheres in human body or a part of the human body.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
