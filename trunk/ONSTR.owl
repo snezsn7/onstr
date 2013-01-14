@@ -680,23 +680,82 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
      </owl:Class>   
   
+  
+    <!-- http://purl.obolibrary.org/obo/OBI_0000679 -->  <!-- average value -->
+
+    <owl:Class rdf:about="&obo;OBI_0000679">
+        <rdfs:label rdf:datatype="&xsd;string">average value</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>  <!-- data item -->
+        <skos:definition rdf:datatape="&xsd;string">A  data item that is produced as the output of an averaging data transformation and represents the average value of the input data.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+     </owl:Class>
+   
+   
+       <!-- http://purl.obolibrary.org/obo/OBI_0001404 -->  <!-- genetic characteristics information -->
+
+    <owl:Class rdf:about="&obo;OBI_0001404">
+        <rdfs:label rdf:datatype="&xsd;string">genetic characteristics information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>  <!-- data item -->
+        <skos:definition rdf:datatape="&xsd;string">A data item that is about genetic material including polymorphisms, disease alleles, and haplotypes.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+     </owl:Class>
+     
+    
+   <!-- http://purl.obolibrary.org/obo/OBI_0001364 -->  <!-- genetic alteration information -->
+
+    <owl:Class rdf:about="&obo;OBI_0001364">
+        <rdfs:label rdf:datatype="&xsd;string">genetic alteration information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0001404"/>  <!-- genetic characteristics information -->
+        <skos:definition rdf:datatape="&xsd;string">A genetic characteristics information that is about known changes or the lack thereof from the genetic background, including allele information, duplication, insertion, deletion, etc.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.obolibrary.org/obo/OBI_0001352 -->  <!-- allele information -->
+
+    <owl:Class rdf:about="&obo;OBI_0001352">
+        <rdfs:label rdf:datatype="&xsd;string">allele information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0001364"/>  <!-- genetic alteration information -->
+        <skos:definition rdf:datatape="&xsd;string">A genetic alteration information that about one of two or more alternative forms of a gene or marker sequence and differing from other alleles at one or more mutational sites based on sequence. Polymorphisms are included in this definition.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.obolibrary.org/obo/OBI_0001305 -->  <!-- genotype information -->
+
+    <owl:Class rdf:about="&obo;OBI_0001305">
+        <rdfs:label rdf:datatype="&xsd;string">genotype information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0001404"/>  <!-- genetic characteristics information -->
+        <skos:definition rdf:datatape="&xsd;string">A genetic characteristics information that is about the genetic material of an organism and minimally includes information about the genetic background and can in addition contain information about specific alleles, genetic modifications, etc.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+     </owl:Class> 
+   
    
       <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->   <!-- measurement datum -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109">
         <rdfs:label rdf:datatype="&xsd;string">measurement datum</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
         <skos:definition rdf:datatype="&xsd;string">A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by an instrument.</skos:definition>
         <skos:example rdf:datatype="&xsd;string">Examples of measurement data are the recoding of the weight of a mouse as {40,mass,&quot;grams&quot;}, the recording of an observation of the behavior of the mouse {,process,&quot;agitated&quot;}, the recording of the expression level of a gene as measured through the process of microarray experiment {3.4,luminosity,}.</skos:example>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
     
     
+   <!-- http://purl.obolibrary.org/obo/IAO_0000582 -->   <!-- time stamped measurement datum -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000582">
+        <rdfs:label rdf:datatype="&xsd;string">time stamped measurement datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>  <!-- measurement datum -->
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
+    </owl:Class>
+   
+    
      <!-- http://purl.obolibrary.org/obo/OBI_0000938 -->   <!-- categorical measurement datum -->
       
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000938">
          <rdfs:label rdf:datatype="&xsd;string">categorical measurement datum</rdfs:label>
-         <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
+         <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>  <!-- measurement datum -->
          <skos:definition rdf:datatype="&xsd;string">A measurement datum that is reported on a categorical scale</skos:definition>
          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
@@ -716,7 +775,7 @@ people infected, then extract parasite which are then tested = observation study
       
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000984">
          <rdfs:label rdf:datatype="&xsd;string">dose</rdfs:label>
-         <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
+         <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>    <!-- measurement datum -->
          <skos:definition rdf:datatype="&xsd;string">A measurement datum that measures the quantity of something that may be administered to an organism or that an organism may be exposed to. Quantities of nutrients, drugs, vaccines and toxins are referred to as doses.</skos:definition>
          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
@@ -737,7 +796,7 @@ people infected, then extract parasite which are then tested = observation study
       
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000987">
          <rdfs:label rdf:datatype="&xsd;string">general scalar measurement datum</rdfs:label>
-         <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
+         <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>    <!-- measurement datum -->
          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     	 <rdfs:comment rdf:datatype="&xsd;string">Need to keep an eye on this one, because it may be removed from OBI.</rdfs:comment>
     </owl:Class>
@@ -765,7 +824,7 @@ people infected, then extract parasite which are then tested = observation study
       
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000408">
          <rdfs:label rdf:datatype="&xsd;string">length measurement datum</rdfs:label>
-         <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
+         <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>  <!-- scalar measurement datum -->
          <skos:definition rdf:datatype="&xsd;string">A scalar measurement datum that is the result of measurement of length quality</skos:definition>
          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
@@ -775,7 +834,7 @@ people infected, then extract parasite which are then tested = observation study
       
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000414">
          <rdfs:label rdf:datatype="&xsd;string">mass measurement datum</rdfs:label>
-         <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
+         <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>  <!-- scalar measurement datum -->
          <skos:definition rdf:datatype="&xsd;string">A scalar measurement datum that is the result of measurement of mass quality</skos:definition>
          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
@@ -785,7 +844,7 @@ people infected, then extract parasite which are then tested = observation study
       
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000416">
          <rdfs:label rdf:datatype="&xsd;string">time measurement datum</rdfs:label>
-         <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
+         <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>  <!-- scalar measurement datum -->
          <skos:definition rdf:datatype="&xsd;string">A scalar measurement datum that is the result of measuring a temporal interval</skos:definition>
          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
@@ -795,11 +854,22 @@ people infected, then extract parasite which are then tested = observation study
       
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001167">
          <rdfs:label rdf:datatype="&xsd;string">age measurement datum</rdfs:label>
-         <rdfs:subClassOf rdf:resource="&obo;IAO_0000416"/>
+         <rdfs:subClassOf rdf:resource="&obo;IAO_0000416"/>  <!-- time measurement datum -->
          <skos:definition rdf:datatype="&xsd;string">A time measurement datum that is the result of measurement of age of an organism</skos:definition>
          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
+   
+         <!-- http://purl.obolibrary.org/obo/OBI_0001619 -->   <!-- specimen creation measurement datum -->
+      
+      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001619">
+         <rdfs:label rdf:datatype="&xsd;string">specimen creation measurement datum</rdfs:label>
+         <rdfs:subClassOf rdf:resource="&obo;IAO_0000416"/>  <!-- time measurement datum -->
+         <skos:definition rdf:datatape="&xsd;string">A time measurement datum that is the measure of the time when the specimens are collected.</skos:definition>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+    </owl:Class>
+   
+   
     
      <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->   <!-- directive information entity -->
       
@@ -1476,6 +1546,17 @@ people infected, then extract parasite which are then tested = observation study
        <skos:definition rdf:datatape="&xsd;string">A data item that is an aggregate of other data items of the same type that have something in common. Averages and distributions can be determined for data set.</skos:definition>
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
    </owl:Class>
+    
+    
+  <!-- http://purl.obolibrary.org/obo/IAO_0000584 -->   <!-- time sampled measurement data set -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000584">
+        <rdfs:label rdf:datatype="&xsd;string">time sampled measurement data set</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000100"/>  <!-- data set-->
+        <skos:definition rdf:datatape="&xsd;string">A data set that is an aggregate of data recording some measurement at a number of time points. The time series data set is an ordered list of pairs of time measurement data and the corresponding measurement data acquired at that time.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO).</skos:editorialNote>
+    </owl:Class>
+    
     
      
     
@@ -10493,7 +10574,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6358913">
         <rdfs:label rdf:datatype="&xsd;string">nutritional item intake record</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/> <!-- iao:document -->
-        <skos:definition rdf:datatype="&xsd;string">Nutritional item intake record is a document that is the output of nutrition item intake recording, and that contains the information about the types and quantites of food items, nutritional supplements, medical foods, food-amino acid excahnges patient has consumed in a time interval relevant for dietary analysis (last 24 hours, one, two or three days, seven days or thirty days). Nutritional item intake record also contains other patient related information such as patient&apos;s name, date of birth, body height and weight, prescribed and taken medications.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutritional item intake record is a document that is the output of nutritional item intake recording, and that contains the information about the types and quantites of food items, nutritional supplements, medical foods, food-amino acid excahnges patient has consumed in a time interval relevant for dietary analysis (last 24 hours, one, two or three days, seven days or thirty days). Nutritional item intake record also contains other patient related information such as patient&apos;s name, date of birth, body height and weight, prescribed and taken medications.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">food intake record</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">feeding record</skos:altLabel>
@@ -23412,9 +23493,9 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
        
         
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9545140 -->  <!-- nutrition item consumption datum  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9545140 -->  <!-- nutritional item consumption datum  -->
     <owl:Class rdf:about="&ONSTR;ONSTR_9545140">
-        <rdfs:label rdf:datatype="&xsd;string">nutrition item consumption datum</rdfs:label>  
+        <rdfs:label rdf:datatype="&xsd;string">nutritional item consumption datum</rdfs:label>  
         <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/ --> <!-- IAO:data item -->
         <owl:equivalentClass>
             <owl:Class>
@@ -23422,11 +23503,11 @@ people infected, then extract parasite which are then tested = observation study
                     <rdf:Description rdf:about="&obo;IAO_0000027"/>  <!-- data item -->
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output of -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5288942"/>  <!-- nutrition item intake recording -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5288942"/>  <!-- nutritional item intake recording -->
                     </owl:Restriction>
                      <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000137"/>  <!-- proper part of cont at all times -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6358913"/> <!-- nutrition item intake record -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6358913"/> <!-- nutritional item intake record -->
                     </owl:Restriction>
                      <owl:Restriction>
                       	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
@@ -23439,7 +23520,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Nutrition item consumption datum is a data item providing the information about the kinds and quantities of nutritional items consumed by a human patient during the time interval relevant for dietary analysis.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutritional item consumption datum is a data item providing the information about the kinds and quantities of nutritional items consumed by a human patient during the time interval relevant for dietary analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -24045,6 +24126,42 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <rdfs:domain rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
         <skos:editorialNote rdf:datatype="&xsd;string">Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
   </owl:ObjectProperty>
+    
+    
+  <!-- http://purl.obolibrary.org/obo/IAO_0000581 -->  <!-- has time stamp -->
+     
+   <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000581">
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000110"/> <!-- has continuant part at all times -->
+    	<rdf:type rdf:resource="&owl;FunctionalProperty"/>
+    	<rdfs:label rdf:datatype="&xsd;string">has time stamp</rdfs:label>
+    	<skos:definition rdf:datatape="&xsd;string">Relates a time stamped measurement datum to the time measurement datum that denotes the time when the measurement was taken.</skos:definition>
+        <rdfs:range rdf:resource="&obo;IAO_0000416"/> <!-- time measurement datum -->
+        <rdfs:domain rdf:resource="&obo;IAO_0000582"/>  <!-- time stamped measurement datum -->
+        <skos:editorialNote rdf:datatype="&xsd;string">Imported from Ontology for Information Artifact Ontology (IAO).</skos:editorialNote>
+  </owl:ObjectProperty>
+    
+    
+  <!-- http://purl.obolibrary.org/obo/IAO_0000583 -->  <!-- has measurement datum -->
+     
+   <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000583">
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000110"/> <!-- has continuant part at all times -->
+    	<rdfs:label rdf:datatype="&xsd;string">has measurement datum</rdfs:label>
+        <skos:definition rdf:datatape="&xsd;string">Relates a time stamped measurement datum to the measurement datum that was measured.</skos:definition>
+        <rdfs:domain rdf:resource="&obo;IAO_0000582"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000109"/>   <!-- measurement datum -->
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="&obo;IAO_0000416"/>   <!-- time measurement datum -->
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:range>
+        <skos:editorialNote rdf:datatype="&xsd;string">Imported from Ontology for Information Artifact Ontology (IAO).</skos:editorialNote>
+  </owl:ObjectProperty>
+    
+    
     
     
     <!-- http://purl.org/obo/owl/OBO_REL#towards -->  <!-- towards -->
