@@ -1996,11 +1996,81 @@ people infected, then extract parasite which are then tested = observation study
     
       <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001995">
     	<rdfs:label rdf:datatype="&xsd;string">organismal quality</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001241"/>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001241"/>  <!-- physical object quality -->
         <skos:definition rdf:datatype="&xsd;string">A quality that inheres in an entire organism or part of an organism.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+   
+   
+     <!-- http://purl.org/obo/owl/PATO#PATO_0000261" -->  <!-- maturity -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0000261">
+    	<rdfs:label rdf:datatype="&xsd;string">maturity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/>  <!-- organismal quality -->  
+        <skos:definition rdf:datatape="&xsd;string">A quality of a single physical entity which is held by a bearer when the latter exhibits complete growth, differentiation, or development.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
+   
+    <!-- http://purl.org/obo/owl/PATO#PATO_0001189" -->  <!-- adolescent -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001189">
+    	<rdfs:label rdf:datatype="&xsd;string">adolescent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0000261"/>  <!-- maturity -->  
+        <skos:definition rdf:datatape="&xsd;string">A maturity quality inhering in a bearer by virtue of the bearer&apos;s being between the onset of puberty and maturity.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+     
+    
+   <!-- http://purl.org/obo/owl/PATO#PATO_0001190" -->  <!-- juvenile -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001190">
+    	<rdfs:label rdf:datatype="&xsd;string">juvenile</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0000261"/>  <!-- maturity -->
+        <skos:definition rdf:datatape="&xsd;string">A maturity quality inhering in a bearer by virtue the bearer&apos;s being not fully grown or developed.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+    
+ 
+    <!-- http://purl.org/obo/owl/PATO#PATO_0001701" -->  <!-- mature -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001701">
+    	<rdfs:label rdf:datatype="&xsd;string">mature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0000261"/>  <!-- maturity -->   
+        <skos:definition rdf:datatape="&xsd;string">A quality inhering in a bearer by virtue of the bearer&apos;s exhibiting complete growth, differentiation, or development.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+    
+    
+    <!-- http://purl.org/obo/owl/PATO#PATO_0002206" -->  <!-- neonatal -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0002206">
+    	<rdfs:label rdf:datatype="&xsd;string">neonatal</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0000261"/>  <!-- maturity -->
+        <skos:definition rdf:datatape="&xsd;string">A maturity quality inhering to a bearer by virtue of the bearer&apos;s being at the point or short after birth.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+    
+       
+    <!-- http://purl.org/obo/owl/PATO#PATO_0001186" -->  <!-- prepubescent -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001186">
+    	<rdfs:label rdf:datatype="&xsd;string">prepubescent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0000261"/>  <!-- maturity -->
+        <skos:definition rdf:datatape="&xsd;string">A maturity quality inhering in a bearer by virtue of the bearer&apos;s being at the age immediately before puberty.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+    
+    
+    <!-- http://purl.org/obo/owl/PATO#PATO_0000455" -->  <!-- pubescent -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0000455">
+    	<rdfs:label rdf:datatype="&xsd;string">pubescent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0000261"/>  <!-- maturity -->
+        <skos:definition rdf:datatape="&xsd;string">A maturity quality inhering in a bearer by virtue of the bearer&apos;s having arrived at the onset of puberty (the age at which sex glands become functional) but not yet fully mature.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+    
     
     <!-- http://purl.org/obo/owl/PATO#PATO_0000047 -->  <!-- biological sex -->
     
@@ -2016,10 +2086,10 @@ people infected, then extract parasite which are then tested = observation study
     
       <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001894">
     	<rdfs:label rdf:datatype="&xsd;string">phenotypic sex</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&PATO;PATO_0000047"/>   <!-- no def -->
+    	<rdfs:subClassOf rdf:resource="&PATO;PATO_0000047"/>   <!-- biological sex -->
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
-        
+     
      
     <!-- http://purl.org/obo/owl/PATO#PATO_0000383 -->  <!-- female -->
     
@@ -2045,11 +2115,41 @@ people infected, then extract parasite which are then tested = observation study
     
       <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0000384">
     	<rdfs:label rdf:datatype="&xsd;string">male</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001894"/>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001894"/>  <!-- phenotypic sex -->
         <skos:definition rdf:datatype="&xsd;string">A biological sex quality inhering in an individual or a population whose sex organs contain only male gametes.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
      
+     
+      <!-- http://purl.org/obo/owl/PATO#PATO_0001827 -->  <!-- pseudohermaphrodite -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001827">
+    	<rdfs:label rdf:datatype="&xsd;string">pseudohermaphrodite</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001894"/>  <!-- phenotypic sex -->
+        <skos:definition rdf:datatape="&xsd;string">A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of one sex and external sexual characteristics of the other sex.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.org/obo/owl/PATO#PATO_0001829 -->  <!-- female pseudohermaphrodite -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001829">
+    	<rdfs:label rdf:datatype="&xsd;string">female pseudohermaphrodite</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001827"/>  <!-- pseudohermaphrodite -->
+        <skos:definition rdf:datatape="&xsd;string">A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of female and external sexual characteristics of male.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://purl.org/obo/owl/PATO#PATO_0001828 -->  <!-- male pseudohermaphrodite -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001828">
+    	<rdfs:label rdf:datatype="&xsd;string">male pseudohermaphrodite</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001827"/>  <!-- pseudohermaphrodite -->
+        <skos:definition rdf:datatape="&xsd;string">A biological sex quality inhering in an individual or a population by virtue of having internal reproductive organs of male and external sexual characteristics of female.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+   
    
     <!-- http://purl.org/obo/owl/PATO#PATO_0000169 -->  <!-- viability -->
     
