@@ -415,7 +415,7 @@
       	<rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
         <rdfs:label rdf:datatype="&xsd;string">planned process</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A processual entity that realizes a plan which is the concretization of a plan specification.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.obolibrary.org/obo/OBI_0000011</rdfs:comment>
     </owl:Class>     
       
@@ -426,7 +426,7 @@
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">analyte role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Analyte role is a role borne by a molecular entity and realized in an analyte assay which achieves the objective to measure the magnitude/concentration/amount of the analyte in the entity bearing evaluant role</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class> 
       
     <!-- http://purl.obolibrary.org/obo/OBI_0000067 -->   <!-- evaluant role -->
@@ -435,7 +435,7 @@
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">evaluant role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">A role that inheres in an entity that is realized in an assay in which data is generated about the bearer of the evaluant role</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -445,7 +445,7 @@
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">drug role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">A role borne by a molecular entity and is realized in a process of absorption by an organism  alters, or effects  (or is assumed to effect) a function(s) which inhere in an organism</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
          
       
@@ -455,7 +455,7 @@
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">investigation agent role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">Investigation agent role is a role borne by a person or organization which is realized in a process that is part of an investigation in which an objective is achieved. These processes include: planning, overseeing, funding, reviewing.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -465,7 +465,7 @@
           <rdfs:subClassOf rdf:resource="&obo;OBI_0000202"/>
           <rdfs:label rdf:datatype="&xsd;string">reporting party role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">a study personnel role played by a party who reports the outcome of a study component</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -475,7 +475,7 @@
           <rdfs:subClassOf rdf:resource="&obo;OBI_0000202"/>
           <rdfs:label rdf:datatype="&xsd;string">responsible party role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">A study personnel role played by a party who is accountable for the execution of a study component and can make decisions about the conduct of the study</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -485,7 +485,7 @@
           <rdfs:subClassOf rdf:resource="&obo;OBI_0000102"/>
           <rdfs:label rdf:datatype="&xsd;string">principal investigator role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">A responsible party role played by a person responsible for the overall conduct of a study</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -495,7 +495,7 @@
           <rdfs:subClassOf rdf:resource="&obo;OBI_0000102"/>
           <rdfs:label rdf:datatype="&xsd;string">sponsor role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">A responsible party role involved with any of the following activities:  initiating, managing and funding a study</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
     
     
@@ -505,7 +505,7 @@
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">nutrient role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">A role that inheres in a material entity and is realized in the use of that material entity by an organism when it is used in that organism's metabolism and provides nourishment.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -515,7 +515,7 @@
           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
           <rdfs:label rdf:datatype="&xsd;string">patient role</rdfs:label>
           <skos:definition rdf:datatype="&xsd;string">A role which inheres in a person and is realized by the process of being under the care of a physician or health care provider</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
      
      
@@ -525,7 +525,7 @@
     	  <rdfs:label rdf:datatype="&xsd;string">worker role</rdfs:label>
     	  <rdfs:subClassOf rdf:resource="&obo;OBI_0000202"/><!-- investigation agent role -->
     	  <skos:definition rdf:datatype="&xsd;string">A personnel role played by a party who executes a component of the study plan; this can occur before, during, after or outside the study timeline</skos:definition>
-		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>	
      
      
@@ -535,7 +535,7 @@
     	 <rdfs:label rdf:datatype="&xsd;string">health care provider role</rdfs:label>
     	 <rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/><!-- worker role -->
     	 <skos:definition rdf:datatype="&xsd;string">A worker role of providing medical care either within or outside the study timeline</skos:definition>
-		 <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+		 <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>	
       
      
@@ -545,7 +545,7 @@
     	 <rdfs:label rdf:datatype="&xsd;string">pathologist role</rdfs:label>
     	 <rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/>  <!-- worker role -->
     	 <skos:definition rdf:datatype="&xsd;string">A worker role of being responsible for making the histopathology diagnoses associated with data from a study; this activity occurs outside the study timeline</skos:definition>
-		 <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+		 <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -555,7 +555,7 @@
     		<rdfs:label rdf:datatype="&xsd;string">sub-investigator role</rdfs:label>
     		<rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/><!-- worker role -->
     		<skos:definition rdf:datatype="&xsd;string">A worker role authorized to make study-related decisions and carry out tasks related to the study; this role occurs during the study timeline</skos:definition>
-			<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+			<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
      
      
@@ -565,7 +565,7 @@
     	  <rdfs:label rdf:datatype="&xsd;string">trial statistician role</rdfs:label>
     	  <rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/> <!-- worker role -->
     	  <skos:definition rdf:datatype="&xsd;string">A worker role that analyzes data obtained during a trial or study; this role occurs after the trial or study is completed or terminated.</skos:definition>
-		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -576,7 +576,7 @@
     	  <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
     	  <skos:definition rdf:datatype="&xsd;string">pathogen role is a role which inheres in an organism and realized in the process of disease course in the organism bearing host role caused by the organism bearing pathogen role</skos:definition>
     	  <skos:example rdf:datatype="&xsd;string">Pathogen: An agent of disease. A disease producer. The term pathogen most commonly is used to refer to infectious organisms. These include bacteria (such as staph), viruses (such as HIV), and fungi (such as yeast). Less commonly, pathogen refers to a noninfectious agent of disease such as a chemical.   http://www.medterms.com/script/main/art.asp?articlekey=6383</skos:example>
-		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -586,7 +586,7 @@
            <rdfs:label rdf:datatype="&xsd;string">solute role</rdfs:label>
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
            <skos:definition rdf:datatype="&xsd;string">Solute role is a role played by a chemical entity which is dissolved by another chemical entity (the solvent) when creating a solution</skos:definition>
-		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -596,7 +596,7 @@
            <rdfs:label rdf:datatype="&xsd;string">solvent role</rdfs:label>
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
            <skos:definition rdf:datatype="&xsd;string">Solvent role is a role which inheres in a molecular entity capable of ensuring the dissolution of another chemical entity and realized by the process of solvation</skos:definition>
-     	   <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+     	   <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -606,7 +606,7 @@
            <rdfs:label rdf:datatype="&xsd;string">specimen role</rdfs:label>
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
            <skos:definition rdf:datatype="&xsd;string">A role borne by a material entity that is gained during a specimen creation process and that is realized by use of the specimen in an investigation.</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
      
      
@@ -617,7 +617,7 @@
            <rdfs:subClassOf rdf:resource="&obo;OBI_0000112"/>
            <skos:definition rdf:datatype="&xsd;string">A material sample role is a specimen role borne by a material entity that is the output of a material sampling process.</skos:definition>
            <skos:example rdf:datatype="&xsd;string">A role borne by a portion of blood taken to represent all the blood in an organism; the role borne by a population of humans with HIV enrolled in a study taken to represent patients with HIV in general.</skos:example>
-           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -629,7 +629,7 @@
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
            <skos:definition rdf:datatype="&xsd;string">a study population role where the bearer is a population of material entities and the role is realized in the implementation of a study design wherein the entities bearing the study population role are observed or subjected to intervention according to the study design and are biological replicates, i.e. they receive the same treatment under the protocol</skos:definition>
            <skos:example rdf:datatype="&xsd;string">The group of randomized participants that are assigned to a treatment arm of the trial</skos:example>
-           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -643,7 +643,7 @@
 Parasite example
 people infected, then extract parasite which are then tested = observation study of the parasite
 1 study in which we observe people and 1 study in which subject is parasite is one way to split this.  the true definition will come from the study design specification.</skos:example>
-           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
       
@@ -654,7 +654,7 @@ people infected, then extract parasite which are then tested = observation study
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
            <skos:definition rdf:datatype="&xsd;string">supernatant role is a role which inheres in a material entity and is realized by a material separation process using gravitational force in which the material bearing the supernatant role is the liquid component of the output material.</skos:definition>
            <skos:example rdf:datatype="&xsd;string">Precipitation is the formation of a solid in a solution during a chemical reaction. When the reaction occurs, the solid formed is called the precipitate, and the liquid remaining above the solid is called the supernate.  Wikipedia</skos:example>
-           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
    
    
@@ -757,7 +757,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">categorical measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>  <!-- measurement datum -->
          <skos:definition rdf:datatype="&xsd;string">A measurement datum that is reported on a categorical scale</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -767,7 +767,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">handedness categorical measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;OBI_0000938"/>
          <skos:definition rdf:datatype="&xsd;string">A datum used to record the answer to a self assessment of whether a person uses their left hand, right hand primarily or each hand equally</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -777,7 +777,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">dose</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>    <!-- measurement datum -->
          <skos:definition rdf:datatype="&xsd;string">A measurement datum that measures the quantity of something that may be administered to an organism or that an organism may be exposed to. Quantities of nutrients, drugs, vaccines and toxins are referred to as doses.</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -797,7 +797,7 @@ people infected, then extract parasite which are then tested = observation study
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000987">
          <rdfs:label rdf:datatype="&xsd;string">general scalar measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>    <!-- measurement datum -->
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     	 <rdfs:comment rdf:datatype="&xsd;string">Need to keep an eye on this one, because it may be removed from OBI.</rdfs:comment>
     </owl:Class>
     
@@ -807,7 +807,7 @@ people infected, then extract parasite which are then tested = observation study
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000970">
          <rdfs:label rdf:datatype="&xsd;string">scalar score from composite inputs</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;OBI_0000987"/>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -816,7 +816,7 @@ people infected, then extract parasite which are then tested = observation study
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000991">
          <rdfs:label rdf:datatype="&xsd;string">Edinburgh score</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;OBI_0000970"/>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -856,7 +856,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">age measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000416"/>  <!-- time measurement datum -->
          <skos:definition rdf:datatype="&xsd;string">A time measurement datum that is the result of measurement of age of an organism</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
    
@@ -866,7 +866,7 @@ people infected, then extract parasite which are then tested = observation study
          <rdfs:label rdf:datatype="&xsd;string">specimen creation measurement datum</rdfs:label>
          <rdfs:subClassOf rdf:resource="&obo;IAO_0000416"/>  <!-- time measurement datum -->
          <skos:definition rdf:datatape="&xsd;string">A time measurement datum that is the measure of the time when the specimens are collected.</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
    
    
@@ -897,7 +897,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">dose specification</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000033"/>
         <skos:definition rdf:datatype="&xsd;string">A directive information entity that describes the dose that will be administered to a target</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -918,7 +918,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">assay objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/>
         <skos:definition rdf:datatype="&xsd;string">Assay objective is the specification of an objective to determine a specified type of information about an evaluated entity (independent continuant bearing evaluant role)</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -928,7 +928,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">analyte measurement objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000441"/>
         <skos:definition rdf:datatype="&xsd;string">Analyte measurement objective is an assay objective to determine the presence or concentration of an analyte in the evaluant</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -938,7 +938,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">biological feature identification objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/>
         <skos:definition rdf:datatype="&xsd;string">Biological feature identification objective is an objective role carried out by the proposition defining the aim of a study designed to examine or characterize a particular biological feature.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -948,7 +948,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">organism feature identification objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000015"/> 
         <skos:definition rdf:datatype="&xsd;string">Organism feature identification objective is a biological_feature_identification_objective role describing a study designed to examine or characterize a biological feature monitored at the level of the organism, e.g. height, weight, stage of development, stage of life cycle.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -958,7 +958,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">data transformation objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/>
         <skos:definition rdf:datatype="&xsd;string">A data transformation objective is an objective specification that a data transformation may have towards which the realization of that transformation is directed.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -968,7 +968,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">specimen creation objective</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/>
         <skos:definition rdf:datatype="&xsd;string">A specimen creation objective is to obtain a material entity for potential use as an input during an investigation</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
    
    
@@ -1039,7 +1039,7 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:subClassOf rdf:resource="&obo;IAO_0000009"/>
         <skos:definition rdf:datatype="&xsd;string">A label that is part of a categorical datum and that indicates the category of that datum</skos:definition>
         <skos:example rdf:datatype="&xsd;string">The labels 'positive' vs. 'negative', or 'left handed', 'right handed', 'ambidexterous', or 'strongly binding', 'weakly binding' , 'not binding', or '+++', '++', '+', '-' etc. form scales of categorical labels.</skos:example>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
     
@@ -1068,7 +1068,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;BFO_0000030"/> <!-- BFO2:object -->
         <skos:definition rdf:datatype="&xsd;string">A material entity that has the specimen role.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1078,7 +1078,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">blood specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
         <skos:definition rdf:datatype="&xsd;string">A material entity derived from a portion of blood collected from an organism.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1088,7 +1088,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">urine specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
         <skos:definition rdf:datatype="&xsd;string">A portion of urine collected from an organism.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1098,7 +1098,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">processed specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0100051"/>
         <skos:definition rdf:datatype="&xsd;string">A specimen that has been intentionally physically modified.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
     
@@ -1108,7 +1108,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">blood plasma specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/> 
         <skos:definition rdf:datatype="&xsd;string">A material entity which corresponds to the liquid component of blood, in which the blood cells are suspended.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1118,7 +1118,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">blood serum specimen</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/>  
         <skos:definition rdf:datatype="&xsd;string">A material entity which derives from blood and corresponds to blood plasma without fibrinogen or the other clotting factors.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
       
   
@@ -1128,9 +1128,19 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/> 
         <skos:definition rdf:datatype="&xsd;string">A planned process with the objective to produce information about some evaluant.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
+  
+  <!-- http://purl.obolibrary.org/obo/OBI_0001683" -->   <!-- fluorescence in-situ hybridization -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001683">
+        <rdfs:label rdf:datatype="&xsd;string">fluorescence in-situ hybridization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>  <!-- assay -->
+        <skos:definition rdf:datatape="&xsd;string">is an in-situ hybridization assay that uses fluorescence as means of detection chromosomal integrity.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+     </owl:Class>
+  
   
    <!-- http://purl.obolibrary.org/obo/OBI_0000201" -->   <!-- radioactivity detection -->
      
@@ -1138,7 +1148,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">radioactivity detection</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>  <!-- assay -->
         <skos:definition rdf:datatype="&xsd;string">An assay in which a material radioactivity is measured.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1148,7 +1158,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">radio immuno assay</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000201"/> <!-- radioactivity detection -->
         <skos:definition rdf:datatype="&xsd;string">An assay in which a radioactive label is used to determine the interaction between an antigen and an anibody. This can be used to detect the presence of an antigen of interest or determine the specificity of an antibody.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1158,7 +1168,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">age measurement assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">An assay that measures the duration of temporal interval of a process that is part of the life of the bearer, where the initial time point of the measured process is the beginning of some transitional state of the bearer such as birth or when planted.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1168,7 +1178,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">mass measurement assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">A process to determine the mass of an evaluant.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1178,7 +1188,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">analyte assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">An assay with the objective to capture information about the presence, concentration, or amount of an analyte in an evaluant.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1190,7 +1200,7 @@ people infected, then extract parasite which are then tested = observation study
     	<skos:definition rdf:datatype="&xsd;string">ADD DEF here </skos:definition>
     	<skos:altLabel rdf:datatype="&xsd;string">Enzyme-Linked ImmunoSorbent Assay</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be moved under immuno assay, if/when team OBI asserst one</skos:editorialNote> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1201,7 +1211,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">genotyping assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
         <skos:definition rdf:datatype="&xsd;string">An assay which generates data about a genotype from a specimen of genomic DNA. A variety of techniques and instruments can be used to produce information about sequence variation at particular genomic positions.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1211,7 +1221,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">clinical chemistry assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000443"/>
         <skos:definition rdf:datatype="&xsd;string">A process which uses analytical methods to produce measurements and data on the concentration of a chemical parameters (analytes) present in a bodily fluid collected from an organism.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1221,7 +1231,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">specimen creation</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
         <skos:definition rdf:datatype="&xsd;string">A planned process with the objective of obtaining specimen.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1231,7 +1241,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">collecting specimen from organism</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000659"/>
         <skos:definition rdf:datatype="&xsd;string">A process with the objective to obtain a material entity that was part of an organism for potential future use in an investigation.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
       
     
@@ -1241,17 +1251,28 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">data transformation</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/> 
         <skos:definition rdf:datatype="&xsd;string">A data transformation is a process which produces output data from input data.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
+    
+  <!-- http://purl.obolibrary.org/obo/OBI_0000988" -->   <!-- performing a diagnosis -->
+     
+     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000988">
+        <rdfs:label rdf:datatype="&xsd;string">performing a diagnosis</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>  <!-- data transformation -->
+        <skos:definition rdf:datatape="&xsd;string">The interpretation of the information available about bodily features (clinical picture) of a patient resulting in a diagnosis.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+     </owl:Class>
+        
+        
         
     <!-- http://purl.obolibrary.org/obo/OBI_0200082" -->   <!-- longitudinal data analysis -->
      
      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0200082">
         <rdfs:label rdf:datatype="&xsd;string">longitudinal data analysis</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>  <!-- data transformation -->
         <skos:definition rdf:datatype="&xsd;string">Longitudinal analysis is a data transformation used to perform repeated observations of the same items over long periods of time.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
     
     
@@ -1261,7 +1282,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">mass spectrometry analysis</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
         <skos:definition rdf:datatype="&xsd;string">A data transformation which has the objective of spectrum analysis.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1271,7 +1292,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">mass spectrometry assay</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">This is a measuring method consisting of turning elements in a sample into ions, isolating them according to the ratio between the mass and charge numbers and detecting it electrically.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
    
@@ -1281,7 +1302,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">metabolite profiling</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
         <skos:definition rdf:datatype="&xsd;string">Metabolite profiling is a process which aims at detecting and identifying chemical entities resulting from biochemical and cellular metabolism.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1291,7 +1312,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">performing clinical assessment</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
 		<skos:definition rdf:datatype="&xsd;string">A protocol application during which a series of tests are made of a patient  leading to determination of disease state, or condition.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1302,7 +1323,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">tandem mass spectrometry</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0200085"/>
         <skos:definition rdf:datatype="&xsd;string">Tandem mass spectrometry is a data transformation that uses two or more analyzers separated by a region in which ions can be induced to fragment by transfer of energy (frequently by collision with other molecules).</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1312,7 +1333,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">age since birth measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0001167"/>
         <skos:definition rdf:datatype="&xsd;string">An age measurement datum that is the result of the measurement of the age of an organism since birth, the process of emergence and separation of offspring from the mother.</skos:definition> 
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
      </owl:Class>
      
          
@@ -1663,6 +1684,28 @@ people infected, then extract parasite which are then tested = observation study
    </owl:Class>
    
    
+  <!-- http://purl.obolibrary.org/obo/ERO_0001288 -->  <!-- clinical assay  -->
+
+    <owl:Class rdf:about="&obo;ERO_0001288">
+       <rdfs:label rdf:datatype="&xsd;string">clinical assay</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;ERO_0001285"/> <!-- organismal assay -->
+       <skos:definition rdf:datatape="&xsd;string">An organismal assay designed to capture information about clinical samples or specimens.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+   </owl:Class>
+   
+   
+   <!-- http://purl.obolibrary.org/obo/ERO_0000722 -->  <!-- patient screening  -->
+
+    <owl:Class rdf:about="&obo;ERO_0000722">
+       <rdfs:label rdf:datatype="&xsd;string">patient screening</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;ERO_0001288"/> <!-- clinical assay -->
+       <skos:definition rdf:datatape="&xsd;string">A clinicl assay that is performed as a preliminary procedure, such as a test or examination, to detect the most characteristic sign or signs of a disorder or a condition that may require further investigation.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+   </owl:Class>
+  
+   
     <!-- http://purl.obolibrary.org/obo/ERO_0001292 -->  <!-- physiological assay  -->
 
     <owl:Class rdf:about="&obo;ERO_0001292">
@@ -1730,6 +1773,8 @@ people infected, then extract parasite which are then tested = observation study
        <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
    </owl:Class>
+     
+     
      
      
      
@@ -24122,7 +24167,46 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
 
-<!-- New Classes Ovde -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0692868 -->  <!-- hearing assay  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0692868">
+        <rdfs:label rdf:datatype="&xsd;string">hearing assay</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;ERO_0001285"/>  <!-- ero:organismal assay -->
+        <skos:definition rdf:datatape="&xsd;string">Hearing assay is an organismal assay performed with the objective to provide the information about human ability of sensing and transducing acoustic stimulation to the central nervous system.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D006309</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://asha.org./public/hearing/Hearing-Screening-and-Hearing-Evaluation/</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">audition assay</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+
+
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7555475 -->  <!-- hearing screening  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7555475">
+        <rdfs:label rdf:datatype="&xsd;string">hearing screening</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0692868"/>  <!-- hearing assay -->
+        <skos:definition rdf:datatape="&xsd;string">Hearing screening is a hearing assay with the objective to determine the presence or absence of hearing loss.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://asha.org./public/hearing/Hearing-Screening-and-Hearing-Evaluation/</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">hearing test</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+
+
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8770782 -->  <!-- hearing evaluation  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8770782">
+        <rdfs:label rdf:datatype="&xsd;string">hearing evaluation</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0692868"/>  <!-- hearing assay -->
+        <skos:definition rdf:datatape="&xsd;string">Hearing evaluation is a hearing assay that is an in-depth assessment of an individual&apos;s hearing with the objective to deteremine the nature and the degree of hearing loss and the best treatment options. Hearing evaluation is usually performed by a qualified audiologist using a number of different methods and tests.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://asha.org./public/hearing/Hearing-Screening-and-Hearing-Evaluation/</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">audiological evaluation</skos:altLabel>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+
+
+
+
+<!-- NOVO CLASSES OVDE -->
 
 
 	<!--  				     -->
@@ -24224,7 +24308,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
     	<skos:definition rdf:datatype="&xsd;string">This relation obtains between a planned process and an objective specification when the criteria specified in the objective specification are met at the end of the planned process.</skos:definition>
         <rdfs:range rdf:resource="&obo;IAO_0000005"/>  <!-- objective specification -->
         <rdfs:domain rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
-        <skos:editorialNote rdf:datatype="&xsd;string">Imported from Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
   </owl:ObjectProperty>
     
     
