@@ -24185,10 +24185,38 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7555475">
         <rdfs:label rdf:datatype="&xsd;string">hearing screening</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0692868"/>  <!-- hearing assay -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_0692868"/> <!-- hearing assay -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000118"/>  <!-- bfo2:has proper occurrent part -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&ONSTR;ONSTR_1078710"/> <!-- otoacoustic emissions test -->
+                                            <rdf:Description rdf:about="&ONSTR;ONSTR_5334351"/> <!-- auditory brainstem response test -->
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                    <owl:Class>
+                                        <owl:unionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&ONSTR;ONSTR_1078710"/> <!-- otoacoustic emissions test -->
+                                            <rdf:Description rdf:about="&ONSTR;ONSTR_5334351"/>  <!-- auditory brainstem response test -->
+                                        </owl:unionOf>
+                                    </owl:Class>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatape="&xsd;string">Hearing screening is a hearing assay with the objective to determine the presence or absence of hearing loss.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://asha.org./public/hearing/Hearing-Screening-and-Hearing-Evaluation/</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">hearing test</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">In the United States hearing screening is often referred as Early Hearing Detection and Intervention (EHDI) practice of screening every newborn for hearing loss prior to hospital discharge. All states and the District of Columbia have Early Hearing Detection and Intervention laws or voluntary participation compliance programs that screen hearing. Infants not passing the screening receive diagnostic evaluation before three months of age (as part of newborn screening short-term follow-up process) and, when necessary, are by six months of age, enrolled in early intervention programs (part of the long-term follow-up process).[Source: http://asha.org./advocacy/federal/ehdi/ ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">In the United States hearing screening is often referred as Early Hearing Detection and Intervention (EHDI) practice of screening every newborn for hearing loss prior to hospital discharge. All states and the District of Columbia have Early Hearing Detection and Intervention laws or voluntary participation compliance programs that screen hearing. Infants not passing the screening receive diagnostic evaluation before three months of age (as part of newborn screening short-term follow-up process) and, when necessary, are by six months of age, enrolled in early intervention programs (part of the long-term follow-up process). The goal of early hearing detection and intervention (EHDI) is to maximize lingusitic competence and literacy development for children who are deaf and hard of hearing. [Source: http://asha.org./advocacy/federal/ehdi/ ]</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
 
@@ -24198,6 +24226,17 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8770782">
         <rdfs:label rdf:datatype="&xsd;string">hearing evaluation</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0692868"/>  <!-- hearing assay -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_0692868"/> <!-- hearing assay -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000118"/>  <!-- bfo2:has proper occurrent part -->
+                        <owl:someValuesFrom  rdf:resource="&ONSTR;ONSTR_5334351"/>  <!-- auditory brainstem response test -->
+					</owl:Restriction>
+				</owl:intersectionOf>
+			</owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatape="&xsd;string">Hearing evaluation is a hearing assay that is an in-depth assessment of an individual&apos;s hearing with the objective to deteremine the nature and the degree of hearing loss and the best treatment options. Hearing evaluation is usually performed by a qualified audiologist using a number of different methods and tests.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://asha.org./public/hearing/Hearing-Screening-and-Hearing-Evaluation/</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">audiological evaluation</skos:altLabel>
