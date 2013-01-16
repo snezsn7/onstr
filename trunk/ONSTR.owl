@@ -24171,7 +24171,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0692868">
         <rdfs:label rdf:datatype="&xsd;string">hearing assay</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&obo;ERO_0001285"/>  <!-- ero:organismal assay -->
+        <rdfs:subClassOf rdf:resource="&obo;ERO_0001292"/>  <!-- ero:physiological assay -->
         <skos:definition rdf:datatape="&xsd;string">Hearing assay is an organismal assay performed with the objective to provide the information about human ability of sensing and transducing acoustic stimulation to the central nervous system.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D006309</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://asha.org./public/hearing/Hearing-Screening-and-Hearing-Evaluation/</rdfs:comment>    
@@ -24188,6 +24188,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatape="&xsd;string">Hearing screening is a hearing assay with the objective to determine the presence or absence of hearing loss.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://asha.org./public/hearing/Hearing-Screening-and-Hearing-Evaluation/</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">hearing test</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">In the United States hearing screening is often referred as Early Hearing Detection and Intervention (EHDI) practice of screening every newborn for hearing loss prior to hospital discharge. All states and the District of Columbia have Early Hearing Detection and Intervention laws or voluntary participation compliance programs that screen hearing. Infants not passing the screening receive diagnostic evaluation before three months of age (as part of newborn screening short-term follow-up process) and, when necessary, are by six months of age, enrolled in early intervention programs (part of the long-term follow-up process).[Source: http://asha.org./advocacy/federal/ehdi/ ]</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
 
@@ -24202,7 +24203,68 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">audiological evaluation</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1078710 -->  <!-- otoacoustic emissions test  -->
 
+    <owl:Class rdf:about="&ONSTR;ONSTR_1078710">
+        <rdfs:label rdf:datatype="&xsd;string">otoacoustic emissions test</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0692868"/>  <!-- hearing assay --> 
+        <skos:definition rdf:datatape="&xsd;string">Otoacoustic emissions test is a hearing assay with the objective to detect, record and measure the otoacoustic emissions (OAEs), the sound waves that are produced by the motion of the outer cochlea hair cells responding to the auditory stimulation (as a by-product of a cochlear mechanism known as &apos;cochlear amplification&apos;) and that are transmitted backwards through the middle ear and received by the tympanum (ear drum).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">OAE test</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">OAE recording</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Otoacoustic emissions (OAEs) are recorded via an ear canal probe (containing both the miniature sound source and the microphone transducer) which is inserted deeply into the ear canal) after an auditory stimulus presentation. Unlike other audiometric tests,in the case of OAE recording, it is not necessary for the stimulus to be near to threshold levels to detect departures from normal function. Middle ear status (middle ear fluid or blockage) affects the OAEs and can prevent their detection. OAE signals are very sensitive to minos conductive losses caused by middle ear fluid and ear canal debris in neonates, so that sometimes, in first few hours after birth, an auditory brain-stem response (ARB) can be recorded and OAE cannot. [Source: Kemp, D. F. (2002) Otoacoustic emissions, their origin in cochlear function, and use. British Medical Bulletin 2002;63: pp 223-241.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Even though the intensity of the observed OAE response is a primary factor of in OAE detectability, it is the presence of a detectable OAE response to a particular stimulus that is clinically important and not its strength. [Source: Kemp, D. F. (2002) Otoacoustic emissions, their origin in cochlear function, and use. British Medical Bulletin 2002;63: pp 223-241.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Kemp, D. F. (2002) Otoacoustic emissions, their origin in cochlear function, and use. British Medical Bulletin 2002;63: pp 223-241</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://asha.org./public/hearing/Otoacoustic-Emissions</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0469016 -->  <!-- transient evoked otoacoustic emissions test  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0469016">
+        <rdfs:label rdf:datatype="&xsd;string">transient evoked otoacoustic emissions test</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1078710"/>  <!-- otoacoustic emissions test --> 
+        <skos:definition rdf:datatape="&xsd;string">Transient evoked otoaoustic emissions test (TEAOEs test) is an otoacoustic emissions test with the objective to detect, record and measure the cochlear sound emissions generated in response to the click stimuli (usually of around 84 dB of sound pressure level (db SPL)).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Transient evoked otoaoustic emissions (TEOAEs)are highly sensitive to cochlear pathology and in a frequency-specific way. Because of their sensitivity to cochlear dysfunction, TEOAEs have found a wide-spread application in newborn screening programs. Healthy infant ears typically produce strong otoacoustic emission levels of 15 db SPL to more than 30 db SPL. [Source: Kemp, D. F. (2002) Otoacoustic emissions, their origin in cochlear function, and use. British Medical Bulletin 2002;63: pp 223-241. ]</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">TEOAE test</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">TEOAE recording</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Kemp, D. F. (2002) Otoacoustic emissions, their origin in cochlear function, and use. British Medical Bulletin 2002;63: pp 223-241</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5286290 -->  <!-- distortion product otoacoustic emissions test  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5286290">
+        <rdfs:label rdf:datatype="&xsd;string">distortion product otoacoustic emissions test</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1078710"/>  <!-- otoacoustic emissions test --> 
+        <skos:definition rdf:datatape="&xsd;string">Distortion product otoacoustic emissions test (DPOAEs test)is an otoacoustic emissions test with the objective to detect, record and measure the cochlear sound emissions in response to two stimulus tones of different frequencies released simultaneously into the ear canal.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">In DPOAE test, non-linear intermodulation between two stimulus tones inside the cochlea generates several new acoustic frequency components, which can travel to the ear canal. Healthy ear canal distortion levels can be above 20 dB SPL (Sound Pressure Level).</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">DPOAE test</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">DPOAE recording</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Kemp, D. F. (2002) Otoacoustic emissions, their origin in cochlear function, and use. British Medical Bulletin 2002;63: pp 223-241</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5334351 -->  <!-- auditory brainstem response test  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5334351">
+        <rdfs:label rdf:datatype="&xsd;string">auditory brainstem response test</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0692868"/>  <!-- hearing assay -->
+        <skos:definition rdf:datatape="&xsd;string">with the objective to detect, record and measure the auditory evoked potential (AEP) generated by the neurons of the auditory pathway in the response to presented auditory stimulus. Auditory evoked potentials are recorded via electrodes placed on the scalp and extracted as a series of vertex positive potentials (waves), from the recording of the ongoing electromagnetic activity.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">ABR test</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">ABR recording</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">It is believed that auditory brain stem evoked potentials (waves 1 to 5, labeled commonly with Roman numerals)  are generated by the following neurons of auditory pathway: Wave I by peripheral portion of vestibulocochlear nerve (cranial nerve VIII, CN8); Wave II, by central portion of vestibulocochlear nerve (cranial nerve VIII, CN8); Wave III, by cochlear nuclei of the brainstem; Wave IV, by lateral lemniscus and superior olive and Wave V, by lateral lemniscus and and superior colliculus. To interpret the ABR the following measurements are taken into account: the amplitude (the number of neurons firing), latency (the speed of transmission), interpeak latency (the time between peaks), and interaural latency (the difference in wave V latency between ears). The ABR represents initiated activity beginning at the base of the cochlea and moving toward the apex over a 4ms period of time. The ABR is used for newborn hearing screening, auditory threshold estimation, intraoperative monitoring, determining hearing loss type and degree, and auditory nerve and brainstem lesion detection.[Source: http://en.wikipedia.org/wiki/Auditory_brainstem_response ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Since auditory brainstem reposnse (ABR) is sensitive to both cochlear and retro-cochlear pathology, ABR testing would appear to be preferable to otoacoustic emissions (OAEs) for infant screening. However, in practice, sensory hearing impairment in the low-risk newborn population appears to be overwhelmingly of the sensory transmissive type, which is readily detectable by measurement of OAEs. [Source: Kemp, D. F. (2002) Otoacoustic emissions, their origin in cochlear function, and use. British Medical Bulletin 2002;63: pp 223-241. ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Otoacoustic emission test (OAE) is usually done at birth, followed by an auditory brainstem response test, if the OAE test result indicate a possible hearing loss. As both tests ares sometimes performed routinely, some infant hearing screening equipment provides capability of running both tests by using one piece of equipment. [Source: http://deafness.about.com/cs/audiograms/a/abroae.htm ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">This may be moved under some other more appropriate mother class.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Auditory_brainstem_response</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Kemp, D. F. (2002) Otoacoustic emissions, their origin in cochlear function, and use. British Medical Bulletin 2002;63: pp 223-241</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
 
 
 
