@@ -24438,6 +24438,18 @@ We have had a long discussion about denotes versus describes.</skos:definition>
   </owl:ObjectProperty>
     
     
+   <!-- http://purl.obolibrary.org/obo/OBI_0000833 -->  <!-- objective_achieved_by -->
+     
+      <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000833">
+    	<rdfs:label rdf:datatype="&xsd;string">objective_achieved_by</rdfs:label>
+        <skos:definition rdf:datatape="&xsd;string">This relation obtains between a a objective specification and a planned process when the criteria specified in the objective specification are met at the end of the planned process.</skos:definition>
+        <rdfs:domain rdf:resource="&obo;IAO_0000005"/>  <!-- objective specification -->
+        <rdfs:range rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+        <owl:inverseOf rdf:resource="&obo;OBI_0000417"/>  <!-- achieves_planned_objective -->
+        <skos:editorialNote rdf:datatype="&xsd;string">Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+  </owl:ObjectProperty>
+    
+    
   <!-- http://purl.obolibrary.org/obo/IAO_0000581 -->  <!-- has time stamp -->
      
    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000581">
