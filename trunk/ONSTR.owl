@@ -10871,20 +10871,6 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2771379 -->  <!-- nutrient intake record  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_2771379">
-        <rdfs:label rdf:datatype="&xsd;string">nutrient intake record</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6358913"/>
-        <skos:definition rdf:datatape="&xsd;string">Nutrient intake record is a nutritional item record that contains the information about the amounts of specific nutrients consumed by a patient over the observed time period.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Charney, P., Malone, A. Eds. (2004) ADA pocket guide to nutrition assessment. American Dietetic Association, pp. 33-39.</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Need to change a superclass, because a nutrient is not a nutritional item.</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-   
-    
-    
 
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5883438 -->  <!-- nutrient analysis software -->
 
@@ -24329,6 +24315,10 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Kemp, D. F. (2002) Otoacoustic emissions, their origin in cochlear function, and use. British Medical Bulletin 2002;63: pp 223-241</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+
+
+
+
 
 
 
