@@ -711,6 +711,19 @@
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
      </owl:Class>
         
+      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_2771379 -->  <!-- nutrient intake record  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_2771379">
+        <rdfs:label rdf:datatype="&xsd;string">nutrient intake record</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatape="&xsd;string">Nutrient intake record is a nutritional item record that contains the information about the amounts of specific nutrients consumed by a patient over the observed time period.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Charney, P., Malone, A. Eds. (2004) ADA pocket guide to nutrition assessment. American Dietetic Association, pp. 33-39.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Original note before deprecating: Need to change a superclass, because a nutrient is not a nutritional item.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+        
         
   
 <!-- Ovde Class -->     
