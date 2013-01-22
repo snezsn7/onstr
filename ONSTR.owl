@@ -6289,58 +6289,21 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">mild phenylketonuria</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">mild PKU</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is caused by hyperphenylalaninemina (HPA) having phenyalalnine blood concentration greater in the range 600-900 mumol/L (10-15 mg/dL).</skos:definition>
-		<rdfs:comment rdf:datatype="&xsd;string">Need better def source.</rdfs:comment>
+		<rdfs:comment rdf:datatype="&xsd;string">Need better NL def and def source.</rdfs:comment>
 		<rdfs:comment rdf:datatype="&xsd;string">Definition source: Scriver, C. R., Sly, W. S., Childs, B., Baudet, A. L., Valle, D., Kinzler, K. W., Vogelstein, B. (2000) The metabolic and molecular bases of inherited metabolic disease, 8th Ed. McGraw-Hill Professional.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
-	
-	
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7175949 --> <!-- genotype --> 
     
-    <owl:Class rdf:about="&ONSTR;ONSTR_7175949">
-        <rdfs:label rdf:datatype="&xsd;string">genotype</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000027"/>  <!-- BFO2:object aggregate-->
-        <skos:definition rdf:datatype="&xsd;string">The complete genetic constitution of an organism at particular locations (loci) in organism's genome, usually regarded with respect to a particular gene of interest. In diploid organisms (such as humans), &quot;genotype&quot; refers to a pair of alleles (of a particular gene) found at identical loci in each of the homologous chromosomes (i.e. maternal and paternal autosomes).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Genotype</rdfs:comment>    
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Millodot: Dictionary of Optometry and Visual Science, 7th edition. (2009) Butterworth-Heinemann</rdfs:comment>    
-        <rdfs:comment rdf:datatype="&xsd;string">The definition employs the word &quot;genotype&quot; in its narrow sense of the word. At its broadest level, word &quot;genotype&quot; may refer to the entire genetic constitution of an individual (i.e. all alleles of all genes present at all chromosomes of an individual).</rdfs:comment> 
-        <rdfs:comment rdf:datatype="&xsd;string">Note: Genotype should not be confounded with genome, which refers to the entirety of an organism's hereditary information that is encoded either in DNA (or in RNA, in many types of viri), and that includes both the genes (i.e., alleles, the coding sequences) and the non-coding sequences of the DNA (or RNA).</rdfs:comment>       
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-	</owl:Class>
-
-
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8554179 --> <!-- heterozygous genotype --> 
-    
-    <owl:Class rdf:about="&ONSTR;ONSTR_8554179">
-        <rdfs:label rdf:datatype="&xsd;string">heterozygous genotype</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7175949"/>
-        <skos:definition rdf:datatype="&xsd;string">A genotype that includes different alleles at a particular gene locus in each of the homologous chromosomes (i.e. heterozygous with respect a particular gene).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Heterozygous</rdfs:comment>    
-        <rdfs:comment rdf:datatype="&xsd;string">Heterozygous genotype of a diploid organism (such as human) may include 1) two normal alleles (non-mutated alleles), 2) one normal and one mutated allele, or 3) two mutated but different alleles.</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-	    <owl:disjointWith rdf:resource="&ONSTR;ONSTR_1161331"/>
-	</owl:Class>
-	
-	
-	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1161331 --> <!-- homozygous genotype --> 
-    
-    <owl:Class rdf:about="&ONSTR;ONSTR_1161331">
-        <rdfs:label rdf:datatype="&xsd;string">homozygous genotype</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7175949"/>
- 		<skos:definition rdf:datatype="&xsd;string">A genotype that includes identical alleles at a particular gene locus in each of the homologous chromosomes (i.e. homozygous with respect a particular gene).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Homozygous genotype of a diploid organism (such as human) may include 1) two normal alleles (non-mutated alleles) and 2) two mutated alleles.</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Homozygous</rdfs:comment>
-	    <owl:disjointWith rdf:resource="&ONSTR;ONSTR_8554179"/>
-	</owl:Class>
-	
 	
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1509758 --> <!-- PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1509758">
         <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase genotype</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7175949"/>
+        <rdfs:subClassOf rdf:resource="&SO;SO_0001207"/>  <!-- so:genotype -->
         <skos:altLabel rdf:datatype="&xsd;string">PAH genotype</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A genotype that includes two alleles (of a gene) coding for enzyme phenylalanine hydroxylase (PAH), each of which has gene map locus 12q22-q24.2 (on homologous chromosome 12).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">PAH monomer genotype</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine hydroxylase monomer genotype</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A genotype that includes two alleles (variants of a gene) coding for enzyme phenylalanine hydroxylase monomer (PAH monomer), having gene map locus 12q22-q24.2.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.62.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -6352,7 +6315,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine hydroxylase genotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1509758"/>
         <skos:altLabel rdf:datatype="&xsd;string">normal phenylalanine hydroxylase genotype</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A PAH genotype that includes two normal alleles (non-mutated alleles) coding for enzyme phenylalanine hydroxylase (PAH), each of which has gene map locus 12q22-q24.2 (on homologous chromosome 12).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">A PAH genotype that includes two normal alleles (non-mutated alleles, wild type alleles) each coding for enzyme phenylalanine hydroxylase monomer (PAH monomer), having gene map locus 12q22-q24.2 (on homologous chromosome 12).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.62.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
    	    <owl:disjointWith rdf:resource="&ONSTR;ONSTR_1252223"/>
@@ -6366,7 +6329,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">mutated allele carrier phenylalanine hydroxylase genotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1509758"/>
         <skos:altLabel rdf:datatype="&xsd;string">mutated allele carrier phenylalanine hydroxylase genotype</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A PAH genotype that includes two alleles coding for enzyme phenylalanine hydroxylase (PAH), out of which one is a normal (non-mutated) PAH allele and the other is mutated PAH allele (i.e. the product of one of the genetic mutation processes that produce observed mutated PAH alleles).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">A PAH genotype that includes two alleles each coding for enzyme phenylalanine hydroxylase monomer (PAH monomer), out of which one is a normal (non-mutated, wild type) PAH monomer allele and the other is mutated (mutant) PAH monomer allele.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.62-64.</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">By implication, mutated allele carrier PAH genotype is a heterozygous genotype.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -6376,9 +6339,10 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7843044 --> <!-- mutant PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7843044">
-        <rdfs:label rdf:datatype="&xsd;string">mutant PAH genotype</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">mutant phenylalanine hydrohylase genotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1509758"/>
-        <skos:definition rdf:datatype="&xsd;string">A PAH genotype that includes two mutated alleles coding for enzyme phenylalanine hydroxylase (PAH).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">A PAH genotype that includes two mutated (mutant) alleles coding for enzyme phenylalanine hydroxylase monomer (PAH monomer).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">mutant PAH genotype</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.62-64.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -6390,7 +6354,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">homozygous mutant phenylalanine hydroxilase genotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7843044"/>
         <skos:altLabel rdf:datatype="&xsd;string">homozygous mutant PAH genotype</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A mutant PAH genotype that consists of two identical mutated PAH alleles.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">A mutant PAH genotype that includes two copies of the same mutated PAH monomer allele (one cooy inherited from the mother and one copy iherited from the father).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.62-64.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
        	<owl:disjointWith rdf:resource="&ONSTR;ONSTR_9939637"/>
@@ -6403,7 +6367,9 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">heterozygous mutant phenylalanine hydroxilase genotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7843044"/>
         <skos:altLabel rdf:datatype="&xsd;string">heterozygous mutant PAH genotype</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A mutant PAH genotype that consists of two different mutated PAH alleles.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">compound heterozygous PAH genotype</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">compound heterozygous phenylalanine hydroxilase genotype</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A mutant phenylalanine hydroxilase genotype that includes two different mutated PAH monomer alleles (one copy of mutated PAH monomer allele that is inherited from the mother and which is not the same of mutated PAH monomer allele that has been inherited from the father).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.62-64.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -6440,25 +6406,27 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2424755"/>
         <skos:altLabel rdf:datatype="&xsd;string">normal PAH</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">normal PAH complex</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">normal phenylalanine-4-hyrdoxylase  complex</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal phenylalanine-4-hyrdoxylase complex</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A phenyalalnine hydroxylase complex (phenyalalnine-4-hydroxylase dimer or tetramer complex) cosisiting of normal phenyalalnine-4-hydroxylase monomers.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Phenylalanine_hydroxylase</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class> 
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9415873 --> <!-- defective PAH complex -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9415873 --> <!-- dysfunctional PAH complex -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9415873">
-        <rdfs:label rdf:datatype="&xsd;string">defective phenylalanine hyrdoxylase complex</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">dysfunctional phenylalanine hyrdoxylase complex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2424755"/>
         <skos:altLabel rdf:datatype="&xsd;string">defective PAH</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">defective phenylalanine hyrdoxylase complex</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">defective PAH complex</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">defective phenylalanine-4-hyrdoxylase complex</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A phenyalalnine hydroxylase complex (phenyalalnine-4-hydroxylase dimer or tetramer complex) having at least one monomer that is a defective phenyalalnine-4-hydroxylase, and as such cannot act as a fully functional catalyzer of conversion of phenylalanine into tyrosine (i.e. has decreased PAH activity).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">In defective phenylalanine hyrdoxylase dimer complex at least one of the monomers is a defective phenyalalnine-4-hydroxylase, while in defective phenylalanine hyrdoxylase tetramer complex one or more monomers may be defective phenyalalnine-4-hydroxylase.</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.14.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">dysfunctional PAH</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">dysfunctional PAH complex</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">dysfunctional phenylalanine-4-hyrdoxylase complex</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A phenyalalnine hydroxylase complex (phenyalalnine-4-hydroxylase dimer or tetramer complex) having at least one monomer that is a disfunctional phenyalalnine-4-hydroxylase monomer, and as such cannot act as a fully functional catalyzer of conversion of phenylalanine into tyrosine (i.e. has decreased PAH activity).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">In dysfunctional phenylalanine hyrdoxylase dimer complex at least one of the monomers is a dysfunctional phenyalalnine-4-hydroxylase monomer, while in defective phenylalanine hyrdoxylase tetramer complex one or more monomers may be defective phenyalalnine-4-hydroxylase monomer.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.14.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     	<owl:disjointWith rdf:about="&ONSTR;ONSTR_5363814"/>
     </owl:Class>
