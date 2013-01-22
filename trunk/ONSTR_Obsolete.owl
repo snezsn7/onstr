@@ -714,7 +714,7 @@
       
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_2771379 -->  <!-- nutrient intake record  -->
 
-    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_2771379">
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_2771379">
         <rdfs:label rdf:datatype="&xsd;string">nutrient intake record</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
         <skos:definition rdf:datatape="&xsd;string">Nutrient intake record is a nutritional item record that contains the information about the amounts of specific nutrients consumed by a patient over the observed time period.</skos:definition>
@@ -723,10 +723,54 @@
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Obsolete - Retired</skos:editorialNote>
         <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
      </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_7175949 --> <!-- genotype --> 
+    
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_7175949">
+        <rdfs:label rdf:datatype="&xsd;string">genotype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatype="&xsd;string">The complete genetic constitution of an organism at particular locations (loci) in organism's genome, usually regarded with respect to a particular gene of interest. In diploid organisms (such as humans), &quot;genotype&quot; refers to a pair of alleles (of a particular gene) found at identical loci in each of the homologous chromosomes (i.e. maternal and paternal autosomes).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Genotype</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Millodot: Dictionary of Optometry and Visual Science, 7th edition. (2009) Butterworth-Heinemann</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">The definition employs the word &quot;genotype&quot; in its narrow sense of the word. At its broadest level, word &quot;genotype&quot; may refer to the entire genetic constitution of an individual (i.e. all alleles of all genes present at all chromosomes of an individual).</rdfs:comment> 
+        <rdfs:comment rdf:datatype="&xsd;string">Note: Genotype should not be confounded with genome, which refers to the entirety of an organism's hereditary information that is encoded either in DNA (or in RNA, in many types of viri), and that includes both the genes (i.e., alleles, the coding sequences) and the non-coding sequences of the DNA (or RNA).</rdfs:comment>       
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Replaced by SO import.</skos:editorialNote>
+        <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_8554179 --> <!-- heterozygous genotype --> 
+    
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_8554179">
+        <rdfs:label rdf:datatype="&xsd;string">heterozygous genotype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatype="&xsd;string">A genotype that includes different alleles at a particular gene locus in each of the homologous chromosomes (i.e. heterozygous with respect a particular gene).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Heterozygous</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Heterozygous genotype of a diploid organism (such as human) may include 1) two normal alleles (non-mutated alleles), 2) one normal and one mutated allele, or 3) two mutated but different alleles.</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">This class maybe unobsoleted at a later date, if needed.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+	    <!-- owl:disjointWith rdf:resource="&ONSTR;ONSTR_1161331"/ -->
+	</owl:Class>
+	
+	
+	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_1161331 --> <!-- homozygous genotype --> 
+    
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_1161331">
+        <rdfs:label rdf:datatype="&xsd;string">homozygous genotype</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+ 		<skos:definition rdf:datatype="&xsd;string">A genotype that includes identical alleles at a particular gene locus in each of the homologous chromosomes (i.e. homozygous with respect a particular gene).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Homozygous genotype of a diploid organism (such as human) may include 1) two normal alleles (non-mutated alleles) and 2) two mutated alleles.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Homozygous</rdfs:comment>
+	    <rdfs:comment rdf:datatype="&xsd;string">This class maybe unobsoleted at a later date, if needed.</rdfs:comment>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+	    <!-- owl:disjointWith rdf:resource="&ONSTR;ONSTR_8554179"/ -->
+	</owl:Class>
         
         
   
-<!-- Ovde Class -->     
+<!-- OVDE Class -->     
     
 
     <!--  				     		   -->
