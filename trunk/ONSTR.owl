@@ -8839,18 +8839,29 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6614057">
         <rdfs:label rdf:datatype="&xsd;string">blood specimen creation objective</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000684"/>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000684"/>  <!-- specimen creation objective -->
         <skos:definition rdf:datatype="&xsd;string">Blood specimen creation objective is specimen creation objective to obtain a blood specimen (a portion of venous, arterial of capillary blood) from a human patient to use it as an input for further investigation.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8059576 --> <!-- dried blood spot specimen creation objective -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8059576">
+        <rdfs:label rdf:datatype="&xsd;string">dried blood spot specimen creation objective</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6614057"/>  <!-- blood specimen creation objective -->
+        <skos:definition rdf:datatape="&xsd;string">Dried blood spot specimen creation objective is a blood specimen creation objective to create a dried blood specimen of a portion of blood (usually capillary or venous) for the purposes of conserving the blood specimen to be used in investigation at a later date.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>  
+    
+    
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2647953 --> <!-- urine specimen creation objective -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2647953">
         <rdfs:label rdf:datatype="&xsd;string">urine specimen creation objective</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000684"/>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000684"/>  <!-- specimen creation objective -->
         <skos:definition rdf:datatype="&xsd;string">Urine specimen creation objective is specimen creation objective to obtain a urine specimen from a human patient to use it as an input for further investigation.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -8861,7 +8872,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5102144">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid specimen creation objective</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000684"/>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000684"/> <!-- specimen creation objective -->
         <skos:definition rdf:datatype="&xsd;string">Cerebrospinal fluid specimen creation objective is specimen creation objective to obtain a cerebrospinal fluid specimen from a human patient to use it as an input for further investigation.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -24383,7 +24394,7 @@ people infected, then extract parasite which are then tested = observation study
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_9436244"/>  <!-- newborn screening process -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2514922"/>  <!-- repeated newborn screening process -->
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000062"/> <!-- BFO-OBI:is preceded by -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1331876"/>  <!-- second newborn screening process -->
@@ -24402,7 +24413,7 @@ people infected, then extract parasite which are then tested = observation study
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7271477 -->  <!-- second-tier newborn screening test  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7271477">
-        <rdfs:label rdf:datatype="&xsd;string">second-tier newborn screening test</rdfs:label>  
+        <rdfs:label rdf:datatype="&xsd;string">second-tier newborn dried blood spot screening test</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/>  <!-- newborn screening system process -->  
         <owl:equivalentClass>
             <owl:Class>
@@ -24418,7 +24429,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatape="&xsd;string">Second-tier newborn screening test is a newborn screening system process commonly performed on the dried blood spot specimen collected during the initial newborn screening for the purposes of performing of additional test or tests following the previously positive initial screening result.</skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Second-tier newborn  dried blood spot screening test is a newborn screening system process commonly performed on the dried blood spot specimen collected during the initial newborn screening for the purposes of performing of additional test or tests following the previously positive initial screening result.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Almost all states in the U.S. use second-tire screening for congenital hypothyroidism (CH) and test for thyroxine (T4) or thyroid stimulating hormone (TSH). [Source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf ]</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Some newborn screening programs use a second-tier fluorometric test following an initial bacterial inhibition assay for phenylketonuria (PKU). [Source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf ]</rdfs:comment>  
@@ -24430,7 +24441,7 @@ people infected, then extract parasite which are then tested = observation study
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0773490 -->  <!-- third-tier newborn screening test  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0773490">
-        <rdfs:label rdf:datatype="&xsd;string">third-tier newborn screening test</rdfs:label>  
+        <rdfs:label rdf:datatype="&xsd;string">third-tier newborn dried blood spot screening test</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/>  <!-- newborn screening system process --> 
         <owl:equivalentClass>
             <owl:Class>
@@ -24446,7 +24457,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatape="&xsd;string">Third-tier newborn screening test is a newborn screening system process commonly performed on the dried blood spot specimen collected during the initial newborn screening for the purposes of performing additional test or tests following the previously positive positive second-tier test result.</skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Third-tier newborn  dried blood spot screening test is a newborn screening system process commonly performed on the dried blood spot specimen collected during the initial newborn screening for the purposes of performing additional test or tests following the previously positive positive second-tier test result.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Second- and third-tier tests are commonly done on the original dried blood spot specimen (collected during the initial newborn screening) and are to be distinguished from the repeated newborn screening testing that involves retesting on the original specimen performed by the screening laboratory, or second screening tests that require a fresh specimen (obtained during the repeated newborn screening). [Source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf ]</rdfs:comment>              
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -24465,8 +24476,129 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class> 
   
   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8450180 -->  <!-- newborn screening short-term follow-up process  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8450180">
+        <rdfs:label rdf:datatype="&xsd;string">newborn screening short-term follow-up process</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/> <!-- newborn system screening process -->
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening short-term follow-up process is a newborn screening system process that includes activities that ensure that all infants are screened (repeated screen, as well as second and third tier testing completed), abnormal screen results appropriately and expediently reported to all interested parties (family or child caregiver, primary care physician etc.), affected infants promptly identified and located, appropriately referred and treatment initiated where needed and applicable.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">SFTU</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">SFTU process</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">NBS-SFTU</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">NBS SFTU</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8433787 -->  <!-- newborn screening long-term follow-up process  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8433787">
+        <rdfs:label rdf:datatype="&xsd;string">newborn screening long-term follow-up process</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/> <!-- newborn system screening process -->
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening long-term follow-up process is a newborn screening system process that includes providing long-term condition-specific personalized treatment and disorder management, age-appropriate preventive care, continuous treatment quality improvement, engagement of affected individuals and their families as effective partners in care management etc.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">LFTU</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">LFTU process</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">NBS-LFTU</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">NBS LFTU</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0352832 -->  <!-- newborn screening system process objective  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0352832">
+        <rdfs:label rdf:datatype="&xsd;string">newborn screening system process objective</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/> <!-- objective specification -->
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening system process objective is an objective specification to ensure the prompt identification of and provide best possible treatment for the newborns with inheritable and congenital disorders.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3002634 -->  <!-- newborn screening process objective  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3002634">
+        <rdfs:label rdf:datatype="&xsd;string">newborn screening process objective</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0352832"/> <!-- newborn screening system process objective -->  
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening process objective is an objective specification of an objective to identify the newborns who are at high risk of heritable and congenital disorder, before the emergence of disorder signs and symptoms (i.e. in the presymptomatic phase).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Hinman, A.R., Mann, M.Y., Singh, R.H. (2009) Newborn dried bloodspot screening: mapping the clinical and public health components and activities. Genetics in Medicine, Vol.11, No. 6, June 2009.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>  
 
 
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9179705 -->  <!-- newborn screening short-term follow-up process objective  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9179705">
+        <rdfs:label rdf:datatype="&xsd;string">newborn screening short-term follow-up process objective</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0352832"/> <!-- newborn screening system objective specification --> 
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening short-term follow-up process objective is an objective specification of an objective to complete screening process of all infants (repeated screening, as well as second and third tier testing), report abnormal screen results appropriately and expediently to all interested parties (family or child caregiver, primary care physician etc.), timely identify and locate affected infants and their care givers and health care providers, provide appropriate referral and promptly initiate the treatment where needed and applicable.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3479511 -->  <!-- newborn screening long-term follow-up process objective  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3479511">
+        <rdfs:label rdf:datatype="&xsd;string">newborn screening long-term follow-up process objective</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0352832"/> <!-- newborn screening system objective specification --> 
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening long-term follow-up objective is an objective specification of an objective to assure the best possible outcome for individuals with disorders identified through newborn screening.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Kemper, A.R., Boyle, C., Aceves, J., Dougherty, D., Figge, J., Fisch, J.L., Hinman, A.R., Greene, C.L., Kus, C.A., Mille, J., Robertson, D., Therrell, B., Lloyd-Puryear, M., van Dyck, P.C., Howell, R.R. (2008) Long-term follow-up after diagnosis resulting from newborn screening: Statement of the US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children. Genetics in Medicine, Vol.10, No.4. April 2008.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>  
+     
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7239630 -->  <!-- newborn screening system protocol  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7239630">
+        <rdfs:label rdf:datatype="&xsd;string">newborn screening system protocol</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000272"/>  <!-- protocol -->
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening system protocol is a protocol which specifies all actions to be performed and agents involved in all processes of newborn screening proper, short-term follow-up and lomg-term follow-up.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
+     </owl:Class> 
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3523936 -->  <!-- newborn screening protocol  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3523936">
+        <rdfs:label rdf:datatype="&xsd;string">newborn screening protocol</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7239630"/>  <!-- newborn screening system protocol -->
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening protocol is a newborn screening system protocol specifying all actions to be performed and agents involved in processes of newborn screening unfolding, in general, relatively shortly after the birth.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">NBS protocol</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
+     </owl:Class> 
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6156091 -->  <!-- newborn screening short-term follow-up protocol  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6156091">
+        <rdfs:label rdf:datatype="&xsd;string">newborn screening short-term follow-up protocol</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7239630"/>  <!-- newborn screening system protocol -->
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening short-term follow-up protocol is a newborn screening system protocol specifying all actions to be performed and agents involved in processes of short-term follow-up after the identifying a positive newborn screening result.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">STFU protocol</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">NBS-STFU protocol</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">NBS STFU protocol</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0685099 -->  <!-- newborn screening long-term follow-up protocol  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0685099">
+        <rdfs:label rdf:datatype="&xsd;string">newborn screening long-term follow-up protocol</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7239630"/>  <!-- newborn screening system protocol -->
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening long-term follow-up protocol is a newborn screening system protocol specifying all actions to be performed and agents involved in processes of long-term follow-up of patients diagnosed with heritable disorders.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">LTFU protocol</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">NBS-LTFU protocol</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">NBS LTFU protocol</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
+     </owl:Class>
 
 
 
