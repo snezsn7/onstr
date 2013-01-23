@@ -508,16 +508,7 @@
           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
       
-      
-     <!-- http://purl.obolibrary.org/obo/OBI_0000093 -->   <!-- patient role -->
-   
-     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000093">
-          <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
-          <rdfs:label rdf:datatype="&xsd;string">patient role</rdfs:label>
-          <skos:definition rdf:datatype="&xsd;string">A role which inheres in a person and is realized by the process of being under the care of a physician or health care provider</skos:definition>
-          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
-      </owl:Class>
-     
+  
      
      <!-- http://purl.obolibrary.org/obo/OBI_0000116 -->   <!-- worker role -->
      
@@ -527,17 +518,7 @@
     	  <skos:definition rdf:datatype="&xsd;string">A personnel role played by a party who executes a component of the study plan; this can occur before, during, after or outside the study timeline</skos:definition>
 		  <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>	
-     
-     
-     <!-- http://purl.obolibrary.org/obo/OBI_0000207 -->   <!-- health care provider role -->
-     
-      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000207">
-    	 <rdfs:label rdf:datatype="&xsd;string">health care provider role</rdfs:label>
-    	 <rdfs:subClassOf rdf:resource="&obo;OBI_0000116"/><!-- worker role -->
-    	 <skos:definition rdf:datatype="&xsd;string">A worker role of providing medical care either within or outside the study timeline</skos:definition>
-		 <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
-      </owl:Class>	
-      
+           
      
      <!-- http://purl.obolibrary.org/obo/OBI_0000145 -->   <!-- pathologist role -->
      
@@ -5421,7 +5402,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">base unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000003"/>
         <skos:definition rdf:datatype="&xsd;string">A unit which is one of a particular measure to which all measures of that type can be related.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5431,7 +5412,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">length unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000045"/>
         <skos:definition rdf:datatype="&xsd;string">A base unit which is a standard measure of the distance between two points.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5442,7 +5423,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000001"/>
         <skos:definition rdf:datatype="&xsd;string">A length unit which is equal to one hundredth of a meter or 10^[-2] m.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">cm</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5453,7 +5434,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000001"/>
         <skos:definition rdf:datatype="&xsd;string">A length unit which is equal to the length of the path traveled by light in vacuum during a time interval of 1/299 792 458 of a second.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">m</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5463,7 +5444,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">mass unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000045"/>
         <skos:definition rdf:datatype="&xsd;string">A base unit which is a standard measure of the amount of matter/energy of a physical object.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5474,7 +5455,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000002"/>
         <skos:definition rdf:datatype="&xsd;string">A mass unit which is equal to one thousandth of a kilogram or 10^[-3] kg.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">g</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5485,7 +5466,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000002"/>
         <skos:definition rdf:datatype="&xsd;string">A mass unit which is equal to the mass of the International Prototype Kilogram kept by the BIPM at S&#xE8;vres, France.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">kg</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5497,7 +5478,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A mass unit which is equal to one millionth of a gram or 10^[-6] g.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">&#x3BC;g</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">ug</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5508,7 +5489,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000002"/>
         <skos:definition rdf:datatype="&xsd;string">A mass unit which is equal to one thousandth of a gram or 10^[-3] g.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">mg</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5519,7 +5500,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000002"/>
         <skos:definition rdf:datatype="&xsd;string">A mass unit which is equal to 10^[-12] g.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">ng</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5529,7 +5510,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">derived unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000003"/>
         <skos:definition rdf:datatype="&xsd;string">A unit which is derived from base units.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5539,7 +5520,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">concentration unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
         <skos:definition rdf:datatype="&xsd;string">A derived unit which represents a standard measurement of how much of a given substance there is mixed with another substance.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5549,7 +5530,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">unit of molarity</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000051"/>
         <skos:definition rdf:datatype="&xsd;string">A derived concentration unit which is a standard measure of the number of moles of a given substance per liter of solution.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5563,7 +5544,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">uM</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">micromole per liter</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">&#x3BC;mol/L</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
      
@@ -5574,7 +5555,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">dimensionless unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
         <skos:definition rdf:datatype="&xsd;string">A derived unit which is a standard measure of physical quantity consisting of only a numerical number without any units.</skos:definition>
-       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5585,7 +5566,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">ratio</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000186"/>
         <skos:definition rdf:datatype="&xsd;string">A dimensionless unit which denotes an amount or magnitude of one quantity relative to another.</skos:definition>
-       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5596,7 +5577,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000190"/>
         <skos:definition rdf:datatype="&xsd;string">A dimensionless ratio unit which denotes numbers as fractions of 100.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">%</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5606,7 +5587,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">pH</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000051"/>
         <skos:definition rdf:datatype="&xsd;string">A dimensionless concentration notation which denotes the acidity of a solution in terms of activity of hydrogen ions (H+).</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5616,7 +5597,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">unit per volume unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000051"/>
         <skos:definition rdf:datatype="&xsd;string">A derived concentration unit which is a standard measure of the number of units, as an agreed arbitrary amount, of a given substance per a specific volume of solution.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
 
 
@@ -5627,7 +5608,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000177"/>
         <skos:definition rdf:datatype="&xsd;string">A unit per milliliter unit which is equal to one unit of an agreed arbitrary amount per one liter.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">U/l</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5637,7 +5618,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">cell concentration unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000051"/>
         <skos:definition rdf:datatype="&xsd;string">A concentration unit which denotes the average cell number in a given volume.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5648,7 +5629,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000200"/>
         <skos:definition rdf:datatype="&xsd;string">A unit of cell concentration which is equal to one cell in a volume of 1 milliliter.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">cells per ml</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
 
 
@@ -5658,7 +5639,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">density unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
         <skos:definition rdf:datatype="&xsd;string">A derived unit which is a standard measure of the influence exerted by some mass.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
    
@@ -5669,7 +5650,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000182"/> 
         <skos:definition rdf:datatype="&xsd;string">A density unit which is a standard measure of the mass exerting an influence on a given area.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">mass per unit area</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5682,7 +5663,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">kg/m^[2]</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">BMI unit</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">body mass index unit</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5693,7 +5674,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000182"/>  
         <skos:definition rdf:datatype="&xsd;string">A density unit which is a standard measure of the mass of a substance in a given volume.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">mass per unit volume</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
 
 
@@ -5705,7 +5686,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A mass density unit which is equal to mass of an object in grams divided by the volume in deciliters.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">g/dl</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">g/dL</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5715,7 +5696,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">temperature derived unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/> 
         <skos:definition rdf:datatype="&xsd;string">A derived unit which represents a standard measurement of temperature in a particular temperature scale.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5727,7 +5708,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A temperature derived unit which is equal to one Kelvin degree. However, they have their zeros at different points. The Centigrade scale has its zero at 273.15 K.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">C</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">&#x00B0; C</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5739,7 +5720,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A temperature derived unit which is equal to 5/9ths of a kelvin. Negative 40 degrees Fahrenheit is equal to negative 40 degrees Celsius.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">F</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">&#x00B0; F</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5749,7 +5730,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">time derived unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/> 
         <skos:definition rdf:datatype="&xsd;string">A derived unit which is a standard measure of the dimension in which events occur in sequence.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5759,7 +5740,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">day</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000149"/>
         <skos:definition rdf:datatype="&xsd;string">A time unit which is equal to 24 hours.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5770,7 +5751,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000149"/>
         <skos:definition rdf:datatype="&xsd;string">A time unit which is equal to 3600 seconds or 60 minutes.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">h</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
 
 
@@ -5781,7 +5762,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000149"/>
         <skos:definition rdf:datatype="&xsd;string">A time unit which is equal to 60 seconds.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">min</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5792,7 +5773,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000149"/>
         <skos:definition rdf:datatype="&xsd;string">A time unit which is approximately equal to the length of time of one of cycle of the moon&#39;s phases which is science is taken to be equal to 30 days.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">01/29/2012 SN: The lenght of the month of 30 days refrred in the UO, is the approximation of what is in science called &quot; a synodic month&quot;, which is the average period of the Moon&apos;s revolution around the Earth (i.e. informally, a time interval between the two successive new moons). Average time interval (length) of a synodic month is 29.530788 days. Synodic month is used as a basis ofr most calendars.</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5802,7 +5783,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">week</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000149"/>
         <skos:definition rdf:datatype="&xsd;string">A time unit which is equal to 7 days.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5816,7 +5797,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">a</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">y</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">yr</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5826,7 +5807,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">volume unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
         <skos:definition rdf:datatype="&xsd;string">A derived unit which is a standard measure of the amount of space occupied by any substance, whether solid, liquid, or gas.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
 
 
@@ -5838,7 +5819,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A volume unit which is equal to one tenth of a liter or 10^[-1] L.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">dl</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">dL</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5850,7 +5831,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A volume unit which is equal to one thousandth of a cubic meter or 10^[-3] m^[3], or to 1 cubic decimeter.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">l</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">L</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5864,7 +5845,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">&#x3BC;L</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">ul</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">uL</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5876,7 +5857,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A volume unit which is equal to one thousandth of a liter or 10^[-3] L, or to 1 cubic centimeter.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">ml</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">mL</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
     
     
@@ -5886,7 +5867,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">energy unit</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;UO_0000046"/>
         <skos:definition rdf:datatype="&xsd;string">A derived unit which is a standard measure of the work done by a certain force (gravitational, electric, magnetic, force of inertia, etc).</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
    
     
@@ -5897,7 +5878,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;UO_0000111"/>
         <skos:definition rdf:datatype="&xsd;string">An energy unit which is equal to the energy required when a force of 1 newton moves an object 1 meter in the direction of the force.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">J</skos:altLabel>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Unit Ontology (UO)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Unit Ontology (UO)</skos:editorialNote>
     </owl:Class>
 
 <!-- END UO IMPORTS -->
@@ -5911,7 +5892,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">clinical finding</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A representation that is either the output of a clinical history taking or a physical examination or an image finding, or some combination thereof.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from General Medical Science (OGMS)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
 
 
@@ -5922,7 +5903,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">clinical history</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A series of statements representing health-relevant qualities of a patient and of a patient&#39;s family.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from General Medical Science (OGMS)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
 
 
@@ -5933,7 +5914,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">image finding</rdfs:label>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
         <skos:definition rdf:datatype="&xsd;string">A clinical finding that is a representation of an image that supports an inference to an assertion about some quality of a patient.</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from General Medical Science (OGMS)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
     
     
@@ -5944,7 +5925,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">laboratory finding</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A clinical finding that is a representation of a quality of a specimen that is the output of a laboratory test and that can support an inference to an assertion about some quality of the patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from General Medical Science (OGMS)</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
       
     
@@ -5955,7 +5936,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">diagnosis</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A data item that is the representation of a conclusion of an interpretive process that has as input a clinical picture of a given patient and as output an assertion (diagnostic statement) to the effect that the patient has a disease of such and such a type.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from General Medical Science (OGMS).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
    
     
@@ -5966,7 +5947,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">phenotype</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A (combination of) quality(ies) of an organism determined by the interaction of its genetic make-up and environment that differentiates specific instances of a species from other instances of the same species.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from General Medical Science (OGMS).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
      
     
@@ -5977,7 +5958,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">disease</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from General Medical Science (OGMS).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
     
     
@@ -5988,7 +5969,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">constitutional genetic disease</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A disease whose physical basis is a constitutional genetic disorder.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from General Medical Science (OGMS).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
 
 
@@ -5999,7 +5980,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
         <skos:definition rdf:datatype="&xsd;string">A material entity which is clinically abnormal and part of an extended organism. Disorders are the physical basis of disease.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from General Medical Science (OGMS).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
 
 
@@ -6021,7 +6002,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">constitutional genetic disorder</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A genetic disorder inherited during conception that is part of all cells in the organism.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from General Medical Science (OGMS).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
     
   
@@ -6032,7 +6013,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">clinical history taking</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">An interview in which a clinician elicits a clinical history from a patient or from a third party who is reporting on behalf of the patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from General Medical Science (OGMS).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
    
 
@@ -6043,7 +6024,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">laboratory test</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A measurement assay that has as input a patient-derived specimen, and as output a result that represents a quality of the specimen.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from General Medical Science (OGMS).</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>  
     
     
@@ -6054,7 +6035,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">health care process</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A social process that has at least one human participant and that includes as parts the treatment, diagnosis, or prevention of disease or injury--or the following of instructions of another human for treatment, diagnosis, or prevention--of a participant in the process</skos:definition>
 		<rdfs:comment rdf:datatype="&xsd;string">Definition source: http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</rdfs:comment>
- 		<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+ 		<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
       
     
@@ -6065,7 +6046,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">health care encounter</rdfs:label>
         <rdfs:comment rdf:datatype="&xsd;string">http://groups.google.com/group/ogms-discuss/browse_thread/thread/a2dbc2ed1dff99d6</rdfs:comment>
         <skos:definition rdf:datatype="&xsd;string">A temporally-connected health care process that has as participants an organization or person realizing the health care provider role and a person realizing the patient role.  The health care provider role and patient are realized during the health care encounter</skos:definition>
- 		<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+ 		<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
     
 
@@ -6076,7 +6057,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">physical examination</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">A sequence of acts of observing and measuring qualities of a patient performed by a clinician; measurements may occur with and without elicitation.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
     
 
@@ -6088,12 +6069,80 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">treatment process</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://code.google.com/p/ogms/issues/detail?id=35</rdfs:comment>
         <skos:definition rdf:datatype="&xsd;string">A processual entity whose completion is hypothesized (by a healthcare provider) to alleviate the signs and symptoms associated with a disorder</skos:definition>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported</skos:editorialNote>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
     
 <!-- END OGMS IMPORTS -->
 <!-- START OMRSE IMPORTS -->
 
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000024 -->  <!-- role in human social processes -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000024">
+        <rdfs:label rdf:datatype="&xsd;string">role in human social processes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>  <!-- bfo2:role -->
+        <skos:definition rdf:datatape="&xsd;string">A role inhering in an entity realized by social interactions in human society.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Medically Related Social Entities (OMRSE).</skos:editorialNote>
+   </owl:Class> 
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000010 -->  <!-- human health care role -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000010">
+        <rdfs:label rdf:datatype="&xsd;string">human health care role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000024"/>  <!-- role in human social processes -->
+        <skos:definition rdf:datatape="&xsd;string">A human social role that is realized by health care processes such as seeking or providing treatment for disease and injury, diagnosing disease and injury, or undergoing diagnosis.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Medically Related Social Entities (OMRSE).</skos:editorialNote>
+   </owl:Class>
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000012 -->  <!-- health care provider role -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000012">
+        <rdfs:label rdf:datatype="&xsd;string">health care provider role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000010"/>  <!-- human health care role -->
+        <skos:definition rdf:datatape="&xsd;string">A human health care role inhering in an organization or human being that is realized by a process of providing health care services to an organism.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Medically Related Social Entities (OMRSE).</skos:editorialNote>
+   </owl:Class>
+
+
+   <!-- http://purl.obolibrary.org/obo/OMRSE_00000013 -->  <!-- physician role -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000013">
+        <rdfs:label rdf:datatype="&xsd;string">physician role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000012"/>  <!-- health care provider role -->
+        <skos:definition rdf:datatape="&xsd;string">A health care role borne by a human being and realized by promoting, maintaining or restoring human health through the study, diagnosis, and treatment of disease, injury and other physical and mental impairments.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Medically Related Social Entities (OMRSE).</skos:editorialNote>
+   </owl:Class>
+
+
+   <!-- http://purl.obolibrary.org/obo/OMRSE_00000014 -->  <!-- nurse role -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000014">
+        <rdfs:label rdf:datatype="&xsd;string">nurse role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000012"/>  <!-- health care provider role -->
+        <skos:definition rdf:datatape="&xsd;string">A health care role borne by a human being and realized by the care of individuals, families, and communities so they may attain, maintain, or recover optimal health and quality of life.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Medically Related Social Entities (OMRSE).</skos:editorialNote>
+   </owl:Class>
+   
+   
+  <!-- http://purl.obolibrary.org/obo/OMRSE_00000018 -->  <!-- hospital role -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000018">
+        <rdfs:label rdf:datatype="&xsd;string">hospital role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000012"/>  <!-- health care provider role -->
+        <skos:definition rdf:datatape="&xsd;string">A role borne by an organization and realized by providing healthcare services by healthcare professionals of multiple different disciplines of medicine and enabling stationary treatment.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Medically Related Social Entities (OMRSE).</skos:editorialNote>
+   </owl:Class>
+   
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000011 -->  <!-- patient role -->
+
+    <owl:Class rdf:about="&obo;OMRSE_00000011">
+        <rdfs:label rdf:datatype="&xsd;string">patient role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000010"/>   <!-- human health care role -->
+        <skos:definition rdf:datatape="&xsd;string">A role borne by an organism being as the recipient of a health care service.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Medically Related Social Entities (OMRSE).</skos:editorialNote>
+   </owl:Class>
 
 
 
@@ -8561,7 +8610,7 @@ people infected, then extract parasite which are then tested = observation study
                                     <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!--Homo sapines-->
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!--BFO2:has role at some time-->
-                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>  <!--patient-->
+                                        <owl:someValuesFrom rdf:resource="&obo;OMRSE_00000011"/>  <!-- patient role-->
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -8680,7 +8729,7 @@ people infected, then extract parasite which are then tested = observation study
                                     <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="&obo;BFO_0000087"/>  <!-- BFO2:has role at some time -->
-                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>  <!-- patirnt role -->
+                                        <owl:someValuesFrom rdf:resource="&obo;OMRSE_00000011"/>  <!-- patient role -->
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -8715,7 +8764,7 @@ people infected, then extract parasite which are then tested = observation study
                                     <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="&obo;BFO_0000087"/>
-                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;OMRSE_00000011"/>  <!-- patient role -->
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -9068,7 +9117,7 @@ people infected, then extract parasite which are then tested = observation study
                                     <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>
                                     <owl:Restriction>
                                         <owl:onProperty rdf:resource="&obo;BFO_0000087"/>  <!-- BFO2:has role at some time -->
-                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>  <!-- patient role -->
+                                        <owl:someValuesFrom rdf:resource="&obo;OMRSE_00000011"/>  <!-- patient role -->
                                     </owl:Restriction>
                                 </owl:intersectionOf>
                             </owl:Class>
@@ -23573,7 +23622,7 @@ people infected, then extract parasite which are then tested = observation study
                                 	<rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!--Homo sapines-->
                                     	<owl:Restriction>
                                         	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- BFO2:has role at some time-->
-                                        	<owl:someValuesFrom rdf:resource="&obo;OBI_0000093"/>  <!--patient role-->
+                                        	<owl:someValuesFrom rdf:resource="&obo;OMRSE_00000011"/>  <!--patient role-->
                                     	</owl:Restriction>
                    					</owl:intersectionOf>
                     			</owl:Class>
@@ -23587,7 +23636,7 @@ people infected, then extract parasite which are then tested = observation study
                                 	<rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!--Homo sapines-->
                                     	<owl:Restriction>
                                         	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- BFO2:has role at some time -->
-                                        	<owl:someValuesFrom rdf:resource="&obo;OBI_0000207"/>  <!--health care provider role-->
+                                        	<owl:someValuesFrom rdf:resource="&obo;OMRSE_00000012"/>  <!-- health care provider role to REPLACE BY NURSE ROLE-->
                                     	</owl:Restriction>
                    					</owl:intersectionOf>
                     			</owl:Class>
@@ -24184,7 +24233,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7555475">
         <rdfs:label rdf:datatype="&xsd;string">hearing screening</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0692868"/>  <!-- hearing assay -->
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0692868"/ -->  <!-- hearing assay -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -24225,7 +24274,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8770782">
         <rdfs:label rdf:datatype="&xsd;string">hearing evaluation</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0692868"/>  <!-- hearing assay -->
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0692868"/ -->  <!-- hearing assay -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -24310,7 +24359,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7308488">
         <rdfs:label rdf:datatype="&xsd;string">newborn screening system process</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- obi:planned process -->
+        <!-- rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/ -->  <!-- obi:planned process -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -24400,7 +24449,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0337384">
         <rdfs:label rdf:datatype="&xsd;string">third newborn screening process</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2514922"/>  <!-- repeated newborn screening process -->
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2514922"/-->  <!-- repeated newborn screening process -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -24424,7 +24473,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7271477">
         <rdfs:label rdf:datatype="&xsd;string">second-tier newborn dried blood spot screening test</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/>  <!-- newborn screening system process -->  
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/-->  <!-- newborn screening system process -->  
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -24459,7 +24508,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0773490">
         <rdfs:label rdf:datatype="&xsd;string">third-tier newborn dried blood spot screening test</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/>  <!-- newborn screening system process --> 
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/ -->  <!-- newborn screening system process --> 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
