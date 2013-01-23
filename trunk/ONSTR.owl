@@ -6092,6 +6092,16 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
 <!-- END OGMS IMPORTS -->
+<!-- START OMRSE IMPORTS -->
+
+
+
+
+
+
+
+<!-- END OMRSE IMPORTS -->
+
 <!-- END ALL IMPORTED CLASSES --> 
    
 	<!--  				 -->
@@ -24420,7 +24430,14 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_7308488"/> <!-- newborn screening system process -->
                     <owl:Class>
-                        <owl:complementOf rdf:resource="&ONSTR;ONSTR_2514922"/>  <!-- repeated newborn screening process -->
+                    	<owl:complementOf>
+                            <owl:Class>
+                    			<owl:intersectionOf rdf:parseType="Collection">
+                        			<rdf:Description rdf:about="&ONSTR;ONSTR_2514922"/>  <!-- repeated newborn screening process -->
+                            		<rdf:Description rdf:about="&ONSTR;ONSTR_4969498"/>  <!-- newborn dried blood spot screening retest -->
+                                </owl:intersectionOf>
+                             </owl:Class>
+                        </owl:complementOf>
                     </owl:Class>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000062"/>  <!-- BFO-OBI:is preceded by -->
@@ -24448,7 +24465,14 @@ people infected, then extract parasite which are then tested = observation study
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_7308488"/> <!-- newborn screening system process -->
                     <owl:Class>
-                        <owl:complementOf rdf:resource="&ONSTR;ONSTR_2514922"/>  <!-- repeated newborn screening process -->
+                    	<owl:complementOf>
+                            <owl:Class>
+                    			<owl:intersectionOf rdf:parseType="Collection">
+                        			<rdf:Description rdf:about="&ONSTR;ONSTR_2514922"/>  <!-- repeated newborn screening process -->
+                            		<rdf:Description rdf:about="&ONSTR;ONSTR_4969498"/>  <!-- newborn dried blood spot screening retest -->
+                                </owl:intersectionOf>
+                             </owl:Class>
+                        </owl:complementOf>
                     </owl:Class>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000062"/>  <!-- BFO-OBI:is preceded by -->
