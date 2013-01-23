@@ -24309,7 +24309,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9436244">
         <rdfs:label rdf:datatype="&xsd;string">newborn screening process</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/>  <!-- newborn screening process --> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/>  <!-- newborn screening system process --> 
         <skos:definition rdf:datatape="&xsd;string">Newborn screening process is a planned process that is the aggregate of health care processes unfolding immediately or shortly after birth (e.g. heel-prick blood specimen collection, pulse oximetry, hearing screening tests etc.)</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Hinman,A.R., Mann,Y.M., Singh,H.R. (2009) Newborn dried bloodspot screening: mapping the clinical and public health components and activities. Genetics in Medicine, Vol.11, No. 6, June 2009.</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">In the U.S. the process of newborn screening across states and NBS programs is not yet fully harmonized and standardized and the set and the sequence of NBS sub-processes may vary considerably.</rdfs:comment>
@@ -24317,13 +24317,107 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">NBS</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5205203 -->  <!-- newborn screening process  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5205203">
+        <rdfs:label rdf:datatype="&xsd;string">initial newborn screening process</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9436244"/>  <!-- newborn screening process -->    
+        <skos:definition rdf:datatape="&xsd;string">Initial newborn screening process is newborn screening process usually performed soon after the baby has been born, or between 48 and 72 hours of post birth and prior the newborn discharge from the hospital.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">initial NBS</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">first NBS</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">first newborn screen</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">initial newborn screen</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Following the recommendations given by The US Secretary of Health and Human Services&apos; Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children, blood specimen should be collected after after 24 hours post birth, but as close to discharge as possible.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>  
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>      
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
         
+        
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2514922 -->  <!-- repeated newborn screening process  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2514922">
+        <rdfs:label rdf:datatype="&xsd;string">repeated newborn screening process</rdfs:label>  
+        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9436244"/ -->  <!-- newborn screening process --> 
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9436244"/>  <!-- newborn screening process -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000062"/> <!-- BFO-OBI:is preceded by -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5205203"/>  <!-- initial newborn screening process -->
+                    </owl:Restriction> 
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition rdf:datatape="&xsd;string">Repeated newborn screening process is a newborn screening process performed usually several days after the birth in the cases when the result of the initial newborn screening is not conclusive or there exists other reason for screening repetition (e.g. dried blood specimen destroyed and or invalid with respect to medical laboratory specimen specifications).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>  
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>      
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     	<owl:disjointWith rdf:reource="&ONSTR;ONSTR_5205203"/> <!-- initial newborn screening -->
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1331876 -->  <!-- second newborn screening process  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1331876">
+        <rdfs:label rdf:datatype="&xsd;string">second newborn screening process</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2514922"/>  <!-- repeated newborn screening process -->
+        <skos:definition rdf:datatape="&xsd;string">Second newborn screening process is a repeated newborn screening process including the repeating of some of the screening processes previously performed during the initial newborn screening process (e.g. dried blood spot specimen creation, hearing screening).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">second NBS</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">second screen</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Routine repeat screening of all newborns is required in eight States, and several others strongly suggest second screening.  There are specific circumstances (e.g., unsatisfactory specimens, acutely ill newborns in the NICU) under which repeat screening is commonly required. Because of the possibility of biologic false-positives, 29 States recommend/require a second specimen if tested prior to 24 hours of age and 7 States require a second specimen if the newborn is tested before 48 hours of age.  False-positives for congenital hypothyroidism and congenital adrenal hyperplasia are common in premature infants but can be dealt with through retesting when the infants are a few days older and their endocrine systems are more mature. [Source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>  
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0337384 -->  <!-- third newborn screening process  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0337384">
+        <rdfs:label rdf:datatype="&xsd;string">third newborn screening process</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2514922"/>  <!-- repeated newborn screening process -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9436244"/>  <!-- newborn screening process -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000062"/> <!-- BFO-OBI:is preceded by -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1331876"/>  <!-- second newborn screening process -->
+                    </owl:Restriction> 
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition rdf:datatape="&xsd;string">Third newborn screening process is a repeated newborn screening process including the repeating of some of the screening tests previously performed during the second newborn screening process and is contigent on the outcome of the results of the second newborn screening.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">third NBS</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">third screen</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+       
    
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7271477 -->  <!-- second-tier newborn screening test  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7271477">
         <rdfs:label rdf:datatype="&xsd;string">second-tier newborn screening test</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/>  <!-- newborn screening system process -->  
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_7308488"/> <!-- newborn screening system process -->
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="&ONSTR;ONSTR_2514922"/>  <!-- repeated newborn screening process -->
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000062"/>  <!-- BFO-OBI:is preceded by -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5205203"/>  <!-- initial newborn screening process -->
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatape="&xsd;string">Second-tier newborn screening test is a newborn screening system process commonly performed on the dried blood spot specimen collected during the initial newborn screening for the purposes of performing of additional test or tests following the previously positive initial screening result.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Almost all states in the U.S. use second-tire screening for congenital hypothyroidism (CH) and test for thyroxine (T4) or thyroid stimulating hormone (TSH). [Source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf ]</rdfs:comment>    
@@ -24338,6 +24432,20 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0773490">
         <rdfs:label rdf:datatype="&xsd;string">third-tier newborn screening test</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/>  <!-- newborn screening system process --> 
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_7308488"/> <!-- newborn screening system process -->
+                    <owl:Class>
+                        <owl:complementOf rdf:resource="&ONSTR;ONSTR_2514922"/>  <!-- repeated newborn screening process -->
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000062"/>  <!-- BFO-OBI:is preceded by -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7271477"/>  <!-- second-tier newborn screening test -->
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatape="&xsd;string">Third-tier newborn screening test is a newborn screening system process commonly performed on the dried blood spot specimen collected during the initial newborn screening for the purposes of performing additional test or tests following the previously positive positive second-tier test result.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Second- and third-tier tests are commonly done on the original dried blood spot specimen (collected during the initial newborn screening) and are to be distinguished from the repeated newborn screening testing that involves retesting on the original specimen performed by the screening laboratory, or second screening tests that require a fresh specimen (obtained during the repeated newborn screening). [Source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf ]</rdfs:comment>              
