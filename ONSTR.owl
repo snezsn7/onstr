@@ -24290,6 +24290,14 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7308488">
         <rdfs:label rdf:datatype="&xsd;string">newborn screening system process</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- obi:planned process -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0000011"/>  <!-- obi:planned process -->
+                    <rdf:Description rdf:about="&obo;OGMS_0000096"/>  <!-- ogms:health care process -->
+                 </owl:intersectionOf>
+            </owl:Class>
+    	 </owl:equivalentClass>
         <skos:definition rdf:datatape="&xsd;string">Newborn screening system process is a planned process that is a collection of more or less time ordered health care processes involving multiple kinds of professionals and institutions with a general goal of identifying newborns with heritable disorders and providing them the best possible (often life long) medical care.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Need better NL def.</rdfs:comment>
@@ -24363,7 +24371,35 @@ people infected, then extract parasite which are then tested = observation study
     <!--  				     -->
 
 
-    <!--  IMPORTED OBJECT PROPERTIES -->    
+    <!--  IMPORTED OBJECT PROPERTIES -->  
+    
+ 
+ <!-- ******************************************************************** -->   
+ <!-- BFO OBJECT PROPERTIES NOT YET IN BFO2 IMPORTED FROM OBI v2012-07-01 !!!!   -->
+ <!-- DOMAINS AND RANGES ADDAPTED TO THE BFO IRI Refs APPEARING IN BFOR2 VGRAZ -->   
+ <!-- WILL BE REMOVED LATER -->
+ 
+   <!-- http://purl.obolibrary.org/obo/BFO_0000063 -->  <!-- precedes -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000063">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">precedes</rdfs:label>
+        <rdfs:range rdf:resource="&obo;BFO_0000015"/> <!-- bfo2:process --> 
+        <rdfs:domain rdf:resource="&obo;BFO_0000015"/> <!-- bfo2:process -->
+        <owl:inverseOf rdf:resource="&obo;BFO_0000062"/>  <!-- is precedced by -->
+    </owl:ObjectProperty>
+    
+    
+   <!-- http://purl.obolibrary.org/obo/BFO_0000062 -->  <!-- is preceded by -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000062">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">is preceded by</rdfs:label>
+    </owl:ObjectProperty>
+ 
+ <!-- END BFO OBJECT PROERTIED IMPORTED FROM OBI v2012-07-01 !!!! -->
+ <!-- ************************************************************ -->
+ 
  
  <!-- OBO_REL/RO/OBI/IAO rel imports -->
          
@@ -24557,6 +24593,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 
     <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_1111111">
         <rdfs:label rdf:datatype="&xsd;string">has specified input</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000167"/> <!-- bfo2fixed:has participant at all times -->  
         <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process where a continuant is an input to a given planned proces.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
         <rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
@@ -24566,9 +24603,9 @@ We have had a long discussion about denotes versus describes.</skos:definition>
             		<rdf:Description rdf:about="&obo;BFO_0000031"/>  <!-- GDC -->
             		<owl:Class>
                 		<owl:intersectionOf rdf:parseType="Collection">
-                    		<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/> <!-- BFO2:independent continuant -->
+                    		<rdf:Description rdf:about="&obo;BFO_0000004"/> <!-- BFO2:independent continuant -->
                     			<owl:Class>
-                        			<owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>  <!-- BFO2:spatial region -->
+                        			<owl:complementOf rdf:resource="&obo;BFO_0000006"/>  <!-- BFO2:spatial region -->
                     			</owl:Class>
                     	</owl:intersectionOf>		
                   </owl:Class>
@@ -24583,6 +24620,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 
     <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_2222222">
         <rdfs:label rdf:datatype="&xsd;string">has specified output</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000167"/> <!-- bfo2fixed:has participant at all times -->  
         <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process where a continuant is an output of a given planned proces.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
         <rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
@@ -24609,6 +24647,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 
     <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_3333333">
         <rdfs:label rdf:datatype="&xsd;string">is specified input of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000166"/> <!-- bfo2fixed:participates in at all times -->  
         <skos:definition rdf:datatype="&xsd;string">A relation between a continuant that is an input of a process and a planned process.</skos:definition>
 		<skos:editorialNote rdf:datatype="&xsd;string">This is the inverse relation of temporary relation has specified input (ONSTR_1111111).</skos:editorialNote>
 		<owl:inverseOf rdf:resource="&ONSTR;ONSTR_1111111"/>
@@ -24620,6 +24659,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 
     <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_4444444">
         <rdfs:label rdf:datatype="&xsd;string">is specified output of</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000166"/> <!-- bfo2fixed:participates in at all times -->  
         <skos:definition rdf:datatype="&xsd;string">A relation between a continuant that is an output of a process and a planned process.</skos:definition>
 		<skos:editorialNote rdf:datatype="&xsd;string">This is the inverse relation of temporary relation has specified input (ONSTR_2222222).</skos:editorialNote>
 		<owl:inverseOf rdf:resource="&ONSTR;ONSTR_2222222"/>
