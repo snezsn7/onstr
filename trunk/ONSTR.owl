@@ -24702,10 +24702,10 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2814848 -->  <!-- referring patient to specialist  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2814848 -->  <!-- referring a patient to a specialist  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2814848">
-        <rdfs:label rdf:datatype="&xsd;string">referring patient to specialist</rdfs:label>  
+        <rdfs:label rdf:datatype="&xsd;string">referring a patient to a specialist</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
@@ -24713,6 +24713,128 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5618701 -->  <!-- inheritable disorder specific confirmatory test  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5618701">
+        <rdfs:label rdf:datatype="&xsd;string">inheritable disorder specific confirmatory test</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/> <!-- assay -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8235099 -->  <!-- long-term follow-up interval visit  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8235099">
+        <rdfs:label rdf:datatype="&xsd;string">long-term follow-up interval visit</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+        <!-- cros with health care encounter ogms_0000097 ??? and/or health care process ogms:0000096  -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5951138 -->  <!-- nutrition care process  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5951138">
+        <rdfs:label rdf:datatype="&xsd;string">nutrition care process</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+        <!-- cross with health care process ogms:0000096  -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5904651 -->  <!-- nutrition assessment  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5904651">
+        <rdfs:label rdf:datatype="&xsd;string">nutrition assessment</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0600003"/>  <!-- performing clinical assessment  -->
+        <!-- cross with health care process ogms:0000096  -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">nutrition status assessment</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3420637 -->  <!-- nutrition item intake assessment  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3420637">
+        <rdfs:label rdf:datatype="&xsd;string">nutritional item intake assessment</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0600003"/>  <!-- performing clinical assessment  -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">dietary assessment</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8297986 -->  <!-- nutritional item intake data entry  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8297986">
+        <rdfs:label rdf:datatype="&xsd;string">nutritional item intake data entry</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;ERO_0000721"/>  <!-- ero:data entry -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3671318 -->  <!-- patient metabolic control assessment  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3671318">
+        <rdfs:label rdf:datatype="&xsd;string">patient metabolic control assessment</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0600003"/>  <!-- performing clinical assessment  -->
+        <!-- cross with health care process ogms:0000096  -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+
+
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1188589 -->  <!-- treatment initiation  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1188589">
+        <rdfs:label rdf:datatype="&xsd;string">treatment initiation</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+        <!-- cross with health care process ogms:0000096  -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1614275 -->  <!-- nutrition intervention  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1614275">
+        <rdfs:label rdf:datatype="&xsd;string">nutrition intervention</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+        <!-- cross with health care process ogms:0000096  -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9220172 -->  <!-- nutrition monitoring  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9220172">
+        <rdfs:label rdf:datatype="&xsd;string">nutrition monitoring</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+        <!-- cross with health care process ogms:0000096  --> 
+         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+     
+
 
 
      
