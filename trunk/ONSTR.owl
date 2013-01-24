@@ -24635,6 +24635,85 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class> 
      
      
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9766040 -->  <!-- identifying patient with positive dried blood spot screening test result  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9766040">
+        <rdfs:label rdf:datatype="&xsd;string">identifying patient with positive newborn dried blood spot screening test result</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">identifying patient with positive newborn dried blood spot screen</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2926732 -->  <!-- locating patient with positive dried blood spot screening test result  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2926732">
+        <rdfs:label rdf:datatype="&xsd;string">locating patient with positive newborn dried blood spot screening test result</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source:  ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4150627 -->  <!-- reporting positive dried blood spot screening test result  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4150627">
+        <rdfs:label rdf:datatype="&xsd;string">reporting positive newborn dried blood spot screening test result</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6598460 -->  <!-- recommending disorder specific confirmatory test  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6598460">
+        <rdfs:label rdf:datatype="&xsd;string">recommending disorder specific confirmatory test</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4461320 -->  <!-- ordering disorder specific confirmatory test  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4461320">
+        <rdfs:label rdf:datatype="&xsd;string">ordering disorder specific confirmatory test</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3767785 -->  <!-- evaluating patient for disorder specific signs and symptoms  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3767785">
+        <rdfs:label rdf:datatype="&xsd;string">evaluating patient for disorder specific signs and symptoms</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2814848 -->  <!-- referring patient to specialist  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2814848">
+        <rdfs:label rdf:datatype="&xsd;string">referring patient to specialist</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+
 
      
      
