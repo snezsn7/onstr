@@ -1455,7 +1455,7 @@ people infected, then extract parasite which are then tested = observation study
        <rdfs:label rdf:datatype="&xsd;string">material component separation</rdfs:label> 
        <rdfs:subClassOf rdf:resource="&obo;OBI_0000094"/>
        <skos:definition rdf:datatype="&xsd;string">A material processing in which components of an input material become segregated in space.</skos:definition>
-       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1465,7 +1465,7 @@ people infected, then extract parasite which are then tested = observation study
        <rdfs:label rdf:datatype="&xsd;string">electrophoresis</rdfs:label> 
        <rdfs:subClassOf rdf:resource="&obo;OBI_0600014"/>
        <skos:definition rdf:datatype="&xsd;string">A protocol application that uses an electrical potential to move material through a defined matrix in order to separate it by its resistance to movement and its charge.</skos:definition>
-       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI).</skos:editorialNote>
      </owl:Class>
      
    
@@ -1475,7 +1475,7 @@ people infected, then extract parasite which are then tested = observation study
        <rdfs:label rdf:datatype="&xsd;string">preparative chromatography</rdfs:label> 
        <rdfs:subClassOf rdf:resource="&obo;OBI_0600014"/>  
        <skos:definition rdf:datatype="&xsd;string">The use of a biomaterial&#39;s preferential affinity for either the mobile phase or the stationary phase to separate it from other materials of differing affinity.</skos:definition>
-       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI).</skos:editorialNote>
      </owl:Class>
      
        
@@ -1485,7 +1485,7 @@ people infected, then extract parasite which are then tested = observation study
        <rdfs:label rdf:datatype="&xsd;string">postal address</rdfs:label>
        <rdfs:subClassOf rdf:resource="&obo;IAO_0000300"/>  <!-- textual ent -->
        <skos:definition rdf:datatype="&xsd;string">A textual entity that is used as directive to deliver something to a person, or organization.</skos:definition>
-       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Information Artifact Ontology (IAO).</skos:editorialNote>
      </owl:Class>
      
      
@@ -1506,7 +1506,7 @@ people infected, then extract parasite which are then tested = observation study
        <rdfs:label rdf:datatype="&xsd;string">CRID</rdfs:label>
        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/> <!-- information content entity -->
        <skos:definition rdf:datatape="&xsd;string">An information content entity that consists of a CRID symbol and additional information about which CRID registry it belongs.</skos:definition>
-       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Information Artifact Ontology (IAO)</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Information Artifact Ontology (IAO).</skos:editorialNote>
     </owl:Class>
      
      
@@ -1560,6 +1560,14 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
+  <!-- http://purl.obolibrary.org/obo/OBI_0000338 -->   <!-- interpreting data -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000338">
+        <rdfs:label rdf:datatype="&xsd;string">interpreting data</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+        <skos:definition rdf:datatape="&xsd;string">The process of evaluating the data gathered in an investigation in the context of literature knowledge with the objective to generate more general conclusions or to identify what additional data is necessary to draw conclusions.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI).</skos:editorialNote>
+    </owl:Class>
      
     
 <!-- END OBI/IAO IMPORTS --> 
@@ -1752,12 +1760,19 @@ people infected, then extract parasite which are then tested = observation study
        <skos:altLabel rdf:datatype="&xsd;string">ICP-MS</skos:altLabel>
        <skos:altLabel rdf:datatype="&xsd;string">ICP/MS</skos:altLabel>
        <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
-       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Eagle-i Research Resource Ontology (ERO)</skos:editorialNote>
    </owl:Class>
      
-     
-     
-     
+    
+  <!-- http://purl.obolibrary.org/obo/ERO_0000721 -->  <!-- data entry -->
+
+    <owl:Class rdf:about="&obo;ERO_0000721">
+       <rdfs:label rdf:datatype="&xsd;string">data entry</rdfs:label> 
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>  <!-- data transformation -->
+       <skos:definition rdf:datatape="&xsd;string">A data transformation technique that involves transcribing some form of data into another form, usally a computer program.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Note: This class may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Eagle-i Research Resource Ontology (ERO).</skos:editorialNote>
+   </owl:Class>
      
      
 <!-- END ERO IMPORTS -->   
@@ -23787,6 +23802,9 @@ people infected, then extract parasite which are then tested = observation study
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000027"/>  <!-- data item -->
+                    	<owl:Class>
+                    		<owl:complementOf rdf:resource="&ONSTR;ONSTR_9545140"/> <!-- consumed nutritional item datum -->
+                    	</owl:Class>
                      <owl:Restriction>
                       	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
                       	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5692828"/> <!-- nutritional item -->
@@ -24213,6 +24231,9 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+<!-- START NBSSys pocesses -->
+ 
 
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0692868 -->  <!-- hearing assay  -->
 
@@ -24353,10 +24374,10 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
 
 
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7308488 -->  <!-- newborn screening system process  -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7308488 -->  <!-- newborn screening follow-up system process  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7308488">
-        <rdfs:label rdf:datatype="&xsd;string">newborn screening system process</rdfs:label>  
+        <rdfs:label rdf:datatype="&xsd;string">newborn screening follow-up system process</rdfs:label>  
         <!-- rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/ -->  <!-- obi:planned process -->
         <owl:equivalentClass>
             <owl:Class>
@@ -24366,7 +24387,10 @@ people infected, then extract parasite which are then tested = observation study
                  </owl:intersectionOf>
             </owl:Class>
     	 </owl:equivalentClass>
-        <skos:definition rdf:datatape="&xsd;string">Newborn screening system process is a planned process that is a collection of more or less time ordered health care processes involving multiple kinds of professionals and institutions with a general goal of identifying newborns with heritable and congenital disorders and providing them the best possible (often life long) medical care.</skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening follow-up system process is a planned process that is a collection of more or less time ordered health care processes involving multiple kinds of professionals and institutions with a general goal of identifying newborns with heritable and congenital disorders and providing them the best possible (often life long) medical care.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">newborn screening system process</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">NBS follow-up system</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">NBS follow-up</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Need better NL def.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -24378,7 +24402,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9436244">
         <rdfs:label rdf:datatype="&xsd;string">newborn screening process</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/>  <!-- newborn screening system process --> 
-        <skos:definition rdf:datatape="&xsd;string">Newborn screening process is a planned process that is the aggregate of health care processes unfolding immediately or shortly after birth (e.g. heel-prick blood specimen collection, pulse oximetry, hearing screening tests etc.)</skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening process is a newborn screening follow-up system process that is the aggregate of health care processes unfolding immediately or shortly after birth (e.g. heel-prick blood specimen collection, pulse oximetry, hearing screening tests etc.)</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Hinman,A.R., Mann,Y.M., Singh,H.R. (2009) Newborn dried bloodspot screening: mapping the clinical and public health components and activities. Genetics in Medicine, Vol.11, No. 6, June 2009.</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">In the U.S. the process of newborn screening across states and NBS programs is not yet fully harmonized and standardized and the set and the sequence of NBS sub-processes may vary considerably.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">NBS process</skos:altLabel>
@@ -24475,7 +24499,7 @@ people infected, then extract parasite which are then tested = observation study
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_7308488"/> <!-- newborn screening system process -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_7308488"/> <!-- newborn screening follow-up system process -->
                     <owl:Class>
                     	<owl:complementOf>
                             <owl:Class>
@@ -24493,7 +24517,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatape="&xsd;string">Second-tier newborn  dried blood spot screening test is a newborn screening system process commonly performed on the dried blood spot specimen collected during the initial newborn screening for the purposes of performing of additional test or tests following the previously positive initial screening result.</skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Second-tier newborn dried blood spot screening test is a newborn screening follow-up system process commonly performed on the dried blood spot specimen collected during the initial newborn screening for the purposes of performing of additional test or tests following the previously positive initial screening result.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Almost all states in the U.S. use second-tire screening for congenital hypothyroidism (CH) and test for thyroxine (T4) or thyroid stimulating hormone (TSH). [Source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf ]</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Some newborn screening programs use a second-tier fluorometric test following an initial bacterial inhibition assay for phenylketonuria (PKU). [Source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf ]</rdfs:comment>  
@@ -24529,8 +24553,8 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatape="&xsd;string">Third-tier newborn  dried blood spot screening test is a newborn screening system process commonly performed on the dried blood spot specimen collected during the initial newborn screening for the purposes of performing additional test or tests following the previously positive positive second-tier test result.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Third-tier newborn  dried blood spot screening test is a newborn screening follow-up system process commonly performed on the dried blood spot specimen collected during the initial newborn screening for the purposes of performing additional test or tests following the previously positive positive second-tier test result.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services&apos; Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Second- and third-tier tests are commonly done on the original dried blood spot specimen (collected during the initial newborn screening) and are to be distinguished from the repeated newborn screening testing that involves retesting on the original specimen performed by the screening laboratory, or second screening tests that require a fresh specimen (obtained during the repeated newborn screening). [Source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf ]</rdfs:comment>              
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -24541,8 +24565,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4969498">
         <rdfs:label rdf:datatype="&xsd;string">newborn dried blood spot screening retest</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9436244"/> <!-- newborn screening process -->
-        <skos:definition rdf:datatape="&xsd;string">Newborn dried blood spot screening retest is a newborn screening system process performed by the medical laboratory on the dried blood spot of the original specimen (i.e. the original five dried blood spots) collected during initial newborn screening process for the purposes of confirming preliminary positive result but before reporting the positive result back to the involved newborn screening program.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Newborn dried blood spot screening retest is a newborn screening follow-up system process performed by the medical laboratory on the dried blood spot of the original specimen (i.e. the original five dried blood spots) collected during initial newborn screening process for the purposes of confirming preliminary positive result but before reporting the positive result back to the involved newborn screening program.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services&apos; Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Newborn screening retesting on the original dried blood spot specimen collected during initial newborn screening process should be distinguished from the second- and third-tier testing, and also from the repeated screening test, in the sense that for the purposes of retesting the same test is performed on the same dried blood spot specimen collected for the initial test, while for the second- and third-tier testing different test is done on the dried blood spot specimen collected for the initial test. For the purposes of repeated screening test, a new dried blood spot specimen is created and the same test that has been done on the specimen collected during the initial screening is repeated on the newly provided specimen. [Source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf ]s</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
@@ -24553,14 +24577,47 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8450180">
         <rdfs:label rdf:datatype="&xsd;string">newborn screening short-term follow-up process</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/> <!-- newborn system screening process -->
-        <skos:definition rdf:datatape="&xsd;string">Newborn screening short-term follow-up process is a newborn screening system process that includes activities that ensure that all infants are screened (repeated screen, as well as second and third tier testing completed), abnormal screen results appropriately and expediently reported to all interested parties (family or child caregiver, primary care physician etc.), affected infants promptly identified and located, appropriately referred and treatment initiated where needed and applicable.</skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening short-term follow-up process is a newborn screening follow-up system process that includes activities that ensure that all infants are screened (repeated screen, as well as second and third tier testing completed), abnormal screen results appropriately and expediently reported to all interested parties (family or child caregiver, primary care physician etc.), affected infants promptly identified and located, appropriately referred and treatment initiated where needed and applicable.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">SFTU</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">SFTU process</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">NBS-SFTU</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">NBS SFTU</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services&apos; Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
+     
+ 
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9018721 -->  <!-- newborn screening short-term follow-up process  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9018721">
+        <rdfs:label rdf:datatype="&xsd;string">interpreting newborn dried blood spot screening test result</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000338"/> <!-- interpreting data -->    
+        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7890764 -->  <!-- performing disorder confirmatory diagnosis  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7890764">
+        <rdfs:label rdf:datatype="&xsd;string">performing disorder confirmatory diagnosis</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000988"/> <!-- performing a diagnosis -->  
+        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0848622 -->  <!-- performing nutrition diagnosis  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0848622">
+        <rdfs:label rdf:datatype="&xsd;string">performing nutrition diagnosis</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000988"/> <!-- performing a diagnosis -->  
+        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8433787 -->  <!-- newborn screening long-term follow-up process  -->
@@ -24568,23 +24625,28 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8433787">
         <rdfs:label rdf:datatype="&xsd;string">newborn screening long-term follow-up process</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/> <!-- newborn system screening process -->
-        <skos:definition rdf:datatape="&xsd;string">Newborn screening long-term follow-up process is a newborn screening system process that includes providing long-term condition-specific personalized treatment and disorder management, age-appropriate preventive care, continuous treatment quality improvement, engagement of affected individuals and their families as effective partners in care management etc.</skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening long-term follow-up process is a newborn screening follow-up system process that includes providing long-term condition-specific personalized treatment and disorder management, age-appropriate preventive care, continuous treatment quality improvement, engagement of affected individuals and their families as effective partners in care management etc.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">LFTU</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">LFTU process</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">NBS-LFTU</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">NBS LFTU</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services&apos; Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
      
      
+
+     
+     
+ <!-- END NBSSys pocesses -->   
+     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0352832 -->  <!-- newborn screening system process objective  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0352832">
-        <rdfs:label rdf:datatype="&xsd;string">newborn screening system process objective</rdfs:label> 
+        <rdfs:label rdf:datatype="&xsd;string">newborn screening follow-up system process objective</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000005"/> <!-- objective specification -->
         <skos:definition rdf:datatape="&xsd;string">Newborn screening system process objective is an objective specification to ensure the prompt identification of and provide best possible treatment for the newborns with inheritable and congenital disorders.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services' Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: The US Secretary of Health and Human Services&apos; Advisory Committee on Heritable Disorders and genetic Diseases in Newborns and Children.(2011) Newborn Screening: Toward A Uniform Screening Panel and System. Retrieved on 01/07/2013, from http://www.hrsa.gov/advisorycommittees/mchbadvisory/heritabledisorders/uniformscreening.pdf</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
      
@@ -24836,6 +24898,8 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
     </owl:Class>
     
+
+ 
     
 
 
