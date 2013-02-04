@@ -9218,51 +9218,91 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3215569 --> <!-- age at follow-up visit measurement datum -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_3215569">
-        <rdfs:label rdf:datatype="&xsd;string">age at follow-up visit measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>
-        <skos:definition rdf:datatype="&xsd;string">Age at follow-up visit measurement datum is age since birth measurement datum that is the result of measurement of the amount of time a human patient has been living until the day of follow-up visit during which the age measurement is been performed.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
-    </owl:Class>
-    
-    
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6203442 --> <!-- age at first heel-prick blood sampling measurement datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6203442 --> <!-- age at initial newborn screening dried blood spot specimen collection measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6203442">
-        <rdfs:label rdf:datatype="&xsd;string">age at first heel-prick blood sampling measurement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">age at initial newborn screening dried blood spot specimen collection measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>
-        <skos:definition rdf:datatype="&xsd;string">Age at first heal-prick blood sampling measurement datum is age since birth measurement datum that is the result of measurement of time elapsed from birth of a neonate until the first heel-prick blood specimen collecting is been performed.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Age at initial newborn screening dried blood spot specimen collection measurement datum is age since birth measurement datum that is the result of measurement of time elapsed from birth of a neonate until the the instant of dried blood spot specimen collection during the initial newborn screening.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">age at initial DBS collection</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3735018 --> <!-- age at repeated heel-prick blood sampling measurement datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3735018 --> <!-- age at repeated newborn dried blood spot specimen collection measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3735018">
-        <rdfs:label rdf:datatype="&xsd;string">age at repeated heel-prick blood sampling measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>
-        <skos:definition rdf:datatype="&xsd;string">Age at repeated heal-prick blood sampling measurement datum is age since birth measurement datum that is the result of measurement of time elapsed from birth of the neonate until the instant when the state specific repeated heel-prick blood specimen collecting is been performed.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">age at repeated newborn screening dried blood spot specimen collection measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>  <!-- time measurement datum -->
+        <skos:definition rdf:datatype="&xsd;string">Age at repeated newborn screening dried blood spot specimen collection measurement datum is age since birth measurement datum that is the result of measurement of time elapsed from birth of the neonate until the instant of repeated newborn screening dried blood spot specimen collection.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">age at repeated DBS collection</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4832670 --> <!-- age at second newborn dried blood spot specimen collection measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4832670">
+        <rdfs:label rdf:datatype="&xsd;string">age at second newborn dried blood spot specimen collection measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3735018"/>  <!-- age at repeated heel-prick blood sampling measurement datum -->
+        <skos:definition rdf:datatape="&xsd;string">Age at second newborn screening dried blood spot specimen collection measurement datum is age at repeated newborn screening dried blood spot collection measurement datum that is the result of measurement of time elapsed from birth of the neonate until the instant of the second newborn screening dried blood spot specimen collection.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">age at second DBS collection</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8084788 --> <!-- age at third newborn dried blood spot specimen collection measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8084788">
+        <rdfs:label rdf:datatype="&xsd;string">age at third newborn dried blood spot specimen collection measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3735018"/>  <!-- age at repeated heel-prick blood sampling measurement datum -->
+        <skos:definition rdf:datatape="&xsd;string">Age at third newborn screening dried blood spot specimen collection measurement datum is age repeated newborn screening dried blood spot collection measurement datum that is the result of measurement of time elapsed from birth of the neonate until the instant of the second newborn screening dried blood spot specimen collection.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">age at third DBS collection</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8327411 --> <!-- age at confirmatory testing blood specimen collection -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8327411">
+        <rdfs:label rdf:datatype="&xsd;string">age at confirmatory testing blood specimen collection</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>  <!-- time measurement datum -->
+        <skos:definition rdf:datatape="&xsd;string">Age at confirmatory testing blood specimen collection measurement datum is age since birth measurement datum that is the result of measurement of time elapsed from birth of the neonate until the instant when a portion of neonate blood is drawn for the purpose of using it in the inherited metabolic disorder specific confirmatory laboratory assays.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">age at confirmatory testing</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3215569 --> <!-- age agt follow-up interval visit measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3215569">
+        <rdfs:label rdf:datatype="&xsd;string">age at follow-up interval visit measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>
+        <skos:definition rdf:datatype="&xsd;string">Age at follow-up visit measurement datum is age since birth measurement datum that is the result of measurement of the amount of time a human patient has been living until the day of follow-up visit during which the age measurement is been performed.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">age at follow-up visit</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
     
     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5773210 --> <!-- phenotypic sex datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5773210">
         <rdfs:label rdf:datatype="&xsd;string">phenotypic sex datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/ -->
+    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/ -->  <!-- data item -->
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;IAO_0000027"/>
+                    <rdf:Description rdf:about="&obo;IAO_0000027"/>  <!-- data item -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="&PATO;PATO_0001894"/>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
+                        <owl:someValuesFrom rdf:resource="&PATO;PATO_0001894"/>  <!-- phenotypic sex -->
                     </owl:Restriction>   
                 </owl:intersectionOf>
             </owl:Class>
@@ -23703,30 +23743,30 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9545140 -->  <!-- consumed nutritional item datum  -->
     <owl:Class rdf:about="&ONSTR;ONSTR_9545140">
         <rdfs:label rdf:datatype="&xsd;string">consumed nutritional item datum</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/ --> <!-- IAO:data item -->
-        <owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/> <!-- IAO:data item -->
+        <!-- owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;IAO_0000027"/>  <!-- data item -->
+                    <rdf:Description rdf:about="&obo;IAO_0000027"/>  <! data item >
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specif output of -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5288942"/>  <!-- nutritional item intake recording -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <! is specif output of >
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5288942"/>  <! nutritional item intake recording >
                     </owl:Restriction>
                      <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000137"/>  <!-- proper part of cont at all times -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6358913"/> <!-- nutritional item intake record -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000137"/>  <! proper part of cont at all times >
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6358913"/> <! nutritional item intake record >
                     </owl:Restriction>
                      <owl:Restriction>
-                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
-                      	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5692828"/> <!-- nutritional item -->
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <! is about>
+                      	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5692828"/> <! nutritional item >
                      </owl:Restriction>  
                      <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3333333"/> <!-- is specif input of -->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6867187"/> <!-- dietary intake analysis-->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3333333"/> <! is specif input of >
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6867187"/> <! dietary intake analysis >
                     </owl:Restriction> 
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
+        </owl:equivalentClass -->
         <skos:definition rdf:datatype="&xsd;string">Consumed nutritional item datum is a data item providing the information about the kinds and quantities of nutritional items consumed by a human patient during the time interval relevant for dietary analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -23796,22 +23836,22 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8256836">
         <rdfs:label rdf:datatype="&xsd;string">prescribed nutritional item datum</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/ --> <!-- IAO:data item, for now!!! maybe scalar later -->
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/> <!-- IAO:data item, for now!!! maybe scalar later -->
         <!-- NEED TO ADD MORE LOG DESCR is specif output, is part of... -->
-        <owl:equivalentClass>
+        <!-- owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;IAO_0000027"/>  <!-- data item -->
+                    <rdf:Description rdf:about="&obo;IAO_0000027"/>  <! data item >
                     	<owl:Class>
-                    		<owl:complementOf rdf:resource="&ONSTR;ONSTR_9545140"/> <!-- consumed nutritional item datum -->
+                    		<owl:complementOf rdf:resource="&ONSTR;ONSTR_9545140"/> <! consumed nutritional item datum >
                     	</owl:Class>
                      <owl:Restriction>
-                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
-                      	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5692828"/> <!-- nutritional item -->
+                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <! is about >
+                      	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5692828"/> <! nutritional item >
                      </owl:Restriction>
                  </owl:intersectionOf>
            </owl:Class>
-        </owl:equivalentClass>
+        </owl:equivalentClass -->
         <skos:definition rdf:datatype="&xsd;string">Prescribed nutritional item datum is a data item that provides the information about the kinds and quantities of nutritional items prescribed by a dietitian (or a physician) to be consumed by a human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -24402,7 +24442,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9436244">
         <rdfs:label rdf:datatype="&xsd;string">newborn screening process</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/>  <!-- newborn screening system process --> 
-        <skos:definition rdf:datatape="&xsd;string">Newborn screening process is a newborn screening follow-up system process that is the aggregate of health care processes unfolding immediately or shortly after birth (e.g. heel-prick blood specimen collection, pulse oximetry, hearing screening tests etc.)</skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening process is a newborn screening follow-up system process that is the aggregate of health care processes generally unfolding immediately or shortly after birth (initial screening) or within first week or two weeks of infant&apos; life (repeated screening).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Hinman,A.R., Mann,Y.M., Singh,H.R. (2009) Newborn dried bloodspot screening: mapping the clinical and public health components and activities. Genetics in Medicine, Vol.11, No. 6, June 2009.</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">In the U.S. the process of newborn screening across states and NBS programs is not yet fully harmonized and standardized and the set and the sequence of NBS sub-processes may vary considerably.</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">NBS process</skos:altLabel>
@@ -24830,14 +24870,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-     
-     
-     
-     
-
-
-
-     
+         
      
  <!-- END NBSSys pocesses -->   
      
@@ -25100,8 +25133,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
 
- 
-    
+
 
 
 <!-- NOVO OVDE -->
