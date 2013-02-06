@@ -1469,12 +1469,22 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://purl.obolibrary.org/obo/OBI_0000094 -->  <!-- elution  -->
+    <!-- http://purl.obolibrary.org/obo/OBI_0302905 -->  <!-- elution  -->
 
-    <owl:Class rdf:about="&obo;OBI_0000094">
+    <owl:Class rdf:about="&obo;OBI_0302905">
        <rdfs:label rdf:datatype="&xsd;string">elution</rdfs:label>
        <rdfs:subClassOf rdf:resource="&obo;OBI_0000094"/>   <!-- material processing  -->
        <skos:definition rdf:datatape="&xsd;string">the process of extracting one material from another by washing with a solvent to remove adsorbed material from an adsorbent (as in washing of loaded ion-exchange resins to remove captured ions)</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+     </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OBI_0000318 -->  <!-- eluate  -->
+
+    <owl:Class rdf:about="&obo;OBI_0000318">
+       <rdfs:label rdf:datatype="&xsd;string">eluate</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0000047"/> <!-- processed material --> 
+       <skos:definition rdf:datatape="&xsd;string">an eluate is a material entity which results from an elution, e.g. from a chromatography column. it has as part a material entity with role mobile phase</skos:definition>
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
      </owl:Class>
     
@@ -1499,10 +1509,10 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
     
-    <!-- http://purl.obolibrary.org/obo/OBI_0600007 -->  <!-- >administering substance in vivo  -->
+    <!-- http://purl.obolibrary.org/obo/OBI_0600007 -->  <!-- administering substance in vivo  -->
 
     <owl:Class rdf:about="&obo;OBI_0600007">
-       <rdfs:label rdf:datatype="&xsd;string">>administering substance in vivo</rdfs:label>
+       <rdfs:label rdf:datatype="&xsd;string">administering substance in vivo</rdfs:label>
        <rdfs:subClassOf rdf:resource="&obo;OBI_0000274"/> <!-- adding a material entity into a target  --> 
        <skos:definition rdf:datatape="&xsd;string">A process by which a substance is intentionally given to an organism.</skos:definition>
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
@@ -9596,12 +9606,12 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5646467 --> <!-- head circumference at physical examination measurement datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5646467 --> <!-- head circumference at long-term  physical examination measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5646467">
-        <rdfs:label rdf:datatype="&xsd;string">head circumference at follow-up visit measurement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">head circumference at long-term follow-up visit measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2150908"/>
-        <skos:definition rdf:datatype="&xsd;string">Head circumference at follow-up visit measurement datum is a head circumference measurement datum that is the result of the head circumference measurement assay during physical examination at each scheduled patient follow-up visit.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Head circumference at long-term  follow-up visit measurement datum is a head circumference measurement datum that is the result of the head circumference measurement assay during physical examination at each scheduled patient follow-up visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -9659,12 +9669,12 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7469225 --> <!-- body mass at follow-up visit measurement datum -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7469225 --> <!-- body mass at long-term follow-up visit measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7469225">
-        <rdfs:label rdf:datatype="&xsd;string">body mass at follow-up visit measurement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">body mass at long-term follow-up visit measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8762724"/>
-        <skos:definition rdf:datatype="&xsd;string">Body mass at follow-up visit measurement datum is body mass measurement datum that is the result of mass measurement assay of human body height performed during physical examination at each scheduled patient follow-up visit.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Body mass at long-term follow-up visit measurement datum is body mass measurement datum that is the result of mass measurement assay of human body height performed during physical examination at each scheduled patient follow-up visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -9725,12 +9735,12 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0477465 --> <!-- body height at physical examination measurement datum -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0477465 --> <!-- body height long-term follow-up visit measurement datum measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0477465">
-        <rdfs:label rdf:datatype="&xsd;string">body height at physical examination measurement datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">body height at long-term follow-up visit measurement datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7664189"/>
-        <skos:definition rdf:datatype="&xsd;string">Body height at physical examination measurement datum is a body height measurement datum that is the result of the body height measurement assay performed during physical examination at each scheduled patient visit.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Body height long-term follow-up visit measurement datum is a body height measurement datum that is the result of the body height measurement assay performed during physical examination at each scheduled patient visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -23825,46 +23835,65 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
        
      
-     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6680350 -->  <!-- enteral administration  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6680350">
         <rdfs:label rdf:datatype="&xsd;string">enteral administration</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&obo;OBI_0600007"/> <!-- obi:administering substance in vivo -->
-    	 <owl:equivalentClass>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_3371475"/>  <!-- superclass:material ent admin into the organism -->      
+                    <rdf:Description rdf:about="&obo;OBI_0600007"/>  <!-- administering substabce in vivo -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/>  <!-- BFO2:has participant at all times -->
-                        	<owl:someValuesFrom>
-                               	<owl:Class>
-                                	<owl:intersectionOf rdf:parseType="Collection">
-                                	<rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!--Homo sapines-->
-                                    	<owl:Restriction>
-                                        	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- BFO2:has role at some time-->
-                                        	<owl:someValuesFrom rdf:resource="&obo;OMRSE_00000011"/>  <!-- patient role-->
-                                    	</owl:Restriction>
-                   					</owl:intersectionOf>
-                    			</owl:Class>
-                    	 </owl:someValuesFrom>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000055"/>  <!-- bfo2:realizes -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OBI_0000319"/>  <!-- material to be added role -->
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000081"/>  <!-- bfo2:role at all times -->
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&ONSTR;ONSTR_5692828"/>  <!-- nutritional item -->
+                                                    <owl:Class>
+                                                        <owl:complementOf rdf:resource="&ONSTR;ONSTR_7534799"/>  <!-- parenteral nutrition solution -->
+                                                    </owl:Class>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/>  <!-- BFO2:has participant at all times -->
-                        	<owl:someValuesFrom>
-                               	<owl:Class>
-                    				<owl:intersectionOf rdf:parseType="Collection">
-                    					<rdf:Description rdf:about="&ONSTR;ONSTR_5692828"/>  <!--nutritional item-->
-                    						<owl:Class>
-                    							<owl:complementOf rdf:resource="&ONSTR;ONSTR_7534799"/> <!--parenteral nutri solution-->
-                    						</owl:Class>
-                    				</owl:intersectionOf>
-                    			</owl:Class>
-                    		</owl:someValuesFrom>
-                  	</owl:Restriction>
-                  </owl:intersectionOf>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000055"/>  <!-- bfo2:realizes -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OBI_0000444"/>  <!-- target of material addition role -->
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000081"/>  <!-- bfo2:role at all times -->
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!-- Homo sapiens -->
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/>  <!-- bfo2:has role at some time -->
+                                                        <owl:someValuesFrom rdf:resource="&obo;OMRSE_00000011"/>  <!-- patient role -->
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
             </owl:Class>
-         </owl:equivalentClass>	
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Enteral administration is an administering substance in vivo where material entity (e.g.nutritional item or medication) is introduced into the organism's alimentary canal (oral cavity or gastrointestinal (GI) tract).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D004750</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Human_gastrointestinal_tract</rdfs:comment>    
@@ -23880,45 +23909,65 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1552413">
         <rdfs:label rdf:datatype="&xsd;string">parenteral administration</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&obo;OBI_0600007"/> <!-- obi:administering substance in vivo -->
-		<owl:equivalentClass>
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_3371475"/>  <!-- material ent admin into the organism -->      
+                    <rdf:Description rdf:about="&obo;OBI_0600007"/>  <!-- obi:administering substance in vivo -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/>  <!-- BFO2:has participant at all times (during which parent admin process exists) -->
-                        	<owl:someValuesFrom>
-                               	<owl:Class>
-                                	<owl:intersectionOf rdf:parseType="Collection">
-                                	<rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!--Homo sapines-->
-                                    	<owl:Restriction>
-                                        	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- BFO2:has role at some time-->
-                                        	<owl:someValuesFrom rdf:resource="&obo;OMRSE_00000011"/>  <!--patient role-->
-                                    	</owl:Restriction>
-                   					</owl:intersectionOf>
-                    			</owl:Class>
-                    	 </owl:someValuesFrom>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000055"/>  <!-- bfo2:realizes -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OBI_0000319"/>  <!-- material to be added role -->
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000081"/>  <!-- role at all times -->
+                                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7534799"/>  <!-- parenteral nutrition solution -->
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/>  <!-- BFO2:has participant at all times -->
-                        	<owl:someValuesFrom>
-                               	<owl:Class>
-                                	<owl:intersectionOf rdf:parseType="Collection">
-                                	<rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!--Homo sapines-->
-                                    	<owl:Restriction>
-                                        	<owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- BFO2:has role at some time -->
-                                        	<owl:someValuesFrom rdf:resource="&obo;OMRSE_00000012"/>  <!-- health care provider role to REPLACE BY NURSE ROLE-->
-                                    	</owl:Restriction>
-                   					</owl:intersectionOf>
-                    			</owl:Class>
-                    	 </owl:someValuesFrom>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000055"/>  <!-- bfo2:realizes -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OBI_0000444"/>  <!-- target of material addition role -->
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000081"/>  <!-- bfo2:role at all times -->
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&NCBITaxon;NCBITaxon_9606"/>  <!-- Homo sapiens -->
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- bfo2:has role at some time -->
+                                                        <owl:someValuesFrom rdf:resource="&obo;OMRSE_00000011"/> <!-- patient role -->
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/>  <!-- BFO2:has participant at all times -->
-						<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7534799"/> <!--parenteral nutri solution-->
-		           </owl:Restriction>
-		       </owl:intersectionOf>
-		   </owl:Class>
-		</owl:equivalentClass>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&obo;OMRSE_00000014"/>  <!-- nurse role -->
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000081"/>  <!-- bfo2:role at some time -->
+                                        <owl:someValuesFrom rdf:resource="&NCBITaxon;NCBITaxon_9606"/>  <!-- Homo sapiens -->
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Parenteral administration is administering substance in vivo where material entity (e.g. parenteral nutrition solution, Ringer&apos;s soluton, medication in fluid phase) is introduced into the organism intravenously, subcutanously, intramuscularly, intradermally or intrasternally.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">The route of administration, constant rate of flow required, and potential patient sensitivity to the elements administered, all contribute to the potential complications of parenteral nutrition. [Source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition ]</rdfs:comment>        
@@ -24481,8 +24530,14 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2055480">
         <rdfs:label rdf:datatype="&xsd;string">dried blood spot eluate</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/>  <!-- processed specimen -->
-        <!-- ADD log descr: is pecif output of dried blood elution process -->
-        
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0000953"/> <!-- processed specimen -->
+                    <rdf:Description rdf:about="&obo;OBI_0000318"/>  <!-- eluate -->
+                 </owl:intersectionOf>
+            </owl:Class>
+    	 </owl:equivalentClass>
         <skos:definition rdf:datatype="&xsd;string">Dried blood spot eluate is a processed specimen that is the output of the process of blood elution using a small disk punched from a blood saturated filter paper. The disk punched from a filer paper is dropped into a flat bottom microtitre plate and blood is eluted out in phosphate buffered saline solution containing 0.05% Tween 80 and 0.005% sodium azide, overnight at  4 &#x00B0;C.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Dried_blood_spot</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">This calss may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
@@ -25594,22 +25649,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000167"/> <!-- bfo2fixed:has participant at all times -->  
         <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process where a continuant is an input to a given planned proces.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-        <rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
-        <rdfs:range> <!-- range:independent continuant (not spatial region) or GDC -->
-       		<owl:Class>
-            	<owl:unionOf rdf:parseType="Collection">
-            		<rdf:Description rdf:about="&obo;BFO_0000031"/>  <!-- GDC -->
-            		<owl:Class>
-                		<owl:intersectionOf rdf:parseType="Collection">
-                    		<rdf:Description rdf:about="&obo;BFO_0000004"/> <!-- BFO2:independent continuant -->
-                    			<owl:Class>
-                        			<owl:complementOf rdf:resource="&obo;BFO_0000006"/>  <!-- BFO2:spatial region -->
-                    			</owl:Class>
-                    	</owl:intersectionOf>		
-                  </owl:Class>
-                </owl:unionOf> 
-            </owl:Class> 
-        </rdfs:range>   	
+        <rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->   	
        <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding (or more appropriate) OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
     </owl:ObjectProperty>
       
@@ -25622,21 +25662,6 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <skos:definition rdf:datatype="&xsd;string">A relation between a planned process and a continuant participating in that process where a continuant is an output of a given planned proces.</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
         <rdfs:domain rdf:resource="&obo;OBI_0000011"/> <!-- planned process -->
-        <rdfs:range> <!-- range:independent continuant (not spatial region) or GDC -->
-       		<owl:Class>
-            	<owl:unionOf rdf:parseType="Collection">
-            		<rdf:Description rdf:about="&obo;BFO_0000031"/>  <!-- GDC -->
-            		<owl:Class>
-                		<owl:intersectionOf rdf:parseType="Collection">
-                    		<rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/> <!-- BFO2:independent continuant -->
-                    			<owl:Class>
-                        			<owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000006"/>  <!-- BFO2:spatial region -->
-                    			</owl:Class>
-                    	</owl:intersectionOf>		
-                  </owl:Class>
-                </owl:unionOf> 
-            </owl:Class> 
-        </rdfs:range>   	
        <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding (or more appropriate) OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
     </owl:ObjectProperty>   
       
