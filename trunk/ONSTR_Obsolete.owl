@@ -769,8 +769,22 @@
 	</owl:Class>
         
         
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolote.owl#ONSTR_3371475 -->  <!-- material entity administration into the organism  -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_3371475">
+        <rdfs:label rdf:datatype="&xsd;string">material entity administration into the organism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatype="&xsd;string">Material entity administration into the organism is a planned process with the objective of introducing material item(s) into the organism.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">This class applies to nutritional items and drugs that can be self-administered (e.g. self feeding) of administered by other person or machine.</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Replaced by OBI import</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+	</owl:Class>
+        
+        
+        
   
-<!-- OVDE Class -->     
+<!-- NOVO OVDE -->     
     
 
     <!--  				     		   -->

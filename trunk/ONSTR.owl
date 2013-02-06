@@ -616,7 +616,7 @@
       
      <!-- http://purl.obolibrary.org/obo/OBI_0000097 -->   <!-- study subject role -->
       
-      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000097">
+      <owl:Class rdf:about="&obo;OBI_0000097">
            <rdfs:label rdf:datatype="&xsd;string">study subject role</rdfs:label>
            <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
            <skos:definition rdf:datatype="&xsd;string">study subject role inheres in an entity and realized through the execution of a study design in which the entity participates by being that which the results are about.</skos:definition>
@@ -630,14 +630,34 @@ people infected, then extract parasite which are then tested = observation study
       
      <!-- http://purl.obolibrary.org/obo/OBI_0000034 -->   <!-- supernatant role -->
       
-      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000034">
+      <owl:Class rdf:about="&obo;OBI_0000034">
            <rdfs:label rdf:datatype="&xsd;string">supernatant role</rdfs:label>
-           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/> <!-- obi:role -->
            <skos:definition rdf:datatype="&xsd;string">supernatant role is a role which inheres in a material entity and is realized by a material separation process using gravitational force in which the material bearing the supernatant role is the liquid component of the output material.</skos:definition>
            <skos:example rdf:datatype="&xsd;string">Precipitation is the formation of a solid in a solution during a chemical reaction. When the reaction occurs, the solid formed is called the precipitate, and the liquid remaining above the solid is called the supernate.  Wikipedia</skos:example>
            <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
       </owl:Class>
    
+   
+    <!-- http://purl.obolibrary.org/obo/OBI_0000319 -->   <!-- material to be added role -->
+      
+      <owl:Class rdf:about="&obo;OBI_0000319">
+           <rdfs:label rdf:datatype="&xsd;string">material to be added role</rdfs:label>
+           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/> <!-- obi:role -->
+           <skos:definition rdf:datatape="&xsd;string">material to be added role is a protocol participant role realized by a material which is added into a material bearing the target of material addition role in a material addition process</skos:definition>
+           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+      </owl:Class>
+      
+      
+    <!-- http://purl.obolibrary.org/obo/OBI_0000444 -->   <!-- target of material addition role -->
+      
+      <owl:Class rdf:about="&obo;OBI_0000444">
+           <rdfs:label rdf:datatype="&xsd;string">target of material addition role</rdfs:label>
+           <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/> <!-- obi:role -->
+           <skos:definition rdf:datatape="&xsd;string">target of material addition role is a role realized by an entity into which a material is added in a material addition process</skos:definition>
+           <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
+      </owl:Class>
+      
    
     <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->   <!-- information content entity -->
 
@@ -1445,9 +1465,50 @@ people infected, then extract parasite which are then tested = observation study
        <rdfs:label rdf:datatype="&xsd;string">material processing</rdfs:label>
        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
        <skos:definition rdf:datatype="&xsd;string">A planned process which results in physical changes in a specified input material.</skos:definition>
-       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.obolibrary.org/obo/OBI_0000094 -->  <!-- elution  -->
+
+    <owl:Class rdf:about="&obo;OBI_0000094">
+       <rdfs:label rdf:datatype="&xsd;string">elution</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0000094"/>   <!-- material processing  -->
+       <skos:definition rdf:datatape="&xsd;string">the process of extracting one material from another by washing with a solvent to remove adsorbed material from an adsorbent (as in washing of loaded ion-exchange resins to remove captured ions)</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
      </owl:Class>
     
+    
+   <!-- http://purl.obolibrary.org/obo/OBI_0000652 -->  <!-- material combination  -->
+
+    <owl:Class rdf:about="&obo;OBI_0000652">
+       <rdfs:label rdf:datatype="&xsd;string">material combination</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0000094"/> <!-- material processing  -->
+       <skos:definition rdf:datatape="&xsd;string">is a material processing with the objective to combine two or more material entities as input into a single material entity as output.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.obolibrary.org/obo/OBI_0000274 -->  <!-- adding a material entity into a target  -->
+
+    <owl:Class rdf:about="&obo;OBI_0000274">
+       <rdfs:label rdf:datatype="&xsd;string">adding a material entity into a target</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0000652"/> <!-- material combination  -->
+       <skos:definition rdf:datatape="&xsd;string">is a process with the objective to place a material entity bearing the &#39;material to be added role&#39; into a material bearing the &#39;target of material addition role&#39;.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+     </owl:Class>
+     
+    
+    <!-- http://purl.obolibrary.org/obo/OBI_0600007 -->  <!-- >administering substance in vivo  -->
+
+    <owl:Class rdf:about="&obo;OBI_0600007">
+       <rdfs:label rdf:datatype="&xsd;string">>administering substance in vivo</rdfs:label>
+       <rdfs:subClassOf rdf:resource="&obo;OBI_0000274"/> <!-- adding a material entity into a target  --> 
+       <skos:definition rdf:datatape="&xsd;string">A process by which a substance is intentionally given to an organism.</skos:definition>
+       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI)</skos:editorialNote>
+     </owl:Class>
+    
+
     
    <!-- http://purl.obolibrary.org/obo/OBI_0600014 -->  <!-- material component separation  -->
 
@@ -23764,23 +23825,12 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
        
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3371475 -->  <!-- material entity administration into the organism  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_3371475">
-        <rdfs:label rdf:datatype="&xsd;string">material entity administration into the organism</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
-        <skos:definition rdf:datatype="&xsd;string">Material entity administration into the organism is a planned process with the objective of introducing material item(s) into the organism.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">This class applies to nutritional items and drugs that can be self-administered (e.g. self feeding) of administered by other person or machine.</rdfs:comment>    
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6680350 -->  <!-- enteral administration  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6680350">
         <rdfs:label rdf:datatype="&xsd;string">enteral administration</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3371475"/ --> <!--material ent admin into the organism-->
+		<rdfs:subClassOf rdf:resource="&obo;OBI_0600007"/> <!-- obi:administering substance in vivo -->
     	 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -23815,7 +23865,7 @@ people infected, then extract parasite which are then tested = observation study
                   </owl:intersectionOf>
             </owl:Class>
          </owl:equivalentClass>	
-        <skos:definition rdf:datatype="&xsd;string">Enteral administration is a material entity administration into the organism where material entity (nutritional item or medication) is introduced into the organism's alimentary canal (oral cavity or gastrointestinal (GI) tract).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Enteral administration is an administering substance in vivo where material entity (e.g.nutritional item or medication) is introduced into the organism's alimentary canal (oral cavity or gastrointestinal (GI) tract).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/MSH/D004750</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Human_gastrointestinal_tract</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Enteral administration (and similarly, parenteral administration) is, by implication, applicable only to the organisms that anatomically have the alimentary canal (and/or some form of gastrointestinal tract).</rdfs:comment>    
@@ -23829,7 +23879,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1552413">
         <rdfs:label rdf:datatype="&xsd;string">parenteral administration</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3371475"/ -->
+		<rdfs:subClassOf rdf:resource="&obo;OBI_0600007"/> <!-- obi:administering substance in vivo -->
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -23869,7 +23919,7 @@ people infected, then extract parasite which are then tested = observation study
 		       </owl:intersectionOf>
 		   </owl:Class>
 		</owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Parenteral administration is enteral administration where material entity (fluid nutritional item or medication) is introduced into the organism intravenously, subcutanously, intramuscularly, intradermally or intrasternally.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Parenteral administration is administering substance in vivo where material entity (e.g. parenteral nutrition solution, Ringer&apos;s soluton, medication in fluid phase) is introduced into the organism intravenously, subcutanously, intramuscularly, intradermally or intrasternally.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">The route of administration, constant rate of flow required, and potential patient sensitivity to the elements administered, all contribute to the potential complications of parenteral nutrition. [Source: http://medical-dictionary.thefreedictionary.com/parenteral+nutrition ]</rdfs:comment>        
         <rdfs:comment rdf:datatype="&xsd;string">Parnteral administration (and similarly, enteral administration) is, by implication, applicable only to the organisms that anatomically have the alimentary canal (and/or some form of gastrointestinal tract).</rdfs:comment>    
@@ -24432,6 +24482,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">dried blood spot eluate</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/>  <!-- processed specimen -->
         <!-- ADD log descr: is pecif output of dried blood elution process -->
+        
         <skos:definition rdf:datatype="&xsd;string">Dried blood spot eluate is a processed specimen that is the output of the process of blood elution using a small disk punched from a blood saturated filter paper. The disk punched from a filer paper is dropped into a flat bottom microtitre plate and blood is eluted out in phosphate buffered saline solution containing 0.05% Tween 80 and 0.005% sodium azide, overnight at  4 &#x00B0;C.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Dried_blood_spot</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">This calss may be replaced by a corresponding OBI class at a later date (if/when one is asserted in OBI).</skos:editorialNote>
@@ -25299,8 +25350,15 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
     </owl:Class>
     
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9560311 -->  <!-- nutritional item role  -->
 
-
+    <owl:Class rdf:about="&ONSTR;ONSTR_9560311">
+        <rdfs:label rdf:datatype="&xsd;string">nutritional item role </rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000319"/>  <!-- material to be added role -->
+        <skos:definition rdf:datatape="&xsd;string">Nutritional item role is a material to be added role born by a nutritional item and that is realized by the process of enteral or parenteral administration where the the target of material addition role is born by a Homo sapiens.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
+    </owl:Class>
 
 
 <!-- NOVO OVDE -->
