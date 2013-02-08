@@ -793,21 +793,11 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-     <!-- http://purl.obolibrary.org/obo/OBI_0000987 -->   <!-- general scalar measurement datum -->
-      
-      <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000987">
-         <rdfs:label rdf:datatype="&xsd;string">general scalar measurement datum</rdfs:label>
-         <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>    <!-- measurement datum -->
-         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
-    	 <rdfs:comment rdf:datatype="&xsd;string">Need to keep an eye on this one, because it may be removed from OBI.</rdfs:comment>
-    </owl:Class>
-    
-    
       <!-- http://purl.obolibrary.org/obo/OBI_0000970 -->   <!-- scalar score from composite inputs -->
       
       <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000970">
          <rdfs:label rdf:datatype="&xsd;string">scalar score from composite inputs</rdfs:label>
-         <rdfs:subClassOf rdf:resource="&obo;OBI_0000987"/>
+         <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>  <!-- scalar measurement datum -->
          <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigation (OBI).</skos:editorialNote>
     </owl:Class>
     
@@ -15679,7 +15669,7 @@ people infected, then extract parasite which are then tested = observation study
 				</owl:intersectionOf>
 		  </owl:Class>
        </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Nutrient is an object that is a proper part of a nutritional item (food item, dietary supplement, medical food, special nutrition formula or parenteral nutrition solution) that is introduced into and used by body to produce energy, build body tissues, stimulate growth and maintain homeostasis.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutrient is an object that is a proper part of a nutritional item (food item, dietary supplement, medical food, special nutrition formula or parenteral nutrition solution) that is introduced into and used by an organism to produce energy, build body tissues, stimulate growth and maintain homeostasis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -21846,7 +21836,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1696794">
         <rdfs:label rdf:datatype="&xsd;string">acceptable macronutrient distribution range datum</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>  <!-- scalar measurement datum -->  
+		<rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->  
         <skos:definition rdf:datatape="&xsd;string">Acceptable macronutrient distribution range datum is a scalar measurement datum that is defined as a range of daily intake of particular dietary energy source that is associated with a reduced risk of chronic disease, while providing adequate intakes of essential macronutrients and that is expressed as percentage of total daily dietary energy intake for particular macronutrient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">The acceptable macronutrient distribution range (AMDR) of a macronutrient is expressed as a percentage of total energy intake because its requirement, in a classical sense, is not independent of energy fuel sources or of the total energy requirement of the individual. Each must be expressed in terms relative to the other. A key feature of each AMDR is that it has a lowed and upper boundary. If an individual consumes below or above this range, there is a potential for increasing risk of chronic diseases shown to affect long term health, as well as increasing risk of insufficient intakes of essential nutrients. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp.70.]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 11, 70-81.</rdfs:comment> 
@@ -23447,7 +23437,7 @@ people infected, then extract parasite which are then tested = observation study
 				</owl:intersectionOf>
 		  </owl:Class>
        </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Nutritional item is a material entity that contains nutrients and may contain non-dietary ingredients (fillers, artificial colors, sweeteners, flavors or binders) and that is administered into the human body enterally or parenterally. </skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutritional item is a material entity that contains nutrients and may contain non-dietary ingredients (fillers, artificial colors, sweeteners, flavors or binders) and that is administered into the human body enterally or parenterally.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ods.od.nih.gov/factsheets/DietarySupplements/#3</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fda.gov/Food/DietarySupplements/ConsumerInformation/ucm110417.htm</rdfs:comment>    
@@ -24477,6 +24467,21 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0123063 -->  <!-- nutritional formula quantity datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0123063">
+        <rdfs:label rdf:datatype="&xsd;string">nutritional formula quantity datum</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
+        <skos:definition rdf:datatape="&xsd;string">Newborn nutritional intake datum is a data item that provides the information about the kinds of nutritional items a newborn is fed during the newborn screening process.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">feeding status</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">feeding type</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">nutrtrition status</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
     
         
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5413434 -->  <!-- bacterial inhibition assay  -->
@@ -24545,7 +24550,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-<!-- START NBSSys pocesses -->
+<!-- START NBS processes -->
  
 
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0692868 -->  <!-- hearing assay  -->
@@ -25144,8 +25149,23 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
          
+      
+      <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1267261 -->  <!-- newborn dried blood spot screening test result analysis  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1267261">
+        <rdfs:label rdf:datatype="&xsd;string">newborn dried blood spot screening test result analysis</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+        <!-- cross with health care process ogms:0000096  --> 
+        
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+        
+        
+        
      
- <!-- END NBSSys pocesses -->   
+ <!-- END NBS processes -->   
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0352832 -->  <!-- newborn screening system process objective  -->
 
@@ -25441,11 +25461,11 @@ people infected, then extract parasite which are then tested = observation study
                     <rdf:Description rdf:about="&ONSTR;ONSTR_3202058"/> <!-- whole blood amino acid concentration measurement datum -->
                     <rdf:Description rdf:about="&ONSTR;ONSTR_6891725"/> <!-- newborn dried blood spot screening blood chemical concentration measurement datum  -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000581"/>  <!-- iao:has time stamp --><!--REPLACE with ONSTR-->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_5555555"/>    <!-- has time stamp datum --> <!--REPLACE with IAO later -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2447364"/>  <!-- age at newborn dried blood spot screening specimen collection measurement datum -->
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000581"/>    <!-- iao:has time stamp --> <!--REPLACE with ONSTR-->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_5555555"/>    <!-- has time stamp datum --> <!--REPLACE with IAO later -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6482088"/>  <!-- dried blood spot specimen creation measurement datum -->
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -25501,11 +25521,11 @@ people infected, then extract parasite which are then tested = observation study
                     <rdf:Description rdf:about="&ONSTR;ONSTR_6235894"/>  <!-- confirmatory testing blood plasma chemical concentration measurement datum  -->
                     <rdf:Description rdf:about="&ONSTR;ONSTR_7156237"/> <!-- blood plasma amino acid concentration measurement datum -->
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000581"/>  <!-- iao:has time stamp -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_5555555"/>    <!-- has time stamp datum --> <!--REPLACE with IAO later -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_8130450"/>  <!-- venous blood specimen creation measurement datum -->
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000581"/>    <!-- iao:has time stamp -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_5555555"/>    <!-- has time stamp datum --> <!--REPLACE with IAO later -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_8327411"/>  <!-- age at confirmatory testing blood specimen collection measurement datum -->
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -25566,11 +25586,11 @@ people infected, then extract parasite which are then tested = observation study
                         </owl:unionOf>
                     </owl:Class>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000581"/>  <!-- iao:has time stamp -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_5555555"/>    <!-- has time stamp datum --> <!--REPLACE with IAO later -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_3215569"/>  <!-- age at long-term follow-up interval visit measurement datum -->
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000581"/>  <!-- iao:has time stamp -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_5555555"/>    <!-- has time stamp datum --> <!--REPLACE with IAO later -->
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:unionOf rdf:parseType="Collection">
@@ -25611,18 +25631,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+  
     
     
     
@@ -25900,6 +25909,19 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 		<owl:inverseOf rdf:resource="&ONSTR;ONSTR_2222222"/>
         <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation that will be replaced by the corresponding (or more appropriate) OBI relation, once OBI migrates under newer version of BFO2 (BFO2 vGraz, or newer).</skos:editorialNote>
     </owl:ObjectProperty>
+ 
+ 
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5555555 -->  <!-- ONSTR:is specified output of -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_5555555">
+         <rdfs:label rdf:datatype="&xsd;string">has time stamp datum</rdfs:label>
+         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000110"/> <!-- bfo2:has continuant part at all times -->
+ 		 <skos:definition rdf:datatype="&xsd;string">A relation between time stamped measurement datum and time measurement datum.</skos:definition>
+         <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation asserted in the ONSTR to temporary replace the OBI relation &apos;has time stamp&apos;which would&apos;ve been used othervise. OBI&apos;s &apos;has time stamp&apos; is defined as functional property and according to the definition referes to the time when the measurement has been performed. This does not work for ONSTR, because we have data items that are doubly time stamped wher each of the &apos;time stamp&apos; has different data type.</skos:editorialNote>
+         <rdfs:domain rdf:resource="&obo;IAO_0000582"/>  <!-- time stamped measurement datum -->
+         <rdfs:range rdf:resource="&obo;IAO_0000416"/>  <!-- time measurement datum -->
+    </owl:ObjectProperty>
+ 
  
     <!-- END TEMPORARY ONSTR relations -->  
    
