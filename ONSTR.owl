@@ -1630,6 +1630,21 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI).</skos:editorialNote>
     </owl:Class>
      
+        
+   <!-- http://purl.obolibrary.org/obo/OBI_0000075 -->  <!-- diagnosis textual entity -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000075">
+        <rdfs:label xml:lang="en">diagnosis textual entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000300"/> <!-- textual entity -->
+        <skos:definition rdf:datatape="&xsd;string">diagnosis is an assessment of a disease or injury, its likely prognosis and treatment.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Note[SN2013-02-09]: OGMS also has a term diagnosis (OGMS:0000073). It&apos;s NL definition says that it is a &apos;representation of a conclusion...&apos;, but it does not say what kind of representation it is, a textual representation (written), verbal representation (spoken/dicated). For the time being (2013-02-09), we are using OBI&apos;s classes &apos;perfroming and diagnosis&apos; and &apos;textual diagnosis&apos;, because the have been linked by &apos;is specified output of&apos;. We may swithc to OGMS classes at a later date.</skos:editorialNote> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for Biomedical Investigations (OBI).</skos:editorialNote>
+    </owl:Class>
+     
+     
+     
+     
+     
     
 <!-- END OBI/IAO IMPORTS --> 
 <!-- START ERO IMPORTS -->
@@ -6005,7 +6020,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
       
     
-    <!-- http://purl.obolibrary.org/obo/OGMS_0000073 -->  <!--diagnosis-->
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000073 >  <! diagnosis >
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000073">
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
@@ -6013,7 +6028,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A data item that is the representation of a conclusion of an interpretive process that has as input a clinical picture of a given patient and as output an assertion (diagnostic statement) to the effect that the patient has a disease of such and such a type.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
-    </owl:Class>
+    </owl:Class -->
    
     
      <!-- http://purl.obolibrary.org/obo/OGMS_0000023 -->  <!--phenotype-->
@@ -22097,7 +22112,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1696794">
         <rdfs:label rdf:datatype="&xsd;string">acceptable macronutrient distribution range datum</rdfs:label>
-		<rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0963392"/> <!-- range datum --> 
         <skos:definition rdf:datatape="&xsd;string">Acceptable macronutrient distribution range datum is a scalar measurement datum that is defined as a range of daily intake of particular dietary energy source that is associated with a reduced risk of chronic disease, while providing adequate intakes of essential macronutrients and that is expressed as percentage of total daily dietary energy intake for particular macronutrient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">The acceptable macronutrient distribution range (AMDR) of a macronutrient is expressed as a percentage of total energy intake because its requirement, in a classical sense, is not independent of energy fuel sources or of the total energy requirement of the individual. Each must be expressed in terms relative to the other. A key feature of each AMDR is that it has a lowed and upper boundary. If an individual consumes below or above this range, there is a potential for increasing risk of chronic diseases shown to affect long term health, as well as increasing risk of insufficient intakes of essential nutrients. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp.70.]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 11, 70-81.</rdfs:comment> 
@@ -24741,8 +24756,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">nutrtrition status</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
+     </owl:Class>    
     
         
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5413434 -->  <!-- bacterial inhibition assay  -->
@@ -25897,7 +25911,74 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-  
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0963392 -->  <!-- range datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0963392">
+        <rdfs:label rdf:datatype="&xsd;string">range datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/> <!-- data item --> 
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+    
+ 
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0974359 -->  <!-- blood chemical concentration therapeutic range datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0974359">
+        <rdfs:label rdf:datatype="&xsd;string">blood chemical concentration therapeutic range datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0963392"/> <!-- range datum --> 
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5076673 -->  <!-- blood phenyalanine concentration therapeutic range  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5076673">
+        <rdfs:label rdf:datatype="&xsd;string">blood phenyalanine concentration therapeutic range datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0963392"/> <!-- range datum --> 
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2625903 -->  <!-- blood tyrosine concentration therapeutic range datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2625903">
+        <rdfs:label rdf:datatype="&xsd;string">blood tyrosine concentration therapeutic range datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0963392"/> <!-- range datum --> 
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+    
+   
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0974359 -->  <!-- urine chemical concentration therapeutic range datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0974359">
+        <rdfs:label rdf:datatype="&xsd;string">urine chemical concentration therapeutic range datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0963392"/> <!-- range datum --> 
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5493677 -->  <!-- tolerable nutrient intake range datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5493677">
+        <rdfs:label rdf:datatype="&xsd;string">tolerable nutrient intake range datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0963392"/> <!-- range datum --> 
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
     
     
     
