@@ -8203,10 +8203,8 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-     
-   
-     
-     
+ 
+    
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7920668 --> <!-- blood fatty concentration ratio datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7920668">
@@ -8228,8 +8226,8 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
 
-     
-     
+<!-- END RATION -->
+ 
      
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2522542 --> <!-- blood vitamin C concentration measurement datum -->
 
@@ -8779,7 +8777,94 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
 
 
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6116517 --> <!-- blood specimen collecting-->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2067486 --> <!-- tolerable nutrient intake datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2067486">
+        <rdfs:label rdf:datatype="&xsd;string">tolerable nutrient intake datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3255175"/>  <!-- nutrient intake datum -->
+        <skos:definition rdf:datatape="&xsd;string">Tolerable nutrient intake datum is a scalar measurement datum that provides the information about the quantity of a particluar nutrient that a patient can consume in 24 hours time interval (enterally or parenterally) such that the value of the concentration of the observed nutrient in a bodily fluid (usually blood or urine) falls within the therapeutic range for that particular nutrient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">The quantity of a consumed nutrient that a patient can &apos;tolerate&apos; while &apos;staying&apos; within a therapeutic range for that particular nutrient.</rdfs:comment>    
+        <skos:altLabel rdf:datatype="&xsd;string">nutrient intake tolerance</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0446553 --> <!-- tolerable amino acid intake datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0446553">
+        <rdfs:label rdf:datatype="&xsd;string">tolerable amino acid intake datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2067486"/>  <!-- tolerable nutrient intake datum -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">amino acid intake tolerance</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">amino acid tolerance</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7976727 --> <!-- tolerable phenylalanine intake datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7976727">
+        <rdfs:label rdf:datatype="&xsd;string">tolerable phenylalanine intake datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0446553"/>  <!-- tolerable amino acid intake datum -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine intake tolerance</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine tolerance</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Phe tolerance</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6108759 --> <!-- tolerable tyrosine intake datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6108759">
+        <rdfs:label rdf:datatype="&xsd;string">tolerable tyrosine intake datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0446553"/>  <!-- tolerable amino acid intake datum -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">tyrosine intake tolerance</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">tyrosine tolerance</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Tyr tolerance</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
+     
+     
+     
+
+
+
+
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3587453 --> <!-- tolerable atty acid intake datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3587453">
+        <rdfs:label rdf:datatype="&xsd;string">tolerable fatty acid intake datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2067486"/>  <!-- tolerable nutrient intake datum -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">fatty acid intake tolerance</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">fatty acid tolerance</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7629801 --> <!-- tolerable organic acid intake datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7629801">
+        <rdfs:label rdf:datatype="&xsd;string">tolerable organic acid intake datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2067486"/>  <!-- nutrient intake tolerance datum -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">organic acid intake tolerance</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">organic acid tolerance</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+
+
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6116517 --> <!-- blood specimen collecting-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6116517">
         <rdfs:label rdf:datatype="&xsd;string">blood specimen collecting</rdfs:label>
@@ -12522,7 +12607,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8199564">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary nutrient intake during observed time interval datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3255175"/>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3290480"/> <!-- average daily dietary nutrient intake datum -->
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary nutrient intake over observed time interval datum is a nutrent intake datum denoting the average quantity of relevant nutrient contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <rdfs:comment rdf:datatype="&xsd;string">Average daily dietary nutrient intake during observed time interval datum is a scalar that can be conceived and calculated as a grand average of all daily averages of the nutrient of interest. For instance, average daily total dietary protein intake during three day interval can be calculated as a grand average of the average daily dietary protein intakes for all three days of observation relevant for dietary analysis.</rdfs:comment>       
@@ -13082,16 +13167,28 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9167921 -->  <!-- average daily dietary energy intake datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9167921">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary energy intake datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4105817"/> 
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1164140 -->  <!-- average daily dietary energy intake during observed time interval datum  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1164140">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary energy intake during observed time interval datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4105817"/ -->
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9167921"/ -->
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_4105817"/>
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9167921"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measur unit label -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0274157"/> <!-- kiloCal per day --> 
@@ -15877,12 +15974,23 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
    
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3290480-->  <!-- average daily dietary nutrient intake datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3290480">
+        <rdfs:label rdf:datatype="&xsd;string">average daily dietary nutrient intake datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3255175"/>  <!-- nutrient intake datum -->
+    	<skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+     
+     
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5320178-->  <!-- average daily dietary nutrient intake per body mass during observed time interval datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5320178">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary nutrient intake per body mass during observed time interval datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3255175"/>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3290480"/> <!-- average daily dietary nutrient intake datum -->
         <skos:definition rdf:datatype="&xsd;string">Average daily dietary nutrient intake per body mass during observed time interval datum is a dietary nutrient intake datum denoting the average quantity of relevant nutrient contained in all nutritional items taken by a human patient during the observed time period (one day, two days or three days) with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <rdfs:comment rdf:datatype="&xsd;string">Average dietary nutrient intake per body mass during observed time interval is a scalar calculated by dividing the average quantity of a given nutrient contained in all food items taken by a human patient during the observed time period by the number of kilograms of patient body mass.</rdfs:comment>     
@@ -16701,11 +16809,11 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9038599">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary energy intake per body mass during observed time interval datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4105817"/ -->	
+    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9167921"/ -->	
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_4105817"/>
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9167921"/>  <!-- average daily dietary energy intake datum -->
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000039"/> <!-- has measur unit label -->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_1968249"/> <!-- kiloCal per kg per day --> 
@@ -18506,20 +18614,20 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8313486-->  <!-- nutrition intake measurement datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8313486">
-        <rdfs:label rdf:datatype="&xsd;string">nutrition intake measurement datum</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/ -->
-		<owl:equivalentClass>
+        <rdfs:label rdf:datatype="&xsd;string">nutritional intake measurement datum</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
+		<!-- owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;IAO_0000032"/>  <!--scalar measur datum-->
+                    <rdf:Description rdf:about="&obo;IAO_0000032"/>  <! scalar measur datum >
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/> <!--is specif output of-->
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6867187"/> <!--dietary intake analysis--> 
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/> <! is specif output of >
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6867187"/> <! dietary intake analysis > 
                     </owl:Restriction>  
                 </owl:intersectionOf>
 			</owl:Class>
-		</owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Nutrition intake measurement datum is a scalar measurement datum providing the information about nutrients that are contained in or dietary energy derived from nutritional items a patient or study subject during observed time interval relevant for dietary analysis (nutrition assessment).</skos:definition>
+		</owl:equivalentClass -->
+        <skos:definition rdf:datatype="&xsd;string">Nutritional intake measurement datum is a scalar measurement datum providing the information about nutrients that are contained in or dietary energy derived from nutritional items a patient or study subject consumed or can consume during observed time interval relevant for nutrition assessment or nutrition monitoring.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -18533,15 +18641,19 @@ people infected, then extract parasite which are then tested = observation study
 	    <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_8313486"/>  <!--dietary intake measurement datum-->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_8313486"/>  <!--nutritional intake measurement datum-->
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000136"/> <!--is about-->
                         <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0193925"/> <!--nutrient--> 
-                    </owl:Restriction>  
+                    </owl:Restriction>
+                    <!-- owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/> <! is specif output of >
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6867187"/> <! dietary intake analysis > 
+                    </owl:Restriction -->  
                 </owl:intersectionOf>
 			</owl:Class>
 		</owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Nutrient intake datum is a dietary intake measurement datum providing the information about the quantity of observed dietary nutrients taken by a human patient or study subject during the time interval relevant for dietary analysis.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutrient intake datum is a nutritional intake measurement datum providing the information about the quantity of observed dietary nutrients that have been consumed or may be consumed by a patient or study subject during the time interval relevant for nutrition assessment or nutrition monitoring.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
