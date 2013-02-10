@@ -25435,15 +25435,7 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-        
-       <!--POS OVDE-->
-       
-        
-        
-        
-        
-        
+     </owl:Class>      
      
  <!-- END NBS processes -->   
      
@@ -25978,23 +25970,35 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
      
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3209028 -->  <!--  confirmatory diagnosis for phenylketonuria  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3209028">
+        <rdfs:label rdf:datatype="&xsd;string">confirmatory diagnosis</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000075"/> <!-- diagnosis textual entity --> 
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
     
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5595149 -->  <!-- phenylketonuria diagnosis  -->
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5595149 -->  <!--  confirmatory diagnosis for phenylketonuria  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5595149">
-        <rdfs:label rdf:datatype="&xsd;string">phenylketonuria diagnosis</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000075"/> <!-- textual diagnosis --> 
+        <rdfs:label rdf:datatype="&xsd;string">confirmatory diagnosis for phenylketonuria</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3209028"/> <!-- confirmatory diagnosis --> 
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+  
     
     
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5481960 -->  <!-- phenylketonuria diagnosis  -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5481960 -->  <!-- confirmed diagnosis for benign hyperphenylalneinemia  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5481960">
-        <rdfs:label rdf:datatype="&xsd;string">benign hyperphenylalneinemia diagnosis</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000075"/> <!-- textual diagnosis --> 
+        <rdfs:label rdf:datatype="&xsd;string">confirmatory diagnosis for benign hyperphenylalneinemia</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3209028"/> <!-- confirmatory diagnosis --> 
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -26023,10 +26027,10 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6159839 -->  <!-- positive newborn screening test finding  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6159839 -->  <!-- newborn  dried blood spot screening test finding  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6159839">
-        <rdfs:label rdf:datatype="&xsd;string">positive newborn screening test finding</rdfs:label> 
+        <rdfs:label rdf:datatype="&xsd;string">newborn dried blood spot screening test finding</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7676093"/> <!-- newborn screening test finding --> 
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
@@ -26079,12 +26083,23 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7079966 -->  <!-- negative newborn screening test finding  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7079966">
+        <rdfs:label rdf:datatype="&xsd;string">negative dried blood spot newborn screening test finding</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6159839"/> <!-- newborn DBS screening test finding --> 
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5777623 -->  <!-- positive newborn pulse oximetry test finding  -->
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5777623 -->  <!-- newborn pulse oximetry screening test finding  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5777623">
-        <rdfs:label rdf:datatype="&xsd;string">positive newborn pulse oximetry test finding</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6159839"/> <!-- positive newborn screening test finding -->
+        <rdfs:label rdf:datatype="&xsd;string">newborn pulse oximetry screening test finding</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7676093"/> <!-- newborn screening test finding -->
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -26094,26 +26109,16 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4003104 -->  <!-- positive newborn hearing screening finding  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4003104">
-        <rdfs:label rdf:datatype="&xsd;string">positive newborn hearing screening finding</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6159839"/> <!-- positive newborn screening test finding -->
+        <rdfs:label rdf:datatype="&xsd;string">newborn hearing screening finding</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7676093"/> <!-- newborn screening test finding -->
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
       
     
-     
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7079966 -->  <!-- negative newborn screening test finding  -->
 
-    <owl:Class rdf:about="&ONSTR;ONSTR_7079966">
-        <rdfs:label rdf:datatype="&xsd;string">negative newborn screening test finding</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7676093"/> <!-- newborn screening test finding --> 
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
-     
-    
+        
     
     
 
