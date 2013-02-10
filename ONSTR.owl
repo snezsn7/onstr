@@ -25978,7 +25978,39 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
      
-     
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5595149 -->  <!-- phenylketonuria diagnosis  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5595149">
+        <rdfs:label rdf:datatype="&xsd;string">phenylketonuria diagnosis</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000075"/> <!-- textual diagnosis --> 
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5481960 -->  <!-- phenylketonuria diagnosis  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5481960">
+        <rdfs:label rdf:datatype="&xsd;string">benign hyperphenylalneinemia diagnosis</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000075"/> <!-- textual diagnosis --> 
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3061956 -->  <!-- nutrition diagnosis  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3061956">
+        <rdfs:label rdf:datatype="&xsd;string">nutrition diagnosis</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000075"/> <!-- textual diagnosis --> 
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
     
     
     
