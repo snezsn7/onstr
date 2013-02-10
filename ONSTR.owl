@@ -401,7 +401,8 @@
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4-monooxygenase</skos:altLabel>    
         <skos:altLabel rdf:datatype="&xsd;string">4-monooxygenase, phenylalanine</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine-4-hydroxylase monomer</skos:altLabel>
-    <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Protein Ontology (PRO).</skos:editorialNote>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4-monooxygenase monomer</skos:altLabel>
+    <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Protein Ontology (PRO).</skos:editorialNote>
    </owl:Class>
 
 
@@ -6489,10 +6490,11 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7843044 --> <!-- mutant PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7843044">
-        <rdfs:label rdf:datatype="&xsd;string">mutant phenylalanine hydrohylase genotype</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">mutant phenylalanine 4-monooxygenase genotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1509758"/>
         <skos:definition rdf:datatype="&xsd;string">A PAH genotype that includes two mutated (mutant) alleles coding for enzyme phenylalanine hydroxylase monomer (PAH monomer).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">mutant PAH genotype</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mutant phenylalanine hydroxylase genotype</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.62-64.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -6501,7 +6503,7 @@ people infected, then extract parasite which are then tested = observation study
 	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4241089 --> <!-- homozygous mutant PAH genotype -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4241089">
-        <rdfs:label rdf:datatype="&xsd;string">homozygous mutant phenylalanine hydroxilase genotype</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">homozygous mutant phenylalanine hydroxylase genotype</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7843044"/>
         <skos:altLabel rdf:datatype="&xsd;string">homozygous mutant PAH genotype</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A mutant PAH genotype that includes two copies of the same mutated PAH monomer allele (one cooy inherited from the mother and one copy iherited from the father).</skos:definition>
@@ -6525,7 +6527,7 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
         
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2424755 --> <!-- phenylalanine hydroxylase -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2424755 --> <!-- phenylalanine 4-monooxygenase complex -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2424755">
         <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase complex</rdfs:label>
@@ -6533,11 +6535,13 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A monooxygenase complex that functions as a catalyst in the reaction: L-phenylalanine + tetrahydrobiopterin + O2 = L-tyrosine + 4-alpha-hydroxytetrahydrobiopterin (a conversion of phenylalanine into tyrosine), which represents a rate limiting step in only clinically significant biochemical pathway for the catabolism of phenylalanine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.14.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.bioontology.org/ontology/GO/GO_0004505</rdfs:comment>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine hydroxylase complex</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">PAH complex</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">PAH</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">PheOH</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">PheH</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalaninase</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4-hydroxylase</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4-monooxygenase</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4 hydroxylase</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">hydroxylase, phenylalanine</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4 monooxygenase</skos:altLabel>
@@ -26314,7 +26318,60 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
       
     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2036859 -->  <!-- rate process profile  -->
 
+    <owl:Class rdf:about="&ONSTR;ONSTR_2036859">
+        <rdfs:label rdf:datatype="&xsd;string">rate process profile</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000144"/> <!-- process profile -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3607920 -->  <!-- enzyme activity rate process profile  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3607920">
+        <rdfs:label rdf:datatype="&xsd;string">enzyme activity rate process profile</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2036859"/> <!-- rate process profile -->   
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3558380 -->  <!-- phenylalanine 4-monoxygenase activity rate process profile  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3558380">
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine 4-monoxygenase activity rate process profile</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3607920"/> <!-- enzyme activity rate process profile -->   
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3840224 -->  <!-- normal phenylalanine 4-monoxygenase activity rate process profile  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3840224">
+        <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine 4-monoxygenase activity rate process profile</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3558380"/> <!-- phenylalanine 4-monoxygenase activity rate process profile -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9358954 -->  <!-- low phenylalanine 4-monoxygenase activity rate process profile  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9358954">
+        <rdfs:label rdf:datatype="&xsd;string">low phenylalanine 4-monoxygenase activity rate process profile</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3558380"/> <!-- phenylalanine 4-monoxygenase activity rate process profile -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
         
     
     
@@ -26481,7 +26538,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
   <!-- http://purl.obolibrary.org/obo/IAO_0000583 -->  <!-- has measurement datum -->
      
    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000583">
-        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000110"/> <!-- has continuant part at all times -->
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000111"/> <!-- has proper continuant part at all times -->
     	<rdfs:label rdf:datatype="&xsd;string">has measurement datum</rdfs:label>
         <skos:definition rdf:datatape="&xsd;string">Relates a time stamped measurement datum to the measurement datum that was measured.</skos:definition>
         <rdfs:domain rdf:resource="&obo;IAO_0000582"/>
@@ -26597,7 +26654,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 
     <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_5555555">
          <rdfs:label rdf:datatype="&xsd;string">has time stamp datum</rdfs:label>
-         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000110"/> <!-- bfo2:has continuant part at all times -->
+         <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000111"/> <!-- bfo2:has proper continuant part at all times -->
  		 <skos:definition rdf:datatype="&xsd;string">A relation between time stamped measurement datum and time measurement datum.</skos:definition>
          <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation asserted in the ONSTR to temporary replace the OBI relation &apos;has time stamp&apos;which would&apos;ve been used othervise. OBI&apos;s &apos;has time stamp&apos; is defined as functional property and according to the definition referes to the time when the measurement has been performed. This does not work for ONSTR, because we have data items that are doubly time stamped wher each of the &apos;time stamp&apos; has different data type.</skos:editorialNote>
          <rdfs:domain rdf:resource="&obo;IAO_0000582"/>  <!-- time stamped measurement datum -->
