@@ -781,6 +781,17 @@
 	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
 	</owl:Class>
         
+       
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_9018721 -->  <!-- newborn screening short-term follow-up process  -->
+
+    <owl:Class rdf:about="&ONSTRonsolete;ONSTR_9018721">
+        <rdfs:label rdf:datatype="&xsd;string">interpreting newborn dried blood spot screening test result</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+	</owl:Class> 
         
         
   
