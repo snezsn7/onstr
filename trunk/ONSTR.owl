@@ -145,7 +145,7 @@
    </owl:Class>
    
    
-     <!-- http://purl.org/obo/owl/GO#GO_0004505 -->   <!-- phenylalanine 4-monooxygenase activity -->
+     <!-- http://purl.org/obo/owl/GO#GO_0004505 -->   <!-- phenylalanine 4-monooxygenase activity >
    
    	<owl:Class rdf:about="&GO;GO_0004505">
      	<rdfs:label rdf:datatype="&xsd;string">phenylalanine 4-monooxygenase activity</rdfs:label>
@@ -156,7 +156,7 @@
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine 4-hydroxylase activity</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine hydroxylase activity</skos:altLabel>	
      	<skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Gene Ontology (GO)..</skos:editorialNote>
-   </owl:Class>
+   </owl:Class -->
 
 
    <!-- http://purl.org/obo/owl/GO#GO_0008150 -->   <!-- biological_process -->
@@ -6155,7 +6155,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->  <!--treatment-->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090">
+    <owl:Class rdf:about="&obo;OGMS_0000090">
         <rdfs:subClassOf rdf:resource="&obo;OGMS_0000096"/>
         <rdfs:label rdf:datatype="&xsd;string">treatment</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">treatment process</skos:altLabel>
@@ -6163,6 +6163,26 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">A processual entity whose completion is hypothesized (by a healthcare provider) to alleviate the signs and symptoms associated with a disorder</skos:definition>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
     </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000060 -->  <!-- bodily process -->
+
+    <owl:Class rdf:about="&obo;OGMS_0000060">
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>  <!-- bfo2:process -->
+        <rdfs:label rdf:datatype="&xsd;string">bodily process</rdfs:label>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000061 -->  <!-- pathological bodily process -->
+
+    <owl:Class rdf:about="&obo;OGMS_0000061">
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000060"/>  <!-- bodily process -->
+        <rdfs:label rdf:datatype="&xsd;string">pathological bodily process</rdfs:label>
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from the Ontology for General Medical Science (OGMS).</skos:editorialNote>
+    </owl:Class>
+   
     
 <!-- END OGMS IMPORTS -->
 <!-- START OMRSE IMPORTS -->
@@ -6396,9 +6416,9 @@ people infected, then extract parasite which are then tested = observation study
 	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0426948 --> <!-- phenylalanine hyrdoxylase function -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0426948">
-        <rdfs:label rdf:datatype="&xsd;string">phenylalanine hyrdoxylase function</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine-4-hyrdoxylase function</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000034"/>  <!-- bfo2:function -->
-        <skos:definition rdf:datatype="&xsd;string">Phenylalanine hyrdoxylase function is a function that inheres in the enzyme phenylalanine-4-monooxygenase (PAH) and that is realized in its catalytic activity of the reaction: L-phenylalanine + tetrahydrobiopterin + O2 = L-tyrosine + 4-alpha-hydroxytetrahydrobiopterin.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Phenylalanine-4-hyrdoxylase function is a function that inheres in the enzyme phenylalanine-4-monooxygenase (PAH) and that is realized in its catalytic activity of the reaction: L-phenylalanine + tetrahydrobiopterin + O2 = L-tyrosine + 4-alpha-hydroxytetrahydrobiopterin.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">PAH function</skos:altLabel>
         <skos:source rdf:datatype="&xsd;string">http://purl.org/obo/owl/GO#GO_0004505</skos:source>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://purl.org/obo/owl/GO#GO_0004505</rdfs:comment>    
@@ -6553,24 +6573,24 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
      
        
-     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5363814 --> <!-- normal PAH complex -->
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5363814 --> <!-- normal phenylalanine-4-hyrdoxylase complex -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5363814">
-        <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine hyrdoxylase complex</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine-4-hyrdoxylase complex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2424755"/>
         <skos:altLabel rdf:datatype="&xsd;string">normal PAH</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">normal PAH complex</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">normal phenylalanine-4-hyrdoxylase complex</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal phenylalanine hyrdoxylase complex</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A phenyalalnine hydroxylase complex (phenyalalnine-4-hydroxylase dimer or tetramer complex) cosisiting of normal phenyalalnine-4-hydroxylase monomers.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Phenylalanine_hydroxylase</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class> 
     
     
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9415873 --> <!-- dysfunctional PAH complex -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9415873 --> <!-- defective phenylalanine-4-hyrdoxylase complex -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9415873">
-        <rdfs:label rdf:datatype="&xsd;string">dysfunctional phenylalanine hyrdoxylase complex</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">defective phenylalanine-4-hyrdoxylase complex</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2424755"/>
         <skos:altLabel rdf:datatype="&xsd;string">defective PAH</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">defective phenylalanine hyrdoxylase complex</skos:altLabel>
@@ -6578,8 +6598,8 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">dysfunctional PAH</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">dysfunctional PAH complex</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">dysfunctional phenylalanine-4-hyrdoxylase complex</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A phenyalalnine hydroxylase complex (phenyalalnine-4-hydroxylase dimer or tetramer complex) having at least one monomer that is a disfunctional phenyalalnine-4-hydroxylase monomer, and as such cannot act as a fully functional catalyzer of conversion of phenylalanine into tyrosine (i.e. has decreased PAH activity).</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">In dysfunctional phenylalanine hyrdoxylase dimer complex at least one of the monomers is a dysfunctional phenyalalnine-4-hydroxylase monomer, while in defective phenylalanine hyrdoxylase tetramer complex one or more monomers may be defective phenyalalnine-4-hydroxylase monomer.</rdfs:comment>
+        <skos:definition rdf:datatype="&xsd;string">A phenyalalnine-4-hydroxylase complex (phenyalalnine-4-hydroxylase dimer or tetramer) having at least one monomer (sub-unit) that is a disfunctional phenyalalnine-4-hydroxylase monomer, and as such cannot act as a fully functional catalyzer of conversion of phenylalanine into tyrosine (i.e. has decreased PAH catalytic activity rate).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">In defective phenylalanine hyrdoxylase dimer complex at least one of the monomers is a dysfunctional phenyalalnine-4-hydroxylase monomer, while in defective phenylalanine hyrdoxylase tetramer complex one or more monomers may be defective phenyalalnine-4-hydroxylase monomer.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Blau, N., Burton, B. K., Thoeny, B., van Sprosen F., Waisbren, S. (2010) Phenylketonuria and BH4 deficiencies. UNI-MED Verlag AGm D-283232 Bremen, International Medical Publishers (London, Boston), pp.14.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     	<owl:disjointWith rdf:about="&ONSTR;ONSTR_5363814"/>
@@ -23728,7 +23748,7 @@ people infected, then extract parasite which are then tested = observation study
 				</owl:intersectionOf>
 		  </owl:Class>
        </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Nutritional item is a material entity that contains nutrients and may contain non-dietary ingredients (fillers, artificial colors, sweeteners, flavors or binders) and that is administered into the human body enterally or parenterally.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Nutritional item is an object that contains nutrients and may contain non-dietary ingredients (fillers, artificial colors, sweeteners, flavors or binders) and that is administered into the organism enterally or parenterally.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ods.od.nih.gov/factsheets/DietarySupplements/#3</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://fda.gov/Food/DietarySupplements/ConsumerInformation/ucm110417.htm</rdfs:comment>    
@@ -26340,10 +26360,10 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3558380 -->  <!-- phenylalanine 4-monoxygenase activity rate process profile  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3558380 -->  <!-- phenylalanine 4-hydroxylase activity rate process profile  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3558380">
-        <rdfs:label rdf:datatype="&xsd;string">phenylalanine 4-monoxygenase activity rate process profile</rdfs:label> 
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine-4-hydroxylase activity rate process profile</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3607920"/> <!-- enzyme activity rate process profile -->   
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
@@ -26354,7 +26374,7 @@ people infected, then extract parasite which are then tested = observation study
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3840224 -->  <!-- normal phenylalanine 4-monoxygenase activity rate process profile  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3840224">
-        <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine 4-monoxygenase activity rate process profile</rdfs:label> 
+        <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine-4-hydroxylase activity rate process profile</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3558380"/> <!-- phenylalanine 4-monoxygenase activity rate process profile -->
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
@@ -26362,17 +26382,331 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9358954 -->  <!-- low phenylalanine 4-monoxygenase activity rate process profile  -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9358954 -->  <!-- abnormally low phenylalanine-4-hydroxylase activity process profile  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9358954">
-        <rdfs:label rdf:datatype="&xsd;string">low phenylalanine 4-monoxygenase activity rate process profile</rdfs:label> 
+        <rdfs:label rdf:datatype="&xsd;string">abnormally low phenylalanine-4-hydroxylase activity rate profile</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3558380"/> <!-- phenylalanine 4-monoxygenase activity rate process profile -->
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
-        
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8528184 -->  <!-- normal phenylalanine-4-hydroxylase -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8528184">
+        <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine-4-hydroxylase</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&PRO;PR_000012234"/> <!-- phenylalanine-4-hydroxylase -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4010676 -->  <!-- defective phenylalanine-4-hydroxylase -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4010676">
+        <rdfs:label rdf:datatype="&xsd;string">defective phenylalanine-4-hydroxylase</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&PRO;PR_000012234"/> <!-- phenylalanine-4-hydroxylase -->   
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3774449 -->  <!-- phenylalanine-4-hydroxylase activity -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3774449">
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine-4-hydroxylase activity</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&GO;GO_0016714"/> <!-- oxidoreductase activity, acting on paired donors...-->   
+        <!-- ADD log descr -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&GO;GO_0016714"/>  <!-- oxidoreductase activity, actin on paired donors, with... -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000066"/>  <!-- occurs in -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&CL;CL_0000182"/>  <!-- hepatocyte -->
+                                            <owl:Class>
+                                                <owl:complementOf rdf:resource="&ONSTR;ONSTR_5362990"/>  <!-- hepatocyte lacking PAH complex -->
+                                            </owl:Class>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&CL;CL_0002518"/>  <!-- kidney epithelial cell -->
+                                            <owl:Class>
+                                                <owl:complementOf rdf:resource="&ONSTR;ONSTR_7599170"/>  <!-- kidney epithelial cell lacking PAH complex -->
+                                            </owl:Class>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000055"/> <!-- realizes -->
+                    	<owl:someValuesFrom  rdf:resource="&ONSTR;ONSTR_0426948"/>  <!-- PAH function -->
+                   </owl:Restriction>
+                   <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/>  <!-- bfo2:has participant at all times -->
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&obo;CHEBI_15372"/>  <!-- BH4 -->
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="&obo;BFO_0000087"/> <!-- bfo2:has role at some time -->
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="&ONSTR;ONSTR_2207869"/>  <!-- enzyme cofactor role -->
+                                                            <rdf:Description rdf:about="&ONSTR;ONSTR_5238894"/>  <!-- enzyme effector role -->
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&obo;CHEBI_17295"/>  <!-- L-phenylalaninne -->
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>  <!-- bfo2:has role at some time -->
+                                                <owl:someValuesFrom>
+                                                    <owl:Class>
+                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                            <rdf:Description rdf:about="&ONSTR;ONSTR_5238894"/>   <!-- enzyme effector role -->
+                                                            <rdf:Description rdf:about="&ONSTR;ONSTR_9693057"/>  <!-- enzyme substrate role -->
+                                                        </owl:intersectionOf>
+                                                    </owl:Class>
+                                                </owl:someValuesFrom>
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                     <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&obo;CHEBI_15379"/>  <!-- dioxigen -->
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>  <!-- bfo2:has role at some time -->
+                                                <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_9693057"/>  <!-- enzyme substrate role -->
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&obo;CHEBI_17895"/>  <!-- L-tyrosine -->
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>  <!-- bfo2:has role at some time -->
+                                                <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_9103661"/>  <!-- enzyme product role -->
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&ONSTR;ONSTR_6757046"/>  <!-- 4-alpha-tetrahydrobiopterin -->
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="&obo;BFO_0000087"/>  <!-- bfo2:has role at some time -->
+                                                <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_9103661"/>  <!-- enzyme product role -->
+                                            </owl:Restriction>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition rdf:datatype="&xsd;string">Catalysis of the reaction: L-phenylalanine + tetrahydrobiopterin + O2 = L-tyrosine + 4-alpha-hydroxytetrahydrobiopterin.</skos:definition>
+        <dc:source rdf:datatype="&xsd;string">GO:0004505</dc:source>  
+        <skos:exactMatch>GO:0004505</skos:exactMatch>  
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8057933 -->  <!-- normal phenylalanine-4-hydroxylase activity -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8057933">
+        <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine-4-hydroxylase activity</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3774449"/> <!-- phenylalanine-4-hydroxylase activity -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0087869 -->  <!-- abnormal phenylalanine-4-hydroxylase activity -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0087869">
+        <rdfs:label rdf:datatype="&xsd;string">abnormal phenylalanine-4-hydroxylase activity</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3774449"/> <!-- phenylalanine-4-hydroxylase activity -->
+         <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_3774449"/>  <!-- phenylalanine-4-hydroxylase activity -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000063"/>  <!-- bfo2:precedes -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_0681536"/>  <!-- accumulation of Phe -->
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000066"/>  <!-- bfos:occurs in -->
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="&FMA;Portion_of_blood"/>  <!-- portion of blood -->
+                                                    <rdf:Description rdf:about="&FMA;Portion_of_cerebrospinal_fluid"/>  <!-- portion of CSF -->
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000119"/>  <!-- bfo:has profile -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_9358954"/>  <!-- abnormally low PAH activity rate profile -->
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7714134 -->  <!-- role of a molecule in biochemical reactions -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7714134">
+        <rdfs:label rdf:datatype="&xsd;string">role of a molecule in biochemical reactions</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/> <!-- bfo2:role -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9693057 -->  <!-- enzyme substrate role -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9693057">
+        <rdfs:label rdf:datatype="&xsd;string">enzyme substrate role</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7714134"/> <!-- role of a molecule in biochemical reactions -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5238894 -->  <!-- enzyme effector role -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5238894">
+        <rdfs:label rdf:datatype="&xsd;string">enzyme effector role</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7714134"/> <!-- role of a molecule in biochemical reactions -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9103661 -->  <!-- enzyme product role -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9103661">
+        <rdfs:label rdf:datatype="&xsd;string">enzyme product role</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7714134"/> <!-- role of a molecule in biochemical reactions -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+   
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2207869 -->  <!-- enzyme cofactor role -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2207869">
+        <rdfs:label rdf:datatype="&xsd;string">enzyme cofactor role</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7714134"/> <!-- role of a molecule in biochemical reactions -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+  
+  
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0681536 -->  <!-- phenylalanine accumulation -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0681536">
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine accumulation</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000061"/> <!-- pathological bodily process -->  
+        <!-- ADD log descr -->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6757046 -->  <!-- 4-alpha-tetrahydrobiopterin  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6757046">
+        <rdfs:label rdf:datatype="&xsd;string">4-alpha-tetrahydrobiopterin </rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_22881"/> <!-- biopterins -->  
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7975878 -->  <!-- hepatocyte containing defective phenylalanine-4-hydroxylase complex  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7975878">
+        <rdfs:label rdf:datatype="&xsd;string">hepatocyte containing defective phenylalanine-4-hydroxylase complex</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&CL;CL_0000182"/> <!-- hepatocyte -->  
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5362990 -->  <!-- hepatocyte lacking phenylalanine-4-hydroxylase complex  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5362990">
+        <rdfs:label rdf:datatype="&xsd;string">hepatocyte lacking phenylalanine-4-hydroxylase complex</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&CL;CL_0000182"/> <!-- hepatocyte -->  
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3977344 -->  <!-- kidney epithelial cell containing defective phenylalanine-4-hydroxylase complex  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3977344">
+        <rdfs:label rdf:datatype="&xsd;string">kidney epithelial cell containing defective phenylalanine-4-hydroxylase complex</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&CL;CL_0002518"/> <!-- kidney epithelial cell -->  
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7599170 -->  <!-- kidney epithelial cell lacking phenylalanine-4-hydroxylase complex  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7599170">
+        <rdfs:label rdf:datatype="&xsd;string">kidney epithelial cell lacking phenylalanine-4-hydroxylase complex</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&CL;CL_0002518"/> <!-- kidney epithelial cell -->  
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
     
     
 
