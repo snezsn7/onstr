@@ -6281,6 +6281,8 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">HPS</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">hyperPhe</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">hyperphenyalalninemias</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">hyperphenyalalninemia disorder</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Hyperphenylalaninemia represented by this class does NOT refer to congenital hyperphenylalaninemia caused by dysfunctional enzyme phenylalnine hydroxylase (aka PAH deficiency).</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Physician&apos;s guide to the laboratory diagnosis of metabolic diseases. (2004) N. Blau, Duran, M. Blaskovics, M.E., Gibson, K.M. Eds. Springer Verlag, pp. 89.</rdfs:comment> 
        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
 	</owl:Class>
@@ -6288,10 +6290,21 @@ people infected, then extract parasite which are then tested = observation study
    
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7546388 --> <!-- congenital hyperphenylalaninemia -->
 
-    <owl:Class rdf:about="&ONSTR;ONSTR_7546388">  <!-- cross that with congenital metabolic disorder -->
+    <owl:Class rdf:about="&ONSTR;ONSTR_7546388">
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7112823"/> <!-- congenital metabolic disease -->
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_7112823"/> <!-- congenital metabolic disease -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000113"/> <!-- bfo2:has material basis at all times-->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_0128089"/> <!-- PAH deficiency --> 
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+    	 </owl:equivalentClass>
         <rdfs:label rdf:datatype="&xsd;string">congenital hyperphenylalaninemia</rdfs:label>
-        <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninemia (disorder)</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninemia (disease)</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninaemias</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">congenital HPA</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A congenital metabolic disorder of L-phenylalanine catabolism, characterized by the concentrations of amino acid L-phenylalanine in the blood that are considered by medical experts as clinically abnormal, and that is caused primarily by a deficiency of hepatic apoenzyme phenylalanine-4-hydrolase (PAH) or by the deficiency of one of the enzymes involved in PAH cofactor(i.e. tetrahydrobiopterin (BH4)) biosythesis (GTP cyclohydrolase 1 (GTPCH) and 6-pyruvol-tetrahydrobiopterin-syntase (PTPS)), or BH4 regeneration (dihydropteridine reductase (DHPR) and pterin carbinolamine-4alpha-dehydratase (PCD)).</skos:definition>
@@ -6372,7 +6385,8 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/> <!-- congenital hyperPhe -->
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">benign hyperPhe</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">HPA</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">congenital hyperPhe</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">H-PHE</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
 
@@ -6381,18 +6395,20 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0128089">
         <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase deficiency</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2709221"/>
-         <!-- owl:equivalentClass>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2709221"/> <!-- congenital metabolic disorder -->
+        <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2709221"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_XXXXXXXXX"/>  <! has finding >
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2522662"/> <! phenylalanine concentration finding >
-                    </owl:Restriction>
-                </owl:intersectionOf>
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2709221"/> <!-- congenital metabolic disorder -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_7975878"/>  <!-- hepatocyte containing defective PAH complex -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_5362990"/>  <!-- hepatocyte lacking PAH complex -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_3977344"/>  <!-- kidney epithelial cell containing defective PAH complex -->
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_7599170"/>  <!-- kidney epithelial cell lacking PAH complex -->
+                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass -->
+    	 </owl:equivalentClass>
+        
+        
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine-4-hydroxilase deficiency</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">PAH deficiency</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">PAH deficiency is a congenital metabolic disorder characterized by reduced activity (deficiency in activity) of the enzyme phenylalanine-4-hydroxilaze, that is caused by two recessive mutated PAH alleles in the inherited PAH genome. PAH deficiency (and hypephenylalalninemia, and PKU, respectively) has autosomal recessive inheritance pattern with most cases in compound heterozygous state (genetic compound) where both maternal and paternal PAH alleles are differently mutated and present at chromosome 12.</skos:definition>
@@ -6406,17 +6422,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5173920">
        <rdfs:label rdf:datatype="&xsd;string">tetrahydrobiopterin deficiency</rdfs:label>
        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2709221"/>
-         <!-- owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&ONSTR;ONSTR_2709221"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_XXXXXX"/>  <! has finding >
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2522662"/> <! phenylalanine concentration finding >
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass -->
         <skos:altLabel rdf:datatype="&xsd;string">BH4 deficiency</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">BH4 (tetrahydrobiopterin) deficiency is a congenital metabolic disorder characterized by disruptions in BH4 biosythesis and regeneration cycle due to the mutated recessive alleles coding for one of the enzymes involved in BH4 biosythesis (GTP cyclohydrolase and 6-pyruvol-tetrahydrobiopterin-syntase), and/or mutated recessive alleles coding for enzymes involved BH4 regeneration (dihydropteridine reductase and pterin carbinolamine-4alpha-dehydratase). BH4 deficiencies have autosomal recessive inheritance pattern in both compound heterozygous (genetic compound) state and homozygous state.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Physician's guide to the laboratory diagnosis of metabolic diseases. (2004) N. Blau, Duran, M. Blaskovics, M.E., Gibson, K.M. Eds. Springer Verlag, pp. 89.</rdfs:comment> 
