@@ -794,6 +794,38 @@
 	</owl:Class> 
         
         
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_0109406 --> <!-- phenylketonuria -->
+
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_0109406">
+        <rdfs:label rdf:datatype="&xsd;string">phenylketonuria</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:altLabel rdf:datatype="&xsd;string">PKU</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">PHENYLKETONURIA</skos:altLabel>
+        <skos:definition rdf:datatype="&xsd;string">A congenital metabolic disease (of autosomal recessive inheritance), that is characterized by abnormally high levels of phenylalanine (hyperphenylalaninemia) and related metabolites such as phenylpyruvate, phenyllactate, phenylacetate, phenylacetylglutamine), and that is triggered by phenylalanine-4-hydoxilase deficiency (PAH deficinecy) that is caused by the mutations in the gene coding for phenylalanine hydoxilase (PAH). If untreated, pehnylalanine and its metabolic byproducts accumulate in the central nervous system and can cause severe brain damage, seizures (or convilsions), microcephaly, various language disorders (stuttering, slurrs, lisps), mental retardation, behavioral abnormalities, learning disabilities etc. Hypopigmentations and eczema are also observed.</skos:definition>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: Donlon, J., Levy, H., Scriver, C. R.  The online metabolic and molecular bases of inherited diseases. Part 8. Chapter 77: Hyperphenylalaninemia: Phenylalanine Hydroxylase Deficiency, The McGraw-Hill Companies, retrievable from http://www.ommbid.com/OMMBID/the_online_metabolic_and_molecular_bases_of_inherited_disease/b/abstract/part8/ch77</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+	</owl:Class>
+        
+        
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_5448898 --> <!-- hyperphenylalaninemia -->
+        
+    <owl:Class rdf:about="&ONSTRobsolete;ONSTR_5448898">
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <rdfs:label rdf:datatype="&xsd;string">hyperphenylalaninemia</rdfs:label>
+        <skos:definition rdf:datatype="&xsd;string">Hyperphenylalaninemia is a disorder characterized by the concentrations of amino acid L-phelylalanine in the blood that are considered by medical experts as clinically abnormal (greater than 120 &#x3BC;mol/L or greater than 2 mg/dL).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">HPS</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">hyperPhe</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">hyperphenyalalninemias</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">hyperphenyalalninemia disorder</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Hyperphenylalaninemia represented by this class does NOT refer to congenital hyperphenylalaninemia caused by dysfunctional enzyme phenylalnine hydroxylase (aka PAH deficiency).</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Physician&apos;s guide to the laboratory diagnosis of metabolic diseases. (2004) N. Blau, Duran, M. Blaskovics, M.E., Gibson, K.M. Eds. Springer Verlag, pp. 89.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+	</owl:Class>
+        
+        
+        
   
 <!-- NOVO OVDE -->     
     
