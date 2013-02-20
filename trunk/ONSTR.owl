@@ -6272,21 +6272,6 @@ people infected, then extract parasite which are then tested = observation study
    
    <!-- POCETAK ovde -->
    
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5448898 --> <!-- hyperphenylalaninemia -->
-        
-    <owl:Class rdf:about="&ONSTR;ONSTR_5448898">
-        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000045"/>
-        <rdfs:label rdf:datatype="&xsd;string">hyperphenylalaninemia</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">Hyperphenylalaninemia is a disorder characterized by the concentrations of amino acid L-phelylalanine in the blood that are considered by medical experts as clinically abnormal (greater than 120 &#x3BC;mol/L or greater than 2 mg/dL).</skos:definition>
-        <skos:altLabel rdf:datatype="&xsd;string">HPS</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">hyperPhe</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">hyperphenyalalninemias</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">hyperphenyalalninemia disorder</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Hyperphenylalaninemia represented by this class does NOT refer to congenital hyperphenylalaninemia caused by dysfunctional enzyme phenylalnine hydroxylase (aka PAH deficiency).</rdfs:comment>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Physician&apos;s guide to the laboratory diagnosis of metabolic diseases. (2004) N. Blau, Duran, M. Blaskovics, M.E., Gibson, K.M. Eds. Springer Verlag, pp. 89.</rdfs:comment> 
-       <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-	</owl:Class>
-   
    
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7546388 --> <!-- congenital hyperphenylalaninemia -->
 
@@ -6318,7 +6303,7 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3854145 --> <!-- transient hyperphenylalaninemia -->
         
     <owl:Class rdf:about="&ONSTR;ONSTR_3854145">
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5448898"/>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000045"/>  <!-- disorder -->
         <rdfs:label rdf:datatype="&xsd;string">transient hyperphenylalaninemia</rdfs:label>
         <skos:definition rdf:datatype="&xsd;string">Transient hyperphenylalaninemia is a hyperphenylalaninemia charactyerized by temporary elevation of concentration of phenylalanine (and related metabolites: phenylpyruvate, phenyllactate, phenylacetate and phenylacetylglutamine) in the blood and urine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/hyperphenylalaninemia</rdfs:comment>    
@@ -6356,26 +6341,13 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2709221 --> <!--congenital metabolic disorder -->
     
     <owl:Class rdf:about="&ONSTR;ONSTR_2709221">
-        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000045"/> <!-- disorder -->
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000051"/> <!-- constitutional genetic disorder -->
         <rdfs:label rdf:datatype="&xsd;string">congenital metabolic disorder</rdfs:label> 
         <skos:altLabel rdf:datatype="&xsd;string">congenital biochemical disorder</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A group of constitutional genetic disorders that are inborn genetic mutations (for particular enzyme) and that result in enzyme absence or disfunction that produces disturbances in metabolic process involving lipids, lysosome storage and amino acids (depending on the enzyme being encoded by mutated gene).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#Inborn_Errors_of_Metabolism</rdfs:comment>       
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
 	</owl:Class>
-	
-
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0109406 --> <!-- phenylketonuria -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_0109406">
-        <rdfs:label rdf:datatype="&xsd;string">phenylketonuria</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/> <!-- congenital hyperPhe -->
-        <skos:altLabel rdf:datatype="&xsd;string">PKU</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">PHENYLKETONURIA</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A congenital metabolic disease (of autosomal recessive inheritance), that is characterized by abnormally high levels of phenylalanine (hyperphenylalaninemia) and related metabolites such as phenylpyruvate, phenyllactate, phenylacetate, phenylacetylglutamine), and that is triggered by phenylalanine-4-hydoxilase deficiency (PAH deficinecy) that is caused by the mutations in the gene coding for phenylalanine hydoxilase (PAH). If untreated, pehnylalanine and its metabolic byproducts accumulate in the central nervous system and can cause severe brain damage, seizures (or convilsions), microcephaly, various language disorders (stuttering, slurrs, lisps), mental retardation, behavioral abnormalities, learning disabilities etc. Hypopigmentations and eczema are also observed.</skos:definition>
-		<rdfs:comment rdf:datatype="&xsd;string">Definition source: Donlon, J., Levy, H., Scriver, C. R.  The online metabolic and molecular bases of inherited diseases. Part 8. Chapter 77: Hyperphenylalaninemia: Phenylalanine Hydroxylase Deficiency, The McGraw-Hill Companies, retrievable from http://www.ommbid.com/OMMBID/the_online_metabolic_and_molecular_bases_of_inherited_disease/b/abstract/part8/ch77</rdfs:comment>
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-    </owl:Class>
 
 
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4872388 --> <!-- phenylketonuria -->
@@ -6407,8 +6379,6 @@ people infected, then extract parasite which are then tested = observation study
                  </owl:intersectionOf>
             </owl:Class>
     	 </owl:equivalentClass>
-        
-        
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine-4-hydroxilase deficiency</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">PAH deficiency</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">PAH deficiency is a congenital metabolic disorder characterized by reduced activity (deficiency in activity) of the enzyme phenylalanine-4-hydroxilaze, that is caused by two recessive mutated PAH alleles in the inherited PAH genome. PAH deficiency (and hypephenylalalninemia, and PKU, respectively) has autosomal recessive inheritance pattern with most cases in compound heterozygous state (genetic compound) where both maternal and paternal PAH alleles are differently mutated and present at chromosome 12.</skos:definition>
@@ -6447,7 +6417,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1272933">
         <rdfs:label rdf:datatype="&xsd;string">classic phenylketonuria</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0109406"/>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/> <!-- congenital hyperPhe -->
         <skos:altLabel rdf:datatype="&xsd;string">classic PKU</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">severe PKU</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is caused by hyperphenylalaninemina (HPA) having phenyalalnine blood concentration greater than 1200 mumol/L (20 mg/dL).</skos:definition>
@@ -6460,7 +6430,7 @@ people infected, then extract parasite which are then tested = observation study
  	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4838542 --> <!-- moderate phenylketonuria --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_4838542">
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0109406"/>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/> <!-- congenital hyperPhe -->
         <rdfs:label rdf:datatype="&xsd;string">moderate phenylketonuria</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">moderate PKU</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is caused by hyperphenylalaninemina (HPA) having measured phenyalalnine blood concentration in the range 900-1200 mumol/L (15-20 mg/dL).</skos:definition>
@@ -6473,7 +6443,7 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9287404 -->  <!-- mild phenylketonuria --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_9287404">
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0109406"/>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/> <!-- congenital hyperPhe -->
         <rdfs:label rdf:datatype="&xsd;string">mild phenylketonuria</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">mild PKU</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is caused by hyperphenylalaninemina (HPA) having phenyalalnine blood concentration greater in the range 600-900 mumol/L (10-15 mg/dL).</skos:definition>
