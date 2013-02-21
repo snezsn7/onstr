@@ -6273,7 +6273,7 @@ people infected, then extract parasite which are then tested = observation study
    <!-- POCETAK ovde -->
    
    
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7546388 --> <!-- congenital hyperphenylalaninemia -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7546388 --> <!-- hyperphenylalaninemia -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7546388">
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7112823"/> <!-- congenital metabolic disease -->
@@ -6288,7 +6288,7 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
     	 </owl:equivalentClass>
-        <rdfs:label rdf:datatype="&xsd;string">congenital hyperphenylalaninemia</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">HPA</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninemia (disease)</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninaemias</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">congenital HPA</skos:altLabel>
@@ -6350,14 +6350,15 @@ people infected, then extract parasite which are then tested = observation study
 	</owl:Class>
 
 
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4872388 --> <!-- phenylketonuria -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4872388 --> <!-- benign hyperphenylalaninemia -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4872388">
-        <rdfs:label rdf:datatype="&xsd;string">benign congenital hyperphenylalaninemia</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">benign hyperphenylalaninemia</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/> <!-- congenital hyperPhe -->
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">benign hyperPhe</skos:altLabel>
-        <skos:altLabel rdf:datatype="&xsd;string">congenital hyperPhe</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mild HPA</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">mild hyperphenylalaninemia</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">H-PHE</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
@@ -26573,10 +26574,10 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7714134 -->  <!-- role of a molecule in biochemical reactions -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7714134 -->  <!-- role of a molecule in biochemical reaction -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7714134">
-        <rdfs:label rdf:datatype="&xsd;string">role of a molecule in biochemical reactions</rdfs:label> 
+        <rdfs:label rdf:datatype="&xsd;string">role of a molecule in biochemical reaction</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/> <!-- bfo2:role -->
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
