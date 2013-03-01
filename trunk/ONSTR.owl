@@ -24771,9 +24771,9 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0123063 -->  <!-- nutritional formula quantity datum  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0123063">
-        <rdfs:label rdf:datatype="&xsd;string">nutritional formula quantity datum</rdfs:label>  
+        <rdfs:label rdf:datatype="&xsd;string">newborn nutritional intake datum</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
-        <skos:definition rdf:datatape="&xsd;string">Newborn nutritional intake datum is a data item that provides the information about the kinds of nutritional items a newborn is fed during the newborn screening process.</skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Newborn nutritional intake datum is a data item that provides the information about the kinds of nutritional items a newborn is beenfed at the time of dried blood spot creation diring the newborn dried blood screening process.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">feeding status</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">feeding type</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">nutrtrition status</skos:altLabel>
