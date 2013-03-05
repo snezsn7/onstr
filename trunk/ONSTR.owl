@@ -25203,13 +25203,13 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class> 
     
     
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7890764 -->  <!-- performing confirmatory diagnosis  -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7890764 -->  <!-- performing disease confirmatory diagnosis  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7890764">
-        <rdfs:label rdf:datatype="&xsd;string">performing confirmatory diagnosis</rdfs:label>  
+        <rdfs:label rdf:datatype="&xsd;string">performing disease confirmatory diagnosis</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000988"/> <!-- performing a diagnosis -->  
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Performing disease confirmatory diagnosis is a performing a diagnosis that realizes the clinical geneticist role and that has the output confirmatory diagnosis for a particular inherited metabolic disease.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
      
@@ -25219,8 +25219,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0848622">
         <rdfs:label rdf:datatype="&xsd;string">performing nutrition diagnosis</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000988"/> <!-- performing a diagnosis -->  
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Performing nutrition diagnosis is a performing a diagnosis that realizes the dietitian role and that consists of identifying the nutrition related problem and the etiology or contributing  risk factor thereof and related signs and symptoms.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Academy of Nutrition and Dietetics (2013) International Dietetics and Nutrition Terminology (IDNT) Reference Manual. Standardized Language for the Nutrition Care Process. 4th Ed. Academy of Nutrition and Dietetics, Chicago, IL, pp. 10-11, 37-48.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -25443,8 +25443,8 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">newborn dried blood spot screening test result analysis</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>  <!-- data transfornation -->
         <!-- cross with health care process ogms:0000096  --> 
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Newborn dried blood spot screening test result analysis is a data transformation that is performed by biochemical geneticist or a team of experts (including biochemical geneticist, metabolic dietitian and newborn screening program coordinator) and that has the output newborn dried blood spot screening test finding.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>      
      
