@@ -25441,7 +25441,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1267261">
         <rdfs:label rdf:datatype="&xsd;string">newborn dried blood spot screening test result analysis</rdfs:label>  
-        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>  <!-- data transfornation -->
         <!-- cross with health care process ogms:0000096  --> 
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
@@ -25920,19 +25920,44 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0963392">
         <rdfs:label rdf:datatype="&xsd;string">range datum</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/> <!-- data item --> 
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Range datum is a data item that provides the information about the set of values limited by the smallest and largest value a particular (observed) measurement datum takes in observed research, clinical or medical context/situation.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Note: Class name &apos;range datum&apos; does not refer to the &apos;range statistic&apos; which refers to the difference between the largest and the smallest value of a particular statistical data set.</rdfs:comment>    
+        <skos:example rdf:datatype="&xsd;string">Therapeutic range for blood phenylalanine concentration is XXX to XXX &#x3BC;M </skos:example>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Range_(statistics)</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
     
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1164002 -->  <!-- therapeutic range datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1164002">
+        <rdfs:label rdf:datatype="&xsd;string">therapeutic range datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0963392"/> <!-- range datum --> 
+        <skos:definition rdf:datatape="&xsd;string">Therapeutic range datum is a range datum that provides the information about the concentration range of a particular chemical (e.g. medication, therapeutic agent, nutrient or metabolite) in an observed bodily fluid such that the concentration values falling within this range do not produce or produce minimal toxic effects to most of the members of the observed population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/therapeutic+range</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+ 
+ 
  
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0974359 -->  <!-- blood chemical concentration therapeutic range datum  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0974359">
         <rdfs:label rdf:datatype="&xsd;string">blood chemical concentration therapeutic range datum</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0963392"/> <!-- range datum --> 
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1164002"/> <!-- therapeutic range datum --> 
+        <skos:definition rdf:datatape="&xsd;string">Blood chemical concentration therapeutic range datum is a therapeutic range datum providing the information about the set of values (limited by the minimal and maximal values) of the concentration of particular chemical in the blood, such that the concentration values falling within this range do not produce or produce minimal toxic effects to most of the members of the observed population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/therapeutic+range</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7644562 -->  <!-- blood chemical concentration therapeutic range datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7644562">
+        <rdfs:label rdf:datatype="&xsd;string">blood amino acid concentration therapeutic range datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0974359"/>  <!-- blood chemical concentration therapeutic range datum  --> 
+        <skos:definition rdf:datatape="&xsd;string">Blood amino acid concentration therapeutic range datum is a blood chemical concentration therapeutic range datum that provides the information about the set of values (limited by the minimal and maximal values) of blood concentration measurements of an observed amino acid, such that the amino acid concentration values falling within this range do not produce or produce minimal toxic effects to most of the members of the observed population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
     
@@ -25941,9 +25966,9 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5076673">
         <rdfs:label rdf:datatype="&xsd;string">blood phenyalanine concentration therapeutic range datum</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0963392"/> <!-- range datum --> 
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7644562"/> <!-- blood amino acid concentration therapeutic range datum --> 
+        <skos:definition rdf:datatape="&xsd;string">Blood phenylalanine concentration therapeutic range datum is a blood amino acid concentration therapeutic range datum that provides the information about the set of values of blood phenylalanine concentration measurements, such that the blood phenylalanine concentration values falling within this range do not produce or produce minimal toxic effects to most of the members of the observed population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
     
@@ -25952,21 +25977,43 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2625903">
         <rdfs:label rdf:datatype="&xsd;string">blood tyrosine concentration therapeutic range datum</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0963392"/> <!-- range datum --> 
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7644562"/> <!-- blood amino acid concentration therapeutic range datum --> 
+        <skos:definition rdf:datatape="&xsd;string">Blood tyrosine concentration therapeutic range datum is a blood amino acid concentration therapeutic range datum that provides the information about the set of values of blood tyrosine concentration measurements, such that the blood tyrosine concentration values falling within this range do not produce or produce minimal toxic effects to most of the members of the observed population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
     
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6403260 -->  <!-- blood fatty acid concentration therapeutic range datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6403260">
+        <rdfs:label rdf:datatype="&xsd;string">blood fatty acid concentration therapeutic range datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0974359"/>  <!-- blood chemical concentration therapeutic range datum  -->
+        <skos:definition rdf:datatape="&xsd;string">Blood fatty acid concentration therapeutic range datum is a blood chemical concentration therapeutic range datum that provides the information about the set of values (limited by the minimal and maximal values) of blood concentration measurements of an observed fatty acid, such that the fatty acid concentration values falling within this range do not produce or produce minimal toxic effects to most of the members of the observed population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+   
+   
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7934212 -->  <!-- blood organic acid concentration therapeutic range datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7934212">
+        <rdfs:label rdf:datatype="&xsd;string">blood organic acid concentration therapeutic range datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0974359"/>  <!-- blood chemical concentration therapeutic range datum  -->
+        <skos:definition rdf:datatape="&xsd;string">Blood organic acid concentration therapeutic range datum is a blood chemical concentration therapeutic range datum that provides the information about the set of values (limited by the minimal and maximal values) of blood concentration measurements of the observed organic acid, such that the organic acid concentration values falling within this range do not produce or produce minimal toxic effects to most of the members of the observed population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>   
+   
    
     
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0974359 -->  <!-- urine chemical concentration therapeutic range datum  -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7882695 -->  <!-- urine chemical concentration therapeutic range datum  -->
 
-    <owl:Class rdf:about="&ONSTR;ONSTR_0974359">
+    <owl:Class rdf:about="&ONSTR;ONSTR_7882695">
         <rdfs:label rdf:datatype="&xsd;string">urine chemical concentration therapeutic range datum</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0963392"/> <!-- range datum --> 
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1164002"/> <!-- therapeutic range datum --> 
+        <skos:definition rdf:datatape="&xsd;string">Urine chemical concentration therapeutic range datum is a therapeutic range datum providing the information about the set of values (limited by the minimal and maximal values) of the concentration of particular chemical in the urine, such that the concentration values falling within this range do not produce or produce minimal toxic effects to most of the members of the observed population.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/therapeutic+range</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
     
@@ -25976,8 +26023,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5493677">
         <rdfs:label rdf:datatype="&xsd;string">tolerable nutrient intake range datum</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0963392"/> <!-- range datum --> 
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Tolerable nutrient intake range is a range datum that provides the information about the set of values of daily intake of a particular nutrient (quantity), such that the intake of that nutrient results in concentrations of the nutrient in bodily fluids (usually blood) that fall within therapeutic range for that particular nutrient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
      
