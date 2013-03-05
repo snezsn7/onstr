@@ -25550,9 +25550,12 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6432856">
         <rdfs:label rdf:datatype="&xsd;string">newborn intensive care unit nurse role</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000014"/>  <!-- omrse:nurse role -->
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF HERE </skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Newborn intensive care unit nurse role is a nurse role that is realized in the process of providing nursing care to newborn infants up to 28 days post birth who are diagnosed with prematurity, congenital defects, illness, delivery complications or other medical conditions.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">NICU nurses along with physicians formulate nursing care plans and assess, plan, implement and evaluate the effectiveness of treatments in these plans. On a daily basis they administer medications, perform complex procedures, work with complicated technology, and consult with an interdisciplinary healthcare team to coordinate all aspects of a patient&apos;s care. [Source: http://www.innerbody.com/careers-in-health-/nicu-nurcing-careers.html] </rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">NICU nurse role is realized in processes of (roughly) Level II and level III of neonatal care. At level II NICU nurse provides intermediate or special care for premature ill newborns. At this level, infants may need special therapy provided by nursing staff, or may simply need more time before being discharged. At Level III, the Neonatal intensive care unit (NICU), treats newborns who cannot be treated in the other levels and are in need of high technology to survive, such as breathing and feeding tubes. Nurses comprise over 90 percent of the NICU staff. [Source: http://en.wikipedia.org/wiki/Neonatal_nursing ]</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">NICU nurse role</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Neonatal_nursing</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.innerbody.com/careers-in-health-/nicu-nurcing-careers.html</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
      </owl:Class>
 
@@ -25562,9 +25565,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4390682">
         <rdfs:label rdf:datatype="&xsd;string">well-baby nurse role nurse role</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000014"/>  <!-- omrse:nurse role -->
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF HERE </skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Well-baby nurse role is a nurse role that is realized in processes of providing nursing care to healthy newborn infants up to 28 days post birth or newborns and to their mothers.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">mother-baby nurse role</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Neonatal_nursing</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.innerbody.com/careers-in-health-/nicu-nurcing-careers.html</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
      </owl:Class>
      
@@ -25574,8 +25578,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5544961">
         <rdfs:label rdf:datatype="&xsd;string">newborn screening program nurse role</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000014"/>  <!-- omrse:nurse role -->
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF HERE </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening program nurse role is a nurse role that is realized during processes of newborn dried blood spot screenig short-term follow-up (e.g. identifying and locating the infant screened positive for an inherited metabolic disease (IMD), contacting infant&apos;s primary care physician and family, referring to specialist, analyzing the newborn screening test results, in some IMDs cases recommending the therapy initiation etc.).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
      </owl:Class>
 
@@ -25585,8 +25589,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5420157">
         <rdfs:label rdf:datatype="&xsd;string">newborn screening program coordinator role</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000012"/>  <!-- health care provider role -->
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF HERE </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Newborn screening program coordinator role is a health care provider role that is realized in during the processes of newborn short-term follow-up process by coordinating and overseeing the work of newborn screening program team members (usually newborn screening program nurses).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
      </owl:Class>
 
@@ -25596,8 +25600,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5585204">
         <rdfs:label rdf:datatype="&xsd;string">dietitian role</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000012"/>  <!-- health care provider role -->
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF HERE </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Dietitian role is a health care provider role that is realized by a human trained in science of nutrition who passed the professional registration exam, and during the nutrition care processes (nutrition status assessment, nutrition diagnosing, nutrition therapy evaluation and adjustment etc.)</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Whitney, E. N., Rolfes, S.H. (2012) Understanding nutrition 13th Ed. Wadsworth, Cengage Learning.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
      </owl:Class>
      
@@ -25607,8 +25611,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6732721">
         <rdfs:label rdf:datatype="&xsd;string">metabolic dietitian role</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5585204"/>  <!-- dietitian role -->
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF HERE </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Metabolic dietitian role is a dietitian role that is realized in processes of nutrition care specifically related to treatment and management of patients with inherited or congenital metabolic diseases.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
      </owl:Class>
      
@@ -25618,8 +25622,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5527596">
         <rdfs:label rdf:datatype="&xsd;string">primary care physician role</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000013"/>  <!-- omrse:physician role -->
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF HERE </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Primary care physician role is a physician role that is realized in processes of providing first contact care for a person with an undiagnosed health concern as well as continuing care of various medical conditions.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Primary_care_physician</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">PCP role</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
      </owl:Class>
@@ -25630,8 +25634,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6631562">
         <rdfs:label rdf:datatype="&xsd;string">audiologist role</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000013"/>  <!-- omrse:physician role -->     
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF HERE </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Audiologist role is a physician role that is realized by a human trained in medicine specializing in audiology and during processes of identifying, diagnosing, treating and monitoring of the auditory and vestibular system portion of the ear.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Audiology</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
      </owl:Class>
 
@@ -25641,8 +25645,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8560387">
         <rdfs:label rdf:datatype="&xsd;string">pediatric cardiologist role</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000013"/>  <!-- omrse:physician role --> 
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF HERE </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Pediatric cardiologist role is a physician role that is realized during processes of providing heart related health care to newborns such as identifying, diagnosing, treating and monitoring of congenital heart disorders, coronary artery disease, heart failure, valvular heart diseases and electrophysiology.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Cardiology</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
     </owl:Class>
    
@@ -25652,7 +25656,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5242351">
         <rdfs:label rdf:datatype="&xsd;string">pediatrician role</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000013"/>  <!-- omrse:physician role -->   
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Pediatrician role is a physician role that is realized by a human during processes of providing health care to infants, children ands adolescents.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Pediatrics</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
     </owl:Class>
     
@@ -25662,7 +25667,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6734136">
         <rdfs:label rdf:datatype="&xsd;string">geneticist role</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000012"/>  <!-- omrse:health care provider role -->   
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Geneticist role is a health care provider role that is realized by a human professionally trained in biology or medicine specializing in genetics, and during processes of research in the field of heredity and genetic variation, evaluation, diagnosing and management of patients with inherited condition or congenital malformations, genetic risk calculation, mutation analysis, referral of patients to other specialists.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Geneticist</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
     </owl:Class>
     
@@ -25672,8 +25678,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3374029">
         <rdfs:label rdf:datatype="&xsd;string">biochemical geneticist role</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6734136"/>  <!-- geneticist role -->
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF HERE </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD  HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Biochemical geneticist role is a geneticist role that is realized during the processes of diagnosis and management of patients with inherited metabolic diseases.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">metabolic geneticist role</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Medical_genetics</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
     </owl:Class>
     
@@ -25683,8 +25690,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9022128">
         <rdfs:label rdf:datatype="&xsd;string">molecular geneticist role</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6734136"/>  <!-- geneticist role -->
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF HERE </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Molecular geneticist role	 is a geneticist role that is realized during processes involving the discovery of and laboratory testing for DNA mutations that underline many single gene disorders.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Medical_genetics</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
     </owl:Class>
     
@@ -25694,8 +25701,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1691417">
         <rdfs:label rdf:datatype="&xsd;string">clinical geneticist role</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6734136"/>  <!-- geneticist role -->
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF HERE </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Clinical geneticist role is a geneticist role that is realized by a human trained in medicine (a physician) during the processes of detection and treatment of patients with various hereditary disorders including birth defects, developmental delay, autism, short stature etc. </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Medical_genetics</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.acmg.net</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
     </owl:Class>
     
@@ -25705,8 +25713,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6191227">
         <rdfs:label rdf:datatype="&xsd;string">genetic councelor role</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;OMRSE_00000012"/>  <!-- omrse:health care provider role -->   
-        <skos:definition rdf:datatape="&xsd;string">ADD NL DEF HERE </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Genetic counselor role is a health care provider role that is realized in processes of providing information and supportive counseling to patients and families affected by or at risk for genetic conditions, identify genetic risks, investigating problems, interpreting and communicating information about genetic disorders, analyzing inheritance patterns and risks of recurrence and reviewing available options with patients and families.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.acmg.net </rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
     </owl:Class>
     
@@ -25717,7 +25725,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">nutritional item role </rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000319"/>  <!-- material to be added role -->
         <skos:definition rdf:datatape="&xsd;string">Nutritional item role is a material to be added role born by a nutritional item and that is realized by the process of enteral or parenteral administration where the the target of material addition role is born by a Homo sapiens.</skos:definition>
-         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
     </owl:Class>
     
