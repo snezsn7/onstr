@@ -25318,13 +25318,13 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5618701 -->  <!-- inheritable disease specific confirmatory test  -->
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5618701 -->  <!-- disease specific confirmatory test  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5618701">
-        <rdfs:label rdf:datatype="&xsd;string">inheritable disease specific confirmatory test</rdfs:label>  
+        <rdfs:label rdf:datatype="&xsd;string">disease specific confirmatory test</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/> <!-- assay -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Disease specific confirmatory test is an assay that has specified output providing an information based on which the presence or absence of a particular disease can be determined with relatively high degree of reliability.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -25335,8 +25335,9 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">long-term follow-up interval visit</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
         <!-- cros with health care encounter ogms_0000097 ??? and/or health care process ogms:0000096  -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Long-term follow-up interval visit is a health care process that realizes patient role, metabolic dietitian role and physician role and that consists of collection of health care processes unfolding on a regular basis during which a patient&apos;s overall growth and development (physical growth, physco-motor and psycho-cognitive development) is been examined, assessed and evaluated by various medical specialist and patient&apos;s therapy (nutrition and medication) evaluated and adjusted.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Some of the processes unfolding during a patient long-term follow-up interval visit are: physical examination, nutrition assessment, psycho-cognitive development assessment, physical growth assessment etc.</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -25347,8 +25348,9 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">nutrition care process</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
         <!-- cross with health care process ogms:0000096  -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Nutrition care process is a health care process that realizes dietitian role and patient role and that is a collection of processes designed to improve consistency and quality of personalized nutrition treatment and the predictability of patient&apos;s outcome.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">NCP</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Academy of Nutrition and Dietetics (2013) International Dietetics and Nutrition Terminology (IDNT) Reference Manual. Standardized Language for the Nutrition Care Process. 4th Ed. Academy of Nutrition and Dietetics, Chicago, IL, pp. 9-16.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -25359,9 +25361,9 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">nutrition assessment</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0600003"/>  <!-- performing clinical assessment  -->
         <!-- cross with health care process ogms:0000096  -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Nutrition assessment is a health care process that realizes dietitian role and patient role and that is a collection of processes of obtaining, verifying and interpreting the data needed for establishing a nutrition diagnosis.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">nutrition status assessment</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Academy of Nutrition and Dietetics (2013) International Dietetics and Nutrition Terminology (IDNT) Reference Manual. Standardized Language for the Nutrition Care Process. 4th Ed. Academy of Nutrition and Dietetics, Chicago, IL, pp. 19-33.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -25371,9 +25373,9 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3420637">
         <rdfs:label rdf:datatype="&xsd;string">nutritional item intake assessment</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0600003"/>  <!-- performing clinical assessment  -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Nutritional item intake assessment is a health care process that realizes dietitian role and that includes processes pertaining to nutrition intake data collection and analysis used in establishing nutrition diagnosis.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">dietary assessment</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -25383,8 +25385,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8297986">
         <rdfs:label rdf:datatype="&xsd;string">nutritional item intake data entry</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;ERO_0000721"/>  <!-- ero:data entry -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Nutritional item intake data entering is a planned process that realizes dietitian role and that consist of nutritional intake data conversion into digital form by typing on computer keyboard.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -25395,8 +25397,8 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">patient metabolic control assessment</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0600003"/>  <!-- performing clinical assessment  -->
         <!-- cross with health care process ogms:0000096  -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Patient metabolic control assessment is a performing clinical assessment that realizes dietitian role and that has a goal to determine patient&apos;s metabolic control (metabolic regulation) of metabolic pathways of interest for a particular patient diagnosed with and inherited metabolic disease.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
 
@@ -25409,6 +25411,8 @@ people infected, then extract parasite which are then tested = observation study
         <!-- cross with health care process ogms:0000096  -->
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">In terms of the sequentiality of newborn screening system processes, treatment initiation process usually marks the onset of the long-term follow-up of patient diagnosed with and inherited metabolic disease. Since some conditions can be life threatening within a few days after birth (e.g., organic acidurias, galactosemia, maple sirup urine disease), the therapeutic treatment is been initiated as soon a positive result for such diseases has been reported through newborn dried blood spot screening. [Source: Recommended uniform Screening Panel of the Secretary&apos;s Advisory Committee on Heritable Disorders in Newborns and Children. ]</rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -25419,8 +25423,8 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">nutrition intervention</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
         <!-- cross with health care process ogms:0000096  -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Nutrition intervention is a health care process that realizes the dietitian role and that consists of 1) planning (prioritizing the nutrition diagnoses, conferring with patient and/or patient&apos;s family, reviewing practice guidelines and policies and setting goals and defining the specific nutrition intervention strategy) and 2) implementation (carrying on and communicating plan of care, continuing data collection, revising the nutrition intervention strategy).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Academy of Nutrition and Dietetics (2013) International Dietetics and Nutrition Terminology (IDNT) Reference Manual. Standardized Language for the Nutrition Care Process. 4th Ed. Academy of Nutrition and Dietetics, Chicago, IL, pp. 51-61.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
@@ -25431,8 +25435,8 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">nutrition monitoring</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
         <!-- cross with health care process ogms:0000096  --> 
-         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
+         <skos:definition rdf:datatape="&xsd;string">Nutrition monitoring is a health care process that realizes the dietitian role and that is a preplanned review of changes observed  in various measurements over time (nutritional intakes, blood metabolites, physical and physcho-cognitive growth and development) with the goal to determine and improve the effectiveness of the nutrition treatment.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Academy of Nutrition and Dietetics (2013) International Dietetics and Nutrition Terminology (IDNT) Reference Manual. Standardized Language for the Nutrition Care Process. 4th Ed. Academy of Nutrition and Dietetics, Chicago, IL, pp. 67-76.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
          
