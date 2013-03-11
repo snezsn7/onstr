@@ -8820,10 +8820,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2067486">
         <rdfs:label rdf:datatype="&xsd;string">tolerable nutrient intake datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3255175"/>  <!-- nutrient intake datum -->
-        <skos:definition rdf:datatape="&xsd;string">Tolerable nutrient intake datum is a scalar measurement datum that provides the information about the quantity of a particluar nutrient that a patient can consume in 24 hours time interval (enterally or parenterally) such that the value of the concentration of the observed nutrient in a bodily fluid (usually blood or urine) falls within the therapeutic range for that particular nutrient.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">The quantity of a consumed nutrient that a patient can &apos;tolerate&apos; while &apos;staying&apos; within a therapeutic range for that particular nutrient.</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Tolerable nutrient intake datum is a scalar measurement datum that provides the information about the quantity of a particluar nutrient that a patient can consume enterally or parenterally during the 24 hours time interval, such that the value of the concentration of the observed nutrient in a bodily fluid (usually blood or urine) measured after the observed 24 hours falls within the therapeutic range for that particular nutrient.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">The quantity of the consumed nutrient that a patient can &apos;tolerate&apos; while &apos;staying&apos; within a therapeutic range for that particular nutrient.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">nutrient intake tolerance</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
 
@@ -8833,10 +8833,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0446553">
         <rdfs:label rdf:datatype="&xsd;string">tolerable amino acid intake datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2067486"/>  <!-- tolerable nutrient intake datum -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Tolerable amino acid intake datum is a tolerable nutrient intake datum that provides the information about quantity of a particular amino acid that a patient can consume enterally or parenterally during the 24 hours time interval, such that the value of the concentration of the observed amino acid in a bodily fluid (usually blood or urine) measured after the observed 24 hours falls within the therapeutic range for that particular amino acid.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">amino acid intake tolerance</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">amino acid tolerance</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
 
@@ -8846,11 +8846,11 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7976727">
         <rdfs:label rdf:datatype="&xsd;string">tolerable phenylalanine intake datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0446553"/>  <!-- tolerable amino acid intake datum -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Tolerable phenylalanine intake datum is a tolerable amino acid intake datum that provides the information about quantity of phenyalalnine that a patient can consume enterally or parenterally during the 24 hours time interval, such that the value of the concentration of phenylalanine in the blood measured after the observed 24 hours falls within the therapeutic range for blood phenylalanine.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine intake tolerance</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine tolerance</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">Phe tolerance</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
      
@@ -8860,31 +8860,24 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6108759">
         <rdfs:label rdf:datatype="&xsd;string">tolerable tyrosine intake datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0446553"/>  <!-- tolerable amino acid intake datum -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Tolerable tyrosine intake datum is a tolerable amino acid intake datum that provides the information about quantity of tyrosine that a patient can consume enterally or parenterally during the 24 hours time interval, such that the value of the concentration of tyrosine in the blood measured after the observed 24 hours falls within the therapeutic range for blood tyrosine.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">tyrosine intake tolerance</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">tyrosine tolerance</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">Tyr tolerance</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
      
-     
-     
-     
-     
-
-
-
 
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3587453 --> <!-- tolerable atty acid intake datum -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3587453">
         <rdfs:label rdf:datatype="&xsd;string">tolerable fatty acid intake datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2067486"/>  <!-- tolerable nutrient intake datum -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Tolerable fatty acid intake datum is a tolerable nutrient intake datum that provides the information about quantity of a particular fatty acid that a patient can consume enterally or parenterally during the 24 hours time interval, such that the value of the concentration of the observed fatty acid in a bodily fluid (usually blood or urine) measured after the observed 24 hours falls within the therapeutic range for that particular fatty acid.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">fatty acid intake tolerance</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">fatty acid tolerance</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
      
@@ -8894,10 +8887,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7629801">
         <rdfs:label rdf:datatype="&xsd;string">tolerable organic acid intake datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2067486"/>  <!-- nutrient intake tolerance datum -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Tolerable organic acid intake datum is a tolerable nutrient intake datum that provides the information about quantity of a particular organic acid that a patient can consume enterally or parenterally during the 24 hours time interval, such that the value of the concentration of the observed organic acid in a bodily fluid (usually blood or urine) measured after the observed 24 hours falls within the therapeutic range for that particular organic acid.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">organic acid intake tolerance</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">organic acid tolerance</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
 
