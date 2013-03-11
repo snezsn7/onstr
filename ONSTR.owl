@@ -25799,8 +25799,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6235894">
         <rdfs:label rdf:datatype="&xsd;string">confirmatory testing blood plasma chemical concentration measurement datum</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000582"/> <!-- iao:time stamped data -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Confirmatory testing blood plasma chemical concentration measurement datum is a time stamped measurement datum (time stamped scalar measurement datum) that is time stamped by the date of newborn dried blood spot specimen creation date and by the newborn&apos;s age at the time of confirmatory testing blood  specimen collection.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
     </owl:Class>
     
@@ -25826,8 +25826,8 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Confirmatory testing blood plasma amino acid concentration measurement datum is a confirmatory testing blood plasma chemical concentration measurement datum that provides the information about the concentration of the observed amino acids in the newborn&apos;s blood at the time of confirmatory testing blood specimen collection.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
     </owl:Class>
     
@@ -25837,8 +25837,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8733959">
         <rdfs:label rdf:datatype="&xsd;string">confirmatory testing blood plasma fatty acid concentration measurement datum</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6235894"/>  <!-- confirmatory testing blood plasma chemical concentration measurement datum  -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Confirmatory testing blood plasma fatty acid concentration measurement datum is a confirmatory testing blood plasma chemical concentration measurement datum that provides the information about the concentration of the observed fatty acids in the newborn&apos;s blood at the time of confirmatory testing blood specimen collection.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
     </owl:Class>
     
@@ -25848,8 +25848,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4184282">
         <rdfs:label rdf:datatype="&xsd;string">confirmatory testing blood plasma organic acid concentration measurement datum</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6235894"/>  <!-- confirmatory testing blood plasma chemical concentration measurement datum  -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Confirmatory testing blood plasma organic acid concentration measurement datum  is a confirmatory testing blood plasma chemical concentration measurement datum that provides the information about the concentration of the observed organic acids in the newborn&apos;s blood at the time of confirmatory testing blood specimen collection.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete.</skos:editorialNote>
     </owl:Class>
     
