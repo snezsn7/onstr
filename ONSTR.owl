@@ -8820,7 +8820,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2067486">
         <rdfs:label rdf:datatype="&xsd;string">tolerable nutrient intake datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3255175"/>  <!-- nutrient intake datum -->
-        <skos:definition rdf:datatape="&xsd;string">Tolerable nutrient intake datum is a scalar measurement datum that provides the information about the quantity of a particluar nutrient that a patient can consume enterally or parenterally during the 24 hours time interval, such that the value of the concentration of the observed nutrient in a bodily fluid (usually blood or urine) measured after the observed 24 hours falls within the therapeutic range for that particular nutrient.</skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Tolerable nutrient intake datum is a nutrient intake datum that provides the information about the quantity of a particluar nutrient that a patient can consume enterally or parenterally during the 24 hours time interval, such that the value of the concentration of the observed nutrient in a bodily fluid (usually blood or urine) measured after the observed 24 hours falls within the therapeutic range for that particular nutrient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">The quantity of the consumed nutrient that a patient can &apos;tolerate&apos; while &apos;staying&apos; within a therapeutic range for that particular nutrient.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">nutrient intake tolerance</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
@@ -12639,7 +12639,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8199564">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary nutrient intake during observed time interval datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3290480"/> <!-- average daily dietary nutrient intake datum -->
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary nutrient intake over observed time interval datum is a nutrent intake datum denoting the average quantity of relevant nutrient contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary nutrient intake over observed time interval datum is an average daily dietary nutrient intake datum denoting the average quantity of relevant nutrient contained in all nutritional items that have been ingested by a human patient during the time interval observed by a dietitian (one day, two days or three days).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment> 
         <rdfs:comment rdf:datatype="&xsd;string">Average daily dietary nutrient intake during observed time interval datum is a scalar that can be conceived and calculated as a grand average of all daily averages of the nutrient of interest. For instance, average daily total dietary protein intake during three day interval can be calculated as a grand average of the average daily dietary protein intakes for all three days of observation relevant for dietary analysis.</rdfs:comment>       
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -13216,8 +13216,8 @@ people infected, then extract parasite which are then tested = observation study
 				</owl:intersectionOf>
 		  </owl:Class>
        </owl:equivalentClass>
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Average daily dietary energy intake datum is a dietary energy intake datum that provides the information about the average quantity of dietary energy derived from all nutritional items taken by a human patient or study subject during the time interval relevant for dietary analysis and that is the output of the nutrient intake analysis.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -16034,8 +16034,8 @@ people infected, then extract parasite which are then tested = observation study
 				</owl:intersectionOf>
 		  </owl:Class>
         </owl:equivalentClass>
-    	<skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+    	<skos:definition rdf:datatape="&xsd;string">Average daily dietary nutrient intake datum is nutrient intake datum that provides the information about the average quantity of observed dietary nutrients that have been consumed by patient or study subject during the time interval relevant for nutrition assessment or nutrition monitoring and that is the output of the nutrient intake analysis.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>   
      
@@ -16046,7 +16046,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5320178">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary nutrient intake per body mass during observed time interval datum</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3290480"/> <!-- average daily dietary nutrient intake datum -->
-        <skos:definition rdf:datatype="&xsd;string">Average daily dietary nutrient intake per body mass during observed time interval datum is a dietary nutrient intake datum denoting the average quantity of relevant nutrient contained in all nutritional items taken by a human patient during the observed time period (one day, two days or three days) with respect to the body mass of the the human patient.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Average daily dietary nutrient intake per body mass during observed time interval datum is an average daily dietary nutrient intake datum denoting the average quantity of relevant nutrient contained in all nutritional items taken by a human patient during the observed time period (one day, two days or three days) with respect to the body mass of the the human patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>     
         <rdfs:comment rdf:datatype="&xsd;string">Average dietary nutrient intake per body mass during observed time interval is a scalar calculated by dividing the average quantity of a given nutrient contained in all food items taken by a human patient during the observed time period by the number of kilograms of patient body mass.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -18719,7 +18719,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4105817">
         <rdfs:label rdf:datatype="&xsd;string">dietary energy intake datum</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8313486"/>
-        <skos:definition rdf:datatype="&xsd;string">Dietary energy intake datum is a dietary intake measurement datum providing the information about the quantity of dietary energy derived from all nutritional items taken by a human patient or study subject during the time interval relevant for dietary analysis.</skos:definition>  
+        <skos:definition rdf:datatype="&xsd;string">Dietary energy intake datum is a nutritional intake measurement datum that provides the information about the quantity of dietary energy derived from all nutritional items taken by a human patient or study subject during the time interval relevant for dietary analysis and that is the output of the nutrient intake analysis.</skos:definition>  
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -22037,7 +22037,7 @@ people infected, then extract parasite which are then tested = observation study
 				</owl:intersectionOf>
 		  </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatype="&xsd;string">Percent daily energy intake datum is a dietary energy intake datum providing the information about the quantity of energy derived from total quantity of specific nutrient taken by a patient (enterally or parenterally) during the 24 hour time interval, and expressed a percentage of the total dietary energy intake.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Percent daily energy intake datum is a dietary energy intake datum providing the information about the quantity of energy derived from total quantity of specific nutrient taken by a patient (enterally or parenterally) during the 24 hour time interval, and expressed a percentage of the total dietary energy intake, and that is the output of the nutrient intake analysis.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">percent daily dietary energy intake datum</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">percent daily nutrinet energy intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">percent daily energy intake</skos:altLabel>
