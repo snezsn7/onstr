@@ -6288,11 +6288,12 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
     	 </owl:equivalentClass>
-        <rdfs:label rdf:datatype="&xsd;string">HPA</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">hyperphenylalaninemia</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninemia (disease)</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">Hyperphenylalaninaemias</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">HPA</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">congenital HPA</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A congenital metabolic disorder of L-phenylalanine catabolism, characterized by the concentrations of amino acid L-phenylalanine in the blood that are considered by medical experts as clinically abnormal, and that is caused primarily by a deficiency of hepatic apoenzyme phenylalanine-4-hydrolase (PAH) or by the deficiency of one of the enzymes involved in PAH cofactor(i.e. tetrahydrobiopterin (BH4)) biosythesis (GTP cyclohydrolase 1 (GTPCH) and 6-pyruvol-tetrahydrobiopterin-syntase (PTPS)), or BH4 regeneration (dihydropteridine reductase (DHPR) and pterin carbinolamine-4alpha-dehydratase (PCD)).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">A congenital metabolic disease of L-phenylalanine catabolism, characterized by the concentrations of amino acid L-phenylalanine in the blood that are considered by medical experts as clinically abnormal, and that is caused primarily by a deficiency of hepatic apoenzyme phenylalanine-4-hydrolase (PAH) or by the deficiency of one of the enzymes involved in PAH cofactor(i.e. tetrahydrobiopterin (BH4)) biosythesis (GTP cyclohydrolase 1 (GTPCH) and 6-pyruvol-tetrahydrobiopterin-syntase (PTPS)), or BH4 regeneration (dihydropteridine reductase (DHPR) and pterin carbinolamine-4alpha-dehydratase (PCD)).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Physician's guide to the laboratory diagnosis of metabolic diseases. (2004) N. Blau, Duran, M. Blaskovics, M.E., Gibson, K.M. Eds. Springer Verlag, pp. 89.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: HP:0004923</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -6305,7 +6306,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3854145">
         <rdfs:subClassOf rdf:resource="&obo;OGMS_0000045"/>  <!-- disorder -->
         <rdfs:label rdf:datatype="&xsd;string">transient hyperphenylalaninemia</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">Transient hyperphenylalaninemia is a hyperphenylalaninemia charactyerized by temporary elevation of concentration of phenylalanine (and related metabolites: phenylpyruvate, phenyllactate, phenylacetate and phenylacetylglutamine) in the blood and urine.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Transient hyperphenylalaninemia is a disorder charactyerized by temporary elevation of concentration of phenylalanine (and related metabolites: phenylpyruvate, phenyllactate, phenylacetate and phenylacetylglutamine) in the blood and urine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/hyperphenylalaninemia</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6354,8 +6355,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4872388">
         <rdfs:label rdf:datatype="&xsd;string">benign hyperphenylalaninemia</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/> <!-- congenital hyperPhe -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/> <!-- hyperPhe -->
+        <skos:definition rdf:datatape="&xsd;string">Benign hyperphenylalaninemia is a hyperphenylalaninemia characterized by blood phenylalanine concentration in the range 360-600 &#x3BC;mol/L (2 - 10 mg/dL).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">benign hyperPhe</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">mild HPA</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">mild hyperphenylalaninemia</skos:altLabel>
@@ -6421,7 +6422,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/> <!-- congenital hyperPhe -->
         <skos:altLabel rdf:datatype="&xsd;string">classic PKU</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">severe PKU</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is caused by hyperphenylalaninemina (HPA) having phenyalalnine blood concentration greater than 1200 mumol/L (20 mg/dL).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Classic phenylketonuria is a hyperphenylaninemia that is caused by characterized by blood phenyalalnine concentration greater than 1200 &#x3BC;mol/L (20 mg/dL).</skos:definition>
 		<rdfs:comment rdf:datatype="&xsd;string">Need better def source.</rdfs:comment>
 		<rdfs:comment rdf:datatype="&xsd;string">Definition source: Scriver, C. R., Sly, W. S., Childs, B., Baudet, A. L., Valle, D., Kinzler, K. W., Vogelstein, B. (2000) The metabolic and molecular bases of inherited metabolic disease, 8th Ed. McGraw-Hill Professional.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -6431,11 +6432,10 @@ people infected, then extract parasite which are then tested = observation study
  	<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4838542 --> <!-- moderate phenylketonuria --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_4838542">
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/> <!-- congenital hyperPhe -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/> <!-- hyperPhe -->
         <rdfs:label rdf:datatype="&xsd;string">moderate phenylketonuria</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">moderate PKU</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is caused by hyperphenylalaninemina (HPA) having measured phenyalalnine blood concentration in the range 900-1200 mumol/L (15-20 mg/dL).</skos:definition>
-		<rdfs:comment rdf:datatype="&xsd;string">Need better def source.</rdfs:comment>
+        <skos:definition rdf:datatype="&xsd;string">Moderate phenylketonuria is a hyperphenylalaninemia that is characterized by blood phenyalalnine concentration in the range 900-1200 &#x3BC;mol/L (15-20 mg/dL).</skos:definition>
 		<rdfs:comment rdf:datatype="&xsd;string">Definition source: Scriver, C. R., Sly, W. S., Childs, B., Baudet, A. L., Valle, D., Kinzler, K. W., Vogelstein, B. (2000) The metabolic and molecular bases of inherited metabolic disease, 8th Ed. McGraw-Hill Professional.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
@@ -6444,10 +6444,10 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9287404 -->  <!-- mild phenylketonuria --> 
     
     <owl:Class rdf:about="&ONSTR;ONSTR_9287404">
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/> <!-- congenital hyperPhe -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7546388"/> <!-- hyperPhe -->
         <rdfs:label rdf:datatype="&xsd;string">mild phenylketonuria</rdfs:label>
         <skos:altLabel rdf:datatype="&xsd;string">mild PKU</skos:altLabel>
-        <skos:definition rdf:datatype="&xsd;string">A phenylketonuria (PKU) that is caused by hyperphenylalaninemina (HPA) having phenyalalnine blood concentration greater in the range 600-900 mumol/L (10-15 mg/dL).</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Mild phenylketonuria is a hyperphenylalaninemina characterized by blood phenyalalnine concentration in the range 600-900 &#x3BC;mol/L (10-15 mg/dL).</skos:definition>
 		<rdfs:comment rdf:datatype="&xsd;string">Need better NL def and def source.</rdfs:comment>
 		<rdfs:comment rdf:datatype="&xsd;string">Definition source: Scriver, C. R., Sly, W. S., Childs, B., Baudet, A. L., Valle, D., Kinzler, K. W., Vogelstein, B. (2000) The metabolic and molecular bases of inherited metabolic disease, 8th Ed. McGraw-Hill Professional.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -26234,7 +26234,6 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        
         <skos:definition rdf:datatape="&xsd;string">Positive newborn dried blood spot screening test finding for phenylketonuria is a positive newborn dried blood spot screening test finding based on the newborn screening blood phenyalalnine concentration being above 360 micromolars (&#x3BC;M) and phenylalanine-to-tyrosine ratio above 2.5.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">positive DBS screen for PKU</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">positive screen for PKU</skos:altLabel>
@@ -26392,30 +26391,20 @@ people infected, then extract parasite which are then tested = observation study
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3607920 -->  <!-- enzyme activity rate process profile  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3607920">
-        <rdfs:label rdf:datatype="&xsd;string">enzyme activity rate process profile</rdfs:label> 
+        <rdfs:label rdf:datatype="&xsd;string">enzyme catalytic activity rate process profile</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2036859"/> <!-- rate process profile -->   
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-     
-     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3558380 -->  <!-- phenylalanine 4-hydroxylase activity rate process profile  -->
-
-    <owl:Class rdf:about="&ONSTR;ONSTR_3558380">
-        <rdfs:label rdf:datatype="&xsd;string">phenylalanine-4-hydroxylase activity rate process profile</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3607920"/> <!-- enzyme activity rate process profile -->   
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
-        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
-     </owl:Class>
+    
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3840224 -->  <!-- normal phenylalanine 4-monoxygenase activity rate process profile  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3840224">
-        <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine-4-hydroxylase activity rate process profile</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3558380"/> <!-- phenylalanine 4-monoxygenase activity rate process profile -->
+        <rdfs:label rdf:datatype="&xsd;string">normal enzyme catalytic activity rate process profile</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3607920"/> <!-- enzyme catalytic activity rate process profile -->
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -26425,8 +26414,8 @@ people infected, then extract parasite which are then tested = observation study
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9358954 -->  <!-- abnormally low phenylalanine-4-hydroxylase activity process profile  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9358954">
-        <rdfs:label rdf:datatype="&xsd;string">abnormally low phenylalanine-4-hydroxylase activity rate profile</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3558380"/> <!-- phenylalanine 4-monoxygenase activity rate process profile -->
+        <rdfs:label rdf:datatype="&xsd;string">abnormally low enzyme catalytic activity rate profile</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3607920"/> <!-- enzyme catalytic activity rate process profile -->
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -26629,7 +26618,7 @@ people infected, then extract parasite which are then tested = observation study
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7714134 -->  <!-- role of a molecule in biochemical reaction -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7714134">
-        <rdfs:label rdf:datatype="&xsd;string">role of a molecule in biochemical reaction</rdfs:label> 
+        <rdfs:label rdf:datatype="&xsd;string">role of a chemical entity in a biochemical reaction</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/> <!-- bfo2:role -->
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
@@ -26696,9 +26685,10 @@ people infected, then extract parasite which are then tested = observation study
 <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6757046 -->  <!-- 4-alpha-tetrahydrobiopterin  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6757046">
-        <rdfs:label rdf:datatype="&xsd;string">4-alpha-tetrahydrobiopterin </rdfs:label> 
+        <rdfs:label rdf:datatype="&xsd;string">4-alphahydroxy-tetrahydrobiopterin</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_22881"/> <!-- biopterins -->  
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
+        <skos:altLabel rdf:datatype="&xsd;string">4-alpha-carbinolamin</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
