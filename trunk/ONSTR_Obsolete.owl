@@ -825,6 +825,15 @@
 	</owl:Class>
         
         
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3558380 -->  <!-- phenylalanine 4-hydroxylase activity rate process profile  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_3558380">
+        <rdfs:label rdf:datatype="&xsd;string">phenylalanine-4-hydroxylase activity rate process profile</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+	</owl:Class>
+        
         
   
 <!-- NOVO OVDE -->     
