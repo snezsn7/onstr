@@ -26428,8 +26428,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8528184">
         <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine-4-hydroxylase</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&PRO;PR_000012234"/> <!-- phenylalanine-4-hydroxylase -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Normal phenylalanine-4-hydroxylase is a phenylalanine-4-hydroxylase (protein) whose primary, secondary and tertiary structure does not have any abnormal alterations.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -26439,8 +26439,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4010676">
         <rdfs:label rdf:datatype="&xsd;string">defective phenylalanine-4-hydroxylase</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&PRO;PR_000012234"/> <!-- phenylalanine-4-hydroxylase -->   
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Defective phenylalanine-4-hydroxylase is a phenylalanine-4-hydroxylase (protein) that has abnormal alterations in it&apos;s primary, secondary and tertiary structure due to alterations in the PAH gene the phenylalanine-4-hydroxylase protein is translation product of.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -26567,16 +26567,16 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_8057933">
         <rdfs:label rdf:datatype="&xsd;string">normal phenylalanine-4-hydroxylase activity</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3774449"/> <!-- phenylalanine-4-hydroxylase activity -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Normal phenylalanine-4-hydroxylase activity is a phenylalanine-4-hydroxylase activity that under normal physiological conditions (normal cytosolic pH, temperature and substrate saturation)catalyses the conversion of L-phenyalalanine to L-tyrosine at catalytic rate that is considered normal for phenylalanine-4-hydroxylase complex.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
      
      
- <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0087869 -->  <!-- abnormal phenylalanine-4-hydroxylase activity -->
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0087869 -->  <!-- abnormally low phenylalanine-4-hydroxylase activity -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0087869">
-        <rdfs:label rdf:datatype="&xsd;string">abnormal phenylalanine-4-hydroxylase activity</rdfs:label> 
+        <rdfs:label rdf:datatype="&xsd;string">abnormally low phenylalanine-4-hydroxylase activity</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3774449"/> <!-- phenylalanine-4-hydroxylase activity -->
          <owl:equivalentClass>
             <owl:Class>
@@ -26610,8 +26610,8 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Abnormally low phenylalanine-4-hydroxylase activity is a phenylalanine-4-hydroxylase activity that under normal physiological conditions (normal cytosolic pH, temperature and substrate saturation) catalyses the conversion of L-phenyalalanine to L-tyrosine at catalytic rate that is considered abnormally low for phenylalanine-4-hydroxylase complex.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
     
@@ -26621,8 +26621,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7714134">
         <rdfs:label rdf:datatype="&xsd;string">role of a chemical entity in a biochemical reaction</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/> <!-- bfo2:role -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Role of a chemical entity in a biochemical reactions is a role borne by a chemical entity that is not an enzyme and that may participate in various biochemical reactions.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
     
@@ -26632,8 +26632,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9693057">
         <rdfs:label rdf:datatype="&xsd;string">enzyme substrate role</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7714134"/> <!-- role of a molecule in biochemical reactions -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Enzyme substrate role is a role of a chemical entity in a biochemical reaction that is born by a chemical entity (usually molecule) that is during a biochemical reaction bound to the enzyme active site or enzyme regulatory domain to form enzyme-substrate complex and whose chemical composition or structure is been altered during the reaction, and which as such ceases to exist during this reaction.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Chemical composition or structure of a chemical entity that bears enzyme sustrate role is being altered in such way during the biochemical reaction catalyzed by the enzyme that the chemical entity as such ceases to exist. The chemical entity released from the enzyme active site at the end of the biochemical reaction bears an enzyme product role.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">While some enzyme act upon only one substrate (single-substrate enzymes), e.g. hexokinase and some isomerases, majority of enzymes bind multiple substrates (molecules that enzymes have affinity for and cofactors which usually are not enzyme specific but whose chemical composition may be altered during the enzyme catalyzed reaction). [Source: http://en.wikipedia.org/wiki/Enzyme_kinetics ]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Enzyme_substrate_(biology)</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
     
@@ -26642,9 +26644,10 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5238894">
         <rdfs:label rdf:datatype="&xsd;string">enzyme effector role</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7714134"/> <!-- role of a molecule in biochemical reactions -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7714134"/> <!-- role of a chem entity in a biochemical reactions -->
+        <skos:definition rdf:datatape="&xsd;string">Enzyme effector role is a role of a chemical entity in a biochemical reaction that is born by a chemical entity that binds to the enzyme regulatory domain and that positively or negatively regulates the enzyme catalytic activity (i.e. activates or deactivates/inhibits the enzyme).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">The role of enzyme effectors may be born by molecules that in the same biochemical reaction bear a enzyme substrate role, enzyme product role or enzyme cofactor role.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Effector_(biology)</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
     
@@ -26653,9 +26656,10 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9103661">
         <rdfs:label rdf:datatype="&xsd;string">enzyme product role</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7714134"/> <!-- role of a molecule in biochemical reactions -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7714134"/> <!-- role of a chem entity in a biochemical reactions -->
+        <skos:definition rdf:datatape="&xsd;string">Enzyme product role is a role of a chemical entity in a biochemical reaction that is born by a chemical entity (usually a molecule) that is during the biochemical reaction released from the enzyme active site or enzyme regulatory domain and that begins to exist during the the biochemical reaction catalyzed by the enzyme.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Chemical composition or structure of a chemical entity that bears enzyme sustrate role is being altered in such way during the biochemical reaction catalyzed by the enzyme that the chemical entity as such ceases to exist. The chemical entity released from the enzyme active site (or regulatory domain) at the end of the biochemical reaction bears an enzyme product role.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Enzyme_substrate_(biology)</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
     
@@ -26665,8 +26669,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2207869">
         <rdfs:label rdf:datatype="&xsd;string">enzyme cofactor role</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7714134"/> <!-- role of a molecule in biochemical reactions -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Enzyme cofactor role is a role of a chemical entity in a biochemical reaction born by a chemical entity (usually a non-protein chemical entity) that is during a biochemical reaction usually bound to the enzyme and that participates in the reaction (usually as ion donor or acceptor) in such way that its chemical composition and/or structure is been altered, but regenerated (recycled) by other enzymes after the chemical entity is been released by the enzyme at the end of reaction.</skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://en.wikipedia.org/wiki/Cofactor_(biochemistry)</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
   
@@ -26677,8 +26681,8 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">phenylalanine accumulation</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;OGMS_0000061"/> <!-- pathological bodily process -->  
         <!-- ADD log descr -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Phenylalanine accumulation is a pathological bodily process of increasing the quantity of amino acid L-phenylalanine in the blood and cerebrospinal fluid above the level that is considered clinically normal due to abnormally low catalytic activity of the enzyme phenyalalnie-4-hydroxylaze.</skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
     
@@ -26690,7 +26694,7 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_22881"/> <!-- biopterins -->  
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
         <skos:altLabel rdf:datatype="&xsd;string">4-alpha-carbinolamin</skos:altLabel>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">This class belongs to ChEBI domain and will be replaced by the ChEBI class at a later date.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
     
@@ -26700,8 +26704,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7975878">
         <rdfs:label rdf:datatype="&xsd;string">hepatocyte containing defective phenylalanine-4-hydroxylase complex</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&CL;CL_0000182"/> <!-- hepatocyte -->  
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Hepatocyte containing defective phenylalanine-4-hydroxylase complex is a hepatocyte that contains defective phenylalanine-4-hydroxylase complex and may contain normal phenylalanine-4-hydroxylase complex.</skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
     
@@ -26711,8 +26715,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5362990">
         <rdfs:label rdf:datatype="&xsd;string">hepatocyte lacking phenylalanine-4-hydroxylase complex</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&CL;CL_0000182"/> <!-- hepatocyte -->  
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Hepatocyte lacking phenylalanine-4-hydroxylase complex is a hepatocyte that due to alteration(s) in the PAH gene completely lacks the phenylalanine-4-hydroxylase protein and/or phenylalanine-4-hydroxylase complex.</skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
     
@@ -26722,8 +26726,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3977344">
         <rdfs:label rdf:datatype="&xsd;string">kidney epithelial cell containing defective phenylalanine-4-hydroxylase complex</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&CL;CL_0002518"/> <!-- kidney epithelial cell -->  
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Kidney epithelial cell containing defective phenylalanine-4-hydroxylase complex is a kidney epithelial cell that contains defective phenylalanine-4-hydroxylase complex and may contain normal phenylalanine-4-hydroxylase complex.</skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
     
@@ -26733,11 +26737,10 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7599170">
         <rdfs:label rdf:datatype="&xsd;string">kidney epithelial cell lacking phenylalanine-4-hydroxylase complex</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&CL;CL_0002518"/> <!-- kidney epithelial cell -->  
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>
+        <skos:definition rdf:datatape="&xsd;string">Kidney epithelial cell lacking phenylalanine-4-hydroxylase complex is a kidney epithelial cell that due to alteration(s) in the PAH gene completely lacks the phenylalanine-4-hydroxylase protein and/or phenylalanine-4-hydroxylase complex.</skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
-    
     
     
 
