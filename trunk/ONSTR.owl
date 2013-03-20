@@ -26382,18 +26382,19 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2036859">
         <rdfs:label rdf:datatype="&xsd;string">rate process profile</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000144"/> <!-- process profile -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Rate process profile is a process profile that is a part of a process and that can be mathematically expressed as a ratio of a measurement of a particular quality magnitude over time.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
 
-     
+    
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3607920 -->  <!-- enzyme activity rate process profile  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3607920">
         <rdfs:label rdf:datatype="&xsd;string">enzyme catalytic activity rate process profile</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2036859"/> <!-- rate process profile -->   
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Enzyme catalytic activity rate process profile is a rate process profile that in most broad sense can be conceived as a rise in the concentration of the enzyme substrate over time due to the activity of an enzyme and that depends on whether an enzyme binds one or multiple substrates.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">enzyme catalytic rate</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -26405,8 +26406,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3840224">
         <rdfs:label rdf:datatype="&xsd;string">normal enzyme catalytic activity rate process profile</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3607920"/> <!-- enzyme catalytic activity rate process profile -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Normal enzyme catalytic activity rate process profile is an enzyme catalytic activity rate process profile that the measurement values thereof fall within normal (average) range for the activity rate of that particular enzyme, obtained under normal physiological conditions (normal cytosolic pH, temperature and substrate saturation).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
@@ -26416,8 +26417,8 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9358954">
         <rdfs:label rdf:datatype="&xsd;string">abnormally low enzyme catalytic activity rate profile</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3607920"/> <!-- enzyme catalytic activity rate process profile -->
-        <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>    
+        <skos:definition rdf:datatape="&xsd;string">Abnormally low enzyme catalytic activity rate process profile is an enzyme catalytic activity rate process profile that the measurement values thereof fall below normal (average) range for the activity rate of that particular enzyme measured under normal physiological conditions (normal cytosolic pH, temperature and substrate saturation).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
