@@ -9,6 +9,7 @@
     <!ENTITY ro "http://www.obofoundry.org/ro/ro.owl#">
     <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
     <!ENTITY obo  "http://purl.obolibrary.org/obo/"> 
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY ONSTR "http://onstr.googlecode.com/svn/trunk/ONSTR.owl#" >  
@@ -30,6 +31,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:ONSTR="http://onstr.googlecode.com/svn/trunk/ONSTR.owl#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -47,10 +49,13 @@
     <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/trunk/ONSTR.owl">
         <owl:versionInfo rdf:datatype="&xsd;string">v0.2</owl:versionInfo>
         <dc:date rdf:datatype="&xsd;string">2012-08-17</dc:date>
-        <dc:description rdf:datatype="&xsd;string">Ontology for Newborn Screening, Follow-up and Translational Research (ONSTR) is an application ontology covering the domain of genetic disorders mainly identified through newborn screening, long term follow up after diagnosis resulting from positive newborn screen and related translational research.</dc:description>
+        <dc:description rdf:datatype="&xsd;string">Ontology for Newborn Screening Follow-up and Translational Research (ONSTR) is an application ontology covering the domain of genetic disorders mainly identified through newborn screening, long term follow up after diagnosis resulting from positive newborn screen and related translational research.</dc:description>
         <skos:altLabel rdf:datatype="&xsd;string">ONSTR</skos:altLabel>
-        <dc:title rdf:datatype="&xsd;string">Ontology for Newborn Screening, Follow-up and Translational Research</dc:title>
+        <dc:title rdf:datatype="&xsd;string">Ontology for Newborn Screening Follow-up and Translational Research</dc:title>
         <dc:format rdf:datatype="&xsd;string">RDF/XML</dc:format>
+        <foaf:homepage rdf:resource="http://code.google.com/p/onstr/"/>
+        <foaf:homepage rdf:resource="http://www.nbsdc.org"/>
+        <foaf:mbox rdf:resource="mailto:onstr-discuss@googlegroups.com"/>
         <rdfs:comment rdf:datatype="&xsd;string">For release notes please see http://onstr.googlecode.com/svn/tags/currentRelease/2012-08-17/ </rdfs:comment>
         <dc:creator rdf:datatype="&xsd;string">Prabhu Shankar (&#2346;&#2381;&#2352;&#2349;&#2369; &#2358;&#2344;&#2381;&#2325;&#2352;&#2381;)</dc:creator>
         <dc:creator rdf:datatype="&xsd;string">Akshaye Dhawan</dc:creator>
