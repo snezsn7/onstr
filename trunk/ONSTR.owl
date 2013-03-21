@@ -47,12 +47,13 @@
      
      
     <owl:Ontology rdf:about="http://onstr.googlecode.com/svn/trunk/ONSTR.owl">
-        <owl:versionInfo rdf:datatype="&xsd;string">v0.2</owl:versionInfo>
-        <dc:date rdf:datatype="&xsd;string">2012-08-17</dc:date>
-        <dc:description rdf:datatype="&xsd;string">Ontology for Newborn Screening Follow-up and Translational Research (ONSTR) is an application ontology covering the domain of genetic disorders mainly identified through newborn screening, long term follow up after diagnosis resulting from positive newborn screen and related translational research.</dc:description>
+        <owl:versionInfo rdf:datatype="&xsd;string">v0.3</owl:versionInfo>
+        <dc:date rdf:datatype="&xsd;string">2013-03-20</dc:date>
+        <dc:description rdf:datatype="&xsd;string">Ontology for Newborn Screening Follow-up and Translational Research (ONSTR) is an application ontology covering data items, processes and agents involved in practices of newborn screening, short- and long-term follow-up of patients with inheritable and congenital disorders and related translational research.</dc:description>
         <skos:altLabel rdf:datatype="&xsd;string">ONSTR</skos:altLabel>
         <dc:title rdf:datatype="&xsd;string">Ontology for Newborn Screening Follow-up and Translational Research</dc:title>
         <dc:format rdf:datatype="&xsd;string">RDF/XML</dc:format>
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <foaf:homepage rdf:resource="http://code.google.com/p/onstr/"/>
         <foaf:homepage rdf:resource="http://www.nbsdc.org"/>
         <foaf:mbox rdf:resource="mailto:onstr-discuss@googlegroups.com"/>
@@ -10796,7 +10797,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_0874986">
         <rdfs:label rdf:datatype="&xsd;string">boys body mass index-for-age percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4850070"/>
-    	<owl:disjointWith rdf:resource="&ONSTR;ONSTR_0874986"/>
+    	<owl:disjointWith rdf:resource="&ONSTR;ONSTR_8261866"/>
         <skos:definition rdf:datatype="&xsd;string">Boys body mass index-for-age percentile chart is a body mass index-for-age percentile chart consisting of smoothed percentile curves illustrating the distribution(s) of body mass indices with respect to age in a population of healthy boys 2 to 20 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">Body mass index-for-age percentiles: Boys, 2 to 20 years</skos:altLabel>
@@ -27122,8 +27123,8 @@ We have had a long discussion about denotes versus describes.</skos:definition>
 
 
 
-<!-- This file was created and maintained manually by Snezana Nikolic and ONSTR curators.
-Blessings and much love/light to all !!! -->
+<!-- This file has been created and maintained manually by Snezana Nikolic and ONSTR curators. -->
+<!-- Blessings and much love/light to all !!! -->
 
 
 
