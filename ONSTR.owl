@@ -9706,13 +9706,13 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1155298">
         <rdfs:label rdf:datatype="&xsd;string">blood specimen creation measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0001619"/ --> <!-- specimen creation measurement datum -->  
-        <owl:equivalentClass>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0001619"/> <!-- specimen creation measurement datum -->  
+        <!-- owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;OBI_0001619"/> <!-- specimen creation measurement datum -->
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_9561606"/> <!-- has date value-->
+                    <rdf:Description rdf:about="&obo;OBI_0001619"/> < specimen creation measurement datum >
+                    < owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_9561606"/> <! has date value >
                            <owl:someValuesFrom>
                                <rdfs:Datatype>
                                  <owl:onDatatype rdf:resource="&xsd;date"/>         
@@ -9721,7 +9721,7 @@ people infected, then extract parasite which are then tested = observation study
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
-        </owl:equivalentClass>
+        </owl:equivalentClass -->
         <skos:definition rdf:datatape="&xsd;string">Blood specimen creation measurement datum is a specimen creation measurement datum that provides the information about the time the blood specimen have been created.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -27103,7 +27103,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Note: Standard xsd:date datatype form is YYYY-MM-DD (e.g. 2012-12-24), not MM-DD-YYYY or DD-MM-YYYY as customary in certain parts of the world.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
         <rdfs:domain rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
-        <rdfs:range rdf:resource="&xsd;date"/>
+        <!-- rdfs:range rdf:resource="&xsd;date"/ -->
      </owl:DatatypeProperty>   
  
 
