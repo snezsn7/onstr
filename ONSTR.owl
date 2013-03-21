@@ -10628,7 +10628,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_6211529">
         <rdfs:label rdf:datatype="&xsd;string">weight-for-height percentile chart</rdfs:label>
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2397558"/>
-    	<owl:disjointWith rdf:resource="&ONSTR;ONSTR_6211529"/>
     	<owl:disjointWith rdf:resource="&ONSTR;ONSTR_6288330"/>
         <skos:definition rdf:datatype="&xsd;string">Weight-for-height percentile chart is a CDC individual growth chart consisting of smoothed percentile curves illustrating the distribution(s) of weight measurement data (body mass measurements) with respect to height measurement data (body height measurements) in a population of healthy children 0 to 36 months of age or 2 to 5 years of age.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.cdc.gov/growthcharts/charts.htm</rdfs:comment>
