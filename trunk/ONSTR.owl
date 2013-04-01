@@ -9715,7 +9715,7 @@ people infected, then extract parasite which are then tested = observation study
                         <owl:onProperty rdf:resource="&ONSTR;ONSTR_9561606"/> <!-- has date value -->
                            <owl:someValuesFrom>
                                <rdfs:Datatype>
-                                 <owl:onDatatype rdf:resource="&xsd;date"/>         
+                                 <owl:onDatatype rdf:resource="&xsd;dateTime"/>         
                                </rdfs:Datatype>
                     	  </owl:someValuesFrom>
                     </owl:Restriction>
@@ -27103,7 +27103,7 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Note: Standard xsd:date datatype form is YYYY-MM-DD (e.g. 2012-12-24), not MM-DD-YYYY or DD-MM-YYYY as customary in certain parts of the world.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
         <rdfs:domain rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
-        <rdfs:range rdf:resource="&xsd;date"/>
+        <rdfs:range rdf:resource="&xsd;dateTime"/>
      </owl:DatatypeProperty>   
  
 
