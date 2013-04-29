@@ -55,7 +55,7 @@
         <dc:format rdf:datatype="&xsd;string">RDF/XML</dc:format>
         <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
         <foaf:homepage rdf:resource="http://code.google.com/p/onstr/"/>
-        <foaf:homepage rdf:resource="http://www.nbsdc.org"/>
+        <foaf:homepage rdf:resource="https://nbsdc.org"/>
         <foaf:mbox rdf:resource="mailto:onstr-discuss@googlegroups.com"/>
         <rdfs:comment rdf:datatype="&xsd;string">For release notes please see http://onstr.googlecode.com/svn/tags/currentRelease/2012-08-17/ </rdfs:comment>
         <dc:creator rdf:datatype="&xsd;string">Prabhu Shankar (&#2346;&#2381;&#2352;&#2349;&#2369; &#2358;&#2344;&#2381;&#2325;&#2352;&#2381;)</dc:creator>
