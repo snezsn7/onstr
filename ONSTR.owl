@@ -26704,12 +26704,26 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9072455 -->  <!-- disordered hepatocyte  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9072455">
+        <rdfs:label rdf:datatype="&xsd;string">disordered hepatocyte</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&CL;CL_0000182"/> <!-- hepatocyte -->  
+        <skos:definition rdf:datatape="&xsd;string">Disordered hepatocyte is a hapatocyte that is physically abnormal and whose physical abnormality may contribute to the emergence of a disease.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Scheuermann, R.H., Ceusters, W., Smith, B. (2009) Toward an Ontological Treatment of Disease and Diagnosis. Proceedings of the 2009 AMIA Summit on Translational Bioinformatics, San Francisco, CA, p.116-120.</rdfs:comment>  
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>      
+        <skos:example rdf:datatype="&xsd;string">A hepatocyte lacking certain enzyme due to gene deletion for that particular enzyme. Such hepatocyte is a type of disordered hepatocyte, because the absence of the enzyme in the cell.</skos:example>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+    
+    
+    
  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7975878 -->  <!-- hepatocyte containing defective phenylalanine-4-hydroxylase complex  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7975878">
         <rdfs:label rdf:datatype="&xsd;string">hepatocyte containing defective phenylalanine-4-hydroxylase complex</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&CL;CL_0000182"/> <!-- hepatocyte -->  
-        <skos:definition rdf:datatape="&xsd;string">Hepatocyte containing defective phenylalanine-4-hydroxylase complex is a hepatocyte that contains defective phenylalanine-4-hydroxylase complex and may contain normal phenylalanine-4-hydroxylase complex.</skos:definition> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9072455"/> <!-- disordered hepatocyte -->  
+        <skos:definition rdf:datatape="&xsd;string">Hepatocyte containing defective phenylalanine-4-hydroxylase complex is a disordered hepatocyte that contains defective phenylalanine-4-hydroxylase complex or defective phenylalanine-4-hydroxylase protein (i.e. PAH enzyme monomer).</skos:definition> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
@@ -26719,19 +26733,33 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5362990">
         <rdfs:label rdf:datatype="&xsd;string">hepatocyte lacking phenylalanine-4-hydroxylase complex</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&CL;CL_0000182"/> <!-- hepatocyte -->  
-        <skos:definition rdf:datatape="&xsd;string">Hepatocyte lacking phenylalanine-4-hydroxylase complex is a hepatocyte that due to alteration(s) in the PAH gene completely lacks the phenylalanine-4-hydroxylase protein and/or phenylalanine-4-hydroxylase complex.</skos:definition> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9072455"/> <!-- disordered hepatocyte -->  
+        <skos:definition rdf:datatape="&xsd;string">Hepatocyte lacking phenylalanine-4-hydroxylase complex is a disordered hepatocyte that due to alteration(s) in the PAH gene completely lacks the phenylalanine-4-hydroxylase protein and phenylalanine-4-hydroxylase complex.</skos:definition> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
+    
+      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7112104 -->  <!-- disordered kidney epithelial cell  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7112104">
+        <rdfs:label rdf:datatype="&xsd;string">disordered kidney epithelial cell</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&CL;CL_0002518"/> <!-- kidney epithelial cell -->  
+        <skos:definition rdf:datatape="&xsd;string">Disordered kidney epithelial cell is a kidney epithelial cell that is physically abnormal and whose abnormality may contribute to the emergence of a disease.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Scheuermann, R.H., Ceusters, W., Smith, B. (2009) Toward an Ontological Treatment of Disease and Diagnosis. Proceedings of the 2009 AMIA Summit on Translational Bioinformatics, San Francisco, CA, p.116-120.</rdfs:comment>  
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>      
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+    
     
     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3977344 -->  <!-- kidney epithelial cell containing defective phenylalanine-4-hydroxylase complex  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3977344">
         <rdfs:label rdf:datatype="&xsd;string">kidney epithelial cell containing defective phenylalanine-4-hydroxylase complex</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&CL;CL_0002518"/> <!-- kidney epithelial cell -->  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7112104"/> <!-- disordered kidney epithelial cell -->  
         <skos:definition rdf:datatape="&xsd;string">Kidney epithelial cell containing defective phenylalanine-4-hydroxylase complex is a kidney epithelial cell that contains defective phenylalanine-4-hydroxylase complex and may contain normal phenylalanine-4-hydroxylase complex.</skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Scheuermann, R.H., Ceusters, W., Smith, B. (2009) Toward an Ontological Treatment of Disease and Diagnosis. Proceedings of the 2009 AMIA Summit on Translational Bioinformatics, San Francisco, CA, p.116-120.</rdfs:comment>  
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
@@ -26741,7 +26769,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7599170">
         <rdfs:label rdf:datatype="&xsd;string">kidney epithelial cell lacking phenylalanine-4-hydroxylase complex</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&CL;CL_0002518"/> <!-- kidney epithelial cell -->  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7112104"/> <!-- disordered kidney epithelial cell -->  
         <skos:definition rdf:datatape="&xsd;string">Kidney epithelial cell lacking phenylalanine-4-hydroxylase complex is a kidney epithelial cell that due to alteration(s) in the PAH gene completely lacks the phenylalanine-4-hydroxylase protein and/or phenylalanine-4-hydroxylase complex.</skos:definition> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
