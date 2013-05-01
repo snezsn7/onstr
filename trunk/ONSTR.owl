@@ -6310,9 +6310,9 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3854145 --> <!-- transient hyperphenylalaninemia -->
         
     <owl:Class rdf:about="&ONSTR;ONSTR_3854145">
-        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000045"/>  <!-- disorder -->
         <rdfs:label rdf:datatype="&xsd;string">transient hyperphenylalaninemia</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">Transient hyperphenylalaninemia is a disorder charactyerized by temporary elevation of concentration of phenylalanine (and related metabolites: phenylpyruvate, phenyllactate, phenylacetate and phenylacetylglutamine) in the blood and urine.</skos:definition>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000031"/>  <!-- disease -->
+        <skos:definition rdf:datatype="&xsd;string">Transient hyperphenylalaninemia is a disease charactyerized by temporary abnormal elevation of concentration of phenylalanine (and related metabolites: phenylpyruvate, phenyllactate, phenylacetate and phenylacetylglutamine) in the blood and urine.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://medical-dictionary.thefreedictionary.com/hyperphenylalaninemia</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -6323,7 +6323,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2399802">
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3854145"/>
         <rdfs:label rdf:datatype="&xsd;string">transient neonatal hyperphenylalaninemia</rdfs:label>
-        <skos:definition rdf:datatype="&xsd;string">Transient neonatal hyperphenylalaninemia is transient hyperphenylalaninemia that and occurs in small-for-gestation-age neonates and that is characterized by elevated concentration of phenylalanine (and related metabolites: phenylpyruvate, phenyllactate, phenylacetate and phenylacetylglutamine) in the neonate's blood and urine, due to delayed maturation of liver cells producing enzyme phenylalnine hydroxylase.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Transient neonatal hyperphenylalaninemia is transient hyperphenylalaninemia that and occurs in small-for-gestation-age human newborns and that is characterized by elevated concentration of phenylalanine (and related metabolites: phenylpyruvate, phenyllactate, phenylacetate and phenylacetylglutamine) in the neonate's blood and urine, due to incomplete maturation of liver cells that produce the enzyme (protein) phenylalnine hydroxylase.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Ogier de Baulny H., Abadie V., Feillet, F., (2007) Management of phenylketonuria and hypephenylalaninemia. The Journal of Nutrition, June 2007, vol. 137, No. 6, pp. 1561S-1563S.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
         <skos:altLabel rdf:datatype="&xsd;string">transitory neonatal hyperphenylalaninemia</skos:altLabel>
