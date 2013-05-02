@@ -1866,13 +1866,68 @@ people infected, then extract parasite which are then tested = observation study
     
       <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001241">
     	<rdfs:label rdf:datatype="&xsd;string">physical object quality</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>  <!-- bfo2:quality -->
         <skos:definition rdf:datatype="&xsd;string">A quality which inheres in a continuant.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">This is a monadic (not a relational) quality that inheres in a single continuant.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Relational qualities are qualities that hold between multiple entities. Normal (monadic) qualities such as the shape of a eyeball exist purely as a quality of that eyeball. A relational quality such as sensitivity to light is a quality of that eyeball (and connecting nervous system) as it relates to incoming light waves/particles. [Comment imported from Phenotypic Quality Ontology (PATO)..]</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">quality of a single physical entity</skos:altLabel>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
      </owl:Class>
+     
+     
+    <!-- http://purl.org/obo/owl/PATO#PATO_0001555 -->  <!-- has number of -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001555">
+    	<rdfs:label rdf:datatype="&xsd;string">has number of</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001241"/>  <!-- physical object quality -->
+        <skos:definition rdf:datatape="&xsd;string">The number of parts of a particular type that the bearer entity has. This is a relational quality, and thus holds between two entities: the bearer of the quality, and the type of parts.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.org/obo/owl/PATO#PATO_0002083 -->  <!-- altered number of -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0002083">
+    	<rdfs:label rdf:datatype="&xsd;string">altered number of</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001555"/>  <!-- has number of -->
+ 		<skos:definition rdf:datatape="&xsd;string">Having extra or fewer parts.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.org/obo/owl/PATO#PATO_0001999 -->  <!-- lacks parts or has fewer parts of type -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001999">
+    	<rdfs:label rdf:datatype="&xsd;string">lacks parts or has fewer parts of type</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0002083"/>  <!-- altered number of -->
+        <skos:definition rdf:datatape="&xsd;string">The bearer of this quality has_part&lt;n of the indicated entity type, where n is the normal amount for a comparable organism. Note that the bearer of the quality is the whole, not the part. Formally: If a bearer entity e has fewer parts of type X at time t, then the number of instances x of X at t such that x part_of e is &lt; n, where n is either the normal number for comparable entities, or n is stated explicitly. This case includes the limit case, where the bearer lacks all parts of the specified type.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.org/obo/owl/PATO#PATO_0002000 -->  <!-- lacks all parts of type -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0002000">
+    	<rdfs:label rdf:datatype="&xsd;string">lacks all parts of type</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001999"/>  <!-- lacks parts or has fewer parts of type -->
+        <skos:definition rdf:datatape="&xsd;string">A quality of physical entities inhering in a bearer by virtue of the bearer's lacking a physical part as specified by the additional entity.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+     
+     
+    <!-- http://purl.org/obo/owl/PATO#PATO_0001905 -->  <!-- has normal number of parts of type -->
+    
+      <owl:Class rdf:about="http://purl.org/obo/owl/PATO#PATO_0001905">
+    	<rdfs:label rdf:datatype="&xsd;string">has normal number of parts of type</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&PATO;PATO_0001555"/>  <!-- has number of -->
+ 		<skos:definition rdf:datatape="&xsd;string">The bearer of this quality has_part = n, where n is the normal amount for a comparable organism. Note that the bearer of the quality is the whole, not the part.</skos:definition>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Imported from Phenotypic Quality Ontology (PATO).</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+     
+     
      
     
      <!-- http://purl.org/obo/owl/PATO#PATO_0001509 -->  <!-- functionality -->
