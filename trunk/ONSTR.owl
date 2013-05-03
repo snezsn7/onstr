@@ -6433,13 +6433,13 @@ people infected, then extract parasite which are then tested = observation study
     	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2709221"/> <!-- congenital metabolic disorder -->
         <owl:equivalentClass>
             <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
+                <owl:unionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&ONSTR;ONSTR_2709221"/> <!-- congenital metabolic disorder -->
                     <rdf:Description rdf:about="&ONSTR;ONSTR_7975878"/>  <!-- hepatocyte containing defective PAH complex -->
                     <rdf:Description rdf:about="&ONSTR;ONSTR_5362990"/>  <!-- hepatocyte lacking PAH complex -->
                     <rdf:Description rdf:about="&ONSTR;ONSTR_3977344"/>  <!-- kidney epithelial cell containing defective PAH complex -->
                     <rdf:Description rdf:about="&ONSTR;ONSTR_7599170"/>  <!-- kidney epithelial cell lacking PAH complex -->
-                 </owl:intersectionOf>
+                 </owl:unionOf>
             </owl:Class>
     	 </owl:equivalentClass>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine-4-hydroxilase deficiency</skos:altLabel>
@@ -26863,7 +26863,41 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5362990">
         <rdfs:label rdf:datatype="&xsd;string">hepatocyte lacking phenylalanine-4-hydroxylase complex</rdfs:label> 
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9072455"/> <!-- disordered hepatocyte -->  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9072455"/> <!-- disordered hepatocyte -->    
+        
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_9072455"/>  <!-- disordered hepatocyte -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/> <!-- bfo2: has proper continuant part at all times -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                	<owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&GO;GO_0043234"/>  <!-- protein complex -->
+                                            <owl:Class>
+                                                <owl:complementOf rdf:resource="&ONSTR;ONSTR_2424755"/>  <!-- PAH complex -->
+                                            </owl:Class>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&obo;pr.owl#PR_000000001"/>  <!-- protein -->
+                                            <owl:Class>
+                                                <owl:complementOf rdf:resource="&obo;pr.owl#PR_000012234"/>  <!-- phenylalanine-4-hydroxylase -->
+                                            </owl:Class>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        
         <skos:definition rdf:datatape="&xsd;string">Hepatocyte lacking phenylalanine-4-hydroxylase complex is a disordered hepatocyte that due to alteration(s) in the PAH gene completely lacks the phenylalanine-4-hydroxylase protein and phenylalanine-4-hydroxylase complex.</skos:definition> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -26888,7 +26922,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3977344">
         <rdfs:label rdf:datatype="&xsd;string">kidney epithelial cell containing defective phenylalanine-4-hydroxylase complex</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7112104"/> <!-- disordered kidney epithelial cell -->  
-        
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26900,7 +26933,6 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        
         <skos:definition rdf:datatape="&xsd;string">Kidney epithelial cell containing defective phenylalanine-4-hydroxylase complex is a kidney epithelial cell that contains defective phenylalanine-4-hydroxylase complex and may contain normal phenylalanine-4-hydroxylase complex.</skos:definition> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Scheuermann, R.H., Ceusters, W., Smith, B. (2009) Toward an Ontological Treatment of Disease and Diagnosis. Proceedings of the 2009 AMIA Summit on Translational Bioinformatics, San Francisco, CA, p.116-120.</rdfs:comment>  
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
@@ -26913,6 +26945,40 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7599170">
         <rdfs:label rdf:datatype="&xsd;string">kidney epithelial cell lacking phenylalanine-4-hydroxylase complex</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7112104"/> <!-- disordered kidney epithelial cell -->  
+       
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_7112104"/> <!-- disordered kidney epithelial cell -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000111"/> <!-- bfo2: has proper continuant part at all times -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                	<owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&GO;GO_0043234"/>  <!-- protein complex -->
+                                            <owl:Class>
+                                                <owl:complementOf rdf:resource="&ONSTR;ONSTR_2424755"/>  <!-- PAH complex -->
+                                            </owl:Class>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                    <owl:Class>
+                                        <owl:intersectionOf rdf:parseType="Collection">
+                                            <rdf:Description rdf:about="&obo;pr.owl#PR_000000001"/>  <!-- protein -->
+                                            <owl:Class>
+                                                <owl:complementOf rdf:resource="&obo;pr.owl#PR_000012234"/>  <!-- phenylalanine-4-hydroxylase -->
+                                            </owl:Class>
+                                        </owl:intersectionOf>
+                                    </owl:Class>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        
         <skos:definition rdf:datatape="&xsd;string">Kidney epithelial cell lacking phenylalanine-4-hydroxylase complex is a kidney epithelial cell that due to alteration(s) in the PAH gene completely lacks the phenylalanine-4-hydroxylase protein and/or phenylalanine-4-hydroxylase complex.</skos:definition> 
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
