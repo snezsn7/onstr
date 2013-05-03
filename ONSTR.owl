@@ -6442,25 +6442,30 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0128089">
         <rdfs:label rdf:datatype="&xsd;string">phenylalanine hydroxylase deficiency</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2709221"/ --> <!-- congenital metabolic disorder -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2709221"/> <!-- congenital metabolic disorder -->
         <owl:equivalentClass>
             <owl:Class>
-            	<owl:intersectionOf rdf:parseType="Collection">
-            	   <rdf:Description rdf:about="&ONSTR;ONSTR_2709221"/> <!-- congenital metabolic disorder -->
-                   <owl:Class>
-                		<owl:unionOf rdf:parseType="Collection">
-                    		<rdf:Description rdf:about="&ONSTR;ONSTR_7975878"/>  <!-- hepatocyte containing defective PAH complex -->
-                    		<rdf:Description rdf:about="&ONSTR;ONSTR_5362990"/>  <!-- hepatocyte lacking PAH complex -->
-                    		<rdf:Description rdf:about="&ONSTR;ONSTR_3977344"/>  <!-- kidney epithelial cell containing defective PAH complex -->
-                    		<rdf:Description rdf:about="&ONSTR;ONSTR_7599170"/>  <!-- kidney epithelial cell lacking PAH complex -->
-                 		</owl:unionOf>
-                 	</owl:Class>
-                 	<!-- owl:Class>
-                 		<owl:complementOf rdf:resource="&ONSTR;ONSTR_5173920"/>  <! tetrahydrobiopterin deficiency >
-                 	</owl:Class -->
-                </owl:intersectionOf> 		
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_2709221"/> <!-- congenital metabolic disorder -->
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_7975878"/>  <!-- hepatocyte containing defective PAH complex -->
+                                     <rdf:Description rdf:about="&ONSTR;ONSTR_3977344"/>  <!-- kidney epithelial cell containing defective PAH complex -->
+                                </owl:intersectionOf>
+                            </owl:Class>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_5362990"/>  <!-- hepatocyte lacking PAH complex -->
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_7599170"/>  <!-- kidney epithelial cell lacking PAH complex -->
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
             </owl:Class>
-    	 </owl:equivalentClass>
+        </owl:equivalentClass>
         <skos:altLabel rdf:datatype="&xsd;string">phenylalanine-4-hydroxilase deficiency</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">PAH deficiency</skos:altLabel>
         <skos:definition rdf:datatype="&xsd;string">PAH deficiency is a congenital metabolic disorder characterized by reduced activity (deficiency in activity) of the enzyme phenylalanine-4-hydroxilaze, that is caused by two recessive mutated PAH alleles in the inherited PAH genome. PAH deficiency (and hypephenylalalninemia, and PKU, respectively) has autosomal recessive inheritance pattern with most cases in compound heterozygous state (genetic compound) where both maternal and paternal PAH alleles are differently mutated and present at chromosome 12.</skos:definition>
