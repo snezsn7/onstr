@@ -69,7 +69,7 @@
         <dc:creator rdf:datatype="&xsd;string">Sne&#x17E;ana Nikolic&#x0301;</dc:creator>
         <dc:subject rdf:datatype="&xsd;string">Keywords: biomedical ontology, newborn screening follow-up, inherited metabolic disorders, translational research, metabolism, genetic disorders, health care, public health, nutrition care, diet.</dc:subject>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/> <!-- BFO2 v2012-07-20, (vGraz) -->
-        <owl:imports rdf:resource="http://onstr.googlecode.com/svn/tags/currentRelease/2013-03-20/ONSTR_Obsolete.owl"/>
+        <owl:imports rdf:resource="http://onstr.googlecode.com/svn/tags/currentRelease/2013-05-02/ONSTR_Obsolete.owl"/>
     </owl:Ontology>
     
 
