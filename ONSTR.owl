@@ -26618,7 +26618,7 @@ people infected, then extract parasite which are then tested = observation study
                     	<owl:someValuesFrom  rdf:resource="&ONSTR;ONSTR_0426948"/>  <!-- PAH function -->
                    </owl:Restriction>
                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000167"/>  <!-- bfo2:has participant at all times -->
+                        <owl:onProperty rdf:resource="&obo;BFO_0000057"/>  <!-- bfo2:has participant at some time -->
                         <owl:allValuesFrom>
                             <owl:Class>
                                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26823,10 +26823,11 @@ people infected, then extract parasite which are then tested = observation study
 <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6757046 -->  <!-- 4-alpha-tetrahydrobiopterin  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6757046">
-        <rdfs:label rdf:datatype="&xsd;string">4-alphahydroxy-tetrahydrobiopterin</rdfs:label> 
+        <rdfs:label rdf:datatype="&xsd;string">4-alphahydroxy-dihydrobiopterin</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&obo;CHEBI_22881"/> <!-- biopterins -->  
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition> 
-        <skos:altLabel rdf:datatype="&xsd;string">4-alpha-carbinolamin</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">4alpha-carbinolamin</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">pterin-4alpha-carbinolamine</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">This class belongs to ChEBI domain and will be replaced by the ChEBI class at a later date.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
