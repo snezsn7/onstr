@@ -13353,7 +13353,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1164140">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary energy intake during observed time interval datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9167921"/ -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9167921"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13429,6 +13429,17 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary intake of phenylalanine and tyrosine combined</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0629239"/>
         <skos:definition rdf:datatape="&xsd;string">Low average daily dietary intake of phenylalanine and tyrosine combined is an average daily dietary intake during observed time interval of methionine and cysteine combined that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary phenylalanine and tyrosine combined for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 459-465.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3458769 -->  <!-- normal average daily dietary intake of phenylalanine and tyrosine combined  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3458769">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary intake of phenylalanine and tyrosine combined</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0629239"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary intake of phenylalanine and tyrosine combined is an average daily dietary intake during observed time interval of methionine and cysteine combined that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary phenylalanine and tyrosine combined for the population corresponding to patient&apos;s sex, age and state (lactating or non-lactating, if female older than 15 years of age).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 459-465.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -13564,6 +13575,21 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
        
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8461214 -->  <!-- normal average daily dietary isoleucine intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8461214">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary isoleucine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2625983"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary isoleucine intake is an average daily dietary histidine intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary isoleucine for the population corresponding to patient&apos;s sex, age and state (lactating or non-lactating, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal isoleucine intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean isoleucine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Note: In the case of daily dietary amino acid intakes, the only reference value (one out of four DRIs) provided is the adequate intake (DRI-AI) for infant population 0 to 6 months of age, expressed in mg/d. All other daily amino acid intakes are provided in the form of average daily intakes per body mass (expressed in mg/kg/d). [Source:[Source:[Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4914732 -->  <!-- average daily dietary leucine intake during observed time interval  -->
 
@@ -13591,6 +13617,21 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
     
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2227179 -->  <!-- normal average daily dietary leucine intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2227179">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary leucine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4914732"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary leucine intake is an average daily dietary histidine intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary leucine for the population corresponding to patient&apos;s sex, age and state (lactating or non-lactating, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean leucine intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal leucine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Note: In the case of daily dietary amino acid intakes, the only reference value (one out of four DRIs) provided is the adequate intake (DRI-AI) for infant population 0 to 6 months of age, expressed in mg/d. All other daily amino acid intakes are provided in the form of average daily intakes per body mass (expressed in mg/kg/d). [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5471926 -->  <!-- average daily dietary lysine intake during observed time interval  -->
 
@@ -13613,6 +13654,21 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5471926"/> 
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary lysine intake is an average daily dietary lysine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary lysine for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean lysine intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low lysine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Note: In the case of daily dietary amino acid intakes, the only reference value (one out of four DRIs) provided is the adequate intake (DRI-AI) for infant population 0 to 6 months of age, expressed in mg/d. All other daily amino acid intakes are provided in the form of average daily intakes per body mass (expressed in mg/kg/d). [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7201608 -->  <!-- normal average daily dietary lysine intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7201608">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary lysine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5471926"/> 
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary lysine intake is an average daily dietary histidine intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary lysine for the population corresponding to patient&apos;s sex, age and state (lactating or non-lactating, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean lysine intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal lysine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Note: In the case of daily dietary amino acid intakes, the only reference value (one out of four DRIs) provided is the adequate intake (DRI-AI) for infant population 0 to 6 months of age, expressed in mg/d. All other daily amino acid intakes are provided in the form of average daily intakes per body mass (expressed in mg/kg/d). [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -13632,19 +13688,37 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
     
- <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0810120 -->  <!-- average daily dietary histidine intake-->
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0810120 -->  <!-- low average daily dietary histidine intake-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0810120">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary histidine intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9099585"/> 
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary histidine intake is an average daily dietary histidine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary histidine for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean histidine intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low histidine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Note: In the case of daily dietary amino acid intakes, the only reference value (one out of four DRIs) provided is the adequate intake (DRI-AI) for infant population 0 to 6 months of age, expressed in mg/d. All other daily amino acid intakes are provided in the form of average daily intakes per body mass (expressed in mg/kg/d). [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+  
+  
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5808533 -->  <!-- normal average daily dietary histidine intake-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5808533">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary histidine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9099585"/> 
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary histidine intake is an average daily dietary histidine intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary histidine for the population corresponding to patient&apos;s sex, age and state (lactating or non-lactating, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean histidine intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal histidine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Note: In the case of daily dietary amino acid intakes, the only reference value (one out of four DRIs) provided is the adequate intake (DRI-AI) for infant population 0 to 6 months of age, expressed in mg/d. All other daily amino acid intakes are provided in the form of average daily intakes per body mass (expressed in mg/kg/d). [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+   
          
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9261993 -->  <!-- average daily dietary methionine intake during observed time interval  -->
 
@@ -13670,7 +13744,7 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8607229 -->  <!-- average daily dietary intake during observed time interval of methionine and cysteine combined  -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8607229 -->  <!-- low average daily dietary intake during observed time interval of methionine and cysteine combined  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8607229">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary intake of methionine and cysteine combined</rdfs:label>
@@ -13680,6 +13754,17 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
         
+     
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9476641 -->  <!-- normal average daily dietary intake during observed time interval of methionine and cysteine combined  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9476641">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary intake of methionine and cysteine combined</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8153913"/> 
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary intake of methionine and cysteine combined is an average daily dietary intake during observed time interval of methionine and cysteine combined that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary methionine and cysteine combined for the population corresponding to patient&apos;s sex, age and state (lactating or non-lactating, if female older than 15 years of age).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 459-465.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6133211 -->  <!-- average daily dietary proline intake during observed time interval  -->
@@ -13729,10 +13814,27 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0348887"/>   
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary threonine intake is an average daily dietary threonine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean threonine intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low threonine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Note: In the case of daily dietary amino acid intakes, the only reference value (one out of four DRIs) provided is the adequate intake (DRI-AI) for infant population 0 to 6 months of age, expressed in mg/d. All other daily amino acid intakes are provided in the form of average daily intakes per body mass (expressed in mg/kg/d). [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>    
+     
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6550722 -->  <!-- normal average daily dietary threonine intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6550722">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary threonine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0348887"/> 
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary threonine intake is an average daily dietary histidine intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary threonine for the population corresponding to patient&apos;s sex, age and state (lactating or non-lactating, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean threonine intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal threonine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Note: In the case of daily dietary amino acid intakes, the only reference value (one out of four DRIs) provided is the adequate intake (DRI-AI) for infant population 0 to 6 months of age, expressed in mg/d. All other daily amino acid intakes are provided in the form of average daily intakes per body mass (expressed in mg/kg/d). [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8468666 -->  <!-- average daily dietary tryptophan intake during observed time interval  -->
@@ -13760,6 +13862,22 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7730971 -->  <!-- normal average daily dietary tryptophan intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7730971">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary tryptophan intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8468666"/> 
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary tryptophan intake is an average daily dietary histidine intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary tryptophan for the population corresponding to patient&apos;s sex, age and state (lactating or non-lactating, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal tryptophan intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean tryptophan intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Note: In the case of daily dietary amino acid intakes, the only reference value (one out of four DRIs) provided is the adequate intake (DRI-AI) for infant population 0 to 6 months of age, expressed in mg/d. All other daily amino acid intakes are provided in the form of average daily intakes per body mass (expressed in mg/kg/d). [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+      
+      
       
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6254359 -->  <!-- average daily dietary valine intake during observed time interval  -->
@@ -13782,7 +13900,22 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary valine intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6254359"/>   
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary valine intake is an average daily dietary valine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary valine for the population corresponding to patient&apos;s sex and age.</skos:definition>
-        <skos:altLabel rdf:datatype="&xsd;string">low mean valin intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low mean valine intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low valine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Note: In the case of daily dietary amino acid intakes, the only reference value (one out of four DRIs) provided is the adequate intake (DRI-AI) for infant population 0 to 6 months of age, expressed in mg/d. All other daily amino acid intakes are provided in the form of average daily intakes per body mass (expressed in mg/kg/d). [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0216195 -->  <!-- normal average daily dietary valine intake-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0216195">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary valine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6254359"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary valine intake is an average daily dietary histidine intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary valine for the population corresponding to patient&apos;s sex, age and state (lactating or non-lactating, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal valine intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean valine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Note: In the case of daily dietary amino acid intakes, the only reference value (one out of four DRIs) provided is the adequate intake (DRI-AI) for infant population 0 to 6 months of age, expressed in mg/d. All other daily amino acid intakes are provided in the form of average daily intakes per body mass (expressed in mg/kg/d). [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.459-466.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
