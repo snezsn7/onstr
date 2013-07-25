@@ -15050,7 +15050,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1583962">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary calcium intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15103,16 +15103,31 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1583962"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary calcium intake is an average daily dietary calcium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary calcium for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean calcium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low calcium intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 286-295.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6828601 -->  <!-- normal average daily dietary calcium intake-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6828601">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary calcium intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1583962"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary calcium intake is an average daily dietary calcium intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) for dietary calcium for for the population corresponding to patient&apos;s sex, age and state (lactating or non-lactating, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean calcium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal calcium intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 286-295.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3440460 -->  <!-- average daily dietary iron intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3440460">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary iron intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15165,6 +15180,20 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3440460"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary iron intake is an average daily dietary iron intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary iron for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean iron intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low iron intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp.328-339.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+      
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8620755 -->  <!-- normal average daily dietary iron intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8620755">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary iron intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3440460"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary iron intake is an average daily dietary iron intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary iron for the population corresponding to patient&apos;s sex, age and state (lactating or non-lactating, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean iron intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal iron intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp.328-339.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15174,7 +15203,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7446995">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary zinc intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15227,6 +15256,20 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7446995"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary zinc intake is an average daily dietary zinc intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary zinc for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean zinc intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low zinc intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.402-413.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+ 
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4978872 -->  <!-- normal average daily dietary zinc intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4978872">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary zinc intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7446995"/>    
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary zinc intake is an average daily dietary zinc intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary zinc for the population corresponding to patient&apos;s sex, age and state (lactating or non-lactating, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean zinc intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal zinc intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.402-413.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15236,7 +15279,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0367319">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary arsenic intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15285,7 +15328,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8952813">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary boron intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15334,7 +15377,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6015466">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary chromium intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15387,16 +15430,31 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6015466"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary chromium intake is an average daily dietary chromium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary chromium for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean chromium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low chromium intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp. 296-303.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9281144 -->  <!-- normal average daily dietary chromium intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9281144">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary chromium intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6015466"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary chromium intake is an average daily dietary chromium intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) for dietary chromium for for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean chromium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal chromium intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp. 296-303.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4721332 -->  <!-- average daily dietary copper intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4721332">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary copper intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15449,6 +15507,20 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4721332"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary copper intake is an average daily dietary copper intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary copper for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean copper intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low copper intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp. 304-310.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+       
+  
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1013653 -->  <!-- normal average daily dietary copper intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1013653">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary copper intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4721332"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary copper intake is an average daily dietary copper intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary copper for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean copper intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal copper intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp. 304-310.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
@@ -15458,7 +15530,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9890923">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary chloride intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15510,16 +15582,31 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9890923"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary chloride intake is an average daily dietary chloride intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary chloride for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean chloride intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low chloride intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp. 386-396.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6728067 -->  <!-- normal average daily dietary chloride intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6728067">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary chloride intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9890923"/> 
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary chloride intake is an average daily dietary chloride intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) for dietary chloride for for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean chloride intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal chloride intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp. 386-396.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1207407 -->  <!-- average daily dietary fluoride intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1207407">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary fluoride intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15564,23 +15651,38 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2239367 -->  <!-- average daily dietary fluoride intake-->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2239367 -->  <!-- low average daily dietary fluoride intake-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2239367">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary fluoride intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1207407"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary fluoride intake is an average daily dietary fluoride intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary fluoride for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean fluoride intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low fluoride intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 312-319.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+   
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2276485 -->  <!-- normal average daily dietary fluoride intake-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2276485">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary fluoride intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1207407"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary fluoride intake is an average daily dietary fluoride intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) for dietary fluoride for for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean fluoride intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal fluoride intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 312-319.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
      
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1575035 -->  <!-- average daily dietary iodine intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1575035">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary iodine intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15634,16 +15736,30 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1575035"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary iodine intake is an average daily dietary iodine intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary iodine for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean iodine intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low iodine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.320-326.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5429319 -->  <!-- normal average daily dietary iodine intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5429319">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary iodine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1575035"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary iodine intake is an average daily dietary iodine intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary iodine for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean iodine intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal iodine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.320-326.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9522419 -->  <!-- average daily dietary magnesium intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9522419">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary magnesium intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15690,13 +15806,27 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
- <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7734161 -->  <!-- average daily dietary magnesium intake-->
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7734161 -->  <!-- low average daily dietary magnesium intake-->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7734161">
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary magnesium intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9522419"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily dietary magnesium intake is an average daily dietary magnesium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary magnesium for the population corresponding to patient&apos;s sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily- dietary magnesium intake is an average daily dietary magnesium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary magnesium for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean magnesium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low magnesium intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 328-339.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6706610 -->  <!-- normal average daily dietary magnesium intake-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6706610">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary magnesium intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9522419"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary magnesium intake is an average daily dietary magnesium intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary magnesium for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean magnesium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal magnesium intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 328-339.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15706,7 +15836,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4060111">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary manganese intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15760,16 +15890,30 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4060111"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary manganese intake is an average daily dietary manganese intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary manganese for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean manganese intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low manganese intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp.350-355.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3503523 -->  <!-- normal average daily dietary manganese intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3503523">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary manganese intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4060111"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary manganese intake is an average daily dietary manganese intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) for dietary manganese for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean manganese intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal manganese intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp.350-355.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
+     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0923831 -->  <!-- average daily dietary molybdenum intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0923831">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary molybdenum intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/-->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15823,6 +15967,20 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0923831"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary molybdenum intake is an average daily dietary molybdenum intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary molybdenum for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean molybdenum intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low molybdenum intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.356-361.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+        
+        
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2670301 -->  <!-- normal average daily dietary molybdenum intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2670301">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary molybdenum intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0923831"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary molybdenum intake is an average daily dietary molybdenum intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary molybdenum for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean molybdenum intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal molybdenum intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.356-361.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -15832,7 +15990,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7087991">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary nickel intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15882,7 +16040,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3736352">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary phosphorus intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/-->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -15936,16 +16094,30 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3736352"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary phosphorus intake is an average daily dietary phosphorus intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary phosphorus for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean phosphorus intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low phosphorus intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.362-370.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8968249 -->  <!-- normal average daily dietary phosphorus intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8968249">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary phosphorus intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3736352"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary phosphorus intake is an average daily dietary phosphorus intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary phosphorus for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean phosphorus intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal phosphorus intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.362-370.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1759467 -->  <!-- average daily dietary potassium intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1759467">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary potassium intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -16002,6 +16174,23 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary potassium intake is an average daily dietary potassium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary potassium (kalium) for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean potassium intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">low mean kalium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low potassium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low kalium intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.370-379.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2448715 -->  <!-- normal average daily dietary potassium intake-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2448715">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary potassium intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1759467"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary potassium intake is an average daily dietary potassium intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) for dietary potassium (kalium) for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean potassium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean kalium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal potassium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal kalium intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.370-379.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -16011,7 +16200,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5178796">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary selenium intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -16065,16 +16254,30 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5178796"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary selenium intake is an average daily dietary selenium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary selenium for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean selenium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low selenium intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.380-384.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1757060 -->  <!-- normal average daily dietary selenium intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1757060">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary selenium intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5178796"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary selenium intake is an average daily dietary selenium intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary selenium for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean selenium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal selenium intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.380-384.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+       
+     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0342141 -->  <!-- average daily dietary silicon intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0342141">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary silicon intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -16124,7 +16327,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1045375">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary sulfate intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -16173,7 +16376,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2627773">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary sodium intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1363067"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -16230,10 +16433,27 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary sodium intake is an average daily dietary sodium intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary sodium for the population corresponding to patient&apos;s sex and age.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean natrium intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">low mean sodium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low natrium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low sodium intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.386-396.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+  
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5299441 -->  <!-- normal average daily dietary sodium intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5299441">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary sodium intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2627773"/>   
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary sodium intake is an average daily dietary sodium intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary sodium for the population corresponding to patient&apos;s  sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean natrium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean sodium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal natrium intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal sodium intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.386-396.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+    
     
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0442823 -->  <!-- average daily dietary vanadium intake during observed time interval  -->
 
