@@ -14128,6 +14128,19 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.170-181.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5941530 -->  <!-- high average daily dietary vitamin A intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5941530">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary vitamin A intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6081701"/>
+      	<skos:definition rdf:datatape="&xsd;string">High average daily dietary vitamin A intake is an average daily dietary vitamin A intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary vitamin A for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean vitamin A intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high vitamin A intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.170-181.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
     
     
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5827536 -->  <!-- normal average daily dietary vitamin A intake  -->
@@ -14205,7 +14218,20 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.182-187.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-     
+ 
+ 
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5058292 -->  <!-- high average daily dietary vitamin B6 intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5058292">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary vitamin B6 intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2760775"/>    
+      	<skos:definition rdf:datatape="&xsd;string">High average daily dietary vitamin B6 intake is an average daily dietary vitamin B6 intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary vitamin B6 for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean vitamin B6 intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high vitamin B6 intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.182-187.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+        
      
  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3692303 -->  <!-- normal average daily dietary vitamin B6 intake  -->
 
@@ -14289,6 +14315,19 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.188-195.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class> 
+    
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0793963 -->  <!-- high average daily dietary vitamin B12 intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0793963">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary vitamin B12 intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4999812"/>
+      	<skos:definition rdf:datatape="&xsd;string">High average daily dietary vitamin B12 intake is an average daily dietary vitamin B12 intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary vitamin B12 for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean vitamin B12 intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high vitamin B12 intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.188-195.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
      
    
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2835113 -->  <!-- normal average daily dietary vitamin B12 intake  -->
@@ -14370,6 +14409,21 @@ people infected, then extract parasite which are then tested = observation study
         <skos:altLabel rdf:datatype="&xsd;string">low folate intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">low folic acid intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">low folacin intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.244-253.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4057085 -->  <!-- high average daily dietary folacin intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4057085">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary folacin intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4277295"/> 
+        <skos:definition rdf:datatape="&xsd;string">High average daily dietary folacin intake is an average daily dietary folacin intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary folacin (folate) for for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean folate intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high folate intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high folic acid intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high folacin intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.244-253.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14459,6 +14513,20 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.224-233.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+    
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4552868 -->  <!-- high average daily dietary vitamin D intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4552868">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary vitamin D intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7113951"/> 
+        <skos:definition rdf:datatape="&xsd;string">High average daily dietary vitamin D intake is an average daily dietary vitamin D intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) for dietary vitamin D for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean vitamin D intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high vitamin D intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.224-233.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+    
     
     
  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1326752 -->  <!-- normal average daily dietary vitamin D intake  -->
@@ -14534,6 +14602,20 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.202-210.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7655333 -->  <!-- high average daily dietary vitamin C intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7655333">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary vitamin C intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6464019"/>
+      	<skos:definition rdf:datatape="&xsd;string">High average daily dietary vitamin C intake is an average daily dietary vitamin C intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) or between the values of recommended dietary allowance (DRI-RDA) for dietary vitamin C for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean vitamin C intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high vitamin C intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.202-210.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
      
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7616347 -->  <!-- normal average daily dietary vitamin C intake  -->
@@ -14618,6 +14700,19 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
        
+  
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6645105 -->  <!-- high average daily dietary vitamin E intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6645105">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary vitamin E intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5060782"/>     
+        <skos:definition rdf:datatape="&xsd;string">High average daily dietary vitamin E intake is an average daily dietary vitamin E intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary vitamin E for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean vitamin E intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high vitamin E intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp.234-243.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+       
        
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8085813 -->  <!-- normal average daily dietary vitamin E intake  -->
 
@@ -14692,6 +14787,20 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.234-243.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>    
+     
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6033064 -->  <!-- high average daily dietary vitamin K intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6033064">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary vitamin K intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4213927"/>  
+        <skos:definition rdf:datatape="&xsd;string">High average daily dietary vitamin K intake is an average daily dietary vitamin K intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) for dietary vitamin K for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean vitamin K intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high vitamin K intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.234-243.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
 
 
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1942723 -->  <!-- normal average daily dietary vitamin K intake  -->
@@ -14773,6 +14882,20 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1454514 -->  <!-- high average daily dietary thiamine intake-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1454514">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary thiamine intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6830160"/>  
+      	<skos:definition rdf:datatape="&xsd;string">High average daily dietary thiamine intake is an average daily dietary thiamine intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary thiamine for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean thiamine intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high thiamine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.280-285.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
      
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5139078 -->  <!-- normal average daily dietary thiamine intake-->
 
@@ -14850,6 +14973,19 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary riboflavin intake is an average daily dietary riboflavin intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary riboflavin for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean riboflavine intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">low riboflavine intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.274-279.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1228586 -->  <!-- high average daily dietary riboflavin intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1228586">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary riboflavin intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1838254"/>
+      	<skos:definition rdf:datatape="&xsd;string">High average daily dietary riboflavin intake is an average daily dietary riboflavin intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean riboflavine intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high riboflavine intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.274-279.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
@@ -14941,12 +15077,25 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7489098 -->  <!-- high average daily dietary niacin intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7489098">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary niacin intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3068621"/>
+      	<skos:definition rdf:datatape="&xsd;string">High average daily dietary niacin intake is an average daily dietary niacin intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary niacin for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean niacin intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high niacin intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.262-269.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+   
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3880350 -->  <!-- normal average daily dietary niacin intake -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3880350">
         <rdfs:label rdf:datatype="&xsd;string">normal average daily dietary niacin intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3068621"/>  
-        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary niacin intake is an average daily dietary niacin intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary niacin for for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary niacin intake is an average daily dietary niacin intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary niacin for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">normal mean niacin intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">normal niacin intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.262-269.</rdfs:comment> 
@@ -15015,6 +15164,20 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp.218-223.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9210763 -->  <!-- high average daily dietary choline intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9210763">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary choline intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2284853"/>
+        <skos:definition rdf:datatape="&xsd;string">High average daily dietary choline intake is an average daily dietary choline intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) for dietary choline for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean choline intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high choline intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp.218-223.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
      
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8054494 -->  <!-- normal average daily dietary choline intake  -->
@@ -15095,6 +15258,20 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7023842 -->  <!-- high average daily dietary pantothenic acid intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7023842">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary pantothenic acid intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8741124"/>  
+      	<skos:definition rdf:datatape="&xsd;string">High average daily dietary pantothenic acid intake is an average daily dietary pantothenic acid intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) for dietary pantothenic acid for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean pantothenic acid intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high pantothenic acid intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.262-269.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
      
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3980112 -->  <!-- normal average daily dietary pantothenic acid intake  -->
 
@@ -15170,6 +15347,19 @@ people infected, then extract parasite which are then tested = observation study
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary biotin intake is an average daily dietary biotin intake during observed time interval that has value that is less than that of the adequate intake (DRI-AI) for dietary biotin for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean biotin intake</skos:altLabel>
         <skos:altLabel rdf:datatype="&xsd;string">low biotin intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.196-201.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9632213 -->  <!-- high average daily dietary biotin intake-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9632213">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary biotin intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9471223"/>
+        <skos:definition rdf:datatape="&xsd;string">High average daily dietary biotin intake is an average daily dietary biotin intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) for dietary biotin for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean biotin intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high biotin intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC, pp.196-201.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
