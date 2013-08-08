@@ -17970,6 +17970,17 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 459-465.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+   
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3283392-->  <!-- high average daily dietary intake per body mass of phenylalanine and tyrosine combined -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3283392">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9828959"/>   
+      	<skos:definition rdf:datatape="&xsd;string">High average daily dietary intake per body mass of phenylalanine and tyrosine combined is an average daily dietary intake per body mass of phenylalanine and tyrosine combined that has value that is equal to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary phenylalanine and tyrosine combined per body mass for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 459-465.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>    
      
   
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9047664-->  <!-- normal average daily dietary intake per body mass of phenylalanine and tyrosine combined -->
@@ -18093,6 +18104,18 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
    </owl:Class>
    
+   
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6917181-->  <!-- high average daily dietary isoleucine intake per body mass -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6917181">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary isoleucine intake per body mass</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7140514"/>
+    	<skos:definition rdf:datatape="&xsd;string">High average daily dietary isoleucine per body mass is an average daily isoleucine intake per body mass during observed that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary isoleucine per body mass for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Note: The DRIs provided for the amino acid intakes differ with repect to the observed age group. For the infant population age 0 to 6 months provided DRI is the adequate intake per body mass (DRI-AI), expresed in mg/kg/d. For populations older than 7 months of age, provided DRIs are the estimated average requirement (DRI-EAR) and the recommended dietary allowance (DRI-RDA), expressed in mg/kg/d. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-465.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+    
 
  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3462218-->  <!-- normal average daily dietary isoleucine intake per body mass -->
 
@@ -18123,6 +18146,18 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary leucine intake per body mass</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8862351"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary leucine per body mass is an average daily leucine intake per body mass during observed that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary leucine per body mass for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Note: The DRIs provided for the amino acid intakes differ with repect to the observed age group. For the infant population age 0 to 6 months provided DRI is the adequate intake per body mass (DRI-AI), expresed in mg/kg/d. For populations older than 7 months of age, provided DRIs are the estimated average requirement (DRI-EAR) and the recommended dietary allowance (DRI-RDA), expressed in mg/kg/d. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-465.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+   
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0440505-->  <!-- high average daily dietary leucine intake per body mass -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0440505">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary leucine intake per body mass</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8862351"/>
+        <skos:definition rdf:datatape="&xsd;string">High average daily dietary leucine per body mass is an average daily leucine intake per body mass during observed that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary leucine per body mass for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Note: The DRIs provided for the amino acid intakes differ with repect to the observed age group. For the infant population age 0 to 6 months provided DRI is the adequate intake per body mass (DRI-AI), expresed in mg/kg/d. For populations older than 7 months of age, provided DRIs are the estimated average requirement (DRI-EAR) and the recommended dietary allowance (DRI-RDA), expressed in mg/kg/d. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-465.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -18165,6 +18200,18 @@ people infected, then extract parasite which are then tested = observation study
    </owl:Class>
     
     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1057796 -->  <!-- high average daily dietary lysine intake per body mass -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1057796">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary lysine intake per body mass</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1187661"/>
+     	<skos:definition rdf:datatape="&xsd;string">High average daily dietary lysine per body mass is an average daily lysine intake per body mass during observed that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary lysine per body mass for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Note: The DRIs provided for the amino acid intakes differ with repect to the observed age group. For the infant population age 0 to 6 months provided DRI is the adequate intake per body mass (DRI-AI), expresed in mg/kg/d. For populations older than 7 months of age, provided DRIs are the estimated average requirement (DRI-EAR) and the recommended dietary allowance (DRI-RDA), expressed in mg/kg/d. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-465.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+    
+    
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4749469 -->  <!-- normal average daily dietary lysine intake per body mass -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4749469">
@@ -18195,6 +18242,18 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">low average daily dietary histidine intake per body mass</rdfs:label>
 		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5342809"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily dietary histidine per body mass is an average daily histidine intake per body mass during observed that has value that is less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary histidine per body mass for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Note: The DRIs provided for the amino acid intakes differ with repect to the observed age group. For the infant population age 0 to 6 months provided DRI is the adequate intake per body mass (DRI-AI), expresed in mg/kg/d. For populations older than 7 months of age, provided DRIs are the estimated average requirement (DRI-EAR) and the recommended dietary allowance (DRI-RDA), expressed in mg/kg/d. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-465.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+   
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9127000-->  <!-- high average daily dietary histidine intake per body mass -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9127000">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary histidine intake per body mass</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5342809"/>
+    	<skos:definition rdf:datatape="&xsd;string">High average daily dietary histidine per body mass is an average daily histidine intake per body mass during observed that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary histidine per body mass for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Note: The DRIs provided for the amino acid intakes differ with repect to the observed age group. For the infant population age 0 to 6 months provided DRI is the adequate intake per body mass (DRI-AI), expresed in mg/kg/d. For populations older than 7 months of age, provided DRIs are the estimated average requirement (DRI-EAR) and the recommended dietary allowance (DRI-RDA), expressed in mg/kg/d. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.]</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-465.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -18245,7 +18304,17 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
    </owl:Class>
      
-    
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8769256-->  <!-- high average daily dietary intake per body mass of methionine and cysteine combined -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8769256">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary intake per body mass of methionine and cysteine combined</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4199842"/>  
+      	<skos:definition rdf:datatape="&xsd;string">High average daily dietary intake per body mass of methionine and cysteine combined is an average daily dietary intake per body mass of methionine and cysteine combined that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for dietary methionine and cysteine combined per body mass for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 459-465.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+     
    
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5818005-->  <!-- normal average daily dietary intake per body mass of methionine and cysteine combined -->
 
@@ -18302,6 +18371,19 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
    </owl:Class>
    
+  
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4990710 -->  <!-- high average daily dietary threonine intake per body mass -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4990710">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary threonine intake per body mass</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1669993"/>
+    	<skos:definition rdf:datatape="&xsd;string">High average daily dietary threonine per body mass is an average daily threonine intake per body mass during observed that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary threonine per body mass for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Note: The DRIs provided for the amino acid intakes differ with repect to the observed age group. For the infant population age 0 to 6 months provided DRI is the adequate intake per body mass (DRI-AI), expresed in mg/kg/d. For populations older than 7 months of age, provided DRIs are the estimated average requirement (DRI-EAR) and the recommended dietary allowance (DRI-RDA), expressed in mg/kg/d. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-465.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+   
+   
    
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0366528 -->  <!-- normal average daily dietary threonine intake per body mass -->
 
@@ -18313,7 +18395,6 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-465.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
    </owl:Class>
-   
    
    
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3326109-->  <!-- average daily dietary tryptophan intake per body mass during observed time interval -->
@@ -18339,6 +18420,19 @@ people infected, then extract parasite which are then tested = observation study
    </owl:Class>
    
  
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7356771 -->  <!-- high average daily dietary tryptophan intake per body mass -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7356771">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary tryptophan intake per body mass</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3326109"/>
+  		<skos:definition rdf:datatape="&xsd;string">High average daily dietary tryptophan per body mass is an average daily tryptophan intake per body mass during observed that has value that is greater than to that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary tryptophan per body mass for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Note: The DRIs provided for the amino acid intakes differ with repect to the observed age group. For the infant population age 0 to 6 months provided DRI is the adequate intake per body mass (DRI-AI), expresed in mg/kg/d. For populations older than 7 months of age, provided DRIs are the estimated average requirement (DRI-EAR) and the recommended dietary allowance (DRI-RDA), expressed in mg/kg/d. [Source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-466.]</rdfs:comment>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-465.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+ 
+ 
+ 
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7272062 -->  <!-- normal average daily dietary tryptophan intake per body mass -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7272062">
@@ -18349,7 +18443,6 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-465.</rdfs:comment>     
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
    </owl:Class>
-   
    
    
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6097970-->  <!-- average daily dietary valine intake per body mass during observed time interval -->
@@ -18373,6 +18466,17 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
    </owl:Class>
    
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6785015 -->  <!-- high average daily dietary valine intake per body mass -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6785015">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily dietary valine intake per body mass</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6097970"/>
+    	<skos:definition rdf:datatape="&xsd;string">High average daily dietary valine per body mass is an average daily valine intake per body mass during observed that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) or the estimated average requirement (DRI-EAR) for dietary valine patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.459-465.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+   </owl:Class>
+ 
  
   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0941680 -->  <!-- normal average daily dietary valine intake per body mass -->
 
