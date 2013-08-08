@@ -12786,7 +12786,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0323207">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary water intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
          <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -12835,18 +12835,48 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_3230535">
         <rdfs:label rdf:datatype="&xsd;string">low average daily total dietary water intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0323207"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily total dietary water intake is an average daily total dietary water intake during observed time interval that has value less than that of the adequate intake (DRI-AI) for total dietary water for the population corresponding to patient's sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily total dietary water intake is an average daily total dietary water intake during observed time interval that has value less than that of the adequate intake (DRI-AI) for total dietary water for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean water intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low water intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low daily water intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 156-166.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
-         
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0723441 -->  <!-- normal average daily total dietary water intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0723441">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily total dietary water intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0323207"/>
+     	<skos:definition rdf:datatape="&xsd;string">Normal average daily dietary water intake is an average daily total dietary water intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) for total dietary water for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean water intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal water intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal daily water intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 156-166.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7742892 -->  <!-- high average daily total dietary water intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7742892">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily total dietary water intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0323207"/>
+        <skos:definition rdf:datatape="&xsd;string">High average daily dietary water intake is an average daily total dietary water intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) for total dietary water for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean water intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high water intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high daily water intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 156-166.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+          
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9046621 -->  <!-- average daily total dietary protein intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9046621">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary protein intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -12895,18 +12925,49 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_4083601">
         <rdfs:label rdf:datatype="&xsd;string">low average daily total dietary protein intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9046621"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily total dietary protein intake is an average daily total dietary protein intake during observed time interval that has value less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for total dietary protein for the population corresponding to patient's sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily total dietary protein intake is an average daily total dietary protein intake during observed time interval that has value less than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA) for total dietary protein for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean protein intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low protein intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low daily protein intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 144-155.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
+    
+  
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8315383 -->  <!-- normal average daily dietary protein intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8315383">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily total dietary protein intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9046621"/>  
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary protein intake is an average daily total dietary protein intake during observed time interval that has value that is equal to that of the estimated average requirement (DRI-EAR) or the recommended dietary allowance (DRI-RDA) or the adequate intake (DRI-AI) or for total dietary protein for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean protein intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal protein intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal daily protein intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 144-155.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+       
+       
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9624808 -->  <!-- high average daily dietary protein intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9624808">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily total dietary protein intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9046621"/> 
+        <skos:definition rdf:datatape="&xsd;string">High average daily dietary protein intake is an average daily total dietary protein intake during observed time interval that has value that is greater than that of the estimated average requirement (DRI-EAR) or the recommended dietary allowance (DRI-RDA) or the adequate intake (DRI-AI) or for total dietary protein for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean protein intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high protein intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high daily protein intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC., pp. 144-155.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+       
        
        
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3033773 -->  <!-- average daily total dietary fat intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3033773">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary fat intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -12956,17 +13017,49 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">low average daily total dietary fat intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3033773"/>
         <skos:definition rdf:datatype="&xsd;string">Low average daily total dietary fat intake is an average daily total dietary fat intake during observed time interval that has value less than that of the adequate intake (DRI-AI) for total dietary fat intake for the population corresponding to patient's sex and age.</skos:definition>
-        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 122-139.</rdfs:comment>    
         <skos:altLabel rdf:datatype="&xsd;string">low mean fat intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low fat intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low daily fat intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 122-139.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
+   
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8380725 -->  <!-- normal average daily dietary fat intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8380725">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily total dietary fat intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3033773"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily total dietary fat intake is an average daily total dietary fat intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) for total dietary fat for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean fat intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal fat intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal daily fat intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 122-139.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+   
+   
+      
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8301532 -->  <!-- high average daily dietary fat intake -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8301532">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily total dietary fat intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_3033773"/>
+        <skos:definition rdf:datatape="&xsd;string">High average daily total dietary fat intake is an average daily total dietary fat intake during observed time interval that has value that is grater than that of the adequate intake (DRI-AI) for total dietary fat for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean fat intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high fat intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high daily fat intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 122-139.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+   
    
    
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2286225 -->  <!-- average daily dietary total carbohydrate intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2286225">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary carbohydrate intake during observed time interval</rdfs:label>
-        <!--rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13015,18 +13108,49 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7354824">
         <rdfs:label rdf:datatype="&xsd;string">low average daily total dietary carbohydrate intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2286225"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily total dietary carbohydrate intake is an average daily total dietary carbohydrate intake during observed time that has value less than that of the recommended dietary allowance (DRI-RDA) or the adequate intake (DRI-AI) for total dietary carbohydrates for the population corresponding to patient's sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily total dietary carbohydrate intake is an average daily total dietary carbohydrate intake during observed time that has value less than that of the recommended dietary allowance (DRI-RDA) or the adequate intake (DRI-AI) for total dietary carbohydrates for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean carbohydrate intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low carbohydrate intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low daily carbohydrate intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>  
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
-    
+     
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0351035 -->  <!-- normal average daily dietary total carbohydrate intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0351035">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily total dietary carbohydrate intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2286225"/>  
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary carbohydrate intake is an average daily total dietary carbohydrate intake during observed time interval that has the value equal to that of the estimated average requirement (DRI-EAR) or the recommended dietary allowance (DRI-RDA) or the adequate intake (DRI-AI) for total dietary carbohydrates for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean carbohydrate intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal carbohydrate intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal daily carbohydrate intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>  
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+   
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4971909 -->  <!-- high average daily dietary total carbohydrate intake  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4971909">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily total dietary carbohydrate intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2286225"/>   
+      	<skos:definition rdf:datatape="&xsd;string">High average daily dietary carbohydrate intake is an average daily total dietary carbohydrate intake during observed time interval that has the value greater than that of the estimated average requirement (DRI-EAR) or the recommended dietary allowance (DRI-RDA) or the adequate intake (DRI-AI) for total dietary carbohydrates for the population corresponding to patient's sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean carbohydrate intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high carbohydrate intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high daily carbohydrate intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 6-12.</rdfs:comment>  
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+ 
     
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6649635 -->  <!-- average daily dietary amino acid intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6649635">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary amino acid intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13074,7 +13198,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7773980">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary fiber intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
          <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13123,18 +13247,49 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1574904">
         <rdfs:label rdf:datatype="&xsd;string">low average daily total dietary fiber intake</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7773980"/>
-        <skos:definition rdf:datatype="&xsd;string">Low average daily total dietary fiber intake is an average daily total dietary fiber intake during observed time interval that has value less than that of the adequate intake (DRI-AI) for total dietary fiber for the population corresponding to patient's sex and age.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Low average daily total dietary fiber intake is an average daily total dietary fiber intake during observed time interval that has value less than that of the adequate intake (DRI-AI) for total dietary fiber for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">low mean fiber intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low fiber intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">low daily fiber intake</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 111-121.</rdfs:comment> 
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>    
+     
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5746049 -->  <!-- normal average daily total dietary fiber intake-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5746049">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily total dietary fiber intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7773980"/>  
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily dietary fiber intake is an average daily total dietary fiber intake during observed time interval that has value that is equal to that of the adequate intake (DRI-AI) for total dietary fiber for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">normal mean fiber intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal fiber intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">normal daily fiber intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 111-121.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5874537 -->  <!-- high average daily total dietary fiber intake-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5874537">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily total dietary fiber intake</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7773980"/>  
+        <skos:definition rdf:datatape="&xsd;string">High average daily dietary fiber intake is an average daily total dietary fiber intake during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) for total dietary fiber for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">high mean fiber intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high fiber intake</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">high daily fiber intake</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National academies press, Washington DC., pp. 111-121.</rdfs:comment> 
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
      
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5257504 -->  <!-- average daily dietary cholesterol intake during observed time interval  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5257504">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary cholesterol intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
          <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -13182,7 +13337,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8777352">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary fatty acid intake during observed time interval</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0870721"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
