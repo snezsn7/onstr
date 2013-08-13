@@ -6758,7 +6758,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5644811">
         <rdfs:label rdf:datatype="&xsd;string">blood phenylalanine concentration finding</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1445519"/ --> <!-- Phe concentration finding -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1445519"/> <!-- Phe concentration finding -->
         <owl:equivalentClass>  
           <owl:Class>  
              <owl:intersectionOf rdf:parseType="Collection">
@@ -6782,7 +6782,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3680244">
         <rdfs:label rdf:datatype="&xsd;string">normal blood phenylalanine concentration finding</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5644811"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5644811"/>
         
  	     <owl:equivalentClass>
             <owl:Class>
@@ -6853,7 +6853,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2522662">
         <rdfs:label rdf:datatype="&xsd;string">hyperphenylalaninemia finding</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5644811"/-->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5644811"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -6923,7 +6923,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6067230">
         <rdfs:label rdf:datatype="&xsd;string">non-PKU hyperphenylalaninemia finding</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2522662"/ -->  <!--PKU hyperphenylalaninemia finding -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2522662"/>  <!--PKU hyperphenylalaninemia finding -->
         
 	    <owl:equivalentClass>
             <owl:Class>
@@ -7018,7 +7018,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8464423">
         <rdfs:label rdf:datatype="&xsd;string">PKU hyperphenylalaninemia finding</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2522662"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2522662"/>
  	     <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -7088,7 +7088,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6832076">
         <rdfs:label rdf:datatype="&xsd;string">mild PKU hyperphenylalaninemia finding</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/ -->  <!-- PKU hyperphenylalaninemia finding -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/>  <!-- PKU hyperphenylalaninemia finding -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -7182,7 +7182,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0134074">
         <rdfs:label rdf:datatype="&xsd;string">moderate PKU hyperphenylalaninemia finding</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/ --> <!-- PKU hyperphenylalaninemia finding -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/> <!-- PKU hyperphenylalaninemia finding -->
 	    <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -7277,7 +7277,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0014697">
         <rdfs:label rdf:datatype="&xsd;string">classic PKU hyperphenylalaninemia finding</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8464423"/>
  	     <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -7347,7 +7347,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8335262">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration finding</rdfs:label>
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1445519"/ --> <!-- Phe concentration finding -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1445519"/> <!-- Phe concentration finding -->
         <owl:equivalentClass>  
           <owl:Class>  
              <owl:intersectionOf rdf:parseType="Collection">
@@ -7377,8 +7377,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8764887">
         <rdfs:label rdf:datatype="&xsd;string">blood zinc concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ --> <!-- blood chemical concentration measurement datum -->
-       
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/> <!-- blood chemical concentration measurement datum -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -7457,7 +7456,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7819287">
         <rdfs:label rdf:datatype="&xsd;string">total serum iron concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ --> <!-- blood chemical concentration measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/> <!-- blood chemical concentration measurement datum -->
         
          <owl:equivalentClass>
             <owl:Class>
@@ -7518,7 +7517,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1162650">
         <rdfs:label rdf:datatype="&xsd;string">blood selenium concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ --> <!-- blood chemical concentration measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/> <!-- blood chemical concentration measurement datum -->
         
         <owl:equivalentClass>
             <owl:Class>
@@ -7596,7 +7595,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4434268">
         <rdfs:label rdf:datatype="&xsd;string">blood serum transferrin concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ --> <!-- blood chemical concentration measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/> <!-- blood chemical concentration measurement datum -->
         
         <owl:equivalentClass>
             <owl:Class>
@@ -7658,7 +7657,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5020674">
         <rdfs:label rdf:datatype="&xsd;string">blood amino acid concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ --> <!-- blood chemical concentration measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/> <!-- blood chemical concentration measurement datum -->
           <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -8398,7 +8397,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2522542">
         <rdfs:label rdf:datatype="&xsd;string">blood vitamin C concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
           <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -8468,7 +8467,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2786064">
         <rdfs:label rdf:datatype="&xsd;string">blood vitamin B6 concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -8537,7 +8536,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2966439">
         <rdfs:label rdf:datatype="&xsd;string">blood vitamin B12 concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -8609,7 +8608,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9960504">
         <rdfs:label rdf:datatype="&xsd;string">blood folate concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -8670,7 +8669,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2366136">
         <rdfs:label rdf:datatype="&xsd;string">blood vitamin D concentration measurement datum</rdfs:label>
-    	<!--  rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -8798,7 +8797,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9965048">
         <rdfs:label rdf:datatype="&xsd;string">urine creatinine concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6127102"/ --> <!-- urine chemical concentration measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6127102"/> <!-- urine chemical concentration measurement datum -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -8872,7 +8871,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1115755">
         <rdfs:label rdf:datatype="&xsd;string">cerebrospinal fluid phenylalanine concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8315858"/ -->  <!-- CSF chemical concentration measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8315858"/>  <!-- CSF chemical concentration measurement datum -->
          <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -9280,7 +9279,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7549502">
         <rdfs:label rdf:datatype="&xsd;string">dried blood spot specimen</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/ --> <!-- processed specimen -->
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000953"/> <!-- processed specimen -->
     	<owl:equivalentClass>  
           <owl:Class>  
              <owl:intersectionOf rdf:parseType="Collection">
@@ -9414,7 +9413,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2038914">
         <rdfs:label rdf:datatype="&xsd;string">body quality</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/ -->
+    	<rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/>
      	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -9459,7 +9458,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1273733">
         <rdfs:label rdf:datatype="&xsd;string">head size</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/ -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -9482,7 +9481,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4137435">
         <rdfs:label rdf:datatype="&xsd;string">body mass</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/ -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -9531,7 +9530,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0829886">
         <rdfs:label rdf:datatype="&xsd;string">human age</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/ -->
+    	<rdfs:subClassOf rdf:resource="&PATO;PATO_0001995"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -9586,7 +9585,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9411314">
         <rdfs:label rdf:datatype="&xsd;string">body mass constituent composition</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/ -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2038914"/>
     	 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -9611,7 +9610,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3296813">
         <rdfs:label rdf:datatype="&xsd;string">gestational age at birth measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0001167"/ -->
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0001167"/>
     	 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -9671,7 +9670,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2447364">
         <rdfs:label rdf:datatype="&xsd;string">age at newborn dried blood spot screening specimen collection measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0719792"/ !--> <!-- age at newborn screening measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0719792"/> <!-- age at newborn screening measurement datum -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -9757,7 +9756,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8327411">
         <rdfs:label rdf:datatype="&xsd;string">age at confirmatory testing blood specimen collection measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/ -->  <!-- time measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/>  <!-- time measurement datum -->
           <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -9877,7 +9876,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5773210">
         <rdfs:label rdf:datatype="&xsd;string">phenotypic sex datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/ -->  <!-- data item -->
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -9900,7 +9899,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2150908">
         <rdfs:label rdf:datatype="&xsd;string">head circumference measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000408"/ -->
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000408"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -9965,7 +9964,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8762724">
         <rdfs:label rdf:datatype="&xsd;string">body mass measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000414"/ -->
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000414"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -10028,7 +10027,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7664189">
         <rdfs:label rdf:datatype="&xsd;string">body height measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000408"/ -->
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000408"/>
     	 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -10094,7 +10093,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0270435">
         <rdfs:label rdf:datatype="&xsd;string">body mass measurement assay</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0000445"/ -->
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000445"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -10138,7 +10137,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1745319">
         <rdfs:label rdf:datatype="&xsd;string">body heigth measurement assay</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8336133"/ -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8336133"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -10171,7 +10170,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1298692">
         <rdfs:label rdf:datatype="&xsd;string">head circumference measurement assay</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8336133"/ -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8336133"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -10204,7 +10203,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7375219">
         <rdfs:label rdf:datatype="&xsd;string">developmental growth indicator derivation</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/-->
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
     	 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -10322,7 +10321,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7294200">
         <rdfs:label rdf:datatype="&xsd;string">body mass index calculation</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/ -->
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -10374,7 +10373,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3614873">
         <rdfs:label rdf:datatype="&xsd;string">developmental growth chart</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000308"/ -->
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000308"/>
          <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -11128,7 +11127,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8918965">
         <rdfs:label rdf:datatype="&xsd;string">percentile</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/ -->
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -11176,7 +11175,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7867655">
         <rdfs:label rdf:datatype="&xsd;string">developmental growth indicator</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/ --> <!-- data item -->
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/> <!-- data item -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -11214,7 +11213,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2338725">
         <rdfs:label rdf:datatype="&xsd;string">height-for-age percentile</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/ -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -11242,7 +11241,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9730100">
         <rdfs:label rdf:datatype="&xsd;string">weight-for-age percentile</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/ -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -11272,7 +11271,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3502270">
         <rdfs:label rdf:datatype="&xsd;string">weight-for-height percentile</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/ -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -11295,7 +11294,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7315205">
         <rdfs:label rdf:datatype="&xsd;string">head circumference-for-age percentile</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/ -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -11320,7 +11319,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8290547">
         <rdfs:label rdf:datatype="&xsd;string">body mass index-for-age percentile</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/ -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7867655"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -11343,7 +11342,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5875975">
         <rdfs:label rdf:datatype="&xsd;string">body mass index</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/ -->
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -11379,7 +11378,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5288942">
         <rdfs:label rdf:datatype="&xsd;string">nutritional item intake recording</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/ -->
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
     	 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -11562,7 +11561,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6867187">
         <rdfs:label rdf:datatype="&xsd;string">nutrient intake analysis</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/ -->  <!-- data transformation -->
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0200000"/>  <!-- data transformation -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -11622,7 +11621,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9906490">
         <rdfs:label rdf:datatype="&xsd;string">blood serum ferritin concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -11681,7 +11680,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7654391">
         <rdfs:label rdf:datatype="&xsd;string">blood serum transthyretin concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -11743,7 +11742,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0232327">
         <rdfs:label rdf:datatype="&xsd;string">blood serum albumin concentration measurement datum</rdfs:label>
-    	<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/ -->  <!-- blood chemical concentration measurement datum -->
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6769309"/>  <!-- blood chemical concentration measurement datum -->
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -17482,7 +17481,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2490062">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary water intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -17529,7 +17528,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4580525">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary protein intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -17587,7 +17586,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5243910">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary total fat intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -17634,7 +17633,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4054546">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary carbohydrate intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
 		 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -17681,7 +17680,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9698884">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary fiber intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
 		 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -17728,7 +17727,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3673197">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary fatty acid intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -17847,7 +17846,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2626596">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary cholesterol intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -17895,7 +17894,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3860310">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary amino acid intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8173437"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -18541,7 +18540,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8997308">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin A intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -18600,7 +18599,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5697260">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin B6 intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -18648,7 +18647,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9552783">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin B12 intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -18701,7 +18700,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7691352">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary folacin intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -18750,7 +18749,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0003002">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin D intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -18803,7 +18802,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5443586">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin C intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -18851,7 +18850,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4596077">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin E intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -18907,7 +18906,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1911808">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vitamin K intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
 		 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -18955,7 +18954,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8588243">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary thiamine intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
     	 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19003,7 +19002,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7289743">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary riboflavin intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
 	   <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19052,7 +19051,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6059681">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary niacin intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19106,7 +19105,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7772837">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary choline intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19154,7 +19153,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1317968">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary pantothenic acid intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
 		 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19202,7 +19201,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8247791">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary biotin intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
 		 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19250,7 +19249,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1888775">
         <rdfs:label rdf:datatype="&xsd;string">average daily total dietary carotenoid intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8689857"/>
 		 <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19312,7 +19311,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0867118">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary calcium intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19359,7 +19358,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0058365">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary iron intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19406,7 +19405,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0534168">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary zinc intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19453,7 +19452,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3570827">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary arsenic intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19500,7 +19499,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0184244">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary boron intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19547,7 +19546,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7976521">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary chromium intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19594,7 +19593,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7243860">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary copper intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19641,7 +19640,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4679647">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary chloride intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19688,7 +19687,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3277054">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary fluoride intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19735,7 +19734,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9145873">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary iodine intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19782,7 +19781,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5873093">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary magnesium intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19829,7 +19828,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3663890">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary manganese intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19876,7 +19875,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1769497">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary molybdenum intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19923,7 +19922,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4855812">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary nickel intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -19970,7 +19969,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4768406">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary phosphorus intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -20017,7 +20016,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5305807">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary potassium intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -20064,7 +20063,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5491871">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary selenium intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -20111,7 +20110,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4354065">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary silicon intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/-->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 	    <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -20158,7 +20157,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7916081">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary sulfate intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -20205,7 +20204,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7762559">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary sodium intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -20252,7 +20251,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9111606">
         <rdfs:label rdf:datatype="&xsd;string">average daily dietary vanadium intake per body mass during observed time interval</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0312097"/>
 		<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -20321,7 +20320,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3255175">
         <rdfs:label rdf:datatype="&xsd;string">nutrient intake datum</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8313486"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8313486"/>
 	    <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -25346,7 +25345,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5692828">
         <rdfs:label rdf:datatype="&xsd;string">nutritional item</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/ -->
+		<rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
 	    <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -25684,7 +25683,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4766320">
         <rdfs:label rdf:datatype="&xsd;string">parenteral two-in-one solution</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7534799"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7534799"/>
 	    <owl:equivalentClass>  
           <owl:Class>  
              <owl:intersectionOf rdf:parseType="Collection">
@@ -25713,7 +25712,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9415312">
         <rdfs:label rdf:datatype="&xsd;string">parenteral three-in-one solution</rdfs:label>
-		<!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7534799"/ -->
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7534799"/>
 		<owl:equivalentClass>  
           <owl:Class>  
              <owl:intersectionOf rdf:parseType="Collection">
@@ -25954,7 +25953,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7240990">
         <rdfs:label rdf:datatype="&xsd;string">food item-amino acid exchange datum</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/ --> 
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/> 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -25980,7 +25979,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_9857078">
         <rdfs:label rdf:datatype="&xsd;string">food item amino acid content datum</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/ --> 
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/> 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26024,7 +26023,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1474441">
         <rdfs:label rdf:datatype="&xsd;string">nutritional item datum</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/ -->  <!-- data item -->
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26050,7 +26049,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_6640610">
         <rdfs:label rdf:datatype="&xsd;string">food item datum</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1474441"/ -->  <!-- nutritional item datum -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1474441"/>  <!-- nutritional item datum -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26076,7 +26075,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5171079">
         <rdfs:label rdf:datatype="&xsd;string">consumed food item datum</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6640610"/ --> <!-- food item datum --> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6640610"/> <!-- food item datum --> 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26096,7 +26095,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3856334">
         <rdfs:label rdf:datatype="&xsd;string">prescribed food item datum</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6640610"/ --> <!-- food item datum -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6640610"/> <!-- food item datum -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26126,7 +26125,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1017357">
         <rdfs:label rdf:datatype="&xsd;string">consumed dietary supplement datum</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1124010"/ -->   <!--dietary supplement datum-->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1124010"/>   <!--dietary supplement datum-->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26145,7 +26144,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7348043">
         <rdfs:label rdf:datatype="&xsd;string">prescribed dietary supplement datum</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1124010"/ -->   <!--dietary supplement datum-->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_1124010"/>   <!--dietary supplement datum-->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26175,7 +26174,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2850127">
         <rdfs:label rdf:datatype="&xsd;string">consumed nutritional formula datum</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9235387"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9235387"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26194,7 +26193,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1987347">
         <rdfs:label rdf:datatype="&xsd;string">prescribed nutritional formula datum</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9235387"/ -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9235387"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26246,7 +26245,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4852474">
         <rdfs:label rdf:datatype="&xsd;string">nutritional item name</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000590"/ -->
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000590"/>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26309,7 +26308,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_1431266">
         <rdfs:label rdf:datatype="&xsd;string">nutritional item quantity datum</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/--> <!-- scalar measur datum-->
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/> <!-- scalar measur datum-->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26393,7 +26392,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5413434">
         <rdfs:label rdf:datatype="&xsd;string">bacterial inhibition assay</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/ -->  <!-- assay -->
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>  <!-- assay -->
         <owl:equivalentClass>  
           <owl:Class>  
              <owl:intersectionOf rdf:parseType="Collection">
@@ -26475,7 +26474,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7555475">
         <rdfs:label rdf:datatype="&xsd;string">hearing screening</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0692868"/ -->  <!-- hearing assay -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0692868"/>  <!-- hearing assay -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26516,7 +26515,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8770782">
         <rdfs:label rdf:datatype="&xsd;string">hearing evaluation</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0692868"/ -->  <!-- hearing assay -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_0692868"/>  <!-- hearing assay -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26601,7 +26600,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7308488">
         <rdfs:label rdf:datatype="&xsd;string">newborn screening follow-up system process</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/ -->  <!-- obi:planned process -->
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- obi:planned process -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26655,7 +26654,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2514922">
         <rdfs:label rdf:datatype="&xsd;string">repeated newborn screening process</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9436244"/ -->  <!-- newborn screening process --> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_9436244"/>  <!-- newborn screening process --> 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26694,7 +26693,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0337384">
         <rdfs:label rdf:datatype="&xsd;string">third newborn screening process</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2514922"/-->  <!-- repeated newborn screening process -->
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_2514922"/>  <!-- repeated newborn screening process -->
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26718,7 +26717,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7271477">
         <rdfs:label rdf:datatype="&xsd;string">second-tier newborn dried blood spot screening test</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/-->  <!-- newborn screening system process -->  
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/>  <!-- newborn screening system process -->  
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -26753,7 +26752,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0773490">
         <rdfs:label rdf:datatype="&xsd;string">third-tier newborn dried blood spot screening test</rdfs:label>  
-        <!-- rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/ -->  <!-- newborn screening system process --> 
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7308488"/>  <!-- newborn screening system process --> 
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -28784,13 +28783,12 @@ We have had a long discussion about denotes versus describes.</skos:definition>
     </owl:ObjectProperty>
  
  
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5555555 -->  <!-- ONSTR:is specified output of -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5555555 -->  <!-- has time measurement datum -->
 
     <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_5555555">
-         <rdfs:label rdf:datatype="&xsd;string">has time stamp datum</rdfs:label>
+         <rdfs:label rdf:datatype="&xsd;string">has time measurement datum</rdfs:label>
          <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000111"/> <!-- bfo2:has proper continuant part at all times -->
  		 <skos:definition rdf:datatype="&xsd;string">A relation between time stamped measurement datum and time measurement datum.</skos:definition>
-         <skos:editorialNote rdf:datatype="&xsd;string">NOTE: This is a TEMPORARY relation asserted in the ONSTR to temporary replace the OBI relation &apos;has time stamp&apos;which would&apos;ve been used othervise. OBI&apos;s &apos;has time stamp&apos; is defined as functional property and according to the definition referes to the time when the measurement has been performed. This does not work for ONSTR, because we have data items that are doubly time stamped wher each of the &apos;time stamp&apos; has different data type.</skos:editorialNote>
          <rdfs:domain rdf:resource="&obo;IAO_0000582"/>  <!-- time stamped measurement datum -->
          <rdfs:range rdf:resource="&obo;IAO_0000416"/>  <!-- time measurement datum -->
     </owl:ObjectProperty>
