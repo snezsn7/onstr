@@ -9815,7 +9815,7 @@ people infected, then extract parasite which are then tested = observation study
             </owl:Class>
         </owl:equivalentClass>
        
-        <skos:definition rdf:datatype="&xsd;string">Age at long-term ollow-up visit measurement datum is age since birth measurement datum that is the result of measurement of the amount of time a human patient has been living until the day of follow-up visit during which the age measurement is been performed.</skos:definition>
+        <skos:definition rdf:datatype="&xsd;string">Age at long-term ollow-up visit measurement datum is age since birth measurement datum that is the result of measurement of the amount of time a human patient has been living until the day of the follow-up visit during which the age measurement is been performed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">age at follow-up visit</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -9876,11 +9876,11 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5773210">
         <rdfs:label rdf:datatype="&xsd;string">phenotypic sex datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0000938"/>  <!-- categorical measurement datum-->
     	<owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;IAO_0000027"/>  <!-- data item -->
+                    <rdf:Description rdf:about="&obo;OBI_0000938"/>  <!-- categorical measurement datum-->
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
                         <owl:someValuesFrom rdf:resource="&PATO;PATO_0001894"/>  <!-- phenotypic sex -->
@@ -11547,8 +11547,8 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5883438">
         <rdfs:label rdf:datatype="&xsd;string">nutrient analysis software</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000010"/> <!-- software -->
-    	<skos:definition rdf:datatype="&xsd;string">Nutrient analysis software is a software that performs nutrition analysis of food item(s) been taken or used as a recipe ingredients, and that provides information about nutrient content and energy value(s) of analyzed food items as the output of the nutrient analysis.</skos:definition>
+    	<rdfs:subClassOf rdf:resource="&obo;IAO_0000594"/> <!-- software application-->
+    	<skos:definition rdf:datatype="&xsd;string">Nutrient analysis software is a software application that performs nutrition analysis of food item(s) been taken or used as a recipe ingredients, and that provides information about nutrient content and energy value(s) of analyzed food items as the output of the nutrient analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: http://www.nutritionalanalysissoftware.com</rdfs:comment>
         <rdfs:comment rdf:datatype="&xsd;string">Originally, method of nutritional analysis was performed in a laboratory where a chemical process was used to establish the nutritional value. Software analysis is based on sets of previously laboratory analyzed food samples, while more advanced form of this analysis is done through a web application. [Source: http://www.nutritionalanalysissoftware.com]</rdfs:comment>
         <skos:altLabel rdf:datatype="&xsd;string">dietary analysis software</skos:altLabel>
@@ -26938,10 +26938,9 @@ people infected, then extract parasite which are then tested = observation study
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8235099 -->  <!-- long-term follow-up interval visit  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_8235099">
-        <rdfs:label rdf:datatype="&xsd;string">long-term follow-up interval visit</rdfs:label>  
+        <rdfs:label rdf:datatype="&xsd;string">long-term follow-up patient interval visit</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
-        <!-- cros with health care encounter ogms_0000097 ??? and/or health care process ogms:0000096  -->
-        <skos:definition rdf:datatape="&xsd;string">Long-term follow-up interval visit is a health care process that realizes patient role, metabolic dietitian role and physician role and that consists of collection of health care processes unfolding on a regular basis during which a patient&apos;s overall growth and development (physical growth, physco-motor and psycho-cognitive development) is been examined, assessed and evaluated by various medical specialist and patient&apos;s therapy (nutrition and medication) evaluated and adjusted.</skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Long-term follow-up patient interval visit is a health care process that realizes patient role, metabolic dietitian role and physician role and that consists of collection of health care processes unfolding on a regular basis during which a patient&apos;s overall growth and development (physical growth, physco-motor and psycho-cognitive development) is been examined, assessed and evaluated by various medical specialist and patient&apos;s therapy (nutrition and medication) evaluated and adjusted.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Some of the processes unfolding during a patient long-term follow-up interval visit are: physical examination, nutrition assessment, psycho-cognitive development assessment, physical growth assessment etc.</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -26953,7 +26952,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_5951138">
         <rdfs:label rdf:datatype="&xsd;string">nutrition care process</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
-        <!-- cross with health care process ogms:0000096  -->
         <skos:definition rdf:datatape="&xsd;string">Nutrition care process is a health care process that realizes dietitian role and patient role and that is a collection of processes designed to improve consistency and quality of personalized nutrition treatment and the predictability of patient&apos;s outcome.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">NCP</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Academy of Nutrition and Dietetics (2013) International Dietetics and Nutrition Terminology (IDNT) Reference Manual. Standardized Language for the Nutrition Care Process. 4th Ed. Academy of Nutrition and Dietetics, Chicago, IL, pp. 9-16.</rdfs:comment>    
@@ -28500,6 +28498,12 @@ people infected, then extract parasite which are then tested = observation study
 
 <!-- NOVO OVDE -->
 
+
+
+
+
+
+<!-- DISJOINT CALSS AXIOMS -->
 
 	<owl:AllDisjointClasses>
     	<owl:members rdf:parseType="Collection">
