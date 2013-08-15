@@ -9799,12 +9799,13 @@ people infected, then extract parasite which are then tested = observation study
                                 	<owl:unionOf rdf:parseType="Collection">
                                 		<rdf:Description rdf:about="&obo;UO_0000033"/> <!-- uo:day -->
                                 		<rdf:Description rdf:about="&obo;UO_0000035"/>  <!-- uo:month -->
+                                	    <rdf:Description rdf:about="&obo;UO_0000036"/>  <!-- uo:year -->
                                 	</owl:unionOf> 
                                </owl:Class> 	
                             </owl:someValuesFrom>
                     </owl:Restriction>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!--has measur value-->
+                        <owl:onProperty rdf:resource="&obo;IAO_0000004"/> <!-- has measur value-->
                            <owl:someValuesFrom>
                                <rdfs:Datatype>
                                  <owl:onDatatype rdf:resource="&xsd;float"/>         
@@ -9814,9 +9815,20 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-       
         <skos:definition rdf:datatype="&xsd;string">Age at long-term ollow-up visit measurement datum is age since birth measurement datum that is the result of measurement of the amount of time a human patient has been living until the day of the follow-up visit during which the age measurement is been performed.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">age at follow-up visit</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5782884 --> <!-- age at research study visit measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_5782884">
+        <rdfs:label rdf:datatype="&xsd;string">age at research study visit measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&obo;OBI_0001169"/> <!-- age since birth measurement datum -->
+        <skos:definition rdf:datatape="&xsd;string">Age at research study visit measurement datum is a age since birth measurement datum that is the result of measurement of the amount of time a human research study participant has been living until the day of the particular research study visit.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">age at research visit</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -26947,6 +26959,17 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2703424 -->  <!-- research study participant visit  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2703424">
+        <rdfs:label rdf:datatype="&xsd;string">long-term follow-up patient interval visit</rdfs:label>  
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+        <skos:definition rdf:datatape="&xsd;string">Research study participant visit is a planned process consisting of processes described or defined by a research study protocol and that involve participation of research study participant and one or more researchers.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5951138 -->  <!-- nutrition care process  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5951138">
@@ -28455,7 +28478,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_7599170">
         <rdfs:label rdf:datatype="&xsd;string">kidney epithelial cell lacking phenylalanine-4-hydroxylase complex</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_7112104"/> <!-- disordered kidney epithelial cell -->  
-       
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -28488,20 +28510,86 @@ people infected, then extract parasite which are then tested = observation study
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        
         <skos:definition rdf:datatape="&xsd;string">Kidney epithelial cell lacking phenylalanine-4-hydroxylase complex is a kidney epithelial cell that due to alteration(s) in the PAH gene completely lacks the phenylalanine-4-hydroxylase protein and/or phenylalanine-4-hydroxylase complex.</skos:definition> 
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+     
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6093772 -->  <!-- data collection  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_6093772">
+        <rdfs:label rdf:datatype="&xsd;string">data collection</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/> <!-- information content entity -->  
+        <skos:definition rdf:datatape="&xsd;string">Data collection is an information content entity that is an aggregate of data items that could be grouped into data sets or groups of data items of different types that all have something in common.</skos:definition>
+        <skos:example rdf:datatype="&xsd;string">A patient record or a research study participant record consisting of various types of data all pertaining to the particular patient or research study participant that may include, full blood count data, complete metabolic panel, dietary intake data, anthropometrics, person demographics etc.</skos:example>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
     
     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7188815 -->  <!-- long-term follow-up patient record  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7188815">
+        <rdfs:label rdf:datatype="&xsd;string">long-term follow-up patient record</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6093772"/> <!-- data collection -->  
+        <skos:definition rdf:datatape="&xsd;string">Long-term follow-up patient record is a data collection consisting of all data items pertaining to one particular patient and that is collected for purposes of providing health care to the patient.</skos:definition>
+        <skos:example rdf:datatype="&xsd;string">A patient record or a research study participant record consisting of various types of data all pertaining to the particular patient or research study participant that may include, full blood count data, complete metabolic panel, dietary intake data, anthropometrics, person demographics etc.</skos:example>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+ 
+ 
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3662794 -->  <!-- research study participant record  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_3662794">
+        <rdfs:label rdf:datatype="&xsd;string">research study participant record</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6093772"/> <!-- data collection -->    
+     	<skos:definition rdf:datatape="&xsd;string">Research study participant record  is a data collection consisting of all data items pertaining to one particular research study participant and that is collected for research study purposes.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4611369 -->  <!-- research study data collection  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_4611369">
+        <rdfs:label rdf:datatype="&xsd;string">research study data collection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6093772"/> <!-- data collection -->
+        <skos:definition rdf:datatape="&xsd;string">Research study data collection is a data collection consisting of all the data collected from all the research participants during the course of the research study.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7594457 -->  <!-- long-term follow-up patient data collection  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_7594457">
+        <rdfs:label rdf:datatype="&xsd;string">long-term follow-up patient data collection</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6093772"/> <!-- data collection --> 
+     	<skos:definition rdf:datatape="&xsd;string">Long-term follow-up patient data collection is a data collection consisting of all the data collected during all the long-term follow-up visits of all patients.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2285168 -->  <!-- human female state with respect to pregnancy and lactation datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2285168">
+        <rdfs:label rdf:datatype="&xsd;string">human female state with respect to pregnancy and lactation datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000938"/> <!-- categorical measurement datum --> 
+        <skos:definition rdf:datatape="&xsd;string">Human female state with respect to pregnancy and lactation datum  is a categorical measurement datum providing the information about the female patient or research study participant being pregnant, lactating or absence of pregnancy or lactation (i.e. non-pregnant non-lactating).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
+    
+    
+    
+  
+    
+    
 
 <!-- NOVO OVDE -->
-
-
-
-
-
 
 <!-- DISJOINT CALSS AXIOMS -->
 
