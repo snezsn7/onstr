@@ -28534,7 +28534,6 @@ people infected, then extract parasite which are then tested = observation study
         <rdfs:label rdf:datatype="&xsd;string">long-term follow-up patient record</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6093772"/> <!-- data collection -->  
         <skos:definition rdf:datatape="&xsd;string">Long-term follow-up patient record is a data collection consisting of all data items pertaining to one particular patient and that is collected for purposes of providing health care to the patient.</skos:definition>
-        <skos:example rdf:datatype="&xsd;string">A patient record or a research study participant record consisting of various types of data all pertaining to the particular patient or research study participant that may include, full blood count data, complete metabolic panel, dietary intake data, anthropometrics, person demographics etc.</skos:example>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
@@ -28573,17 +28572,26 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2285168 -->  <!-- human female state with respect to pregnancy and lactation datum  -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2285168 -->  <!-- human state with respect to pregnancy and lactation datum  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2285168">
-        <rdfs:label rdf:datatype="&xsd;string">human female state with respect to pregnancy and lactation datum</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">human state with respect to pregnancy and lactation datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000938"/> <!-- categorical measurement datum --> 
-        <skos:definition rdf:datatape="&xsd;string">Human female state with respect to pregnancy and lactation datum  is a categorical measurement datum providing the information about the female patient or research study participant being pregnant, lactating or absence of pregnancy or lactation (i.e. non-pregnant non-lactating).</skos:definition>
+        <skos:definition rdf:datatape="&xsd;string">Human state with respect to pregnancy and lactation datum  is a categorical measurement datum providing the information about the female patient or research study participant being pregnant, lactating or absence of pregnancy or lactation (i.e. non-pregnant non-lactating).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
     
     
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9267776 -->  <!-- screened disease ACMG code  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9267776">
+        <rdfs:label rdf:datatype="&xsd;string">screened disease ACMG code</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000028"/> <!-- symbol --> 
+        <skos:definition rdf:datatape="&xsd;string">Screened disease ACMG code is a symbol representing the diagnosis of one of the diseases that are being screened for during the newborn screening processes and that is created by the American College of Medical Genetics and Genomics (ACMG).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+    </owl:Class>
     
   
     
