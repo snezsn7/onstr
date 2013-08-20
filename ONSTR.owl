@@ -28528,32 +28528,54 @@ people infected, then extract parasite which are then tested = observation study
     </owl:Class>
     
     
-  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7188815 -->  <!-- long-term follow-up patient record  -->
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_7188815 -->  <!-- long-term follow-up patient data record  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7188815">
-        <rdfs:label rdf:datatype="&xsd;string">long-term follow-up patient record</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6093772"/> <!-- data collection -->  
-        <skos:definition rdf:datatape="&xsd;string">Long-term follow-up patient record is a data collection consisting of all data items pertaining to one particular patient and that is collected for purposes of providing health care to the patient.</skos:definition>
+        <rdfs:label rdf:datatype="&xsd;string">long-term follow-up patient data record</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6093772"/> <!-- data collection --> 
+         <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_6093772"/> <!-- data collection -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000175"/> <!-- proper part of continuant at some time -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_7594457"/> <!-- long-term follow-up patient data record collection --> 
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+    	 </owl:equivalentClass>
+        <skos:definition rdf:datatape="&xsd;string">Long-term follow-up patient data record is a data collection consisting of all data items pertaining to one particular patient and that is collected for purposes of providing health care to the patient.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
  
  
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3662794 -->  <!-- research study participant record  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3662794 -->  <!-- research study participant data record  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_3662794">
-        <rdfs:label rdf:datatype="&xsd;string">research study participant record</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">research study participant data record</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6093772"/> <!-- data collection -->    
-     	<skos:definition rdf:datatape="&xsd;string">Research study participant record  is a data collection consisting of all data items pertaining to one particular research study participant and that is collected for research study purposes.</skos:definition>
+     	 <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&ONSTR;ONSTR_6093772"/> <!-- data collection -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000175"/> <!-- proper part of continuant at some time -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_4611369"/> <!-- research study participant data record collection --> 
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+    	 </owl:equivalentClass>
+     	<skos:definition rdf:datatape="&xsd;string">Research study participant data record is a data collection consisting of all data items pertaining to one particular research study participant and that is collected for research study purposes.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
     </owl:Class>
     
     
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4611369 -->  <!-- research study data collection  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4611369 -->  <!-- research study participant data record collection  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_4611369">
-        <rdfs:label rdf:datatype="&xsd;string">research study data collection</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">research study participant data record collection</rdfs:label>
         <rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_6093772"/> <!-- data collection -->
         <skos:definition rdf:datatape="&xsd;string">Research study data collection is a data collection consisting of all the data collected from all the research participants during the course of the research study.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
@@ -28588,6 +28610,30 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9267776">
         <rdfs:label rdf:datatype="&xsd;string">screened disease ACMG code</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000028"/> <!-- symbol --> 
+        
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000028"/> <!-- symbol -->
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000175"/> <!-- proper part of continuant at some time -->
+                   	    <owl:someValuesFrom>
+                            	<owl:Class>
+                                	<owl:unionOf rdf:parseType="Collection">
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_7188815"/> <!-- long-term follow-up patient data record -->
+                                		<rdf:Description rdf:about="&ONSTR;ONSTR_3662794"/>  <!-- research study participant data record -->
+                                	</owl:unionOf> 
+                               </owl:Class> 	
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has alphanumeric value -->
+                        <owl:someValuesFrom rdf:resource="&xsd;string"/>
+                    </owl:Restriction> 
+                </owl:intersectionOf>
+            </owl:Class>
+    	 </owl:equivalentClass>
+        
         <skos:definition rdf:datatape="&xsd;string">Screened disease ACMG code is a symbol representing the diagnosis of one of the diseases that are being screened for during the newborn screening processes and that is created by the American College of Medical Genetics and Genomics (ACMG).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
