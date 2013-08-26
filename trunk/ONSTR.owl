@@ -26021,29 +26021,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_9545140">
         <rdfs:label rdf:datatype="&xsd;string">consumed nutritional item datum</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/> <!-- IAO:data item -->
-        <!-- owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="&obo;IAO_0000027"/>  <! data item >
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <! is specif output of >
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5288942"/>  <! nutritional item intake recording >
-                    </owl:Restriction>
-                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000137"/>  <! proper part of cont at all times >
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6358913"/> <! nutritional item intake record >
-                    </owl:Restriction>
-                     <owl:Restriction>
-                      	<owl:onProperty rdf:resource="&obo;IAO_0000136"/> <! is about>
-                      	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5692828"/> <! nutritional item >
-                     </owl:Restriction>  
-                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3333333"/> <! is specif input of >
-                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6867187"/> <! dietary intake analysis >
-                    </owl:Restriction> 
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass -->
         <skos:definition rdf:datatype="&xsd;string">Consumed nutritional item datum is a data item providing the information about the kinds and quantities of nutritional items consumed by a human patient during the time interval relevant for dietary analysis.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -27124,7 +27101,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1188589">
         <rdfs:label rdf:datatype="&xsd;string">treatment initiation</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
-        <!-- cross with health care process ogms:0000096  -->
         <skos:definition rdf:datatape="&xsd;string">ADD DEF here </skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD HERE</rdfs:comment>    
         <rdfs:comment rdf:datatype="&xsd;string">In terms of the sequentiality of newborn screening system processes, treatment initiation process usually marks the onset of the long-term follow-up of patient diagnosed with and inherited metabolic disease. Since some conditions can be life threatening within a few days after birth (e.g., organic acidurias, galactosemia, maple sirup urine disease), the therapeutic treatment is been initiated as soon a positive result for such diseases has been reported through newborn dried blood spot screening. [Source: Recommended uniform Screening Panel of the Secretary&apos;s Advisory Committee on Heritable Disorders in Newborns and Children. ]</rdfs:comment>    
@@ -27138,7 +27114,6 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_1614275">
         <rdfs:label rdf:datatype="&xsd;string">nutrition intervention</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
-        <!-- cross with health care process ogms:0000096  -->
         <skos:definition rdf:datatape="&xsd;string">Nutrition intervention is a health care process that realizes the dietitian role and that consists of 1) planning (prioritizing the nutrition diagnoses, conferring with patient and/or patient&apos;s family, reviewing practice guidelines and policies and setting goals and defining the specific nutrition intervention strategy) and 2) implementation (carrying on and communicating plan of care, continuing data collection, revising the nutrition intervention strategy).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: Academy of Nutrition and Dietetics (2013) International Dietetics and Nutrition Terminology (IDNT) Reference Manual. Standardized Language for the Nutrition Care Process. 4th Ed. Academy of Nutrition and Dietetics, Chicago, IL, pp. 51-61.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
@@ -29019,6 +28994,9 @@ We have had a long discussion about denotes versus describes.</skos:definition>
     </owl:ObjectProperty>
  
  
+     <!-- END TEMPORARY ONSTR relations -->  
+ 
+ 
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5555555 -->  <!-- has time measurement datum -->
 
     <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_5555555">
@@ -29030,7 +29008,60 @@ We have had a long discussion about denotes versus describes.</skos:definition>
     </owl:ObjectProperty>
  
  
-    <!-- END TEMPORARY ONSTR relations -->  
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1497507 -->  <!-- is information content entity collected during process -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_1497507">
+        <rdfs:label rdf:datatype="&xsd;string">is information content entity collected during process</rdfs:label>
+  		<skos:definition rdf:datatape="&xsd;string">Relation between an information content entity and a process during which a datum has been collected or recorded. </skos:definition>
+        <rdfs:domain rdf:resource="&obo;IAO_0000030"/>  <!-- information content entity -->
+        <rdfs:range rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
+    </owl:ObjectProperty>
+    
+    
+    
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4375807 -->  <!-- has information content entity collection process -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_4375807">
+        <rdfs:label rdf:datatype="&xsd;string">has information content entity collection process</rdfs:label>
+        <owl:inverseOf rdf:resource="&ONSTR;ONSTR_1497507"/>  <!-- is information content entity collected during process -->
+   </owl:ObjectProperty>
+    
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_3011743 -->  <!-- is datum produced by -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_3011743">
+        <rdfs:label rdf:datatype="&xsd;string">is datum produced by</rdfs:label>
+        <skos:definition rdf:datatape="&xsd;string">A relation between a software application and a datum, where the datum is produced as an output of the data transformation process (or processes) that are a part of the execution of the software instructions by a processing unit.</skos:definition>
+        <rdfs:domain rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
+        <rdfs:range rdf:resource="&obo;IAO_0000010"/>  <!-- software -->
+    </owl:ObjectProperty>
+ 
+ 
+<!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0896950 -->  <!-- has produced datum -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_0896950">
+        <rdfs:label rdf:datatype="&xsd;string">has produced datum</rdfs:label>
+        <owl:inverseOf rdf:resource="&ONSTR;ONSTR_3011743"/>  <!-- is datum produced by -->
+    </owl:ObjectProperty>
+ 
+ 
+ 
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1563655 -->  <!-- has informational basis -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_1563655">
+        <rdfs:label rdf:datatype="&xsd;string">has informational basis</rdfs:label>
+  		<skos:definition rdf:datatape="&xsd;string">A data item d1 has information basis data item d2 means that there was a process of data interpretation by which a d1 is characterized by using d2, and d2 was an input to the data interpretation process.</skos:definition>
+        <rdfs:domain rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
+        <rdfs:range rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
+    </owl:ObjectProperty>
+
+
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_4213539 -->  <!-- is informational basis of -->
+
+    <owl:ObjectProperty rdf:about="&ONSTR;ONSTR_4213539">
+        <rdfs:label rdf:datatype="&xsd;string">is informational basis of</rdfs:label>
+        <owl:inverseOf rdf:resource="&ONSTR;ONSTR_1563655"/>  <!-- has informational basis -->
+   </owl:ObjectProperty>
    
    
    <!-- NOVO REL OVDE -->
