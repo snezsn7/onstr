@@ -10017,7 +10017,7 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_0901764">
         <rdfs:label rdf:datatype="&xsd;string">body mass at birth measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8762724"/>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8762724"/> <!-- body mass measurement datum -->
         <skos:definition rdf:datatype="&xsd;string">Body mass at birth measurement datum is body mass measurement datum that is the result of mass measurement assay of human body performed shortly after birth.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
@@ -10028,8 +10028,19 @@ people infected, then extract parasite which are then tested = observation study
 
     <owl:Class rdf:about="&ONSTR;ONSTR_7469225">
         <rdfs:label rdf:datatype="&xsd;string">body mass at long-term follow-up visit measurement datum</rdfs:label>
-    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8762724"/>
-        <skos:definition rdf:datatype="&xsd;string">Body mass at long-term follow-up visit measurement datum is body mass measurement datum that is the result of mass measurement assay of human body height performed during physical examination at each scheduled patient follow-up visit.</skos:definition>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8762724"/> <!-- body mass measurement datum -->
+        <skos:definition rdf:datatype="&xsd;string">Body mass at long-term follow-up visit measurement datum is body mass measurement datum that is the result of mass measurement assay of human body height performed during physical examination at each scheduled patient long-term follow-up visit (interval visit).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
+    </owl:Class>
+    
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_0682272 --> <!-- body mass at long-term follow-up visit measurement datum -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_0682272">
+        <rdfs:label rdf:datatype="&xsd;string">body mass at research study visit measurement datum</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_8762724"/> <!-- body mass measurement datum -->
+     	<skos:definition rdf:datatape="&xsd;string">Body mass at research study visit measurement datum is body mass measurement datum that is the result of mass measurement assay of research study participant&apos;s body height performed during physical examination during the scheduled research study visit.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>  
     </owl:Class>
@@ -11568,6 +11579,42 @@ people infected, then extract parasite which are then tested = observation study
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
      </owl:Class>
      
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8561539 -->  <!-- Nutrition Data System for Research -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8561539">
+        <rdfs:label rdf:datatype="&xsd;string">Nutrition Data System for Research</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5883438"/> <!-- nutrient analysis software-->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF </skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">NDSR</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>  
+     
+   
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2959319 -->  <!-- MetabolicPro -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_2959319">
+        <rdfs:label rdf:datatype="&xsd;string">MetabolicPro</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5883438"/> <!-- nutrient analysis software-->  
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class> 
+     
+     
+ <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8214507 -->  <!-- Food Processor -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8214507">
+        <rdfs:label rdf:datatype="&xsd;string">Food Processor</rdfs:label>
+    	<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_5883438"/> <!-- nutrient analysis software-->
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF </skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: </rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+   
      
     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_6867187 -->  <!-- nuterient intake analysis  -->
 
@@ -26959,10 +27006,10 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
-   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2703424 -->  <!-- research study participant visit  -->
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_2703424 -->  <!-- participant research study visit  -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_2703424">
-        <rdfs:label rdf:datatype="&xsd;string">long-term follow-up patient interval visit</rdfs:label>  
+        <rdfs:label rdf:datatype="&xsd;string">research study participant visit</rdfs:label>  
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>  <!-- planned process -->
         <skos:definition rdf:datatape="&xsd;string">Research study participant visit is a planned process consisting of processes described or defined by a research study protocol and that involve participation of research study participant and one or more researchers.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
@@ -28599,6 +28646,7 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2285168">
         <rdfs:label rdf:datatype="&xsd;string">human state with respect to pregnancy and lactation datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000938"/> <!-- categorical measurement datum --> 
+        
         <skos:definition rdf:datatape="&xsd;string">Human state with respect to pregnancy and lactation datum  is a categorical measurement datum providing the information about the female patient or research study participant being pregnant, lactating or absence of pregnancy or lactation (i.e. non-pregnant non-lactating).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
