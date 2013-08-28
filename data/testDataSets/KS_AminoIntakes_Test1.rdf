@@ -31,10 +31,10 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:ONSTR="http://onstr.googlecode.com/svn/trunk/ONSTR.owl#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
      xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
      xmlns:GO="http://purl.org/obo/owl/GO#"
@@ -47,7 +47,19 @@
      xmlns:NCBITaxon="http://purl.org/obo/owl/NCBITaxon#">
      
      
-     <!-- RESEARCH STUDY VISIT instances rdf:type ONSTR_2703424 -->
+     <rdf:Description  rdf:about="http://onstr.googlecode.com/svn/data/testDataSets/KS_AminoIntakes_Test1.rdf">
+    	<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant Dietary Amino Acid Intake Data - Test 1</rdfs:label>
+		<skos:altLabel rdf:datatype="&xsd;string">KS1</skos:altLabel>
+		<rdfs:comment rdf:datatype="&xsd;string">This file conrains the RDF triples for the subset of dietary intake data collected during the course of the Kuvan Study (Emory IRB0007828). The valuse of some data instances have been slightly altered for the purposes of testing the ontology.</rdfs:comment> 
+		<dc:format rdf:datatype="&xsd;string">RDF/XML</dc:format>
+		<dc:creator rdf:datatype="&xsd;string">ONSTR curators</dc:creator>
+	    <dc:creator rdf:datatype="&xsd;string">Snezana Nikolic</dc:creator>
+		<dc:date rdf:datatype="&xsd;string">2013-08-25</dc:date>
+	</rdf:Description>
+     
+     
+     
+     <!-- instances of RESEARCH STUDY VISIT  ONSTR_2703424 -->
 
 	<rdf:Description  rdf:about="&KS1;KS1_00001"> <!-- KS1 P1 visit 1 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
@@ -326,7 +338,7 @@
 	
 		      
 		      	                
-	<!-- AGE AT RESEARCH STUDY VISIT MEASUREMENT DATUM instances rdf:type ONSTR_5782884 -->
+	<!-- instances of AGE AT RESEARCH STUDY VISIT MEASUREMENT DATUM  ONSTR_5782884 -->
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00047"> <!-- KS1 P1 V1 age datum -->
@@ -696,6 +708,353 @@
 	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
 	</rdf:Description>
 	
+	
+	
+	<!--  PHEN SEH HERE -->
+	
+	
+   <!-- instances of HUMAN STATE WITH RESPECT TO PREGNANCY AND LACTATION  ONSTR_2285168 -->
+   
+   
+   	<rdf:Description  rdf:about="&KS1;KS1_00104"> <!-- KS1 P1 V1 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 1 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   	<rdf:Description  rdf:about="&KS1;KS1_00105"> <!-- KS1 P1 V2 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 2 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">npnl</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   	<rdf:Description  rdf:about="&KS1;KS1_00106"> <!-- KS1 P1 V3 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 3 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   	<rdf:Description  rdf:about="&KS1;KS1_00107"> <!-- KS1 P1 V4 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 4 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   <rdf:Description  rdf:about="&KS1;KS1_00108"> <!-- KS1 P1 V5 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 5 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">npnl</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   <rdf:Description  rdf:about="&KS1;KS1_00109"> <!-- KS1 P3 V1 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 1 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   <rdf:Description  rdf:about="&KS1;KS1_00110"> <!-- KS1 P3 V2 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 2 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   <rdf:Description  rdf:about="&KS1;KS1_00111"> <!-- KS1 P3 V3 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 3 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">P</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   <rdf:Description  rdf:about="&KS1;KS1_00112"> <!-- KS1 P4 V1 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 1 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+  <rdf:Description  rdf:about="&KS1;KS1_00113"> <!-- KS1 P4 V2 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 2 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   <rdf:Description  rdf:about="&KS1;KS1_00114"> <!-- KS1 P4 V3 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 3 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   <rdf:Description  rdf:about="&KS1;KS1_00115"> <!-- KS1 P4 V4 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 4 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   	<rdf:Description  rdf:about="&KS1;KS1_00116"> <!-- KS1 P5 V1 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 1 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   <rdf:Description  rdf:about="&KS1;KS1_00117"> <!-- KS1 P5 V2 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 2 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00118"> <!-- KS1 P5 V3 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 3 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   <rdf:Description  rdf:about="&KS1;KS1_00119"> <!-- KS1 P5 V4 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 4 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+  <rdf:Description  rdf:about="&KS1;KS1_00120"> <!-- KS1 P6 V1 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 1 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00121"> <!-- KS1 P6 V2 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 2 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">npnl</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00122"> <!-- KS1 P6 V3 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 3 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">P</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00123"> <!-- KS1 P6 V5 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 5 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">p</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00124"> <!-- KS1 P7 V1 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 1 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00125"> <!-- KS1 P7 V2 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 2 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00126"> <!-- KS1 P7 V3 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 3 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">npnl</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00127"> <!-- KS1 P7 V4 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 4 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00128"> <!-- KS1 P8 V1 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 1 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00129"> <!-- KS1 P8 V2 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 2 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">npnl</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+    <rdf:Description  rdf:about="&KS1;KS1_00130"> <!-- KS1 P8 V3 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 3 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00131"> <!-- KS1 P8 V4 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 4 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00132"> <!-- KS1 P16 V1 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 1 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00133"> <!-- KS1 P16 V2 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 2 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">npnl</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00134"> <!-- KS1 P16 V3 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 3 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00135"> <!-- KS1 P16 V4 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 4 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00136"> <!-- KS1 P16 V5 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 5 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00137"> <!-- KS1 P24 V1 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 1 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00138"> <!-- KS1 P24 V2 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 2 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">P</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00139"> <!-- KS1 P24 V3 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 3 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">p</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00140"> <!-- KS1 P24 V5 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 5 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">L</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00141"> <!-- KS1 P38 V1 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 1 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00142"> <!-- KS1 P38 V2 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 1 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00143"> <!-- KS1 P38 V3 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 3 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00144"> <!-- KS1 P38 V4 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 4 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00145"> <!-- KS1 P38 V5 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 5 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00146"> <!-- KS1 P43 V1 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 1 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">NPNL</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00147"> <!-- KS1 P43 V3 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 3 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">P</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00148"> <!-- KS1 P43 V4 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 4 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">P</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00149"> <!-- KS1 P43 V5 state w/rsp P/L datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- onstr:age at research study visit measurement datum -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 5 P/L state datum</rdfs:label>
+   		<ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">l</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   </rdf:Description>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   	
+   	
+   	
+   	
 	
 	
 	
