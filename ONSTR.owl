@@ -28663,7 +28663,41 @@ people infected, then extract parasite which are then tested = observation study
     <owl:Class rdf:about="&ONSTR;ONSTR_2285168">
         <rdfs:label rdf:datatype="&xsd;string">human state with respect to pregnancy and lactation datum</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000938"/> <!-- categorical measurement datum --> 
-        
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;OBI_0000938"/> <!-- categorical measurement datum -->
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
+                                <owl:hasValue>P</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
+                                <owl:hasValue>p</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
+                                <owl:hasValue>L</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
+                                <owl:hasValue>l</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
+                                <owl:hasValue>NPNL</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
+                                <owl:hasValue>npnl</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <skos:definition rdf:datatape="&xsd;string">Human state with respect to pregnancy and lactation datum  is a categorical measurement datum providing the information about the female patient or research study participant being pregnant, lactating or absence of pregnancy or lactation (i.e. non-pregnant non-lactating).</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
