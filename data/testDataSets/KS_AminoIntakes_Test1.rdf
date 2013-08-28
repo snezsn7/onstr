@@ -62,277 +62,277 @@
 
 	<rdf:Description  rdf:about="&KS1;KS1_00001"> <!-- KS1 P1 visit 1 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 1 Visit 1 </rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 1 </rdfs:label>
 	</rdf:Description>
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00002"> <!-- KS1 P1 visit 2 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 1 Visit 2 </rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 2 </rdfs:label>
 	</rdf:Description>	
 
 
 	<rdf:Description  rdf:about="&KS1;KS1_00003"> <!-- KS1 P1 visit 3 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 1 Visit 3 </rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 3 </rdfs:label>
 	</rdf:Description>
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00004"> <!-- KS1 P1 visit 4 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 1 Visit 4</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 4</rdfs:label>
 	</rdf:Description>
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00005"> <!-- KS1 P1 visit 5 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 1 Visit 5</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 5</rdfs:label>
 	</rdf:Description>
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00006"> <!-- KS1 P3 visit 1 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 3 Visit 1</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 1</rdfs:label>
 	</rdf:Description>
 	
 	
    <rdf:Description  rdf:about="&KS1;KS1_00007"> <!-- KS1 P3 visit 2 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 3 Visit 2</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 2</rdfs:label>
 	</rdf:Description>
 	
 	
    <rdf:Description  rdf:about="&KS1;KS1_00008"> <!-- KS1 P3 visit 3 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 3 Visit 3</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 3</rdfs:label>
 	</rdf:Description>
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00009"> <!-- KS1 P4 visit 1 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 4 Visit 1</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 1</rdfs:label>
 	</rdf:Description>
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00010"> <!-- KS1 P4 visit 2 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 4 Visit 2</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 2</rdfs:label>
 	</rdf:Description>
 	
 	
    <rdf:Description  rdf:about="&KS1;KS1_00011"> <!-- KS1 P4 visit 3 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 4 Visit 3</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 3</rdfs:label>
 	</rdf:Description>
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00012"> <!-- KS1 P4 visit 4 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 4 Visit 4</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 4</rdfs:label>
 	</rdf:Description>
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00013"> <!-- KS1 P5 visit 1 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 5 Visit 1</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 1</rdfs:label>
 	</rdf:Description>
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00014"> <!-- KS1 P5 visit 2 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 5 Visit 2</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 2</rdfs:label>
 	</rdf:Description>
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00015"> <!-- KS1 P5 visit 3 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 5 Visit 3</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 3</rdfs:label>
 	</rdf:Description>
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00016"> <!-- KS1 P5 visit 4 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 5 Visit 4</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 4</rdfs:label>
 	</rdf:Description>
 	
 	
    <rdf:Description  rdf:about="&KS1;KS1_00017"> <!-- KS1 P6 visit 1 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 6 Visit 1</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 1</rdfs:label>
 	</rdf:Description>
 	
 	
    <rdf:Description  rdf:about="&KS1;KS1_00018"> <!-- KS1 P6 visit 2 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 6 Visit 2</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 2</rdfs:label>
 	</rdf:Description>
 
 
    <rdf:Description  rdf:about="&KS1;KS1_00019"> <!-- KS1 P6 visit 3 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 6 Visit 3</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 3</rdfs:label>
 	</rdf:Description>	
 	
 	
    <rdf:Description  rdf:about="&KS1;KS1_00020"> <!-- KS1 P6 visit 5 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 6 Visit 5</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 5</rdfs:label>
 	</rdf:Description>
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00021"> <!-- KS1 P7 visit 1 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 7 Visit 1</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 1</rdfs:label>
 	</rdf:Description>
 
 
 	<rdf:Description  rdf:about="&KS1;KS1_00022"> <!-- KS1 P7 visit 2 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 7 Visit 2</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 2</rdfs:label>
 	</rdf:Description>
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00023"> <!-- KS1 P7 visit 3 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 7 Visit 3</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 3</rdfs:label>
 	</rdf:Description>	
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00024"> <!-- KS1 P7 visit 4 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 7 Visit 4</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 4</rdfs:label>
 	</rdf:Description>
 	
 	
      <rdf:Description  rdf:about="&KS1;KS1_00025"> <!-- KS1 P8 visit 1 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 8 Visit 1</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 1</rdfs:label>
 	</rdf:Description>			
 	
 	
      <rdf:Description  rdf:about="&KS1;KS1_00026"> <!-- KS1 P8 visit 2 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 8 Visit 2</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 2</rdfs:label>
 	</rdf:Description>	
 
 
      <rdf:Description  rdf:about="&KS1;KS1_00027"> <!-- KS1 P8 visit 3 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 8 Visit 3</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 3</rdfs:label>
 	</rdf:Description>	
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00028"> <!-- KS1 P8 visit 4 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 8 Visit 4</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 4</rdfs:label>
 	</rdf:Description>	    
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00029"> <!-- KS1 P16 visit 1 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 16 Visit 1</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 1</rdfs:label>
 	</rdf:Description>	      
 
 
     <rdf:Description  rdf:about="&KS1;KS1_00030"> <!-- KS1 P16 visit 2 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 16 Visit 2</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 2</rdfs:label>
 	</rdf:Description>
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00031"> <!-- KS1 P16 visit 3 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 16 Visit 3</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 3</rdfs:label>
 	</rdf:Description>
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00032"> <!-- KS1 P16 visit 4 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 16 Visit 4</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 4</rdfs:label>
 	</rdf:Description>	      	
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00033"> <!-- KS1 P16 visit 5 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 16 Visit 5</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 5</rdfs:label>
 	</rdf:Description>
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00034"> <!-- KS1 P24 visit 1 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 24 Visit 1</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 1</rdfs:label>
 	</rdf:Description>
 	
 	
    <rdf:Description  rdf:about="&KS1;KS1_00035"> <!-- KS1 P24 visit 2 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 24 Visit 2</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 2</rdfs:label>
 	</rdf:Description>
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00036"> <!-- KS1 P24 visit 3 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 24 Visit 3</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 3</rdfs:label>
 	</rdf:Description>	      	   
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00037"> <!-- KS1 P24 visit 5 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 24 Visit 5</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 5</rdfs:label>
 	</rdf:Description> 
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00038"> <!-- KS1 P38 visit 1 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 38 Visit 1</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 1</rdfs:label>
 	</rdf:Description> 
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00039"> <!-- KS1 P38 visit 2 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 38 Visit 2</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 2</rdfs:label>
 	</rdf:Description>
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00040"> <!-- KS1 P38 visit 3 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 38 Visit 3</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 3</rdfs:label>
 	</rdf:Description>
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00041"> <!-- KS1 P38 visit 4 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 38 Visit 4</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 4</rdfs:label>
 	</rdf:Description>
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00042"> <!-- KS1 P38 visit 5 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 38 Visit 5</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 5</rdfs:label>
 	</rdf:Description>
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00043"> <!-- KS1 P43 visit 1 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 43 Visit 1</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 1</rdfs:label>
 	</rdf:Description>                                                   
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00044"> <!-- KS1 P43 visit 3 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 43 Visit 3</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 3</rdfs:label>
 	</rdf:Description> 
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00045"> <!-- KS1 P43 visit 4 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 43 Visit 4</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 4</rdfs:label>
 	</rdf:Description>
 	
 	
     <rdf:Description  rdf:about="&KS1;KS1_00046"> <!-- KS1 P43 visit 5 -->
 		<rdf:type rdf:resource="&ONSTR;ONSTR_2703424"/>  <!-- onstr:research study visit -->
-		<rdfs:label rdf:datatype="&xsd;string">Kuvan Study Participant 43 Visit 5</rdfs:label>
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 5</rdfs:label>
 	</rdf:Description>                                                                                                                                                                                                                                                                                
 	
 		      
@@ -708,8 +708,7 @@
 	</rdf:Description>
 	
 	
-	
-	<!--  PHEN SEX HER -->
+
 	<!-- instances of PHENOTYPIC SEX DATUM  ONSTR_5773210 -->
 	
 	
@@ -1117,7 +1116,34 @@
    
    
    
+   <!-- HERE -->
+	<!-- instances of subClassesOf NUTRIENTIONAL ITEM INTAKE RECORD  -->
+	
+	
+	
+	
+  <!-- instances of subClassesOf NUTRIENT ANALYSIS SOFTWARE  -->
+   	
    
+  <rdf:Description  rdf:about="&KS1;KS1_00702"> <!-- NDSR1 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8561539"/>  <!-- onstr:Nutrition Data System for Research -->
+		<rdfs:label rdf:datatype="&xsd;string">NDSR1</rdfs:label>
+  </rdf:Description>
+  
+  
+  <rdf:Description  rdf:about="&KS1;KS1_00703"> <!-- FoodProcessor1 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8214507"/>  <!-- onstr:Food Processor -->
+		<rdfs:label rdf:datatype="&xsd;string">FoodProcessor1</rdfs:label>
+  </rdf:Description>
+  
+  
+  <rdf:Description  rdf:about="&KS1;KS1_00704"> <!-- MetabolicPro1 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2959319"/>  <!-- onstr:MetabolicPro -->
+		<rdfs:label rdf:datatype="&xsd;string">MetabolicPro1</rdfs:label>
+  </rdf:Description>
+   
+   
+    <!-- instances of AVERAGE DAILY TOTAL DIETARY PROTEIN INTAKE DURING OBSERVED TIME INTEVAL DATUM  ONSTR_9046621 -->
    
    
    
