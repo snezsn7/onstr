@@ -9938,7 +9938,43 @@ people infected, then extract parasite which are then tested = observation study
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000136"/>  <!-- is about -->
                         <owl:someValuesFrom rdf:resource="&PATO;PATO_0001894"/>  <!-- phenotypic sex -->
-                    </owl:Restriction>   
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000175"/> <!-- proper part of continuant at some time -->
+                        	<owl:someValuesFrom>
+                        		<owl:Class>
+                        			<owl:intersectionOf rdf:parseType="Collection">
+                        				<owl:Class>
+                        					<owl:unionOf rdf:parseType="Collection">
+                    							<rdf:Description rdf:about="&ONSTR;ONSTR_3662794"/> <!-- research study participant data record -->
+                    							<rdf:Description rdf:about="&ONSTR;ONSTR_7188815"/> <!-- long-term follow-up patient data record -->
+                    						</owl:unionOf>
+                    					</owl:Class>
+                    				</owl:intersectionOf>
+                   				</owl:Class>
+                            </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
+                                <owl:hasValue>M</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
+                                <owl:hasValue>m</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
+                                <owl:hasValue>F</owl:hasValue>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
+                                <owl:hasValue>f</owl:hasValue>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                       
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
