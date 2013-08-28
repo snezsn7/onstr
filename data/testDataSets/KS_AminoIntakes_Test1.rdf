@@ -58,7 +58,6 @@
 	</rdf:Description>
      
      
-     
      <!-- instances of RESEARCH STUDY VISIT  ONSTR_2703424 -->
 
 	<rdf:Description  rdf:about="&KS1;KS1_00001"> <!-- KS1 P1 visit 1 -->
@@ -710,7 +709,86 @@
 	
 	
 	
-	<!--  PHEN SEH HERE -->
+	<!--  PHEN SEX HER -->
+	<!-- instances of PHENOTYPIC SEX DATUM  ONSTR_5773210 -->
+	
+	
+	<rdf:Description  rdf:about="&KS1;KS1_00093"> <!-- KS1 P1 phenotypic sex datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5773210"/>  <!-- onstr:phenotypic sex datum -->
+	    <rdfs:label rdf:datatype="&xsd;string">KS Participant 1 phenotypic sex datum</rdfs:label>
+	    <ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">M</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+	
+	
+	<rdf:Description  rdf:about="&KS1;KS1_00094"> <!-- KS1 P3 phenotypic sex datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5773210"/>  <!-- onstr:phenotypic sex datum -->
+	    <rdfs:label rdf:datatype="&xsd;string">KS Participant 3 phenotypic sex datum</rdfs:label>
+	    <ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">F</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   <rdf:Description  rdf:about="&KS1;KS1_00095"> <!-- KS1 P4 phenotypic sex datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5773210"/>  <!-- onstr:phenotypic sex datum -->
+	    <rdfs:label rdf:datatype="&xsd;string">KS Participant 4 phenotypic sex datum</rdfs:label>
+	    <ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">m</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   <rdf:Description  rdf:about="&KS1;KS1_00096"> <!-- KS1 P5 phenotypic sex datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5773210"/>  <!-- onstr:phenotypic sex datum -->
+	    <rdfs:label rdf:datatype="&xsd;string">KS Participant 5 phenotypic sex datum</rdfs:label>
+	    <ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">M</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   <rdf:Description  rdf:about="&KS1;KS1_00097"> <!-- KS1 P6 phenotypic sex datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5773210"/>  <!-- onstr:phenotypic sex datum -->
+	    <rdfs:label rdf:datatype="&xsd;string">KS Participant 6 phenotypic sex datum</rdfs:label>
+	    <ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">F</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   <rdf:Description  rdf:about="&KS1;KS1_00098"> <!-- KS1 P7 phenotypic sex datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5773210"/>  <!-- onstr:phenotypic sex datum -->
+	    <rdfs:label rdf:datatype="&xsd;string">KS Participant 7 phenotypic sex datum</rdfs:label>
+	    <ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">m</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   	<rdf:Description  rdf:about="&KS1;KS1_00099"> <!-- KS1 P8 phenotypic sex datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5773210"/>  <!-- onstr:phenotypic sex datum -->
+	    <rdfs:label rdf:datatype="&xsd;string">KS Participant 8 phenotypic sex datum</rdfs:label>
+	    <ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">f</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   	<rdf:Description  rdf:about="&KS1;KS1_000100"> <!-- KS1 P16 phenotypic sex datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5773210"/>  <!-- onstr:phenotypic sex datum -->
+	    <rdfs:label rdf:datatype="&xsd;string">KS Participant 16 phenotypic sex datum</rdfs:label>
+	    <ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">M</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   	<rdf:Description  rdf:about="&KS1;KS1_00101"> <!-- KS1 P24 phenotypic sex datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5773210"/>  <!-- onstr:phenotypic sex datum -->
+	    <rdfs:label rdf:datatype="&xsd;string">KS Participant 24 phenotypic sex datum</rdfs:label>
+	    <ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">F</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   	<rdf:Description  rdf:about="&KS1;KS1_00102"> <!-- KS1 P38 phenotypic sex datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5773210"/>  <!-- onstr:phenotypic sex datum -->
+	    <rdfs:label rdf:datatype="&xsd;string">KS Participant 38 phenotypic sex datum</rdfs:label>
+	    <ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">f</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   	
+   	
+   <rdf:Description  rdf:about="&KS1;KS1_00103"> <!-- KS1 P43 phenotypic sex datum -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5773210"/>  <!-- onstr:phenotypic sex datum -->
+	    <rdfs:label rdf:datatype="&xsd;string">KS Participant 43 phenotypic sex datum</rdfs:label>
+	    <ONSTR:ONSTR_4339330 rdf:datatype="&xsd;string">F</ONSTR:ONSTR_4339330> <!-- has alphanumerical value -->
+   	</rdf:Description>
+   
 	
 	
    <!-- instances of HUMAN STATE WITH RESPECT TO PREGNANCY AND LACTATION  ONSTR_2285168 -->
