@@ -1115,9 +1115,342 @@
    </rdf:Description>
    
    
+	<!-- instances of subClassesOf NUTRITIONAL ITEM INTAKE RECORD  -->
+	
+	
+  <rdf:Description  rdf:about="&KS1;KS1_00150"> <!-- KS1 P1 V1 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 1 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00001"/> <!-- KS1 P1 Visit 1 -->
+   </rdf:Description>
+	
+	
+ <rdf:Description  rdf:about="&KS1;KS1_00151"> <!-- KS1 P1 V2 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 2 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00002"/> <!-- KS1 P1 Visit 2 -->
+   </rdf:Description>
    
-   <!-- HERE -->
-	<!-- instances of subClassesOf NUTRIENTIONAL ITEM INTAKE RECORD  -->
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00152"> <!-- KS1 P1 V3 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 3 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00003"/> <!-- KS1 P1 Visit 3 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00153"> <!-- KS1 P1 V4 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 4 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00004"/> <!-- KS1 P1 Visit 4 -->
+   </rdf:Description>
+	
+	
+   <rdf:Description  rdf:about="&KS1;KS1_00154"> <!-- KS1 P1 V5 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 5 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00005"/> <!-- KS1 P1 Visit 5 -->
+   </rdf:Description>
+   
+   
+    <rdf:Description  rdf:about="&KS1;KS1_00155"> <!-- KS1 P3 V1 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 1 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00006"/> <!-- KS1 P3 Visit 1 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00156"> <!-- KS1 P3 V2 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 2 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00007"/> <!-- KS1 P3 Visit 2 -->
+   </rdf:Description>
+   
+   
+    <rdf:Description  rdf:about="&KS1;KS1_00157"> <!-- KS1 P3 V3 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_2560230"/>  <!-- onstr:two day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 3 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00008"/> <!-- KS1 P3 Visit 3 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00158"> <!-- KS1 P4 V1 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_5837093"/>  <!-- onstr:24h recall nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 1 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00009"/> <!-- KS1 P4 Visit 1 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00159"> <!-- KS1 P4 V2 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 2 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00010"/> <!-- KS1 P4 Visit 2 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00160"> <!-- KS1 P4 V3 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 3 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00011"/> <!-- KS1 P4 Visit 3 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00161"> <!-- KS1 P4 V4 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 4 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00012"/> <!-- KS1 P4 Visit 4 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00162"> <!-- KS1 P5 V1 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_5837093"/>  <!-- onstr:24h recall nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 1 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00013"/> <!-- KS1 P5 Visit 1 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00163"> <!-- KS1 P5 V2 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 2 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00014"/> <!-- KS1 P5 Visit 2 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00164"> <!-- KS1 P5 V3 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 3 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00015"/> <!-- KS1 P5 Visit 3 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00165"> <!-- KS1 P5 V4 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_2560230"/>  <!-- onstr:two day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 4 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00016"/> <!-- KS1 P5 Visit 4 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00166"> <!-- KS1 P6 V1 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_5837093"/>  <!-- onstr:24h recall nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 1 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00017"/> <!-- KS1 P6 Visit 1 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00167"> <!-- KS1 P6 V2 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 2 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00018"/> <!-- KS1 P6 Visit 2 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00168"> <!-- KS1 P6 V3 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 3 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00019"/> <!-- KS1 P6 Visit 3 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00169"> <!-- KS1 P6 V5 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 5 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00020"/> <!-- KS1 P6 Visit 5 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00170"> <!-- KS1 P7 V1 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 1 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00021"/> <!-- KS1 P7 Visit 1 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00171"> <!-- KS1 P7 V2 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 2 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00022"/> <!-- KS1 P7 Visit 2 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00172"> <!-- KS1 P7 V3 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 3 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00023"/> <!-- KS1 P7 Visit 3 -->
+   </rdf:Description>
+   
+   
+    <rdf:Description  rdf:about="&KS1;KS1_00173"> <!-- KS1 P7 V4 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 4 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00024"/> <!-- KS1 P7 Visit 4 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00174"> <!-- KS1 P8 V1 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_5837093"/>  <!-- onstr:24h recall nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 1 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00025"/> <!-- KS1 P8 Visit 1 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00175"> <!-- KS1 P8 V2 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 2 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00026"/> <!-- KS1 P8 Visit 2 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00176"> <!-- KS1 P8 V3 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 3 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00027"/> <!-- KS1 P8 Visit 3 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00177"> <!-- KS1 P8 V4 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 4 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00028"/> <!-- KS1 P8 Visit 4 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00178"> <!-- KS1 P16 V1 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 1 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00029"/> <!-- KS1 P16 Visit 1 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00179"> <!-- KS1 P16 V2 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_2560230"/>  <!-- onstr:two day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 2 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00030"/> <!-- KS1 P16 Visit 2 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00180"> <!-- KS1 P16 V3 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 3 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00031"/> <!-- KS1 P16 Visit 3 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00181"> <!-- KS1 P16 V4 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 4 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00032"/> <!-- KS1 P16 Visit 4 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00182"> <!-- KS1 P16 V5 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 5 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00033"/> <!-- KS1 P16 Visit 5 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00183"> <!-- KS1 P24 V1 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 1 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00034"/> <!-- KS1 P24 Visit 1 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00184"> <!-- KS1 P24 V2 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_2560230"/>  <!-- onstr:two day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 2 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00035"/> <!-- KS1 P24 Visit 2 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00185"> <!-- KS1 P24 V3 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 3 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00036"/> <!-- KS1 P24 Visit 3 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00186"> <!-- KS1 P24 V5 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 5 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00037"/> <!-- KS1 P24 Visit 5 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00187"> <!-- KS1 P38 V1 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 1 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00038"/> <!-- KS1 P38 Visit 1 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00188"> <!-- KS1 P38 V2 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 2 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00039"/> <!-- KS1 P38 Visit 2 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00189"> <!-- KS1 P38 V3 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 3 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00040"/> <!-- KS1 P38 Visit 3 -->
+   </rdf:Description>
+   
+   
+   <rdf:Description  rdf:about="&KS1;KS1_00190"> <!-- KS1 P38 V4 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_2560230"/>  <!-- onstr:two day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 4 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00041"/> <!-- KS1 P38 Visit 4 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00191"> <!-- KS1 P38 V5 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_3747018"/>  <!-- onstr:three day nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 5 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00042"/> <!-- KS1 P38 Visit 5 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00192"> <!-- KS1 P43 V1 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_5837093"/>  <!-- onstr:24h recall nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 1 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00043"/> <!-- KS1 P43 Visit 1 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00193"> <!-- KS1 P43 V3 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_5837093"/>  <!-- onstr:24h recall nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 3 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00044"/> <!-- KS1 P43 Visit 3 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00194"> <!-- KS1 P43 V4 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_5837093"/>  <!-- onstr:24h recall nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 4 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00045"/> <!-- KS1 P43 Visit 4 -->
+   </rdf:Description>
+   
+   
+  <rdf:Description  rdf:about="&KS1;KS1_00195"> <!-- KS1 P43 V5 diet record  -->
+  		<rdf:type rdf:resource="&ONSTR;ONSTR_5837093"/>  <!-- onstr:24h recall nutritional item intake record -->
+		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 5 diet record</rdfs:label>
+	   	<ONSTR:ONSTR_1497507 rdf:resource="&KS1;KS1_00046"/> <!-- KS1 P43 Visit 5 -->
+   </rdf:Description>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+	
+	
+	
 	
 	
 	
@@ -1146,6 +1479,9 @@
     <!-- instances of AVERAGE DAILY TOTAL DIETARY PROTEIN INTAKE DURING OBSERVED TIME INTEVAL DATUM  ONSTR_9046621 -->
    
    
+   
+   
+   <!-- NOVO OVDE -->
    
    
    
