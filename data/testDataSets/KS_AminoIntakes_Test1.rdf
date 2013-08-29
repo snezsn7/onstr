@@ -335,6 +335,39 @@
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 5</rdfs:label>
 	</rdf:Description>                                                                                                                                                                                                                                                                                
 	
+	
+	<!-- instances of MEASUREMENT UNITS used in the data set -->
+	
+	<rdf:Description  rdf:about="&KS1;KS1_00705"> <!-- instance of year measurement label -->
+		<rdf:type rdf:resource="&obo;UO_0000036"/>  <!-- uo:year -->
+	    <rdfs:label rdf:datatype="&xsd;string">year</rdfs:label>
+	</rdf:Description>  
+	
+	
+	<rdf:Description  rdf:about="&KS1;KS1_00706"> <!-- instance of month measurement label -->
+		<rdf:type rdf:resource="&obo;UO_0000035"/>  <!-- uo:month -->
+	    <rdfs:label rdf:datatype="&xsd;string">month</rdfs:label>
+	</rdf:Description>
+	
+
+	<rdf:Description  rdf:about="&KS1;KS1_00707"> <!-- instance of gram per day measurement label -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5104929"/>  <!-- onstr:gram per day -->
+	    <rdfs:label rdf:datatype="&xsd;string">g/d</rdfs:label>
+	</rdf:Description> 
+	
+
+	<rdf:Description  rdf:about="&KS1;KS1_00708"> <!-- instance of gram per day measurement label -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6794672"/>  <!-- onstr:gram per kilogram per day -->
+	    <rdfs:label rdf:datatype="&xsd;string">g/kg/d</rdfs:label>
+	</rdf:Description>
+	
+	
+   <rdf:Description  rdf:about="&KS1;KS1_00709"> <!-- instance of gram per day measurement label -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8982893"/>  <!-- onstr:milligram per  kilogram per day -->
+	    <rdfs:label rdf:datatype="&xsd;string">mg/kg/d</rdfs:label>
+	</rdf:Description>
+	
+	                       	      
 		      
 		      	                
 	<!-- instances of AGE AT RESEARCH STUDY VISIT MEASUREMENT DATUM  ONSTR_5782884 -->
@@ -344,7 +377,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 1 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">17.77</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 
 
@@ -352,7 +385,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 2 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">17.86</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 
 
@@ -360,7 +393,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 3 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">18.11</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 
 
@@ -368,7 +401,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 4 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">18.43</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 
 
@@ -376,7 +409,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 5 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">18.77</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 
 
@@ -384,7 +417,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 1 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">36.79</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 
 
@@ -392,7 +425,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 2 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">36.89</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
      
      
@@ -400,7 +433,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 3 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">37.14</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -408,7 +441,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 1 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">11.42</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -416,7 +449,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 2 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">11.50</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -424,7 +457,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 3 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">11.74</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -432,7 +465,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 4 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">12.05</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -440,7 +473,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 1 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.40</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -448,7 +481,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 2 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.47</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -456,7 +489,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 3 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.72</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -464,7 +497,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 4 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">9.03</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	 
@@ -472,7 +505,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 1 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">36.80</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -480,7 +513,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 2 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">36.88</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -488,7 +521,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 3 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">37.13</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -496,7 +529,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 5 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">37.83</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -504,7 +537,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 1 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">14.32</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -512,7 +545,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 2 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">14.40</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -520,7 +553,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 3 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">14.65</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -528,7 +561,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 4 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">14.96</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -536,7 +569,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 1 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">18.28</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -544,7 +577,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 2 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">18.36</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -552,7 +585,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 3 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">18.61</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -560,7 +593,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 4 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">18.92</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -568,7 +601,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 1 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">6.19</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -576,7 +609,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 2 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">6.27</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -584,7 +617,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 3 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">6.52</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -592,7 +625,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 4 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">6.83</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -600,7 +633,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 5 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">7.21</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -608,7 +641,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 1 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">20.80</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -616,7 +649,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 2 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">20.88</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -624,7 +657,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 3 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">21.13</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -632,7 +665,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 5 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">21.81</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -640,7 +673,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 1 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">4.64</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -648,7 +681,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 2 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">4.71</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -656,7 +689,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 3 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">4.97</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -664,7 +697,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 4 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">5.27</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -672,7 +705,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 5 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">5.65</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -680,7 +713,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 1 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">29.48</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -688,7 +721,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 3 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">29.86</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -696,7 +729,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 4 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">30.11</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -704,7 +737,7 @@
 		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at research study visit measurement datum -->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 5 age datum</rdfs:label>
 	    <obo:IAO_0000004 rdf:datatype="&xsd;float">30.49</obo:IAO_0000004>  <!-- iao:has measurement value -->
-	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000036"/>  <!-- iao:has measurement unit label -->   	           
+	    <obo:IAO_0000039 rdf:resource="&KS1;KS1_00705"/>  <!-- iao:has measurement unit label - year -->   	           
 	</rdf:Description>
 	
 	
@@ -1440,21 +1473,6 @@
    </rdf:Description>
    
    
-   
-   
-   
-   
-   
-   
-   
-   
-	
-	
-	
-	
-	
-	
-	
   <!-- instances of subClassesOf NUTRIENT ANALYSIS SOFTWARE  -->
    	
    
@@ -1476,7 +1494,10 @@
   </rdf:Description>
    
    
-    <!-- instances of AVERAGE DAILY TOTAL DIETARY PROTEIN INTAKE DURING OBSERVED TIME INTEVAL DATUM  ONSTR_9046621 -->
+  <!-- instances of AVERAGE DAILY TOTAL DIETARY PROTEIN INTAKE DURING OBSERVED TIME INTEVAL DATUM  ONSTR_9046621 -->
+   
+   
+   
    
    
    
