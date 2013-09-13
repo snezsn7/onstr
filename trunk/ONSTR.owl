@@ -9958,19 +9958,19 @@ people infected, then extract parasite which are then tested = observation study
                         <owl:unionOf rdf:parseType="Collection">
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue>M</owl:hasValue>
+                                <owl:hasValue rdf:datatype="&xsd;string">M</owl:hasValue>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue>m</owl:hasValue>
+                                <owl:hasValue rdf:datatype="&xsd;string">m</owl:hasValue>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue>F</owl:hasValue>
+                                <owl:hasValue rdf:datatype="&xsd;string">F</owl:hasValue>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue>f</owl:hasValue>
+                                <owl:hasValue rdf:datatype="&xsd;string">f</owl:hasValue>
                             </owl:Restriction>
                         </owl:unionOf>
                     </owl:Class>   
@@ -17596,8 +17596,35 @@ people infected, then extract parasite which are then tested = observation study
                     <rdf:Description rdf:about="&ONSTR;ONSTR_3255175"/>  <!-- nutrient intake datum -->
                     <rdf:Description rdf:about="&obo;OBI_0000679"/>  <!-- average value -->
                     <owl:Restriction>
-                        	<owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specified out put of -->
-                        	<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6867187"/> <!-- nutrient intake analysis -->
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4444444"/>  <!-- is specified out put of -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6867187"/> <!-- nutrient intake analysis -->
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_3011743"/> <!-- is produced by -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5883438"/> <!-- nutrient analysis software -->
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1563655"/> <!-- has informational basis -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_6358913"/> <!-- nutritional item intake record -->
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_1563655"/> <!-- has informational basis -->
+                        <owl:someValuesFrom>
+                        	<owl:Class>
+                            	<owl:unionOf rdf:parseType="Collection">
+                                	<rdf:Description rdf:about="&ONSTR;ONSTR_3215569"/> <!-- age at long-term follow-up interval visit measurement datum -->
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_5782884"/> <!-- age at research study visit -->
+                                </owl:unionOf> 
+                            </owl:Class> 	
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                    	<owl:onProperty rdf:resource="&ONSTR;ONSTR_1563655"/>  <!-- has informational basis -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5773210"/>  <!-- phenotypic sex datum -->
+                    </owl:Restriction>
+                    <owl:Restriction>
+                    	<owl:onProperty rdf:resource="&ONSTR;ONSTR_1563655"/>  <!-- has informational basis -->
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_2285168"/>  <!-- human state w/rsp to pregnancy and lactation datum -->
                     </owl:Restriction>
 				</owl:intersectionOf>
 		  </owl:Class>
@@ -28725,27 +28752,27 @@ people infected, then extract parasite which are then tested = observation study
                         <owl:unionOf rdf:parseType="Collection">
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue>P</owl:hasValue>
+                                <owl:hasValue rdf:datatype="&xsd;string">P</owl:hasValue>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue>p</owl:hasValue>
+                                <owl:hasValue rdf:datatype="&xsd;string">p</owl:hasValue>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue>L</owl:hasValue>
+                                <owl:hasValue rdf:datatype="&xsd;string">L</owl:hasValue>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue>l</owl:hasValue>
+                                <owl:hasValue rdf:datatype="&xsd;string">l</owl:hasValue>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue>NPNL</owl:hasValue>
+                                <owl:hasValue rdf:datatype="&xsd;string">NPNL</owl:hasValue>
                             </owl:Restriction>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue>npnl</owl:hasValue>
+                                <owl:hasValue rdf:datatype="&xsd;string">npnl</owl:hasValue>
                             </owl:Restriction>
                         </owl:unionOf>
                     </owl:Class>
@@ -29217,8 +29244,17 @@ We have had a long discussion about denotes versus describes.</skos:definition>
         <rdfs:comment rdf:datatype="&xsd;string">Note: Standard xsd:date datatype form is YYYY-MM-DD (e.g. 2012-12-24), not MM-DD-YYYY or DD-MM-YYYY as customary in certain parts of the world.</rdfs:comment>
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
         <rdfs:domain rdf:resource="&obo;IAO_0000027"/>  <!-- data item -->
-        <rdfs:range rdf:resource="&xsd;dateTime"/>
-     </owl:DatatypeProperty>   
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&xsd;string"/>
+                    <rdf:Description rdf:about="&xsd;Literal"/>
+                    <rdf:Description rdf:about="&xsd;PlainLiteral"/>
+                    <rdf:Description rdf:about="&xsd;XMLLiteral"/>
+                </owl:unionOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
  
 
 
