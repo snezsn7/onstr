@@ -9954,26 +9954,42 @@ people infected, then extract parasite which are then tested = observation study
                    				</owl:Class>
                             </owl:someValuesFrom>
                     </owl:Restriction>
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue rdf:datatype="&xsd;string">M</owl:hasValue>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue rdf:datatype="&xsd;string">m</owl:hasValue>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue rdf:datatype="&xsd;string">F</owl:hasValue>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue rdf:datatype="&xsd;string">f</owl:hasValue>
-                            </owl:Restriction>
-                        </owl:unionOf>
-                    </owl:Class>   
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdfs:Datatype>
+                                        <owl:oneOf>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&rdf;List"/>
+                                                <rdf:first rdf:datatype="&xsd;string">F</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&rdf;List"/>
+                                                        <rdf:first rdf:datatype="&xsd;string">f</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                            	<rdf:type rdf:resource="&rdf;List"/>
+                                                       		 	<rdf:first rdf:datatype="&xsd;string">M</rdf:first>
+                                                        		<rdf:rest>
+                                                            		<rdf:Description>
+                                                                		<rdf:type rdf:resource="&rdf;List"/>
+                                                                		<rdf:first rdf:datatype="&xsd;string">m</rdf:first>
+                                                                		<rdf:rest rdf:resource="&rdf;nil"/>
+                                                            		</rdf:Description>
+                                                        		</rdf:rest>
+                                                        	</rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </owl:oneOf>
+                                    </rdfs:Datatype>
+                                </owl:unionOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
@@ -28748,34 +28764,65 @@ people infected, then extract parasite which are then tested = observation study
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;OBI_0000938"/> <!-- categorical measurement datum -->
-                    <owl:Class>
-                        <owl:unionOf rdf:parseType="Collection">
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue rdf:datatype="&xsd;string">P</owl:hasValue>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue rdf:datatype="&xsd;string">p</owl:hasValue>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue rdf:datatype="&xsd;string">L</owl:hasValue>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue rdf:datatype="&xsd;string">l</owl:hasValue>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue rdf:datatype="&xsd;string">NPNL</owl:hasValue>
-                            </owl:Restriction>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has allphanumerical value -->
-                                <owl:hasValue rdf:datatype="&xsd;string">npnl</owl:hasValue>
-                            </owl:Restriction>
-                        </owl:unionOf>
-                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000175"/> <!-- proper continuant part at some time -->
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_3662794"/>  <!-- research study participant data record -->
+                                    <rdf:Description rdf:about="&ONSTR;ONSTR_7188815"/>  <!-- LTFU patient data record -->
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  <!-- has alphanumerical value -->
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdfs:Datatype>
+                                        <owl:oneOf>
+                                            <rdf:Description>
+                                                <rdf:type rdf:resource="&rdf;List"/>
+                                                <rdf:first rdf:datatype="&xsd;string">NPNL</rdf:first>
+                                                <rdf:rest>
+                                                    <rdf:Description>
+                                                        <rdf:type rdf:resource="&rdf;List"/>
+                                                        <rdf:first rdf:datatype="&xsd;string">npnl</rdf:first>
+                                                        <rdf:rest>
+                                                            <rdf:Description>
+                                                            	<rdf:type rdf:resource="&rdf;List"/>
+                                                        		<rdf:first rdf:datatype="&xsd;string">P</rdf:first>
+                                                        		<rdf:rest>
+                                                            		<rdf:Description>
+                                                                    	<rdf:type rdf:resource="&rdf;List"/>
+                                                        				<rdf:first rdf:datatype="&xsd;string">p</rdf:first>
+                                                        				<rdf:rest>
+                                                            				<rdf:Description>
+                                                            					<rdf:type rdf:resource="&rdf;List"/>
+                                                        						<rdf:first rdf:datatype="&xsd;string">L</rdf:first>
+                                                        						<rdf:rest>
+                                                            						<rdf:Description>
+                                                            							<rdf:type rdf:resource="&rdf;List"/>
+                                                                						<rdf:first rdf:datatype="&xsd;string">l</rdf:first>
+                                                                						<rdf:rest rdf:resource="&rdf;nil"/>
+                                                            						</rdf:Description>
+                                                                                </rdf:rest>
+                                                                            </rdf:Description>
+                                                                       </rdf:rest>
+                                                                   </rdf:Description>
+                                                               </rdf:rest>
+                                                           </rdf:Description>
+                                                        </rdf:rest>
+                                                    </rdf:Description>
+                                                </rdf:rest>
+                                            </rdf:Description>
+                                        </owl:oneOf>
+                                    </rdfs:Datatype>
+                                </owl:unionOf>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
