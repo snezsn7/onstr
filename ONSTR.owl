@@ -20508,6 +20508,30 @@ people infected, then extract parasite which are then tested = observation study
      </owl:Class>
      
      
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_8720247-->  <!-- high average daily total dietary protein intake per body-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_8720247">
+        <rdfs:label rdf:datatype="&xsd;string">high average daily total dietary protein intake per body mass</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4580525"/>
+        <skos:definition rdf:datatape="&xsd;string">High average daily total dietary protein per body mass is an average daily total protein intake per body mass during observed time interval that has value that is greater than that of the adequate intake (DRI-AI) or the recommended dietary allowance (DRI-RDA for total dietary protein per body mass for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.144-155.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_9030666-->  <!-- normal average daily total dietary protein intake per body-->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_9030666">
+        <rdfs:label rdf:datatype="&xsd;string">normal average daily total dietary protein intake per body mass</rdfs:label>
+		<rdfs:subClassOf rdf:resource="&ONSTR;ONSTR_4580525"/>
+        <skos:definition rdf:datatape="&xsd;string">Normal average daily total dietary protein per body mass is an average daily total protein intake per body mass during observed observed time interval that has value that is equal or greater than that of the adequate intake (DRI-AI) and less than the recommended dietary allowance (DRI-RDA for total dietary protein per body mass for the population corresponding to patient&apos;s sex, age and state (lactating or pregnant, if female older than 15 years of age).</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: Otten, J. J., Pitzi Hellwig, J., Meyers, L. D. Eds (2006) Dietary Reference Intakes: The essential guide to nutrient requirements. The National Academies Press, Washington DC, pp.144-155.</rdfs:comment>     
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Incomplete</skos:editorialNote>
+     </owl:Class>
+     
+     
+     
    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_5243910-->  <!-- average daily total dietary fat intake per body mass during observed time interval -->
 
     <owl:Class rdf:about="&ONSTR;ONSTR_5243910">
