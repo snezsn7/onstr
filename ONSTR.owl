@@ -15704,10 +15704,10 @@ people infected, then extract parasite which are then tested = observation study
                                	</owl:intersectionOf>
                             </owl:Class>   
         
-                            <owl:Class>  
+							<owl:Class> 
                             	<owl:intersectionOf rdf:parseType="Collection">
                                  	<owl:Restriction> 
-                                    	<owl:onProperty rdf:resource="&ONSTR;ONSTR_1563655"/> 
+                                    	<owl:onProperty rdf:resource="&ONSTR;ONSTR_1563655"/>
                                         <owl:someValuesFrom>
                             				<owl:Class>
                                 				<owl:intersectionOf rdf:parseType="Collection">
@@ -15738,10 +15738,10 @@ people infected, then extract parasite which are then tested = observation study
                             						</owl:Restriction> 
                     							</owl:intersectionOf>
                     						</owl:Class>
-                    					</owl:someValuesFrom> 
+                    					</owl:someValuesFrom>  
                                     </owl:Restriction>
                                     <owl:Restriction> 
-                                    	<owl:onProperty rdf:resource="&ONSTR;ONSTR_1563655"/>  
+                                    	<owl:onProperty rdf:resource="&ONSTR;ONSTR_1563655"/> 
                                         <owl:someValuesFrom>
                                         	<owl:Class>
                                             	<owl:intersectionOf rdf:parseType="Collection">
@@ -15752,11 +15752,11 @@ people infected, then extract parasite which are then tested = observation study
                                                         </owl:unionOf>
                                                      </owl:Class>
                                                     <owl:Restriction>
-                        								<owl:onProperty rdf:resource="&obo;IAO_0000039"/>
-                   	    								<owl:someValuesFrom rdf:resource="&obo;UO_0000036"/> 
+                        								<owl:onProperty rdf:resource="&obo;IAO_0000039"/> 
+                   	    								<owl:someValuesFrom rdf:resource="&obo;UO_0000036"/>  
                                                      </owl:Restriction>
                                                      <owl:Restriction>
-                                						<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
+                                						<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         				<owl:someValuesFrom>
                                         					<rdfs:Datatype>
                                             					<owl:onDatatype rdf:resource="&xsd;float"/>
@@ -15772,125 +15772,31 @@ people infected, then extract parasite which are then tested = observation study
                                             </owl:Class>
                                         </owl:someValuesFrom>
                                     </owl:Restriction>
-                                    <owl:Class> 
-                                    	<owl:unionOf rdf:parseType="Collection">
-                                        	<owl:Class>  
-                                            	<owl:intersectionOf rdf:parseType="Collection">
-                                            		<owl:Restriction>  
-                                            			<owl:onProperty rdf:resource="&ONSTR;ONSTR_1563655"/> 
-                                                		<owl:someValuesFrom>
-                            								<owl:Class>
-                                								<owl:intersectionOf rdf:parseType="Collection">
-                                        							<rdf:Description rdf:about="&ONSTR;ONSTR_2285168"/>  
-                            										<owl:Restriction>
-                       											 		<owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/> 
-                            											<owl:someValuesFrom>
-                            												<rdfs:Datatype>
-                                												<owl:unionOf rdf:parseType="Collection">
-                                    												<rdfs:Datatype>
-                                        												<owl:oneOf>
-                                            												<rdf:Description>
-                                                												<rdf:type rdf:resource="&rdf;List"/>
-                                                												<rdf:first rdf:datatype="&xsd;string">P</rdf:first>
-                                                												<rdf:rest>
-                                                    												<rdf:Description>
-                                                        												<rdf:type rdf:resource="&rdf;List"/>
-                                                        												<rdf:first rdf:datatype="&xsd;string">p</rdf:first>
-                                                        												<rdf:rest rdf:resource="&rdf;nil"/>
-                                                         											</rdf:Description>
-                                                												</rdf:rest>
-                                            												</rdf:Description>
-								                                        				</owl:oneOf>
-                                        											</rdfs:Datatype>
-                                                    							</owl:unionOf>
-                                                    						</rdfs:Datatype>	                    								
-                            											</owl:someValuesFrom>
-                            										</owl:Restriction>
-                                								</owl:intersectionOf> 
-                            								</owl:Class>
-														</owl:someValuesFrom>
-                                                	</owl:Restriction>
-                                                	<owl:Restriction> 
-                                    					<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        				<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                        			</owl:Restriction>
-                                    				<owl:Restriction> 
-                                    					<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
-                                        				<owl:someValuesFrom>
-                                        					<rdfs:Datatype>
-                                            					<owl:onDatatype rdf:resource="&xsd;float"/>
-                                                					<owl:withRestrictions rdf:parseType="Collection">
-                                                    					<rdf:Description>
-                                                        					<xsd:minExclusive rdf:datatype="&xsd;float">71.0</xsd:minExclusive>
-	                                                        			</rdf:Description>
-                                                    				</owl:withRestrictions>
-                                            				</rdfs:Datatype>
-                                        				</owl:someValuesFrom>
-                                    				</owl:Restriction>
-                                                </owl:intersectionOf>
-                                        	</owl:Class>  
-        
-                                            <owl:Class>  
-                                            	<owl:intersectionOf rdf:parseType="Collection">
-                                            		<owl:Restriction>  
-                                            			<owl:onProperty rdf:resource="&ONSTR;ONSTR_1563655"/>  
-                                                		<owl:someValuesFrom>
-                            								<owl:Class>
-                                								<owl:intersectionOf rdf:parseType="Collection">
-                                        							<rdf:Description rdf:about="&ONSTR;ONSTR_2285168"/>  
-                            										<owl:Restriction>
-                       											 		<owl:onProperty rdf:resource="&ONSTR;ONSTR_4339330"/>  
-                            											<owl:someValuesFrom>
-                            												<rdfs:Datatype>
-                                												<owl:unionOf rdf:parseType="Collection">
-                                    												<rdfs:Datatype>
-                                        												<owl:oneOf>
-                                            												<rdf:Description>
-                                            													<rdf:type rdf:resource="&rdf;List"/>
-                                                												<rdf:first rdf:datatype="&xsd;string">L</rdf:first>
-                                                												<rdf:rest>
-                                                    												<rdf:Description>
-                                                        												<rdf:type rdf:resource="&rdf;List"/>
-                                                        												<rdf:first rdf:datatype="&xsd;string">l</rdf:first>
-                                                        												<rdf:rest rdf:resource="&rdf;nil"/>
-                                                         											</rdf:Description>
-                                                												</rdf:rest>
-                                            												</rdf:Description>
-								                                        				</owl:oneOf>
-                                        											</rdfs:Datatype>
-                                                    							</owl:unionOf>
-                                                    						</rdfs:Datatype>	                    								
-                            											</owl:someValuesFrom>
-                            										</owl:Restriction>
-                                								</owl:intersectionOf> 
-                            								</owl:Class>
-														</owl:someValuesFrom>
-                                                	</owl:Restriction>
-                                                	<owl:Restriction> 
-                                    					<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        				<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                        			</owl:Restriction>
-                                    				<owl:Restriction> 
-                                    					<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
-                                        				<owl:someValuesFrom>
-                                        					<rdfs:Datatype>
-                                            					<owl:onDatatype rdf:resource="&xsd;float"/>
-                                                					<owl:withRestrictions rdf:parseType="Collection">
-                                                    					<rdf:Description>
-                                                        					<xsd:minExclusive rdf:datatype="&xsd;float">71.0</xsd:minExclusive>
-	                                                        			</rdf:Description>
-                                                    				</owl:withRestrictions>
-                                            				</rdfs:Datatype>
-                                        				</owl:someValuesFrom>
-                                    				</owl:Restriction>
-                                                </owl:intersectionOf>
-                                        	</owl:Class>  	
-                            			</owl:unionOf>
-                            		</owl:Class> 
+                                    <owl:Restriction>
+                                    	<owl:onProperty rdf:resource="&ONSTR;ONSTR_1563655"/>  
+                                    	<owl:someValuesFrom  rdf:resource="&ONSTR;ONSTR_2285168"/>  
+                                    </owl:Restriction>
+                                    <owl:Restriction>  
+                                    	<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
+                                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>  
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                    	<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
+                                        <owl:someValuesFrom>
+                                       		<rdfs:Datatype>
+                                            	<owl:onDatatype rdf:resource="&xsd;float"/>
+                                                	<owl:withRestrictions rdf:parseType="Collection">
+                                                    	<rdf:Description>
+                                                        	<xsd:minExclusive rdf:datatype="&xsd;float">71</xsd:minExclusive>
+	                                                    </rdf:Description>
+                                                    </owl:withRestrictions>
+                                            </rdfs:Datatype>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
                             	</owl:intersectionOf>
-                            </owl:Class> 
-                        </owl:unionOf>
-                    </owl:Class>          	
+                            </owl:Class>  
+                        </owl:unionOf>	
+                    </owl:Class>              	
             	</owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
