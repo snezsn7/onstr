@@ -13100,6 +13100,11 @@ people infected, then extract parasite which are then tested = observation study
         	<owl:Class>
             	<owl:intersectionOf rdf:parseType="Collection">
                 	<rdf:Description rdf:about="&ONSTR;ONSTR_9046621"/>  
+                	<owl:Restriction> 
+                   		<owl:onProperty rdf:resource="&obo;IAO_0000039"/> 
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
+	                </owl:Restriction>
+                	
 	            	<owl:Class>
                  		<owl:unionOf rdf:parseType="Collection">
                         	<owl:Class>  
@@ -13183,10 +13188,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                     		</owl:Class>
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
-                                                            		<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-	                                    							</owl:Restriction>
                                     								<owl:Restriction>  
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
                                         								<owl:someValuesFrom>
@@ -13248,10 +13249,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                     		</owl:Class>
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
-                                                            		<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>   
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                    								</owl:Restriction>
                                                             		<owl:Restriction> 
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>                                         								<owl:someValuesFrom>
 	                                        								<rdfs:Datatype>
@@ -13312,10 +13309,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                     		</owl:Class>
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
-                                                            		<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/> 
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>
-                                    								</owl:Restriction>
                                                             		<owl:Restriction>  
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
                                         								<owl:someValuesFrom>
@@ -13378,10 +13371,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
                                                             		<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                    								</owl:Restriction>
-                                                            		<owl:Restriction>  
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         								<owl:someValuesFrom>
 	                                        								<rdfs:Datatype>
@@ -13442,10 +13431,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                     		</owl:Class>
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
-                                                            		<owl:Restriction> 
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>   
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                    								</owl:Restriction>
                                                             		<owl:Restriction> 
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
                                         								<owl:someValuesFrom>
@@ -13550,10 +13535,6 @@ people infected, then extract parasite which are then tested = observation study
                     														</owl:Class>
                     													</owl:someValuesFrom>
                                                 					</owl:Restriction> 
-                                                					<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>  
-                                    								</owl:Restriction>
                                     								<owl:Restriction> 
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
                                         								<owl:someValuesFrom>
@@ -13605,10 +13586,6 @@ people infected, then extract parasite which are then tested = observation study
                     													    </owl:Class>
                     													</owl:someValuesFrom>
                                                 					</owl:Restriction>
-                                			                    	<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                    								</owl:Restriction>
                                     								<owl:Restriction> 
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         								<owl:someValuesFrom>
@@ -13701,10 +13678,6 @@ people infected, then extract parasite which are then tested = observation study
                     														</owl:Class>
                     													</owl:someValuesFrom>
                                                 					</owl:Restriction>  
-                                                					<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/> 
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>
-                                    								</owl:Restriction>
                                     								<owl:Restriction> 
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
                                         								<owl:someValuesFrom>
@@ -13756,10 +13729,6 @@ people infected, then extract parasite which are then tested = observation study
                     														</owl:Class>
                     													</owl:someValuesFrom>
                                                 					</owl:Restriction> 
-                                                					<owl:Restriction> 
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                    								</owl:Restriction>
                                     								<owl:Restriction> 
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         								<owl:someValuesFrom>
@@ -13890,10 +13859,6 @@ people infected, then extract parasite which are then tested = observation study
                             								</owl:Class>
 														</owl:someValuesFrom>
                                                 	</owl:Restriction>
-                                                	<owl:Restriction>  
-                                    					<owl:onProperty rdf:resource="&obo;IAO_0000039"/> 
-                                        				<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>  
-                                        			</owl:Restriction>
                                     				<owl:Restriction> 
                                     					<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         				<owl:someValuesFrom>
@@ -13993,7 +13958,12 @@ people infected, then extract parasite which are then tested = observation study
         <owl:equivalentClass>
         	<owl:Class>
             	<owl:intersectionOf rdf:parseType="Collection">
-                	<rdf:Description rdf:about="&ONSTR;ONSTR_9046621"/>  
+                	<rdf:Description rdf:about="&ONSTR;ONSTR_9046621"/> 
+                	<owl:Restriction>  
+                   		<owl:onProperty rdf:resource="&obo;IAO_0000039"/>   
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>
+	                </owl:Restriction>
+                	
 	            	<owl:Class> 
                  		<owl:unionOf rdf:parseType="Collection">
                         	<owl:Class>  
@@ -14077,10 +14047,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                     		</owl:Class>
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
-                                                            		<owl:Restriction>
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>   
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-	                                    							</owl:Restriction>
                                     								<owl:Restriction>  
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         								<owl:someValuesFrom>
@@ -14155,10 +14121,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
                                                             		<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>   
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                    								</owl:Restriction>
-                                                            		<owl:Restriction>  
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/> 
                                         								<owl:someValuesFrom>
 	                                        								<rdfs:Datatype>
@@ -14232,10 +14194,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
                                                             		<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>   
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>  
-                                    								</owl:Restriction>
-                                                            		<owl:Restriction>  
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         								<owl:someValuesFrom>
 	                                        								<rdfs:Datatype>
@@ -14308,10 +14266,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                     		</owl:Class>
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
-                                                            		<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                    								</owl:Restriction>
                                                             		<owl:Restriction> 
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         								<owl:someValuesFrom>
@@ -14385,10 +14339,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                     		</owl:Class>
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
-                                                            		<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>   
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>  
-                                    								</owl:Restriction>
                                                             		<owl:Restriction>  
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         								<owl:someValuesFrom>
@@ -14505,10 +14455,6 @@ people infected, then extract parasite which are then tested = observation study
                     														</owl:Class>
                     													</owl:someValuesFrom>
                                                 					</owl:Restriction> 
-                                                					<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                    								</owl:Restriction>
                                     								<owl:Restriction> 
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
                                         								<owl:someValuesFrom>
@@ -14572,11 +14518,7 @@ people infected, then extract parasite which are then tested = observation study
                     													    </owl:Class>
                     													</owl:someValuesFrom>
                                                 					</owl:Restriction>
-                                			                    	<owl:Restriction> 
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>  
-                                    								</owl:Restriction>
-                                    								<owl:Restriction> <!-- A2-2 values -->
+                                    								<owl:Restriction>
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         								<owl:someValuesFrom>
                                         									<rdfs:Datatype>
@@ -14680,10 +14622,6 @@ people infected, then extract parasite which are then tested = observation study
                     														</owl:Class>
                     													</owl:someValuesFrom>
                                                 					</owl:Restriction>  
-                                                					<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>  
-                                    								</owl:Restriction>
                                     								<owl:Restriction> 
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         								<owl:someValuesFrom>
@@ -14747,10 +14685,6 @@ people infected, then extract parasite which are then tested = observation study
                     														</owl:Class>
                     													</owl:someValuesFrom>
                                                 					</owl:Restriction> 
-                                                					<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>  
-                                    								</owl:Restriction>
                                     								<owl:Restriction> 
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         								<owl:someValuesFrom>
@@ -14785,8 +14719,7 @@ people infected, then extract parasite which are then tested = observation study
                                	    	</owl:unionOf>
                                		</owl:Class>    
                                	</owl:intersectionOf>
-                            </owl:Class>   
-       
+                            </owl:Class>  
                             <owl:Class>  
                             	<owl:intersectionOf rdf:parseType="Collection">
                                  	<owl:Restriction> 
@@ -14893,10 +14826,6 @@ people infected, then extract parasite which are then tested = observation study
                             								</owl:Class>
 														</owl:someValuesFrom>
                                                 	</owl:Restriction>
-                                                	<owl:Restriction>  
-                                    					<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        				<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                        			</owl:Restriction>
                                     				<owl:Restriction> 
                                     					<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
                                         				<owl:someValuesFrom>
@@ -14960,10 +14889,6 @@ people infected, then extract parasite which are then tested = observation study
                             								</owl:Class>
 														</owl:someValuesFrom>
                                                 	</owl:Restriction>
-                                                	<owl:Restriction>  
-                                    					<owl:onProperty rdf:resource="&obo;IAO_0000039"/> 
-                                        				<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>  
-                                        			</owl:Restriction>
                                     				<owl:Restriction> 
                                     					<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
                                         				<owl:someValuesFrom>
@@ -15020,6 +14945,11 @@ people infected, then extract parasite which are then tested = observation study
        		<owl:Class>
             	<owl:intersectionOf rdf:parseType="Collection">
                 	<rdf:Description rdf:about="&ONSTR;ONSTR_9046621"/>  
+	            	<owl:Restriction>  
+                   		<owl:onProperty rdf:resource="&obo;IAO_0000039"/>   
+                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>
+	                </owl:Restriction>
+	            	
 	            	<owl:Class> 
                  		<owl:unionOf rdf:parseType="Collection">
                         	<owl:Class>  
@@ -15103,10 +15033,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                     		</owl:Class>
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
-                                                            		<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>   
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>
-	                                    							</owl:Restriction>
                                     								<owl:Restriction>  
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         								<owl:someValuesFrom>
@@ -15169,10 +15095,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
                                                             		<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>   
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                    								</owl:Restriction>
-                                                            		<owl:Restriction>  
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
                                         								<owl:someValuesFrom>
 	                                        								<rdfs:Datatype>
@@ -15233,10 +15155,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                     		</owl:Class>
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
-                                                            		<owl:Restriction> 
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>   
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>  
-                                    								</owl:Restriction>
                                                             		<owl:Restriction>  
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         								<owl:someValuesFrom>
@@ -15298,10 +15216,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
                                                             		<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>   
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                    								</owl:Restriction>
-                                                            		<owl:Restriction>  
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
                                         								<owl:someValuesFrom>
 	                                        								<rdfs:Datatype>
@@ -15362,10 +15276,6 @@ people infected, then extract parasite which are then tested = observation study
                                                                     		</owl:Class>
                                                                 		</owl:someValuesFrom>
                                                             		</owl:Restriction>
-                                                            		<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                    								</owl:Restriction>
                                                             		<owl:Restriction>  
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
                                         								<owl:someValuesFrom>
@@ -15470,10 +15380,6 @@ people infected, then extract parasite which are then tested = observation study
                     														</owl:Class>
                     													</owl:someValuesFrom>
                                                 					</owl:Restriction> 
-                                                					<owl:Restriction> 
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/> 
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>  
-                                    								</owl:Restriction>
                                     								<owl:Restriction> 
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
                                         								<owl:someValuesFrom>
@@ -15525,10 +15431,6 @@ people infected, then extract parasite which are then tested = observation study
                     													    </owl:Class>
                     													</owl:someValuesFrom>
                                                 					</owl:Restriction>
-                                			                    	<owl:Restriction> 
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/> 
-                                    								</owl:Restriction>
                                     								<owl:Restriction> 
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
                                         								<owl:someValuesFrom>
@@ -15621,10 +15523,6 @@ people infected, then extract parasite which are then tested = observation study
                     														</owl:Class>
                     													</owl:someValuesFrom>
                                                 					</owl:Restriction>  
-                                                					<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>  
-                                    								</owl:Restriction>
                                     								<owl:Restriction> 
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>  
                                         								<owl:someValuesFrom>
@@ -15676,10 +15574,6 @@ people infected, then extract parasite which are then tested = observation study
                     														</owl:Class>
                     													</owl:someValuesFrom>
                                                 					</owl:Restriction> 
-                                                					<owl:Restriction>  
-                                    									<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        								<owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>  
-                                    								</owl:Restriction>
                                     								<owl:Restriction> 
                                     									<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
                                         								<owl:someValuesFrom>
@@ -15775,10 +15669,6 @@ people infected, then extract parasite which are then tested = observation study
                                     <owl:Restriction>
                                     	<owl:onProperty rdf:resource="&ONSTR;ONSTR_1563655"/>  
                                     	<owl:someValuesFrom  rdf:resource="&ONSTR;ONSTR_2285168"/>  
-                                    </owl:Restriction>
-                                    <owl:Restriction>  
-                                    	<owl:onProperty rdf:resource="&obo;IAO_0000039"/>  
-                                        <owl:someValuesFrom rdf:resource="&ONSTR;ONSTR_5104929"/>  
                                     </owl:Restriction>
                                     <owl:Restriction>
                                     	<owl:onProperty rdf:resource="&obo;IAO_0000004"/>   
