@@ -4293,7 +4293,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00518"> <!-- P1 V1 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 1 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00150"/>  <!-- has info basis:3D -->
@@ -4306,7 +4306,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00519"> <!-- P1 V2 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 2 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00703"/>  <!-- is produced by:FoodProc1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00151"/>  <!-- has info basis:3D -->
@@ -4319,7 +4319,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00520"> <!-- P1 V3 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 3 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00703"/>  <!-- is produced by:FoodProc1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00152"/>  <!-- has info basis:3D -->
@@ -4332,7 +4332,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00521"> <!-- P1 V4 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 4 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00153"/>  <!-- has info basis:3D -->
@@ -4345,7 +4345,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00522"> <!-- P1 V5 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 1 Visit 5 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00154"/>  <!-- has info basis:3D -->
@@ -4358,7 +4358,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00523"> <!-- P3 V1 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 1 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00704"/>  <!-- is produced by:MetPro1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00155"/>  <!-- has info basis:3D -->
@@ -4371,7 +4371,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00524"> <!-- P3 V2 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 2 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00156"/>  <!-- has info basis:3D -->
@@ -4384,7 +4384,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00525"> <!-- P3 V3 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 3 Visit 3 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00703"/>  <!-- is produced by:FoodProc1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00157"/>  <!-- has info basis:2D -->
@@ -4397,7 +4397,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00526"> <!-- P4 V1 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 1 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00158"/>  <!-- has info basis:24H -->
@@ -4410,7 +4410,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00527"> <!-- P4 V2 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 2 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00703"/>  <!-- is produced by:FoodProc1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00159"/>  <!-- has info basis:3D -->
@@ -4423,7 +4423,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00528"> <!-- P4 V3 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 3 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00160"/>  <!-- has info basis:3D -->
@@ -4436,7 +4436,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00529"> <!-- P4 V4 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 4 Visit 4 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00161"/>  <!-- has info basis:3D -->
@@ -4449,7 +4449,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00530"> <!-- P5 V1 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 1 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00162"/>  <!-- has info basis:24h -->
@@ -4462,7 +4462,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00531"> <!-- P5 V2 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 2 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00163"/>  <!-- has info basis:3D -->
@@ -4475,7 +4475,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00532"> <!-- P5 V3 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 3 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00164"/>  <!-- has info basis:3D -->
@@ -4488,7 +4488,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00533"> <!-- P5 V4 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 5 Visit 4 dietary intake per body mass of methionine and cysteine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00704"/>  <!-- is produced by:MetPro1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00165"/>  <!-- has info basis:2D -->
@@ -4501,7 +4501,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00534"> <!-- P6 V1 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 1 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00166"/>  <!-- has info basis:24h -->
@@ -4514,7 +4514,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00535"> <!-- P6 V2 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 2 dietary intake per body mass of methionine and cysteine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00703"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00167"/>  <!-- has info basis:3D -->
@@ -4527,7 +4527,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00536"> <!-- P6 V3 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 3 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00168"/>  <!-- has info basis:3D -->
@@ -4540,7 +4540,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00537"> <!-- P6 V5 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 6 Visit 5 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00704"/>  <!-- is produced by:MetPro1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00169"/>  <!-- has info basis:3D -->
@@ -4553,7 +4553,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00538"> <!-- P7 V1 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 1 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00170"/>  <!-- has info basis:3D -->
@@ -4566,7 +4566,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00539"> <!-- P7 V2 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 2 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00704"/>  <!-- is produced by:MetPro1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00171"/>  <!-- has info basis:3D -->
@@ -4579,7 +4579,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00540"> <!-- P7 V3 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 3 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDRS1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00172"/>  <!-- has info basis:3D -->
@@ -4592,7 +4592,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00541"> <!-- P7 V4 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 7 Visit 4 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00704"/>  <!-- is produced by:MetPro1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00173"/>  <!-- has info basis:3D -->
@@ -4605,7 +4605,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00542"> <!-- P8 V1 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 1 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00174"/>  <!-- has info basis:24h-->
@@ -4618,7 +4618,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00543"> <!-- P8 V2 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 2 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00175"/>  <!-- has info basis:3D-->
@@ -4631,7 +4631,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00544"> <!-- P8 V3 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 3 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00703"/>  <!-- is produced by:FoodProc1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00176"/>  <!-- has info basis:3D-->
@@ -4644,7 +4644,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00545"> <!-- P8 V4 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 8 Visit 4 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00704"/>  <!-- is produced by:FoodProc1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00177"/>  <!-- has info basis:3D-->
@@ -4657,7 +4657,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00546"> <!-- P16 V1 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 1 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00178"/>  <!-- has info basis:3D-->
@@ -4670,7 +4670,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00547"> <!-- P16 V2 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 2 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00703"/>  <!-- is produced by:FooDproc1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00179"/>  <!-- has info basis:2D-->
@@ -4683,7 +4683,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00548"> <!-- P16 V3 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 3 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00704"/>  <!-- is produced by:FooDproc1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00180"/>  <!-- has info basis:3D-->
@@ -4696,7 +4696,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00549"> <!-- P16 V4 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 4 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00181"/>  <!-- has info basis:3D-->
@@ -4709,7 +4709,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00550"> <!-- P16 V5 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 16 Visit 5 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00704"/>  <!-- is produced by:MetPro1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00182"/>  <!-- has info basis:3D-->
@@ -4722,7 +4722,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00551"> <!-- P24 V1 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 1 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00183"/>  <!-- has info basis:3D-->
@@ -4735,7 +4735,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00552"> <!-- P24 V2 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 2 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00703"/>  <!-- is produced by:FoodProc1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00184"/>  <!-- has info basis:2D-->
@@ -4748,7 +4748,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00553"> <!-- P24 V3 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 3 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00185"/>  <!-- has info basis:3D-->
@@ -4761,7 +4761,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00554"> <!-- P24 V5 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 24 Visit 5 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00186"/>  <!-- has info basis:3D-->
@@ -4774,7 +4774,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00555"> <!-- P38 V1 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 1 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00187"/>  <!-- has info basis:3D-->
@@ -4787,7 +4787,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00556"> <!-- P38 V2 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 2 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00188"/>  <!-- has info basis:3D-->
@@ -4800,7 +4800,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00557"> <!-- P38 V3 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 3 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00704"/>  <!-- is produced by:MetPro1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00189"/>  <!-- has info basis:3D-->
@@ -4813,7 +4813,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00558"> <!-- P38 V4 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 4 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00190"/>  <!-- has info basis:2D-->
@@ -4826,7 +4826,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00559"> <!-- P38 V5 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 38 Visit 5 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00704"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00191"/>  <!-- has info basis:3D-->
@@ -4839,7 +4839,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00560"> <!-- P43 V1 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 1 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00192"/>  <!-- has info basis:24h-->
@@ -4852,7 +4852,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00561"> <!-- P43 V3 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 3 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00193"/>  <!-- has info basis:24h-->
@@ -4865,7 +4865,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00562"> <!-- P43 V4 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 4 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00194"/>  <!-- has info basis:24h-->
@@ -4878,7 +4878,7 @@
 	
 	
 	<rdf:Description  rdf:about="&KS1;KS1_00563"> <!-- P43 V5 dietary inatke per body mass of phenylalanine and tyrosine combined -->
-		<rdf:type rdf:resource="&ONSTR;ONSTR_4199842"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9828959"/>  <!-- onstr:average daily dietary inatke per body mass of phenylalanine and tyrosine combined-->
 		<rdfs:label rdf:datatype="&xsd;string">KS Participant 43 Visit 5 dietary intake per body mass of phenylalanine and tyrosine combined</rdfs:label>
 		<ONSTR:ONSTR_3011743 rdf:resource="&KS1;KS1_00702"/>  <!-- is produced by:NDSR1 -->
 		<ONSTR:ONSTR_1563655 rdf:resource="&KS1;KS1_00195"/>  <!-- has info basis:24h-->
