@@ -914,15 +914,135 @@
     <owl:Class rdf:about="&ONSTR;ONSTRobsolete_1232943">
         <rdfs:label rdf:datatype="&xsd;string">positive newborn dried blood spot screening test finding</rdfs:label> 
         <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
-       
-       <!-- ADD LOG DESCR -->
         <skos:definition rdf:datatape="&xsd;string">Positive newborn dried blood spot screening test finding is a newborn dried blood spot screening test finding that is during the newborn dried blood spot screening test analysis interpreted as positive based on the values of relevant measurements being above or below certain empirically determined cutoff level (blood chemical levels and certain ratios thereof, newborn weight at birth, gestational age and newborn nutritional intake datum) and that serves as an indicator of the likely presence of a screened inherited disease.</skos:definition>
         <skos:altLabel rdf:datatype="&xsd;string">positive DBS screen</skos:altLabel>
         <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
         <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
 	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
      </owl:Class>
+     
+     
+     
+     <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_6235894 -->  <!-- confirmatory testing blood plasma chemical concentration measurement datum  -->
 
+    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_6235894">
+        <rdfs:label rdf:datatype="&xsd;string">confirmatory testing blood plasma chemical concentration measurement datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatape="&xsd;string">Confirmatory testing blood plasma chemical concentration measurement datum is a time stamped measurement datum (time stamped scalar measurement datum) that is time stamped by the date of newborn dried blood spot specimen creation date and by the newborn&apos;s age at the time of confirmatory testing blood  specimen collection.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+
+
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_5510230 -->  <!-- confirmatory testing blood plasma amino acid concentration measurement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_5510230">
+        <rdfs:label rdf:datatype="&xsd;string">confirmatory testing blood plasma amino acid concentration measurement datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatape="&xsd;string">Confirmatory testing blood plasma amino acid concentration measurement datum is a confirmatory testing blood plasma chemical concentration measurement datum that provides the information about the concentration of the observed amino acids in the newborn&apos;s blood at the time of confirmatory testing blood specimen collection.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+         
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_8733959 -->  <!-- confirmatory testing blood plasma fatty acid concentration measurement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_8733959">
+        <rdfs:label rdf:datatype="&xsd;string">confirmatory testing blood plasma fatty acid concentration measurement datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatape="&xsd;string">Confirmatory testing blood plasma fatty acid concentration measurement datum is a confirmatory testing blood plasma chemical concentration measurement datum that provides the information about the concentration of the observed fatty acids in the newborn&apos;s blood at the time of confirmatory testing blood specimen collection.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+           
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_4184282 -->  <!-- confirmatory testing blood plasma organic acid concentration measurement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_4184282">
+        <rdfs:label rdf:datatype="&xsd;string">confirmatory testing blood plasma organic acid concentration measurement datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatape="&xsd;string">Confirmatory testing blood plasma organic acid concentration measurement datum  is a confirmatory testing blood plasma chemical concentration measurement datum that provides the information about the concentration of the observed organic acids in the newborn&apos;s blood at the time of confirmatory testing blood specimen collection.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+        
+        
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_8865645 -->  <!-- long-term follow-up interval visit blood chemical concentration measurement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_8865645">
+        <rdfs:label rdf:datatype="&xsd;string">long-term follow-up interval visit blood chemical concentration measurement datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatape="&xsd;string">Long-term follow-up interval visit blood chemical concentration measurement datum is a time stamped measurement datum (time stamped scalar measurement datum) that is time stamped by the date of dried blood spot specimen creation date or venous blood specimen creation measurement datum and by the patient&apos;s age at the time of long-term follow-up interval visit.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3587935 -->  <!-- long-term follow-up interval visit blood amino acid concentration measurement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_3587935">
+        <rdfs:label rdf:datatype="&xsd;string">long-term follow-up interval visit blood amino acid concentration measurement datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatape="&xsd;string">Long-term follow-up interval visit blood amino acid concentration measurement datum is a long-term follow-up interval visit blood chemical concentration measurement datum that provides the information about the concentration of the observed amino acids in patient&apos;s blood at the time of at the time of long-term follow-up interval visit.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_3590168 -->  <!-- long-term follow-up interval visit blood fatty acid concentration measurement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_3590168">
+        <rdfs:label rdf:datatype="&xsd;string">long-term follow-up interval visit blood fatty acid concentration measurement datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatape="&xsd;string">Long-term follow-up interval visit blood fatty acid concentration measurement datum is a long-term follow-up interval visit blood chemical concentration measurement datum that provides the information about the concentration of the observed fatty acids in patient&apos;s blood at the time of at the time of long-term follow-up interval visit.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_1288501 -->  <!-- long-term follow-up interval visit blood organic acid concentration measurement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_1288501">
+        <rdfs:label rdf:datatype="&xsd;string">long-term follow-up interval visit blood organic acid concentration measurement datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatape="&xsd;string">Long-term follow-up interval visit blood organic acid concentration measurement datum is a long-term follow-up interval visit blood chemical concentration measurement datum that provides the information about the concentration of the observed organic acids in patient&apos;s blood at the time of at the time of long-term follow-up interval visit.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+        
+        
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_6891725 -->  <!-- newborn dried blood spot screening blood chemical concentration measurement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_6891725">
+        <rdfs:label rdf:datatype="&xsd;string">newborn dried blood spot screening blood chemical concentration measurement datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatape="&xsd;string">Newborn dried blood spot screening blood chemical concentration measurement is a time stamped measurement datum (time stamped scalar measurement datum) that is time stamped by the date of newborn dried blood spot specimen creation date and the newborn&apos;s age at the time of the newborn dried blood spot specimen creation.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+    
+   <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTR_7713437 -->  <!-- newborn dried blood spot screening blood amino acid concentration measurement datum  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_7713437">
+        <rdfs:label rdf:datatype="&xsd;string">newborn dried blood spot screening blood amino acid concentration measurement datum</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatape="&xsd;string">Newborn dried blood spot screening blood amino acid concentration measurement datum  is a newborn dried blood spot screening blood chemical concentration measurement datum that provides the information about the concentration of observed amino acids in the newborn&apos;s blood at the time of newborn dried blood spot specimen creation.</skos:definition>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
         
         
         
