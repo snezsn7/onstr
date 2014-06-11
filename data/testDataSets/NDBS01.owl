@@ -1,0 +1,1429 @@
+<!-- NDBS01.owl  HPA and MSUD ONLY -->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY owl2xml "http://www.w3.org/2006/12/owl2-xml#" >
+    <!ENTITY skos "http://www.w3.org/2004/02/skos/core#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/">
+    <!ENTITY obo  "http://purl.obolibrary.org/obo/"> 
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY NDBS01 "http://onstr.googlecode.com/svn/data/testDataSets/NDBS01.owl#">
+    <!ENTITY ONSTR "http://onstr.googlecode.com/svn/trunk/ONSTR.owl#" >  
+  
+]>    
+
+
+<rdf:RDF xmlns="http://onstr.googlecode.com/svn/data/testDataSets/NDBS01.owl#"
+     xml:base="http://onstr.googlecode.com/svn/data/testDataSets/NDBS01.owl#"
+     xmlns:NDBS01="http://onstr.googlecode.com/svn/data/testDataSets/NDBS01.owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:ONSTR="http://onstr.googlecode.com/svn/trunk/ONSTR.owl#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#">
+
+
+
+
+<!-- AGE AT DBS collection instances -->
+<!-- AGE AT DBS collection instances -->
+<!-- AGE AT DBS collection instances -->
+
+	<!-- NORMAL AGE at DBS collection  P1-P4, 0001-0004 -->
+	
+   <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0001"> <!-- NDBS01 P1-normal age at DBS collection -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at 1st=initial NBS  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal age at DBS collection</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">1.2</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000033"/>  <!-- iao:has measurement unit label - day -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0002"> <!-- NDBS01 P2-normal age at DBS collection -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_4832670"/>  <!-- onstr:age at 2nd NBS  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P2-normal age at DBS collection</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">2.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000033"/>  <!-- iao:has measurement unit label - day -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0003"> <!-- NDBS01 P3-normal age at DBS collection -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_4832670"/>  <!-- onstr:age at 2nd NBS  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P3-normal age at DBS collection</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">1.6</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000033"/>  <!-- iao:has measurement unit label - day -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0004"> <!-- NDBS01 P4-normal age at DBS collection -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at 1st=initial NBS  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P4-normal age at DBS collection</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">3.1</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000033"/>  <!-- iao:has measurement unit label - day -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<!-- HPA AGE at DBS collection, P5-P8, 0005-0008 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0005"> <!-- NDBS01 P5-HPA age at DBS collection -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at 1st=initial NBS  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P5-HPA age at DBS collection</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">1.5</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000033"/>  <!-- iao:has measurement unit label - day -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0006"> <!-- NDBS01 P6-HPA age at DBS collection -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at 1st=initial NBS  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA age at DBS collection</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">0.9</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000033"/>  <!-- iao:has measurement unit label - day -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0007"> <!-- NDBS01 P7-HPA age at DBS collection -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_4832670"/>  <!-- onstr:age at 2nd NBS  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P7-HPA age at DBS collection</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">2.3</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000033"/>  <!-- iao:has measurement unit label - day -->   	           
+	</owl:NamedIndividual>
+
+
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0008"> <!-- NDBS01 P8-HPA age at DBS collection -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at 1st=initial NBS  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P8-HPA age at DBS collection</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">2.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000033"/>  <!-- iao:has measurement unit label - day -->   	           
+	</owl:NamedIndividual>
+
+
+
+	<!-- MSUD AGE at DBS collection, P9-P12, 0009-0012 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0009"> <!-- NDBS01 P9-MSUD age at DBS collection -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at 1st=initial NBS  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P9-MSUD age at DBS collection</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">0.6</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000033"/>  <!-- iao:has measurement unit label - day -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0010"> <!-- NDBS01 P10-MSUD age at DBS collection -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at 1st=initial NBS  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P10-MSUD age at DBS collection</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">1.3</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000033"/>  <!-- iao:has measurement unit label - day -->   	           
+	</owl:NamedIndividual>
+
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0011"> <!-- NDBS01 P11-MSUD age at DBS collection -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_5782884"/>  <!-- onstr:age at 1st=initial NBS  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P11-MSUD age at DBS collection</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">2.3</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000033"/>  <!-- iao:has measurement unit label - day -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0012"> <!-- NDBS01 P12-MSUD age at DBS collection -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8084788"/>  <!-- onstr:age at 3rd NBS  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P12-MSUD age at DBS collection</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">3.2</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000033"/>  <!-- iao:has measurement unit label - day -->   	           
+	</owl:NamedIndividual>
+	
+	
+	
+<!-- BODY MASS AT BIRTH instances -->
+<!-- BODY MASS AT BIRTH instances -->	
+<!-- BODY MASS AT BIRTH instances -->
+
+
+	<!-- NORMAL BODY MASS AT BIRTH P1-P4, 0013-0016  -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0013"> <!-- NDBS01 P1-normal body mass at birth -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0901764"/>  <!-- onstr:body mass at birth  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal mass at birth</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">3650.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000021"/>  <!-- iao:has measurement unit label - gram -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0014"> <!-- NDBS01 P2-normal body mass at birth -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0901764"/>  <!-- onstr:body mass at birth  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 2-normal mass at birth</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">2894.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000021"/>  <!-- iao:has measurement unit label - gram -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0015"> <!-- NDBS01 P3-normal body mass at birth -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0901764"/>  <!-- onstr:body mass at birth  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P3-normal mass at birth</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">3004.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000021"/>  <!-- iao:has measurement unit label - gram -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0016"> <!-- NDBS01 P4-normal body mass at birth -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0901764"/>  <!-- onstr:body mass at birth  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P4-normal mass at birth</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">3745.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000021"/>  <!-- iao:has measurement unit label - gram -->   	           
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- HPA BODY MASS AT BIRTH  P5-P8, 0017-0020 -->
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0017"> <!-- NDBS01 P5-HPA body mass at birth -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0901764"/>  <!-- onstr:body mass at birth  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P5-HPA mass at birth</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">3250.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000021"/>  <!-- iao:has measurement unit label - gram -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0018"> <!-- NDBS01 P6-HPA body mass at birth -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0901764"/>  <!-- onstr:body mass at birth  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA mass at birth</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">2890.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000021"/>  <!-- iao:has measurement unit label - gram -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0019"> <!-- NDBS01 P7-HPA body mass at birth -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0901764"/>  <!-- onstr:body mass at birth  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P7-HPA mass at birth</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">3456.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000021"/>  <!-- iao:has measurement unit label - gram -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0020"> <!-- NDBS01 P8-HPA body mass at birth -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0901764"/>  <!-- onstr:body mass at birth  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P8-HPA mass at birth</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">2987.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000021"/>  <!-- iao:has measurement unit label - gram -->   	           
+	</owl:NamedIndividual>
+	
+	
+
+	<!-- MSUD BODY MASS AT BIRTH  P9-P12, 0021-0024 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0021"> <!-- NDBS01 P9-MSUD body mass at birth -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0901764"/>  <!-- onstr:body mass at birth  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P9-MSUD mass at birth</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">2368.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000021"/>  <!-- iao:has measurement unit label - gram -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_00022"> <!-- NDBS01 P10-MSUD body mass at birth -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0901764"/>  <!-- onstr:body mass at birth  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P10-MSUD mass at birth</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">2986.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000021"/>  <!-- iao:has measurement unit label - gram -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_00023"> <!-- NDBS01 P11-MSUD body mass at birth -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0901764"/>  <!-- onstr:body mass at birth  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P11-MSUD mass at birth</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">3458.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000021"/>  <!-- iao:has measurement unit label - gram -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0024"> <!-- NDBS01 P12-MSUD body mass at birth -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0901764"/>  <!-- onstr:body mass at birth  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P12-MSUD mass at birth</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">2873.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000021"/>  <!-- iao:has measurement unit label - gram -->   	           
+	</owl:NamedIndividual>
+	
+	
+
+	<!-- NORMAL BLOOD Phe, P1-P4, 0025-0028 -->
+
+
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0025"> <!-- NDBS01 P1-normal blood Phe -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2466421"/>  <!-- onstr:whole blood Phe conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal whole blood Phe</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">100.01</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+   <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0026"> <!-- NDBS01 P2-normal blood Phe -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2466421"/>  <!-- onstr:whole blood Phe conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P2-normal whole blood Phe</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">110.27</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0027"> <!-- NDBS01 P3-normal blood Phe -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2466421"/>  <!-- onstr:whole blood Phe conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P3-normal whole blood Phe</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">158.20</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0028"> <!-- NDBS01 P4-normal blood Phe -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2466421"/>  <!-- onstr:whole blood Phe conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P4-normal whole blood Phe</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">89.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	     <!-- HPA BLOOD Phe, P5-P8, 0029-0032 -->
+     
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0029"> <!-- NDBS01 P5-HPA blood Phe -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2466421"/>  <!-- onstr:whole blood Phe conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P5-HPA whole blood Phe</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">201.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+   <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0030"> <!-- NDBS01 P6-HPA blood Phe -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2466421"/>  <!-- onstr:whole blood Phe conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA whole blood Phe</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">187.93</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0031"> <!-- NDBS01 P7-HPA blood Phe -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2466421"/>  <!-- onstr:whole blood Phe conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P7--HPA whole blood Phe</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">329.46</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0032"> <!-- NDBS01 P8-HPA blood Phe -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2466421"/>  <!-- onstr:whole blood Phe conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P8-HPA whole blood Phe</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">195.87</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+
+	
+	<!-- MSUD BLOOD Phe, P9-P12, 0033-0036 -->    <!-- normal blood Phe -->
+
+
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0033"> <!-- NDBS01 P9-MSUD blood Phe -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2466421"/>  <!-- onstr:whole blood Phe conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P9-MSUD whole blood Phe</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">100.01</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+   <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0034"> <!-- NDBS01 P10-MSUD blood Phe -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2466421"/>  <!-- onstr:whole blood Phe conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P10-MSUD whole blood Phe</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">110.27</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0035"> <!-- NDBS01 P11-MSUD blood Phe -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2466421"/>  <!-- onstr:whole blood Phe conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P11-MSUD whole blood Phe</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">158.20</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0036"> <!-- NDBS01 P12-MSUD blood Phe -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_2466421"/>  <!-- onstr:whole blood Phe conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P12-MSUD whole blood Phe</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">89.0</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- NORMAL BLOOD LEU, P1-P4, 0037-0040 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0037"> <!-- NDBS01 P1-normal blood Leu -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_7646124"/>  <!-- onstr:whole blood Leu conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal whole blood Leu</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">234.90</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0038"> <!-- NDBS01 P2-normal blood Leu -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_7646124"/>  <!-- onstr:whole blood Leu conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P2-normal whole blood Leu</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">308.90</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+
+
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0039"> <!-- NDBS01 P3-normal blood Leu -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_7646124"/>  <!-- onstr:whole blood Leu conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P3-normal whole blood Leu</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">189.76</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0040"> <!-- NDBS01 P4-normal blood Leu -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_7646124"/>  <!-- onstr:whole blood Leu conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P4-normal whole blood Leu</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">298.46</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+
+	
+     <!-- HPA BLOOD LEU, P5-P8, 0041-0044 -->  <!-- normal blood Leu -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0041"> <!-- NDBS01 P5-HPA blood Leu -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_7646124"/>  <!-- onstr:whole blood Leu conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P5-HPA whole blood Leu</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">234.90</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0042"> <!-- NDBS01 P6-HPA blood Leu -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_7646124"/>  <!-- onstr:whole blood Leu conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA whole blood Leu</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">308.90</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+
+
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0043"> <!-- NDBS01 P7-HPA blood Leu -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_7646124"/>  <!-- onstr:whole blood Leu conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P7-HPA whole blood Leu</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">189.76</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0044"> <!-- NDBS01 P8-HPA blood Leu -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_7646124"/>  <!-- onstr:whole blood Leu conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P8-HPA whole blood Leu</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">298.46</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- MSUD BLOOD Leu, P9-P12, 0045-0048 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0045"> <!-- NDBS01 P9-MSUD blood Leu -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_7646124"/>  <!-- onstr:whole blood Leu conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P9-MSUD whole blood Leu</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">378.40</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0046"> <!-- NDBS01 P9-MSUD blood Leu -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_7646124"/>  <!-- onstr:whole blood Leu conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P9-MSUD whole blood Leu</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">368.80</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0047"> <!-- NDBS01 P11-MSUD blood Leu -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_7646124"/>  <!-- onstr:whole blood Leu conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P11-MSUD whole blood Leu</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">489.40</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0048"> <!-- NDBS01 P12-MSUD blood Leu -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_7646124"/>  <!-- onstr:whole blood Leu conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P12-MSUD whole blood Leu</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">528.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<!-- NORMAL blood Val, P1-P4,  0049-0052 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0049"> <!-- NDBS01 P1-normal blood Val -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8300260"/>  <!-- onstr:whole blood val conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal whole blood Val</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">189.02</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+   <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0050"> <!-- NDBS01 P2-normal blood Val -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8300260"/>  <!-- onstr:whole blood val conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P2-normal whole blood Val</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">203.46</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+   <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0051"> <!-- NDBS01 P3-normal blood Val -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8300260"/>  <!-- onstr:whole blood val conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P3-normal whole blood Val</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">152.93</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0052"> <!-- NDBS01 P4-normal blood Val -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8300260"/>  <!-- onstr:whole blood val conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P4-normal whole blood Val</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">108.28</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+
+
+
+	<!-- HPA blood Val, P5-P8,  0053-0056 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0053"> <!-- NDBS01 P5-HPA blood Val -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8300260"/>  <!-- onstr:whole blood Val conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P5-HPA whole blood Val</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">189.02</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+   <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0054"> <!-- NDBS01 P6-HPA blood Val -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8300260"/>  <!-- onstr:whole blood Val conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA whole blood Val</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">203.46</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+   <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0055"> <!-- NDBS01 P7-HPA blood Val -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8300260"/>  <!-- onstr:whole blood Val conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P7-HPA whole blood Val</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">152.93</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0056"> <!-- NDBS01 P8-HPA blood Val -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8300260"/>  <!-- onstr:whole blood val conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P8-HPA whole blood val</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">108.28</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>	
+	
+	
+		<!-- MSUD blood Val, P9-P12,  0057-0060 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0057"> <!-- NDBS01 P9-MSUD blood Val -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8300260"/>  <!-- onstr:whole blood Val conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P9-MSUD whole blood Val</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">283.40</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0058"> <!-- NDBS01 P10-MSUD blood Val -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8300260"/>  <!-- onstr:whole blood Val conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P10-MSUD whole blood Val</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">309.90</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0059"> <!-- NDBS01 P11-MSUD blood Val -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8300260"/>  <!-- onstr:whole blood Val conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P11-MSUD whole blood Val</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">263.94</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+   <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0060"> <!-- NDBS01 P12-MSUD blood Val -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8300260"/>  <!-- onstr:whole blood Val conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P12-MSUD whole blood Val</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">409.30</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<!-- NORMAL blood Tyr P1-P4,  0061-0064 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0061"> <!-- NDBS01 P1-normal blood Tyr -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_1319796"/>  <!-- onstr:whole blood Tyr conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal whole blood Tyr</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">120.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0062"> <!-- NDBS01 P2-normal blood Tyr -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_1319796"/>  <!-- onstr:whole blood Tyr conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P2-normal whole blood Tyr</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">120.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0063"> <!-- NDBS01 P3-normal blood Tyr -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_1319796"/>  <!-- onstr:whole blood Tyr conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P3-normal whole blood Tyr</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">120.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0064"> <!-- NDBS01 P4-normal blood Tyr -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_1319796"/>  <!-- onstr:whole blood Tyr conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P4-normal whole blood Tyr</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">120.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<!-- HPA blood Tyr P5-P8,  0065-0068 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0065"> <!-- NDBS01 P1-normal blood Tyr -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_1319796"/>  <!-- onstr:whole blood Tyr conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal whole blood Tyr</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">120.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0066"> <!-- NDBS01 P5-HPA blood Tyr -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_1319796"/>  <!-- onstr:whole blood Tyr conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P5-HPA whole blood Tyr</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">120.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0067"> <!-- NDBS01 P6-HPA blood Tyr -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_1319796"/>  <!-- onstr:whole blood Tyr conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA whole blood Tyr</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">120.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0068"> <!-- NDBS01 P7-HPA blood Tyr -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_1319796"/>  <!-- onstr:whole blood Tyr conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P7-HPA whole blood Tyr</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">120.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<!-- MSUD blood Tyr P9-P12,  0069-0072 -->  <!-- normal blood Tyr -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0069"> <!-- NDBS01 P9-MSUD blood Tyr -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_1319796"/>  <!-- onstr:whole blood Tyr conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P9-MSUD whole blood Tyr</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">120.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0070"> <!-- NDBS01 P10-MSUD blood Tyr -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_1319796"/>  <!-- onstr:whole blood Tyr conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P10-MSUD whole blood Tyr</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">120.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0071"> <!-- NDBS01 P11-MSUD blood Tyr -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_1319796"/>  <!-- onstr:whole blood Tyr conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P11-MSUD whole blood Tyr</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">120.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0072"> <!-- NDBS01 P12-MSUD blood Tyr -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_1319796"/>  <!-- onstr:whole blood Tyr conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P12-MSUD whole blood Tyr</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">120.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- NORMAL blood Phe-to-Tyr ratio, P1-P4, 0073-0076 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0073"> <!-- NDBS01 P1-normal blood Phe-to-Tyr ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0263461"/>  <!-- onstr:blood Phe-to-Tyr ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal Phe-to-Tyr ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">1.23</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0074"> <!-- NDBS01 P2-normal blood Phe-to-Tyr ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0263461"/>  <!-- onstr:blood Phe-to-Tyr ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P2-normal Phe-to-Tyr ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">1.01</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0075"> <!-- NDBS01 P3-normal blood Phe-to-Tyr ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0263461"/>  <!-- onstr:blood Phe-to-Tyr ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P3-normal Phe-to-Tyr ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.98</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0076"> <!-- NDBS01 P4-normal blood Phe-to-Tyr ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0263461"/>  <!-- onstr:blood Phe-to-Tyr ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P4-normal Phe-to-Tyr ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.87</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<!-- HPA blood Phe-to-Tyr ratio, P5-P8, 0077-0080 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0077"> <!-- NDBS01 P5-HPA blood Phe-to-Tyr ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0263461"/>  <!-- onstr:blood Phe-to-Tyr ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P5-HPA Phe-to-Tyr ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">1.50</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0078"> <!-- NDBS01 P6-HPA blood Phe-to-Tyr ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0263461"/>  <!-- onstr:blood Phe-to-Tyr ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA Phe-to-Tyr ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">1.48</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0079"> <!-- NDBS01 P7-HPA blood Phe-to-Tyr ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0263461"/>  <!-- onstr:blood Phe-to-Tyr ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P7-HPA Phe-to-Tyr ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">2.34</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0080"> <!-- NDBS01 P8-HPA blood Phe-to-Tyr ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0263461"/>  <!-- onstr:blood Phe-to-Tyr ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P8-HPA Phe-to-Tyr ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">1.78</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	
+		<!-- MSUD blood Phe-to-Tyr ratio, P9-P12, 0081-0084 -->  <!-- normal Phe-to-Tyr ratio -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0081"> <!-- NDBS01 P9-MSUD blood Phe-to-Tyr ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0263461"/>  <!-- onstr:blood Phe-to-Tyr ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P9-MSUD Phe-to-Tyr ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">1.23</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0082"> <!-- NDBS01 P10-MSUD blood Phe-to-Tyr ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0263461"/>  <!-- onstr:blood Phe-to-Tyr ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P10-MSUD Phe-to-Tyr ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">1.01</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0083"> <!-- NDBS01 P11-MSUD blood Phe-to-Tyr ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0263461"/>  <!-- onstr:blood Phe-to-Tyr ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P11-MSUD Phe-to-Tyr ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.98</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0084"> <!-- NDBS01 P12-MSUD blood Phe-to-Tyr ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_0263461"/>  <!-- onstr:blood Phe-to-Tyr ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P12-MSUD Phe-to-Tyr ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.87</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- NORMAL blood Leu-to-Phe ratio, P1-P4, 0085-0088 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0085"> <!-- NDBS01 P1-normal blood Leu-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6398203"/>  <!-- onstr:blood Leu-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal Leu-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">3.01</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0086"> <!-- NDBS01 P2-normal blood Leu-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6398203"/>  <!-- onstr:blood Leu-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P2-normal Leu-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">2.80</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0087"> <!-- NDBS01 P3-normal blood Leu-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6398203"/>  <!-- onstr:blood Leu-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P3-normal Leu-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">1.76</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0088"> <!-- NDBS01 P4-normal blood Leu-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6398203"/>  <!-- onstr:blood Leu-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P4-normal Leu-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">2.73</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- HPA blood Leu-to-Phe ratio, P5-P8, 0089-0092 -->  <!-- normal Leu-to-Phe ratio -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0089"> <!-- NDBS01 P5-HPA blood Leu-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6398203"/>  <!-- onstr:blood Leu-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P5-HPA Leu-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">3.01</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0090"> <!-- NDBS01 P6-HPA blood Leu-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6398203"/>  <!-- onstr:blood Leu-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA Leu-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">2.80</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0091"> <!-- NDBS01 P7-HPA blood Leu-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6398203"/>  <!-- onstr:blood Leu-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P7-HPA Leu-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">1.76</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0092"> <!-- NDBS01 P8-HPA blood Leu-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6398203"/>  <!-- onstr:blood Leu-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P8-HPA Leu-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">2.73</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- MSDU blood Leu-to-Phe ratio, P9-P12, 0093-0096 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0093"> <!-- NDBS01 P9-MSUD blood Leu-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6398203"/>  <!-- onstr:blood Leu-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P9-MSUD Leu-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">5.80</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0094"> <!-- NDBS01 P10-MSUD blood Leu-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6398203"/>  <!-- onstr:blood Leu-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P10-MSUD Leu-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">4.90</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0095"> <!-- NDBS01 P11-MSUD blood Leu-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6398203"/>  <!-- onstr:blood Leu-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P11-MSUD Leu-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">7.29</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0096"> <!-- NDBS01 P12-MSUD blood Leu-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6398203"/>  <!-- onstr:blood Leu-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P12-MSUD Leu-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">6.70</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- NORMAL blood Meth-to-Phe ratio, P1-P4, 0097-0100 -->	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0097"> <!-- NDBS01 P1-normal blood Meth-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6949605"/>  <!-- onstr:blood Meth-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal Meth-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.50</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0098"> <!-- NDBS01 P2-normal blood Meth-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6949605"/>  <!-- onstr:blood Meth-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P2-normal Meth-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.50</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0099"> <!-- NDBS01 P3-normal blood Meth-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6949605"/>  <!-- onstr:blood Meth-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P3-normal Meth-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.50</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0101"> <!-- NDBS01 P4-normal blood Meth-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6949605"/>  <!-- onstr:blood Meth-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P4-normal Meth-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.50</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+		<!-- HPA blood Meth-to-Phe ratio, P5-P8, 0101-0104 -->	<!-- normal blood Meth-to-Phe -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0101"> <!-- NDBS01 P5-HPA blood Meth-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6949605"/>  <!-- onstr:blood Meth-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P5-HPA Meth-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.50</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0102"> <!-- NDBS01 P6-HPA blood Meth-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6949605"/>  <!-- onstr:blood Meth-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA Meth-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.50</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0103"> <!-- NDBS01 P7-HPA blood Meth-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6949605"/>  <!-- onstr:blood Meth-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P7-HPA Meth-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.50</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0104"> <!-- NDBS01 P8-HPA blood Meth-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6949605"/>  <!-- onstr:blood Meth-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P8-HPA Meth-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.50</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<!-- MSUD blood Meth-to-Phe ratio, P9-P12, 0105-0108 -->	<!-- normal blood Meth-to-Phe -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0105"> <!-- NDBS01 P9-MSUD blood Meth-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6949605"/>  <!-- onstr:blood Meth-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P9-MSUD Meth-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.50</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0106"> <!-- NDBS01 P6-HPA blood Meth-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6949605"/>  <!-- onstr:blood Meth-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P10-MSUD Meth-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.50</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0107"> <!-- NDBS01 P7-HPA blood Meth-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6949605"/>  <!-- onstr:blood Meth-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P11-MSUD Meth-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.50</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0108"> <!-- NDBS01 P8-HPA blood Meth-to-Phe ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6949605"/>  <!-- onstr:blood Meth-to-Phe ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P12-MSUD Meth-to-Phe ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.50</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- NORMAL blood Cit-to-Arg ratio, P1-P4, 0109-0112 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0109"> <!-- NDBS01 P1-normal blood Cit-to-Arg ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8963102"/>  <!-- onstr:blood Cit-to-Arg ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal Cit-to-Arg ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">5.0</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+		
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0110"> <!-- NDBS01 P2-normal blood Cit-to-Arg ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8963102"/>  <!-- onstr:blood Cit-to-Arg ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P2-normal Cit-to-Arg ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">5.0</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0111"> <!-- NDBS01 P3-normal blood Cit-to-Arg ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8963102"/>  <!-- onstr:blood Cit-to-Arg ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P3-normal Cit-to-Arg ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">5.0</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0112"> <!-- NDBS01 P4-normal blood Cit-to-Arg ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8963102"/>  <!-- onstr:blood Cit-to-Arg ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P4-normal Cit-to-Arg ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">5.0</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- HPA blood Cit-to-Arg ratio, P5-P8, 0113-0116 -->  <!-- normal blood Cit-to-Arg ratio -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0113"> <!-- NDBS01 P5-HPA blood Cit-to-Arg ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8963102"/>  <!-- onstr:blood Cit-to-Arg ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P5-HPA Cit-to-Arg ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">5.0</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+		
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0114"> <!-- NDBS01 P6-HPA blood Cit-to-Arg ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8963102"/>  <!-- onstr:blood Cit-to-Arg ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA Cit-to-Arg ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">5.0</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0115"> <!-- NDBS01 P7-HPA blood Cit-to-Arg ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8963102"/>  <!-- onstr:blood Cit-to-Arg ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P7-HPA Cit-to-Arg ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">5.0</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0116"> <!-- NDBS01 P8-HPA blood Cit-to-Arg ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8963102"/>  <!-- onstr:blood Cit-to-Arg ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P8-HPA Cit-to-Arg ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">5.0</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- MSUD blood Cit-to-Arg ratio, P9-P12, 0117-0120 -->  <!-- normal blood Cit-to-Arg ratio -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0117"> <!-- NDBS01 P9-MSUD blood Cit-to-Arg ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8963102"/>  <!-- onstr:blood Cit-to-Arg ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P9-MSUD Cit-to-Arg ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">5.0</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+		
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0118"> <!-- NDBS01 P10-MSUD blood Cit-to-Arg ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8963102"/>  <!-- onstr:blood Cit-to-Arg ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P10-MSUD Cit-to-Arg ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">5.0</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0119"> <!-- NDBS01 P11-MSUDA blood Cit-to-Arg ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8963102"/>  <!-- onstr:blood Cit-to-Arg ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P11-MSUD Cit-to-Arg ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">5.0</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0120"> <!-- NDBS01 P12-MSUD blood Cit-to-Arg ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8963102"/>  <!-- onstr:blood Cit-to-Arg ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P12-MSUD Cit-to-Arg ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">5.0</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	
+	
+	<!-- NORMAL blood C0 CARNItine P1-P4,  0121-0124 -->  
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0121"> <!-- NDBS01 P1-normal blood C0 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_3376147"/>  <!-- onstr:whole blood C0 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal whole blood C0</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0122"> <!-- NDBS01 P2-normal blood C0 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_3376147"/>  <!-- onstr:whole blood C0 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P2-normal whole blood C0</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0123"> <!-- NDBS01 P3-normal blood C0 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_3376147"/>  <!-- onstr:whole blood C0 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P3-normal whole blood C0</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0124"> <!-- NDBS01 P3-normal blood C0 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_3376147"/>  <!-- onstr:whole blood C0 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P4-normal whole blood C0</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<!-- HPA blood C0 CARNItine P5-P8,  0125-0128 -->  <!-- normal blood C0 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0125"> <!-- NDBS01 P5-HPA blood C0 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_3376147"/>  <!-- onstr:whole blood C0 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P5-HPA whole blood C0</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0126"> <!-- NDBS01 P6-HPA blood C0 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_3376147"/>  <!-- onstr:whole blood C0 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA whole blood C0</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0127"> <!-- NDBS01 P6-HPA blood C0 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_3376147"/>  <!-- onstr:whole blood C0 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA whole blood C0</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0128"> <!-- NDBS01 P7-HPA blood C0 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_3376147"/>  <!-- onstr:whole blood C0 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P7-HPA whole blood C0</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+		<!-- MSUD blood C0 CARNItine P9-P12,  0129-0131 -->  <!-- normal blood C0 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0129"> <!-- NDBS01 P9-MSUD blood C0 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_3376147"/>  <!-- onstr:whole blood C0 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P9-MSUD whole blood C0</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0130"> <!-- NDBS01 P10-MSUD blood C0 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_3376147"/>  <!-- onstr:whole blood C0 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P10-MSUD whole blood C0</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0131"> <!-- NDBS01 P11-MSUD blood C0 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_3376147"/>  <!-- onstr:whole blood C0 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P11-MSUD whole blood C0</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0132"> <!-- NDBS01 P12-MSUD blood C0 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_3376147"/>  <!-- onstr:whole blood C0 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P12-MSUD whole blood C0</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">8.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- NORMAL blood C2 acetyl-carnitine, P1-P4, 0133-0136 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0133"> <!-- NDBS01 P1-normal blood C2 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8323231"/>  <!-- onstr:whole blood C2 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal whole blood C2</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">10.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0134"> <!-- NDBS01 P2-normal blood C2 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8323231"/>  <!-- onstr:whole blood C2 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P2-normal whole blood C2</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">10.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0135"> <!-- NDBS01 P3-normal blood C2 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8323231"/>  <!-- onstr:whole blood C2 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P3-normal whole blood C2</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">10.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0136"> <!-- NDBS01 P4-normal blood C2 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8323231"/>  <!-- onstr:whole blood C2 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P4-normal whole blood C2</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">10.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<!-- HPA blood C2 acetyl-carnitine, P5-P8, 0137-0140 -->  <!-- normal blood C2 acetyl-carnitine -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0137"> <!-- NDBS01 P5-HPA blood C2 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8323231"/>  <!-- onstr:whole blood C2 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P5-HPA whole blood C2</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">10.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0138"> <!-- NDBS01 P6-HPA blood C2 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8323231"/>  <!-- onstr:whole blood C2 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA whole blood C2</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">10.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0139"> <!-- NDBS01 P7-HPA blood C2 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8323231"/>  <!-- onstr:whole blood C2 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P7-HPA whole blood C2</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">10.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0140"> <!-- NDBS01 P8-HPA blood C2 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8323231"/>  <!-- onstr:whole blood C2 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P8-HPA whole blood C2</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">10.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<!-- MSUD blood C2 acetyl-carnitine, P9-P12, 0141-0144 -->  <!-- normal blood C2 acetyl-carnitine -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0141"> <!-- NDBS01 P9-MSUD blood C2 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8323231"/>  <!-- onstr:whole blood C2 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P9-MSUD whole blood C2</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">10.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0142"> <!-- NDBS01 P10-MSUD blood C2 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8323231"/>  <!-- onstr:whole blood C2 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P10-MSUD whole blood C2</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">10.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0143"> <!-- NDBS01 P11-MSUD blood C2 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8323231"/>  <!-- onstr:whole blood C2 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P11-MSUD whole blood C2</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">10.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0144"> <!-- NDBS01 P12-MSUD blood C2 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_8323231"/>  <!-- onstr:whole blood C2 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P12-MSUD whole blood C2</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">10.00</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- NORMAL blood C8 Octanoyl-carnitine, P1-P4, 0145-0148 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0145"> <!-- NDBS01 P1-normal blood C8 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9102193"/>  <!-- onstr:whole blood C8 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal whole blood C8</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">0.20</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0146"> <!-- NDBS01 P2-normal blood C8 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9102193"/>  <!-- onstr:whole blood C8 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P2-normal whole blood C8</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">0.20</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0147"> <!-- NDBS01 P3-normal blood C8 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9102193"/>  <!-- onstr:whole blood C8 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P3-normal whole blood C8</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">0.20</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0148"> <!-- NDBS01 P4-normal blood C8 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9102193"/>  <!-- onstr:whole blood C8 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P4-normal whole blood C8</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">0.20</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<!-- HPA blood C8 Octanoyl-carnitine, P5-P8, 0149-0152 -->  <!-- normal blood C8 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0149"> <!-- NDBS01 P5-HPA blood C8 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9102193"/>  <!-- onstr:whole blood C8 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P5-HPA whole blood C8</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">0.20</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0150"> <!-- NDBS01 P6-HPA blood C8 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9102193"/>  <!-- onstr:whole blood C8 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA whole blood C8</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">0.20</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0151"> <!-- NDBS01 P7-HPA blood C8 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9102193"/>  <!-- onstr:whole blood C8 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P7-HPA whole blood C8</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">0.20</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0152"> <!-- NDBS01 P8-HPA blood C8 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9102193"/>  <!-- onstr:whole blood C8 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P8-HPA whole blood C8</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">0.20</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<!-- MSUD blood C8 Octanoyl-carnitine, P9-P12, 0153-0156 -->  <!-- normal blood C8 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0153"> <!-- NDBS01 P9-MSUD blood C8 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9102193"/>  <!-- onstr:whole blood C8 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P9-MSUD whole blood C8</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">0.20</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0154"> <!-- NDBS01 P10-MSUD blood C8 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9102193"/>  <!-- onstr:whole blood C8 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P10-MSUD whole blood C8</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">0.20</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0155"> <!-- NDBS01 P11-MSUD blood C8 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9102193"/>  <!-- onstr:whole blood C8 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P11-MSUD whole blood C8</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">0.20</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+    <owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0156"> <!-- NDBS01 P12-MSUD blood C8 -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_9102193"/>  <!-- onstr:whole blood C8 conentr  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P12-MSUD whole blood C8</rdfs:label>
+	    <obo:IAO_0000004 rdf:datatype="&xsd;float">0.20</obo:IAO_0000004>  <!-- iao:has measurement value -->
+	    <obo:IAO_0000039 rdf:resource="&obo;UO_0000063"/>  <!-- iao:has measurement unit label - micromolar -->   	           
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- NORMAL blood C8-to-C2 ratio, P1-P4, 0157-0160 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0157"> <!-- NDBS01 P1-normal blood C8-to-C2 ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6356535"/>  <!-- onstr:blood C8-to-C2 ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P1-normal C8-to-C2 ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.010</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0158"> <!-- NDBS01 P2-normal blood C8-to-C2 ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6356535"/>  <!-- onstr:blood C8-to-C2 ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P2-normal C8-to-C2 ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.010</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0159"> <!-- NDBS01 P3-normal blood C8-to-C2 ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6356535"/>  <!-- onstr:blood C8-to-C2 ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P3-normal C8-to-C2 ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.010</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0160"> <!-- NDBS01 P4-normal blood C8-to-C2 ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6356535"/>  <!-- onstr:blood C8-to-C2 ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P4-normal C8-to-C2 ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.010</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	
+		<!-- HPA blood C8-to-C2 ratio, P5-P8, 0161-0164 -->  <!-- normal blood C8-to-C2 -->
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0161"> <!-- NDBS01 P5-HPA blood C8-to-C2 ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6356535"/>  <!-- onstr:blood C8-to-C2 ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P5-HPA C8-to-C2 ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.010</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0162"> <!-- NDBS01 P6-HPA blood C8-to-C2 ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6356535"/>  <!-- onstr:blood C8-to-C2 ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P6-HPA C8-to-C2 ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.010</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0163"> <!-- NDBS01 P7-HPA blood C8-to-C2 ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6356535"/>  <!-- onstr:blood C8-to-C2 ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P7-HPA C8-to-C2 ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.010</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	<owl:NamedIndividual  rdf:about="&NDBS01;NDBS01_0164"> <!-- NDBS01 P8-HPA blood C8-to-C2 ratio -->
+		<rdf:type rdf:resource="&ONSTR;ONSTR_6356535"/>  <!-- onstr:blood C8-to-C2 ratio  -->
+		<rdfs:label rdf:datatype="&xsd;string">NDBS01 P8-HPA C8-to-C2 ratio</rdfs:label>
+	    <ONSTR:ONSTR_7334867 rdf:datatype="&xsd;float">0.010</ONSTR:ONSTR_7334867>  <!-- onstr:has numerical value -->
+	</owl:NamedIndividual>
+	
+	
+	
+	<!-- *************************************************************************************** -->
+	<!-- *************************************************************************************** -->	
+	<!-- *************************************************************************************** -->	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
+
+</rdf:RDF>
