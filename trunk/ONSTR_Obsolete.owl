@@ -1102,6 +1102,43 @@
 	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
      </owl:Class>    
         
+  
+ 
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsoltele.owl#ONSTRobsolete_7079966 -->  <!-- negative newborn screening test finding  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_7079966">
+        <rdfs:label rdf:datatype="&xsd;string">negative dried blood spot newborn screening finding</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatape="&xsd;string">Negative newborn dried blood spot screening test finding is a newborn dried blood spot screening finding that is during the newborn dried blood spot screening test analysis interpreted as negative based on the values of relevant measurements being above or below certain empirically determined cutoff level (blood chemical levels and certain ratios thereof, newborn weight at birth, gestational age and newborn nutritional intake datum) and  and that serves as an indicator of the likely absence of a screened inherited disease.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">negative NDBS</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">negative DBS</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">negative dried blood spot screen</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR_Obsolete.owl#ONSTRobsolete_1232943 -->  <!-- positive newborn dried blood spot screening finding  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTRobsolete_1232943">
+        <rdfs:label rdf:datatype="&xsd;string">positive newborn dried blood spot screening finding</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+        <skos:definition rdf:datatape="&xsd;string">Positive newborn dried blood spot screening finding is a newborn dried blood spot screening finding that is during the newborn dried blood spot screening test analysis interpreted as positive based on the values of relevant measurements being above or below certain empirically determined cutoff level (blood chemical levels and certain ratios thereof, newborn weight at birth, gestational age and newborn nutritional intake datum) and that serves as an indicator of the likely presence of a screened inherited disease.</skos:definition>
+        <skos:altLabel rdf:datatype="&xsd;string">positive DBS screen</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">positive NDBS screen</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">presumptive positive newborn dried blood spot screen</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">presumptive positive NDBS</skos:altLabel>
+        <skos:altLabel rdf:datatype="&xsd;string">presumptive positive DBS</skos:altLabel>
+        <rdfs:comment rdf:datatype="&xsd;string">Definition source: ONSTR curators.</rdfs:comment>    
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+     
+     
+      
+        
+        
         
         
   
