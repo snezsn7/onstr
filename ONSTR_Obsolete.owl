@@ -1136,7 +1136,32 @@
      </owl:Class>
      
      
-      
+  <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1197048 -->  <!-- positive newborn DBS finding for infants with body mass at birth greater than 2500 grams -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1197048">
+        <rdfs:label rdf:datatype="&xsd;string">positive newborn dried blood spot screening finding for infants with body mass at birth greater than 2500 grams</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+       
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF</skos:definition>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+    
+    
+    <!-- http://onstr.googlecode.com/svn/trunk/ONSTR.owl#ONSTR_1919847 -->  <!-- newborn DBS finding for infants with body mass at birth less than 2500 grams  -->
+
+    <owl:Class rdf:about="&ONSTR;ONSTR_1919847">
+        <rdfs:label rdf:datatype="&xsd;string">positive newborn dried blood spot screening finding for infants with body mass at birth less than 2500 grams</rdfs:label> 
+        <rdfs:subClassOf rdf:resource="&ONSTRobsolete;ONSTR_ObsoleteClass"/>
+
+        <skos:definition rdf:datatape="&xsd;string">ADD DEF</skos:definition>
+		<rdfs:comment rdf:datatype="&xsd;string">Definition source: ADD</rdfs:comment>
+        <skos:editorialNote rdf:datatype="&xsd;string">Curation status: Retired.</skos:editorialNote>
+	    <owl:deprecated rdf:datatype="&xsd;boolean">true</owl:deprecated>
+     </owl:Class>
+    
+        
         
         
         
